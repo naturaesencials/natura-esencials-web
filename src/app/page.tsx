@@ -1,10 +1,12 @@
-import { redirect } from 'next/navigation';
+import { permanentRedirect } from 'next/navigation';
 
 /**
- * Página raíz: si el middleware no captura el request por algún motivo
- * (cache, edge config, etc.), este page.tsx server-side redirige a la
- * combinación region+locale por defecto.
+ * Página raíz: redirige a /eu/es por defecto (lo que esperan los bots de SEO).
+ *
+ * Nota: el middleware intercepta antes que esto y hace detección geoIP/Accept-Language
+ * para usuarios reales (los lleva a la región+idioma adecuado). Este page.tsx solo se
+ * ejecuta como fallback si el middleware no se dispara.
  */
 export default function RootPage() {
-  redirect('/eu/es');
+  permanentRedirect('/eu/es');
 }
