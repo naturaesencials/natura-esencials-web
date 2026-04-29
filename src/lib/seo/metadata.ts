@@ -35,7 +35,9 @@ export function buildMetadata(config: PageSeoConfig): Metadata {
     noIndex = false, keywords, publishedTime, modifiedTime, author,
   } = config;
 
-  const fullTitle = title.includes(siteConfig.name) ? title : `${title} · ${siteConfig.name}`;
+  // El template "%s · Natura Esencials" del root layout añade automáticamente el sufijo.
+  // Solo pasamos el title puro aquí (sin nombre de marca) para evitar duplicación.
+  const cleanTitle = title.replace(new RegExp(`\\s*·\\s*${siteConfig.name}\\s*$`), '').trim();
   const truncatedDesc = description.length > 160
     ? description.slice(0, 157).replace(/\s+\S*$/, '') + '…'
     : description;
@@ -45,7 +47,7 @@ export function buildMetadata(config: PageSeoConfig): Metadata {
   const absoluteImage = image.startsWith('http') ? image : `${siteConfig.url}${image}`;
 
   return {
-    title: fullTitle,
+    title: cleanTitle,
     description: truncatedDesc,
     keywords: keywords?.join(', '),
     authors: [{ name: author || siteConfig.name, url: siteConfig.url }],
@@ -70,7 +72,7 @@ export function buildMetadata(config: PageSeoConfig): Metadata {
       locale: localeMap[locale].ogLocale,
       alternateLocale: Object.values(localeMap).filter((l) => l.ogLocale !== localeMap[locale].ogLocale).map((l) => l.ogLocale),
       url: canonical,
-      title: fullTitle,
+      title: `${cleanTitle} · ${siteConfig.name}`,
       description: truncatedDesc,
       siteName: siteConfig.name,
       images: [{ url: absoluteImage, width: 1200, height: 630, alt: imageAlt || title, type: 'image/jpeg' }],
@@ -80,7 +82,7 @@ export function buildMetadata(config: PageSeoConfig): Metadata {
 
     twitter: {
       card: 'summary_large_image',
-      title: fullTitle,
+      title: `${cleanTitle} · ${siteConfig.name}`,
       description: truncatedDesc,
       images: [absoluteImage],
       creator: '@naturaesencials',
