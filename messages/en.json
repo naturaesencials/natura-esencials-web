@@ -1,0 +1,174 @@
+{
+  "common": {
+    "search": "Search",
+    "account": "Account",
+    "bag": "Bag",
+    "addToBag": "Add to ritual",
+    "viewProduct": "View full details",
+    "from": "From",
+    "free": "Free",
+    "close": "Close",
+    "open": "Open",
+    "menu": "Menu",
+    "language": "Language",
+    "region": "Region",
+    "selectRegion": "Select region",
+    "currency": "Currency"
+  },
+  "header": {
+    "navCosmetica": "Skincare",
+    "navHogar": "Home",
+    "navMascota": "Pet",
+    "navOrigen": "Origin",
+    "navDiario": "Journal"
+  },
+  "thinBar": {
+    "shipping": "Free shipping from £60",
+    "returns": "30-day returns",
+    "samples": "Sample with every order"
+  },
+  "regionBanner": {
+    "showing": "Showing",
+    "in": "in",
+    "change": "Change",
+    "detected": "Detected automatically"
+  },
+  "regionModal": {
+    "title": "Select region and language",
+    "subtitle": "We'll show available products, prices and shipping for your selection.",
+    "europe": "Europe",
+    "uk": "United Kingdom",
+    "europeDesc": "Prices in euros · Shipping from Spain",
+    "ukDesc": "Prices in pounds · Shipping from United Kingdom",
+    "save": "Save and continue"
+  },
+  "hero": {
+    "stampDate": "Spring · 2026",
+    "stampOrigin": "Marbella · Andalusia",
+    "kicker": "Natural skincare and home care",
+    "titleLine1": "Caring for the",
+    "titleAccent1": "skin",
+    "titleLine2": "and the",
+    "titleAccent2": "home",
+    "titleLine3": "with the same hand.",
+    "lede": "Eleven rituals handcrafted in our Marbella workshop. Natural skincare and home soaps formulated with the same exacting standards — Andalusian botanical oils, ISO 16128 certified, recyclable packaging.",
+    "ledeEmphasis": "the same exacting standards",
+    "marksCosmetica": "Skincare",
+    "marksCosmeticaCount": "{count} rituals",
+    "marksCosmeticaDesc": "Body · hair · face",
+    "marksHogar": "Home",
+    "marksHogarCount": "{count} rituals",
+    "marksHogarDesc": "Kitchen · dishware · textile",
+    "ctaPrimary": "View collection",
+    "ctaSecondary": "Our origin",
+    "imgTagCosmetica": "Skincare",
+    "imgTagHogar": "Home"
+  },
+  "dualFeatured": {
+    "personalLine": "Skincare · house formulation",
+    "personalBadge": "Ritual 01 · Skincare",
+    "personalDesc": "Body wash with colloidal oatmeal, aloe and chamomile. The daily gesture for sensitive skin.",
+    "personalDescEmphasis": "daily gesture",
+    "hogarLine": "Home · multi-surface",
+    "hogarBadge": "Ritual 06 · Home",
+    "hogarDesc": "Natural cleaner with Málaga lemon and thyme. No harsh sulphates, with the same care as your skin.",
+    "hogarDescEmphasis": "No harsh sulphates"
+  },
+  "lineCosmetica": {
+    "tag": "Main line · 5 rituals",
+    "title1": "The",
+    "titleAccent": "skincare.",
+    "intro": "Our founding line. Five rituals for body, hair and face — formulated since 2019 under ISO 16128 protocol and dermatologically tested. Botanical materials from southern Europe, patient formulation.",
+    "introEmphasis": "Botanical materials from southern Europe, patient formulation."
+  },
+  "botanica": {
+    "kicker": "Same matter, two destinations",
+    "title1": "The same lavender that scents",
+    "titleAccent1": "your skin",
+    "title2": ", scents the",
+    "titleAccent2": "clothes you wear.",
+    "body": "We don't separate what cares for the skin from what cares for the home. Our essential oils, extracts and plant surfactants are identical in both lines — only the formulation changes. One workshop, one standard.",
+    "bodyEmphasis": "One workshop, one standard."
+  },
+  "lineHogar": {
+    "tag": "Main line · 4 rituals",
+    "title1": "The",
+    "titleAccent": "home.",
+    "intro": "Natural soaps and cleaners for the surfaces we touch every day. With the same exacting standards we apply to skin: no harsh sulphates, no synthetic fragrances, no toxic residues for whoever cooks with you.",
+    "introEmphasis": "With the same exacting standards we apply to skin"
+  },
+  "origen": {
+    "kicker": "Origin · Andalusia",
+    "title1": "From the",
+    "titleAccent1": "field",
+    "title2": "to the bottle.",
+    "body": "Cooperatives in Málaga, Granada, Jaén and Córdoba. Olive oil, lavender, chamomile, rosemary — all just hours from the workshop. Proximity is also an ingredient.",
+    "bodyEmphasis": "all just hours from the workshop.",
+    "cta": "Discover our cooperatives",
+    "coordTitle": "Workshop",
+    "coordValue": "36°30′N · 4°53′W"
+  },
+  "lineMascota": {
+    "tag": "Complementary line · 2 rituals",
+    "title1": "And for",
+    "titleAccent": "them.",
+    "intro": "Because those who keep us company also deserve a thoughtful formula. Two specific rituals — one canine, one feline — with calming actives, no harsh soaps, no toxic residues if they lick their coat after bathing.",
+    "introEmphasis": "calming actives"
+  },
+  "strip": {
+    "shipping": "Free shipping",
+    "shippingDesc": "from £60",
+    "returns": "Returns",
+    "returnsDesc": "within 30 days",
+    "samples": "Sample",
+    "samplesDesc": "with every order",
+    "iso": "ISO 16128",
+    "isoDesc": "certified"
+  },
+  "edicion": {
+    "kicker": "Seasonal edition",
+    "title1": "Spring",
+    "titleAccent": "2026.",
+    "metaCount": "Four featured rituals",
+    "metaDate": "until 30 April",
+    "discount": "Off"
+  },
+  "newsletter": {
+    "kicker": "Correspondence",
+    "title1": "Two letters per month.",
+    "title2": "One new formula.",
+    "titleAccent": "Nothing more.",
+    "sub": "Be first to know about limited editions and receive 10% off your first order.",
+    "placeholder": "your email address",
+    "submit": "Subscribe",
+    "success": "Subscribed. Your first letter is on its way.",
+    "error": "Could not subscribe. Please try again.",
+    "invalidEmail": "Please enter a valid email"
+  },
+  "popup": {
+    "kicker": "First time here",
+    "title": "10% off your first ritual.",
+    "titleAccent": "first ritual.",
+    "body": "Join the correspondence and receive a courtesy code with our first seasonal letter.",
+    "submit": "Receive"
+  },
+  "footer": {
+    "brandDesc": "Natural skincare and home care, handcrafted in Marbella. Andalusia, Spain.",
+    "colCosmetica": "Skincare",
+    "colHogar": "Home",
+    "colMascota": "Pet",
+    "colCasa": "House",
+    "linkOrigen": "Origin",
+    "linkDiario": "Journal",
+    "linkContacto": "Contact",
+    "linkPedidos": "Orders",
+    "linkPrivacidad": "Privacy",
+    "linkTerminos": "Terms",
+    "linkCookies": "Cookies"
+  },
+  "metadata": {
+    "homeTitle": "Natural skincare and home care",
+    "homeDescription": "Eleven natural rituals handcrafted in Marbella. Skincare and home cleaners with ISO 16128 certification, Andalusian botanicals and recyclable packaging.",
+    "homeKeywords": "natural skincare, artisan skincare, home care, natural soap, Marbella, Andalusia, ISO 16128, natural body wash"
+  }
+}

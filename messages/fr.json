@@ -1,0 +1,174 @@
+{
+  "common": {
+    "search": "Rechercher",
+    "account": "Compte",
+    "bag": "Panier",
+    "addToBag": "Ajouter au rituel",
+    "viewProduct": "Voir la fiche complète",
+    "from": "À partir de",
+    "free": "Gratuit",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "menu": "Menu",
+    "language": "Langue",
+    "region": "Région",
+    "selectRegion": "Sélectionner la région",
+    "currency": "Devise"
+  },
+  "header": {
+    "navCosmetica": "Cosmétiques",
+    "navHogar": "Maison",
+    "navMascota": "Animaux",
+    "navOrigen": "Origine",
+    "navDiario": "Journal"
+  },
+  "thinBar": {
+    "shipping": "Livraison gratuite dès 60 €",
+    "returns": "Retour 30 jours",
+    "samples": "Échantillon avec chaque commande"
+  },
+  "regionBanner": {
+    "showing": "Affichage de la boutique",
+    "in": "en",
+    "change": "Changer",
+    "detected": "Détecté automatiquement"
+  },
+  "regionModal": {
+    "title": "Sélectionnez la région et la langue",
+    "subtitle": "Nous vous montrerons les produits disponibles, les prix et la livraison correspondants.",
+    "europe": "Europe",
+    "uk": "Royaume-Uni",
+    "europeDesc": "Prix en euros · Expédition depuis l'Espagne",
+    "ukDesc": "Prix en livres · Expédition depuis le Royaume-Uni",
+    "save": "Enregistrer et continuer"
+  },
+  "hero": {
+    "stampDate": "Printemps · 2026",
+    "stampOrigin": "Marbella · Andalousie",
+    "kicker": "Cosmétique naturelle et entretien de la maison",
+    "titleLine1": "Prendre soin de la",
+    "titleAccent1": "peau",
+    "titleLine2": "et de la",
+    "titleAccent2": "maison",
+    "titleLine3": "avec la même main.",
+    "lede": "Onze rituels formulés à la main dans notre atelier de Marbella. Cosmétique naturelle et savons pour la maison élaborés avec la même exigence — huiles végétales andalouses, certification ISO 16128, emballage recyclable.",
+    "ledeEmphasis": "la même exigence",
+    "marksCosmetica": "Cosmétique",
+    "marksCosmeticaCount": "{count} rituels",
+    "marksCosmeticaDesc": "Corps · cheveux · visage",
+    "marksHogar": "Maison",
+    "marksHogarCount": "{count} rituels",
+    "marksHogarDesc": "Cuisine · vaisselle · textile",
+    "ctaPrimary": "Voir la collection",
+    "ctaSecondary": "Notre origine",
+    "imgTagCosmetica": "Cosmétique",
+    "imgTagHogar": "Maison"
+  },
+  "dualFeatured": {
+    "personalLine": "Cosmétique · formulation maison",
+    "personalBadge": "Rituel 01 · Cosmétique",
+    "personalDesc": "Gel corporel à l'avoine colloïdale, aloès et camomille. Le geste quotidien pour peaux sensibles.",
+    "personalDescEmphasis": "geste quotidien",
+    "hogarLine": "Maison · multi-surfaces",
+    "hogarBadge": "Rituel 06 · Maison",
+    "hogarDesc": "Nettoyant naturel au citron de Málaga et thym. Sans sulfates agressifs, avec le même soin que la peau.",
+    "hogarDescEmphasis": "Sans sulfates agressifs"
+  },
+  "lineCosmetica": {
+    "tag": "Ligne principale · 5 rituels",
+    "title1": "La",
+    "titleAccent": "cosmétique.",
+    "intro": "Notre ligne fondatrice. Cinq rituels pour le corps, les cheveux et le visage — formulés depuis 2019 selon le protocole ISO 16128 et testés dermatologiquement. Matières végétales du sud de l'Europe, formulation patiente.",
+    "introEmphasis": "Matières végétales du sud de l'Europe, formulation patiente."
+  },
+  "botanica": {
+    "kicker": "Même matière, deux destinations",
+    "title1": "La même lavande qui parfume",
+    "titleAccent1": "votre peau",
+    "title2": ", parfume les",
+    "titleAccent2": "vêtements que vous portez.",
+    "body": "Nous ne séparons pas ce qui prend soin de la peau de ce qui prend soin de la maison. Nos huiles essentielles, extraits et tensioactifs végétaux sont identiques dans les deux lignes — seule la formulation change. Un même atelier, une même exigence.",
+    "bodyEmphasis": "Un même atelier, une même exigence."
+  },
+  "lineHogar": {
+    "tag": "Ligne principale · 4 rituels",
+    "title1": "La",
+    "titleAccent": "maison.",
+    "intro": "Savons et nettoyants naturels pour les surfaces que nous touchons chaque jour. Avec la même exigence que nous appliquons à la peau : sans sulfates agressifs, sans parfums synthétiques, sans toxiques pour qui cuisine avec vous.",
+    "introEmphasis": "Avec la même exigence que nous appliquons à la peau"
+  },
+  "origen": {
+    "kicker": "Origine · Andalousie",
+    "title1": "Du",
+    "titleAccent1": "champ",
+    "title2": "au flacon.",
+    "body": "Coopératives de Málaga, Grenade, Jaén et Cordoue. Huile d'olive, lavande, camomille, romarin — tout à quelques heures de l'atelier. La proximité est aussi un ingrédient.",
+    "bodyEmphasis": "tout à quelques heures de l'atelier.",
+    "cta": "Découvrir nos coopératives",
+    "coordTitle": "Atelier",
+    "coordValue": "36°30′N · 4°53′O"
+  },
+  "lineMascota": {
+    "tag": "Ligne complémentaire · 2 rituels",
+    "title1": "Et pour",
+    "titleAccent": "eux.",
+    "intro": "Parce que ceux qui nous accompagnent méritent aussi une formule pensée. Deux rituels spécifiques — un canin, un félin — avec des actifs apaisants, sans savons agressifs, sans toxiques s'ils lèchent leur pelage après le bain.",
+    "introEmphasis": "actifs apaisants"
+  },
+  "strip": {
+    "shipping": "Livraison gratuite",
+    "shippingDesc": "dès 60 €",
+    "returns": "Retour",
+    "returnsDesc": "sous 30 jours",
+    "samples": "Échantillon",
+    "samplesDesc": "à chaque commande",
+    "iso": "ISO 16128",
+    "isoDesc": "certifié"
+  },
+  "edicion": {
+    "kicker": "Édition de saison",
+    "title1": "Printemps",
+    "titleAccent": "2026.",
+    "metaCount": "Quatre rituels à l'affiche",
+    "metaDate": "jusqu'au 30 avril",
+    "discount": "Réduction"
+  },
+  "newsletter": {
+    "kicker": "Correspondance",
+    "title1": "Deux lettres par mois.",
+    "title2": "Une nouvelle formule.",
+    "titleAccent": "Rien de plus.",
+    "sub": "Recevez en avant-première les éditions limitées et 10 % de réduction sur votre première commande.",
+    "placeholder": "votre adresse e-mail",
+    "submit": "S'abonner",
+    "success": "Abonné. Votre première lettre est en route.",
+    "error": "Impossible de s'abonner. Réessayez.",
+    "invalidEmail": "Veuillez entrer un e-mail valide"
+  },
+  "popup": {
+    "kicker": "Première visite",
+    "title": "10 % sur votre premier rituel.",
+    "titleAccent": "premier rituel.",
+    "body": "Rejoignez la correspondance et recevez un code de courtoisie avec la première lettre de saison.",
+    "submit": "Recevoir"
+  },
+  "footer": {
+    "brandDesc": "Cosmétique naturelle et entretien de la maison, fabriqués à Marbella. Andalousie, Espagne.",
+    "colCosmetica": "Cosmétique",
+    "colHogar": "Maison",
+    "colMascota": "Animaux",
+    "colCasa": "Maison",
+    "linkOrigen": "Origine",
+    "linkDiario": "Journal",
+    "linkContacto": "Contact",
+    "linkPedidos": "Commandes",
+    "linkPrivacidad": "Confidentialité",
+    "linkTerminos": "Conditions",
+    "linkCookies": "Cookies"
+  },
+  "metadata": {
+    "homeTitle": "Cosmétique naturelle et entretien de la maison",
+    "homeDescription": "Onze rituels naturels formulés à la main à Marbella. Cosmétique et nettoyants ménagers avec certification ISO 16128, matières végétales andalouses et emballage recyclable.",
+    "homeKeywords": "cosmétique naturelle, cosmétique artisanale, entretien maison, savon naturel, Marbella, Andalousie, ISO 16128, gel douche naturel"
+  }
+}

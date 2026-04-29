@@ -1,0 +1,174 @@
+{
+  "common": {
+    "search": "Buscar",
+    "account": "Cuenta",
+    "bag": "Bolsa",
+    "addToBag": "Añadir al ritual",
+    "viewProduct": "Ver ficha completa",
+    "from": "Desde",
+    "free": "Gratuito",
+    "close": "Cerrar",
+    "open": "Abrir",
+    "menu": "Menú",
+    "language": "Idioma",
+    "region": "Región",
+    "selectRegion": "Seleccionar región",
+    "currency": "Moneda"
+  },
+  "header": {
+    "navCosmetica": "Cosmética",
+    "navHogar": "Hogar",
+    "navMascota": "Mascota",
+    "navOrigen": "Origen",
+    "navDiario": "Diario"
+  },
+  "thinBar": {
+    "shipping": "Envío gratuito desde 60 €",
+    "returns": "Devolución 30 días",
+    "samples": "Muestra en cada pedido"
+  },
+  "regionBanner": {
+    "showing": "Mostrando tienda",
+    "in": "en",
+    "change": "Cambiar",
+    "detected": "Detectado automáticamente"
+  },
+  "regionModal": {
+    "title": "Selecciona región e idioma",
+    "subtitle": "Te mostraremos los productos disponibles, los precios y el envío correspondientes.",
+    "europe": "Europa",
+    "uk": "Reino Unido",
+    "europeDesc": "Precios en euros · Envío desde España",
+    "ukDesc": "Precios en libras · Envío desde Reino Unido",
+    "save": "Guardar y continuar"
+  },
+  "hero": {
+    "stampDate": "Primavera · 2026",
+    "stampOrigin": "Marbella · Andalucía",
+    "kicker": "Cosmética natural y cuidado del hogar",
+    "titleLine1": "Cuidar la",
+    "titleAccent1": "piel",
+    "titleLine2": "y la",
+    "titleAccent2": "casa",
+    "titleLine3": "con la misma mano.",
+    "lede": "Once rituales formulados a mano en nuestro taller de Marbella. Cosmética natural y jabones para el hogar elaborados con la misma exigencia — aceites vegetales andaluces, certificación ISO 16128, envase reciclable.",
+    "ledeEmphasis": "la misma exigencia",
+    "marksCosmetica": "Cosmética",
+    "marksCosmeticaCount": "{count} rituales",
+    "marksCosmeticaDesc": "Cuerpo · cabello · rostro",
+    "marksHogar": "Hogar",
+    "marksHogarCount": "{count} rituales",
+    "marksHogarDesc": "Cocina · vajilla · textil",
+    "ctaPrimary": "Ver la colección",
+    "ctaSecondary": "Nuestro origen",
+    "imgTagCosmetica": "Cosmética",
+    "imgTagHogar": "Hogar"
+  },
+  "dualFeatured": {
+    "personalLine": "Cosmética · formulación de la casa",
+    "personalBadge": "Ritual 01 · Cosmética",
+    "personalDesc": "Gel corporal con avena coloidal, aloe y manzanilla. El gesto diario de la piel sensible.",
+    "personalDescEmphasis": "gesto diario",
+    "hogarLine": "Hogar · multi-superficie",
+    "hogarBadge": "Ritual 06 · Hogar",
+    "hogarDesc": "Limpiador natural con limón de Málaga y tomillo. Sin sulfatos agresivos, con el mismo cuidado que la piel.",
+    "hogarDescEmphasis": "Sin sulfatos agresivos"
+  },
+  "lineCosmetica": {
+    "tag": "Línea principal · 5 rituales",
+    "title1": "La",
+    "titleAccent": "cosmética.",
+    "intro": "Nuestra línea fundacional. Cinco rituales para cuerpo, cabello y rostro — formulados desde 2019 bajo protocolo ISO 16128 y dermatológicamente testados. Materia vegetal del sur de Europa, formulación paciente.",
+    "introEmphasis": "Materia vegetal del sur de Europa, formulación paciente."
+  },
+  "botanica": {
+    "kicker": "Misma materia, dos destinos",
+    "title1": "La misma lavanda que perfuma",
+    "titleAccent1": "tu piel",
+    "title2": ", perfuma la",
+    "titleAccent2": "ropa que vistes.",
+    "body": "No separamos lo que cuida la piel de lo que cuida la casa. Nuestros aceites esenciales, extractos y tensioactivos vegetales son idénticos en ambas líneas — solo cambia la formulación. Un mismo taller, una misma exigencia.",
+    "bodyEmphasis": "Un mismo taller, una misma exigencia."
+  },
+  "lineHogar": {
+    "tag": "Línea principal · 4 rituales",
+    "title1": "El",
+    "titleAccent": "hogar.",
+    "intro": "Jabones y limpiadores naturales para las superficies que tocamos a diario. Con la misma exigencia que aplicamos a la piel: sin sulfatos agresivos, sin aromas sintéticos, sin tóxicos para quien cocina contigo.",
+    "introEmphasis": "Con la misma exigencia que aplicamos a la piel"
+  },
+  "origen": {
+    "kicker": "Origen · Andalucía",
+    "title1": "Del",
+    "titleAccent1": "campo",
+    "title2": "al frasco.",
+    "body": "Cooperativas de Málaga, Granada, Jaén y Córdoba. Aceite de oliva, lavanda, manzanilla, romero — todo a pocas horas del taller. La cercanía también es un ingrediente.",
+    "bodyEmphasis": "todo a pocas horas del taller.",
+    "cta": "Conocer nuestras cooperativas",
+    "coordTitle": "Taller",
+    "coordValue": "36°30′N · 4°53′O"
+  },
+  "lineMascota": {
+    "tag": "Línea complementaria · 2 rituales",
+    "title1": "Y para",
+    "titleAccent": "ellos.",
+    "intro": "Porque los que nos acompañan también merecen una fórmula pensada. Dos rituales específicos — uno canino, uno felino — con activos calmantes, sin jabones agresivos, sin tóxicos si lamen su pelaje después del baño.",
+    "introEmphasis": "activos calmantes"
+  },
+  "strip": {
+    "shipping": "Envío gratuito",
+    "shippingDesc": "desde 60 €",
+    "returns": "Devolución",
+    "returnsDesc": "en 30 días",
+    "samples": "Muestra",
+    "samplesDesc": "en cada pedido",
+    "iso": "ISO 16128",
+    "isoDesc": "certificado"
+  },
+  "edicion": {
+    "kicker": "Edición de temporada",
+    "title1": "Primavera",
+    "titleAccent": "2026.",
+    "metaCount": "Cuatro rituales en cartel",
+    "metaDate": "hasta el 30 de abril",
+    "discount": "Descuento"
+  },
+  "newsletter": {
+    "kicker": "Correspondencia",
+    "title1": "Dos cartas al mes.",
+    "title2": "Una nueva fórmula.",
+    "titleAccent": "Nada más.",
+    "sub": "Recibe primero las ediciones limitadas y un 10 % de cortesía en tu primer pedido.",
+    "placeholder": "tu correo electrónico",
+    "submit": "Suscribir",
+    "success": "Suscrito. Pronto recibirás tu primera carta.",
+    "error": "No se ha podido suscribir. Inténtalo de nuevo.",
+    "invalidEmail": "Introduce un correo válido"
+  },
+  "popup": {
+    "kicker": "Primera vez aquí",
+    "title": "10 % en tu primer ritual.",
+    "titleAccent": "primer ritual.",
+    "body": "Únete a la correspondencia y recibe un código de cortesía con la primera carta de temporada.",
+    "submit": "Recibir"
+  },
+  "footer": {
+    "brandDesc": "Cosmética natural y cuidado del hogar, elaborados en Marbella. Andalucía, España.",
+    "colCosmetica": "Cosmética",
+    "colHogar": "Hogar",
+    "colMascota": "Mascota",
+    "colCasa": "Casa",
+    "linkOrigen": "Origen",
+    "linkDiario": "Diario",
+    "linkContacto": "Contacto",
+    "linkPedidos": "Pedidos",
+    "linkPrivacidad": "Privacidad",
+    "linkTerminos": "Términos",
+    "linkCookies": "Cookies"
+  },
+  "metadata": {
+    "homeTitle": "Cosmética natural y cuidado del hogar",
+    "homeDescription": "Once rituales naturales formulados a mano en Marbella. Cosmética y limpiadores del hogar con certificación ISO 16128, materia vegetal andaluza y envase reciclable.",
+    "homeKeywords": "cosmética natural, cosmética artesanal, cuidado del hogar, jabón natural, Marbella, Andalucía, ISO 16128, gel corporal natural"
+  }
+}

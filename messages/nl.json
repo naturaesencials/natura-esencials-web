@@ -1,0 +1,174 @@
+{
+  "common": {
+    "search": "Zoeken",
+    "account": "Account",
+    "bag": "Tas",
+    "addToBag": "Aan ritueel toevoegen",
+    "viewProduct": "Volledige details",
+    "from": "Vanaf",
+    "free": "Gratis",
+    "close": "Sluiten",
+    "open": "Openen",
+    "menu": "Menu",
+    "language": "Taal",
+    "region": "Regio",
+    "selectRegion": "Regio selecteren",
+    "currency": "Valuta"
+  },
+  "header": {
+    "navCosmetica": "Huidverzorging",
+    "navHogar": "Huis",
+    "navMascota": "Huisdier",
+    "navOrigen": "Herkomst",
+    "navDiario": "Dagboek"
+  },
+  "thinBar": {
+    "shipping": "Gratis verzending vanaf € 60",
+    "returns": "30 dagen retour",
+    "samples": "Sample bij elke bestelling"
+  },
+  "regionBanner": {
+    "showing": "Winkel weergeven",
+    "in": "in",
+    "change": "Wijzigen",
+    "detected": "Automatisch gedetecteerd"
+  },
+  "regionModal": {
+    "title": "Selecteer regio en taal",
+    "subtitle": "We tonen de beschikbare producten, prijzen en bijbehorende verzending.",
+    "europe": "Europa",
+    "uk": "Verenigd Koninkrijk",
+    "europeDesc": "Prijzen in euro's · Verzending vanuit Spanje",
+    "ukDesc": "Prijzen in ponden · Verzending vanuit het VK",
+    "save": "Opslaan en doorgaan"
+  },
+  "hero": {
+    "stampDate": "Lente · 2026",
+    "stampOrigin": "Marbella · Andalusië",
+    "kicker": "Natuurlijke huidverzorging en huisverzorging",
+    "titleLine1": "De",
+    "titleAccent1": "huid",
+    "titleLine2": "en het",
+    "titleAccent2": "huis",
+    "titleLine3": "met dezelfde hand verzorgen.",
+    "lede": "Elf met de hand geformuleerde rituelen in ons atelier in Marbella. Natuurlijke cosmetica en huishoudzepen, vervaardigd met dezelfde zorg — Andalusische plantaardige oliën, ISO 16128-gecertificeerd, recyclebare verpakking.",
+    "ledeEmphasis": "dezelfde zorg",
+    "marksCosmetica": "Huidverzorging",
+    "marksCosmeticaCount": "{count} rituelen",
+    "marksCosmeticaDesc": "Lichaam · haar · gezicht",
+    "marksHogar": "Huis",
+    "marksHogarCount": "{count} rituelen",
+    "marksHogarDesc": "Keuken · servies · textiel",
+    "ctaPrimary": "Collectie bekijken",
+    "ctaSecondary": "Onze herkomst",
+    "imgTagCosmetica": "Huidverzorging",
+    "imgTagHogar": "Huis"
+  },
+  "dualFeatured": {
+    "personalLine": "Huidverzorging · huisformulering",
+    "personalBadge": "Ritueel 01 · Huidverzorging",
+    "personalDesc": "Douchegel met colloïdale haver, aloë en kamille. Het dagelijkse gebaar voor de gevoelige huid.",
+    "personalDescEmphasis": "dagelijkse gebaar",
+    "hogarLine": "Huis · multi-oppervlakte",
+    "hogarBadge": "Ritueel 06 · Huis",
+    "hogarDesc": "Natuurlijke reiniger met citroen uit Málaga en tijm. Zonder agressieve sulfaten, met dezelfde zorg als voor de huid.",
+    "hogarDescEmphasis": "Zonder agressieve sulfaten"
+  },
+  "lineCosmetica": {
+    "tag": "Hoofdlijn · 5 rituelen",
+    "title1": "De",
+    "titleAccent": "huidverzorging.",
+    "intro": "Onze grondleggende lijn. Vijf rituelen voor lichaam, haar en gezicht — sinds 2019 geformuleerd volgens ISO 16128-protocol en dermatologisch getest. Plantaardige materie uit Zuid-Europa, geduldige formulering.",
+    "introEmphasis": "Plantaardige materie uit Zuid-Europa, geduldige formulering."
+  },
+  "botanica": {
+    "kicker": "Dezelfde materie, twee bestemmingen",
+    "title1": "Dezelfde lavendel die",
+    "titleAccent1": "jouw huid",
+    "title2": "parfumeert, parfumeert de",
+    "titleAccent2": "kleding die je draagt.",
+    "body": "We scheiden niet wat de huid verzorgt van wat het huis verzorgt. Onze etherische oliën, extracten en plantaardige surfactanten zijn in beide lijnen identiek — alleen de formulering verschilt. Eén atelier, één zorg.",
+    "bodyEmphasis": "Eén atelier, één zorg."
+  },
+  "lineHogar": {
+    "tag": "Hoofdlijn · 4 rituelen",
+    "title1": "Het",
+    "titleAccent": "huis.",
+    "intro": "Natuurlijke zepen en reinigers voor de oppervlakken die we dagelijks aanraken. Met dezelfde zorg die we aan de huid besteden: zonder agressieve sulfaten, zonder synthetische geuren, zonder gifstoffen voor wie met je kookt.",
+    "introEmphasis": "Met dezelfde zorg die we aan de huid besteden"
+  },
+  "origen": {
+    "kicker": "Herkomst · Andalusië",
+    "title1": "Van het",
+    "titleAccent1": "veld",
+    "title2": "naar de fles.",
+    "body": "Coöperaties in Málaga, Granada, Jaén en Córdoba. Olijfolie, lavendel, kamille, rozemarijn — alles op enkele uren afstand van het atelier. Nabijheid is ook een ingrediënt.",
+    "bodyEmphasis": "alles op enkele uren afstand van het atelier.",
+    "cta": "Onze coöperaties ontdekken",
+    "coordTitle": "Atelier",
+    "coordValue": "36°30′N · 4°53′W"
+  },
+  "lineMascota": {
+    "tag": "Aanvullende lijn · 2 rituelen",
+    "title1": "En voor",
+    "titleAccent": "hen.",
+    "intro": "Omdat ook zij die ons vergezellen een doordachte formule verdienen. Twee specifieke rituelen — een voor honden, een voor katten — met kalmerende werkstoffen, zonder agressieve zepen, zonder gifstoffen als ze hun vacht likken na het wassen.",
+    "introEmphasis": "kalmerende werkstoffen"
+  },
+  "strip": {
+    "shipping": "Gratis verzending",
+    "shippingDesc": "vanaf € 60",
+    "returns": "Retour",
+    "returnsDesc": "binnen 30 dagen",
+    "samples": "Sample",
+    "samplesDesc": "bij elke bestelling",
+    "iso": "ISO 16128",
+    "isoDesc": "gecertificeerd"
+  },
+  "edicion": {
+    "kicker": "Seizoenseditie",
+    "title1": "Lente",
+    "titleAccent": "2026.",
+    "metaCount": "Vier rituelen in de etalage",
+    "metaDate": "tot 30 april",
+    "discount": "Korting"
+  },
+  "newsletter": {
+    "kicker": "Correspondentie",
+    "title1": "Twee brieven per maand.",
+    "title2": "Eén nieuwe formule.",
+    "titleAccent": "Niets meer.",
+    "sub": "Ontvang als eerste limited editions en 10 % korting op je eerste bestelling.",
+    "placeholder": "jouw e-mailadres",
+    "submit": "Inschrijven",
+    "success": "Ingeschreven. Je eerste brief komt eraan.",
+    "error": "Inschrijving mislukt. Probeer opnieuw.",
+    "invalidEmail": "Voer een geldig e-mailadres in"
+  },
+  "popup": {
+    "kicker": "Eerste keer hier",
+    "title": "10 % op je eerste ritueel.",
+    "titleAccent": "eerste ritueel.",
+    "body": "Sluit je aan bij de correspondentie en ontvang een code samen met de eerste seizoensbrief.",
+    "submit": "Ontvangen"
+  },
+  "footer": {
+    "brandDesc": "Natuurlijke huidverzorging en huisverzorging, gemaakt in Marbella. Andalusië, Spanje.",
+    "colCosmetica": "Huidverzorging",
+    "colHogar": "Huis",
+    "colMascota": "Huisdier",
+    "colCasa": "Huis",
+    "linkOrigen": "Herkomst",
+    "linkDiario": "Dagboek",
+    "linkContacto": "Contact",
+    "linkPedidos": "Bestellingen",
+    "linkPrivacidad": "Privacy",
+    "linkTerminos": "Voorwaarden",
+    "linkCookies": "Cookies"
+  },
+  "metadata": {
+    "homeTitle": "Natuurlijke huidverzorging en huisverzorging",
+    "homeDescription": "Elf natuurlijke rituelen, met de hand vervaardigd in Marbella. Cosmetica en huishoudreinigers met ISO 16128-certificering, Andalusische botanicals en recyclebare verpakking.",
+    "homeKeywords": "natuurlijke huidverzorging, ambachtelijke cosmetica, huisverzorging, natuurlijke zeep, Marbella, Andalusië, ISO 16128, natuurlijke douchegel"
+  }
+}

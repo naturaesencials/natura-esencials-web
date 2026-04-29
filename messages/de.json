@@ -1,0 +1,174 @@
+{
+  "common": {
+    "search": "Suchen",
+    "account": "Konto",
+    "bag": "Tasche",
+    "addToBag": "Zum Ritual hinzufügen",
+    "viewProduct": "Produktdetails",
+    "from": "Ab",
+    "free": "Kostenlos",
+    "close": "Schließen",
+    "open": "Öffnen",
+    "menu": "Menü",
+    "language": "Sprache",
+    "region": "Region",
+    "selectRegion": "Region wählen",
+    "currency": "Währung"
+  },
+  "header": {
+    "navCosmetica": "Hautpflege",
+    "navHogar": "Haushalt",
+    "navMascota": "Haustier",
+    "navOrigen": "Herkunft",
+    "navDiario": "Tagebuch"
+  },
+  "thinBar": {
+    "shipping": "Kostenloser Versand ab 60 €",
+    "returns": "30 Tage Rückgabe",
+    "samples": "Probe bei jeder Bestellung"
+  },
+  "regionBanner": {
+    "showing": "Anzeige des",
+    "in": "auf",
+    "change": "Ändern",
+    "detected": "Automatisch erkannt"
+  },
+  "regionModal": {
+    "title": "Region und Sprache wählen",
+    "subtitle": "Wir zeigen Ihnen die verfügbaren Produkte, Preise und den entsprechenden Versand.",
+    "europe": "Europa",
+    "uk": "Vereinigtes Königreich",
+    "europeDesc": "Preise in Euro · Versand aus Spanien",
+    "ukDesc": "Preise in Pfund · Versand aus dem Vereinigten Königreich",
+    "save": "Speichern und fortfahren"
+  },
+  "hero": {
+    "stampDate": "Frühling · 2026",
+    "stampOrigin": "Marbella · Andalusien",
+    "kicker": "Naturkosmetik und Haushaltspflege",
+    "titleLine1": "Die",
+    "titleAccent1": "Haut",
+    "titleLine2": "und das",
+    "titleAccent2": "Zuhause",
+    "titleLine3": "mit derselben Hand pflegen.",
+    "lede": "Elf von Hand in unserer Werkstatt in Marbella formulierte Rituale. Naturkosmetik und Haushaltsseifen mit demselben Anspruch hergestellt — andalusische Pflanzenöle, ISO 16128 zertifiziert, recyclebare Verpackung.",
+    "ledeEmphasis": "demselben Anspruch",
+    "marksCosmetica": "Hautpflege",
+    "marksCosmeticaCount": "{count} Rituale",
+    "marksCosmeticaDesc": "Körper · Haar · Gesicht",
+    "marksHogar": "Haushalt",
+    "marksHogarCount": "{count} Rituale",
+    "marksHogarDesc": "Küche · Geschirr · Textilien",
+    "ctaPrimary": "Kollektion ansehen",
+    "ctaSecondary": "Unsere Herkunft",
+    "imgTagCosmetica": "Hautpflege",
+    "imgTagHogar": "Haushalt"
+  },
+  "dualFeatured": {
+    "personalLine": "Hautpflege · Hausformulierung",
+    "personalBadge": "Ritual 01 · Hautpflege",
+    "personalDesc": "Körperpflege mit kolloidalem Hafer, Aloe und Kamille. Die tägliche Geste für empfindliche Haut.",
+    "personalDescEmphasis": "tägliche Geste",
+    "hogarLine": "Haushalt · Allzweck",
+    "hogarBadge": "Ritual 06 · Haushalt",
+    "hogarDesc": "Natürlicher Reiniger mit Málaga-Zitrone und Thymian. Ohne aggressive Sulfate, mit derselben Sorgfalt wie für die Haut.",
+    "hogarDescEmphasis": "Ohne aggressive Sulfate"
+  },
+  "lineCosmetica": {
+    "tag": "Hauptlinie · 5 Rituale",
+    "title1": "Die",
+    "titleAccent": "Hautpflege.",
+    "intro": "Unsere Gründungslinie. Fünf Rituale für Körper, Haar und Gesicht — seit 2019 nach ISO-16128-Protokoll formuliert und dermatologisch getestet. Pflanzliche Materie aus Südeuropa, geduldige Formulierung.",
+    "introEmphasis": "Pflanzliche Materie aus Südeuropa, geduldige Formulierung."
+  },
+  "botanica": {
+    "kicker": "Gleiche Materie, zwei Bestimmungen",
+    "title1": "Derselbe Lavendel, der",
+    "titleAccent1": "Ihre Haut",
+    "title2": "parfümiert, parfümiert die",
+    "titleAccent2": "Kleidung, die Sie tragen.",
+    "body": "Wir trennen nicht, was die Haut pflegt, von dem, was das Zuhause pflegt. Unsere ätherischen Öle, Extrakte und pflanzlichen Tenside sind in beiden Linien identisch — nur die Formulierung ändert sich. Eine Werkstatt, ein Anspruch.",
+    "bodyEmphasis": "Eine Werkstatt, ein Anspruch."
+  },
+  "lineHogar": {
+    "tag": "Hauptlinie · 4 Rituale",
+    "title1": "Der",
+    "titleAccent": "Haushalt.",
+    "intro": "Natürliche Seifen und Reiniger für Oberflächen, die wir täglich berühren. Mit demselben Anspruch, den wir an die Haut stellen: ohne aggressive Sulfate, ohne synthetische Düfte, ohne Giftstoffe für den, der mit Ihnen kocht.",
+    "introEmphasis": "Mit demselben Anspruch, den wir an die Haut stellen"
+  },
+  "origen": {
+    "kicker": "Herkunft · Andalusien",
+    "title1": "Vom",
+    "titleAccent1": "Feld",
+    "title2": "in die Flasche.",
+    "body": "Genossenschaften in Málaga, Granada, Jaén und Córdoba. Olivenöl, Lavendel, Kamille, Rosmarin — alles nur wenige Stunden von der Werkstatt entfernt. Nähe ist auch eine Zutat.",
+    "bodyEmphasis": "alles nur wenige Stunden von der Werkstatt entfernt.",
+    "cta": "Unsere Genossenschaften entdecken",
+    "coordTitle": "Werkstatt",
+    "coordValue": "36°30′N · 4°53′W"
+  },
+  "lineMascota": {
+    "tag": "Ergänzende Linie · 2 Rituale",
+    "title1": "Und für",
+    "titleAccent": "sie.",
+    "intro": "Weil auch unsere Begleiter eine durchdachte Formel verdienen. Zwei spezifische Rituale — eines für Hunde, eines für Katzen — mit beruhigenden Wirkstoffen, ohne aggressive Seifen, ohne Giftstoffe, falls sie ihr Fell nach dem Baden lecken.",
+    "introEmphasis": "beruhigenden Wirkstoffen"
+  },
+  "strip": {
+    "shipping": "Kostenloser Versand",
+    "shippingDesc": "ab 60 €",
+    "returns": "Rückgabe",
+    "returnsDesc": "innerhalb 30 Tagen",
+    "samples": "Probe",
+    "samplesDesc": "in jeder Bestellung",
+    "iso": "ISO 16128",
+    "isoDesc": "zertifiziert"
+  },
+  "edicion": {
+    "kicker": "Saisonale Edition",
+    "title1": "Frühling",
+    "titleAccent": "2026.",
+    "metaCount": "Vier Rituale im Programm",
+    "metaDate": "bis 30. April",
+    "discount": "Rabatt"
+  },
+  "newsletter": {
+    "kicker": "Korrespondenz",
+    "title1": "Zwei Briefe pro Monat.",
+    "title2": "Eine neue Formel.",
+    "titleAccent": "Nichts mehr.",
+    "sub": "Erfahren Sie zuerst von limitierten Editionen und erhalten Sie 10 % auf Ihre erste Bestellung.",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "submit": "Abonnieren",
+    "success": "Abonniert. Ihr erster Brief ist unterwegs.",
+    "error": "Abonnement nicht möglich. Bitte erneut versuchen.",
+    "invalidEmail": "Bitte gültige E-Mail eingeben"
+  },
+  "popup": {
+    "kicker": "Erstes Mal hier",
+    "title": "10 % auf Ihr erstes Ritual.",
+    "titleAccent": "erstes Ritual.",
+    "body": "Treten Sie der Korrespondenz bei und erhalten Sie einen Höflichkeitscode mit dem ersten Saisonbrief.",
+    "submit": "Erhalten"
+  },
+  "footer": {
+    "brandDesc": "Naturkosmetik und Haushaltspflege, hergestellt in Marbella. Andalusien, Spanien.",
+    "colCosmetica": "Hautpflege",
+    "colHogar": "Haushalt",
+    "colMascota": "Haustier",
+    "colCasa": "Haus",
+    "linkOrigen": "Herkunft",
+    "linkDiario": "Tagebuch",
+    "linkContacto": "Kontakt",
+    "linkPedidos": "Bestellungen",
+    "linkPrivacidad": "Datenschutz",
+    "linkTerminos": "AGB",
+    "linkCookies": "Cookies"
+  },
+  "metadata": {
+    "homeTitle": "Naturkosmetik und Haushaltspflege",
+    "homeDescription": "Elf natürliche Rituale, von Hand in Marbella formuliert. Kosmetik und Haushaltsreiniger mit ISO-16128-Zertifizierung, andalusischen Botanicals und recyclebarer Verpackung.",
+    "homeKeywords": "Naturkosmetik, handgemachte Kosmetik, Haushaltspflege, Naturseife, Marbella, Andalusien, ISO 16128, natürliches Duschgel"
+  }
+}
