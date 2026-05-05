@@ -1,0 +1,310 @@
+{
+  "bundles": [
+    {
+      "id": "ritual-plenitud-300",
+      "line": "cosmetica",
+      "shopifyHandle": "ritual-plenitud-300",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Refugio",
+      "includes": ["champu-2-en-1", "acondicionador-capilar", "jabon-manos-cuerpo", "body-milk"],
+      "format": "300 ml",
+      "discountPercent": 12,
+      "visible": true,
+      "basePriceEUR": 34.90,
+      "es": {
+        "name": "Ritual Plenitud",
+        "nameMain": "Ritual",
+        "nameAccent": "Plenitud",
+        "subtitle": "Cabello y piel en Refugio sin complicarte",
+        "shortDescription": "La rutina más completa de cabello y piel dentro del universo diario. Champú 2 en 1, acondicionador, jabón y body milk para una experiencia más redonda, más cuidada y con mayor valor percibido.",
+        "longDescription": "Pack de upgrade para quien quiere una experiencia más redonda. Cuatro pasos esenciales para el cuidado diario en formato 300ml.",
+        "promise": "Cuidado completo sin complicarte.",
+        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+      }
+    },
+    {
+      "id": "ritual-plenitud-1l",
+      "line": "cosmetica",
+      "shopifyHandle": "ritual-plenitud-1-ltr",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Refugio",
+      "includes": ["champu-2-en-1", "acondicionador-capilar", "jabon-manos-cuerpo", "body-milk"],
+      "format": "1 L",
+      "discountPercent": 15,
+      "visible": true,
+      "basePriceEUR": 53.60,
+      "es": {
+        "name": "Ritual Plenitud",
+        "nameMain": "Ritual",
+        "nameAccent": "Plenitud 1 L",
+        "subtitle": "El ritual completo en formato familiar",
+        "shortDescription": "La rutina más completa de cabello y piel en formato familiar de 1 litro. Para hogares con uso intenso y mejor relación calidad-precio.",
+        "longDescription": "Mismos productos del Ritual Plenitud en formato grande: ahorro y menos residuos.",
+        "promise": "Cuidado completo, formato familiar.",
+        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+      }
+    },
+    {
+      "id": "ritual-ducha-perfecta-300",
+      "line": "cosmetica",
+      "shopifyHandle": "pack-esenciales-diarios",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Refugio",
+      "includes": ["champu-2-en-1", "jabon-manos-cuerpo", "body-milk"],
+      "format": "300 ml",
+      "discountPercent": 10,
+      "visible": true,
+      "basePriceEUR": 26.50,
+      "es": {
+        "name": "Ritual Ducha Perfecta",
+        "nameMain": "Ritual",
+        "nameAccent": "Ducha Perfecta",
+        "subtitle": "Tres pasos. Una sensación: estar bien en tu piel",
+        "shortDescription": "Pack esencial para quienes buscan rutina simple, cómoda y completa. Champú 2 en 1, jabón y body milk en formato 300ml.",
+        "longDescription": "Cabello y piel en orden con una rutina clara de uso diario.",
+        "promise": "Estar bien en tu piel.",
+        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+      }
+    },
+    {
+      "id": "ritual-ducha-perfecta-1l",
+      "line": "cosmetica",
+      "shopifyHandle": "ritual-ducha-perfecta-1-ltr",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Refugio",
+      "includes": ["champu-2-en-1", "jabon-manos-cuerpo", "body-milk"],
+      "format": "1 L",
+      "discountPercent": 12,
+      "visible": true,
+      "basePriceEUR": 48.86,
+      "es": {
+        "name": "Ritual Ducha Perfecta",
+        "nameMain": "Ritual",
+        "nameAccent": "Ducha Perfecta 1 L",
+        "subtitle": "Ritual diario en formato familiar",
+        "shortDescription": "Los tres esenciales de la ducha en 1 litro. Para hogares que han hecho de Natura su rutina diaria.",
+        "longDescription": "Mismo trío del Ritual Ducha Perfecta, formato grande para uso prolongado.",
+        "promise": "Tu rutina diaria, sin interrupciones.",
+        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+      }
+    },
+    {
+      "id": "ritual-rendimiento-300",
+      "line": "cosmetica",
+      "shopifyHandle": "pack-deportivo-higiene-cuidado",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Energía",
+      "includes": ["total-body-wash", "body-milk"],
+      "format": "300 ml",
+      "discountPercent": 8,
+      "visible": true,
+      "basePriceEUR": 18.00,
+      "es": {
+        "name": "Ritual Rendimiento",
+        "nameMain": "Ritual",
+        "nameAccent": "Rendimiento",
+        "subtitle": "Tu post-gym en 2 productos: limpiar, hidratar, seguir",
+        "shortDescription": "Ritual rápido de ducha e hidratación con sensación de frescor y recuperación. Total Body Wash 3 en 1 y Body Milk en formato 300ml.",
+        "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
+        "promise": "Limpiar, hidratar, seguir.",
+        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+      }
+    },
+    {
+      "id": "ritual-rendimiento-1l",
+      "line": "cosmetica",
+      "shopifyHandle": "ritual-rendimiento-1ltr",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Energía",
+      "includes": ["total-body-wash", "body-milk"],
+      "format": "1 L",
+      "discountPercent": 12,
+      "visible": true,
+      "basePriceEUR": 33.50,
+      "es": {
+        "name": "Ritual Rendimiento",
+        "nameMain": "Ritual",
+        "nameAccent": "Rendimiento 1 L",
+        "subtitle": "Rutina post-actividad en formato familiar",
+        "shortDescription": "Total Body Wash y Body Milk en 1 litro. Para deportistas habituales y hogares con vida activa.",
+        "longDescription": "El Ritual Rendimiento en formato grande: dos productos, mucho rendimiento.",
+        "promise": "Tu ritual post-actividad, sin pausas.",
+        "story": "Limpia, hidrata y sigue. En grande."
+      }
+    },
+    {
+      "id": "ritual-para-ella",
+      "line": "cosmetica",
+      "shopifyHandle": "ritual-para-ella",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Refugio",
+      "includes": ["champu-mujer", "acondicionador-mujer", "gel-manos-cuerpo-mujer", "body-milk-woman"],
+      "format": "300 ml",
+      "discountPercent": 12,
+      "visible": true,
+      "es": {
+        "name": "Ritual Para Ella",
+        "nameMain": "Ritual",
+        "nameAccent": "Para Ella",
+        "subtitle": "Universo naranja fresca de pies a cabeza",
+        "shortDescription": "La cápsula femenina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de naranja fresca con Citrus Aurantium. Coherencia sensorial total.",
+        "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
+        "promise": "Mimo diario con coherencia sensorial.",
+        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+      }
+    },
+    {
+      "id": "ritual-para-el",
+      "line": "cosmetica",
+      "shopifyHandle": "ritual-para-el",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Energía",
+      "includes": ["champu-hombre", "acondicionador-hombre", "gel-manos-cuerpo-hombre", "body-milk-man"],
+      "format": "300 ml",
+      "discountPercent": 12,
+      "visible": true,
+      "es": {
+        "name": "Ritual Para Él",
+        "nameMain": "Ritual",
+        "nameAccent": "Para Él",
+        "subtitle": "Ámbar fresco masculino de la cabeza a los pies",
+        "shortDescription": "La cápsula masculina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de ámbar fresco. Coherencia total de pies a cabeza.",
+        "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
+        "promise": "Rutina masculina con carácter ámbar.",
+        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+      }
+    },
+    {
+      "id": "ritual-vajilla-perfecta",
+      "line": "hogar",
+      "shopifyHandle": "pack-cuidado-lavavajilla",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Energía",
+      "includes": ["lavavajillas-maquina", "abrillantador"],
+      "format": "1 L",
+      "discountPercent": 8,
+      "visible": true,
+      "basePriceEUR": 16.70,
+      "es": {
+        "name": "Ritual Vajilla Perfecta",
+        "nameMain": "Ritual",
+        "nameAccent": "Vajilla Perfecta",
+        "subtitle": "Orden sin drama y resultado impecable",
+        "shortDescription": "Ritual funcional para vender eficiencia, brillo y practicidad. Lavavajillas máquina y abrillantador en 1 litro.",
+        "longDescription": "Cargar, activar y abrir con sensación de listo.",
+        "promise": "Orden sin drama.",
+        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+      }
+    },
+    {
+      "id": "ritual-bano-impecable",
+      "line": "hogar",
+      "shopifyHandle": "pack-bano-esencial",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Calma",
+      "includes": ["limpiador-banos", "limpiacristales"],
+      "format": "1 L",
+      "discountPercent": 8,
+      "visible": true,
+      "basePriceEUR": 15.26,
+      "es": {
+        "name": "Ritual Baño Impecable",
+        "nameMain": "Ritual",
+        "nameAccent": "Baño Impecable",
+        "subtitle": "Baño en orden que invita al cuidado personal",
+        "shortDescription": "Ritual de mantenimiento rápido con lectura visual inmediata. Limpiador de baños y limpiacristales en 1 litro.",
+        "longDescription": "Pocos pasos, efecto limpio y sensación de espacio renovado.",
+        "promise": "Baño que invita a cuidarte.",
+        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+      }
+    },
+    {
+      "id": "ritual-cocina-impecable",
+      "line": "hogar",
+      "shopifyHandle": "pack-cocina-impecable",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Conexión",
+      "includes": ["lavavajillas-manual", "desengrasante", "multisuperficies"],
+      "format": "1 L",
+      "discountPercent": 10,
+      "visible": true,
+      "basePriceEUR": 20.90,
+      "es": {
+        "name": "Ritual Cocina Impecable",
+        "nameMain": "Ritual",
+        "nameAccent": "Cocina Impecable",
+        "subtitle": "Cierras la cocina y respiras",
+        "shortDescription": "Pack de cocina para hogares que quieren limpieza práctica con sensación de control. Lavavajillas manual, desengrasante y multisuperficies en 1 litro.",
+        "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
+        "promise": "Cerrar la cocina y respirar.",
+        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+      }
+    },
+    {
+      "id": "ritual-caricia",
+      "line": "hogar",
+      "shopifyHandle": "pack-colada-esencial",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Conexión",
+      "includes": ["detergente-ropa", "suavizante-ropa"],
+      "format": "1 L",
+      "discountPercent": 8,
+      "visible": true,
+      "basePriceEUR": 18.00,
+      "es": {
+        "name": "Ritual Caricia",
+        "nameMain": "Ritual",
+        "nameAccent": "Caricia",
+        "subtitle": "Tu ropa con sensación de hogar",
+        "shortDescription": "Cápsula emocional de colada, perfecta para cross-sell desde hogar hacia bienestar cotidiano. Detergente y suavizante en 1 litro.",
+        "longDescription": "Lavar, suavizar y doblar con calma. La lavanda permanece en la ropa.",
+        "promise": "Ropa suave con sensación de hogar.",
+        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+      }
+    },
+    {
+      "id": "ritual-gato-zen",
+      "line": "mascota",
+      "shopifyHandle": "pack-higiene-basica-gatos",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Calma",
+      "includes": ["champu-gatos", "limpiador-oidos-mascotas", "limpiador-ojos-mascotas"],
+      "format": "300 ml",
+      "discountPercent": 10,
+      "visible": true,
+      "basePriceEUR": 22.20,
+      "es": {
+        "name": "Ritual Gato Zen",
+        "nameMain": "Ritual",
+        "nameAccent": "Gato Zen",
+        "subtitle": "Higiene tranquila, Calma y Conexión sin estrés",
+        "shortDescription": "Cuidado completo para tu gato sin estrés. Champú felino, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal de 6 plantas.",
+        "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
+        "promise": "Higiene tranquila para tu gato.",
+        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+      }
+    },
+    {
+      "id": "ritual-mimo-canino",
+      "line": "mascota",
+      "shopifyHandle": "pack-higiene-basica-perros",
+      "availableIn": ["eu", "uk"],
+      "sensation": "Conexión",
+      "includes": ["champu-perros", "limpiador-oidos-mascotas", "limpiador-ojos-mascotas"],
+      "format": "300 ml",
+      "discountPercent": 10,
+      "visible": true,
+      "basePriceEUR": 22.20,
+      "es": {
+        "name": "Ritual Mimo Canino",
+        "nameMain": "Ritual",
+        "nameAccent": "Mimo Canino",
+        "subtitle": "Cuidado suave, Calma en casa y Conexión con tu perro",
+        "shortDescription": "Cuidado completo para tu perro. Champú Pet Repair Argán con extractos botánicos, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal.",
+        "longDescription": "Si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
+        "promise": "Cuidado suave para tu perro.",
+        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+      }
+    }
+  ]
+}
