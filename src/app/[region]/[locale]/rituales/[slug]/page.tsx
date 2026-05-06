@@ -7,6 +7,7 @@ import { buildPath } from '@/lib/i18n/paths';
 import type { Locale, Region } from '@/lib/i18n/config';
 import { getBundlesForRegion, getProductById } from '@/data';
 import { ProductCard } from '@/components/catalog/ProductCard';
+import { BundleImage } from '@/components/catalog/BundleImage';
 
 interface Props {
   params: Promise<{ region: Region; locale: Locale; slug: string }>;
@@ -132,14 +133,7 @@ export default async function BundlePage({ params }: Props) {
             <div className="absolute inset-0 flex items-center justify-center text-stone-300">
               <span className="text-7xl font-display italic opacity-40">N</span>
             </div>
-            <img
-              src={imageSrc}
-              alt={t.name}
-              className="relative z-10 w-full h-full object-cover"
-              onError={(e) => {
-                (e.currentTarget as HTMLImageElement).style.display = 'none';
-              }}
-            />
+            <BundleImage src={imageSrc} alt={t.name} />
             {bundle.outOfStock && (
               <div className="absolute inset-0 z-30 flex items-center justify-center bg-ink/40 backdrop-blur-sm">
                 <span className="bg-paper text-ink px-4 py-2 rounded-sm text-sm uppercase tracking-wider font-medium">

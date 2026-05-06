@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import type { Locale, Region } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
