@@ -1,26 +1,41 @@
-import type { Metadata } from 'next';
-import type { ReactNode } from 'react';
+import type { Metadata, Viewport } from 'next';
+import { Fraunces } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { siteConfig } from '@/config/site';
+import './globals.css';
+
+const fraunces = Fraunces({
+  subsets: ['latin', 'latin-ext'],
+  display: 'swap',
+  variable: '--font-fraunces',
+  axes: ['opsz', 'SOFT', 'WONK'],
+});
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#FAFAF5' },
+    { media: '(prefers-color-scheme: dark)', color: '#0F2018' },
+  ],
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
-  title: {
-    default: siteConfig.name,
-    template: `%s · ${siteConfig.name}`,
-  },
+  title: { default: siteConfig.name, template: `%s · ${siteConfig.name}` },
   description: siteConfig.tagline,
-  robots: { index: true, follow: true },
 };
 
-/**
- * Root layout — solo envuelve con <html> y <body>.
- * Las fuentes, providers i18n y nav van en [region]/[locale]/layout.tsx
- * para tener acceso al locale correcto.
- */
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html suppressHydrationWarning>
-      <body>{children}</body>
+    <html lang="es" className={fraunces.variable}>
+      <body>
+        {children}
+        <Analytics />
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
