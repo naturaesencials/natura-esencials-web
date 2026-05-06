@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: var(--font-fraunces), ui-serif, Georgia, serif;
+    font-variation-settings: 'opsz' 14, 'SOFT' 40;
+    font-weight: 350;
+    background: #FAFAF5;
+    color: #0F2018;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    min-width: 320px;
+  }
+  body.menu-open { overflow: hidden; }
+  a { -webkit-tap-highlight-color: transparent; }
+  :focus-visible { outline: 2px solid #3A6B47; outline-offset: 2px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+    }
+    html { scroll-behavior: auto; }
+  }
+}
+
+@layer utilities {
+  .font-display { font-variation-settings: 'opsz' 144, 'wght' 300, 'SOFT' 40; }
+  .font-display-italic { font-variation-settings: 'opsz' 144, 'wght' 300, 'SOFT' 100, 'WONK' 1; }
+  .font-heading { font-variation-settings: 'opsz' 144, 'wght' 350, 'SOFT' 20; }
+  .font-heading-italic { font-variation-settings: 'opsz' 144, 'wght' 300, 'SOFT' 100; }
+  .font-caption { font-variation-settings: 'opsz' 144, 'wght' 300; font-style: italic; }
+  .font-body-medium { font-variation-settings: 'opsz' 14, 'wght' 400; }
+
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+  }
+}
