@@ -22,6 +22,8 @@ interface RawProductTranslation {
   nameMain?: string;
   nameAccent?: string;
   subtitle: string;
+  /** Slug traducido por idioma (presente en los 7 idiomas tras la migración i18n) */
+  slug?: string;
   olfactiveFamily: string;
   momentOfUse: string;
   shortDescription: string;
@@ -55,6 +57,8 @@ interface RawBundleTranslation {
   nameMain?: string;
   nameAccent?: string;
   subtitle: string;
+  /** Slug traducido por idioma */
+  slug?: string;
   shortDescription: string;
   longDescription?: string;
   promise: string;
@@ -82,8 +86,9 @@ function transformProduct(raw: RawProduct): Product {
     if (!t) continue;
     translations[locale] = {
       ...t,
-      // Slug: usa el id base; las traducciones IA pueden sobrescribirlo después
-      slug: raw.id,
+      // Si la traducción ya trae slug (los 7 idiomas lo tienen), úsalo;
+      // si no, fallback al id base del producto
+      slug: (t as { slug?: string }).slug || raw.id,
     };
   }
 
@@ -125,7 +130,7 @@ function transformBundle(raw: RawBundle): Bundle {
     if (!t) continue;
     translations[locale] = {
       ...t,
-      slug: raw.id,
+      slug: (t as { slug?: string }).slug || raw.id,
     };
   }
 
@@ -201,4 +206,90 @@ export function getProductsForRegion(region: 'eu' | 'uk'): Product[] {
 
 export function getBundlesForRegion(region: 'eu' | 'uk'): Bundle[] {
   return bundles.filter((b) => b.visible && b.availableIn.includes(region));
+}
+
+// ─────────────────────────── slug-based lookups ─────────────────────
+
+import type { Locale } from '@/lib/i18n/config';
+
+/**
+ * Encuentra un producto por su slug en un idioma específico.
+ * Si no se encuentra en ese idioma, busca en todos los idiomas como fallback.
+ * Esto permite que las URLs antiguas (en español) funcionen incluso con UI en inglés.
+ */
+export function getProductBySlug(slug: string, locale?: Locale): Product | undefined {
+  if (locale) {
+    const direct = products.find((p) => p.translations[locale]?.slug === slug);
+    if (direct) return direct;
+  }
+  // Fallback: buscar en cualquier idioma
+  return products.find((p) =>
+    Object.values(p.translations).some((t) => t?.slug === slug),
+  );
+}
+
+export function getBundleBySlug(slug: string, locale?: Locale): Bundle | undefined {
+  if (locale) {
+    const direct = bundles.find((b) => b.translations[locale]?.slug === slug);
+    if (direct) return direct;
+  }
+  return bundles.find((b) =>
+    Object.values(b.translations).some((t) => t?.slug === slug),
+  );
+}
+
+/**
+ * Devuelve todas las combinaciones (slug, locale) para generateStaticParams
+ * de las fichas de producto. Filtra por línea y por región.
+ */
+export function getAllProductRoutes(line?: 'cosmetica' | 'hogar' | 'mascota') {
+  const routes: Array<{ slug: string; locale: Locale; region: 'eu' | 'uk'; productId: string }> = [];
+  for (const p of products) {
+    if (!p.visible) continue;
+    if (line && p.line !== line) continue;
+    for (const region of p.availableIn) {
+      for (const [loc, t] of Object.entries(p.translations)) {
+        if (!t || !t.slug) continue;
+        routes.push({
+          slug: t.slug,
+          locale: loc as Locale,
+          region,
+          productId: p.id,
+        });
+      }
+    }
+  }
+  return routes;
+}
+
+export function getAllBundleRoutes(line?: 'cosmetica' | 'hogar' | 'mascota') {
+  const routes: Array<{ slug: string; locale: Locale; region: 'eu' | 'uk'; bundleId: string }> = [];
+  for (const b of bundles) {
+    if (!b.visible) continue;
+    if (line && b.line !== line) continue;
+    for (const region of b.availableIn) {
+      for (const [loc, t] of Object.entries(b.translations)) {
+        if (!t || !t.slug) continue;
+        routes.push({
+          slug: t.slug,
+          locale: loc as Locale,
+          region,
+          bundleId: b.id,
+        });
+      }
+    }
+  }
+  return routes;
+}
+
+/**
+ * Nombre traducido de la categoría/línea para Schema.org Product y breadcrumbs.
+ */
+export function getLineNameForLocale(line: 'cosmetica' | 'hogar' | 'mascota', locale: Locale): string {
+  const map: Record<typeof line, Record<Locale, string>> = {
+    cosmetica: { es: 'Cosmética', en: 'Skincare', fr: 'Cosmétiques', de: 'Hautpflege', it: 'Cosmetica', nl: 'Huidverzorging', pt: 'Cosmética' },
+    hogar: { es: 'Hogar', en: 'Home', fr: 'Maison', de: 'Haushalt', it: 'Casa', nl: 'Huis', pt: 'Casa' },
+    mascota: { es: 'Mascota', en: 'Pet', fr: 'Animaux', de: 'Haustier', it: 'Animali', nl: 'Huisdier', pt: 'Animais' },
+  };
+  return map[line][locale];
 }

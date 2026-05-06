@@ -3,8 +3,6 @@ import { siteConfig } from '@/config/site';
 import {
   regions,
   regionLocales,
-  getSlug,
-  type Region,
   type RouteSection,
 } from '@/lib/i18n/config';
 import { products, bundles } from '@/data';
@@ -30,12 +28,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
   // ── Secciones estáticas ──
+  // Las carpetas físicas de Next.js son literales en español; el SEO se logra
+  // con hreflang + content localizado, no con URLs traducidas.
   for (const section of staticSections) {
     for (const region of regions) {
       for (const locale of regionLocales[region]) {
-        const localizedSection = section ? getSlug(section, locale) : '';
-        const path = localizedSection
-          ? `/${region}/${locale}/${localizedSection}`
+        const path = section
+          ? `/${region}/${locale}/${section}`
           : `/${region}/${locale}`;
 
         entries.push({
@@ -58,12 +57,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
       for (const locale of regionLocales[region]) {
         const t = product.translations[locale] || product.translations.es;
         if (!t) continue;
+        // Segmento de línea literal en español (estructura física de las carpetas);
+        // el slug del producto SÍ está traducido por idioma.
         const path = `/${region}/${locale}/${product.line}/${t.slug || product.baseSlug}`;
+
+        // Construir alternates hreflang para esta ficha en todos los idiomas disponibles
+        const alternates: Record<string, string> = {};
+        for (const altRegion of product.availableIn) {
+          for (const altLocale of regionLocales[altRegion]) {
+            const altT = product.translations[altLocale] || product.translations.es;
+            if (!altT) continue;
+            const altPath = `/${altRegion}/${altLocale}/${product.line}/${altT.slug || product.baseSlug}`;
+            alternates[`${altLocale}-${altRegion.toUpperCase()}`] = `${siteConfig.url}${altPath}`;
+          }
+        }
+
         entries.push({
           url: `${siteConfig.url}${path}`,
           lastModified: now,
           changeFrequency: 'weekly',
           priority: 0.85,
+          alternates: { languages: alternates },
         });
       }
     }
@@ -76,13 +90,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       for (const locale of regionLocales[region]) {
         const t = bundle.translations[locale] || bundle.translations.es;
         if (!t) continue;
-        const ritualesSlug = getSlug('rituales', locale);
-        const path = `/${region}/${locale}/${ritualesSlug}/${t.slug || bundle.baseSlug}`;
+        const path = `/${region}/${locale}/rituales/${t.slug || bundle.baseSlug}`;
+
+        // hreflang para cada bundle
+        const alternates: Record<string, string> = {};
+        for (const altRegion of bundle.availableIn) {
+          for (const altLocale of regionLocales[altRegion]) {
+            const altT = bundle.translations[altLocale] || bundle.translations.es;
+            if (!altT) continue;
+            const altPath = `/${altRegion}/${altLocale}/rituales/${altT.slug || bundle.baseSlug}`;
+            alternates[`${altLocale}-${altRegion.toUpperCase()}`] = `${siteConfig.url}${altPath}`;
+          }
+        }
+
         entries.push({
           url: `${siteConfig.url}${path}`,
           lastModified: now,
           changeFrequency: 'weekly',
           priority: 0.9,
+          alternates: { languages: alternates },
         });
       }
     }
@@ -98,9 +124,8 @@ function buildAlternateLanguages(
   for (const region of regions) {
     for (const locale of regionLocales[region]) {
       const key = `${locale}-${region.toUpperCase()}`;
-      const localizedSection = section ? getSlug(section, locale) : '';
-      const path = localizedSection
-        ? `/${region}/${locale}/${localizedSection}`
+      const path = section
+        ? `/${region}/${locale}/${section}`
         : `/${region}/${locale}`;
       langs[key] = `${siteConfig.url}${path}`;
     }

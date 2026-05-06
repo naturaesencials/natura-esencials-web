@@ -4,13 +4,21 @@
       "id": "ritual-plenitud-300",
       "line": "cosmetica",
       "shopifyHandle": "ritual-plenitud-300",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Refugio",
-      "includes": ["champu-2-en-1", "acondicionador-capilar", "jabon-manos-cuerpo", "body-milk"],
+      "includes": [
+        "champu-2-en-1",
+        "acondicionador-capilar",
+        "jabon-manos-cuerpo",
+        "body-milk"
+      ],
       "format": "300 ml",
       "discountPercent": 12,
       "visible": true,
-      "basePriceEUR": 34.90,
+      "basePriceEUR": 34.9,
       "es": {
         "name": "Ritual Plenitud",
         "nameMain": "Ritual",
@@ -19,6 +27,79 @@
         "shortDescription": "La rutina más completa de cabello y piel dentro del universo diario. Champú 2 en 1, acondicionador, jabón y body milk para una experiencia más redonda, más cuidada y con mayor valor percibido.",
         "longDescription": "Pack de upgrade para quien quiere una experiencia más redonda. Cuatro pasos esenciales para el cuidado diario en formato 300ml.",
         "promise": "Cuidado completo sin complicarte.",
+        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa.",
+        "slug": "plenitud-300"
+      },
+      "en": {
+        "name": "Ritual Fulfillment",
+        "subtitle": "The most complete cosmetic care, hair to skin, in 300 ml",
+        "slug": "fulfillment-300",
+        "promise": "Hair and skin in refuge, without complication",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Fulfillment",
+        "shortDescription": "La rutina más completa de cabello y piel dentro del universo diario. Champú 2 en 1, acondicionador, jabón y body milk para una experiencia más redonda, más cuidada y con mayor valor percibido.",
+        "longDescription": "Pack de upgrade para quien quiere una experiencia más redonda. Cuatro pasos esenciales para el cuidado diario en formato 300ml.",
+        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+      },
+      "fr": {
+        "name": "Rituel Plénitude",
+        "subtitle": "Le soin cosmétique le plus complet, cheveux et peau, en 300 ml",
+        "slug": "plenitude-300",
+        "promise": "Cheveux et peau au refuge, sans complication",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Plénitude",
+        "shortDescription": "La rutina más completa de cabello y piel dentro del universo diario. Champú 2 en 1, acondicionador, jabón y body milk para una experiencia más redonda, más cuidada y con mayor valor percibido.",
+        "longDescription": "Pack de upgrade para quien quiere una experiencia más redonda. Cuatro pasos esenciales para el cuidado diario en formato 300ml.",
+        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+      },
+      "de": {
+        "name": "Ritual Fülle",
+        "subtitle": "Die vollständigste Pflege, Haar bis Haut, in 300 ml",
+        "slug": "fuelle-300",
+        "promise": "Haar und Haut in Geborgenheit, ohne Aufwand",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Fülle",
+        "shortDescription": "La rutina más completa de cabello y piel dentro del universo diario. Champú 2 en 1, acondicionador, jabón y body milk para una experiencia más redonda, más cuidada y con mayor valor percibido.",
+        "longDescription": "Pack de upgrade para quien quiere una experiencia más redonda. Cuatro pasos esenciales para el cuidado diario en formato 300ml.",
+        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+      },
+      "it": {
+        "name": "Rituale Pienezza",
+        "subtitle": "La cura cosmetica più completa, capelli e pelle, in 300 ml",
+        "slug": "pienezza-300",
+        "promise": "Capelli e pelle in rifugio, senza complicazioni",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Pienezza",
+        "shortDescription": "La rutina más completa de cabello y piel dentro del universo diario. Champú 2 en 1, acondicionador, jabón y body milk para una experiencia más redonda, más cuidada y con mayor valor percibido.",
+        "longDescription": "Pack de upgrade para quien quiere una experiencia más redonda. Cuatro pasos esenciales para el cuidado diario en formato 300ml.",
+        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+      },
+      "nl": {
+        "name": "Ritueel Volheid",
+        "subtitle": "De meest complete verzorging, haar tot huid, in 300 ml",
+        "slug": "volheid-300",
+        "promise": "Haar en huid in toevlucht, zonder gedoe",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Volheid",
+        "shortDescription": "La rutina más completa de cabello y piel dentro del universo diario. Champú 2 en 1, acondicionador, jabón y body milk para una experiencia más redonda, más cuidada y con mayor valor percibido.",
+        "longDescription": "Pack de upgrade para quien quiere una experiencia más redonda. Cuatro pasos esenciales para el cuidado diario en formato 300ml.",
+        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+      },
+      "pt": {
+        "name": "Ritual Plenitude",
+        "subtitle": "O cuidado cosmético mais completo, cabelo a pele, em 300 ml",
+        "slug": "plenitude-300",
+        "promise": "Cabelo e pele em refúgio, sem complicação",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Plenitude",
+        "shortDescription": "La rutina más completa de cabello y piel dentro del universo diario. Champú 2 en 1, acondicionador, jabón y body milk para una experiencia más redonda, más cuidada y con mayor valor percibido.",
+        "longDescription": "Pack de upgrade para quien quiere una experiencia más redonda. Cuatro pasos esenciales para el cuidado diario en formato 300ml.",
         "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
       }
     },
@@ -26,13 +107,21 @@
       "id": "ritual-plenitud-1l",
       "line": "cosmetica",
       "shopifyHandle": "ritual-plenitud-1-ltr",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Refugio",
-      "includes": ["champu-2-en-1", "acondicionador-capilar", "jabon-manos-cuerpo", "body-milk"],
+      "includes": [
+        "champu-2-en-1",
+        "acondicionador-capilar",
+        "jabon-manos-cuerpo",
+        "body-milk"
+      ],
       "format": "1 L",
       "discountPercent": 15,
       "visible": true,
-      "basePriceEUR": 53.60,
+      "basePriceEUR": 53.6,
       "es": {
         "name": "Ritual Plenitud",
         "nameMain": "Ritual",
@@ -41,6 +130,79 @@
         "shortDescription": "La rutina más completa de cabello y piel en formato familiar de 1 litro. Para hogares con uso intenso y mejor relación calidad-precio.",
         "longDescription": "Mismos productos del Ritual Plenitud en formato grande: ahorro y menos residuos.",
         "promise": "Cuidado completo, formato familiar.",
+        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca.",
+        "slug": "plenitud-1l"
+      },
+      "en": {
+        "name": "Ritual Fulfillment 1L",
+        "subtitle": "The most complete cosmetic care, family format",
+        "slug": "fulfillment-1l",
+        "promise": "Hair and skin in refuge, lasting longer",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Fulfillment 1L",
+        "shortDescription": "La rutina más completa de cabello y piel en formato familiar de 1 litro. Para hogares con uso intenso y mejor relación calidad-precio.",
+        "longDescription": "Mismos productos del Ritual Plenitud en formato grande: ahorro y menos residuos.",
+        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+      },
+      "fr": {
+        "name": "Rituel Plénitude 1L",
+        "subtitle": "Le soin cosmétique le plus complet, format famille",
+        "slug": "plenitude-1l",
+        "promise": "Cheveux et peau au refuge, longue durée",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Plénitude 1L",
+        "shortDescription": "La rutina más completa de cabello y piel en formato familiar de 1 litro. Para hogares con uso intenso y mejor relación calidad-precio.",
+        "longDescription": "Mismos productos del Ritual Plenitud en formato grande: ahorro y menos residuos.",
+        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+      },
+      "de": {
+        "name": "Ritual Fülle 1L",
+        "subtitle": "Die vollständigste Pflege, Familienformat",
+        "slug": "fuelle-1l",
+        "promise": "Haar und Haut in Geborgenheit, länger",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Fülle 1L",
+        "shortDescription": "La rutina más completa de cabello y piel en formato familiar de 1 litro. Para hogares con uso intenso y mejor relación calidad-precio.",
+        "longDescription": "Mismos productos del Ritual Plenitud en formato grande: ahorro y menos residuos.",
+        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+      },
+      "it": {
+        "name": "Rituale Pienezza 1L",
+        "subtitle": "La cura cosmetica più completa, formato famiglia",
+        "slug": "pienezza-1l",
+        "promise": "Capelli e pelle in rifugio, dura di più",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Pienezza 1L",
+        "shortDescription": "La rutina más completa de cabello y piel en formato familiar de 1 litro. Para hogares con uso intenso y mejor relación calidad-precio.",
+        "longDescription": "Mismos productos del Ritual Plenitud en formato grande: ahorro y menos residuos.",
+        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+      },
+      "nl": {
+        "name": "Ritueel Volheid 1L",
+        "subtitle": "De meest complete verzorging, familieformaat",
+        "slug": "volheid-1l",
+        "promise": "Haar en huid in toevlucht, langer mee",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Volheid 1L",
+        "shortDescription": "La rutina más completa de cabello y piel en formato familiar de 1 litro. Para hogares con uso intenso y mejor relación calidad-precio.",
+        "longDescription": "Mismos productos del Ritual Plenitud en formato grande: ahorro y menos residuos.",
+        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+      },
+      "pt": {
+        "name": "Ritual Plenitude 1L",
+        "subtitle": "O cuidado cosmético mais completo, formato família",
+        "slug": "plenitude-1l",
+        "promise": "Cabelo e pele em refúgio, dura mais",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Plenitude 1L",
+        "shortDescription": "La rutina más completa de cabello y piel en formato familiar de 1 litro. Para hogares con uso intenso y mejor relación calidad-precio.",
+        "longDescription": "Mismos productos del Ritual Plenitud en formato grande: ahorro y menos residuos.",
         "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
       }
     },
@@ -48,13 +210,20 @@
       "id": "ritual-ducha-perfecta-300",
       "line": "cosmetica",
       "shopifyHandle": "pack-esenciales-diarios",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Refugio",
-      "includes": ["champu-2-en-1", "jabon-manos-cuerpo", "body-milk"],
+      "includes": [
+        "champu-2-en-1",
+        "jabon-manos-cuerpo",
+        "body-milk"
+      ],
       "format": "300 ml",
       "discountPercent": 10,
       "visible": true,
-      "basePriceEUR": 26.50,
+      "basePriceEUR": 26.5,
       "es": {
         "name": "Ritual Ducha Perfecta",
         "nameMain": "Ritual",
@@ -63,6 +232,79 @@
         "shortDescription": "Pack esencial para quienes buscan rutina simple, cómoda y completa. Champú 2 en 1, jabón y body milk en formato 300ml.",
         "longDescription": "Cabello y piel en orden con una rutina clara de uso diario.",
         "promise": "Estar bien en tu piel.",
+        "story": "Me quito el día de encima, reinicio y sello el cuidado.",
+        "slug": "ducha-perfecta-300"
+      },
+      "en": {
+        "name": "Ritual Perfect Shower",
+        "subtitle": "Three steps. One feeling: being well in your skin",
+        "slug": "perfect-shower-300",
+        "promise": "Hair and skin in order with a clear daily routine",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Perfect Shower",
+        "shortDescription": "Pack esencial para quienes buscan rutina simple, cómoda y completa. Champú 2 en 1, jabón y body milk en formato 300ml.",
+        "longDescription": "Cabello y piel en orden con una rutina clara de uso diario.",
+        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+      },
+      "fr": {
+        "name": "Rituel Douche Parfaite",
+        "subtitle": "Trois gestes. Une sensation : bien dans sa peau",
+        "slug": "douche-parfaite-300",
+        "promise": "Cheveux et peau en ordre avec une routine claire",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Douche Parfaite",
+        "shortDescription": "Pack esencial para quienes buscan rutina simple, cómoda y completa. Champú 2 en 1, jabón y body milk en formato 300ml.",
+        "longDescription": "Cabello y piel en orden con una rutina clara de uso diario.",
+        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+      },
+      "de": {
+        "name": "Ritual Perfekte Dusche",
+        "subtitle": "Drei Schritte. Ein Gefühl: wohl in der Haut",
+        "slug": "perfekte-dusche-300",
+        "promise": "Haar und Haut in Ordnung mit klarer Tagesroutine",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Perfekte Dusche",
+        "shortDescription": "Pack esencial para quienes buscan rutina simple, cómoda y completa. Champú 2 en 1, jabón y body milk en formato 300ml.",
+        "longDescription": "Cabello y piel en orden con una rutina clara de uso diario.",
+        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+      },
+      "it": {
+        "name": "Rituale Doccia Perfetta",
+        "subtitle": "Tre passi. Una sensazione: stare bene nella pelle",
+        "slug": "doccia-perfetta-300",
+        "promise": "Capelli e pelle in ordine con routine chiara",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Doccia Perfetta",
+        "shortDescription": "Pack esencial para quienes buscan rutina simple, cómoda y completa. Champú 2 en 1, jabón y body milk en formato 300ml.",
+        "longDescription": "Cabello y piel en orden con una rutina clara de uso diario.",
+        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+      },
+      "nl": {
+        "name": "Ritueel Perfecte Douche",
+        "subtitle": "Drie stappen. Eén gevoel: goed in je vel",
+        "slug": "perfecte-douche-300",
+        "promise": "Haar en huid in orde met heldere routine",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Perfecte Douche",
+        "shortDescription": "Pack esencial para quienes buscan rutina simple, cómoda y completa. Champú 2 en 1, jabón y body milk en formato 300ml.",
+        "longDescription": "Cabello y piel en orden con una rutina clara de uso diario.",
+        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+      },
+      "pt": {
+        "name": "Ritual Duche Perfeito",
+        "subtitle": "Três passos. Uma sensação: estar bem na sua pele",
+        "slug": "duche-perfeito-300",
+        "promise": "Cabelo e pele em ordem com rotina clara",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Duche Perfeito",
+        "shortDescription": "Pack esencial para quienes buscan rutina simple, cómoda y completa. Champú 2 en 1, jabón y body milk en formato 300ml.",
+        "longDescription": "Cabello y piel en orden con una rutina clara de uso diario.",
         "story": "Me quito el día de encima, reinicio y sello el cuidado."
       }
     },
@@ -70,9 +312,16 @@
       "id": "ritual-ducha-perfecta-1l",
       "line": "cosmetica",
       "shopifyHandle": "ritual-ducha-perfecta-1-ltr",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Refugio",
-      "includes": ["champu-2-en-1", "jabon-manos-cuerpo", "body-milk"],
+      "includes": [
+        "champu-2-en-1",
+        "jabon-manos-cuerpo",
+        "body-milk"
+      ],
       "format": "1 L",
       "discountPercent": 12,
       "visible": true,
@@ -85,6 +334,79 @@
         "shortDescription": "Los tres esenciales de la ducha en 1 litro. Para hogares que han hecho de Natura su rutina diaria.",
         "longDescription": "Mismo trío del Ritual Ducha Perfecta, formato grande para uso prolongado.",
         "promise": "Tu rutina diaria, sin interrupciones.",
+        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible.",
+        "slug": "ducha-perfecta-1l"
+      },
+      "en": {
+        "name": "Ritual Perfect Shower 1L",
+        "subtitle": "Three steps in family format, lasting longer",
+        "slug": "perfect-shower-1l",
+        "promise": "A complete daily ritual that lasts",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Perfect Shower 1L",
+        "shortDescription": "Los tres esenciales de la ducha en 1 litro. Para hogares que han hecho de Natura su rutina diaria.",
+        "longDescription": "Mismo trío del Ritual Ducha Perfecta, formato grande para uso prolongado.",
+        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+      },
+      "fr": {
+        "name": "Rituel Douche Parfaite 1L",
+        "subtitle": "Trois gestes en format famille, longue durée",
+        "slug": "douche-parfaite-1l",
+        "promise": "Un rituel quotidien complet qui dure",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Douche Parfaite 1L",
+        "shortDescription": "Los tres esenciales de la ducha en 1 litro. Para hogares que han hecho de Natura su rutina diaria.",
+        "longDescription": "Mismo trío del Ritual Ducha Perfecta, formato grande para uso prolongado.",
+        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+      },
+      "de": {
+        "name": "Ritual Perfekte Dusche 1L",
+        "subtitle": "Drei Schritte im Familienformat, länger",
+        "slug": "perfekte-dusche-1l",
+        "promise": "Ein vollständiges Tagesritual, das hält",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Perfekte Dusche 1L",
+        "shortDescription": "Los tres esenciales de la ducha en 1 litro. Para hogares que han hecho de Natura su rutina diaria.",
+        "longDescription": "Mismo trío del Ritual Ducha Perfecta, formato grande para uso prolongado.",
+        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+      },
+      "it": {
+        "name": "Rituale Doccia Perfetta 1L",
+        "subtitle": "Tre passi in formato famiglia, dura di più",
+        "slug": "doccia-perfetta-1l",
+        "promise": "Un rituale quotidiano completo che dura",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Doccia Perfetta 1L",
+        "shortDescription": "Los tres esenciales de la ducha en 1 litro. Para hogares que han hecho de Natura su rutina diaria.",
+        "longDescription": "Mismo trío del Ritual Ducha Perfecta, formato grande para uso prolongado.",
+        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+      },
+      "nl": {
+        "name": "Ritueel Perfecte Douche 1L",
+        "subtitle": "Drie stappen in familieformaat, langer mee",
+        "slug": "perfecte-douche-1l",
+        "promise": "Een volledig dagelijks ritueel dat blijft",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Perfecte Douche 1L",
+        "shortDescription": "Los tres esenciales de la ducha en 1 litro. Para hogares que han hecho de Natura su rutina diaria.",
+        "longDescription": "Mismo trío del Ritual Ducha Perfecta, formato grande para uso prolongado.",
+        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+      },
+      "pt": {
+        "name": "Ritual Duche Perfeito 1L",
+        "subtitle": "Três passos em formato família, dura mais",
+        "slug": "duche-perfeito-1l",
+        "promise": "Um ritual diário completo que dura",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Duche Perfeito 1L",
+        "shortDescription": "Los tres esenciales de la ducha en 1 litro. Para hogares que han hecho de Natura su rutina diaria.",
+        "longDescription": "Mismo trío del Ritual Ducha Perfecta, formato grande para uso prolongado.",
         "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
       }
     },
@@ -92,13 +414,19 @@
       "id": "ritual-rendimiento-300",
       "line": "cosmetica",
       "shopifyHandle": "pack-deportivo-higiene-cuidado",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Energía",
-      "includes": ["total-body-wash", "body-milk"],
+      "includes": [
+        "total-body-wash",
+        "body-milk"
+      ],
       "format": "300 ml",
       "discountPercent": 8,
       "visible": true,
-      "basePriceEUR": 18.00,
+      "basePriceEUR": 18.0,
       "es": {
         "name": "Ritual Rendimiento",
         "nameMain": "Ritual",
@@ -107,6 +435,79 @@
         "shortDescription": "Ritual rápido de ducha e hidratación con sensación de frescor y recuperación. Total Body Wash 3 en 1 y Body Milk en formato 300ml.",
         "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
         "promise": "Limpiar, hidratar, seguir.",
+        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones.",
+        "slug": "rendimiento-300"
+      },
+      "en": {
+        "name": "Ritual Performance",
+        "subtitle": "Your post-gym in 2 products: cleanse, hydrate, go on",
+        "slug": "performance-300",
+        "promise": "Coming back to yourself in two steps",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Performance",
+        "shortDescription": "Ritual rápido de ducha e hidratación con sensación de frescor y recuperación. Total Body Wash 3 en 1 y Body Milk en formato 300ml.",
+        "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
+        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+      },
+      "fr": {
+        "name": "Rituel Performance",
+        "subtitle": "Votre post-gym en 2 produits : laver, hydrater, repartir",
+        "slug": "performance-300",
+        "promise": "Revenir à vous en deux gestes",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Performance",
+        "shortDescription": "Ritual rápido de ducha e hidratación con sensación de frescor y recuperación. Total Body Wash 3 en 1 y Body Milk en formato 300ml.",
+        "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
+        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+      },
+      "de": {
+        "name": "Ritual Leistung",
+        "subtitle": "Dein Post-Gym in 2 Produkten: reinigen, pflegen, weiter",
+        "slug": "leistung-300",
+        "promise": "Zu dir zurückkehren in zwei Schritten",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Leistung",
+        "shortDescription": "Ritual rápido de ducha e hidratación con sensación de frescor y recuperación. Total Body Wash 3 en 1 y Body Milk en formato 300ml.",
+        "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
+        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+      },
+      "it": {
+        "name": "Rituale Rendimento",
+        "subtitle": "Il tuo post-gym in 2 prodotti: pulire, idratare, ripartire",
+        "slug": "rendimento-300",
+        "promise": "Tornare a te in due passaggi",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Rendimento",
+        "shortDescription": "Ritual rápido de ducha e hidratación con sensación de frescor y recuperación. Total Body Wash 3 en 1 y Body Milk en formato 300ml.",
+        "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
+        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+      },
+      "nl": {
+        "name": "Ritueel Performance",
+        "subtitle": "Jouw post-gym in 2 producten: reinigen, hydrateren, doorgaan",
+        "slug": "performance-300",
+        "promise": "Terugkomen bij jezelf in twee stappen",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Performance",
+        "shortDescription": "Ritual rápido de ducha e hidratación con sensación de frescor y recuperación. Total Body Wash 3 en 1 y Body Milk en formato 300ml.",
+        "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
+        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+      },
+      "pt": {
+        "name": "Ritual Desempenho",
+        "subtitle": "O seu pós-ginásio em 2 produtos: lavar, hidratar, seguir",
+        "slug": "desempenho-300",
+        "promise": "Voltar a si em dois passos",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Desempenho",
+        "shortDescription": "Ritual rápido de ducha e hidratación con sensación de frescor y recuperación. Total Body Wash 3 en 1 y Body Milk en formato 300ml.",
+        "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
         "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
       }
     },
@@ -114,13 +515,19 @@
       "id": "ritual-rendimiento-1l",
       "line": "cosmetica",
       "shopifyHandle": "ritual-rendimiento-1ltr",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Energía",
-      "includes": ["total-body-wash", "body-milk"],
+      "includes": [
+        "total-body-wash",
+        "body-milk"
+      ],
       "format": "1 L",
       "discountPercent": 12,
       "visible": true,
-      "basePriceEUR": 33.50,
+      "basePriceEUR": 33.5,
       "es": {
         "name": "Ritual Rendimiento",
         "nameMain": "Ritual",
@@ -129,6 +536,79 @@
         "shortDescription": "Total Body Wash y Body Milk en 1 litro. Para deportistas habituales y hogares con vida activa.",
         "longDescription": "El Ritual Rendimiento en formato grande: dos productos, mucho rendimiento.",
         "promise": "Tu ritual post-actividad, sin pausas.",
+        "story": "Limpia, hidrata y sigue. En grande.",
+        "slug": "rendimiento-1l"
+      },
+      "en": {
+        "name": "Ritual Performance 1L",
+        "subtitle": "Post-gym ritual in family format, longer-lasting",
+        "slug": "performance-1l",
+        "promise": "Active routine that does not run out",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Performance 1L",
+        "shortDescription": "Total Body Wash y Body Milk en 1 litro. Para deportistas habituales y hogares con vida activa.",
+        "longDescription": "El Ritual Rendimiento en formato grande: dos productos, mucho rendimiento.",
+        "story": "Limpia, hidrata y sigue. En grande."
+      },
+      "fr": {
+        "name": "Rituel Performance 1L",
+        "subtitle": "Rituel post-gym en format famille, longue durée",
+        "slug": "performance-1l",
+        "promise": "Routine active qui ne s'épuise pas",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Performance 1L",
+        "shortDescription": "Total Body Wash y Body Milk en 1 litro. Para deportistas habituales y hogares con vida activa.",
+        "longDescription": "El Ritual Rendimiento en formato grande: dos productos, mucho rendimiento.",
+        "story": "Limpia, hidrata y sigue. En grande."
+      },
+      "de": {
+        "name": "Ritual Leistung 1L",
+        "subtitle": "Post-Gym-Ritual im Familienformat, länger",
+        "slug": "leistung-1l",
+        "promise": "Aktive Routine, die nicht ausgeht",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Leistung 1L",
+        "shortDescription": "Total Body Wash y Body Milk en 1 litro. Para deportistas habituales y hogares con vida activa.",
+        "longDescription": "El Ritual Rendimiento en formato grande: dos productos, mucho rendimiento.",
+        "story": "Limpia, hidrata y sigue. En grande."
+      },
+      "it": {
+        "name": "Rituale Rendimento 1L",
+        "subtitle": "Rituale post-palestra in formato famiglia, dura di più",
+        "slug": "rendimento-1l",
+        "promise": "Routine attiva che non finisce",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Rendimento 1L",
+        "shortDescription": "Total Body Wash y Body Milk en 1 litro. Para deportistas habituales y hogares con vida activa.",
+        "longDescription": "El Ritual Rendimiento en formato grande: dos productos, mucho rendimiento.",
+        "story": "Limpia, hidrata y sigue. En grande."
+      },
+      "nl": {
+        "name": "Ritueel Performance 1L",
+        "subtitle": "Post-gym ritueel in familieformaat, langer mee",
+        "slug": "performance-1l",
+        "promise": "Actieve routine die niet opraakt",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Performance 1L",
+        "shortDescription": "Total Body Wash y Body Milk en 1 litro. Para deportistas habituales y hogares con vida activa.",
+        "longDescription": "El Ritual Rendimiento en formato grande: dos productos, mucho rendimiento.",
+        "story": "Limpia, hidrata y sigue. En grande."
+      },
+      "pt": {
+        "name": "Ritual Desempenho 1L",
+        "subtitle": "Ritual pós-ginásio em formato família, dura mais",
+        "slug": "desempenho-1l",
+        "promise": "Rotina ativa que não acaba",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Desempenho 1L",
+        "shortDescription": "Total Body Wash y Body Milk en 1 litro. Para deportistas habituales y hogares con vida activa.",
+        "longDescription": "El Ritual Rendimiento en formato grande: dos productos, mucho rendimiento.",
         "story": "Limpia, hidrata y sigue. En grande."
       }
     },
@@ -136,9 +616,17 @@
       "id": "ritual-para-ella",
       "line": "cosmetica",
       "shopifyHandle": "ritual-para-ella",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Refugio",
-      "includes": ["champu-mujer", "acondicionador-mujer", "gel-manos-cuerpo-mujer", "body-milk-woman"],
+      "includes": [
+        "champu-mujer",
+        "acondicionador-mujer",
+        "gel-manos-cuerpo-mujer",
+        "body-milk-woman"
+      ],
       "format": "300 ml",
       "discountPercent": 12,
       "visible": true,
@@ -150,6 +638,79 @@
         "shortDescription": "La cápsula femenina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de naranja fresca con Citrus Aurantium. Coherencia sensorial total.",
         "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
         "promise": "Mimo diario con coherencia sensorial.",
+        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento.",
+        "slug": "para-ella"
+      },
+      "en": {
+        "name": "Ritual for Her",
+        "subtitle": "Daily refuge, soft femininity, complete personal routine",
+        "slug": "for-her",
+        "promise": "Daily care, beautiful skin, light perfumed finish",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "for Her",
+        "shortDescription": "La cápsula femenina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de naranja fresca con Citrus Aurantium. Coherencia sensorial total.",
+        "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
+        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+      },
+      "fr": {
+        "name": "Rituel Pour Elle",
+        "subtitle": "Refuge quotidien, féminité douce, routine personnelle complète",
+        "slug": "pour-elle",
+        "promise": "Soin quotidien, peau belle, fini léger parfumé",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Pour Elle",
+        "shortDescription": "La cápsula femenina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de naranja fresca con Citrus Aurantium. Coherencia sensorial total.",
+        "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
+        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+      },
+      "de": {
+        "name": "Ritual für Sie",
+        "subtitle": "Tägliches Refugium, sanfte Weiblichkeit, komplette Routine",
+        "slug": "fuer-sie",
+        "promise": "Tägliche Pflege, schöne Haut, leichtes parfümiertes Finish",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "für Sie",
+        "shortDescription": "La cápsula femenina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de naranja fresca con Citrus Aurantium. Coherencia sensorial total.",
+        "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
+        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+      },
+      "it": {
+        "name": "Rituale Per Lei",
+        "subtitle": "Rifugio quotidiano, femminilità soft, routine completa",
+        "slug": "per-lei",
+        "promise": "Cura quotidiana, pelle bella, finitura leggera profumata",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Per Lei",
+        "shortDescription": "La cápsula femenina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de naranja fresca con Citrus Aurantium. Coherencia sensorial total.",
+        "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
+        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+      },
+      "nl": {
+        "name": "Ritueel Voor Haar",
+        "subtitle": "Dagelijkse toevlucht, zachte vrouwelijkheid, complete routine",
+        "slug": "voor-haar",
+        "promise": "Dagelijkse zorg, mooie huid, licht parfumde afwerking",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Voor Haar",
+        "shortDescription": "La cápsula femenina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de naranja fresca con Citrus Aurantium. Coherencia sensorial total.",
+        "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
+        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+      },
+      "pt": {
+        "name": "Ritual Para Ela",
+        "subtitle": "Refúgio diário, feminilidade suave, rotina completa",
+        "slug": "para-ela",
+        "promise": "Cuidado diário, pele bonita, acabamento leve perfumado",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Para Ela",
+        "shortDescription": "La cápsula femenina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de naranja fresca con Citrus Aurantium. Coherencia sensorial total.",
+        "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
         "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
       }
     },
@@ -157,9 +718,17 @@
       "id": "ritual-para-el",
       "line": "cosmetica",
       "shopifyHandle": "ritual-para-el",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Energía",
-      "includes": ["champu-hombre", "acondicionador-hombre", "gel-manos-cuerpo-hombre", "body-milk-man"],
+      "includes": [
+        "champu-hombre",
+        "acondicionador-hombre",
+        "gel-manos-cuerpo-hombre",
+        "body-milk-man"
+      ],
       "format": "300 ml",
       "discountPercent": 12,
       "visible": true,
@@ -171,6 +740,79 @@
         "shortDescription": "La cápsula masculina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de ámbar fresco. Coherencia total de pies a cabeza.",
         "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
         "promise": "Rutina masculina con carácter ámbar.",
+        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección.",
+        "slug": "para-el"
+      },
+      "en": {
+        "name": "Ritual for Him",
+        "subtitle": "Clean, fresh, practical and well-resolved",
+        "slug": "for-him",
+        "promise": "Simple shower routine, fresh and ready to go",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "for Him",
+        "shortDescription": "La cápsula masculina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de ámbar fresco. Coherencia total de pies a cabeza.",
+        "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
+        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+      },
+      "fr": {
+        "name": "Rituel Pour Lui",
+        "subtitle": "Propre, frais, pratique et bien résolu",
+        "slug": "pour-lui",
+        "promise": "Routine douche simple, fraîche et prêt à partir",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Pour Lui",
+        "shortDescription": "La cápsula masculina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de ámbar fresco. Coherencia total de pies a cabeza.",
+        "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
+        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+      },
+      "de": {
+        "name": "Ritual für Ihn",
+        "subtitle": "Sauber, frisch, praktisch und gut gelöst",
+        "slug": "fuer-ihn",
+        "promise": "Einfache Duschroutine, frisch und bereit",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "für Ihn",
+        "shortDescription": "La cápsula masculina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de ámbar fresco. Coherencia total de pies a cabeza.",
+        "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
+        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+      },
+      "it": {
+        "name": "Rituale Per Lui",
+        "subtitle": "Pulito, fresco, pratico e ben risolto",
+        "slug": "per-lui",
+        "promise": "Routine doccia semplice, fresca e pronta",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Per Lui",
+        "shortDescription": "La cápsula masculina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de ámbar fresco. Coherencia total de pies a cabeza.",
+        "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
+        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+      },
+      "nl": {
+        "name": "Ritueel Voor Hem",
+        "subtitle": "Schoon, fris, praktisch en goed opgelost",
+        "slug": "voor-hem",
+        "promise": "Eenvoudige doucheroutine, fris en klaar",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Voor Hem",
+        "shortDescription": "La cápsula masculina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de ámbar fresco. Coherencia total de pies a cabeza.",
+        "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
+        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+      },
+      "pt": {
+        "name": "Ritual Para Ele",
+        "subtitle": "Limpo, fresco, prático e bem resolvido",
+        "slug": "para-ele",
+        "promise": "Rotina de duche simples, fresca e pronto",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Para Ele",
+        "shortDescription": "La cápsula masculina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de ámbar fresco. Coherencia total de pies a cabeza.",
+        "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
         "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
       }
     },
@@ -178,13 +820,19 @@
       "id": "ritual-vajilla-perfecta",
       "line": "hogar",
       "shopifyHandle": "pack-cuidado-lavavajilla",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Energía",
-      "includes": ["lavavajillas-maquina", "abrillantador"],
+      "includes": [
+        "lavavajillas-maquina",
+        "abrillantador"
+      ],
       "format": "1 L",
       "discountPercent": 8,
       "visible": true,
-      "basePriceEUR": 16.70,
+      "basePriceEUR": 16.7,
       "es": {
         "name": "Ritual Vajilla Perfecta",
         "nameMain": "Ritual",
@@ -193,6 +841,79 @@
         "shortDescription": "Ritual funcional para vender eficiencia, brillo y practicidad. Lavavajillas máquina y abrillantador en 1 litro.",
         "longDescription": "Cargar, activar y abrir con sensación de listo.",
         "promise": "Orden sin drama.",
+        "story": "Cierra la cocina, abre la máquina, disfruta del brillo.",
+        "slug": "vajilla-perfecta"
+      },
+      "en": {
+        "name": "Ritual Perfect Dishes",
+        "subtitle": "Order without drama and impeccable result",
+        "slug": "perfect-dishes",
+        "promise": "Load, run, open with that done feeling",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Perfect Dishes",
+        "shortDescription": "Ritual funcional para vender eficiencia, brillo y practicidad. Lavavajillas máquina y abrillantador en 1 litro.",
+        "longDescription": "Cargar, activar y abrir con sensación de listo.",
+        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+      },
+      "fr": {
+        "name": "Rituel Vaisselle Parfaite",
+        "subtitle": "Ordre sans drame et résultat impeccable",
+        "slug": "vaisselle-parfaite",
+        "promise": "Charger, lancer, ouvrir avec sensation de fini",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Vaisselle Parfaite",
+        "shortDescription": "Ritual funcional para vender eficiencia, brillo y practicidad. Lavavajillas máquina y abrillantador en 1 litro.",
+        "longDescription": "Cargar, activar y abrir con sensación de listo.",
+        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+      },
+      "de": {
+        "name": "Ritual Perfektes Geschirr",
+        "subtitle": "Ordnung ohne Drama und makelloses Ergebnis",
+        "slug": "perfektes-geschirr",
+        "promise": "Beladen, starten, öffnen mit Fertig-Gefühl",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Perfektes Geschirr",
+        "shortDescription": "Ritual funcional para vender eficiencia, brillo y practicidad. Lavavajillas máquina y abrillantador en 1 litro.",
+        "longDescription": "Cargar, activar y abrir con sensación de listo.",
+        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+      },
+      "it": {
+        "name": "Rituale Stoviglie Perfette",
+        "subtitle": "Ordine senza drammi e risultato impeccabile",
+        "slug": "stoviglie-perfette",
+        "promise": "Caricare, avviare, aprire con sensazione di fatto",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Stoviglie Perfette",
+        "shortDescription": "Ritual funcional para vender eficiencia, brillo y practicidad. Lavavajillas máquina y abrillantador en 1 litro.",
+        "longDescription": "Cargar, activar y abrir con sensación de listo.",
+        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+      },
+      "nl": {
+        "name": "Ritueel Perfecte Vaat",
+        "subtitle": "Orde zonder gedoe en onberispelijk resultaat",
+        "slug": "perfecte-vaat",
+        "promise": "Inladen, starten, openen met klaar-gevoel",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Perfecte Vaat",
+        "shortDescription": "Ritual funcional para vender eficiencia, brillo y practicidad. Lavavajillas máquina y abrillantador en 1 litro.",
+        "longDescription": "Cargar, activar y abrir con sensación de listo.",
+        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+      },
+      "pt": {
+        "name": "Ritual Loiça Perfeita",
+        "subtitle": "Ordem sem dramas e resultado impecável",
+        "slug": "loica-perfeita",
+        "promise": "Carregar, ligar, abrir com sensação de feito",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Loiça Perfeita",
+        "shortDescription": "Ritual funcional para vender eficiencia, brillo y practicidad. Lavavajillas máquina y abrillantador en 1 litro.",
+        "longDescription": "Cargar, activar y abrir con sensación de listo.",
         "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
       }
     },
@@ -200,9 +921,15 @@
       "id": "ritual-bano-impecable",
       "line": "hogar",
       "shopifyHandle": "pack-bano-esencial",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Calma",
-      "includes": ["limpiador-banos", "limpiacristales"],
+      "includes": [
+        "limpiador-banos",
+        "limpiacristales"
+      ],
       "format": "1 L",
       "discountPercent": 8,
       "visible": true,
@@ -215,6 +942,79 @@
         "shortDescription": "Ritual de mantenimiento rápido con lectura visual inmediata. Limpiador de baños y limpiacristales en 1 litro.",
         "longDescription": "Pocos pasos, efecto limpio y sensación de espacio renovado.",
         "promise": "Baño que invita a cuidarte.",
+        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos.",
+        "slug": "bano-impecable"
+      },
+      "en": {
+        "name": "Ritual Impeccable Bathroom",
+        "subtitle": "A bathroom that invites you to take care of yourself",
+        "slug": "impeccable-bathroom",
+        "promise": "Few steps, clean effect, renewed space",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Impeccable Bathroom",
+        "shortDescription": "Ritual de mantenimiento rápido con lectura visual inmediata. Limpiador de baños y limpiacristales en 1 litro.",
+        "longDescription": "Pocos pasos, efecto limpio y sensación de espacio renovado.",
+        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+      },
+      "fr": {
+        "name": "Rituel Salle de Bain Impeccable",
+        "subtitle": "Une salle de bain qui invite au bien-être",
+        "slug": "salle-de-bain-impeccable",
+        "promise": "Peu de gestes, effet propre, espace renouvelé",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Salle de Bain Impeccable",
+        "shortDescription": "Ritual de mantenimiento rápido con lectura visual inmediata. Limpiador de baños y limpiacristales en 1 litro.",
+        "longDescription": "Pocos pasos, efecto limpio y sensación de espacio renovado.",
+        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+      },
+      "de": {
+        "name": "Ritual Makelloses Bad",
+        "subtitle": "Ein Bad, das zur Selbstpflege einlädt",
+        "slug": "makelloses-bad",
+        "promise": "Wenige Schritte, sauberer Effekt, erneuerter Raum",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Makelloses Bad",
+        "shortDescription": "Ritual de mantenimiento rápido con lectura visual inmediata. Limpiador de baños y limpiacristales en 1 litro.",
+        "longDescription": "Pocos pasos, efecto limpio y sensación de espacio renovado.",
+        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+      },
+      "it": {
+        "name": "Rituale Bagno Impeccabile",
+        "subtitle": "Un bagno che invita a prendersi cura di sé",
+        "slug": "bagno-impeccabile",
+        "promise": "Pochi gesti, effetto pulito, spazio rinnovato",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Bagno Impeccabile",
+        "shortDescription": "Ritual de mantenimiento rápido con lectura visual inmediata. Limpiador de baños y limpiacristales en 1 litro.",
+        "longDescription": "Pocos pasos, efecto limpio y sensación de espacio renovado.",
+        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+      },
+      "nl": {
+        "name": "Ritueel Onberispelijke Badkamer",
+        "subtitle": "Een badkamer die uitnodigt tot zelfzorg",
+        "slug": "onberispelijke-badkamer",
+        "promise": "Weinig stappen, schoon effect, vernieuwde ruimte",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Onberispelijke Badkamer",
+        "shortDescription": "Ritual de mantenimiento rápido con lectura visual inmediata. Limpiador de baños y limpiacristales en 1 litro.",
+        "longDescription": "Pocos pasos, efecto limpio y sensación de espacio renovado.",
+        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+      },
+      "pt": {
+        "name": "Ritual Casa de Banho Impecável",
+        "subtitle": "Uma casa de banho que convida ao cuidado pessoal",
+        "slug": "casa-de-banho-impecavel",
+        "promise": "Poucos passos, efeito limpo, espaço renovado",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Casa de Banho Impecável",
+        "shortDescription": "Ritual de mantenimiento rápido con lectura visual inmediata. Limpiador de baños y limpiacristales en 1 litro.",
+        "longDescription": "Pocos pasos, efecto limpio y sensación de espacio renovado.",
         "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
       }
     },
@@ -222,13 +1022,20 @@
       "id": "ritual-cocina-impecable",
       "line": "hogar",
       "shopifyHandle": "pack-cocina-impecable",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Conexión",
-      "includes": ["lavavajillas-manual", "desengrasante", "multisuperficies"],
+      "includes": [
+        "lavavajillas-manual",
+        "desengrasante",
+        "multisuperficies"
+      ],
       "format": "1 L",
       "discountPercent": 10,
       "visible": true,
-      "basePriceEUR": 20.90,
+      "basePriceEUR": 20.9,
       "es": {
         "name": "Ritual Cocina Impecable",
         "nameMain": "Ritual",
@@ -237,6 +1044,79 @@
         "shortDescription": "Pack de cocina para hogares que quieren limpieza práctica con sensación de control. Lavavajillas manual, desengrasante y multisuperficies en 1 litro.",
         "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
         "promise": "Cerrar la cocina y respirar.",
+        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio.",
+        "slug": "cocina-impecable"
+      },
+      "en": {
+        "name": "Ritual Impeccable Kitchen",
+        "subtitle": "Closing the kitchen and breathing again",
+        "slug": "impeccable-kitchen",
+        "promise": "Dishes, surface and grease solved in one gesture",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Impeccable Kitchen",
+        "shortDescription": "Pack de cocina para hogares que quieren limpieza práctica con sensación de control. Lavavajillas manual, desengrasante y multisuperficies en 1 litro.",
+        "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
+        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+      },
+      "fr": {
+        "name": "Rituel Cuisine Impeccable",
+        "subtitle": "Fermer la cuisine et respirer à nouveau",
+        "slug": "cuisine-impeccable",
+        "promise": "Vaisselle, plan et graisse résolus en un geste",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Cuisine Impeccable",
+        "shortDescription": "Pack de cocina para hogares que quieren limpieza práctica con sensación de control. Lavavajillas manual, desengrasante y multisuperficies en 1 litro.",
+        "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
+        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+      },
+      "de": {
+        "name": "Ritual Makellose Küche",
+        "subtitle": "Die Küche schließen und wieder atmen",
+        "slug": "makellose-kueche",
+        "promise": "Geschirr, Fläche und Fett in einer Geste gelöst",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Makellose Küche",
+        "shortDescription": "Pack de cocina para hogares que quieren limpieza práctica con sensación de control. Lavavajillas manual, desengrasante y multisuperficies en 1 litro.",
+        "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
+        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+      },
+      "it": {
+        "name": "Rituale Cucina Impeccabile",
+        "subtitle": "Chiudere la cucina e tornare a respirare",
+        "slug": "cucina-impeccabile",
+        "promise": "Stoviglie, piano e grasso risolti in un gesto",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Cucina Impeccabile",
+        "shortDescription": "Pack de cocina para hogares que quieren limpieza práctica con sensación de control. Lavavajillas manual, desengrasante y multisuperficies en 1 litro.",
+        "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
+        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+      },
+      "nl": {
+        "name": "Ritueel Onberispelijke Keuken",
+        "subtitle": "De keuken sluiten en weer ademen",
+        "slug": "onberispelijke-keuken",
+        "promise": "Vaat, oppervlak en vet opgelost in één gebaar",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Onberispelijke Keuken",
+        "shortDescription": "Pack de cocina para hogares que quieren limpieza práctica con sensación de control. Lavavajillas manual, desengrasante y multisuperficies en 1 litro.",
+        "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
+        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+      },
+      "pt": {
+        "name": "Ritual Cozinha Impecável",
+        "subtitle": "Fechar a cozinha e voltar a respirar",
+        "slug": "cozinha-impecavel",
+        "promise": "Loiça, bancada e gordura resolvidos num gesto",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Cozinha Impecável",
+        "shortDescription": "Pack de cocina para hogares que quieren limpieza práctica con sensación de control. Lavavajillas manual, desengrasante y multisuperficies en 1 litro.",
+        "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
         "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
       }
     },
@@ -244,13 +1124,19 @@
       "id": "ritual-caricia",
       "line": "hogar",
       "shopifyHandle": "pack-colada-esencial",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Conexión",
-      "includes": ["detergente-ropa", "suavizante-ropa"],
+      "includes": [
+        "detergente-ropa",
+        "suavizante-ropa"
+      ],
       "format": "1 L",
       "discountPercent": 8,
       "visible": true,
-      "basePriceEUR": 18.00,
+      "basePriceEUR": 18.0,
       "es": {
         "name": "Ritual Caricia",
         "nameMain": "Ritual",
@@ -259,6 +1145,79 @@
         "shortDescription": "Cápsula emocional de colada, perfecta para cross-sell desde hogar hacia bienestar cotidiano. Detergente y suavizante en 1 litro.",
         "longDescription": "Lavar, suavizar y doblar con calma. La lavanda permanece en la ropa.",
         "promise": "Ropa suave con sensación de hogar.",
+        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla.",
+        "slug": "caricia"
+      },
+      "en": {
+        "name": "Ritual Caress",
+        "subtitle": "Soft clothes with a home-feel scent",
+        "slug": "caress",
+        "promise": "Wash, soften and fold with calm",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Caress",
+        "shortDescription": "Cápsula emocional de colada, perfecta para cross-sell desde hogar hacia bienestar cotidiano. Detergente y suavizante en 1 litro.",
+        "longDescription": "Lavar, suavizar y doblar con calma. La lavanda permanece en la ropa.",
+        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+      },
+      "fr": {
+        "name": "Rituel Caresse",
+        "subtitle": "Linge doux au parfum de maison",
+        "slug": "caresse",
+        "promise": "Laver, adoucir et plier au calme",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Caresse",
+        "shortDescription": "Cápsula emocional de colada, perfecta para cross-sell desde hogar hacia bienestar cotidiano. Detergente y suavizante en 1 litro.",
+        "longDescription": "Lavar, suavizar y doblar con calma. La lavanda permanece en la ropa.",
+        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+      },
+      "de": {
+        "name": "Ritual Liebkosung",
+        "subtitle": "Weiche Kleidung mit Heimat-Duft",
+        "slug": "liebkosung",
+        "promise": "Waschen, weichmachen und falten in Ruhe",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Liebkosung",
+        "shortDescription": "Cápsula emocional de colada, perfecta para cross-sell desde hogar hacia bienestar cotidiano. Detergente y suavizante en 1 litro.",
+        "longDescription": "Lavar, suavizar y doblar con calma. La lavanda permanece en la ropa.",
+        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+      },
+      "it": {
+        "name": "Rituale Carezza",
+        "subtitle": "Vestiti morbidi con profumo di casa",
+        "slug": "carezza",
+        "promise": "Lavare, ammorbidire e piegare con calma",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Carezza",
+        "shortDescription": "Cápsula emocional de colada, perfecta para cross-sell desde hogar hacia bienestar cotidiano. Detergente y suavizante en 1 litro.",
+        "longDescription": "Lavar, suavizar y doblar con calma. La lavanda permanece en la ropa.",
+        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+      },
+      "nl": {
+        "name": "Ritueel Liefkozing",
+        "subtitle": "Zachte kleding met huiselijke geur",
+        "slug": "liefkozing",
+        "promise": "Wassen, verzachten en vouwen in rust",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Liefkozing",
+        "shortDescription": "Cápsula emocional de colada, perfecta para cross-sell desde hogar hacia bienestar cotidiano. Detergente y suavizante en 1 litro.",
+        "longDescription": "Lavar, suavizar y doblar con calma. La lavanda permanece en la ropa.",
+        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+      },
+      "pt": {
+        "name": "Ritual Carícia",
+        "subtitle": "Roupa suave com aroma de casa",
+        "slug": "caricia",
+        "promise": "Lavar, amaciar e dobrar com calma",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Carícia",
+        "shortDescription": "Cápsula emocional de colada, perfecta para cross-sell desde hogar hacia bienestar cotidiano. Detergente y suavizante en 1 litro.",
+        "longDescription": "Lavar, suavizar y doblar con calma. La lavanda permanece en la ropa.",
         "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
       }
     },
@@ -266,13 +1225,20 @@
       "id": "ritual-gato-zen",
       "line": "mascota",
       "shopifyHandle": "pack-higiene-basica-gatos",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Calma",
-      "includes": ["champu-gatos", "limpiador-oidos-mascotas", "limpiador-ojos-mascotas"],
+      "includes": [
+        "champu-gatos",
+        "limpiador-oidos-mascotas",
+        "limpiador-ojos-mascotas"
+      ],
       "format": "300 ml",
       "discountPercent": 10,
       "visible": true,
-      "basePriceEUR": 22.20,
+      "basePriceEUR": 22.2,
       "es": {
         "name": "Ritual Gato Zen",
         "nameMain": "Ritual",
@@ -281,6 +1247,79 @@
         "shortDescription": "Cuidado completo para tu gato sin estrés. Champú felino, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal de 6 plantas.",
         "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
         "promise": "Higiene tranquila para tu gato.",
+        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino.",
+        "slug": "gato-zen"
+      },
+      "en": {
+        "name": "Ritual Zen Cat",
+        "subtitle": "Calm hygiene, less stress, shared wellbeing",
+        "slug": "zen-cat",
+        "promise": "A bath without fight, a cat in calm",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Zen Cat",
+        "shortDescription": "Cuidado completo para tu gato sin estrés. Champú felino, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal de 6 plantas.",
+        "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
+        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+      },
+      "fr": {
+        "name": "Rituel Chat Zen",
+        "subtitle": "Hygiène calme, moins de stress, bien-être partagé",
+        "slug": "chat-zen",
+        "promise": "Un bain sans bagarre, un chat tranquille",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Chat Zen",
+        "shortDescription": "Cuidado completo para tu gato sin estrés. Champú felino, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal de 6 plantas.",
+        "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
+        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+      },
+      "de": {
+        "name": "Ritual Zen-Katze",
+        "subtitle": "Ruhige Hygiene, weniger Stress, geteiltes Wohlbefinden",
+        "slug": "zen-katze",
+        "promise": "Ein Bad ohne Kampf, eine ruhige Katze",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Zen-Katze",
+        "shortDescription": "Cuidado completo para tu gato sin estrés. Champú felino, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal de 6 plantas.",
+        "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
+        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+      },
+      "it": {
+        "name": "Rituale Gatto Zen",
+        "subtitle": "Igiene calma, meno stress, benessere condiviso",
+        "slug": "gatto-zen",
+        "promise": "Un bagno senza lotta, un gatto in calma",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Gatto Zen",
+        "shortDescription": "Cuidado completo para tu gato sin estrés. Champú felino, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal de 6 plantas.",
+        "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
+        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+      },
+      "nl": {
+        "name": "Ritueel Zen Kat",
+        "subtitle": "Rustige hygiëne, minder stress, gedeeld welzijn",
+        "slug": "zen-kat",
+        "promise": "Een bad zonder gevecht, een rustige kat",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Zen Kat",
+        "shortDescription": "Cuidado completo para tu gato sin estrés. Champú felino, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal de 6 plantas.",
+        "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
+        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+      },
+      "pt": {
+        "name": "Ritual Gato Zen",
+        "subtitle": "Higiene calma, menos stress, bem-estar partilhado",
+        "slug": "gato-zen",
+        "promise": "Um banho sem luta, um gato em calma",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Gato Zen",
+        "shortDescription": "Cuidado completo para tu gato sin estrés. Champú felino, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal de 6 plantas.",
+        "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
         "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
       }
     },
@@ -288,13 +1327,20 @@
       "id": "ritual-mimo-canino",
       "line": "mascota",
       "shopifyHandle": "pack-higiene-basica-perros",
-      "availableIn": ["eu", "uk"],
+      "availableIn": [
+        "eu",
+        "uk"
+      ],
       "sensation": "Conexión",
-      "includes": ["champu-perros", "limpiador-oidos-mascotas", "limpiador-ojos-mascotas"],
+      "includes": [
+        "champu-perros",
+        "limpiador-oidos-mascotas",
+        "limpiador-ojos-mascotas"
+      ],
       "format": "300 ml",
       "discountPercent": 10,
       "visible": true,
-      "basePriceEUR": 22.20,
+      "basePriceEUR": 22.2,
       "es": {
         "name": "Ritual Mimo Canino",
         "nameMain": "Ritual",
@@ -303,6 +1349,79 @@
         "shortDescription": "Cuidado completo para tu perro. Champú Pet Repair Argán con extractos botánicos, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal.",
         "longDescription": "Si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
         "promise": "Cuidado suave para tu perro.",
+        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite.",
+        "slug": "mimo-canino"
+      },
+      "en": {
+        "name": "Ritual Pampered Pup",
+        "subtitle": "Soft care, calm at home, connection with your dog",
+        "slug": "pampered-pup",
+        "promise": "If your dog is well, you are too",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Pampered Pup",
+        "shortDescription": "Cuidado completo para tu perro. Champú Pet Repair Argán con extractos botánicos, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal.",
+        "longDescription": "Si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
+        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+      },
+      "fr": {
+        "name": "Rituel Cocoon Canin",
+        "subtitle": "Soin doux, calme à la maison, connexion avec votre chien",
+        "slug": "cocoon-canin",
+        "promise": "Si votre chien va bien, vous aussi",
+        "aiTranslation": true,
+        "nameMain": "Rituel",
+        "nameAccent": "Cocoon Canin",
+        "shortDescription": "Cuidado completo para tu perro. Champú Pet Repair Argán con extractos botánicos, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal.",
+        "longDescription": "Si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
+        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+      },
+      "de": {
+        "name": "Ritual Hundeverwöhnung",
+        "subtitle": "Sanfte Pflege, Ruhe zu Hause, Verbindung mit dem Hund",
+        "slug": "hundeverwoehnung",
+        "promise": "Geht es deinem Hund gut, geht es auch dir gut",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Hundeverwöhnung",
+        "shortDescription": "Cuidado completo para tu perro. Champú Pet Repair Argán con extractos botánicos, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal.",
+        "longDescription": "Si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
+        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+      },
+      "it": {
+        "name": "Rituale Coccole Canine",
+        "subtitle": "Cura delicata, calma a casa, connessione con il tuo cane",
+        "slug": "coccole-canine",
+        "promise": "Se il tuo cane sta bene, anche tu",
+        "aiTranslation": true,
+        "nameMain": "Rituale",
+        "nameAccent": "Coccole Canine",
+        "shortDescription": "Cuidado completo para tu perro. Champú Pet Repair Argán con extractos botánicos, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal.",
+        "longDescription": "Si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
+        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+      },
+      "nl": {
+        "name": "Ritueel Verwende Hond",
+        "subtitle": "Zachte verzorging, rust thuis, verbinding met je hond",
+        "slug": "verwende-hond",
+        "promise": "Als jouw hond goed is, ben jij dat ook",
+        "aiTranslation": true,
+        "nameMain": "Ritueel",
+        "nameAccent": "Verwende Hond",
+        "shortDescription": "Cuidado completo para tu perro. Champú Pet Repair Argán con extractos botánicos, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal.",
+        "longDescription": "Si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
+        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+      },
+      "pt": {
+        "name": "Ritual Mimo Canino",
+        "subtitle": "Cuidado suave, calma em casa, conexão com o seu cão",
+        "slug": "mimo-canino",
+        "promise": "Se o seu cão está bem, você também",
+        "aiTranslation": true,
+        "nameMain": "Ritual",
+        "nameAccent": "Mimo Canino",
+        "shortDescription": "Cuidado completo para tu perro. Champú Pet Repair Argán con extractos botánicos, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal.",
+        "longDescription": "Si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
         "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
       }
     }

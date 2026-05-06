@@ -100,31 +100,45 @@ interface ProductSchemaConfig {
   sku: string;
   brand?: string;
   category?: string;
-  price: number;
-  currency: string;
-  availability: 'InStock' | 'OutOfStock' | 'PreOrder';
+  /** Precio (opcional: si no se da, no se emite el bloque offers) */
+  price?: number;
+  currency?: string;
+  availability?: 'InStock' | 'OutOfStock' | 'PreOrder';
   url: string;
   ratingValue?: number;
   ratingCount?: number;
   ingredients?: string[];
+  /** Propiedades técnicas adicionales: ISO 16128 %, pH, PAO en meses, etc. */
+  additionalProperties?: Array<{ name: string; value: string | number; unitText?: string }>;
+  /** ¿Es un pack/bundle? -> @type ProductGroup */
+  isBundle?: boolean;
+  /** Idioma del contenido (BCP-47) */
+  inLanguage?: string;
 }
 
 export function productSchema(product: ProductSchemaConfig) {
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
-    '@type': 'Product',
+    '@type': product.isBundle ? 'ProductGroup' : 'Product',
     name: product.name,
     description: product.description,
     image: product.image,
     sku: product.sku,
     brand: { '@type': 'Brand', name: product.brand || siteConfig.name },
     manufacturer: { '@id': `${siteConfig.url}/#organization` },
-    offers: {
+    url: product.url,
+  };
+
+  if (product.inLanguage) schema.inLanguage = product.inLanguage;
+
+  // Offers — solo si hay precio (cuando Carlos cargue el Excel)
+  if (product.price !== undefined && product.currency) {
+    schema.offers = {
       '@type': 'Offer',
       url: product.url,
       priceCurrency: product.currency,
       price: product.price,
-      availability: `https://schema.org/${product.availability}`,
+      availability: `https://schema.org/${product.availability || 'InStock'}`,
       priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0],
       seller: { '@id': `${siteConfig.url}/#organization` },
       hasMerchantReturnPolicy: {
@@ -135,9 +149,21 @@ export function productSchema(product: ProductSchemaConfig) {
         returnMethod: 'https://schema.org/ReturnByMail',
         returnFees: 'https://schema.org/FreeReturn',
       },
-    },
-  };
+    };
+  }
+
   if (product.category) schema.category = product.category;
+
+  // Propiedades técnicas (ISO 16128 %, pH, PAO, etc.)
+  if (product.additionalProperties && product.additionalProperties.length > 0) {
+    schema.additionalProperty = product.additionalProperties.map((p) => ({
+      '@type': 'PropertyValue',
+      name: p.name,
+      value: p.value,
+      ...(p.unitText && { unitText: p.unitText }),
+    }));
+  }
+
   if (product.ratingValue && product.ratingCount) {
     schema.aggregateRating = {
       '@type': 'AggregateRating',
