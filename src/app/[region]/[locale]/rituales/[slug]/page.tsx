@@ -2,85 +2,195 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { buildMetadata } from '@/lib/seo/metadata';
-import { getRitualBySlug } from '@/data/rituales';
-import type { Locale, Region } from '@/lib/i18n/config';
-import { regionCurrency } from '@/lib/i18n/config';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { productSchema, breadcrumbSchema } from '@/lib/seo/schema';
-import { getCanonicalUrl, getSlug } from '@/lib/i18n/config';
+import {
+  getBundleBySlug,
+  getAllBundleRoutes,
+  getProductById,
+} from '@/data';
+import {
+  type Locale,
+  type Region,
+  regionCurrency,
+  getCanonicalUrl,
+} from '@/lib/i18n/config';
 import { siteConfig } from '@/config/site';
+import { resolveBundleImage } from '@/lib/images';
+import { BundleImage } from '@/components/catalog/BundleImage';
 
-interface Props { params: Promise<{ region: Region; locale: Locale; slug: string }>; }
+interface Props {
+  params: Promise<{ region: Region; locale: Locale; slug: string }>;
+}
+
+// ─── Static generation ────────────────────────────────────────────────────────
+
+export async function generateStaticParams() {
+  return getAllBundleRoutes().map((r) => ({
+    region: r.region,
+    locale: r.locale,
+    slug:   r.slug,
+  }));
+}
+
+export const dynamicParams = false;
+
+// ─── Metadata ────────────────────────────────────────────────────────────────
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, locale, slug } = await params;
-  const ritual = getRitualBySlug(slug, locale);
-  if (!ritual || !ritual.availableIn.includes(region)) {
-    return buildMetadata({ title: 'Producto no encontrado', description: '', region, locale, noIndex: true });
+  const bundle = getBundleBySlug(slug, locale);
+  if (!bundle || !bundle.availableIn.includes(region) || !bundle.visible) {
+    return buildMetadata({ title: 'Ritual no encontrado', description: '', region, locale, noIndex: true });
   }
+  const tr = bundle.translations[locale];
+  if (!tr) return buildMetadata({ title: bundle.translations.es?.name ?? '', description: '', region, locale });
+
   return buildMetadata({
-    title: ritual.names[locale].full,
-    description: ritual.subtitles[locale],
+    title: tr.name,
+    description: tr.subtitle,
     region,
     locale,
-    path: `${getSlug('rituales', locale)}/${slug}`,
+    path: `rituales/${slug}`,
     type: 'product',
-    keywords: ritual.ingredients.concat([ritual.category[locale]]),
+    keywords: [tr.name, 'ritual', 'Natura Esencials'],
+    image: resolveBundleImage(bundle.id, region, bundle.primaryImage).src,
+    imageAlt: tr.name,
   });
 }
+
+// ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default async function RitualPage({ params }: Props) {
   const { region, locale, slug } = await params;
   setRequestLocale(locale);
 
-  const ritual = getRitualBySlug(slug, locale);
-  if (!ritual || !ritual.availableIn.includes(region)) {
+  const bundle = getBundleBySlug(slug, locale);
+  if (!bundle || !bundle.availableIn.includes(region) || !bundle.visible) {
     notFound();
   }
 
-  const symbol = regionCurrency[region].symbol;
-  const price = region === 'eu' ? ritual.basePriceEUR : ritual.basePriceGBP;
-  const currency = regionCurrency[region].code;
-  const url = getCanonicalUrl(region, locale, `${getSlug('rituales', locale)}/${slug}`);
+  const tr = bundle.translations[locale] ?? bundle.translations.es;
+  if (!tr) notFound();
 
-  const productData = productSchema({
-    name: ritual.names[locale].full,
-    description: ritual.subtitles[locale],
-    image: [`${siteConfig.url}/images/products/${ritual.shopifyHandle}.jpg`],
-    sku: ritual.shopifyHandle,
-    category: ritual.category[locale],
+  const symbol   = regionCurrency[region].symbol;
+  const price    = region === 'eu' ? bundle.basePriceEUR : (bundle.basePriceGBP ?? bundle.basePriceEUR);
+  const currency = regionCurrency[region].code;
+  const url      = getCanonicalUrl(region, locale, `rituales/${slug}`);
+  const { src: imgSrc, fallbackSrc: imgFallback } = resolveBundleImage(bundle.id, region, bundle.primaryImage);
+
+  // Line label for breadcrumb
+  const lineLabels: Record<string, Record<Locale, string>> = {
+    cosmetica: { es: 'Cosmética', en: 'Skincare', fr: 'Cosmétique', de: 'Kosmetik', it: 'Cosmetica', nl: 'Cosmetica', pt: 'Cosmética' },
+    hogar:     { es: 'Hogar',     en: 'Home',     fr: 'Maison',     de: 'Haushalt', it: 'Casa',      nl: 'Huishouden', pt: 'Casa'      },
+    mascota:   { es: 'Mascotas',  en: 'Pets',     fr: 'Animaux',    de: 'Haustiere',it: 'Animali',   nl: 'Huisdieren', pt: 'Animais'   },
+  };
+  const lineLabel = lineLabels[bundle.line]?.[locale] ?? bundle.line;
+
+  const jsonLdData = productSchema({
+    name: tr.name,
+    description: tr.subtitle,
+    image: [`${siteConfig.url}/images/bundles/${region}/${bundle.id}.jpg`],
+    sku: bundle.id,
+    category: lineLabel,
     price,
     currency,
-    availability: 'InStock',
+    availability: bundle.outOfStock ? 'OutOfStock' : 'InStock',
     url,
   });
 
   const breadcrumbs = breadcrumbSchema([
-    { name: 'Home', url: getCanonicalUrl(region, locale) },
-    { name: ritual.category[locale], url: getCanonicalUrl(region, locale, ritual.line) },
-    { name: ritual.names[locale].full, url },
+    { name: 'Home',      url: getCanonicalUrl(region, locale) },
+    { name: lineLabel,   url: getCanonicalUrl(region, locale, bundle.line) },
+    { name: tr.name,     url },
   ]);
+
+  // Included products (visible ones)
+  const includedProducts = (bundle.includes ?? [])
+    .map((id: string) => getProductById(id))
+    .filter(Boolean);
 
   return (
     <>
-      <JsonLd id="ld-product" data={productData} />
+      <JsonLd id="ld-product"    data={jsonLdData} />
       <JsonLd id="ld-breadcrumb" data={breadcrumbs} />
+
       <article className="px-pad-x py-pad-y">
-        <div className="mx-auto max-w-4xl">
-          <div className="text-[11px] uppercase tracking-[0.28em] text-verde-vivo mb-4">{ritual.category[locale]}</div>
-          <h1 className="font-display text-h1-fluid leading-[0.96] tracking-[-0.025em]">
-            {ritual.names[locale].main} {ritual.names[locale].accent && <em className="font-display-italic text-verde">{ritual.names[locale].accent}</em>}
-          </h1>
-          <p className="mt-6 text-lg text-graphite max-w-2xl">{ritual.subtitles[locale]}</p>
-          <div className="mt-8 flex items-baseline gap-6">
-            <span className="font-caption text-3xl">{symbol}{price}</span>
-            <span className="text-sm text-graphite">{ritual.formats.join(' · ')}</span>
+        <div className="mx-auto max-w-5xl">
+
+          {/* Breadcrumb */}
+          <nav className="text-[11px] uppercase tracking-[0.28em] text-muted mb-6">
+            <span>{lineLabel}</span>
+            <span className="mx-2 opacity-40">·</span>
+            <span className="text-accent">{tr.name}</span>
+          </nav>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+
+            {/* Imagen */}
+            <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-[#0C1020]">
+              <div className="absolute inset-0 flex items-center justify-center" aria-hidden="true">
+                <span className="text-7xl font-display italic opacity-10">N</span>
+              </div>
+              <BundleImage
+                src={imgSrc}
+                fallbackSrc={imgFallback}
+                alt={tr.name}
+                className="w-full h-full object-cover relative z-10"
+              />
+            </div>
+
+            {/* Info */}
+            <div className="flex flex-col gap-6">
+              <h1 className="font-display text-h1-fluid leading-[0.96] tracking-[-0.025em]">
+                {tr.nameMain ?? tr.name}
+                {tr.nameAccent && (
+                  <em className="font-display-italic text-accent block">{tr.nameAccent}</em>
+                )}
+              </h1>
+
+              <p className="text-lg text-muted">{tr.subtitle}</p>
+
+              {tr.shortDescription && (
+                <p className="text-sm text-muted/80 leading-relaxed">{tr.shortDescription}</p>
+              )}
+
+              {/* Precio */}
+              <div className="flex items-baseline gap-4 mt-2">
+                <span className="font-caption text-3xl text-foreground">
+                  {symbol}{price?.toFixed(2)}
+                </span>
+                {bundle.discountPercent && (
+                  <span className="text-sm text-accent">−{bundle.discountPercent}%</span>
+                )}
+                {bundle.format && (
+                  <span className="text-sm text-muted">{bundle.format}</span>
+                )}
+              </div>
+
+              {/* Productos incluidos */}
+              {includedProducts.length > 0 && (
+                <div className="mt-4">
+                  <p className="text-[11px] uppercase tracking-[0.2em] text-muted mb-3">
+                    {locale === 'es' ? 'Incluye' : locale === 'en' ? 'Includes' : locale === 'fr' ? 'Comprend' : 'Incluye'}
+                  </p>
+                  <ul className="flex flex-col gap-1">
+                    {includedProducts.map((p: any) => {
+                      const ptr = p.translations[locale] ?? p.translations.es;
+                      return ptr ? (
+                        <li key={p.id} className="text-sm text-foreground/80 flex items-center gap-2">
+                          <span className="w-1 h-1 rounded-full bg-accent inline-block shrink-0" />
+                          {ptr.name}
+                        </li>
+                      ) : null;
+                    })}
+                  </ul>
+                </div>
+              )}
+            </div>
           </div>
-          <p className="mt-12 text-sm text-graphite italic">Ficha completa con foto, vídeo y composición — en preparación.</p>
         </div>
       </article>
     </>
   );
 }
-
-export const dynamicParams = true;
