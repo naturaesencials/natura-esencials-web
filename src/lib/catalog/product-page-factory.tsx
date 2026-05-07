@@ -18,6 +18,7 @@ import {
   localeMap,
 } from '@/lib/i18n/config';
 import { siteConfig } from '@/config/site';
+import { getAbsoluteProductImage, getOgProductImage } from '@/lib/images';
 
 type ProductLine = 'cosmetica' | 'hogar' | 'mascota';
 
@@ -88,7 +89,7 @@ export function makeGenerateMetadata(line: ProductLine) {
         'ISO 16128',
         'Andalucía',
       ],
-      image: product.primaryImage || `/images/products/${product.id}.jpg`,
+      image: getOgProductImage(product.id, region, product.primaryImage),
       imageAlt: tr.name,
     });
   };
@@ -128,7 +129,7 @@ export function makeProductPage(line: ProductLine) {
       name: tr.name,
       description: tr.shortDescription,
       image: [
-        product.primaryImage || `${siteConfig.url}/images/products/${product.id}.jpg`,
+        getAbsoluteProductImage(product.id, region, siteConfig.url, product.primaryImage),
       ],
       sku: product.sku,
       category: lineName,
