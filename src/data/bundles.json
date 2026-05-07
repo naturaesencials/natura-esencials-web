@@ -629,7 +629,7 @@
       ],
       "format": "300 ml",
       "discountPercent": 12,
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Ritual Para Ella",
         "nameMain": "Ritual",
@@ -712,7 +712,8 @@
         "shortDescription": "La cápsula femenina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de naranja fresca con Citrus Aurantium. Coherencia sensorial total.",
         "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
         "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "ritual-para-el",
@@ -731,7 +732,7 @@
       ],
       "format": "300 ml",
       "discountPercent": 12,
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Ritual Para Él",
         "nameMain": "Ritual",
@@ -814,7 +815,8 @@
         "shortDescription": "La cápsula masculina completa: champú, acondicionador, gel de manos y cuerpo y body milk en el universo olfativo de ámbar fresco. Coherencia total de pies a cabeza.",
         "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
         "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "ritual-vajilla-perfecta",
@@ -1237,7 +1239,7 @@
       ],
       "format": "300 ml",
       "discountPercent": 10,
-      "visible": true,
+      "visible": false,
       "basePriceEUR": 22.2,
       "es": {
         "name": "Ritual Gato Zen",
@@ -1321,7 +1323,8 @@
         "shortDescription": "Cuidado completo para tu gato sin estrés. Champú felino, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal de 6 plantas.",
         "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
         "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "ritual-mimo-canino",
