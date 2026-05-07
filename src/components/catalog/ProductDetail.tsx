@@ -84,10 +84,30 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
     ? getBundleById(product.recommendedPack)
     : undefined;
 
+  const lineLabel = linkLineLabel(product.line, locale);
+  const backHref  = buildPath(region, locale, product.line);
+
   return (
-    <article className="px-pad-x pt-12 pb-pad-y">
+    <article className="px-pad-x pt-8 pb-pad-y">
       <div className="mx-auto max-w-6xl">
-        {/* Breadcrumb */}
+
+        {/* Back button — visible y clicable */}
+        <div className="mb-6">
+          <Link
+            href={backHref}
+            className="inline-flex items-center gap-2 text-body-fluid text-graphite hover:text-verde transition-colors group"
+          >
+            <span
+              className="w-8 h-8 rounded-full border border-ink/20 flex items-center justify-center group-hover:border-verde group-hover:bg-verde/10 transition-all"
+              aria-hidden="true"
+            >
+              ←
+            </span>
+            <span className="uppercase tracking-[0.18em] text-meta-fluid">{lineLabel}</span>
+          </Link>
+        </div>
+
+        {/* Breadcrumb (SEO + contexto completo) */}
         <nav aria-label="Breadcrumb" className="mb-8 text-meta-fluid uppercase tracking-[0.22em] text-graphite">
           <ol className="flex flex-wrap items-center gap-2">
             <li>
@@ -97,8 +117,8 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
             </li>
             <li aria-hidden="true">·</li>
             <li>
-              <Link href={buildPath(region, locale, product.line)} className="hover:text-verde transition-colors">
-                {linkLineLabel(product.line, locale)}
+              <Link href={backHref} className="hover:text-verde transition-colors">
+                {lineLabel}
               </Link>
             </li>
             <li aria-hidden="true">·</li>

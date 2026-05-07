@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
+import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { productSchema, breadcrumbSchema } from '@/lib/seo/schema';
@@ -115,14 +116,34 @@ export default async function RitualPage({ params }: Props) {
       <JsonLd id="ld-product"    data={jsonLdData} />
       <JsonLd id="ld-breadcrumb" data={breadcrumbs} />
 
-      <article className="px-pad-x py-pad-y">
+      <article className="px-pad-x pt-8 pb-pad-y">
         <div className="mx-auto max-w-5xl">
 
+          {/* Back button */}
+          <div className="mb-6">
+            <Link
+              href={getCanonicalUrl(region, locale, bundle.line)}
+              className="inline-flex items-center gap-2 text-body-fluid text-graphite hover:text-verde transition-colors group"
+            >
+              <span
+                className="w-8 h-8 rounded-full border border-ink/20 flex items-center justify-center group-hover:border-verde group-hover:bg-verde/10 transition-all"
+                aria-hidden="true"
+              >
+                ←
+              </span>
+              <span className="uppercase tracking-[0.18em] text-meta-fluid">{lineLabel}</span>
+            </Link>
+          </div>
+
           {/* Breadcrumb */}
-          <nav className="text-[11px] uppercase tracking-[0.28em] text-muted mb-6">
-            <span>{lineLabel}</span>
-            <span className="mx-2 opacity-40">·</span>
-            <span className="text-accent">{tr.name}</span>
+          <nav aria-label="Breadcrumb" className="mb-8 text-meta-fluid uppercase tracking-[0.22em] text-graphite">
+            <ol className="flex flex-wrap items-center gap-2">
+              <li><Link href={getCanonicalUrl(region, locale)} className="hover:text-verde transition-colors">Home</Link></li>
+              <li aria-hidden="true">·</li>
+              <li><Link href={getCanonicalUrl(region, locale, bundle.line)} className="hover:text-verde transition-colors">{lineLabel}</Link></li>
+              <li aria-hidden="true">·</li>
+              <li className="text-ink truncate max-w-[180px] sm:max-w-none">{tr.name}</li>
+            </ol>
           </nav>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
