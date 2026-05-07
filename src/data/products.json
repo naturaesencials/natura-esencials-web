@@ -1522,7 +1522,7 @@
         "body-milk-man"
       ],
       "recommendedPack": "ritual-para-el",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Champú Hombre",
         "nameMain": "Champú",
@@ -1766,7 +1766,8 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "acondicionador-hombre",
@@ -1791,7 +1792,7 @@
         "body-milk-man"
       ],
       "recommendedPack": "ritual-para-el",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Acondicionador Hombre",
         "nameMain": "Acondicionador",
@@ -2035,7 +2036,8 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "gel-manos-cuerpo-hombre",
@@ -2060,7 +2062,7 @@
         "exfoliante-facial-hombre"
       ],
       "recommendedPack": "ritual-para-el",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Gel de Manos y Cuerpo Hombre",
         "nameMain": "Gel",
@@ -2304,7 +2306,8 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "body-milk-man",
@@ -2328,7 +2331,7 @@
         "gel-afeitado-hombre"
       ],
       "recommendedPack": "ritual-para-el",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Body Milk Man",
         "nameMain": "Body Milk",
@@ -2572,7 +2575,8 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "gel-afeitado-hombre",
@@ -2596,7 +2600,7 @@
         "body-milk-man"
       ],
       "recommendedPack": "ritual-para-el",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Gel de Afeitado",
         "nameMain": "Gel",
@@ -2840,7 +2844,8 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "balsamo-aftershave",
@@ -2864,7 +2869,7 @@
         "body-milk-man"
       ],
       "recommendedPack": "ritual-para-el",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Bálsamo Aftershave",
         "nameMain": "Bálsamo",
@@ -3108,7 +3113,8 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "exfoliante-facial-hombre",
@@ -3134,7 +3140,7 @@
         "body-milk-man"
       ],
       "recommendedPack": "ritual-para-el",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Gel Exfoliante Facial Hombre",
         "nameMain": "Exfoliante",
@@ -3378,7 +3384,8 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "serum-antiojeras-hombre",
@@ -3403,7 +3410,7 @@
         "body-milk-man"
       ],
       "recommendedPack": "ritual-para-el",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Sérum Antiojeras Hombre",
         "nameMain": "Sérum",
@@ -3647,7 +3654,8 @@
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "champu-mujer",
@@ -3673,7 +3681,7 @@
         "body-milk-woman"
       ],
       "recommendedPack": "ritual-para-ella",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Champú Mujer",
         "nameMain": "Champú",
@@ -3917,7 +3925,8 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "acondicionador-mujer",
@@ -3942,7 +3951,7 @@
         "body-milk-woman"
       ],
       "recommendedPack": "ritual-para-ella",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Acondicionador Mujer",
         "nameMain": "Acondicionador",
@@ -4186,7 +4195,8 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "gel-manos-cuerpo-mujer",
@@ -4211,7 +4221,7 @@
         "exfoliante-facial-mujer"
       ],
       "recommendedPack": "ritual-para-ella",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Gel de Manos y Cuerpo Mujer",
         "nameMain": "Gel",
@@ -4455,7 +4465,8 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "body-milk-woman",
@@ -4479,7 +4490,7 @@
         "gel-afeitado-mujer"
       ],
       "recommendedPack": "ritual-para-ella",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Body Milk Woman",
         "nameMain": "Body Milk",
@@ -4723,7 +4734,8 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "agua-micelar",
@@ -4749,7 +4761,7 @@
         "body-milk-woman"
       ],
       "recommendedPack": "ritual-para-ella",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Agua Micelar Limpiadora",
         "nameMain": "Agua",
@@ -4993,7 +5005,8 @@
           "sustainability": "99% de ingredientes de origen natural: el máximo de la colección Mujer. Sin alcohol. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "gel-afeitado-mujer",
@@ -5017,7 +5030,7 @@
         "agua-micelar"
       ],
       "recommendedPack": "ritual-para-ella",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Gel de Afeitado Mujer",
         "nameMain": "Gel",
@@ -5261,7 +5274,8 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "exfoliante-facial-mujer",
@@ -5287,7 +5301,7 @@
         "body-milk-woman"
       ],
       "recommendedPack": "ritual-para-ella",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Gel Exfoliante Facial Mujer",
         "nameMain": "Exfoliante",
@@ -5531,7 +5545,8 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "serum-antiojeras-mujer",
@@ -5556,7 +5571,7 @@
         "agua-micelar"
       ],
       "recommendedPack": "ritual-para-ella",
-      "visible": true,
+      "visible": false,
       "es": {
         "name": "Sérum Antiojeras Mujer",
         "nameMain": "Sérum",
@@ -5800,7 +5815,8 @@
           "sustainability": "99% de ingredientes de origen natural: el porcentaje más alto de la colección femenina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "outOfStock": true
     },
     {
       "id": "detergente-ropa",
