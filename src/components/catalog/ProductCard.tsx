@@ -4,6 +4,7 @@ import Link from 'next/link';
 import type { Locale, Region } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
 import type { Product, Bundle } from '@/data/types';
+import { resolveProductImage, resolveBundleImage } from '@/lib/images';
 
 /**
  * ProductCard: tarjeta de producto o bundle para listados.
@@ -46,7 +47,9 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
     ? buildPath(region, locale, `rituales/${translation.slug || item.baseSlug}`)
     : buildPath(region, locale, `${item.line}/${translation.slug || item.baseSlug}`);
 
-  const imageSrc = item.primaryImage || `/images/products/${item.id}.jpg`;
+  const { src: imageSrc, fallbackSrc: imageFallback } = itemIsBundle
+    ? resolveBundleImage(item.id, region, item.primaryImage)
+    : resolveProductImage(item.id, region, item.primaryImage);
   const sensationClass = SENSATION_COLORS[item.sensation] || 'bg-stone-100 text-stone-800';
 
   return (
@@ -69,8 +72,13 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
           loading="lazy"
           className="relative z-10 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
           onError={(e) => {
-            // Si la imagen falla, ocultar para que se vea el placeholder
-            (e.currentTarget as HTMLImageElement).style.display = 'none';
+            const el = e.currentTarget as HTMLImageElement;
+            if (el.dataset.fallbackTried) {
+              el.style.display = 'none';
+            } else {
+              el.dataset.fallbackTried = 'true';
+              el.src = imageFallback;
+            }
           }}
         />
 
