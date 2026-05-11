@@ -13,10 +13,10 @@ const SEASON_OFFERS: Array<{ id: number; discount: number }> = [
 ];
 
 const IMG: Record<number, string> = {
-  1: 'https://images.pexels.com/photos/4841273/pexels-photo-4841273.jpeg',
-  6: 'https://images.pexels.com/photos/4202326/pexels-photo-4202326.jpeg',
-  7: 'https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg',
-  10: 'https://images.pexels.com/photos/6724313/pexels-photo-6724313.jpeg',
+  1:  'https://images.pexels.com/photos/4841273/pexels-photo-4841273.jpeg', // pendiente Plenitud
+  6:  '/images/landing/card-6.jpg',   // Refugio Hogar
+  7:  '/images/landing/card-7.jpg',   // Cocina Impecable
+  10: 'https://images.pexels.com/photos/6724313/pexels-photo-6724313.jpeg', // pendiente Mimo Canino
 };
 
 const COLOR: Record<string, string> = {
@@ -58,7 +58,7 @@ export function Edicion({ region, locale }: Props) {
           return (
             <article key={ritual.id} className="transition-opacity hover:opacity-90">
               <div className="relative mb-4 aspect-[3/4] overflow-hidden">
-                <Image src={IMG[ritual.id] + '?auto=compress&cs=tinysrgb&w=1200'} alt={ritual.names[locale].full} fill sizes="(min-width: 1024px) 25vw, 50vw" className="object-cover" />
+                <Image src={IMG[ritual.id].startsWith("/") ? IMG[ritual.id] : IMG[ritual.id] + "?auto=compress&cs=tinysrgb&w=1200"} alt={ritual.names[locale].full} fill sizes="(min-width: 1024px) 25vw, 50vw" className="object-cover" />
                 <span className={`absolute right-3 top-3 bg-bg px-2.5 py-1.5 text-[10px] uppercase tracking-[0.2em] ${COLOR[ritual.line]}`}>−{discount} %</span>
               </div>
               <div className={`mb-1.5 text-[10px] uppercase tracking-[0.22em] ${COLOR[ritual.line]}`}>{ritual.category[locale]}</div>

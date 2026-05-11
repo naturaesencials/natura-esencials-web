@@ -6,7 +6,7 @@ export function BotanicaBand() {
   return (
     <section className="relative flex items-center overflow-hidden text-bg" style={{ minHeight: 'clamp(420px, 60vh, 640px)' }}>
       <Image
-        src="https://images.pexels.com/photos/2234006/pexels-photo-2234006.jpeg?auto=compress&cs=tinysrgb&w=1920"
+        src="/images/landing/botanica.jpg"
         alt=""
         fill
         sizes="100vw"
