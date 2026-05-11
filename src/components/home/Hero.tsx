@@ -74,7 +74,7 @@ export function Hero({ region, locale }: Props) {
       {/* Foto */}
       <div className="relative order-1 aspect-[4/3] min-h-[320px] overflow-hidden lg:order-2 lg:aspect-auto lg:min-h-full">
         <Image
-          src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          src="/images/landing/hero.jpg"
           alt={t('imgTagCosmetica') + ' & ' + t('imgTagHogar')}
           fill
           priority

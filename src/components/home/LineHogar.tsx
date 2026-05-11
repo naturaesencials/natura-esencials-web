@@ -8,10 +8,10 @@ import { buildPath } from '@/lib/i18n/paths';
 interface Props { region: Region; locale: Locale; }
 
 const IMG: Record<number, string> = {
-  6: 'https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg',
-  7: 'https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg',
-  8: 'https://images.pexels.com/photos/5825380/pexels-photo-5825380.jpeg',
-  9: 'https://images.pexels.com/photos/6781117/pexels-photo-6781117.jpeg',
+  6: '/images/landing/card-6.jpg',   // Refugio Hogar
+  7: '/images/landing/card-7.jpg',   // Cocina Impecable
+  8: '/images/landing/card-8.jpg',   // Vajilla / Baño
+  9: '/images/landing/card-9.jpg',   // Caricia Textil
 };
 
 export function LineHogar({ region, locale }: Props) {
@@ -44,7 +44,7 @@ export function LineHogar({ region, locale }: Props) {
               href={buildPath(region, locale, `rituales/${r.slugs[locale]}`)}
               className="relative flex aspect-[3/4] min-h-[300px] flex-col justify-between overflow-hidden p-[clamp(18px,2.2vw,22px)] text-bg transition-transform duration-500"
             >
-              <Image src={IMG[r.id] + '?auto=compress&cs=tinysrgb&w=1200'} alt={r.names[locale].full} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
+              <Image src={IMG[r.id].startsWith("/") ? IMG[r.id] : IMG[r.id] + "?auto=compress&cs=tinysrgb&w=1200"} alt={r.names[locale].full} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-b from-ink/[0.08] via-ink/[0.04] to-ink/[0.8]" />
               <div className="relative z-10 flex justify-between">
                 <span className="text-[11px] uppercase tracking-[0.25em] opacity-90">{r.category[locale]}</span>

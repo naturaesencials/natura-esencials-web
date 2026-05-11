@@ -8,11 +8,11 @@ import { buildPath } from '@/lib/i18n/paths';
 interface Props { region: Region; locale: Locale; }
 
 const IMG: Record<number, string> = {
-  1: 'https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg',
-  2: 'https://images.pexels.com/photos/4841273/pexels-photo-4841273.jpeg',
-  3: 'https://images.pexels.com/photos/5240623/pexels-photo-5240623.jpeg',
-  4: 'https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg',
-  5: 'https://images.pexels.com/photos/4202326/pexels-photo-4202326.jpeg',
+  1: 'https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg', // pendiente foto Plenitud
+  2: '/images/landing/card-2.jpg',   // Ducha Perfecta
+  3: '/images/landing/card-3.jpg',   // Rendimiento
+  4: '/images/landing/card-4.jpg',   // Para Él
+  5: '/images/landing/card-5.jpg',   // Para Ella
 };
 
 export function LineCosmetica({ region, locale }: Props) {
@@ -48,7 +48,7 @@ export function LineCosmetica({ region, locale }: Props) {
               className={`relative flex min-h-[280px] flex-col justify-between overflow-hidden p-[clamp(18px,2.5vw,24px)] text-bg transition-transform duration-500 hover:[&:not(:has(*))]:scale-[0.985] sm:aspect-[3/4] sm:min-h-[320px] ${cls}`}
             >
               <Image
-                src={IMG[r.id] + '?auto=compress&cs=tinysrgb&w=1200'}
+                src={IMG[r.id].startsWith("/") ? IMG[r.id] : IMG[r.id] + "?auto=compress&cs=tinysrgb&w=1200"}
                 alt={r.names[locale].full}
                 fill
                 sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
