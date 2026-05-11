@@ -6,6 +6,7 @@ import { buildPath } from '@/lib/i18n/paths';
 import { getProductById, getBundleById } from '@/data';
 import { ProductImage } from './ProductImage';
 import { resolveProductImage } from '@/lib/images';
+import { BuyButton } from './BuyButton';
 
 /**
  * ProductDetail — ficha completa de un producto individual.
@@ -181,14 +182,24 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
               )}
             </dl>
 
-            {/* Formatos + precio */}
-            <div className="mt-8 pt-8 border-t border-ink/10 flex items-baseline gap-6 flex-wrap">
-              {price !== undefined && (
-                <span className="font-caption text-3xl text-ink">
-                  {symbol}{price}
+            {/* Formatos + precio + comprar */}
+            <div className="mt-8 pt-8 border-t border-ink/10 flex flex-col gap-5">
+              <div className="flex items-baseline gap-6 flex-wrap">
+                {price !== undefined && (
+                  <span className="font-caption text-3xl text-ink">
+                    {symbol}{price}
+                  </span>
+                )}
+                <span className="text-body-fluid text-graphite">
+                  {product.formats.join(' · ')}
                 </span>
-              )}
-              <span className="text-body-fluid text-graphite">{product.formats.join(' · ')}</span>
+              </div>
+              <BuyButton
+                handle={product.shopifyHandle}
+                formats={product.formats}
+                region={region}
+                locale={locale}
+              />
             </div>
           </div>
         </header>

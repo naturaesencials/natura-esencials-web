@@ -19,6 +19,7 @@ import {
 import { siteConfig } from '@/config/site';
 import { resolveBundleImage } from '@/lib/images';
 import { BundleImage } from '@/components/catalog/BundleImage';
+import { BuyButton } from '@/components/catalog/BuyButton';
 
 interface Props {
   params: Promise<{ region: Region; locale: Locale; slug: string }>;
@@ -176,17 +177,25 @@ export default async function RitualPage({ params }: Props) {
                 <p className="text-sm text-muted/80 leading-relaxed">{tr.shortDescription}</p>
               )}
 
-              {/* Precio */}
-              <div className="flex items-baseline gap-4 mt-2">
-                <span className="font-caption text-3xl text-foreground">
-                  {symbol}{price?.toFixed(2)}
-                </span>
-                {bundle.discountPercent && (
-                  <span className="text-sm text-accent">−{bundle.discountPercent}%</span>
-                )}
-                {bundle.format && (
-                  <span className="text-sm text-muted">{bundle.format}</span>
-                )}
+              {/* Precio + comprar */}
+              <div className="flex flex-col gap-5 mt-2">
+                <div className="flex items-baseline gap-4 flex-wrap">
+                  <span className="font-caption text-3xl text-foreground">
+                    {symbol}{price?.toFixed(2)}
+                  </span>
+                  {bundle.discountPercent && (
+                    <span className="text-sm text-accent">−{bundle.discountPercent}%</span>
+                  )}
+                  {bundle.format && (
+                    <span className="text-sm text-muted">{bundle.format}</span>
+                  )}
+                </div>
+                <BuyButton
+                  handle={bundle.shopifyHandle}
+                  formats={bundle.format ? [bundle.format] : []}
+                  region={region}
+                  locale={locale}
+                />
               </div>
 
               {/* Productos incluidos */}
