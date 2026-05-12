@@ -39,7 +39,7 @@ const C: Record<string, {
     v: [
       {icon:'🌿',label:'ISO 16128',desc:'>95% ingredientes naturales'},
       {icon:'🧴',label:'Testado',desc:'Dermatológicamente testado'},
-      {icon:'🏺',label:'Artesanal',desc:'Artesanía Hecha en Andalucía'},
+      {icon:'SELLO',label:'Artesanal',desc:'Artesanía Hecha en Andalucía'},
       {icon:'♻️',label:'Envase',desc:'Packaging reciclable'},
       {icon:'📍',label:'Local',desc:'Proveedores locales y nacionales'},
       {icon:'🚫',label:'Sin',desc:'Sin parabenos ni sulfatos agresivos'},
@@ -63,7 +63,7 @@ const C: Record<string, {
     v: [
       {icon:'🌿',label:'ISO 16128',desc:'>95% natural ingredients'},
       {icon:'🧴',label:'Tested',desc:'Dermatologically tested'},
-      {icon:'🏺',label:'Artisan',desc:'Craftsmanship Made in Andalusia'},
+      {icon:'SELLO',label:'Artisan',desc:'Craftsmanship Made in Andalusia'},
       {icon:'♻️',label:'Packaging',desc:'Recyclable packaging'},
       {icon:'📍',label:'Local',desc:'Local and national suppliers'},
       {icon:'🚫',label:'Free from',desc:'No parabens or harsh sulphates'},
@@ -100,7 +100,11 @@ export default async function OrigenPage({ params }: Props) {
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6">
           {c.v.map((item) => (
             <div key={item.label} className="flex flex-col gap-2">
-              <span className="text-2xl">{item.icon}</span>
+              {item.icon === 'SELLO' ? (
+                <Image src="/images/sello-artesania-dark-sm.png" alt="Artesanía Hecha en Andalucía" width={120} height={47} className="h-8 w-auto object-contain" />
+              ) : (
+                <span className="text-2xl">{item.icon}</span>
+              )}
               <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-ink">{item.label}</span>
               <span className="text-[12px] leading-[1.5] text-graphite">{item.desc}</span>
             </div>

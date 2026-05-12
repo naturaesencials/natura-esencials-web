@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { siteConfig } from '@/config/site';
@@ -22,13 +23,26 @@ export function Footer({ region, locale }: Props) {
     <footer className="grid gap-pad-y-sm bg-ink px-pad-x pb-7 pt-pad-y-sm text-xs leading-[1.9] text-bg sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr]">
       {/* Brand */}
       <div className="sm:col-span-2 lg:col-auto">
-        <span className="mb-3.5 block text-[clamp(26px,3vw,30px)] tracking-[0.01em]" style={{ fontVariationSettings: "'opsz' 144, 'wght' 350, 'SOFT' 30" }}>
-          Natura <em className="font-display-italic" style={{ color: '#B4D4A8' }}>Esencials</em>
-        </span>
-        <p className="max-w-[320px] text-bg/70">{t('brandDesc')}</p>
+        <div className="mb-5 flex flex-col gap-4">
+          <Image
+            src="/images/logo-white-sm.png"
+            alt="Natura Esencials — Handcrafted Natural Products"
+            width={160}
+            height={73}
+            className="h-14 w-auto object-contain"
+          />
+          <Image
+            src="/images/sello-artesania-white-sm.png"
+            alt="Artesanía Hecha en Andalucía"
+            width={160}
+            height={62}
+            className="h-9 w-auto object-contain opacity-75"
+          />
+        </div>
+        <p className="max-w-[280px] text-[12px] text-bg/70">{t('brandDesc')}</p>
         <p className="mt-3 text-[11px] tracking-[0.04em] text-bg/80">
-          <a href={`mailto:${siteConfig.contact.email}`} className="hover:text-bg transition-colors">{siteConfig.contact.email}</a><br />
-          <a href={`tel:${siteConfig.contact.phone.replace(/\s/g,'')}`} className="hover:text-bg transition-colors">{siteConfig.contact.phone}</a>
+          <a href={`mailto:${siteConfig.contact.email}`} className="transition-colors hover:text-bg">{siteConfig.contact.email}</a><br />
+          <a href={`tel:${siteConfig.contact.phone.replace(/\s/g,'')}`} className="transition-colors hover:text-bg">{siteConfig.contact.phone}</a>
         </p>
       </div>
 
