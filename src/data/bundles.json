@@ -729,7 +729,8 @@
       "handles": {
         "300 ml": "ritual-para-ella-300-ml",
         "1 L": "ritual-para-ella-1-ltr"
-      }
+      },
+      "primaryImage": "/images/landing/card-5.jpg"
     },
     {
       "id": "ritual-para-el",
@@ -836,7 +837,8 @@
       "handles": {
         "300 ml": "ritual-para-el-300-ml",
         "1 L": "rital-para-el-1-ltr"
-      }
+      },
+      "primaryImage": "/images/landing/card-4.jpg"
     },
     {
       "id": "ritual-vajilla-perfecta",
@@ -1344,7 +1346,8 @@
         "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
         "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
       },
-      "outOfStock": false
+      "outOfStock": false,
+      "primaryImage": "/images/landing/card-11.jpg"
     },
     {
       "id": "ritual-mimo-canino",
@@ -1446,7 +1449,8 @@
         "shortDescription": "Cuidado completo para tu perro. Champú Pet Repair Argán con extractos botánicos, limpiador de oídos con árbol de té y limpiador de ojos con complejo herbal.",
         "longDescription": "Si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
         "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
-      }
+      },
+      "primaryImage": "/images/landing/card-10.jpg"
     }
   ]
 }

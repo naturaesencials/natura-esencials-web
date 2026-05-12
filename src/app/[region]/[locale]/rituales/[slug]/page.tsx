@@ -17,6 +17,7 @@ import {
   getCanonicalUrl,
 } from '@/lib/i18n/config';
 import { siteConfig } from '@/config/site';
+import Image from 'next/image';
 import { resolveBundleImage } from '@/lib/images';
 import { BundleImage } from '@/components/catalog/BundleImage';
 import { BuyButton } from '@/components/catalog/BuyButton';
@@ -152,15 +153,14 @@ export default async function RitualPage({ params }: Props) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
             {/* Imagen */}
-            <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-[#0C1020]">
-              <div className="absolute inset-0 flex items-center justify-center" aria-hidden="true">
-                <span className="text-7xl font-display italic opacity-10">N</span>
-              </div>
-              <BundleImage
+            <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-paper">
+              <Image
                 src={imgSrc}
-                fallbackSrc={imgFallback}
                 alt={tr.name}
-                className="w-full h-full object-cover relative z-10"
+                fill
+                priority
+                sizes="(min-width: 1024px) 45vw, 95vw"
+                className="object-cover"
               />
             </div>
 
