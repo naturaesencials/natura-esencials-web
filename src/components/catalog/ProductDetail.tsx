@@ -6,6 +6,7 @@ import { getProductById, getBundleById } from '@/data';
 import { ProductImage } from './ProductImage';
 import { resolveProductImage } from '@/lib/images';
 import { BuyButton } from './BuyButton';
+import { ReviewsWidget } from '@/components/reviews/ReviewsWidget';
 
 /**
  * ProductDetail — ficha completa de un producto individual.
@@ -390,6 +391,9 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
             {t.aiTranslationNotice}
           </section>
         )}
+
+        {/* Reviews Judge.me */}
+        <ReviewsWidget handle={product.shopifyHandle} title={tr.name} />
       </div>
     </article>
   );

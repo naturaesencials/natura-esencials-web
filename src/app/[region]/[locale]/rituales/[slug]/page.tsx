@@ -20,6 +20,7 @@ import { siteConfig } from '@/config/site';
 import { resolveBundleImage } from '@/lib/images';
 import { BundleImage } from '@/components/catalog/BundleImage';
 import { BuyButton } from '@/components/catalog/BuyButton';
+import { ReviewsWidget } from '@/components/reviews/ReviewsWidget';
 
 interface Props {
   params: Promise<{ region: Region; locale: Locale; slug: string }>;
@@ -216,6 +217,11 @@ export default async function RitualPage({ params }: Props) {
           </div>
         </div>
       </article>
+      {bundle.shopifyHandle && (
+        <div className="px-pad-x pb-pad-y">
+          <ReviewsWidget handle={bundle.shopifyHandle} title={bundle.translations?.es?.name} />
+        </div>
+      )}
     </>
   );
 }

@@ -11,6 +11,7 @@ import { LineMascota } from '@/components/home/LineMascota';
 import { Strip } from '@/components/home/Strip';
 import { Edicion } from '@/components/home/Edicion';
 import { Newsletter } from '@/components/home/Newsletter';
+import { ReviewsSection } from '@/components/home/ReviewsSection';
 import { Popup } from '@/components/home/Popup';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { breadcrumbSchema, itemListSchema } from '@/lib/seo/schema';
@@ -61,6 +62,7 @@ export default async function HomePage({ params }: Props) {
       <Origen region={region} locale={locale} />
       <LineMascota region={region} locale={locale} />
       <Strip />
+      <ReviewsSection locale={locale} />
       <Edicion region={region} locale={locale} />
       <Newsletter />
       <Popup />
