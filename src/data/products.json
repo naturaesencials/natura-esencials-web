@@ -2857,277 +2857,6 @@
       "outOfStock": true
     },
     {
-      "id": "balsamo-aftershave",
-      "line": "cosmetica",
-      "collection": "hombre",
-      "subcategory": "Afeitado",
-      "sku": "NE-H06",
-      "shopifyHandle": "balsamo-aftershave",
-      "availableIn": [
-        "eu",
-        "uk"
-      ],
-      "sensation": "Refugio",
-      "isoNaturalPercent": 98,
-      "ph": "4,5-5,5",
-      "formats": [
-        "300 ml",
-        "1 L",
-        "Caja BIB 5 L"
-      ],
-      "complements": [
-        "gel-afeitado-hombre",
-        "body-milk-man"
-      ],
-      "recommendedPack": "ritual-para-el",
-      "visible": false,
-      "es": {
-        "name": "Bálsamo Aftershave",
-        "nameMain": "Bálsamo",
-        "nameAccent": "Aftershave",
-        "subtitle": "Probiótico activo al 3% para reparar la piel",
-        "olfactiveFamily": "Fresco ámbar masculino · Elegante",
-        "momentOfUse": "Inmediatamente tras el afeitado",
-        "shortDescription": "Bálsamo post-afeitado con complejo probiótico activo al 3% (Lactococcus Ferment Lysate) y aceite de aguacate. Repara la barrera cutánea, fortalece la piel y promueve su recuperación. No graso, no pegajoso.",
-        "benefits": [
-          "Complejo probiótico activo al 3%. Repara la barrera cutánea tras el afeitado.",
-          "Con aceite de aguacate. Hidrata al instante sin sensación grasa ni pegajosa."
-        ],
-        "ritual": [
-          {
-            "title": "Aplicar tras afeitado",
-            "description": "Aplicar sobre la piel limpia y seca inmediatamente después del afeitado."
-          },
-          {
-            "title": "Dosificar y repartir",
-            "description": "Dosificar 1-2 pulsaciones y repartir uniformemente en rostro, cuello y zonas afeitadas."
-          },
-          {
-            "title": "Masajear hasta absorber",
-            "description": "Masajear suavemente hasta su completa absorción. La piel queda calmada y confortable."
-          }
-        ],
-        "sensory": {
-          "aroma": "Fresco ámbar masculino elegante. Perfume discreto que cierra el ritual de afeitado con carácter.",
-          "texture": "Crema fluida color blanco. Viscosidad >3000. Absorción rápida con sensación no grasa y no pegajosa.",
-          "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
-          "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
-        },
-        "slug": "balsamo-aftershave"
-      },
-      "en": {
-        "name": "Aftershave Balm",
-        "subtitle": "Soothing finish after shaving, calm and comforted",
-        "slug": "aftershave-balm",
-        "olfactiveFamily": "Fresh · Soft perfume",
-        "momentOfUse": "After shaving · Daily routine",
-        "nameMain": "Aftershave",
-        "nameAccent": "Balm",
-        "shortDescription": "Bálsamo post-afeitado con complejo probiótico activo al 3% (Lactococcus Ferment Lysate) y aceite de aguacate. Repara la barrera cutánea, fortalece la piel y promueve su recuperación. No graso, no pegajoso.",
-        "benefits": [
-          "Complejo probiótico activo al 3%. Repara la barrera cutánea tras el afeitado.",
-          "Con aceite de aguacate. Hidrata al instante sin sensación grasa ni pegajosa."
-        ],
-        "ritual": [
-          {
-            "title": "Aplicar tras afeitado",
-            "description": "Aplicar sobre la piel limpia y seca inmediatamente después del afeitado."
-          },
-          {
-            "title": "Dosificar y repartir",
-            "description": "Dosificar 1-2 pulsaciones y repartir uniformemente en rostro, cuello y zonas afeitadas."
-          },
-          {
-            "title": "Masajear hasta absorber",
-            "description": "Masajear suavemente hasta su completa absorción. La piel queda calmada y confortable."
-          }
-        ],
-        "sensory": {
-          "aroma": "Fresco ámbar masculino elegante. Perfume discreto que cierra el ritual de afeitado con carácter.",
-          "texture": "Crema fluida color blanco. Viscosidad >3000. Absorción rápida con sensación no grasa y no pegajosa.",
-          "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
-          "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
-        },
-        "aiTranslation": true
-      },
-      "fr": {
-        "name": "Baume Après-rasage",
-        "subtitle": "Fini apaisant après le rasage, calme et confort",
-        "slug": "baume-apres-rasage",
-        "olfactiveFamily": "Frais · Parfum doux",
-        "momentOfUse": "Après le rasage · Routine quotidienne",
-        "nameMain": "Baume",
-        "nameAccent": "après-rasage",
-        "shortDescription": "Bálsamo post-afeitado con complejo probiótico activo al 3% (Lactococcus Ferment Lysate) y aceite de aguacate. Repara la barrera cutánea, fortalece la piel y promueve su recuperación. No graso, no pegajoso.",
-        "benefits": [
-          "Complejo probiótico activo al 3%. Repara la barrera cutánea tras el afeitado.",
-          "Con aceite de aguacate. Hidrata al instante sin sensación grasa ni pegajosa."
-        ],
-        "ritual": [
-          {
-            "title": "Aplicar tras afeitado",
-            "description": "Aplicar sobre la piel limpia y seca inmediatamente después del afeitado."
-          },
-          {
-            "title": "Dosificar y repartir",
-            "description": "Dosificar 1-2 pulsaciones y repartir uniformemente en rostro, cuello y zonas afeitadas."
-          },
-          {
-            "title": "Masajear hasta absorber",
-            "description": "Masajear suavemente hasta su completa absorción. La piel queda calmada y confortable."
-          }
-        ],
-        "sensory": {
-          "aroma": "Fresco ámbar masculino elegante. Perfume discreto que cierra el ritual de afeitado con carácter.",
-          "texture": "Crema fluida color blanco. Viscosidad >3000. Absorción rápida con sensación no grasa y no pegajosa.",
-          "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
-          "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
-        },
-        "aiTranslation": true
-      },
-      "de": {
-        "name": "Aftershave-Balsam",
-        "subtitle": "Beruhigendes Finish nach der Rasur, ruhig und wohltuend",
-        "slug": "aftershave-balsam",
-        "olfactiveFamily": "Frisch · Sanftes Parfüm",
-        "momentOfUse": "Nach der Rasur · Tägliche Routine",
-        "nameMain": "Aftershave",
-        "nameAccent": "Balsam",
-        "shortDescription": "Bálsamo post-afeitado con complejo probiótico activo al 3% (Lactococcus Ferment Lysate) y aceite de aguacate. Repara la barrera cutánea, fortalece la piel y promueve su recuperación. No graso, no pegajoso.",
-        "benefits": [
-          "Complejo probiótico activo al 3%. Repara la barrera cutánea tras el afeitado.",
-          "Con aceite de aguacate. Hidrata al instante sin sensación grasa ni pegajosa."
-        ],
-        "ritual": [
-          {
-            "title": "Aplicar tras afeitado",
-            "description": "Aplicar sobre la piel limpia y seca inmediatamente después del afeitado."
-          },
-          {
-            "title": "Dosificar y repartir",
-            "description": "Dosificar 1-2 pulsaciones y repartir uniformemente en rostro, cuello y zonas afeitadas."
-          },
-          {
-            "title": "Masajear hasta absorber",
-            "description": "Masajear suavemente hasta su completa absorción. La piel queda calmada y confortable."
-          }
-        ],
-        "sensory": {
-          "aroma": "Fresco ámbar masculino elegante. Perfume discreto que cierra el ritual de afeitado con carácter.",
-          "texture": "Crema fluida color blanco. Viscosidad >3000. Absorción rápida con sensación no grasa y no pegajosa.",
-          "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
-          "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
-        },
-        "aiTranslation": true
-      },
-      "it": {
-        "name": "Balsamo Dopobarba",
-        "subtitle": "Finitura lenitiva dopo la rasatura, calma e comfort",
-        "slug": "balsamo-dopobarba",
-        "olfactiveFamily": "Fresco · Profumo soft",
-        "momentOfUse": "Dopo la rasatura · Routine quotidiana",
-        "nameMain": "Balsamo",
-        "nameAccent": "dopobarba",
-        "shortDescription": "Bálsamo post-afeitado con complejo probiótico activo al 3% (Lactococcus Ferment Lysate) y aceite de aguacate. Repara la barrera cutánea, fortalece la piel y promueve su recuperación. No graso, no pegajoso.",
-        "benefits": [
-          "Complejo probiótico activo al 3%. Repara la barrera cutánea tras el afeitado.",
-          "Con aceite de aguacate. Hidrata al instante sin sensación grasa ni pegajosa."
-        ],
-        "ritual": [
-          {
-            "title": "Aplicar tras afeitado",
-            "description": "Aplicar sobre la piel limpia y seca inmediatamente después del afeitado."
-          },
-          {
-            "title": "Dosificar y repartir",
-            "description": "Dosificar 1-2 pulsaciones y repartir uniformemente en rostro, cuello y zonas afeitadas."
-          },
-          {
-            "title": "Masajear hasta absorber",
-            "description": "Masajear suavemente hasta su completa absorción. La piel queda calmada y confortable."
-          }
-        ],
-        "sensory": {
-          "aroma": "Fresco ámbar masculino elegante. Perfume discreto que cierra el ritual de afeitado con carácter.",
-          "texture": "Crema fluida color blanco. Viscosidad >3000. Absorción rápida con sensación no grasa y no pegajosa.",
-          "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
-          "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
-        },
-        "aiTranslation": true
-      },
-      "nl": {
-        "name": "Aftershave Balsem",
-        "subtitle": "Verzachtende afwerking na het scheren, rust en comfort",
-        "slug": "aftershave-balsem",
-        "olfactiveFamily": "Fris · Zachte parfum",
-        "momentOfUse": "Na het scheren · Dagelijkse routine",
-        "nameMain": "Aftershave",
-        "nameAccent": "balsem",
-        "shortDescription": "Bálsamo post-afeitado con complejo probiótico activo al 3% (Lactococcus Ferment Lysate) y aceite de aguacate. Repara la barrera cutánea, fortalece la piel y promueve su recuperación. No graso, no pegajoso.",
-        "benefits": [
-          "Complejo probiótico activo al 3%. Repara la barrera cutánea tras el afeitado.",
-          "Con aceite de aguacate. Hidrata al instante sin sensación grasa ni pegajosa."
-        ],
-        "ritual": [
-          {
-            "title": "Aplicar tras afeitado",
-            "description": "Aplicar sobre la piel limpia y seca inmediatamente después del afeitado."
-          },
-          {
-            "title": "Dosificar y repartir",
-            "description": "Dosificar 1-2 pulsaciones y repartir uniformemente en rostro, cuello y zonas afeitadas."
-          },
-          {
-            "title": "Masajear hasta absorber",
-            "description": "Masajear suavemente hasta su completa absorción. La piel queda calmada y confortable."
-          }
-        ],
-        "sensory": {
-          "aroma": "Fresco ámbar masculino elegante. Perfume discreto que cierra el ritual de afeitado con carácter.",
-          "texture": "Crema fluida color blanco. Viscosidad >3000. Absorción rápida con sensación no grasa y no pegajosa.",
-          "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
-          "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
-        },
-        "aiTranslation": true
-      },
-      "pt": {
-        "name": "Bálsamo Pós-barba",
-        "subtitle": "Acabamento calmante após a barba, calma e conforto",
-        "slug": "balsamo-pos-barba",
-        "olfactiveFamily": "Fresco · Perfume suave",
-        "momentOfUse": "Após a barba · Rotina diária",
-        "nameMain": "Bálsamo",
-        "nameAccent": "pós-barba",
-        "shortDescription": "Bálsamo post-afeitado con complejo probiótico activo al 3% (Lactococcus Ferment Lysate) y aceite de aguacate. Repara la barrera cutánea, fortalece la piel y promueve su recuperación. No graso, no pegajoso.",
-        "benefits": [
-          "Complejo probiótico activo al 3%. Repara la barrera cutánea tras el afeitado.",
-          "Con aceite de aguacate. Hidrata al instante sin sensación grasa ni pegajosa."
-        ],
-        "ritual": [
-          {
-            "title": "Aplicar tras afeitado",
-            "description": "Aplicar sobre la piel limpia y seca inmediatamente después del afeitado."
-          },
-          {
-            "title": "Dosificar y repartir",
-            "description": "Dosificar 1-2 pulsaciones y repartir uniformemente en rostro, cuello y zonas afeitadas."
-          },
-          {
-            "title": "Masajear hasta absorber",
-            "description": "Masajear suavemente hasta su completa absorción. La piel queda calmada y confortable."
-          }
-        ],
-        "sensory": {
-          "aroma": "Fresco ámbar masculino elegante. Perfume discreto que cierra el ritual de afeitado con carácter.",
-          "texture": "Crema fluida color blanco. Viscosidad >3000. Absorción rápida con sensación no grasa y no pegajosa.",
-          "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
-          "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
-        },
-        "aiTranslation": true
-      },
-      "outOfStock": true
-    },
-    {
       "id": "exfoliante-facial-hombre",
       "line": "cosmetica",
       "collection": "hombre",
@@ -3143,9 +2872,7 @@
       "ph": "4,5-5,5",
       "paoMonths": 12,
       "formats": [
-        "300 ml",
-        "1 L",
-        "Caja BIB 5 L"
+        "100 ml"
       ],
       "dermatologicallyTested": true,
       "complements": [
@@ -3416,9 +3143,7 @@
       "ph": "6,5-7,5",
       "paoMonths": 6,
       "formats": [
-        "300 ml",
-        "1 L",
-        "Caja BIB 5 L"
+        "15 ml"
       ],
       "complements": [
         "exfoliante-facial-hombre",
@@ -4772,9 +4497,7 @@
       "ph": "4,5-5,5",
       "paoMonths": 6,
       "formats": [
-        "300 ml",
-        "1 L",
-        "Caja BIB 5 L"
+        "100 ml"
       ],
       "dermatologicallyTested": true,
       "complements": [
@@ -5316,9 +5039,7 @@
       "ph": "4,5-5,5",
       "paoMonths": 12,
       "formats": [
-        "300 ml",
-        "1 L",
-        "Caja BIB 5 L"
+        "100 ml"
       ],
       "dermatologicallyTested": true,
       "complements": [
@@ -5589,9 +5310,7 @@
       "ph": "6,5-7,5",
       "paoMonths": 6,
       "formats": [
-        "300 ml",
-        "1 L",
-        "Caja BIB 5 L"
+        "15 ml"
       ],
       "complements": [
         "exfoliante-facial-mujer",
