@@ -13,10 +13,10 @@ const SEASON_OFFERS: Array<{ id: number; discount: number }> = [
 ];
 
 const IMG: Record<number, string> = {
-  1:  'https://images.pexels.com/photos/4841273/pexels-photo-4841273.jpeg', // pendiente Plenitud
-  6:  '/images/landing/card-6.jpg',   // Refugio Hogar
-  7:  '/images/landing/card-7.jpg',   // Cocina Impecable
-  10: 'https://images.pexels.com/photos/6724313/pexels-photo-6724313.jpeg', // pendiente Mimo Canino
+  1:  '/images/landing/card-1.jpg',    // Plenitud
+  6:  '/images/landing/card-6.jpg',    // Refugio Hogar
+  7:  '/images/landing/card-7.jpg',    // Cocina Impecable
+  10: '/images/landing/card-10.jpg',   // Mimo Canino
 };
 
 const COLOR: Record<string, string> = {
