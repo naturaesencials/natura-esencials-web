@@ -92,6 +92,7 @@ export interface Product {
   sku: string;
   /** Handle de Shopify (para conectar con Storefront API) */
   shopifyHandle: string;
+  handles?: Record<string, string>;
   /** Regiones donde se vende */
   availableIn: Region[];
   /** Sensación líder de marca */
@@ -137,6 +138,7 @@ export interface Bundle {
   baseSlug: string;
   line: ProductLine;
   shopifyHandle: string;
+  handles?: Record<string, string>;
   availableIn: Region[];
   sensation: Sensation;
   /** IDs de los productos individuales que componen el pack */
