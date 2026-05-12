@@ -125,8 +125,11 @@ export function BuyButton({
     variants[0];
 
   const canBuy    = !!matchedVariant?.available && !!domain;
-  const href      = canBuy
-    ? buildCartUrl(domain, matchedVariant.id)
+  // Si no hay variants pero sí dominio → enlazar directo al producto en Shopify
+  const noVariants = variants.length === 0 && !!domain;
+
+  const href = canBuy
+    ? buildCartUrl(domain, matchedVariant!.id)
     : domain
       ? buildProductUrl(domain, handle)
       : '#';
@@ -191,9 +194,8 @@ export function BuyButton({
 
       {/* CTA principal */}
       {loading ? (
-        // Skeleton con el mismo tamaño que el botón real
         <div className="h-[52px] w-full sm:w-48 animate-pulse bg-ink/10 rounded-sm" />
-      ) : !data?.available && variants.length > 0 ? (
+      ) : (!data?.available && variants.length > 0) ? (
         <button disabled className={btnCls}>
           {t(locale, 'outOfStock')}
         </button>
