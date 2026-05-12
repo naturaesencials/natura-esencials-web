@@ -1259,7 +1259,7 @@
       ],
       "format": "300 ml",
       "discountPercent": 10,
-      "visible": false,
+      "visible": true,
       "basePriceEUR": 22.2,
       "es": {
         "name": "Ritual Gato Zen",
@@ -1344,7 +1344,7 @@
         "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
         "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
       },
-      "outOfStock": true
+      "outOfStock": false
     },
     {
       "id": "ritual-mimo-canino",

@@ -5,6 +5,15 @@ import type { Locale, Region } from '@/lib/i18n/config';
 import { regionCurrency } from '@/lib/i18n/config';
 import { getRitualsByLineAndRegion } from '@/data/rituales';
 import { buildPath } from '@/lib/i18n/paths';
+import bundlesData from '@/data/bundles.json';
+
+interface Props { region: Region; locale: Locale; }
+
+const VISIBLE_SLUGS = new Set(
+  (bundlesData.bundles as Array<{ visible?: boolean; es?: { slug?: string } }>)
+    .filter(b => b.visible !== false)
+    .map(b => b.es?.slug ?? '')
+);
 
 interface Props { region: Region; locale: Locale; }
 
@@ -17,8 +26,8 @@ export function DualFeatured({ region, locale }: Props) {
   const cosmeticaRituales = getRitualsByLineAndRegion('cosmetica', region);
   const hogarRituales     = getRitualsByLineAndRegion('hogar',     region);
 
-  const cosmetica = cosmeticaRituales[0];  // Plenitud (plenitud-300)
-  const hogar     = hogarRituales[0];       // Cocina Impecable u otro con bundle
+  const cosmetica = cosmeticaRituales.find(r => VISIBLE_SLUGS.has(r.slugs.es));
+  const hogar     = hogarRituales.find(r => VISIBLE_SLUGS.has(r.slugs.es));
 
   if (!cosmetica) return null;
 
