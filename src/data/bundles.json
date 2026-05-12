@@ -725,7 +725,7 @@
         "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
         "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
       },
-      "outOfStock": true,
+      "outOfStock": false,
       "handles": {
         "300 ml": "ritual-para-ella-300-ml",
         "1 L": "ritual-para-ella-1-ltr"
@@ -832,7 +832,7 @@
         "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
         "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
       },
-      "outOfStock": true,
+      "outOfStock": false,
       "handles": {
         "300 ml": "ritual-para-el-300-ml",
         "1 L": "rital-para-el-1-ltr"

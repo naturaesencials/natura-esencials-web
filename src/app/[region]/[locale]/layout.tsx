@@ -19,6 +19,7 @@ import { organizationSchema, localBusinessSchema, websiteSchema } from '@/lib/se
 import { CartProvider } from '@/context/CartContext';
 import { CookieBanner } from '@/components/layout/CookieBanner';
 import { CartDrawer } from '@/components/cart/CartDrawer';
+import { UkComingSoon } from '@/components/layout/UkComingSoon';
 
 interface Props {
   children: React.ReactNode;
@@ -55,7 +56,9 @@ export default async function RegionLocaleLayout({ children, params }: Props) {
         <CartProvider region={region} locale={locale}>
           <Header region={region} locale={locale} />
           <CartDrawer locale={locale} />
-          <main id="main-content">{children}</main>
+          <main id="main-content">
+            {region === 'uk' ? <UkComingSoon region={region} locale={locale} /> : children}
+          </main>
           <Footer region={region} locale={locale} />
         <CookieBanner region={region} locale={locale} />
         </CartProvider>
