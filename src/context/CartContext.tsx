@@ -1,0 +1,162 @@
+'use client';
+
+import {
+  createContext,
+  useContext,
+  useState,
+  useCallback,
+  useEffect,
+  useRef,
+  type ReactNode,
+} from 'react';
+import type { Cart, CartLine } from '@/lib/shopify/cart';
+import type { Region, Locale } from '@/lib/i18n/config';
+
+// ─── Types ────────────────────────────────────────────────────────────────────
+
+interface CartContextValue {
+  cart:         Cart | null;
+  isOpen:       boolean;
+  isLoading:    boolean;
+  totalItems:   number;
+  openCart:     () => void;
+  closeCart:    () => void;
+  addToCart:    (merchandiseId: string, quantity?: number) => Promise<void>;
+  removeLine:   (lineId: string) => Promise<void>;
+  updateLine:   (lineId: string, quantity: number) => Promise<void>;
+}
+
+// ─── Context ──────────────────────────────────────────────────────────────────
+
+const CartContext = createContext<CartContextValue | null>(null);
+
+export function useCart(): CartContextValue {
+  const ctx = useContext(CartContext);
+  if (!ctx) throw new Error('useCart must be used inside CartProvider');
+  return ctx;
+}
+
+// ─── Provider ─────────────────────────────────────────────────────────────────
+
+interface CartProviderProps {
+  children:  ReactNode;
+  region:    Region;
+  locale:    Locale;
+}
+
+export function CartProvider({ children, region, locale }: CartProviderProps) {
+  const [cart,      setCart]      = useState<Cart | null>(null);
+  const [isOpen,    setIsOpen]    = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+
+  // Clave de localStorage separada por región
+  const storageKey = `natura-cart-id-${region}`;
+  const cartIdRef  = useRef<string | null>(null);
+
+  // Leer cartId guardado al montar
+  useEffect(() => {
+    try {
+      cartIdRef.current = localStorage.getItem(storageKey);
+    } catch { /* SSR / private browsing */ }
+  }, [storageKey]);
+
+  // ── Helper: llamar a la API route ──────────────────────────────────────────
+  const callAPI = useCallback(async (body: Record<string, unknown>): Promise<Cart | null> => {
+    const res = await fetch('/api/shopify/cart', {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body:    JSON.stringify({ ...body, region, locale }),
+    });
+    if (!res.ok) return null;
+    const { cart } = await res.json();
+    return cart ?? null;
+  }, [region, locale]);
+
+  // ── Guardar cartId en localStorage ────────────────────────────────────────
+  const persistCartId = useCallback((id: string) => {
+    cartIdRef.current = id;
+    try { localStorage.setItem(storageKey, id); } catch { /* ignore */ }
+  }, [storageKey]);
+
+  // ── addToCart ──────────────────────────────────────────────────────────────
+  const addToCart = useCallback(async (merchandiseId: string, quantity = 1) => {
+    setIsLoading(true);
+    try {
+      let updatedCart: Cart | null = null;
+      const existingCartId = cartIdRef.current;
+
+      if (existingCartId) {
+        // Intentar añadir al carrito existente
+        updatedCart = await callAPI({
+          action:  'add',
+          cartId:  existingCartId,
+          lines:   [{ merchandiseId, quantity }],
+        });
+      }
+
+      // Si no hay carrito o falló, crear uno nuevo
+      if (!updatedCart) {
+        updatedCart = await callAPI({
+          action: 'create',
+          lines:  [{ merchandiseId, quantity }],
+        });
+      }
+
+      if (updatedCart) {
+        persistCartId(updatedCart.id);
+        setCart(updatedCart);
+        setIsOpen(true); // abrir drawer automáticamente
+      }
+    } finally {
+      setIsLoading(false);
+    }
+  }, [callAPI, persistCartId]);
+
+  // ── removeLine ─────────────────────────────────────────────────────────────
+  const removeLine = useCallback(async (lineId: string) => {
+    if (!cartIdRef.current) return;
+    setIsLoading(true);
+    try {
+      const updatedCart = await callAPI({
+        action:  'remove',
+        cartId:  cartIdRef.current,
+        lineIds: [lineId],
+      });
+      if (updatedCart) setCart(updatedCart);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [callAPI]);
+
+  // ── updateLine ─────────────────────────────────────────────────────────────
+  const updateLine = useCallback(async (lineId: string, quantity: number) => {
+    if (!cartIdRef.current) return;
+    if (quantity <= 0) { await removeLine(lineId); return; }
+    setIsLoading(true);
+    try {
+      const updatedCart = await callAPI({
+        action: 'update',
+        cartId: cartIdRef.current,
+        lines:  [{ id: lineId, quantity }],
+      });
+      if (updatedCart) setCart(updatedCart);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [callAPI, removeLine]);
+
+  const openCart  = useCallback(() => setIsOpen(true),  []);
+  const closeCart = useCallback(() => setIsOpen(false), []);
+
+  const totalItems = cart?.totalQuantity ?? 0;
+
+  return (
+    <CartContext.Provider value={{
+      cart, isOpen, isLoading, totalItems,
+      openCart, closeCart,
+      addToCart, removeLine, updateLine,
+    }}>
+      {children}
+    </CartContext.Provider>
+  );
+}

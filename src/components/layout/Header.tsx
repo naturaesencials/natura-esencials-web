@@ -8,6 +8,7 @@ import { buildPath } from '@/lib/i18n/paths';
 import { regionCurrency, type Locale, type Region } from '@/lib/i18n/config';
 import { MobileMenu } from './MobileMenu';
 import { RegionSelector } from './RegionSelector';
+import { useCart } from '@/context/CartContext';
 
 interface HeaderProps {
   region: Region;
@@ -19,6 +20,7 @@ export function Header({ region, locale }: HeaderProps) {
   const tc = useTranslations('common');
   const [menuOpen, setMenuOpen] = useState(false);
   const [regionOpen, setRegionOpen] = useState(false);
+  const { totalItems, openCart } = useCart();
 
   useEffect(() => {
     document.body.classList.toggle('menu-open', menuOpen);
@@ -84,8 +86,11 @@ export function Header({ region, locale }: HeaderProps) {
           </button>
           <button className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{tc('search')}</button>
           <button className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{tc('account')}</button>
-          <button className="flex items-center gap-1 px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">
-            {tc('bag')} · 0
+          <button
+            onClick={openCart}
+            className="flex items-center gap-1 px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo"
+          >
+            {tc('bag')} · {totalItems}
           </button>
         </div>
 
@@ -98,11 +103,17 @@ export function Header({ region, locale }: HeaderProps) {
         </button>
 
         {/* Bolsa (mobile) */}
-        <button aria-label={`${tc('bag')} (0)`} className="flex size-touch flex-col items-center justify-center text-ink lg:hidden">
+        <button
+          onClick={openCart}
+          aria-label={`${tc('bag')} (${totalItems})`}
+          className="flex size-touch flex-col items-center justify-center text-ink lg:hidden"
+        >
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" className="h-5 w-5">
             <path d="M5 7h14l-1 13H6zM8.5 7a3.5 3.5 0 017 0" />
           </svg>
-          <span className="mt-0.5 font-caption text-[9px] text-verde">0</span>
+          <span className={`mt-0.5 font-caption text-[9px] ${totalItems > 0 ? 'text-verde font-bold' : 'text-verde'}`}>
+            {totalItems}
+          </span>
         </button>
       </header>
 
