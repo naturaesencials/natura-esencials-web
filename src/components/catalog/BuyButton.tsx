@@ -4,18 +4,18 @@ import { useState, useEffect } from 'react';
 import { useCart } from '@/context/CartContext';
 import type { Region, Locale } from '@/lib/i18n/config';
 
-// ─── Labels i18n ─────────────────────────────────────────────────────────────
+// ─── i18n ─────────────────────────────────────────────────────────────────────
 
 const LABELS: Record<string, {
-  add: string; adding: string; added: string; outOfStock: string; format: string;
+  add: string; adding: string; added: string; outOfStock: string;
 }> = {
-  es: { add: 'Añadir a la cesta', adding: 'Añadiendo…',     added: '✓ Añadido',      outOfStock: 'Sin stock',    format: 'Formato' },
-  en: { add: 'Add to bag',        adding: 'Adding…',         added: '✓ Added',         outOfStock: 'Out of stock', format: 'Format'  },
-  fr: { add: 'Ajouter au panier', adding: 'Ajout…',          added: '✓ Ajouté',        outOfStock: 'Épuisé',       format: 'Format'  },
-  de: { add: 'In den Warenkorb',  adding: 'Hinzufügen…',     added: '✓ Hinzugefügt',   outOfStock: 'Ausverkauft',  format: 'Format'  },
-  it: { add: 'Aggiungi al cesto', adding: 'Aggiunta…',       added: '✓ Aggiunto',      outOfStock: 'Esaurito',     format: 'Formato' },
-  nl: { add: 'In winkelwagen',    adding: 'Toevoegen…',      added: '✓ Toegevoegd',    outOfStock: 'Uitverkocht',  format: 'Formaat' },
-  pt: { add: 'Adicionar ao cesto',adding: 'A adicionar…',    added: '✓ Adicionado',    outOfStock: 'Esgotado',     format: 'Formato' },
+  es: { add: 'Añadir a la cesta', adding: 'Añadiendo…',   added: '✓ Añadido',    outOfStock: 'Sin stock'    },
+  en: { add: 'Add to bag',        adding: 'Adding…',       added: '✓ Added',       outOfStock: 'Out of stock' },
+  fr: { add: 'Ajouter au panier', adding: 'Ajout…',        added: '✓ Ajouté',      outOfStock: 'Épuisé'       },
+  de: { add: 'In den Warenkorb',  adding: 'Hinzufügen…',   added: '✓ Hinzugefügt', outOfStock: 'Ausverkauft'  },
+  it: { add: 'Aggiungi al cesto', adding: 'Aggiunta…',     added: '✓ Aggiunto',    outOfStock: 'Esaurito'     },
+  nl: { add: 'In winkelwagen',    adding: 'Toevoegen…',    added: '✓ Toegevoegd',  outOfStock: 'Uitverkocht'  },
+  pt: { add: 'Adicionar ao cesto',adding: 'A adicionar…',  added: '✓ Adicionado',  outOfStock: 'Esgotado'     },
 };
 
 function tl(locale: Locale, key: keyof typeof LABELS[string]) {
@@ -24,8 +24,7 @@ function tl(locale: Locale, key: keyof typeof LABELS[string]) {
 
 function formatPrice(amount: string, currency: string): string {
   return new Intl.NumberFormat('es-ES', {
-    style: 'currency',
-    currency,
+    style: 'currency', currency,
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   }).format(parseFloat(amount));
@@ -34,44 +33,32 @@ function formatPrice(amount: string, currency: string): string {
 // ─── Types ────────────────────────────────────────────────────────────────────
 
 interface ShopifyVariant {
-  id: string;
-  title: string;
-  price: string;
-  currency: string;
-  available: boolean;
+  id: string; title: string; price: string; currency: string; available: boolean;
 }
-
 interface VariantsResponse {
-  variants: ShopifyVariant[];
-  available: boolean;
-  checkoutDomain: string;
+  variants: ShopifyVariant[]; available: boolean; checkoutDomain: string;
 }
 
 // ─── Component ────────────────────────────────────────────────────────────────
 
 interface BuyButtonProps {
-  handle:    string;
-  formats?:  string[];
-  region:    Region;
-  locale:    Locale;
-  variant?:  'primary' | 'secondary';
-  /** Mostrar bloque de precio + selector de formato (default true) */
+  handle:       string;
+  formats?:     string[];
+  region:       Region;
+  locale:       Locale;
+  variant?:     'primary' | 'secondary';
   showPricing?: boolean;
 }
 
 export function BuyButton({
-  handle,
-  formats = [],
-  region,
-  locale,
-  variant = 'primary',
-  showPricing = true,
+  handle, formats = [], region, locale,
+  variant = 'primary', showPricing = true,
 }: BuyButtonProps) {
   const { addToCart, isLoading: cartLoading } = useCart();
 
   const [data,            setData]            = useState<VariantsResponse | null>(null);
   const [loadingVariants, setLoadingVariants] = useState(true);
-  const [selectedFormat,  setSelectedFormat]  = useState<string>(formats[0] ?? '');
+  const [selectedIdx,     setSelectedIdx]     = useState(0);   // índice del variant seleccionado
   const [justAdded,       setJustAdded]       = useState(false);
   const [adding,          setAdding]          = useState(false);
 
@@ -80,38 +67,31 @@ export function BuyButton({
     setLoadingVariants(true);
     fetch(`/api/shopify/variants?handle=${handle}&region=${region}&locale=${locale}`)
       .then((r) => r.ok ? r.json() : null)
-      .then((json) => { if (!cancelled && json) setData(json); })
+      .then((json: VariantsResponse | null) => { if (!cancelled && json) setData(json); })
       .catch(() => {})
       .finally(() => { if (!cancelled) setLoadingVariants(false); });
     return () => { cancelled = true; };
   }, [handle, region, locale]);
 
-  const variants = data?.variants ?? [];
+  // Usamos los variants de Shopify directamente (fuente de verdad)
+  const variants        = data?.variants ?? [];
+  const availableVars   = variants.filter((v) => v.available);
+  const selectedVariant = availableVars[selectedIdx] ?? availableVars[0] ?? variants[selectedIdx] ?? variants[0];
 
-  // Variant que coincide con el formato seleccionado
-  const matchedVariant =
-    variants.find((v) =>
-      v.available &&
-      (v.title.toLowerCase() === selectedFormat.toLowerCase() ||
-       v.title === 'Default Title'),
-    ) ??
-    variants.find((v) => v.available) ??
-    variants[0];
-
-  const canAdd = !!matchedVariant?.available;
-  const hasSingleVariant = variants.length === 1 && variants[0]?.title === 'Default Title';
-  const hasFormatSelector = !loadingVariants && variants.length > 1 && formats.length > 1;
+  const canAdd           = !!selectedVariant?.available;
+  const hasMultiVariants = variants.length > 1;
+  const isSingleDefault  = variants.length === 1 && variants[0]?.title === 'Default Title';
 
   const handleAdd = async () => {
-    if (!canAdd || adding || !matchedVariant) return;
+    if (!canAdd || adding || !selectedVariant) return;
     setAdding(true);
-    await addToCart(matchedVariant.id, 1);
+    await addToCart(selectedVariant.id, 1);
     setAdding(false);
     setJustAdded(true);
     setTimeout(() => setJustAdded(false), 2000);
   };
 
-  // ── Styles ─────────────────────────────────────────────────────────────────
+  // ── Estilos ────────────────────────────────────────────────────────────────
   const primaryCls =
     'inline-flex items-center justify-center gap-2 px-8 py-4 ' +
     'bg-ink text-bg text-[11px] uppercase tracking-[0.28em] font-body-medium ' +
@@ -126,47 +106,38 @@ export function BuyButton({
 
   const btnCls = variant === 'primary' ? primaryCls : secondaryCls;
 
-  // ── Precio del variant seleccionado ────────────────────────────────────────
-  const priceDisplay = matchedVariant?.price
-    ? formatPrice(matchedVariant.price, matchedVariant.currency)
-    : null;
-
   // ── Render ─────────────────────────────────────────────────────────────────
   return (
     <div className="flex flex-col gap-4">
 
-      {/* ── Selector de formato con precios ── */}
+      {/* ── Pricing block ── */}
       {showPricing && (
-        <div>
+        <>
           {loadingVariants ? (
-            /* Skeleton precio */
-            <div className="flex items-baseline gap-4">
-              <div className="h-9 w-24 animate-pulse rounded-sm bg-ink/10" />
-              <div className="h-4 w-32 animate-pulse rounded-sm bg-ink/8" />
-            </div>
-          ) : hasFormatSelector ? (
-            /* Chips con precio por formato */
+            /* Skeleton */
             <div className="flex flex-col gap-3">
-              <p className="text-[10px] uppercase tracking-[0.22em] text-graphite">
-                {tl(locale, 'format')}
-              </p>
+              <div className="h-9 w-28 animate-pulse rounded-sm bg-ink/10" />
+              <div className="flex gap-2">
+                {(formats.length > 0 ? formats : ['', '']).map((_, i) => (
+                  <div key={i} className="h-14 w-24 animate-pulse rounded-sm bg-ink/8" />
+                ))}
+              </div>
+            </div>
+          ) : hasMultiVariants ? (
+            /* Chips por variante con precio real de Shopify */
+            <div className="flex flex-col gap-3">
               <div className="flex flex-wrap gap-2">
-                {formats.map((fmt) => {
-                  const fv = variants.find(
-                    (v) => v.title.toLowerCase() === fmt.toLowerCase()
-                  );
-                  const isSelected  = selectedFormat === fmt;
-                  const unavailable = fv ? !fv.available : false;
-                  const fmtPrice    = fv ? formatPrice(fv.price, fv.currency) : null;
-
+                {variants.map((v, i) => {
+                  const isSelected  = selectedIdx === i;
+                  const unavailable = !v.available;
                   return (
                     <button
-                      key={fmt}
+                      key={v.id}
                       type="button"
-                      onClick={() => !unavailable && setSelectedFormat(fmt)}
+                      onClick={() => !unavailable && setSelectedIdx(i)}
                       disabled={unavailable}
                       className={[
-                        'flex flex-col items-start px-4 py-2.5 border text-left',
+                        'flex flex-col items-start px-4 py-2.5 border text-left min-w-[88px]',
                         'transition-colors focus:outline-none focus:ring-2 focus:ring-verde',
                         isSelected
                           ? 'bg-ink text-bg border-ink'
@@ -174,31 +145,30 @@ export function BuyButton({
                         unavailable ? 'opacity-40 cursor-not-allowed' : 'cursor-pointer',
                       ].join(' ')}
                     >
-                      <span className="text-[11px] uppercase tracking-[0.18em]">{fmt}</span>
-                      {fmtPrice && (
-                        <span className={`mt-0.5 font-caption text-sm ${isSelected ? 'text-bg/80' : 'text-graphite'}`}>
-                          {fmtPrice}
-                        </span>
-                      )}
+                      <span className="text-[11px] uppercase tracking-[0.14em] leading-tight">
+                        {v.title}
+                      </span>
+                      <span className={`mt-1 font-caption text-sm ${isSelected ? 'text-bg/80' : 'text-graphite'}`}>
+                        {formatPrice(v.price, v.currency)}
+                      </span>
                     </button>
                   );
                 })}
               </div>
             </div>
           ) : (
-            /* Precio único (sin selector de formato o 1 sola variante) */
-            priceDisplay && (
-              <div className="flex items-baseline gap-3">
-                <span className="font-caption text-3xl text-ink">{priceDisplay}</span>
-                {!hasSingleVariant && matchedVariant && matchedVariant.title !== 'Default Title' && (
-                  <span className="text-[11px] uppercase tracking-[0.18em] text-graphite">
-                    {matchedVariant.title}
-                  </span>
-                )}
-              </div>
-            )
+            /* Precio único */
+            selectedVariant?.price && !isSingleDefault ? (
+              <span className="font-caption text-3xl text-ink">
+                {formatPrice(selectedVariant.price, selectedVariant.currency)}
+              </span>
+            ) : selectedVariant?.price ? (
+              <span className="font-caption text-3xl text-ink">
+                {formatPrice(selectedVariant.price, selectedVariant.currency)}
+              </span>
+            ) : null
           )}
-        </div>
+        </>
       )}
 
       {/* ── Botón añadir ── */}
@@ -212,11 +182,7 @@ export function BuyButton({
           disabled={adding || cartLoading || justAdded}
           className={btnCls}
         >
-          {adding
-            ? tl(locale, 'adding')
-            : justAdded
-            ? tl(locale, 'added')
-            : tl(locale, 'add')}
+          {adding ? tl(locale, 'adding') : justAdded ? tl(locale, 'added') : tl(locale, 'add')}
         </button>
       )}
     </div>

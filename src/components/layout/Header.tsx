@@ -68,9 +68,9 @@ export function Header({ region, locale }: HeaderProps) {
           <Image
             src="/images/logo-header.png"
             alt="Natura Esencials — Handcrafted Natural Products"
-            width={360}
-            height={45}
-            className="h-[36px] w-auto lg:h-[44px]"
+            width={298}
+            height={160}
+            className="h-[56px] w-auto lg:h-[72px]"
             priority
           />
         </Link>
