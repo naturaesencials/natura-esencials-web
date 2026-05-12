@@ -4,15 +4,22 @@ import { useTranslations } from 'next-intl';
 import { getRitualsByLineAndRegion } from '@/data/rituales';
 import { regionCurrency, type Locale, type Region } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
+import bundlesData from '@/data/bundles.json';
 
 interface Props { region: Region; locale: Locale; }
 
 const IMG: Record<number, string> = {
-  6: '/images/landing/card-6.jpg',   // Refugio Hogar
-  7: '/images/landing/card-7.jpg',   // Cocina Impecable
-  8: '/images/landing/card-8.jpg',   // Vajilla / Baño
-  9: '/images/landing/card-9.jpg',   // Caricia Textil
+  6: '/images/landing/card-6.jpg',
+  7: '/images/landing/card-7.jpg',
+  8: '/images/landing/card-8.jpg',
+  9: '/images/landing/card-9.jpg',
 };
+
+const VISIBLE_SLUGS = new Set(
+  (bundlesData.bundles as Array<{ visible?: boolean; es?: { slug?: string } }>)
+    .filter(b => b.visible !== false)
+    .map(b => b.es?.slug ?? '')
+);
 
 export function LineHogar({ region, locale }: Props) {
   const t = useTranslations('lineHogar');
@@ -37,14 +44,14 @@ export function LineHogar({ region, locale }: Props) {
 
       <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-3">
         {rituales.map((r) => {
-          const price = region === 'eu' ? r.basePriceEUR : r.basePriceGBP;
-          return (
-            <Link
-              key={r.id}
-              href={buildPath(region, locale, `rituales/${r.slugs[locale]}`)}
-              className="relative flex aspect-[3/4] min-h-[300px] flex-col justify-between overflow-hidden p-[clamp(18px,2.2vw,22px)] text-bg transition-transform duration-500"
-            >
-              <Image src={IMG[r.id].startsWith("/") ? IMG[r.id] : IMG[r.id] + "?auto=compress&cs=tinysrgb&w=1200"} alt={r.names[locale].full} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
+          const price      = region === 'eu' ? r.basePriceEUR : r.basePriceGBP;
+          const hasBundle  = VISIBLE_SLUGS.has(r.slugs.es);
+          const href       = hasBundle ? buildPath(region, locale, `rituales/${r.slugs[locale]}`) : undefined;
+          const cardCls    = 'relative flex aspect-[3/4] min-h-[300px] flex-col justify-between overflow-hidden p-[clamp(18px,2.2vw,22px)] text-bg';
+
+          const inner = (
+            <>
+              <Image src={IMG[r.id] ?? '/images/landing/card-7.jpg'} alt={r.names[locale].full} fill sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-b from-ink/[0.08] via-ink/[0.04] to-ink/[0.8]" />
               <div className="relative z-10 flex justify-between">
                 <span className="text-[11px] uppercase tracking-[0.25em] opacity-90">{r.category[locale]}</span>
@@ -57,10 +64,16 @@ export function LineHogar({ region, locale }: Props) {
                 </h4>
                 <div className="mt-2.5 flex min-h-touch items-baseline justify-between">
                   <span className="font-caption text-[15px]">{symbol}{price}</span>
-                  <span className="font-caption text-sm opacity-70">→</span>
+                  <span className="font-caption text-sm opacity-70">{hasBundle ? '→' : '·'}</span>
                 </div>
               </div>
-            </Link>
+            </>
+          );
+
+          return href ? (
+            <Link key={r.id} href={href} className={`${cardCls} transition-transform duration-500`}>{inner}</Link>
+          ) : (
+            <div key={r.id} className={cardCls}>{inner}</div>
           );
         })}
       </div>
