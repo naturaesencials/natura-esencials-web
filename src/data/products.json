@@ -1771,7 +1771,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-4.jpg"
     },
     {
       "id": "acondicionador-hombre",
@@ -2042,7 +2043,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-4.jpg"
     },
     {
       "id": "gel-manos-cuerpo-hombre",
@@ -2313,7 +2315,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-4.jpg"
     },
     {
       "id": "body-milk-man",
@@ -2583,7 +2586,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-4.jpg"
     },
     {
       "id": "gel-afeitado-hombre",
@@ -2854,7 +2858,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-4.jpg"
     },
     {
       "id": "balsamo-aftershave",
@@ -3398,7 +3403,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-4.jpg"
     },
     {
       "id": "serum-antiojeras-hombre",
@@ -3670,7 +3676,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-4.jpg"
     },
     {
       "id": "champu-mujer",
@@ -3942,7 +3949,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-5.jpg"
     },
     {
       "id": "acondicionador-mujer",
@@ -4213,7 +4221,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-5.jpg"
     },
     {
       "id": "gel-manos-cuerpo-mujer",
@@ -4484,7 +4493,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-5.jpg"
     },
     {
       "id": "body-milk-woman",
@@ -4754,7 +4764,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-5.jpg"
     },
     {
       "id": "agua-micelar",
@@ -5027,7 +5038,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-5.jpg"
     },
     {
       "id": "gel-afeitado-mujer",
@@ -5298,7 +5310,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-5.jpg"
     },
     {
       "id": "exfoliante-facial-mujer",
@@ -5571,7 +5584,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-5.jpg"
     },
     {
       "id": "serum-antiojeras-mujer",
@@ -5843,7 +5857,8 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "primaryImage": "/images/landing/card-5.jpg"
     },
     {
       "id": "detergente-ropa",
