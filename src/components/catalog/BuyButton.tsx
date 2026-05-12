@@ -148,7 +148,7 @@ export function BuyButton({
                       <span className="text-[11px] uppercase tracking-[0.14em] leading-tight">
                         {v.title}
                       </span>
-                      <span className={`mt-1 font-caption text-sm ${isSelected ? 'text-bg/80' : 'text-graphite'}`}>
+                      <span className={`mt-1 text-sm font-bold ${isSelected ? 'text-white' : 'text-ink'}`}>
                         {formatPrice(v.price, v.currency)}
                       </span>
                     </button>
