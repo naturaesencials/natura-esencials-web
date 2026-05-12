@@ -139,6 +139,7 @@ function transformBundle(raw: RawBundle): Bundle {
     baseSlug: raw.id,
     line: raw.line,
     shopifyHandle: raw.shopifyHandle,
+    handles: raw.handles,
     availableIn: raw.availableIn,
     sensation: raw.sensation,
     includes: raw.includes,
