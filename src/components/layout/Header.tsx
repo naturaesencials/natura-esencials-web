@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { buildPath } from '@/lib/i18n/paths';
@@ -61,8 +62,15 @@ export function Header({ region, locale }: HeaderProps) {
         </nav>
 
         {/* Logo */}
-        <Link href={buildPath(region, locale)} className="text-center font-display text-[clamp(18px,3vw,22px)] tracking-[0.01em] text-ink" style={{ fontVariationSettings: "'opsz' 144, 'wght' 400, 'SOFT' 30" }}>
-          Natura <em className="font-light not-italic" style={{ fontStyle: 'italic', color: '#3A6B47' }}>Esencials</em>
+        <Link href={buildPath(region, locale)} className="flex items-center justify-center">
+          <Image
+            src="/images/logo-header.png"
+            alt="Natura Esencials — Handcrafted Natural Products"
+            width={180}
+            height={22}
+            className="h-[18px] w-auto lg:h-[22px]"
+            priority
+          />
         </Link>
 
         {/* Utils (desktop) */}

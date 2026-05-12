@@ -8,7 +8,7 @@ import { buildPath } from '@/lib/i18n/paths';
 interface Props { region: Region; locale: Locale; }
 
 const IMG: Record<number, string> = {
-  1: 'https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg', // pendiente foto Plenitud
+  1: '/images/landing/card-1.jpg',   // Plenitud — 4 productos Natura en bandeja
   2: '/images/landing/card-2.jpg',   // Ducha Perfecta
   3: '/images/landing/card-3.jpg',   // Rendimiento
   4: '/images/landing/card-4.jpg',   // Para Él
