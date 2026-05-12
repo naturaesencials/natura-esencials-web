@@ -70,7 +70,7 @@ export function Header({ region, locale }: HeaderProps) {
             alt="Natura Esencials — Handcrafted Natural Products"
             width={298}
             height={160}
-            className="h-[56px] w-auto lg:h-[72px]"
+            className="h-[68px] w-auto lg:h-[88px]"
             priority
           />
         </Link>

@@ -24,8 +24,7 @@
   },
   "thinBar": {
     "shipping": "Free shipping from £60",
-    "returns": "30-day returns",
-    "samples": "Sample with every order"
+    "returns": "30-day returns"
   },
   "regionBanner": {
     "showing": "Showing",
@@ -78,7 +77,7 @@
     "tag": "Main line · 5 rituals",
     "title1": "The",
     "titleAccent": "skincare.",
-    "intro": "Our founding line. Five rituals for body, hair and face — formulated since 2019 under ISO 16128 protocol and dermatologically tested. Botanical materials from southern Europe, patient formulation.",
+    "intro": "Our foundational line. Five rituals for body, hair and face — formulated since 2021 under ISO 16128 protocol and dermatologically tested. Botanical material from southern Europe, patient formulation.",
     "introEmphasis": "Botanical materials from southern Europe, patient formulation."
   },
   "botanica": {
@@ -102,9 +101,9 @@
     "title1": "From the",
     "titleAccent1": "field",
     "title2": "to the bottle.",
-    "body": "Cooperatives in Málaga, Granada, Jaén and Córdoba. Olive oil, lavender, chamomile, rosemary — all just hours from the workshop. Proximity is also an ingredient.",
+    "body": "We work with carefully selected local and national suppliers. Olive oil, lavender, chamomile, rosemary — southern ingredients that travel just a few kilometres to our workshop. Proximity is also an ingredient.",
     "bodyEmphasis": "all just hours from the workshop.",
-    "cta": "Discover our cooperatives",
+    "cta": "Discover our process",
     "coordTitle": "Workshop",
     "coordValue": "36°30′N · 4°53′W"
   },
@@ -120,8 +119,6 @@
     "shippingDesc": "from £60",
     "returns": "Returns",
     "returnsDesc": "within 30 days",
-    "samples": "Sample",
-    "samplesDesc": "with every order",
     "iso": "ISO 16128",
     "isoDesc": "certified"
   },

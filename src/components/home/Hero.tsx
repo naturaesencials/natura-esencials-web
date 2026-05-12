@@ -41,16 +41,16 @@ export function Hero({ region, locale }: Props) {
         </p>
 
         {/* Dual marks */}
-        <div className="mt-[clamp(28px,4vw,40px)] grid grid-cols-2 gap-[clamp(16px,3vw,40px)] border-t border-rule pt-[clamp(24px,3vw,32px)]">
-          <div className="flex flex-col gap-1">
-            <span className="text-[11px] uppercase tracking-[0.28em] text-graphite">— {t('marksCosmetica')}</span>
-            <span className="font-caption text-[clamp(16px,1.8vw,20px)] text-verde">{t('marksCosmeticaCount', { count: cosmeticaCount })}</span>
-            <span className="text-[11px] leading-[1.5] text-graphite">{t('marksCosmeticaDesc')}</span>
+        <div className="mt-[clamp(28px,4vw,40px)] grid grid-cols-2 gap-[clamp(16px,3vw,40px)] border-t border-ink/20 pt-[clamp(24px,3vw,32px)]">
+          <div className="flex flex-col gap-1.5">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.28em] text-ink">— {t('marksCosmetica')}</span>
+            <span className="font-caption text-[clamp(18px,2vw,22px)] font-bold text-verde">{t('marksCosmeticaCount', { count: cosmeticaCount })}</span>
+            <span className="text-[12px] font-medium leading-[1.5] text-ink/70">{t('marksCosmeticaDesc')}</span>
           </div>
-          <div className="flex flex-col gap-1">
-            <span className="text-[11px] uppercase tracking-[0.28em] text-graphite">— {t('marksHogar')}</span>
-            <span className="font-caption text-[clamp(16px,1.8vw,20px)] text-azul">{t('marksHogarCount', { count: hogarCount })}</span>
-            <span className="text-[11px] leading-[1.5] text-graphite">{t('marksHogarDesc')}</span>
+          <div className="flex flex-col gap-1.5">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.28em] text-ink">— {t('marksHogar')}</span>
+            <span className="font-caption text-[clamp(18px,2vw,22px)] font-bold text-azul">{t('marksHogarCount', { count: hogarCount })}</span>
+            <span className="text-[12px] font-medium leading-[1.5] text-ink/70">{t('marksHogarDesc')}</span>
           </div>
         </div>
 
@@ -81,16 +81,6 @@ export function Hero({ region, locale }: Props) {
           sizes="(min-width: 1024px) 50vw, 100vw"
           className="object-cover"
         />
-        {/* Tag Cosmética */}
-        <div className="absolute right-4 top-4 flex items-center gap-2 bg-bg px-3.5 py-2.5 text-[11px] uppercase tracking-[0.22em] text-verde shadow-md sm:right-6 sm:top-6 sm:px-[18px] sm:py-3 lg:right-12 lg:top-12">
-          <span className="size-1.5 rounded-full bg-verde-vivo" aria-hidden />
-          {t('imgTagCosmetica')}
-        </div>
-        {/* Tag Hogar */}
-        <div className="absolute bottom-4 right-4 flex items-center gap-2 bg-bg px-3.5 py-2.5 text-[11px] uppercase tracking-[0.22em] text-azul shadow-md sm:bottom-6 sm:right-6 sm:px-[18px] sm:py-3 lg:bottom-12 lg:right-12">
-          <span className="size-1.5 rounded-full bg-azul" aria-hidden />
-          {t('imgTagHogar')}
-        </div>
       </div>
     </section>
   );

@@ -24,8 +24,7 @@
   },
   "thinBar": {
     "shipping": "Kostenloser Versand ab 60 €",
-    "returns": "30 Tage Rückgabe",
-    "samples": "Probe bei jeder Bestellung"
+    "returns": "30 Tage Rückgabe"
   },
   "regionBanner": {
     "showing": "Anzeige des",
@@ -78,7 +77,7 @@
     "tag": "Hauptlinie · 5 Rituale",
     "title1": "Die",
     "titleAccent": "Hautpflege.",
-    "intro": "Unsere Gründungslinie. Fünf Rituale für Körper, Haar und Gesicht — seit 2019 nach ISO-16128-Protokoll formuliert und dermatologisch getestet. Pflanzliche Materie aus Südeuropa, geduldige Formulierung.",
+    "intro": "Unsere Gründungslinie. Fünf Rituale für Körper, Haar und Gesicht — seit 2021 nach ISO 16128 Protokoll formuliert und dermatologisch getestet. Pflanzliche Rohstoffe aus Südeuropa, geduldige Formulierung.",
     "introEmphasis": "Pflanzliche Materie aus Südeuropa, geduldige Formulierung."
   },
   "botanica": {
@@ -98,13 +97,13 @@
     "introEmphasis": "Mit demselben Anspruch, den wir an die Haut stellen"
   },
   "origen": {
-    "kicker": "Herkunft · Andalusien",
+    "kicker": "Ursprung · Andalusien",
     "title1": "Vom",
     "titleAccent1": "Feld",
     "title2": "in die Flasche.",
-    "body": "Genossenschaften in Málaga, Granada, Jaén und Córdoba. Olivenöl, Lavendel, Kamille, Rosmarin — alles nur wenige Stunden von der Werkstatt entfernt. Nähe ist auch eine Zutat.",
+    "body": "Wir arbeiten mit sorgfältig ausgewählten lokalen und nationalen Lieferanten. Olivenöl, Lavendel, Kamille, Rosmarin — südliche Zutaten, die nur wenige Kilometer zu unserer Werkstatt reisen. Nähe ist auch eine Zutat.",
     "bodyEmphasis": "alles nur wenige Stunden von der Werkstatt entfernt.",
-    "cta": "Unsere Genossenschaften entdecken",
+    "cta": "Unseren Prozess entdecken",
     "coordTitle": "Werkstatt",
     "coordValue": "36°30′N · 4°53′W"
   },
@@ -120,8 +119,6 @@
     "shippingDesc": "ab 60 €",
     "returns": "Rückgabe",
     "returnsDesc": "innerhalb 30 Tagen",
-    "samples": "Probe",
-    "samplesDesc": "in jeder Bestellung",
     "iso": "ISO 16128",
     "isoDesc": "zertifiziert"
   },

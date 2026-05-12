@@ -24,8 +24,7 @@
   },
   "thinBar": {
     "shipping": "Gratis verzending vanaf € 60",
-    "returns": "30 dagen retour",
-    "samples": "Sample bij elke bestelling"
+    "returns": "30 dagen retour"
   },
   "regionBanner": {
     "showing": "Winkel weergeven",
@@ -78,7 +77,7 @@
     "tag": "Hoofdlijn · 5 rituelen",
     "title1": "De",
     "titleAccent": "huidverzorging.",
-    "intro": "Onze grondleggende lijn. Vijf rituelen voor lichaam, haar en gezicht — sinds 2019 geformuleerd volgens ISO 16128-protocol en dermatologisch getest. Plantaardige materie uit Zuid-Europa, geduldige formulering.",
+    "intro": "Onze fundamentele lijn. Vijf rituelen voor lichaam, haar en gezicht — geformuleerd sinds 2021 onder ISO 16128 protocol en dermatologisch getest. Plantaardige grondstoffen uit Zuid-Europa, geduldige formulering.",
     "introEmphasis": "Plantaardige materie uit Zuid-Europa, geduldige formulering."
   },
   "botanica": {
@@ -98,13 +97,13 @@
     "introEmphasis": "Met dezelfde zorg die we aan de huid besteden"
   },
   "origen": {
-    "kicker": "Herkomst · Andalusië",
+    "kicker": "Oorsprong · Andalusië",
     "title1": "Van het",
     "titleAccent1": "veld",
     "title2": "naar de fles.",
-    "body": "Coöperaties in Málaga, Granada, Jaén en Córdoba. Olijfolie, lavendel, kamille, rozemarijn — alles op enkele uren afstand van het atelier. Nabijheid is ook een ingrediënt.",
+    "body": "Wij werken met zorgvuldig geselecteerde lokale en nationale leveranciers. Olijfolie, lavendel, kamille, rozemarijn — zuidelijke ingrediënten die slechts enkele kilometers naar onze werkplaats reizen. Nabijheid is ook een ingrediënt.",
     "bodyEmphasis": "alles op enkele uren afstand van het atelier.",
-    "cta": "Onze coöperaties ontdekken",
+    "cta": "Ons proces ontdekken",
     "coordTitle": "Atelier",
     "coordValue": "36°30′N · 4°53′W"
   },
@@ -120,8 +119,6 @@
     "shippingDesc": "vanaf € 60",
     "returns": "Retour",
     "returnsDesc": "binnen 30 dagen",
-    "samples": "Sample",
-    "samplesDesc": "bij elke bestelling",
     "iso": "ISO 16128",
     "isoDesc": "gecertificeerd"
   },

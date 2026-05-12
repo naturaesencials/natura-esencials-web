@@ -7,7 +7,6 @@ export function ThinBar() {
     <ThinBarClient
       shipping={t('shipping')}
       returns={t('returns')}
-      samples={t('samples')}
     />
   );
 }
