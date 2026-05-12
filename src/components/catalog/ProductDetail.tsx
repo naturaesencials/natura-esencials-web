@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import type { Product, Bundle } from '@/data/types';
 import type { Locale, Region } from '@/lib/i18n/config';
-import { regionCurrency } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
 import { getProductById, getBundleById } from '@/data';
 import { ProductImage } from './ProductImage';
@@ -70,8 +69,6 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
   const tr = product.translations[locale] || product.translations.es;
   if (!tr) return null;
 
-  const symbol = regionCurrency[region].symbol;
-  const price = region === 'eu' ? product.basePriceEUR : product.basePriceGBP;
   const { src: imageSrc, fallbackSrc: imageFallback } = resolveProductImage(
     product.id,
     region,
@@ -184,21 +181,12 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
 
             {/* Formatos + precio + comprar */}
             <div className="mt-8 pt-8 border-t border-ink/10 flex flex-col gap-5">
-              <div className="flex items-baseline gap-6 flex-wrap">
-                {price !== undefined && (
-                  <span className="font-caption text-3xl text-ink">
-                    {symbol}{price}
-                  </span>
-                )}
-                <span className="text-body-fluid text-graphite">
-                  {product.formats.join(' · ')}
-                </span>
-              </div>
               <BuyButton
                 handle={product.shopifyHandle}
                 formats={product.formats}
                 region={region}
                 locale={locale}
+                showPricing={true}
               />
             </div>
           </div>
