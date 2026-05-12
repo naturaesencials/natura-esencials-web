@@ -5,14 +5,23 @@ import type { Locale, Region } from '@/lib/i18n/config';
 
 interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 
+const TITLES: Record<string, string> = {"es": "Política de Cookies", "en": "Cookie Policy", "fr": "Politique de cookies", "de": "Cookie-Richtlinie", "it": "Informativa sui cookie", "nl": "Cookiebeleid", "pt": "Política de Cookies"};
+const DESCS: Record<string, string>  = {"es": "Política de cookies de Natura Esencials Products, S.L.", "en": "Cookie policy of Natura Esencials Products, S.L.", "fr": "Politique de cookies de Natura Esencials Products, S.L.", "de": "Cookie-Richtlinie von Natura Esencials Products, S.L.", "it": "Informativa sui cookie di Natura Esencials Products, S.L.", "nl": "Cookiebeleid van Natura Esencials Products, S.L.", "pt": "Política de cookies da Natura Esencials Products, S.L."};
+const CONTENT: Record<string, string> = {"es": "<h2>Política de Cookies</h2><h3>¿Qué son las cookies?</h3><p>Las cookies son pequeños archivos de texto almacenados en su dispositivo al visitar un sitio web. Permiten recordar sus acciones y preferencias durante un período de tiempo.</p><h3>Cookies que utilizamos</h3><h4>Esenciales</h4><ul><li><strong>cart</strong> — Shopify: contenido del carrito. Duración: 2 semanas.</li><li><strong>ne-cart-id-*</strong> — Natura Esencials: ID del carrito headless. Duración: 2 semanas.</li><li><strong>ne-cookie-consent</strong> — Registra su aceptación. Duración: 1 año.</li></ul><h4>Analíticas (con su consentimiento)</h4><ul><li><strong>_ga, _ga_*</strong> — Google Analytics: análisis de tráfico anónimo. Duración: 2 años.</li></ul><h3>Gestión de cookies</h3><p>Puede controlar las cookies desde la configuración de su navegador. Si las desactiva, algunos servicios pueden no funcionar correctamente.</p><h3>Contacto</h3><p>Preguntas sobre cookies: <a href=\"mailto:contacto@naturaesencials.com\">contacto@naturaesencials.com</a></p>", "en": "<h2>Cookie Policy</h2><h3>What are cookies?</h3><p>Cookies are small text files stored on your device when you visit a website. They allow the site to remember your actions and preferences over a period of time.</p><h3>Cookies we use</h3><h4>Essential</h4><ul><li><strong>cart</strong> — Shopify: shopping cart contents. Duration: 2 weeks.</li><li><strong>ne-cart-id-*</strong> — Natura Esencials: headless cart ID. Duration: 2 weeks.</li><li><strong>ne-cookie-consent</strong> — Records your consent. Duration: 1 year.</li></ul><h4>Analytics (with your consent)</h4><ul><li><strong>_ga, _ga_*</strong> — Google Analytics: anonymous traffic analysis. Duration: 2 years.</li></ul><h3>Managing cookies</h3><p>You can control cookies through your browser settings. Disabling them may affect certain features.</p><h3>Contact</h3><p>Questions about cookies: <a href=\"mailto:contacto@naturaesencials.com\">contacto@naturaesencials.com</a></p>", "fr": "<h2>Politique de cookies</h2><h3>Que sont les cookies ?</h3><p>Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez un site web. Ils permettent de mémoriser vos actions et préférences.</p><h3>Cookies que nous utilisons</h3><h4>Essentiels</h4><ul><li><strong>cart</strong> — Shopify : contenu du panier. Durée : 2 semaines.</li><li><strong>ne-cart-id-*</strong> — Natura Esencials : ID du panier. Durée : 2 semaines.</li><li><strong>ne-cookie-consent</strong> — Enregistre votre consentement. Durée : 1 an.</li></ul><h4>Analytiques (avec votre consentement)</h4><ul><li><strong>_ga, _ga_*</strong> — Google Analytics : analyse du trafic anonyme. Durée : 2 ans.</li></ul><h3>Gestion des cookies</h3><p>Vous pouvez contrôler les cookies depuis les paramètres de votre navigateur. Les désactiver peut affecter certaines fonctionnalités.</p><h3>Contact</h3><p>Questions sur les cookies : <a href=\"mailto:contacto@naturaesencials.com\">contacto@naturaesencials.com</a></p>", "de": "<h2>Cookie-Richtlinie</h2><h3>Was sind Cookies?</h3><p>Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, wenn Sie eine Website besuchen. Sie ermöglichen es der Website, Ihre Aktionen und Einstellungen zu speichern.</p><h3>Von uns verwendete Cookies</h3><h4>Notwendig</h4><ul><li><strong>cart</strong> — Shopify: Warenkorbinhalt. Dauer: 2 Wochen.</li><li><strong>ne-cart-id-*</strong> — Natura Esencials: Warenkorb-ID. Dauer: 2 Wochen.</li><li><strong>ne-cookie-consent</strong> — Speichert Ihre Einwilligung. Dauer: 1 Jahr.</li></ul><h4>Analyse (mit Ihrer Einwilligung)</h4><ul><li><strong>_ga, _ga_*</strong> — Google Analytics: anonyme Verkehrsanalyse. Dauer: 2 Jahre.</li></ul><h3>Cookie-Verwaltung</h3><p>Sie können Cookies über Ihre Browsereinstellungen steuern. Das Deaktivieren kann bestimmte Funktionen beeinträchtigen.</p><h3>Kontakt</h3><p>Fragen zu Cookies: <a href=\"mailto:contacto@naturaesencials.com\">contacto@naturaesencials.com</a></p>", "it": "<h2>Informativa sui cookie</h2><h3>Cosa sono i cookie?</h3><p>I cookie sono piccoli file di testo memorizzati sul vostro dispositivo quando visitate un sito web. Consentono al sito di ricordare le vostre azioni e preferenze.</p><h3>Cookie che utilizziamo</h3><h4>Essenziali</h4><ul><li><strong>cart</strong> — Shopify: contenuto del carrello. Durata: 2 settimane.</li><li><strong>ne-cart-id-*</strong> — Natura Esencials: ID carrello. Durata: 2 settimane.</li><li><strong>ne-cookie-consent</strong> — Registra il vostro consenso. Durata: 1 anno.</li></ul><h4>Analitici (con il vostro consenso)</h4><ul><li><strong>_ga, _ga_*</strong> — Google Analytics: analisi del traffico anonimo. Durata: 2 anni.</li></ul><h3>Gestione dei cookie</h3><p>Potete controllare i cookie tramite le impostazioni del vostro browser. Disabilitarli può influire su alcune funzionalità.</p><h3>Contatto</h3><p>Domande sui cookie: <a href=\"mailto:contacto@naturaesencials.com\">contacto@naturaesencials.com</a></p>", "nl": "<h2>Cookiebeleid</h2><h3>Wat zijn cookies?</h3><p>Cookies zijn kleine tekstbestanden die op uw apparaat worden opgeslagen wanneer u een website bezoekt. Ze stellen de site in staat uw acties en voorkeuren te onthouden.</p><h3>Cookies die we gebruiken</h3><h4>Essentieel</h4><ul><li><strong>cart</strong> — Shopify: winkelwageninhoud. Duur: 2 weken.</li><li><strong>ne-cart-id-*</strong> — Natura Esencials: winkelwagen-ID. Duur: 2 weken.</li><li><strong>ne-cookie-consent</strong> — Registreert uw toestemming. Duur: 1 jaar.</li></ul><h4>Analytisch (met uw toestemming)</h4><ul><li><strong>_ga, _ga_*</strong> — Google Analytics: anonieme verkeersanalyse. Duur: 2 jaar.</li></ul><h3>Cookiebeheer</h3><p>U kunt cookies beheren via uw browserinstellingen. Het uitschakelen ervan kan bepaalde functies beïnvloeden.</p><h3>Contact</h3><p>Vragen over cookies: <a href=\"mailto:contacto@naturaesencials.com\">contacto@naturaesencials.com</a></p>", "pt": "<h2>Política de Cookies</h2><h3>O que são cookies?</h3><p>Os cookies são pequenos ficheiros de texto armazenados no seu dispositivo quando visita um sítio web. Permitem ao sítio recordar as suas ações e preferências.</p><h3>Cookies que utilizamos</h3><h4>Essenciais</h4><ul><li><strong>cart</strong> — Shopify: conteúdo do carrinho. Duração: 2 semanas.</li><li><strong>ne-cart-id-*</strong> — Natura Esencials: ID do carrinho. Duração: 2 semanas.</li><li><strong>ne-cookie-consent</strong> — Regista o seu consentimento. Duração: 1 ano.</li></ul><h4>Analíticos (com o seu consentimento)</h4><ul><li><strong>_ga, _ga_*</strong> — Google Analytics: análise de tráfego anónimo. Duração: 2 anos.</li></ul><h3>Gestão de cookies</h3><p>Pode controlar os cookies através das definições do seu navegador. Desativá-los pode afetar algumas funcionalidades.</p><h3>Contacto</h3><p>Questões sobre cookies: <a href=\"mailto:contacto@naturaesencials.com\">contacto@naturaesencials.com</a></p>"};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, locale } = await params;
-  return buildMetadata({ title: 'Política de Cookies', description: 'Política de Cookies de Natura Esencials Products, S.L. Málaga, Andalucía.', region, locale, path: 'cookies' });
+  return buildMetadata({
+    title: TITLES[locale] ?? TITLES.es,
+    description: DESCS[locale] ?? DESCS.es,
+    region, locale, path: 'cookies',
+  });
 }
 
 export default async function CookiesPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const html = CONTENT[locale] ?? CONTENT.es;
 
   return (
     <main className="px-pad-x py-pad-y">
@@ -26,50 +35,7 @@ export default async function CookiesPage({ params }: Props) {
             [&_ul]:mb-5 [&_li]:text-[15px] [&_li]:leading-[1.8] [&_li]:text-ink/80
             [&_a]:text-verde [&_a]:underline [&_a]:underline-offset-2
             [&_strong]:font-semibold [&_strong]:text-ink"
-          dangerouslySetInnerHTML={{ __html: `<h2>Política de Cookies</h2>
-
-<h3>¿Qué son las cookies?</h3>
-<p>Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita un sitio web. Permiten que el sitio web recuerde sus acciones y preferencias durante un período de tiempo.</p>
-
-<h3>Cookies que utilizamos</h3>
-
-<h4>Cookies esenciales (necesarias)</h4>
-<p>Son imprescindibles para el funcionamiento del sitio web. Sin ellas, servicios como el carrito de compra no funcionarían correctamente.</p>
-<ul>
-<li><strong>cart</strong> — Shopify: almacena el contenido de su carrito de compra. Duración: 2 semanas.</li>
-<li><strong>_shopify_s</strong> — Shopify: analítica de sesión interna. Duración: 30 minutos.</li>
-<li><strong>_shopify_y</strong> — Shopify: analítica anual interna. Duración: 1 año.</li>
-<li><strong>ne-cart-id-*</strong> — Natura Esencials: almacena el ID de su carrito. Duración: 2 semanas.</li>
-</ul>
-
-<h4>Cookies de preferencias</h4>
-<ul>
-<li><strong>ne-region</strong> — Almacena su preferencia de región (EU/UK) e idioma. Duración: 1 año.</li>
-<li><strong>ne-cookie-consent</strong> — Registra si ha aceptado esta política de cookies. Duración: 1 año.</li>
-</ul>
-
-<h4>Cookies analíticas</h4>
-<p>Si ha aceptado las cookies analíticas, utilizamos Google Analytics para comprender cómo los usuarios interactúan con nuestro sitio y mejorar su experiencia. Los datos se almacenan de forma anónima.</p>
-<ul>
-<li><strong>_ga</strong> — Google Analytics: distingue usuarios únicos. Duración: 2 años.</li>
-<li><strong>_ga_*</strong> — Google Analytics: mantiene el estado de la sesión. Duración: 2 años.</li>
-</ul>
-
-<h4>Cookies de marketing</h4>
-<p>Si ha aceptado las cookies de marketing, podemos mostrarle publicidad relevante en otras plataformas.</p>
-
-<h3>Cómo gestionar las cookies</h3>
-<p>Puede controlar y/o eliminar las cookies cuando lo desee. Puede eliminar todas las cookies almacenadas en su dispositivo y configurar la mayoría de navegadores para que no las acepten. Si lo hace, es posible que tenga que ajustar manualmente algunas preferencias cada vez que visite el sitio y que algunos servicios o funciones no operen correctamente.</p>
-
-<p>Para gestionar las cookies en su navegador:</p>
-<ul>
-<li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
-<li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" rel="noopener">Mozilla Firefox</a></li>
-<li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
-</ul>
-
-<h3>Contacto</h3>
-<p>Si tiene preguntas sobre nuestra política de cookies, contacte con nosotros en <a href="mailto:contacto@naturaesencials.com">contacto@naturaesencials.com</a>.</p>` }}
+          dangerouslySetInnerHTML={{ __html: html }}
         />
         <p className="mt-12 border-t border-rule pt-6 text-[11px] uppercase tracking-[0.22em] text-graphite">
           Natura Esencials Products, S.L. · Málaga, Andalucía

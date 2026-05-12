@@ -7,7 +7,7 @@ import { useTranslations } from 'next-intl';
 import { siteConfig } from '@/config/site';
 import { buildPath } from '@/lib/i18n/paths';
 import {
-  regions, regionLocales, regionCurrency, localeMap,
+  regions, regionLocales, localeMap,
   type Locale, type Region,
 } from '@/lib/i18n/config';
 import { RegionSelector } from './RegionSelector';
@@ -21,46 +21,36 @@ export function Footer({ region, locale }: Props) {
 
   return (
     <footer className="grid gap-pad-y-sm bg-ink px-pad-x pb-7 pt-pad-y-sm text-xs leading-[1.9] text-bg sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr]">
-      {/* Brand */}
+
+      {/* Brand — columna izquierda */}
       <div className="sm:col-span-2 lg:col-auto">
-        <div className="mb-5 flex flex-col gap-4">
-          <Image
-            src="/images/logo-white-sm.png"
-            alt="Natura Esencials — Handcrafted Natural Products"
-            width={160}
-            height={73}
-            className="h-14 w-auto object-contain"
-          />
-          <Image
-            src="/images/sello-artesania-white-sm.png"
-            alt="Artesanía Hecha en Andalucía"
-            width={160}
-            height={62}
-            className="h-9 w-auto object-contain opacity-75"
-          />
-        </div>
         <p className="max-w-[280px] text-[12px] text-bg/70">{t('brandDesc')}</p>
-        <p className="mt-3 text-[11px] tracking-[0.04em] text-bg/80">
-          <a href={`mailto:${siteConfig.contact.email}`} className="transition-colors hover:text-bg">{siteConfig.contact.email}</a><br />
-          <a href={`tel:${siteConfig.contact.phone.replace(/\s/g,'')}`} className="transition-colors hover:text-bg">{siteConfig.contact.phone}</a>
-        </p>
+        <div className="mt-4 text-[11px] tracking-[0.04em] text-bg/80">
+          <p className="mb-1 font-medium text-bg/90">{siteConfig.entity.name}</p>
+          <a href={`mailto:${siteConfig.contact.email}`} className="block transition-colors hover:text-bg">{siteConfig.contact.email}</a>
+          <a href={`tel:${siteConfig.contact.phone.replace(/\s/g,'')}`} className="block transition-colors hover:text-bg">{siteConfig.contact.phone}</a>
+        </div>
       </div>
 
+      {/* Cosmética */}
       <div>
         <h5 className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-verde-claro">{t('colCosmetica')}</h5>
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'cosmetica')}>{t('colCosmetica')}</Link>
       </div>
 
+      {/* Hogar */}
       <div>
         <h5 className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-azul-claro">{t('colHogar')}</h5>
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'hogar')}>{t('colHogar')}</Link>
       </div>
 
+      {/* Mascota */}
       <div>
         <h5 className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-citrico">{t('colMascota')}</h5>
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'mascota')}>{t('colMascota')}</Link>
       </div>
 
+      {/* Casa / Links */}
       <div>
         <h5 className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-bg/55">{t('colCasa')}</h5>
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'origen')}>{t('linkOrigen')}</Link>
@@ -68,8 +58,27 @@ export function Footer({ region, locale }: Props) {
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'contacto')}>{t('linkContacto')}</Link>
       </div>
 
+      {/* Logos centrados — fila completa debajo de las columnas */}
+      <div className="col-span-full mt-2 flex flex-col items-center justify-center gap-5 border-t border-bg/10 py-8 sm:flex-row sm:gap-10">
+        <Image
+          src="/images/logo-white-sm.png"
+          alt="Natura Esencials — Handcrafted Natural Products"
+          width={160}
+          height={73}
+          className="h-16 w-auto object-contain"
+        />
+        <span className="hidden h-10 w-px bg-bg/20 sm:block" aria-hidden />
+        <Image
+          src="/images/sello-artesania-white-sm.png"
+          alt="Artesanía Hecha en Andalucía"
+          width={200}
+          height={78}
+          className="h-11 w-auto object-contain opacity-80"
+        />
+      </div>
+
       {/* Region & locale selector */}
-      <div className="col-span-full mt-4 grid gap-4 border-t border-bg/15 pt-6 sm:grid-cols-[1fr_auto] sm:items-center">
+      <div className="col-span-full mt-2 grid gap-4 border-t border-bg/15 pt-6 sm:grid-cols-[1fr_auto] sm:items-center">
         <div className="text-[10px] uppercase tracking-[0.25em] text-bg/55">
           <div className="mb-2">{tc('region')} & {tc('language')}</div>
           <div className="flex flex-wrap items-center gap-2 text-[11px] text-bg/85">
