@@ -24,8 +24,7 @@
   },
   "thinBar": {
     "shipping": "Livraison gratuite dès 60 €",
-    "returns": "Retour 30 jours",
-    "samples": "Échantillon avec chaque commande"
+    "returns": "Retour 30 jours"
   },
   "regionBanner": {
     "showing": "Affichage de la boutique",
@@ -78,7 +77,7 @@
     "tag": "Ligne principale · 5 rituels",
     "title1": "La",
     "titleAccent": "cosmétique.",
-    "intro": "Notre ligne fondatrice. Cinq rituels pour le corps, les cheveux et le visage — formulés depuis 2019 selon le protocole ISO 16128 et testés dermatologiquement. Matières végétales du sud de l'Europe, formulation patiente.",
+    "intro": "Notre ligne fondatrice. Cinq rituels pour le corps, les cheveux et le visage — formulés depuis 2021 selon le protocole ISO 16128 et testés dermatologiquement. Matière végétale du sud de l'Europe, formulation patiente.",
     "introEmphasis": "Matières végétales du sud de l'Europe, formulation patiente."
   },
   "botanica": {
@@ -102,9 +101,9 @@
     "title1": "Du",
     "titleAccent1": "champ",
     "title2": "au flacon.",
-    "body": "Coopératives de Málaga, Grenade, Jaén et Cordoue. Huile d'olive, lavande, camomille, romarin — tout à quelques heures de l'atelier. La proximité est aussi un ingrédient.",
+    "body": "Nous travaillons avec des fournisseurs locaux et nationaux soigneusement sélectionnés. Huile d'olive, lavande, camomille, romarin — des ingrédients du sud qui voyagent peu jusqu'à notre atelier. La proximité est aussi un ingrédient.",
     "bodyEmphasis": "tout à quelques heures de l'atelier.",
-    "cta": "Découvrir nos coopératives",
+    "cta": "Découvrir notre processus",
     "coordTitle": "Atelier",
     "coordValue": "36°30′N · 4°53′O"
   },
@@ -120,8 +119,6 @@
     "shippingDesc": "dès 60 €",
     "returns": "Retour",
     "returnsDesc": "sous 30 jours",
-    "samples": "Échantillon",
-    "samplesDesc": "à chaque commande",
     "iso": "ISO 16128",
     "isoDesc": "certifié"
   },

@@ -2,9 +2,9 @@
 
 import { useState } from 'react';
 
-interface Props { shipping: string; returns: string; samples: string; }
+interface Props { shipping: string; returns: string; }
 
-export function ThinBarClient({ shipping, returns, samples }: Props) {
+export function ThinBarClient({ shipping, returns }: Props) {
   const [visible, setVisible] = useState(true);
   if (!visible) return null;
 
@@ -14,8 +14,6 @@ export function ThinBarClient({ shipping, returns, samples }: Props) {
         <span>{shipping}</span>
         <em className="font-caption not-italic text-ink">·</em>
         <span>{returns}</span>
-        <em className="font-caption not-italic text-ink hidden sm:inline">·</em>
-        <span className="hidden sm:inline">{samples}</span>
       </div>
       <button
         onClick={() => setVisible(false)}

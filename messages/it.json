@@ -24,8 +24,7 @@
   },
   "thinBar": {
     "shipping": "Spedizione gratuita da 60 €",
-    "returns": "Reso entro 30 giorni",
-    "samples": "Campione in ogni ordine"
+    "returns": "Reso entro 30 giorni"
   },
   "regionBanner": {
     "showing": "Mostriamo il negozio",
@@ -78,7 +77,7 @@
     "tag": "Linea principale · 5 rituali",
     "title1": "La",
     "titleAccent": "cosmetica.",
-    "intro": "La nostra linea fondante. Cinque rituali per corpo, capelli e viso — formulati dal 2019 secondo protocollo ISO 16128 e testati dermatologicamente. Materia vegetale del sud Europa, formulazione paziente.",
+    "intro": "La nostra linea fondazionale. Cinque rituali per corpo, capelli e viso — formulati dal 2021 sotto protocollo ISO 16128 e testati dermatologicamente. Materia vegetale del sud Europa, formulazione paziente.",
     "introEmphasis": "Materia vegetale del sud Europa, formulazione paziente."
   },
   "botanica": {
@@ -102,9 +101,9 @@
     "title1": "Dal",
     "titleAccent1": "campo",
     "title2": "al flacone.",
-    "body": "Cooperative di Málaga, Granada, Jaén e Córdoba. Olio d'oliva, lavanda, camomilla, rosmarino — tutto a poche ore dal laboratorio. La vicinanza è anch'essa un ingrediente.",
+    "body": "Lavoriamo con fornitori locali e nazionali selezionati con cura. Olio d'oliva, lavanda, camomilla, rosmarino — ingredienti del sud che percorrono pochi chilometri fino al nostro laboratorio. La vicinanza è anche un ingrediente.",
     "bodyEmphasis": "tutto a poche ore dal laboratorio.",
-    "cta": "Conoscere le nostre cooperative",
+    "cta": "Scoprire il nostro processo",
     "coordTitle": "Laboratorio",
     "coordValue": "36°30′N · 4°53′O"
   },
@@ -120,8 +119,6 @@
     "shippingDesc": "da 60 €",
     "returns": "Reso",
     "returnsDesc": "entro 30 giorni",
-    "samples": "Campione",
-    "samplesDesc": "in ogni ordine",
     "iso": "ISO 16128",
     "isoDesc": "certificato"
   },

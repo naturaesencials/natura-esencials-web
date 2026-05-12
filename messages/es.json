@@ -24,8 +24,7 @@
   },
   "thinBar": {
     "shipping": "Envío gratuito desde 60 €",
-    "returns": "Devolución 30 días",
-    "samples": "Muestra en cada pedido"
+    "returns": "Devolución 30 días"
   },
   "regionBanner": {
     "showing": "Mostrando tienda",
@@ -78,7 +77,7 @@
     "tag": "Línea principal · 5 rituales",
     "title1": "La",
     "titleAccent": "cosmética.",
-    "intro": "Nuestra línea fundacional. Cinco rituales para cuerpo, cabello y rostro — formulados desde 2019 bajo protocolo ISO 16128 y dermatológicamente testados. Materia vegetal del sur de Europa, formulación paciente.",
+    "intro": "Nuestra línea fundacional. Cinco rituales para cuerpo, cabello y rostro — formulados desde 2021 bajo protocolo ISO 16128 y dermatológicamente testados. Materia vegetal del sur de Europa, formulación paciente.",
     "introEmphasis": "Materia vegetal del sur de Europa, formulación paciente."
   },
   "botanica": {
@@ -102,9 +101,9 @@
     "title1": "Del",
     "titleAccent1": "campo",
     "title2": "al frasco.",
-    "body": "Cooperativas de Málaga, Granada, Jaén y Córdoba. Aceite de oliva, lavanda, manzanilla, romero — todo a pocas horas del taller. La cercanía también es un ingrediente.",
+    "body": "Trabajamos con proveedores locales y nacionales seleccionados por su calidad y trazabilidad. Aceite de oliva, lavanda, manzanilla, romero — ingredientes del sur que viajan pocos kilómetros hasta nuestro taller. La cercanía también es un ingrediente.",
     "bodyEmphasis": "todo a pocas horas del taller.",
-    "cta": "Conocer nuestras cooperativas",
+    "cta": "Conocer nuestro proceso",
     "coordTitle": "Taller",
     "coordValue": "36°30′N · 4°53′O"
   },
@@ -120,8 +119,6 @@
     "shippingDesc": "desde 60 €",
     "returns": "Devolución",
     "returnsDesc": "en 30 días",
-    "samples": "Muestra",
-    "samplesDesc": "en cada pedido",
     "iso": "ISO 16128",
     "isoDesc": "certificado"
   },

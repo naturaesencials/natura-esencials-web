@@ -24,8 +24,7 @@
   },
   "thinBar": {
     "shipping": "Envio gratuito a partir de 60 €",
-    "returns": "Devolução 30 dias",
-    "samples": "Amostra em cada encomenda"
+    "returns": "Devolução 30 dias"
   },
   "regionBanner": {
     "showing": "A mostrar a loja",
@@ -78,7 +77,7 @@
     "tag": "Linha principal · 5 rituais",
     "title1": "A",
     "titleAccent": "cosmética.",
-    "intro": "A nossa linha fundadora. Cinco rituais para corpo, cabelo e rosto — formulados desde 2019 sob protocolo ISO 16128 e testados dermatologicamente. Matéria vegetal do sul da Europa, formulação paciente.",
+    "intro": "A nossa linha fundacional. Cinco rituais para corpo, cabelo e rosto — formulados desde 2021 sob protocolo ISO 16128 e testados dermatologicamente. Matéria vegetal do sul da Europa, formulação paciente.",
     "introEmphasis": "Matéria vegetal do sul da Europa, formulação paciente."
   },
   "botanica": {
@@ -102,9 +101,9 @@
     "title1": "Do",
     "titleAccent1": "campo",
     "title2": "ao frasco.",
-    "body": "Cooperativas de Málaga, Granada, Jaén e Córdoba. Azeite, alfazema, camomila, alecrim — tudo a poucas horas do atelier. A proximidade também é um ingrediente.",
+    "body": "Trabalhamos com fornecedores locais e nacionais cuidadosamente selecionados. Azeite, lavanda, camomila, alecrim — ingredientes do sul que percorrem poucos quilómetros até à nossa oficina. A proximidade também é um ingrediente.",
     "bodyEmphasis": "tudo a poucas horas do atelier.",
-    "cta": "Conhecer as nossas cooperativas",
+    "cta": "Conhecer o nosso processo",
     "coordTitle": "Atelier",
     "coordValue": "36°30′N · 4°53′O"
   },
@@ -120,8 +119,6 @@
     "shippingDesc": "a partir de 60 €",
     "returns": "Devolução",
     "returnsDesc": "em 30 dias",
-    "samples": "Amostra",
-    "samplesDesc": "em cada encomenda",
     "iso": "ISO 16128",
     "isoDesc": "certificado"
   },
