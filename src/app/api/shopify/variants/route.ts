@@ -23,27 +23,28 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'handle requerido' }, { status: 400 });
   }
 
+  const domain = process.env[`SHOPIFY_${region.toUpperCase()}_DOMAIN`] || '';
+
   try {
     const product = await getProductByHandle(handle, region, locale);
     if (!product) {
-      return NextResponse.json({ variants: [], available: false, checkoutDomain: '' });
+      // Handle no encontrado en Shopify — el botón enlazará al producto directamente
+      return NextResponse.json({ variants: [], available: true, checkoutDomain: domain });
     }
-
-    const domain = process.env[`SHOPIFY_${region.toUpperCase()}_DOMAIN`] || '';
 
     return NextResponse.json({
       available: product.availableForSale,
       checkoutDomain: domain,
       variants: product.variants.nodes.map((v) => ({
-        id:        v.id,               // gid://shopify/ProductVariant/XXXXX
-        title:     v.title,            // "300 ml" | "1 L" | "Default Title"
+        id:        v.id,
+        title:     v.title,
         price:     v.price.amount,
         currency:  v.price.currencyCode,
         available: v.availableForSale,
       })),
     });
   } catch {
-    // Shopify no configurado → degradación silenciosa
-    return NextResponse.json({ variants: [], available: false, checkoutDomain: '' });
+    // Error de red o Shopify no configurado → siempre devolver dominio para fallback
+    return NextResponse.json({ variants: [], available: true, checkoutDomain: domain });
   }
 }

@@ -8,8 +8,8 @@ import { buildPath } from '@/lib/i18n/paths';
 interface Props { region: Region; locale: Locale; }
 
 const IMG: Record<number, string> = {
-  10: 'https://images.pexels.com/photos/6724313/pexels-photo-6724313.jpeg',
-  11: 'https://images.pexels.com/photos/8142194/pexels-photo-8142194.jpeg',
+  10: '/images/landing/card-10.jpg',  // Mimo Canino — perro
+  11: '/images/landing/card-11.jpg',  // Gato Zen — gato
 };
 
 export function LineMascota({ region, locale }: Props) {
@@ -38,7 +38,7 @@ export function LineMascota({ region, locale }: Props) {
           const price = region === 'eu' ? r.basePriceEUR : r.basePriceGBP;
           return (
             <Link key={r.id} href={buildPath(region, locale, `rituales/${r.slugs[locale]}`)} className="relative flex aspect-[4/3] min-h-[260px] flex-col justify-between overflow-hidden p-[clamp(20px,2.8vw,28px)] text-bg">
-              <Image src={IMG[r.id] + '?auto=compress&cs=tinysrgb&w=1200'} alt={r.names[locale].full} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
+              <Image src={IMG[r.id].startsWith("/") ? IMG[r.id] : IMG[r.id] + "?auto=compress&cs=tinysrgb&w=1200"} alt={r.names[locale].full} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-br from-ink/[0.15] via-ink/[0.38] to-ink/[0.78]" />
               <div className="relative z-10 flex justify-between">
                 <span className="text-[11px] uppercase tracking-[0.28em] text-citrico opacity-90">{r.category[locale]}</span>

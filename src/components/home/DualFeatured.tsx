@@ -27,7 +27,7 @@ export function DualFeatured({ region, locale }: Props) {
       <div className="grid items-center gap-[clamp(24px,4vw,40px)] border-b border-rule px-pad-x py-[clamp(48px,8vw,100px)] lg:grid-cols-2 lg:border-b-0 lg:border-r">
         <div className="relative mx-auto aspect-[4/5] w-full max-w-[440px] overflow-hidden lg:max-w-none">
           <Image
-            src="https://images.pexels.com/photos/8945933/pexels-photo-8945933.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/images/landing/dual-left.jpg"
             alt={cosmetica.names[locale].full}
             fill
             sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
@@ -55,7 +55,7 @@ export function DualFeatured({ region, locale }: Props) {
         <div className="grid items-center gap-[clamp(24px,4vw,40px)] bg-paper px-pad-x py-[clamp(48px,8vw,100px)] lg:grid-cols-2">
           <div className="relative mx-auto aspect-[4/5] w-full max-w-[440px] overflow-hidden lg:max-w-none">
             <Image
-              src="https://images.pexels.com/photos/4202326/pexels-photo-4202326.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/images/landing/dual-right.jpg"
               alt={hogarActual.names[locale].full}
               fill
               sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
