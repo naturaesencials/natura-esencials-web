@@ -17,6 +17,7 @@ import { RegionBanner } from '@/components/layout/RegionBanner';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { organizationSchema, localBusinessSchema, websiteSchema } from '@/lib/seo/schema';
 import { CartProvider } from '@/context/CartContext';
+import { CookieBanner } from '@/components/layout/CookieBanner';
 import { CartDrawer } from '@/components/cart/CartDrawer';
 
 interface Props {
@@ -56,6 +57,7 @@ export default async function RegionLocaleLayout({ children, params }: Props) {
           <CartDrawer locale={locale} />
           <main id="main-content">{children}</main>
           <Footer region={region} locale={locale} />
+        <CookieBanner region={region} locale={locale} />
         </CartProvider>
       </div>
     </NextIntlClientProvider>
