@@ -4,13 +4,20 @@ import { useTranslations } from 'next-intl';
 import { getRitualsByLineAndRegion } from '@/data/rituales';
 import { regionCurrency, type Locale, type Region } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
+import bundlesData from '@/data/bundles.json';
 
 interface Props { region: Region; locale: Locale; }
 
 const IMG: Record<number, string> = {
-  10: '/images/landing/card-10.jpg',  // Mimo Canino — perro
-  11: '/images/landing/card-11.jpg',  // Gato Zen — gato
+  10: '/images/landing/card-10.jpg',
+  11: '/images/landing/card-11.jpg',
 };
+
+const VISIBLE_SLUGS = new Set(
+  (bundlesData.bundles as Array<{ visible?: boolean; es?: { slug?: string } }>)
+    .filter(b => b.visible !== false)
+    .map(b => b.es?.slug ?? '')
+);
 
 export function LineMascota({ region, locale }: Props) {
   const t = useTranslations('lineMascota');
@@ -33,27 +40,37 @@ export function LineMascota({ region, locale }: Props) {
         </p>
       </header>
 
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:gap-6">
         {rituales.map((r) => {
-          const price = region === 'eu' ? r.basePriceEUR : r.basePriceGBP;
-          return (
-            <Link key={r.id} href={buildPath(region, locale, `rituales/${r.slugs[locale]}`)} className="relative flex aspect-[4/3] min-h-[260px] flex-col justify-between overflow-hidden p-[clamp(20px,2.8vw,28px)] text-bg">
-              <Image src={IMG[r.id].startsWith("/") ? IMG[r.id] : IMG[r.id] + "?auto=compress&cs=tinysrgb&w=1200"} alt={r.names[locale].full} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-br from-ink/[0.15] via-ink/[0.38] to-ink/[0.78]" />
+          const price     = region === 'eu' ? r.basePriceEUR : r.basePriceGBP;
+          const hasBundle = VISIBLE_SLUGS.has(r.slugs.es);
+          const href      = hasBundle ? buildPath(region, locale, `rituales/${r.slugs[locale]}`) : undefined;
+          const cardCls   = 'relative flex aspect-[4/3] min-h-[260px] flex-col justify-between overflow-hidden p-[clamp(20px,2.8vw,28px)] text-bg';
+
+          const inner = (
+            <>
+              <Image src={IMG[r.id] ?? '/images/landing/card-10.jpg'} alt={r.names[locale].full} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-b from-ink/[0.05] to-ink/[0.75]" />
               <div className="relative z-10 flex justify-between">
-                <span className="text-[11px] uppercase tracking-[0.28em] text-citrico opacity-90">{r.category[locale]}</span>
-                <span className="font-caption text-sm opacity-70">{r.number}</span>
+                <span className="text-[11px] uppercase tracking-[0.25em] opacity-90">{r.category[locale]}</span>
+                <span className="font-caption text-sm opacity-75">{r.number}</span>
               </div>
               <div className="relative z-10">
-                <h4 className="font-heading text-[clamp(22px,2.6vw,30px)] leading-[1.1] tracking-[-0.01em]">
-                  {r.names[locale].main}{r.names[locale].accent && <> <em className="font-heading-italic text-citrico">{r.names[locale].accent}</em></>}
+                <h4 className="font-heading text-[clamp(22px,2.5vw,28px)] leading-[1.15] tracking-[-0.01em]">
+                  {r.names[locale].main}{r.names[locale].accent && <> <em className="font-heading-italic">{r.names[locale].accent}</em></>}
                 </h4>
-                <div className="mt-2.5 flex min-h-touch items-baseline justify-between">
-                  <span className="font-caption text-[17px]">{symbol}{price}</span>
-                  <span className="font-caption text-[15px] opacity-70">→</span>
+                <div className="mt-3 flex min-h-touch items-baseline justify-between">
+                  <span className="font-caption text-base">{symbol}{price}</span>
+                  <span className="font-caption text-sm opacity-70">{hasBundle ? '→' : '·'}</span>
                 </div>
               </div>
-            </Link>
+            </>
+          );
+
+          return href ? (
+            <Link key={r.id} href={href} className={`${cardCls} transition-transform duration-500`}>{inner}</Link>
+          ) : (
+            <div key={r.id} className={cardCls}>{inner}</div>
           );
         })}
       </div>
