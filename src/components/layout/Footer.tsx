@@ -26,9 +26,9 @@ export function Footer({ region, locale }: Props) {
           Natura <em className="font-display-italic" style={{ color: '#B4D4A8' }}>Esencials</em>
         </span>
         <p className="max-w-[320px] text-bg/70">{t('brandDesc')}</p>
-        <p className="mt-3 text-[11px] tracking-[0.04em]">
-          {siteConfig.contact.email}<br />
-          {siteConfig.contact.phone}
+        <p className="mt-3 text-[11px] tracking-[0.04em] text-bg/80">
+          <a href={`mailto:${siteConfig.contact.email}`} className="hover:text-bg transition-colors">{siteConfig.contact.email}</a><br />
+          <a href={`tel:${siteConfig.contact.phone.replace(/\s/g,'')}`} className="hover:text-bg transition-colors">{siteConfig.contact.phone}</a>
         </p>
       </div>
 
@@ -54,7 +54,7 @@ export function Footer({ region, locale }: Props) {
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'contacto')}>{t('linkContacto')}</Link>
       </div>
 
-      {/* Region & locale selector — siempre visible */}
+      {/* Region & locale selector */}
       <div className="col-span-full mt-4 grid gap-4 border-t border-bg/15 pt-6 sm:grid-cols-[1fr_auto] sm:items-center">
         <div className="text-[10px] uppercase tracking-[0.25em] text-bg/55">
           <div className="mb-2">{tc('region')} & {tc('language')}</div>
@@ -72,9 +72,14 @@ export function Footer({ region, locale }: Props) {
         </button>
       </div>
 
-      <div className="col-span-full mt-7 flex flex-col gap-2.5 border-t border-bg/15 pt-7 text-[10px] uppercase tracking-[0.22em] text-bg/55 lg:flex-row lg:items-center lg:justify-between">
-        <span>© {new Date().getFullYear()} Natura Esencials · {siteConfig.entity.name}</span>
-        <span>{t('linkPrivacidad')} · {t('linkTerminos')} · {t('linkCookies')}</span>
+      {/* Legal bottom bar */}
+      <div className="col-span-full mt-7 flex flex-col gap-3 border-t border-bg/15 pt-7 text-[10px] uppercase tracking-[0.22em] text-bg/55 lg:flex-row lg:items-center lg:justify-between">
+        <span>© {new Date().getFullYear()} {siteConfig.entity.name}</span>
+        <div className="flex flex-wrap gap-x-4 gap-y-1">
+          <Link href={buildPath(region, locale, 'privacidad')} className="transition-colors hover:text-bg/80">{t('linkPrivacidad')}</Link>
+          <Link href={buildPath(region, locale, 'terminos')} className="transition-colors hover:text-bg/80">{t('linkTerminos')}</Link>
+          <Link href={buildPath(region, locale, 'cookies')} className="transition-colors hover:text-bg/80">{t('linkCookies')}</Link>
+        </div>
       </div>
 
       <RegionSelector open={selectorOpen} onClose={() => setSelectorOpen(false)} currentRegion={region} currentLocale={locale} />

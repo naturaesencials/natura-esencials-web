@@ -138,7 +138,7 @@ export default async function OrigenPage({ params }: Props) {
       <section className="border-t border-rule bg-paper px-pad-x py-[clamp(40px,6vw,64px)] text-center">
         <p className="mb-2 text-[11px] uppercase tracking-[0.35em] text-graphite">Taller</p>
         <p className="font-display text-[clamp(18px,2.5vw,28px)] tracking-[0.02em] text-ink">
-          Calle Maharbal, Local 11 · 29601 Marbella, Málaga
+          Málaga, Andalucía
         </p>
         <p className="mt-2 font-caption text-sm text-verde">36°30′N · 4°53′O</p>
       </section>

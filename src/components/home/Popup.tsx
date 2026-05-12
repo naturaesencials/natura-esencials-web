@@ -18,7 +18,7 @@ export function Popup() {
       if (k && v) acc[k] = v;
       return acc;
     }, {});
-    if (cookies['ne-popup-dismissed']) {
+    if (cookies['ne-popup-v2']) {
       setDismissed(true);
       return;
     }
@@ -27,7 +27,7 @@ export function Popup() {
   }, []);
 
   const close = () => {
-    document.cookie = 'ne-popup-dismissed=1; path=/; max-age=2592000; SameSite=Lax';
+    document.cookie = 'ne-popup-v2=1; path=/; max-age=2592000; SameSite=Lax';
     setVisible(false);
     setDismissed(true);
   };
@@ -50,7 +50,7 @@ export function Popup() {
     <aside className="fixed bottom-0 left-0 right-0 z-[950] mx-auto w-full max-w-[420px] overflow-hidden border-t border-verde bg-bg shadow-2xl transition-transform duration-500 sm:bottom-6 sm:left-auto sm:right-6 sm:border" role="dialog" aria-labelledby="popup-title">
       <button onClick={close} aria-label="Close" className="absolute right-3 top-3 z-20 grid size-touch place-items-center rounded-full bg-ink/55 text-bg backdrop-blur-md hover:bg-ink/75">×</button>
       <div className="relative aspect-[3/1] sm:aspect-[2/1]">
-        <Image src="https://images.pexels.com/photos/2234006/pexels-photo-2234006.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" fill sizes="420px" className="object-cover" aria-hidden />
+        <Image src="/images/landing/card-2.jpg" alt="" fill sizes="420px" className="object-cover" aria-hidden />
       </div>
       <div className="px-7 pb-7 pt-6">
         <div className="text-[10px] uppercase tracking-[0.32em] text-verde-vivo">— {t('kicker')}</div>
