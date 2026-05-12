@@ -20,6 +20,7 @@ import { siteConfig } from '@/config/site';
 import { resolveBundleImage } from '@/lib/images';
 import { BundleImage } from '@/components/catalog/BundleImage';
 import { BuyButton } from '@/components/catalog/BuyButton';
+import { MultiFormatBuyButton } from '@/components/catalog/MultiFormatBuyButton';
 import { ReviewsWidget } from '@/components/reviews/ReviewsWidget';
 
 interface Props {
@@ -185,13 +186,21 @@ export default async function RitualPage({ params }: Props) {
                     −{bundle.discountPercent}% descuento ritual
                   </span>
                 )}
-                <BuyButton
-                  handle={bundle.shopifyHandle}
-                  formats={bundle.format ? [bundle.format] : []}
-                  region={region}
-                  locale={locale}
-                  showPricing={true}
-                />
+                {bundle.handles && Object.keys(bundle.handles).filter(k => bundle.handles![k]).length > 1 ? (
+                  <MultiFormatBuyButton
+                    handles={bundle.handles as Record<string, string>}
+                    region={region}
+                    locale={locale}
+                  />
+                ) : (
+                  <BuyButton
+                    handle={bundle.shopifyHandle}
+                    formats={bundle.format ? [bundle.format] : []}
+                    region={region}
+                    locale={locale}
+                    showPricing={true}
+                  />
+                )}
               </div>
 
               {/* Productos incluidos */}
