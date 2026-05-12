@@ -101,6 +101,10 @@
         "shortDescription": "La rutina más completa de cabello y piel dentro del universo diario. Champú 2 en 1, acondicionador, jabón y body milk para una experiencia más redonda, más cuidada y con mayor valor percibido.",
         "longDescription": "Pack de upgrade para quien quiere una experiencia más redonda. Cuatro pasos esenciales para el cuidado diario en formato 300ml.",
         "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+      },
+      "handles": {
+        "300 ml": "ritual-plenitud-300",
+        "1 L": "ritual-plenitud-1-ltr"
       }
     },
     {
@@ -306,6 +310,10 @@
         "shortDescription": "Pack esencial para quienes buscan rutina simple, cómoda y completa. Champú 2 en 1, jabón y body milk en formato 300ml.",
         "longDescription": "Cabello y piel en orden con una rutina clara de uso diario.",
         "story": "Me quito el día de encima, reinicio y sello el cuidado."
+      },
+      "handles": {
+        "300 ml": "pack-esenciales-diarios",
+        "1 L": "ritual-ducha-perfecta-1-ltr"
       }
     },
     {
@@ -509,6 +517,10 @@
         "shortDescription": "Ritual rápido de ducha e hidratación con sensación de frescor y recuperación. Total Body Wash 3 en 1 y Body Milk en formato 300ml.",
         "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
         "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+      },
+      "handles": {
+        "300 ml": "pack-deportivo-higiene-cuidado",
+        "1 L": "ritual-rendimiento-1ltr"
       }
     },
     {
@@ -615,7 +627,7 @@
     {
       "id": "ritual-para-ella",
       "line": "cosmetica",
-      "shopifyHandle": "ritual-para-ella",
+      "shopifyHandle": "ritual-para-ella-300-ml",
       "availableIn": [
         "eu",
         "uk"
@@ -629,7 +641,7 @@
       ],
       "format": "300 ml",
       "discountPercent": 12,
-      "visible": false,
+      "visible": true,
       "es": {
         "name": "Ritual Para Ella",
         "nameMain": "Ritual",
@@ -713,12 +725,16 @@
         "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
         "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "handles": {
+        "300 ml": "ritual-para-ella-300-ml",
+        "1 L": "ritual-para-ella-1-ltr"
+      }
     },
     {
       "id": "ritual-para-el",
       "line": "cosmetica",
-      "shopifyHandle": "ritual-para-el",
+      "shopifyHandle": "ritual-para-el-300-ml",
       "availableIn": [
         "eu",
         "uk"
@@ -732,7 +748,7 @@
       ],
       "format": "300 ml",
       "discountPercent": 12,
-      "visible": false,
+      "visible": true,
       "es": {
         "name": "Ritual Para Él",
         "nameMain": "Ritual",
@@ -816,7 +832,11 @@
         "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
         "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
       },
-      "outOfStock": true
+      "outOfStock": true,
+      "handles": {
+        "300 ml": "ritual-para-el-300-ml",
+        "1 L": "rital-para-el-1-ltr"
+      }
     },
     {
       "id": "ritual-vajilla-perfecta",

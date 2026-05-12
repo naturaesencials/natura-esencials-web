@@ -137,6 +137,9 @@ export interface Bundle {
   baseSlug: string;
   line: ProductLine;
   shopifyHandle: string;
+  /** Para rituales con múltiples formatos en productos Shopify separados.
+   * Ej: { '300 ml': 'ritual-plenitud-300', '1 L': 'ritual-plenitud-1-ltr' } */
+  handles?: Record<string, string>;
   availableIn: Region[];
   sensation: Sensation;
   /** IDs de los productos individuales que componen el pack */
