@@ -29,8 +29,8 @@ export const rituales: Ritual[] = [
     shopifyHandle: 'ritual-plenitud',
     availableIn: ['eu', 'uk'],
     slugs: {
-      es: 'plenitud', en: 'plenitude', fr: 'plenitude',
-      de: 'fuelle', it: 'pienezza', nl: 'volheid', pt: 'plenitude',
+      es: 'plenitud-300', en: 'plenitude-300', fr: 'plenitude-300',
+      de: 'fuelle-300', it: 'pienezza-300', nl: 'volheid-300', pt: 'plenitude-300',
     },
     names: {
       es: { main: 'Ritual', accent: 'Plenitud', full: 'Ritual Plenitud' },
@@ -63,8 +63,8 @@ export const rituales: Ritual[] = [
     shopifyHandle: 'ritual-ducha-perfecta',
     availableIn: ['eu', 'uk'],
     slugs: {
-      es: 'ducha-perfecta', en: 'perfect-shower', fr: 'douche-parfaite',
-      de: 'perfekte-dusche', it: 'doccia-perfetta', nl: 'perfecte-douche', pt: 'duche-perfeito',
+      es: 'ducha-perfecta-300', en: 'perfect-shower-300', fr: 'douche-parfaite-300',
+      de: 'perfekte-dusche-300', it: 'doccia-perfetta-300', nl: 'perfecte-douche-300', pt: 'duche-perfeito-300',
     },
     names: {
       es: { main: 'Ritual', accent: 'Ducha Perfecta', full: 'Ritual Ducha Perfecta' },
@@ -97,8 +97,8 @@ export const rituales: Ritual[] = [
     shopifyHandle: 'ritual-rendimiento',
     availableIn: ['eu'],
     slugs: {
-      es: 'rendimiento', en: 'performance', fr: 'performance',
-      de: 'leistung', it: 'rendimento', nl: 'prestatie', pt: 'rendimento',
+      es: 'rendimiento-300', en: 'performance-300', fr: 'performance-300',
+      de: 'leistung-300', it: 'rendimento-300', nl: 'prestatie-300', pt: 'rendimento-300',
     },
     names: {
       es: { main: 'Ritual', accent: 'Rendimiento', full: 'Ritual Rendimiento' },
@@ -405,8 +405,19 @@ export const rituales: Ritual[] = [
 export const getRitualBySlug = (slug: string, locale: Locale): Ritual | undefined =>
   rituales.find((r) => r.slugs[locale] === slug);
 
-export const getRitualsByLineAndRegion = (line: RitualLine, region: Region): Ritual[] =>
-  rituales.filter((r) => r.line === line && r.availableIn.includes(region));
+export const getRitualsByLineAndRegion = (line: RitualLine, region: Region): Ritual[] => {
+  // Import bundles data to filter only rituals with a visible bundle
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const { bundles } = require('./bundles.json') as { bundles: Array<{ visible?: boolean; es?: { slug?: string } }> };
+  const visibleSlugs = new Set(
+    bundles.filter(b => b.visible !== false).map(b => b.es?.slug ?? '')
+  );
+  return rituales.filter((r) =>
+    r.line === line &&
+    r.availableIn.includes(region) &&
+    visibleSlugs.has(r.slugs.es)
+  );
+};
 
 export const getRitualsByRegion = (region: Region): Ritual[] =>
   rituales.filter((r) => r.availableIn.includes(region));
