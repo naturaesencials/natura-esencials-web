@@ -179,22 +179,17 @@ export default async function RitualPage({ params }: Props) {
 
               {/* Precio + comprar */}
               <div className="flex flex-col gap-5 mt-2">
-                <div className="flex items-baseline gap-4 flex-wrap">
-                  <span className="font-caption text-3xl text-foreground">
-                    {symbol}{price?.toFixed(2)}
+                {bundle.discountPercent && (
+                  <span className="inline-block w-fit text-[11px] uppercase tracking-[0.22em] text-verde border border-verde px-3 py-1">
+                    −{bundle.discountPercent}% descuento ritual
                   </span>
-                  {bundle.discountPercent && (
-                    <span className="text-sm text-accent">−{bundle.discountPercent}%</span>
-                  )}
-                  {bundle.format && (
-                    <span className="text-sm text-muted">{bundle.format}</span>
-                  )}
-                </div>
+                )}
                 <BuyButton
                   handle={bundle.shopifyHandle}
                   formats={bundle.format ? [bundle.format] : []}
                   region={region}
                   locale={locale}
+                  showPricing={true}
                 />
               </div>
 
