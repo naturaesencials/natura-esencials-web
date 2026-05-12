@@ -28,10 +28,11 @@ export function MobileMenu({ open, onClose, region, locale, onOpenRegionSelector
       <nav className="flex flex-col border-t border-ink/10">
         {[
           { key: 'navCosmetica', section: 'cosmetica' as const, color: 'text-verde' },
-          { key: 'navHogar', section: 'hogar' as const, color: 'text-azul' },
-          { key: 'navMascota', section: 'mascota' as const, color: 'text-citrico' },
-          { key: 'navOrigen', section: 'origen' as const, color: 'text-ink' },
-          { key: 'navDiario', section: 'diario' as const, color: 'text-ink' },
+          { key: 'navHogar',     section: 'hogar'     as const, color: 'text-azul' },
+          { key: 'navMascota',   section: 'mascota'   as const, color: 'text-citrico' },
+          { key: 'navRituales',  section: 'rituales'  as const, color: 'text-verde-vivo' },
+          { key: 'navOrigen',    section: 'origen'    as const, color: 'text-ink' },
+          { key: 'navDiario',    section: 'diario'    as const, color: 'text-ink' },
         ].map((item) => (
           <Link
             key={item.section}

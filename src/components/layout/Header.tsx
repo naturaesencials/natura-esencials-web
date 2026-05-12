@@ -60,6 +60,7 @@ export function Header({ region, locale }: HeaderProps) {
           <Link href={buildPath(region, locale, 'cosmetica')} className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{t('navCosmetica')}</Link>
           <Link href={buildPath(region, locale, 'hogar')}     className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{t('navHogar')}</Link>
           <Link href={buildPath(region, locale, 'mascota')}   className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{t('navMascota')}</Link>
+          <Link href={buildPath(region, locale, 'rituales')}  className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{t('navRituales')}</Link>
           <Link href={buildPath(region, locale, 'origen')}    className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{t('navOrigen')}</Link>
         </nav>
 

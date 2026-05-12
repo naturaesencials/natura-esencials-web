@@ -20,7 +20,8 @@
     "navHogar": "Home",
     "navMascota": "Pet",
     "navOrigen": "Origin",
-    "navDiario": "Journal"
+    "navDiario": "Journal",
+    "navRituales": "Rituals"
   },
   "thinBar": {
     "shipping": "Free shipping from £60",
