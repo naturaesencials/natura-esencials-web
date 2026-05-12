@@ -5,7 +5,7 @@
 
 export const locales = ['es', 'en', 'fr', 'de', 'it', 'nl', 'pt'] as const;
 export type Locale = (typeof locales)[number];
-export const defaultLocale: Locale = 'es';
+export const defaultLocale: Locale = 'en';
 
 export const regions = ['eu', 'uk'] as const;
 export type Region = (typeof regions)[number];
@@ -79,6 +79,7 @@ export const routeSlugs = {
   mascota:   { es: 'mascota',   en: 'pet',       fr: 'animaux',     de: 'haustier',      it: 'animali',   nl: 'huisdier',       pt: 'animais' },
   origen:    { es: 'origen',    en: 'origin',    fr: 'origine',     de: 'herkunft',      it: 'origine',   nl: 'herkomst',       pt: 'origem' },
   rituales:  { es: 'rituales',  en: 'rituals',   fr: 'rituels',     de: 'rituale',       it: 'rituali',   nl: 'rituelen',       pt: 'rituais' },
+  blog:      { es: 'blog',      en: 'blog',      fr: 'blog',        de: 'blog',          it: 'blog',      nl: 'blog',           pt: 'blog' },
   diario:    { es: 'diario',    en: 'journal',   fr: 'journal',     de: 'tagebuch',      it: 'diario',    nl: 'dagboek',        pt: 'diario' },
   contacto:  { es: 'contacto',  en: 'contact',   fr: 'contact',     de: 'kontakt',       it: 'contatto',  nl: 'contact',        pt: 'contacto' },
 } as const;

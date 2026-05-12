@@ -9,6 +9,7 @@ import { regionCurrency, type Locale, type Region } from '@/lib/i18n/config';
 import { MobileMenu } from './MobileMenu';
 import { RegionSelector } from './RegionSelector';
 import { useCart } from '@/context/CartContext';
+import { SearchDrawer } from './SearchDrawer';
 
 interface HeaderProps {
   region: Region;
@@ -20,6 +21,7 @@ export function Header({ region, locale }: HeaderProps) {
   const tc = useTranslations('common');
   const [menuOpen, setMenuOpen] = useState(false);
   const [regionOpen, setRegionOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const { totalItems, openCart } = useCart();
 
   useEffect(() => {
@@ -85,8 +87,8 @@ export function Header({ region, locale }: HeaderProps) {
             <span aria-hidden="true">🌍</span>
             <span>{region.toUpperCase()} · {locale.toUpperCase()}</span>
           </button>
-          <button className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{tc('search')}</button>
-          <button className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{tc('account')}</button>
+          <button onClick={() => setSearchOpen(true)} className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{tc('search')}</button>
+          <a href={`https://www.naturaesencials.com/account`} target="_blank" rel="noopener" className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{tc('account')}</a>
           <button
             onClick={openCart}
             className="flex items-center gap-1 px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo"
@@ -96,7 +98,7 @@ export function Header({ region, locale }: HeaderProps) {
         </div>
 
         {/* Búsqueda (mobile) */}
-        <button aria-label={tc('search')} className="flex size-touch items-center justify-center text-ink lg:hidden">
+        <button aria-label={tc('search')} onClick={() => setSearchOpen(true)} className="flex size-touch items-center justify-center text-ink lg:hidden">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" className="h-[18px] w-[18px]">
             <circle cx="10.5" cy="10.5" r="6.5" />
             <path d="M20 20l-4.8-4.8" />
@@ -121,6 +123,7 @@ export function Header({ region, locale }: HeaderProps) {
       <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} region={region} locale={locale} onOpenRegionSelector={() => { setMenuOpen(false); setRegionOpen(true); }} />
 
       <RegionSelector open={regionOpen} onClose={() => setRegionOpen(false)} currentRegion={region} currentLocale={locale} />
+      <SearchDrawer open={searchOpen} onClose={() => setSearchOpen(false)} region={region} locale={locale} />
     </>
   );
 }
