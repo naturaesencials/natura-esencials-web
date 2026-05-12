@@ -1,45 +1,32 @@
 'use client';
 
-/**
- * BuyButton — selector de formato + CTA de compra conectado a Shopify.
- *
- * Flujo:
- *  1. Renderiza inmediatamente con el fallback (enlace directo al producto en Shopify).
- *  2. En mount, llama a /api/shopify/variants para obtener los variant IDs.
- *  3. Si hay múltiples formatos, muestra chips de selección.
- *  4. Al clicar "Comprar", redirige al cart permalink de Shopify:
- *     https://{domain}/cart/{numericVariantId}:1
- *
- * Si Shopify no está configurado o la llamada falla, el botón sigue
- * funcionando como enlace al producto en Shopify (sin selector de formato).
- */
-
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
+import { useCart } from '@/context/CartContext';
 import type { Region, Locale } from '@/lib/i18n/config';
 
 // ─── Labels i18n ─────────────────────────────────────────────────────────────
 
 const LABELS: Record<string, {
-  buy: string; selecting: string; outOfStock: string; format: string;
+  add: string; adding: string; added: string; outOfStock: string; format: string;
 }> = {
-  es: { buy: 'Comprar',         selecting: 'Cargando…',  outOfStock: 'Sin stock',  format: 'Formato' },
-  en: { buy: 'Buy now',         selecting: 'Loading…',   outOfStock: 'Out of stock', format: 'Format' },
-  fr: { buy: 'Acheter',         selecting: 'Chargement…',outOfStock: 'Épuisé',     format: 'Format' },
-  de: { buy: 'Kaufen',          selecting: 'Lädt…',      outOfStock: 'Ausverkauft',format: 'Format' },
-  it: { buy: 'Acquista',        selecting: 'Carico…',    outOfStock: 'Esaurito',   format: 'Formato' },
-  nl: { buy: 'Kopen',           selecting: 'Laden…',     outOfStock: 'Uitverkocht',format: 'Formaat' },
-  pt: { buy: 'Comprar',         selecting: 'Carregando…',outOfStock: 'Esgotado',   format: 'Formato' },
+  es: { add: 'Añadir a la cesta', adding: 'Añadiendo…',  added: '✓ Añadido',    outOfStock: 'Sin stock',   format: 'Formato' },
+  en: { add: 'Add to bag',        adding: 'Adding…',      added: '✓ Added',      outOfStock: 'Out of stock', format: 'Format' },
+  fr: { add: 'Ajouter au panier', adding: 'Ajout…',       added: '✓ Ajouté',     outOfStock: 'Épuisé',      format: 'Format' },
+  de: { add: 'In den Warenkorb',  adding: 'Wird hinzugef…', added: '✓ Hinzugefügt', outOfStock: 'Ausverkauft', format: 'Format' },
+  it: { add: 'Aggiungi al cesto', adding: 'Aggiunta…',    added: '✓ Aggiunto',   outOfStock: 'Esaurito',    format: 'Formato' },
+  nl: { add: 'In winkelwagen',    adding: 'Toevoegen…',   added: '✓ Toegevoegd', outOfStock: 'Uitverkocht', format: 'Formaat' },
+  pt: { add: 'Adicionar ao cesto',adding: 'A adicionar…', added: '✓ Adicionado', outOfStock: 'Esgotado',    format: 'Formato' },
 };
 
 function t(locale: Locale, key: keyof typeof LABELS[string]) {
-  return (LABELS[locale] || LABELS.es)[key];
+  return (LABELS[locale] ?? LABELS.es)[key];
 }
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
 interface ShopifyVariant {
-  id: string;       // gid://shopify/ProductVariant/XXXXX
-  title: string;    // "300 ml" | "1 L" | "Default Title"
+  id: string;
+  title: string;
   price: string;
   currency: string;
   available: boolean;
@@ -51,93 +38,61 @@ interface VariantsResponse {
   checkoutDomain: string;
 }
 
-// ─── Helper: extraer numeric ID del GID de Shopify ───────────────────────────
-function numericId(gid: string): string {
-  return gid.split('/').pop() || gid;
-}
-
-function buildCartUrl(domain: string, variantId: string): string {
-  return `https://${domain}/cart/${numericId(variantId)}:1`;
-}
-
-function buildProductUrl(domain: string, handle: string): string {
-  return `https://${domain}/products/${handle}`;
-}
-
 // ─── Component ────────────────────────────────────────────────────────────────
 
 interface BuyButtonProps {
-  /** shopifyHandle del producto o bundle */
-  handle: string;
-  /** Formatos locales del producto (ej. ['300 ml', '1 L']) — para mostrar los chips */
-  formats?: string[];
-  region: Region;
-  locale: Locale;
-  /** Variante visual del botón */
-  variant?: 'primary' | 'secondary';
+  handle:    string;
+  formats?:  string[];
+  region:    Region;
+  locale:    Locale;
+  variant?:  'primary' | 'secondary';
 }
 
-export function BuyButton({
-  handle,
-  formats = [],
-  region,
-  locale,
-  variant = 'primary',
-}: BuyButtonProps) {
-  const [data, setData]                   = useState<VariantsResponse | null>(null);
-  const [loading, setLoading]             = useState(true);
-  const [selectedFormat, setSelectedFormat] = useState<string>(formats[0] || '');
+export function BuyButton({ handle, formats = [], region, locale, variant = 'primary' }: BuyButtonProps) {
+  const { addToCart, isLoading: cartLoading } = useCart();
 
+  const [data,           setData]           = useState<VariantsResponse | null>(null);
+  const [loadingVariants, setLoadingVariants] = useState(true);
+  const [selectedFormat,  setSelectedFormat]  = useState<string>(formats[0] ?? '');
+  const [justAdded,       setJustAdded]       = useState(false);
+  const [adding,          setAdding]          = useState(false);
+
+  // Fetch variants on mount
   useEffect(() => {
     let cancelled = false;
-    async function load() {
-      try {
-        const res = await fetch(
-          `/api/shopify/variants?handle=${handle}&region=${region}&locale=${locale}`,
-        );
-        if (!res.ok) throw new Error('fetch failed');
-        const json: VariantsResponse = await res.json();
-        if (!cancelled) setData(json);
-      } catch {
-        if (!cancelled) setData({ variants: [], available: false, checkoutDomain: '' });
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
-    }
-    load();
+    fetch(`/api/shopify/variants?handle=${handle}&region=${region}&locale=${locale}`)
+      .then((r) => r.ok ? r.json() : null)
+      .then((json) => { if (!cancelled && json) setData(json); })
+      .catch(() => {})
+      .finally(() => { if (!cancelled) setLoadingVariants(false); });
     return () => { cancelled = true; };
   }, [handle, region, locale]);
 
-  // ── Calcular el variant seleccionado ────────────────────────────────────────
   const variants = data?.variants ?? [];
-  const domain   = data?.checkoutDomain ?? '';
 
-  // Busca el variant cuyo title coincide con el formato seleccionado
-  // Si no hay match (o solo hay 1 variant "Default Title"), usa el primero disponible
+  // Variant seleccionado según formato elegido
   const matchedVariant =
-    variants.find(
-      (v) =>
-        v.available &&
-        (v.title.toLowerCase() === selectedFormat.toLowerCase() ||
-          v.title === 'Default Title'),
+    variants.find((v) =>
+      v.available &&
+      (v.title.toLowerCase() === selectedFormat.toLowerCase() || v.title === 'Default Title'),
     ) ??
     variants.find((v) => v.available) ??
     variants[0];
 
-  const canBuy    = !!matchedVariant?.available && !!domain;
-  // Si no hay variants pero sí dominio → enlazar directo al producto en Shopify
-  const noVariants = variants.length === 0 && !!domain;
+  const canAdd = !!matchedVariant?.available;
+  const hasFormatSelector = !loadingVariants && variants.length > 1 && formats.length > 1;
 
-  const href = canBuy
-    ? buildCartUrl(domain, matchedVariant!.id)
-    : domain
-      ? buildProductUrl(domain, handle)
-      : '#';
+  // ── handleAdd ──────────────────────────────────────────────────────────────
+  const handleAdd = async () => {
+    if (!canAdd || adding || !matchedVariant) return;
+    setAdding(true);
+    await addToCart(matchedVariant.id, 1);
+    setAdding(false);
+    setJustAdded(true);
+    setTimeout(() => setJustAdded(false), 2000);
+  };
 
-  // ── Múltiples formatos disponibles ───────────────────────────────────────────
-  const hasFormatSelector = !loading && variants.length > 1 && formats.length > 1;
-
-  // ── Estilos ───────────────────────────────────────────────────────────────────
+  // ── Styles ─────────────────────────────────────────────────────────────────
   const primaryCls =
     'inline-flex items-center justify-center gap-2 px-8 py-4 ' +
     'bg-ink text-bg text-[11px] uppercase tracking-[0.28em] font-body-medium ' +
@@ -152,14 +107,11 @@ export function BuyButton({
 
   const btnCls = variant === 'primary' ? primaryCls : secondaryCls;
 
-  // ── Chip selector de formato ──────────────────────────────────────────────────
   const chipBase =
     'px-4 py-2 text-[11px] uppercase tracking-[0.18em] border transition-colors cursor-pointer ' +
     'focus:outline-none focus:ring-2 focus:ring-verde';
-  const chipActive   = 'bg-ink text-bg border-ink';
-  const chipInactive = 'bg-bg text-ink border-ink/30 hover:border-ink';
 
-  // ── Render ────────────────────────────────────────────────────────────────────
+  // ── Render ─────────────────────────────────────────────────────────────────
   return (
     <div className="flex flex-col gap-4">
       {/* Selector de formato */}
@@ -170,10 +122,8 @@ export function BuyButton({
           </p>
           <div className="flex flex-wrap gap-2">
             {formats.map((fmt) => {
-              const fmtVariant = variants.find(
-                (v) => v.title.toLowerCase() === fmt.toLowerCase(),
-              );
-              const unavailable = fmtVariant ? !fmtVariant.available : false;
+              const fv = variants.find((v) => v.title.toLowerCase() === fmt.toLowerCase());
+              const unavailable = fv ? !fv.available : false;
               return (
                 <button
                   key={fmt}
@@ -181,7 +131,7 @@ export function BuyButton({
                   onClick={() => setSelectedFormat(fmt)}
                   disabled={unavailable}
                   className={`${chipBase} ${
-                    selectedFormat === fmt ? chipActive : chipInactive
+                    selectedFormat === fmt ? 'bg-ink text-bg border-ink' : 'bg-bg text-ink border-ink/30 hover:border-ink'
                   } ${unavailable ? 'opacity-40 cursor-not-allowed line-through' : ''}`}
                 >
                   {fmt}
@@ -192,24 +142,23 @@ export function BuyButton({
         </div>
       )}
 
-      {/* CTA principal */}
-      {loading ? (
+      {/* Botón principal */}
+      {loadingVariants ? (
         <div className="h-[52px] w-full sm:w-48 animate-pulse bg-ink/10 rounded-sm" />
-      ) : (!data?.available && variants.length > 0) ? (
-        <button disabled className={btnCls}>
-          {t(locale, 'outOfStock')}
-        </button>
+      ) : !canAdd && variants.length > 0 ? (
+        <button disabled className={btnCls}>{t(locale, 'outOfStock')}</button>
       ) : (
-        <a
-          href={href === '#' ? undefined : href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={btnCls + (href === '#' ? ' pointer-events-none opacity-40' : '')}
-          aria-label={t(locale, 'buy')}
+        <button
+          onClick={handleAdd}
+          disabled={adding || cartLoading || justAdded}
+          className={btnCls}
         >
-          {t(locale, 'buy')}
-          <span aria-hidden="true">→</span>
-        </a>
+          {adding
+            ? t(locale, 'adding')
+            : justAdded
+            ? t(locale, 'added')
+            : t(locale, 'add')}
+        </button>
       )}
     </div>
   );
