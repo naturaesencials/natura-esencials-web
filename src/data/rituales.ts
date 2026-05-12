@@ -405,19 +405,8 @@ export const rituales: Ritual[] = [
 export const getRitualBySlug = (slug: string, locale: Locale): Ritual | undefined =>
   rituales.find((r) => r.slugs[locale] === slug);
 
-export const getRitualsByLineAndRegion = (line: RitualLine, region: Region): Ritual[] => {
-  // Import bundles data to filter only rituals with a visible bundle
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const { bundles } = require('./bundles.json') as { bundles: Array<{ visible?: boolean; es?: { slug?: string } }> };
-  const visibleSlugs = new Set(
-    bundles.filter(b => b.visible !== false).map(b => b.es?.slug ?? '')
-  );
-  return rituales.filter((r) =>
-    r.line === line &&
-    r.availableIn.includes(region) &&
-    visibleSlugs.has(r.slugs.es)
-  );
-};
+export const getRitualsByLineAndRegion = (line: RitualLine, region: Region): Ritual[] =>
+  rituales.filter((r) => r.line === line && r.availableIn.includes(region));
 
 export const getRitualsByRegion = (region: Region): Ritual[] =>
   rituales.filter((r) => r.availableIn.includes(region));

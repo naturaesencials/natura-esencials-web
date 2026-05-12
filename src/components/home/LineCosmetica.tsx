@@ -4,16 +4,24 @@ import { useTranslations } from 'next-intl';
 import { getRitualsByLineAndRegion } from '@/data/rituales';
 import { regionCurrency, type Locale, type Region } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
+import bundlesData from '@/data/bundles.json';
 
 interface Props { region: Region; locale: Locale; }
 
 const IMG: Record<number, string> = {
-  1: '/images/landing/card-1.jpg',   // Plenitud — 4 productos Natura en bandeja
-  2: '/images/landing/card-2.jpg',   // Ducha Perfecta
-  3: '/images/landing/card-3.jpg',   // Rendimiento
-  4: '/images/landing/card-4.jpg',   // Para Él
-  5: '/images/landing/card-5.jpg',   // Para Ella
+  1: '/images/landing/card-1.jpg',
+  2: '/images/landing/card-2.jpg',
+  3: '/images/landing/card-3.jpg',
+  4: '/images/landing/card-4.jpg',
+  5: '/images/landing/card-5.jpg',
 };
+
+// Slugs ES con bundle visible → clicables
+const VISIBLE_SLUGS = new Set(
+  (bundlesData.bundles as Array<{ visible?: boolean; es?: { slug?: string } }>)
+    .filter(b => b.visible !== false)
+    .map(b => b.es?.slug ?? '')
+);
 
 export function LineCosmetica({ region, locale }: Props) {
   const t = useTranslations('lineCosmetica');
@@ -36,19 +44,17 @@ export function LineCosmetica({ region, locale }: Props) {
 
       <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2 lg:grid-cols-12 lg:gap-3">
         {rituales.map((r, idx) => {
-          const isBig = idx === 0 || idx === 1;
-          const cls = isBig
-            ? 'lg:col-span-6 aspect-[4/5]'
-            : 'lg:col-span-4 lg:aspect-[3/4] aspect-[3/4]';
-          const price = region === 'eu' ? r.basePriceEUR : r.basePriceGBP;
-          return (
-            <Link
-              key={r.id}
-              href={buildPath(region, locale, `rituales/${r.slugs[locale]}`)}
-              className={`relative flex min-h-[280px] flex-col justify-between overflow-hidden p-[clamp(18px,2.5vw,24px)] text-bg transition-transform duration-500 hover:[&:not(:has(*))]:scale-[0.985] sm:aspect-[3/4] sm:min-h-[320px] ${cls}`}
-            >
+          const isBig     = idx === 0 || idx === 1;
+          const cls       = isBig ? 'lg:col-span-6 aspect-[4/5]' : 'lg:col-span-4 lg:aspect-[3/4] aspect-[3/4]';
+          const price     = region === 'eu' ? r.basePriceEUR : r.basePriceGBP;
+          const hasBundle = VISIBLE_SLUGS.has(r.slugs.es);
+          const href      = hasBundle ? buildPath(region, locale, `rituales/${r.slugs[locale]}`) : undefined;
+          const cardCls   = `relative flex min-h-[280px] flex-col justify-between overflow-hidden p-[clamp(18px,2.5vw,24px)] text-bg sm:aspect-[3/4] sm:min-h-[320px] ${cls}`;
+
+          const inner = (
+            <>
               <Image
-                src={IMG[r.id].startsWith("/") ? IMG[r.id] : IMG[r.id] + "?auto=compress&cs=tinysrgb&w=1200"}
+                src={IMG[r.id] ?? '/images/landing/card-1.jpg'}
                 alt={r.names[locale].full}
                 fill
                 sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -65,10 +71,16 @@ export function LineCosmetica({ region, locale }: Props) {
                 </h4>
                 <div className="mt-2.5 flex min-h-touch items-baseline justify-between">
                   <span className="font-caption text-base">{symbol}{price}</span>
-                  <span className="font-caption text-sm opacity-70">→</span>
+                  <span className="font-caption text-sm opacity-70">{hasBundle ? '→' : '·'}</span>
                 </div>
               </div>
-            </Link>
+            </>
+          );
+
+          return href ? (
+            <Link key={r.id} href={href} className={`${cardCls} transition-transform duration-500`}>{inner}</Link>
+          ) : (
+            <div key={r.id} className={cardCls}>{inner}</div>
           );
         })}
       </div>
