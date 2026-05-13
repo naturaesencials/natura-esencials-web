@@ -124,7 +124,7 @@
       ],
       "format": "1 L",
       "discountPercent": 15,
-      "visible": true,
+      "visible": false,
       "basePriceEUR": 53.6,
       "es": {
         "name": "Ritual Plenitud",
@@ -332,7 +332,7 @@
       ],
       "format": "1 L",
       "discountPercent": 12,
-      "visible": true,
+      "visible": false,
       "basePriceEUR": 48.86,
       "es": {
         "name": "Ritual Ducha Perfecta",
@@ -538,7 +538,7 @@
       ],
       "format": "1 L",
       "discountPercent": 12,
-      "visible": true,
+      "visible": false,
       "basePriceEUR": 33.5,
       "es": {
         "name": "Ritual Rendimiento",
