@@ -1246,6 +1246,40 @@
       }
     },
     {
+      "id": "ritual-refugio",
+      "baseSlug": "ritual-refugio",
+      "line": "hogar",
+      "shopifyHandle": "ritual-refugio",
+      "availableIn": [
+        "eu"
+      ],
+      "sensation": "Refugio",
+      "includes": [],
+      "format": "1 L",
+      "visible": true,
+      "outOfStock": false,
+      "basePriceEUR": 11.0,
+      "basePriceGBP": 9.5,
+      "translations": {
+        "es": {
+          "name": "Ritual Refugio",
+          "nameMain": "Ritual",
+          "nameAccent": "Refugio",
+          "slug": "refugio",
+          "subtitle": "Limpiador multi-superficie con limón y tomillo",
+          "shortDescription": "Limpieza natural sin sulfatos agresivos"
+        },
+        "en": {
+          "name": "Ritual Shelter",
+          "nameMain": "Ritual",
+          "nameAccent": "Shelter",
+          "slug": "shelter",
+          "subtitle": "Multi-surface cleaner with lemon and thyme",
+          "shortDescription": "Natural cleaning without harsh sulphates"
+        }
+      }
+    },
+    {
       "id": "ritual-gato-zen",
       "line": "mascota",
       "shopifyHandle": "pack-higiene-basica-gatos",
