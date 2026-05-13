@@ -1,3 +1,5 @@
+'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import type { Product, Bundle } from '@/data/types';
 import type { Locale, Region } from '@/lib/i18n/config';
@@ -128,7 +130,14 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
         {/* Hero: imagen + intro */}
         <header className="grid lg:grid-cols-[1fr,1fr] gap-10 lg:gap-16 mb-pad-y-sm">
           <div className="relative aspect-square bg-paper rounded-2xl overflow-hidden">
-            <ProductImage src={imageSrc} fallbackSrc={imageFallback} alt={tr.name} />
+            <Image
+              src={imageSrc}
+              alt={tr.name}
+              fill
+              priority
+              sizes="(min-width: 1024px) 45vw, 95vw"
+              className="object-cover"
+            />
             <div className="absolute top-4 left-4 flex flex-col gap-2">
               <span className="bg-ink/90 text-bg text-meta-fluid uppercase tracking-[0.22em] px-3 py-1.5 rounded-sm font-body-medium">
                 {product.sensation}
