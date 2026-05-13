@@ -59,14 +59,14 @@ export function LineMascota({ region, locale }: Props) {
                 <h4 className="font-heading text-[clamp(22px,2.5vw,28px)] leading-[1.15] tracking-[-0.01em]">
                   {r.names[locale].main}{r.names[locale].accent && <> <em className="font-heading-italic">{r.names[locale].accent}</em></>}
                 </h4>
-                <div className="mt-3 flex min-h-touch items-baseline justify-between">
-                  <div className="flex flex-col gap-0.5">
-                    <strong className="font-caption text-lg font-bold text-white">{symbol}{price}</strong>
+                <div className="mt-3 flex min-h-touch items-end justify-between">
+                  <div className="flex flex-col gap-1">
+                    <span className="text-[22px] font-extrabold leading-none text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">{symbol}{price}</span>
                     {r.formats?.[0] && (
-                      <span className="text-[10px] uppercase tracking-[0.14em] text-white/70">{r.formats[0]}</span>
+                      <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">{r.formats[0]}</span>
                     )}
                   </div>
-                  <span className="font-caption text-sm text-white/80">{hasBundle ? '→' : '·'}</span>
+                  <span className="text-sm font-bold text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">{hasBundle ? '→' : '·'}</span>
                 </div>
               </div>
             </>
