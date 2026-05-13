@@ -863,7 +863,7 @@
         "nameAccent": "Vajilla Perfecta",
         "subtitle": "Vajilla impecable, sin marcas de agua y con secado perfecto.",
         "shortDescription": "Detergente en gel y abrillantador para lavavajillas, ambos de origen natural. Vajilla perfecta en cada lavado.",
-        "longDescription": "Cargar, activar y abrir con sensación de listo.",
+        "longDescription": "El Ritual Vajilla Perfecta combina el Detergente en gel para lavavajillas y el Abrillantador, ambos de origen natural. El detergente corta la grasa y protege el vidrio y el metal. El abrillantador previene las marcas de agua y mejora el secado. Resultado: vajilla impecable, sin marcas de agua y con secado perfecto en cada ciclo.",
         "promise": "Orden sin drama.",
         "story": "Cierra la cocina, abre la máquina, disfruta del brillo.",
         "slug": "vajilla-perfecta"
@@ -964,7 +964,7 @@
         "nameAccent": "Baño Impecable",
         "subtitle": "El baño que brilla sin esfuerzo. Ambos 96-99% de origen natural.",
         "shortDescription": "Limpiador anticálcáreo con perfume fresco y limpiacristales sin velos. El baño que brilla sin esfuerzo.",
-        "longDescription": "Pocos pasos, efecto limpio y sensación de espacio renovado.",
+        "longDescription": "El Ritual Baño Impecable combina el Limpiador de Baños anticálcáreo y el Limpiacristales sin velos, ambos 96-99% de origen natural. El limpiador actúa contra la cal en 10 minutos y está dermatológicamente testado. El limpiacristales deja espejos y mamparas perfectos con una sola pulverización. El baño que brilla sin esfuerzo.",
         "promise": "Baño que invita a cuidarte.",
         "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos.",
         "slug": "bano-impecable"
@@ -1066,7 +1066,7 @@
         "nameAccent": "Cocina Impecable",
         "subtitle": "La cocina impecable de dentro a fuera, con ingredientes de origen natural.",
         "shortDescription": "Desengrasante 99% de origen natural, lavavajillas cítrico y multisuperficies 97% natural. La cocina impecable.",
-        "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
+        "longDescription": "El Ritual Cocina Impecable reúne el Desengrasante 99% de origen natural, el Lavavajillas Manual con fragancia cítrica y el Limpiador Multisuperficies de origen natural. El desengrasante disuelve la grasa difícil sin esfuerzo. El lavavajillas cuida las manos mientras desengrasa con aroma cítrico. El multisuperficies deja encimeras y muebles brillantes sin rayas. La cocina impecable de dentro a fuera.",
         "promise": "Cerrar la cocina y respirar.",
         "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio.",
         "slug": "cocina-impecable"
@@ -1167,7 +1167,7 @@
         "nameAccent": "Caricia",
         "subtitle": "La colada que limpia, suaviza y deja en la ropa un aroma que abraza.",
         "shortDescription": "Detergente con lavanda reconfortante y suavizante con lavanda elegante. La colada perfecta.",
-        "longDescription": "Lavar, suavizar y doblar con calma. La lavanda permanece en la ropa.",
+        "longDescription": "El Ritual Caricia combina el Detergente para Ropa con lavanda reconfortante y el Suavizante con lavanda elegante, ambos de origen natural. El detergente limpia con eficacia y deja un aroma duradero. El suavizante suaviza las fibras, facilita el planchado y mantiene el color. La colada que limpia, suaviza y deja en la ropa un aroma que abraza.",
         "promise": "Ropa suave con sensación de hogar.",
         "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla.",
         "slug": "caricia"
@@ -1254,7 +1254,10 @@
         "eu"
       ],
       "sensation": "Refugio",
-      "includes": [],
+      "includes": [
+        "multisuperficies",
+        "limpiacristales"
+      ],
       "format": "1 L",
       "visible": true,
       "outOfStock": false,
@@ -1266,7 +1269,8 @@
         "nameAccent": "Refugio",
         "slug": "refugio",
         "subtitle": "Brillo limpio en todo el hogar, sin químicos agresivos.",
-        "shortDescription": "Limpiador multisuperficies y limpiacristales, ambos 97-99% de origen natural. Brillo limpio en todo el hogar."
+        "shortDescription": "Limpiador multisuperficies y limpiacristales, ambos 97-99% de origen natural. Brillo limpio en todo el hogar.",
+        "longDescription": "El Ritual Refugio reúne el Limpiador Multisuperficies de origen natural y el Limpiacristales 99% de origen natural. El limpiador con perfume suave elimina marcas y huellas en encimeras, muebles y puertas con brillo sin rayas. El limpiacristales deja cristales y espejos sin velos ni marcas con una sola pulverización. Brillo limpio en todo el hogar, sin ingredientes agresivos."
       },
       "en": {
         "name": "Ritual Shelter",
