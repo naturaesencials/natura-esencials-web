@@ -331,6 +331,40 @@ export const rituales: Ritual[] = [
       de: 'Haushaltspflege', it: 'Cura della casa', nl: 'Huisverzorging', pt: 'Cuidado da casa',
     },
   },
+  {
+    id: 12, number: '12', line: 'hogar',
+    shopifyHandle: 'pack-bano-esencial',
+    availableIn: ['eu'],
+    slugs: {
+      es: 'bano-impecable', en: 'flawless-bathroom', fr: 'salle-de-bain-impeccable',
+      de: 'makelloses-bad', it: 'bagno-impeccabile', nl: 'onberispelijke-badkamer', pt: 'casa-de-banho-impecavel',
+    },
+    names: {
+      es: { main: 'Ritual', accent: 'Baño Impecable', full: 'Ritual Baño Impecable' },
+      en: { main: 'Ritual', accent: 'Flawless Bathroom', full: 'Ritual Flawless Bathroom' },
+      fr: { main: 'Rituel', accent: 'Salle de Bain Impeccable', full: 'Rituel Salle de Bain Impeccable' },
+      de: { main: 'Ritual', accent: 'Makelloses Bad', full: 'Ritual Makelloses Bad' },
+      it: { main: 'Rituale', accent: 'Bagno Impeccabile', full: 'Rituale Bagno Impeccabile' },
+      nl: { main: 'Ritueel', accent: 'Onberispelijke Badkamer', full: 'Ritueel Onberispelijke Badkamer' },
+      pt: { main: 'Ritual', accent: 'Casa de Banho Impecável', full: 'Ritual Casa de Banho Impecável' },
+    },
+    subtitles: {
+      es: 'El baño que brilla sin esfuerzo. Ambos 96-99% de origen natural.',
+      en: 'Bathroom cleaner and streak-free glass cleaner. Both 96-99% natural origin.',
+      fr: 'Nettoyant salle de bain et nettoyant vitres sans traces. 96-99% de naturalité.',
+      de: 'Badreiniger und streifenfreier Glasreiniger. Beide 96-99% natürlichen Ursprungs.',
+      it: 'Detergente bagno e pulisci vetri senza aloni. Entrambi 96-99% di origine naturale.',
+      nl: 'Badreiniger en streepvrije glasreiniger. Beide 96-99% van natuurlijke oorsprong.',
+      pt: 'Limpador de casa de banho e limpa-vidros sem marcas. Ambos 96-99% de origem natural.',
+    },
+    ingredients: ['ácido cítrico', 'extractos herbales'],
+    basePriceEUR: 15.26, basePriceGBP: 13.12,
+    formats: ['1L'],
+    category: {
+      es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
+      de: 'Haushaltspflege', it: 'Cura della casa', nl: 'Huisverzorging', pt: 'Cuidado da casa',
+    },
+  },
   // ───── MASCOTA ─────
   {
     id: 10, number: '10', line: 'mascota',
