@@ -64,6 +64,7 @@ const SECTIONS: Array<{
       7: '/images/landing/card-7.jpg',
       8: '/images/landing/card-8.jpg',
       9: '/images/landing/card-9.jpg',
+      12: '/images/landing/card-12.jpg',
     },
     titles: { es: 'Hogar', en: 'Home Care', fr: 'Maison', de: 'Haushalt', it: 'Casa', nl: 'Huishoud', pt: 'Lar' },
     subs:   { es: 'Limpieza natural para cada rincón del hogar', en: 'Natural cleaning for every corner of the home',
