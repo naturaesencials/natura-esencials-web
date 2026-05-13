@@ -179,6 +179,12 @@ export default async function RitualPage({ params }: Props) {
                 <p className="text-sm text-muted/80 leading-relaxed">{tr.shortDescription}</p>
               )}
 
+              {tr.longDescription && (
+                <p className="text-sm leading-[1.85] text-foreground/75 border-l-2 border-accent pl-4 py-1">
+                  {tr.longDescription}
+                </p>
+              )}
+
               {/* Precio + comprar */}
               <div className="flex flex-col gap-5 mt-2">
                 {bundle.discountPercent && (
