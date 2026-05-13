@@ -20,6 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'cosmetica',
     'hogar',
     'mascota',
+    'rituales',
+    'blog',
     'origen',
     'diario',
     'contacto',
