@@ -42,7 +42,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Ritual', accent: 'Plenitude', full: 'Ritual Plenitude' },
     },
     subtitles: {
-      es: 'Gel corporal con avena coloidal y aloe',
+      es: 'Formulación natural de la casa, con aceites de argán y oliva de principio a fin.',
       en: 'Body wash with colloidal oatmeal and aloe',
       fr: "Gel corporel à l'avoine colloïdale et aloès",
       de: 'Körperpflege mit kolloidalem Hafer und Aloe',
@@ -76,7 +76,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Ritual', accent: 'Duche Perfeito', full: 'Ritual Duche Perfeito' },
     },
     subtitles: {
-      es: 'Gel de ducha con romero y lavanda',
+      es: 'La ducha completa y natural, de cabeza a pies.',
       en: 'Shower gel with rosemary and lavender',
       fr: 'Gel douche au romarin et lavande',
       de: 'Duschgel mit Rosmarin und Lavendel',
@@ -110,7 +110,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Ritual', accent: 'Rendimento', full: 'Ritual Rendimento' },
     },
     subtitles: {
-      es: 'Gel activante con menta y cafeína',
+      es: 'El ritual del hombre activo: eficaz, rápido y 100% natural.',
       en: 'Activating gel with mint and caffeine',
       fr: 'Gel tonifiant à la menthe et caféine',
       de: 'Aktivierendes Gel mit Minze und Koffein',
@@ -144,7 +144,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Ritual', accent: 'para Ele', full: 'Ritual para Ele' },
     },
     subtitles: {
-      es: 'Cosmética masculina completa',
+      es: 'La rutina masculina completa: cuatro pasos, cero compromisos.',
       en: "Complete men's skincare",
       fr: 'Cosmétique homme complète',
       de: 'Komplette Herrenpflege',
@@ -178,7 +178,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Ritual', accent: 'para Ela', full: 'Ritual para Ela' },
     },
     subtitles: {
-      es: 'Cosmética femenina completa',
+      es: 'Cuatro productos, una sola filosofía: cuidado femenino natural de pies a cabeza.',
       en: "Complete women's skincare",
       fr: 'Cosmétique femme complète',
       de: 'Komplette Damenpflege',
@@ -213,7 +213,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Ritual', accent: 'Refúgio', full: 'Ritual Refúgio' },
     },
     subtitles: {
-      es: 'Limpiador multi-superficie con limón y tomillo',
+      es: 'Brillo limpio en todo el hogar, sin químicos agresivos.',
       en: 'Multi-surface cleaner with lemon and thyme',
       fr: 'Nettoyant multi-surfaces au citron et thym',
       de: 'Allzweckreiniger mit Zitrone und Thymian',
@@ -247,7 +247,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Cozinha', accent: 'Impecável', full: 'Cozinha Impecável' },
     },
     subtitles: {
-      es: 'Desengrasante con bicarbonato y cítrico',
+      es: 'La cocina impecable de dentro a fuera, con solo ingredientes naturales.',
       en: 'Degreaser with baking soda and citric',
       fr: 'Dégraissant au bicarbonate et citrique',
       de: 'Entfetter mit Natron und Zitronensäure',
@@ -281,7 +281,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Louça', accent: 'Perfeita', full: 'Louça Perfeita' },
     },
     subtitles: {
-      es: 'Lavavajillas a mano con tensioactivos vegetales',
+      es: 'El baño que brilla sin esfuerzo. Ambos 96-99% de origen natural.',
       en: 'Hand dish soap with plant surfactants',
       fr: 'Liquide vaisselle aux tensioactifs végétaux',
       de: 'Handspülmittel mit pflanzlichen Tensiden',
@@ -315,7 +315,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Ritual', accent: 'Carícia', full: 'Ritual Carícia' },
     },
     subtitles: {
-      es: 'Detergente textil con jabón de Marsella y lavanda',
+      es: 'La colada que limpia, suaviza y deja en la ropa un aroma que abraza.',
       en: 'Laundry detergent with Marseille soap and lavender',
       fr: 'Lessive textile au savon de Marseille et lavande',
       de: 'Textilwaschmittel mit Marseiller Seife und Lavendel',
@@ -350,7 +350,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Mimo', accent: 'Canino', full: 'Mimo Canino' },
     },
     subtitles: {
-      es: 'Champú para perro con avena coloidal y caléndula',
+      es: 'El cuidado completo para tu perro, de cabeza a orejas.',
       en: 'Dog shampoo with colloidal oatmeal and calendula',
       fr: "Shampoing pour chien à l'avoine et calendula",
       de: 'Hundeshampoo mit Hafer und Ringelblume',
@@ -384,7 +384,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Gato', accent: 'Zen', full: 'Gato Zen' },
     },
     subtitles: {
-      es: 'Cuidado felino sin aclarado con valeriana',
+      es: 'El ritual tranquilo para el gato que lo merece todo.',
       en: 'Rinse-free feline care with valerian',
       fr: 'Soin félin sans rinçage à la valériane',
       de: 'Auswaschfreie Katzenpflege mit Baldrian',
