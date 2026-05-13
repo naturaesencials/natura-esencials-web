@@ -42,7 +42,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Ritual', accent: 'Plenitude', full: 'Ritual Plenitude' },
     },
     subtitles: {
-      es: 'Formulación natural de la casa, con aceites de argán y oliva de principio a fin.',
+      es: 'La rutina femenina completa con aceites de argán y oliva.',
       en: 'Body wash with colloidal oatmeal and aloe',
       fr: "Gel corporel à l'avoine colloïdale et aloès",
       de: 'Körperpflege mit kolloidalem Hafer und Aloe',
