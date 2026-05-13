@@ -729,8 +729,7 @@
       "handles": {
         "300 ml": "ritual-para-ella-300-ml",
         "1 L": "ritual-para-ella-1-ltr"
-      },
-      "primaryImage": "/images/landing/card-5.jpg"
+      }
     },
     {
       "id": "ritual-para-el",

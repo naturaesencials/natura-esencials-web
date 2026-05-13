@@ -3949,8 +3949,7 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": false,
-      "primaryImage": "/images/landing/card-5.jpg"
+      "outOfStock": false
     },
     {
       "id": "acondicionador-mujer",
@@ -4221,8 +4220,7 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": false,
-      "primaryImage": "/images/landing/card-5.jpg"
+      "outOfStock": false
     },
     {
       "id": "gel-manos-cuerpo-mujer",
@@ -4493,8 +4491,7 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": false,
-      "primaryImage": "/images/landing/card-5.jpg"
+      "outOfStock": false
     },
     {
       "id": "body-milk-woman",
@@ -4764,8 +4761,7 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": false,
-      "primaryImage": "/images/landing/card-5.jpg"
+      "outOfStock": false
     },
     {
       "id": "agua-micelar",
