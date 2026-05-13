@@ -46,7 +46,10 @@ export function LineHogar({ region, locale }: Props) {
         {rituales.map((r) => {
           const price      = region === 'eu' ? r.basePriceEUR : r.basePriceGBP;
           const hasBundle  = VISIBLE_SLUGS.has(r.slugs.es);
-          const href       = hasBundle ? buildPath(region, locale, `rituales/${r.slugs[locale]}`) : undefined;
+          // Sin bundle → enlaza al catálogo de hogar (ej. Refugio sin producto Shopify aún)
+          const href       = hasBundle
+            ? buildPath(region, locale, `rituales/${r.slugs[locale]}`)
+            : buildPath(region, locale, 'hogar');
           const cardCls    = 'relative flex aspect-[3/4] min-h-[300px] flex-col justify-between overflow-hidden p-[clamp(18px,2.2vw,22px)] text-bg';
 
           const inner = (
@@ -63,17 +66,20 @@ export function LineHogar({ region, locale }: Props) {
                   <span className="mt-1.5 block text-[10px] font-normal uppercase tracking-[0.14em] opacity-80">{r.subtitles[locale]}</span>
                 </h4>
                 <div className="mt-2.5 flex min-h-touch items-baseline justify-between">
-                  <span className="font-caption text-[15px]">{symbol}{price}</span>
-                  <span className="font-caption text-sm opacity-70">{hasBundle ? '→' : '·'}</span>
+                  <div className="flex flex-col gap-0.5">
+                    <strong className="font-caption text-lg font-bold text-white">{symbol}{price}</strong>
+                    {r.formats?.[0] && (
+                      <span className="text-[10px] uppercase tracking-[0.14em] text-white/70">{r.formats[0]}</span>
+                    )}
+                  </div>
+                  <span className="font-caption text-sm text-white/80">→</span>
                 </div>
               </div>
             </>
           );
 
-          return href ? (
+          return (
             <Link key={r.id} href={href} className={`${cardCls} transition-transform duration-500`}>{inner}</Link>
-          ) : (
-            <div key={r.id} className={cardCls}>{inner}</div>
           );
         })}
       </div>

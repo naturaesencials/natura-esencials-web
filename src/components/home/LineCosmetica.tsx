@@ -70,8 +70,13 @@ export function LineCosmetica({ region, locale }: Props) {
                   {r.names[locale].main}{r.names[locale].accent && <> <em className="font-heading-italic">{r.names[locale].accent}</em></>}
                 </h4>
                 <div className="mt-2.5 flex min-h-touch items-baseline justify-between">
-                  <span className="font-caption text-base">{symbol}{price}</span>
-                  <span className="font-caption text-sm opacity-70">{hasBundle ? '→' : '·'}</span>
+                  <div className="flex flex-col gap-0.5">
+                    <strong className="font-caption text-lg font-bold text-white">{symbol}{price}</strong>
+                    {r.formats?.[0] && (
+                      <span className="text-[10px] uppercase tracking-[0.14em] text-white/70">{r.formats[0]}</span>
+                    )}
+                  </div>
+                  <span className="font-caption text-sm text-white/80">{hasBundle ? '→' : '·'}</span>
                 </div>
               </div>
             </>
