@@ -22,12 +22,14 @@ export function DualFeatured({ region, locale }: Props) {
   const tc = useTranslations('common');
   const symbol = regionCurrency[region].symbol;
 
-  // Primer ritual con bundle visible de cada línea
+  // Cosmética: primer ritual con bundle visible
+  // Hogar: Cocina Impecable (id=7) — la foto dual-right.jpg muestra productos de cocina
   const cosmeticaRituales = getRitualsByLineAndRegion('cosmetica', region);
   const hogarRituales     = getRitualsByLineAndRegion('hogar',     region);
 
   const cosmetica = cosmeticaRituales.find(r => VISIBLE_SLUGS.has(r.slugs.es));
-  const hogar     = hogarRituales.find(r => VISIBLE_SLUGS.has(r.slugs.es));
+  const hogar     = hogarRituales.find(r => r.id === 7 && VISIBLE_SLUGS.has(r.slugs.es))
+                 ?? hogarRituales.find(r => VISIBLE_SLUGS.has(r.slugs.es));
 
   if (!cosmetica) return null;
 
