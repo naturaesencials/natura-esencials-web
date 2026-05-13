@@ -76,7 +76,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Ritual', accent: 'Duche Perfeito', full: 'Ritual Duche Perfeito' },
     },
     subtitles: {
-      es: 'La ducha completa y natural, de cabeza a pies.',
+      es: 'La ducha completa con ingredientes de origen natural, de cabeza a pies.',
       en: 'Shower gel with rosemary and lavender',
       fr: 'Gel douche au romarin et lavande',
       de: 'Duschgel mit Rosmarin und Lavendel',
@@ -110,7 +110,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Ritual', accent: 'Rendimento', full: 'Ritual Rendimento' },
     },
     subtitles: {
-      es: 'El ritual del hombre activo: eficaz, rápido y 100% natural.',
+      es: 'El ritual del hombre activo: eficaz, rápido y de origen natural.',
       en: 'Activating gel with mint and caffeine',
       fr: 'Gel tonifiant à la menthe et caféine',
       de: 'Aktivierendes Gel mit Minze und Koffein',
@@ -247,7 +247,7 @@ export const rituales: Ritual[] = [
       pt: { main: 'Cozinha', accent: 'Impecável', full: 'Cozinha Impecável' },
     },
     subtitles: {
-      es: 'La cocina impecable de dentro a fuera, con solo ingredientes naturales.',
+      es: 'La cocina impecable de dentro a fuera, con ingredientes de origen natural.',
       en: 'Degreaser with baking soda and citric',
       fr: 'Dégraissant au bicarbonate et citrique',
       de: 'Entfetter mit Natron und Zitronensäure',

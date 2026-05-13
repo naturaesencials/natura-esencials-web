@@ -45,7 +45,7 @@
   "hero": {
     "stampDate": "Primavera · 2026",
     "stampOrigin": "Marbella · Andalucía",
-    "kicker": "Cosmética natural y cuidado del hogar",
+    "kicker": "Cosmética artesanal y cuidado del hogar",
     "titleLine1": "Cuidar la",
     "titleAccent1": "piel",
     "titleLine2": "y la",
@@ -67,11 +67,11 @@
   "dualFeatured": {
     "personalLine": "Cosmética · formulación de la casa",
     "personalBadge": "Ritual 01 · Cosmética",
-    "personalDesc": "Champú, acondicionador, jabón y body milk: la rutina femenina completa. Formulación natural de la casa, con aceites de argán y oliva.",
+    "personalDesc": "Champú, acondicionador, jabón y body milk: la rutina femenina completa. Formulación artesanal de la casa, con aceites de argán y oliva.",
     "personalDescEmphasis": "gesto diario",
     "hogarLine": "Hogar · cocina impecable",
     "hogarBadge": "Ritual 07 · Hogar",
-    "hogarDesc": "Desengrasante 99% de origen natural, lavavajillas cítrico y multisuperficies 97% natural. La cocina impecable de dentro a fuera.",
+    "hogarDesc": "Desengrasante 99% de origen natural, lavavajillas cítrico y multisuperficies 97% de origen natural. La cocina impecable de dentro a fuera.",
     "hogarDescEmphasis": "Sin sulfatos agresivos"
   },
   "lineCosmetica": {
@@ -94,7 +94,7 @@
     "tag": "Línea principal · 4 rituales",
     "title1": "El",
     "titleAccent": "hogar.",
-    "intro": "Jabones y limpiadores naturales para las superficies que tocamos a diario. Con la misma exigencia que aplicamos a la piel: sin sulfatos agresivos, sin aromas sintéticos, sin tóxicos para quien cocina contigo.",
+    "intro": "Jabones y limpiadores de origen natural para las superficies que tocamos a diario. Con la misma exigencia que aplicamos a la piel: sin sulfatos agresivos, sin aromas sintéticos, sin tóxicos para quien cocina contigo.",
     "introEmphasis": "Con la misma exigencia que aplicamos a la piel"
   },
   "origen": {
@@ -151,7 +151,7 @@
     "submit": "Recibir"
   },
   "footer": {
-    "brandDesc": "Cosmética natural y cuidado del hogar, elaborados en Marbella. Andalucía, España.",
+    "brandDesc": "Cosmética artesanal y cuidado del hogar, elaborados en Marbella. Andalucía, España.",
     "colCosmetica": "Cosmética",
     "colHogar": "Hogar",
     "colMascota": "Mascota",
@@ -165,9 +165,9 @@
     "linkCookies": "Cookies"
   },
   "metadata": {
-    "homeTitle": "Cosmética natural y cuidado del hogar",
-    "homeDescription": "Once rituales naturales formulados a mano en Marbella. Cosmética y limpiadores del hogar con certificación ISO 16128, materia vegetal andaluza y envase reciclable.",
-    "homeKeywords": "cosmética natural, cosmética artesanal, cuidado del hogar, jabón natural, Marbella, Andalucía, ISO 16128, gel corporal natural"
+    "homeTitle": "Cosmética artesanal y cuidado del hogar",
+    "homeDescription": "Once rituales formulados a mano en Marbella. Cosmética y limpiadores del hogar con certificación ISO 16128, materia vegetal andaluza y envase reciclable.",
+    "homeKeywords": "cosmética artesanal, cuidado del hogar, jabón artesanal, Marbella, Andalucía, ISO 16128, gel corporal artesanal"
   },
   "product": {
     "sensation": "Sensación",

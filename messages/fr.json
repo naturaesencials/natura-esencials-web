@@ -45,7 +45,7 @@
   "hero": {
     "stampDate": "Printemps · 2026",
     "stampOrigin": "Marbella · Andalousie",
-    "kicker": "Cosmétique naturelle et entretien de la maison",
+    "kicker": "Cosmétique artisanale et entretien de la maison",
     "titleLine1": "Prendre soin de la",
     "titleAccent1": "peau",
     "titleLine2": "et de la",
@@ -151,7 +151,7 @@
     "submit": "Recevoir"
   },
   "footer": {
-    "brandDesc": "Cosmétique naturelle et entretien de la maison, fabriqués à Marbella. Andalousie, Espagne.",
+    "brandDesc": "Cosmétique artisanale et entretien de la maison, fabriqués à Marbella. Andalousie, Espagne.",
     "colCosmetica": "Cosmétique",
     "colHogar": "Maison",
     "colMascota": "Animaux",
@@ -165,7 +165,7 @@
     "linkCookies": "Cookies"
   },
   "metadata": {
-    "homeTitle": "Cosmétique naturelle et entretien de la maison",
+    "homeTitle": "Cosmétique artisanale et entretien de la maison",
     "homeDescription": "Onze rituels naturels formulés à la main à Marbella. Cosmétique et nettoyants ménagers avec certification ISO 16128, matières végétales andalouses et emballage recyclable.",
     "homeKeywords": "cosmétique naturelle, cosmétique artisanale, entretien maison, savon naturel, Marbella, Andalousie, ISO 16128, gel douche naturel"
   },

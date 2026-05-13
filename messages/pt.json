@@ -45,7 +45,7 @@
   "hero": {
     "stampDate": "Primavera · 2026",
     "stampOrigin": "Marbella · Andaluzia",
-    "kicker": "Cosmética natural e cuidado da casa",
+    "kicker": "Cosmética artesanal e cuidado da casa",
     "titleLine1": "Cuidar da",
     "titleAccent1": "pele",
     "titleLine2": "e da",
@@ -67,7 +67,7 @@
   "dualFeatured": {
     "personalLine": "Cosmética · formulação da casa",
     "personalBadge": "Ritual 01 · Cosmética",
-    "personalDesc": "Champô, condicionador, sabão e body milk: a rotina feminina completa. Formulação natural com óleos de argão e azeite.",
+    "personalDesc": "Champô, condicionador, sabão e body milk: a rotina feminina completa. Formulação artesanal com óleos de argão e azeite.",
     "personalDescEmphasis": "gesto diário",
     "hogarLine": "Lar · cozinha impecável",
     "hogarBadge": "Ritual 07 · Lar",
@@ -151,7 +151,7 @@
     "submit": "Receber"
   },
   "footer": {
-    "brandDesc": "Cosmética natural e cuidado da casa, elaborados em Marbella. Andaluzia, Espanha.",
+    "brandDesc": "Cosmética artesanal e cuidado da casa, elaborados em Marbella. Andaluzia, Espanha.",
     "colCosmetica": "Cosmética",
     "colHogar": "Casa",
     "colMascota": "Animais",
@@ -165,9 +165,9 @@
     "linkCookies": "Cookies"
   },
   "metadata": {
-    "homeTitle": "Cosmética natural e cuidado da casa",
+    "homeTitle": "Cosmética artesanal e cuidado da casa",
     "homeDescription": "Onze rituais naturais formulados à mão em Marbella. Cosmética e limpadores para casa com certificação ISO 16128, matéria vegetal andaluza e embalagem reciclável.",
-    "homeKeywords": "cosmética natural, cosmética artesanal, cuidado da casa, sabão natural, Marbella, Andaluzia, ISO 16128, gel duche natural"
+    "homeKeywords": "cosmética artesanal, cuidado da casa, sabão artesanal, Marbella, Andaluzia, ISO 16128, gel duche artesanal"
   },
   "product": {
     "sensation": "Sensação",

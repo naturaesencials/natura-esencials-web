@@ -45,7 +45,7 @@
   "hero": {
     "stampDate": "Primavera · 2026",
     "stampOrigin": "Marbella · Andalusia",
-    "kicker": "Cosmetica naturale e cura della casa",
+    "kicker": "Cosmetica artigianale e cura della casa",
     "titleLine1": "Curare la",
     "titleAccent1": "pelle",
     "titleLine2": "e la",
@@ -67,7 +67,7 @@
   "dualFeatured": {
     "personalLine": "Cosmetica · formulazione di casa",
     "personalBadge": "Rituale 01 · Cosmetica",
-    "personalDesc": "Shampoo, balsamo, sapone e latte corpo: la routine femminile completa. Formulazione naturale con oli di argan e oliva.",
+    "personalDesc": "Shampoo, balsamo, sapone e latte corpo: la routine femminile completa. Formulazione artigianale con oli di argan e oliva.",
     "personalDescEmphasis": "gesto quotidiano",
     "hogarLine": "Casa · cucina impeccabile",
     "hogarBadge": "Rituale 07 · Casa",
@@ -94,7 +94,7 @@
     "tag": "Linea principale · 4 rituali",
     "title1": "La",
     "titleAccent": "casa.",
-    "intro": "Saponi e detergenti naturali per le superfici che tocchiamo ogni giorno. Con la stessa esigenza che applichiamo alla pelle: senza solfati aggressivi, senza profumi sintetici, senza tossici per chi cucina con te.",
+    "intro": "Saponi e detergenti di formulazione artigianale per le superfici che tocchiamo ogni giorno. Con la stessa esigenza che applichiamo alla pelle: senza solfati aggressivi, senza profumi sintetici, senza tossici per chi cucina con te.",
     "introEmphasis": "Con la stessa esigenza che applichiamo alla pelle"
   },
   "origen": {
@@ -151,7 +151,7 @@
     "submit": "Ricevere"
   },
   "footer": {
-    "brandDesc": "Cosmetica naturale e cura della casa, prodotti a Marbella. Andalusia, Spagna.",
+    "brandDesc": "Cosmetica artigianale e cura della casa, prodotti a Marbella. Andalusia, Spagna.",
     "colCosmetica": "Cosmetica",
     "colHogar": "Casa",
     "colMascota": "Animali",
@@ -165,9 +165,9 @@
     "linkCookies": "Cookie"
   },
   "metadata": {
-    "homeTitle": "Cosmetica naturale e cura della casa",
+    "homeTitle": "Cosmetica artigianale e cura della casa",
     "homeDescription": "Undici rituali naturali formulati a mano a Marbella. Cosmetica e detergenti per la casa con certificazione ISO 16128, materie vegetali andaluse e confezione riciclabile.",
-    "homeKeywords": "cosmetica naturale, cosmetica artigianale, cura casa, sapone naturale, Marbella, Andalusia, ISO 16128, doccia schiuma naturale"
+    "homeKeywords": "cosmetica artigianale, cura casa, sapone artigianale, Marbella, Andalusia, ISO 16128, doccia schiuma naturale"
   },
   "product": {
     "sensation": "Sensazione",

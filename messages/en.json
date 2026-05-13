@@ -45,7 +45,7 @@
   "hero": {
     "stampDate": "Spring · 2026",
     "stampOrigin": "Marbella · Andalusia",
-    "kicker": "Natural skincare and home care",
+    "kicker": "Artisan skincare and home care",
     "titleLine1": "Caring for the",
     "titleAccent1": "skin",
     "titleLine2": "and the",
@@ -67,11 +67,11 @@
   "dualFeatured": {
     "personalLine": "Skincare · house formulation",
     "personalBadge": "Ritual 01 · Skincare",
-    "personalDesc": "Shampoo, conditioner, soap and body milk: the complete feminine routine. Natural house formulation with argan and olive oils.",
+    "personalDesc": "Shampoo, conditioner, soap and body milk: the complete feminine routine. Artisan house formulation with argan and olive oils.",
     "personalDescEmphasis": "daily gesture",
     "hogarLine": "Home · spotless kitchen",
     "hogarBadge": "Ritual 07 · Home",
-    "hogarDesc": "Natural degreaser 99% natural origin, citrus dishwasher liquid and 97% natural multi-surface cleaner. A spotless kitchen inside and out.",
+    "hogarDesc": "Natural degreaser 99% natural origin, citrus dishwasher liquid and 97% natural origin multi-surface cleaner. A spotless kitchen inside and out.",
     "hogarDescEmphasis": "No harsh sulphates"
   },
   "lineCosmetica": {
@@ -94,7 +94,7 @@
     "tag": "Main line · 4 rituals",
     "title1": "The",
     "titleAccent": "home.",
-    "intro": "Natural soaps and cleaners for the surfaces we touch every day. With the same exacting standards we apply to skin: no harsh sulphates, no synthetic fragrances, no toxic residues for whoever cooks with you.",
+    "intro": "Soaps and cleaners of natural origin for the surfaces we touch every day. With the same exacting standards we apply to skin: no harsh sulphates, no synthetic fragrances, no toxic residues for whoever cooks with you.",
     "introEmphasis": "With the same exacting standards we apply to skin"
   },
   "origen": {
@@ -151,7 +151,7 @@
     "submit": "Receive"
   },
   "footer": {
-    "brandDesc": "Natural skincare and home care, handcrafted in Marbella. Andalusia, Spain.",
+    "brandDesc": "Artisan skincare and home care, handcrafted in Marbella. Andalusia, Spain.",
     "colCosmetica": "Skincare",
     "colHogar": "Home",
     "colMascota": "Pet",
@@ -165,9 +165,9 @@
     "linkCookies": "Cookies"
   },
   "metadata": {
-    "homeTitle": "Natural skincare and home care",
-    "homeDescription": "Eleven natural rituals handcrafted in Marbella. Skincare and home cleaners with ISO 16128 certification, Andalusian botanicals and recyclable packaging.",
-    "homeKeywords": "natural skincare, artisan skincare, home care, natural soap, Marbella, Andalusia, ISO 16128, natural body wash"
+    "homeTitle": "Artisan skincare and home care",
+    "homeDescription": "Eleven rituals handcrafted in Marbella. Skincare and home cleaners with ISO 16128 certification, Andalusian botanicals and recyclable packaging.",
+    "homeKeywords": "artisan skincare, home care, artisan soap, Marbella, Andalusia, ISO 16128, artisan body wash"
   },
   "product": {
     "sensation": "Sensation",

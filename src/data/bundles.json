@@ -232,8 +232,8 @@
         "name": "Ritual Ducha Perfecta",
         "nameMain": "Ritual",
         "nameAccent": "Ducha Perfecta",
-        "subtitle": "La ducha completa y natural, de cabeza a pies.",
-        "shortDescription": "Champú con argán, jabón de oliva y coco, y loción de aguacate y jojoba. La ducha completa y natural, de cabeza a pies.",
+        "subtitle": "La ducha completa con ingredientes de origen natural, de cabeza a pies.",
+        "shortDescription": "Champú con argán, jabón de oliva y coco, y loción de aguacate y jojoba. La ducha completa con ingredientes de origen natural, de cabeza a pies.",
         "longDescription": "Cabello y piel en orden con una rutina clara de uso diario.",
         "promise": "Estar bien en tu piel.",
         "story": "Me quito el día de encima, reinicio y sello el cuidado.",
@@ -338,7 +338,7 @@
         "name": "Ritual Ducha Perfecta",
         "nameMain": "Ritual",
         "nameAccent": "Ducha Perfecta 1 L",
-        "subtitle": "La ducha completa y natural, de cabeza a pies.",
+        "subtitle": "La ducha completa con ingredientes de origen natural, de cabeza a pies.",
         "shortDescription": "Champú con argán, jabón de oliva y coco, y loción de aguacate y jojoba en formato 1L. La ducha completa y natural.",
         "longDescription": "Mismo trío del Ritual Ducha Perfecta, formato grande para uso prolongado.",
         "promise": "Tu rutina diaria, sin interrupciones.",
@@ -439,7 +439,7 @@
         "name": "Ritual Rendimiento",
         "nameMain": "Ritual",
         "nameAccent": "Rendimiento",
-        "subtitle": "El ritual del hombre activo: eficaz, rápido y 100% natural.",
+        "subtitle": "El ritual del hombre activo: eficaz, rápido y 100% de origen natural.",
         "shortDescription": "Limpiador 3 en 1 con argán para cuerpo y cabello, más body milk de aguacate y jojoba. El ritual del hombre activo.",
         "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
         "promise": "Limpiar, hidratar, seguir.",
@@ -544,7 +544,7 @@
         "name": "Ritual Rendimiento",
         "nameMain": "Ritual",
         "nameAccent": "Rendimiento 1 L",
-        "subtitle": "El ritual del hombre activo: eficaz, rápido y 100% natural.",
+        "subtitle": "El ritual del hombre activo: eficaz, rápido y 100% de origen natural.",
         "shortDescription": "Limpiador 3 en 1 con argán para cuerpo y cabello, más body milk de aguacate y jojoba en formato 1L.",
         "longDescription": "El Ritual Rendimiento en formato grande: dos productos, mucho rendimiento.",
         "promise": "Tu ritual post-actividad, sin pausas.",
@@ -1064,8 +1064,8 @@
         "name": "Ritual Cocina Impecable",
         "nameMain": "Ritual",
         "nameAccent": "Cocina Impecable",
-        "subtitle": "La cocina impecable de dentro a fuera, con solo ingredientes naturales.",
-        "shortDescription": "Desengrasante vegano, lavavajillas cítrico y multisuperficies 97% natural. La cocina impecable.",
+        "subtitle": "La cocina impecable de dentro a fuera, con ingredientes de origen natural.",
+        "shortDescription": "Desengrasante 99% de origen natural, lavavajillas cítrico y multisuperficies 97% natural. La cocina impecable.",
         "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
         "promise": "Cerrar la cocina y respirar.",
         "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio.",
@@ -1266,7 +1266,7 @@
         "nameAccent": "Refugio",
         "slug": "refugio",
         "subtitle": "Brillo limpio en todo el hogar, sin químicos agresivos.",
-        "shortDescription": "Limpiador multisuperficies y limpiacristales, ambos 97-99% naturales y veganos. Brillo limpio en todo el hogar."
+        "shortDescription": "Limpiador multisuperficies y limpiacristales, ambos 97-99% de origen natural. Brillo limpio en todo el hogar."
       },
       "en": {
         "name": "Ritual Shelter",
@@ -1274,7 +1274,7 @@
         "nameAccent": "Shelter",
         "slug": "shelter",
         "subtitle": "Multi-surface cleaner with lemon and thyme",
-        "shortDescription": "Natural cleaning without harsh sulphates. Ready for kitchen, bathroom and surfaces."
+        "shortDescription": "Free from harsh sulphates. Ready for kitchen, bathroom and surfaces."
       },
       "fr": {
         "name": "Ritual Refuge",
@@ -1298,7 +1298,7 @@
         "nameAccent": "Rifugio",
         "slug": "rifugio",
         "subtitle": "Multiuso con limone e timo",
-        "shortDescription": "Pulizia naturale senza solfati aggressivi."
+        "shortDescription": "Senza solfati aggressivi."
       },
       "nl": {
         "name": "Ritual Toevlucht",
@@ -1314,7 +1314,7 @@
         "nameAccent": "Refúgio",
         "slug": "refugio",
         "subtitle": "Limpador multi-superfícies com limão e tomilho",
-        "shortDescription": "Limpeza natural sem sulfatos agressivos."
+        "shortDescription": "Sem sulfatos agressivos."
       }
     },
     {
