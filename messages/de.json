@@ -65,13 +65,13 @@
     "imgTagHogar": "Haushalt"
   },
   "dualFeatured": {
-    "personalLine": "Hautpflege · Hausformulierung",
-    "personalBadge": "Ritual 01 · Hautpflege",
-    "personalDesc": "Körperpflege mit kolloidalem Hafer, Aloe und Kamille. Die tägliche Geste für empfindliche Haut.",
+    "personalLine": "Kosmetik · Hausformulierung",
+    "personalBadge": "Ritual 01 · Kosmetik",
+    "personalDesc": "Shampoo, Conditioner, Seife und Körperlotion: die vollständige Pflegeroutine. Natürliche Formulierung mit Argan- und Olivenöl.",
     "personalDescEmphasis": "tägliche Geste",
-    "hogarLine": "Haushalt · Allzweck",
-    "hogarBadge": "Ritual 06 · Haushalt",
-    "hogarDesc": "Natürlicher Reiniger mit Málaga-Zitrone und Thymian. Ohne aggressive Sulfate, mit derselben Sorgfalt wie für die Haut.",
+    "hogarLine": "Haushalt · makellose Küche",
+    "hogarBadge": "Ritual 07 · Haushalt",
+    "hogarDesc": "Veganes Entfettungsmittel, Zitrus-Spülmittel und 97% natürlicher Allzweckreiniger. Die makellose Küche von innen nach außen.",
     "hogarDescEmphasis": "Ohne aggressive Sulfate"
   },
   "lineCosmetica": {
