@@ -96,12 +96,12 @@ export function Edicion({ region, locale }: Props) {
                   <em className={`font-heading-italic ${COLOR[ritual.line]}`}>{ritual.names[locale].accent}</em>
                 )}
               </h4>
-              <div className="mt-3 flex items-baseline justify-between gap-1.5 border-t border-rule pt-2.5">
+              <div className="mt-3 flex items-center justify-between gap-1.5 border-t border-rule pt-2.5">
                 <div className="flex flex-col gap-0.5">
-                  <span className="text-[11px] line-through text-graphite/60">{symbol}{basePrice}</span>
-                  {format && <span className="text-[10px] uppercase tracking-[0.14em] text-graphite/60">{format}</span>}
+                  <span className="text-[11px] font-medium text-ink/50 line-through">{symbol}{basePrice}</span>
+                  {format && <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-ink/60">{format}</span>}
                 </div>
-                <strong className="font-caption text-lg font-bold text-ink">{symbol}{newPrice}</strong>
+                <strong className="font-caption text-xl font-black text-ink">{symbol}{newPrice}</strong>
               </div>
             </>
           );
