@@ -1260,23 +1260,61 @@
       "outOfStock": false,
       "basePriceEUR": 11.0,
       "basePriceGBP": 9.5,
-      "translations": {
-        "es": {
-          "name": "Ritual Refugio",
-          "nameMain": "Ritual",
-          "nameAccent": "Refugio",
-          "slug": "refugio",
-          "subtitle": "Limpiador multi-superficie con limón y tomillo",
-          "shortDescription": "Limpieza natural sin sulfatos agresivos"
-        },
-        "en": {
-          "name": "Ritual Shelter",
-          "nameMain": "Ritual",
-          "nameAccent": "Shelter",
-          "slug": "shelter",
-          "subtitle": "Multi-surface cleaner with lemon and thyme",
-          "shortDescription": "Natural cleaning without harsh sulphates"
-        }
+      "es": {
+        "name": "Ritual Refugio",
+        "nameMain": "Ritual",
+        "nameAccent": "Refugio",
+        "slug": "refugio",
+        "subtitle": "Limpiador multi-superficie con limón y tomillo",
+        "shortDescription": "Limpieza natural sin sulfatos agresivos. Listo para cocina, baño y superficies."
+      },
+      "en": {
+        "name": "Ritual Shelter",
+        "nameMain": "Ritual",
+        "nameAccent": "Shelter",
+        "slug": "shelter",
+        "subtitle": "Multi-surface cleaner with lemon and thyme",
+        "shortDescription": "Natural cleaning without harsh sulphates. Ready for kitchen, bathroom and surfaces."
+      },
+      "fr": {
+        "name": "Ritual Refuge",
+        "nameMain": "Ritual",
+        "nameAccent": "Refuge",
+        "slug": "refuge",
+        "subtitle": "Nettoyant multi-surfaces citron et thym",
+        "shortDescription": "Nettoyage naturel sans sulfates agressifs."
+      },
+      "de": {
+        "name": "Ritual Zuflucht",
+        "nameMain": "Ritual",
+        "nameAccent": "Zuflucht",
+        "slug": "zuflucht",
+        "subtitle": "Allzweckreiniger mit Zitrone und Thymian",
+        "shortDescription": "Natürliche Reinigung ohne aggressive Sulfate."
+      },
+      "it": {
+        "name": "Ritual Rifugio",
+        "nameMain": "Ritual",
+        "nameAccent": "Rifugio",
+        "slug": "rifugio",
+        "subtitle": "Multiuso con limone e timo",
+        "shortDescription": "Pulizia naturale senza solfati aggressivi."
+      },
+      "nl": {
+        "name": "Ritual Toevlucht",
+        "nameMain": "Ritual",
+        "nameAccent": "Toevlucht",
+        "slug": "toevlucht",
+        "subtitle": "Allesreiniger met citroen en tijm",
+        "shortDescription": "Natuurlijke reiniging zonder agressieve sulfaten."
+      },
+      "pt": {
+        "name": "Ritual Refúgio",
+        "nameMain": "Ritual",
+        "nameAccent": "Refúgio",
+        "slug": "refugio",
+        "subtitle": "Limpador multi-superfícies com limão e tomilho",
+        "shortDescription": "Limpeza natural sem sulfatos agressivos."
       }
     },
     {
