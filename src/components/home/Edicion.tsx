@@ -8,13 +8,12 @@ import bundlesData from '@/data/bundles.json';
 
 interface Props { region: Region; locale: Locale; }
 
-// Rituales de la edición — solo los que tienen bundle visible
-// Refugio (id=6) reemplazado por Caricia (id=9) — tiene bundle y foto
-const SEASON_OFFERS: Array<{ id: number; discount: number }> = [
-  { id: 1,  discount: 15 },  // Plenitud
-  { id: 9,  discount: 20 },  // Caricia (Textil Hogar)
-  { id: 7,  discount: 15 },  // Cocina Impecable
-  { id: 10, discount: 15 },  // Mimo Canino
+// Rituales de la edición — sin descuentos por ahora (Verano 2026 próximamente)
+const SEASON_OFFERS: Array<{ id: number }> = [
+  { id: 1  },  // Plenitud
+  { id: 9  },  // Caricia
+  { id: 7  },  // Cocina Impecable
+  { id: 10 },  // Mimo Canino
 ];
 
 const IMG: Record<number, string> = {
@@ -42,8 +41,8 @@ export function Edicion({ region, locale }: Props) {
   const symbol = regionCurrency[region].symbol;
 
   const offers = SEASON_OFFERS
-    .map((o) => ({ ritual: rituales.find((r) => r.id === o.id), discount: o.discount }))
-    .filter((o): o is { ritual: typeof rituales[0]; discount: number } =>
+    .map((o) => ({ ritual: rituales.find((r) => r.id === o.id) }))
+    .filter((o): o is { ritual: typeof rituales[0] } =>
       Boolean(o.ritual?.availableIn.includes(region))
     );
 
@@ -65,9 +64,8 @@ export function Edicion({ region, locale }: Props) {
       </header>
 
       <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4 lg:gap-7">
-        {offers.map(({ ritual, discount }) => {
+        {offers.map(({ ritual }) => {
           const basePrice = region === 'eu' ? ritual.basePriceEUR : ritual.basePriceGBP;
-          const newPrice  = (basePrice * (100 - discount) / 100).toFixed(2);
           const slugES    = ritual.slugs.es;
           const hasBundle = VISIBLE_SLUGS.has(slugES);
           const format    = VISIBLE_SLUGS.get(slugES) ?? '';
@@ -83,9 +81,6 @@ export function Edicion({ region, locale }: Props) {
                   sizes="(min-width: 1024px) 25vw, 50vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                 />
-                <span className={`absolute right-3 top-3 bg-bg px-2.5 py-1.5 text-[10px] uppercase tracking-[0.2em] ${COLOR[ritual.line]}`}>
-                  −{discount} %
-                </span>
               </div>
               <div className={`mb-1.5 text-[10px] uppercase tracking-[0.22em] ${COLOR[ritual.line]}`}>
                 {ritual.category[locale]}
@@ -97,11 +92,8 @@ export function Edicion({ region, locale }: Props) {
                 )}
               </h4>
               <div className="mt-3 flex items-center justify-between gap-1.5 border-t border-rule pt-2.5">
-                <div className="flex flex-col gap-0.5">
-                  <span className="text-[11px] font-medium text-ink/50 line-through">{symbol}{basePrice}</span>
-                  {format && <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-ink/60">{format}</span>}
-                </div>
-                <strong className="font-caption text-xl font-black text-ink">{symbol}{newPrice}</strong>
+                {format && <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-ink/60">{format}</span>}
+                <strong className="font-caption text-xl font-black text-ink">{symbol}{basePrice}</strong>
               </div>
             </>
           );
