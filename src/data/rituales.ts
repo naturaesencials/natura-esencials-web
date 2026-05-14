@@ -372,7 +372,7 @@ export const rituales: Ritual[] = [
     availableIn: ['eu', 'uk'],
     slugs: {
       es: 'mimo-canino', en: 'canine-care', fr: 'soin-canin',
-      de: 'hundepflege', it: 'coccola-canina', nl: 'hondenverzorging', pt: 'mimo-canino',
+      de: 'hundeverwoehnung', it: 'coccola-canina', nl: 'hondenverzorging', pt: 'mimo-canino',
     },
     names: {
       es: { main: 'Mimo', accent: 'Canino', full: 'Mimo Canino' },
