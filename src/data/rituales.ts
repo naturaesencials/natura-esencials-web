@@ -51,7 +51,7 @@ export const rituales: Ritual[] = [
       pt: 'Gel corporal com aveia coloidal e aloe',
     },
     ingredients: ['avena coloidal', 'aloe vera', 'manzanilla romana'],
-    basePriceEUR: 34.9, basePriceGBP: 30.01,
+    basePriceEUR: 24.6, basePriceGBP: 21.14,
     formats: ['300ml', '1L', '5L'],
     category: {
       es: 'Cosmética básica', en: 'Basic skincare', fr: 'Soin de base',
@@ -85,7 +85,7 @@ export const rituales: Ritual[] = [
       pt: 'Gel de duche com alecrim e lavanda',
     },
     ingredients: ['romero', 'lavanda'],
-    basePriceEUR: 26.5, basePriceGBP: 22.79,
+    basePriceEUR: 18.8, basePriceGBP: 16.17,
     formats: ['300ml', '1L'],
     category: {
       es: 'Cosmética básica', en: 'Basic skincare', fr: 'Soin de base',
@@ -119,7 +119,7 @@ export const rituales: Ritual[] = [
       pt: 'Gel ativante com menta e cafeína',
     },
     ingredients: ['menta', 'eucalipto', 'cafeína'],
-    basePriceEUR: 18.0, basePriceGBP: 15.48,
+    basePriceEUR: 13.4, basePriceGBP: 11.52,
     formats: ['300ml', '1L'],
     category: {
       es: 'Cosmética básica', en: 'Basic skincare', fr: 'Soin de base',
@@ -153,7 +153,7 @@ export const rituales: Ritual[] = [
       pt: 'Cosmética masculina completa',
     },
     ingredients: ['cedro', 'vetiver', 'bergamota'],
-    basePriceEUR: 31.0, basePriceGBP: 26.66,
+    basePriceEUR: 31.3, basePriceGBP: 26.92,
     formats: ['300ml', '1L'],
     category: {
       es: 'Cosmética masculina', en: "Men's skincare", fr: 'Cosmétique homme',
@@ -187,7 +187,7 @@ export const rituales: Ritual[] = [
       pt: 'Cosmética feminina completa',
     },
     ingredients: ['rosa mosqueta', 'jazmín', 'argán'],
-    basePriceEUR: 31.0, basePriceGBP: 26.66,
+    basePriceEUR: 31.3, basePriceGBP: 26.92,
     formats: ['300ml', '1L'],
     category: {
       es: 'Cosmética mujer', en: "Women's skincare", fr: 'Cosmétique femme',
@@ -222,7 +222,7 @@ export const rituales: Ritual[] = [
       pt: 'Limpador multi-superfície com limão e tomilho',
     },
     ingredients: ['limón', 'tomillo'],
-    basePriceEUR: 11.0, basePriceGBP: 9.46,
+    basePriceEUR: 16.2, basePriceGBP: 13.93,
     formats: ['1L', '5L'],
     category: {
       es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
@@ -256,7 +256,7 @@ export const rituales: Ritual[] = [
       pt: 'Desengordurante com bicarbonato e cítrico',
     },
     ingredients: ['bicarbonato', 'ácido cítrico'],
-    basePriceEUR: 20.9, basePriceGBP: 17.97,
+    basePriceEUR: 15.5, basePriceGBP: 13.33,
     formats: ['1L', '5L'],
     category: {
       es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
@@ -290,7 +290,7 @@ export const rituales: Ritual[] = [
       pt: 'Lava-louça com tensioativos vegetais',
     },
     ingredients: ['limón', 'tensioactivos vegetales'],
-    basePriceEUR: 16.7, basePriceGBP: 14.36,
+    basePriceEUR: 12.3, basePriceGBP: 10.58,
     formats: ['1L', '5L'],
     category: {
       es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
@@ -324,7 +324,7 @@ export const rituales: Ritual[] = [
       pt: 'Detergente têxtil com sabão de Marselha e lavanda',
     },
     ingredients: ['jabón de Marsella', 'lavanda'],
-    basePriceEUR: 18.0, basePriceGBP: 15.48,
+    basePriceEUR: 13.8, basePriceGBP: 11.87,
     formats: ['1L', '5L'],
     category: {
       es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
@@ -358,7 +358,7 @@ export const rituales: Ritual[] = [
       pt: 'Limpador de casa de banho e limpa-vidros sem marcas. Ambos 96-99% de origem natural.',
     },
     ingredients: ['ácido cítrico', 'extractos herbales'],
-    basePriceEUR: 15.26, basePriceGBP: 13.12,
+    basePriceEUR: 11.0, basePriceGBP: 9.46,
     formats: ['1L'],
     category: {
       es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
@@ -393,7 +393,7 @@ export const rituales: Ritual[] = [
       pt: 'Champô para cão com aveia e calêndula',
     },
     ingredients: ['avena coloidal', 'caléndula'],
-    basePriceEUR: 22.2, basePriceGBP: 19.09,
+    basePriceEUR: 15.7, basePriceGBP: 13.5,
     formats: ['300ml', '1L'],
     category: {
       es: 'Cuidado de la mascota', en: 'Pet care', fr: 'Soin des animaux',
@@ -427,7 +427,7 @@ export const rituales: Ritual[] = [
       pt: 'Cuidado felino sem enxaguamento com valeriana',
     },
     ingredients: ['valeriana', 'manzanilla'],
-    basePriceEUR: 22.2, basePriceGBP: 19.09,
+    basePriceEUR: 15.7, basePriceGBP: 13.5,
     formats: ['300ml'],
     category: {
       es: 'Cuidado de la mascota', en: 'Pet care', fr: 'Soin des animaux',

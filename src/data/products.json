@@ -898,7 +898,9 @@
         },
         "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 6.3,
+      "basePriceGBP": 5.42
     },
     {
       "id": "body-milk",
@@ -1198,7 +1200,9 @@
         },
         "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 8.4,
+      "basePriceGBP": 7.22
     },
     {
       "id": "total-body-wash",
@@ -1772,7 +1776,9 @@
         "aiTranslation": true
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-4.jpg"
+      "primaryImage": "/images/landing/card-4.jpg",
+      "basePriceEUR": 8.9,
+      "basePriceGBP": 7.65
     },
     {
       "id": "acondicionador-hombre",
@@ -2044,7 +2050,9 @@
         "aiTranslation": true
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-4.jpg"
+      "primaryImage": "/images/landing/card-4.jpg",
+      "basePriceEUR": 9.0,
+      "basePriceGBP": 7.74
     },
     {
       "id": "gel-manos-cuerpo-hombre",
@@ -2316,7 +2324,9 @@
         "aiTranslation": true
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-4.jpg"
+      "primaryImage": "/images/landing/card-4.jpg",
+      "basePriceEUR": 8.9,
+      "basePriceGBP": 7.65
     },
     {
       "id": "body-milk-man",
@@ -2587,7 +2597,9 @@
         "aiTranslation": true
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-4.jpg"
+      "primaryImage": "/images/landing/card-4.jpg",
+      "basePriceEUR": 9.2,
+      "basePriceGBP": 7.91
     },
     {
       "id": "gel-afeitado-hombre",
@@ -3949,7 +3961,9 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": false
+      "outOfStock": false,
+      "basePriceEUR": 8.9,
+      "basePriceGBP": 7.65
     },
     {
       "id": "acondicionador-mujer",
@@ -4220,7 +4234,9 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": false
+      "outOfStock": false,
+      "basePriceEUR": 9.0,
+      "basePriceGBP": 7.74
     },
     {
       "id": "gel-manos-cuerpo-mujer",
@@ -4491,7 +4507,9 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": false
+      "outOfStock": false,
+      "basePriceEUR": 8.9,
+      "basePriceGBP": 7.65
     },
     {
       "id": "body-milk-woman",
@@ -4761,7 +4779,9 @@
         },
         "aiTranslation": true
       },
-      "outOfStock": false
+      "outOfStock": false,
+      "basePriceEUR": 9.2,
+      "basePriceGBP": 7.91
     },
     {
       "id": "agua-micelar",
@@ -6151,7 +6171,9 @@
         },
         "warnings": "No ingerir. Mantener fuera del alcance de los niños. Evitar contacto con ojos.",
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 8.6,
+      "basePriceGBP": 7.4
     },
     {
       "id": "suavizante-ropa",
@@ -6448,7 +6470,9 @@
         },
         "warnings": "No ingerir. Mantener fuera del alcance de los niños.",
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 6.6,
+      "basePriceGBP": 5.68
     },
     {
       "id": "lavavajillas-manual",
@@ -6746,7 +6770,9 @@
         },
         "warnings": "No ingerir. Evitar contacto con ojos.",
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 6.3,
+      "basePriceGBP": 5.42
     },
     {
       "id": "lavavajillas-maquina",
@@ -7014,7 +7040,9 @@
           "sustainability": "92% de ingredientes de origen natural. Formato 5L de alto rendimiento. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 7.8,
+      "basePriceGBP": 6.71
     },
     {
       "id": "abrillantador",
@@ -7282,7 +7310,9 @@
           "sustainability": "98% de ingredientes de origen natural. El 2º más alto de la colección hogar. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 5.7,
+      "basePriceGBP": 4.9
     },
     {
       "id": "limpiasuelos",
@@ -7577,7 +7607,9 @@
         },
         "warnings": "Mantener fuera del alcance de los niños. No mezclar con otros productos de limpieza.",
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 6.0,
+      "basePriceGBP": 5.16
     },
     {
       "id": "limpiador-banos",
@@ -7847,7 +7879,9 @@
           "sustainability": "96% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 6.2,
+      "basePriceGBP": 5.33
     },
     {
       "id": "desengrasante",
@@ -8116,7 +8150,9 @@
           "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 4.8,
+      "basePriceGBP": 4.13
     },
     {
       "id": "multisuperficies",
@@ -8384,7 +8420,9 @@
           "sustainability": "97% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 6.2,
+      "basePriceGBP": 5.33
     },
     {
       "id": "limpiacristales",
@@ -8652,7 +8690,9 @@
           "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 5.9,
+      "basePriceGBP": 5.07
     },
     {
       "id": "champu-perros",
@@ -8923,7 +8963,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 6.3,
+      "basePriceGBP": 5.42
     },
     {
       "id": "champu-gatos",
@@ -9192,7 +9234,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
         "aiTranslation": true
-      }
+      },
+      "basePriceEUR": 6.3,
+      "basePriceGBP": 5.42
     },
     {
       "id": "limpiador-oidos-mascotas",
