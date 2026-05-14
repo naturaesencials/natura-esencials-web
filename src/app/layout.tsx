@@ -32,11 +32,35 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * Convierte locale + región a código BCP47 completo.
+ * EU → es-ES, en-US, fr-FR, de-DE, it-IT, nl-NL, pt-PT
+ * UK → en-GB, es-GB, fr-GB, de-GB, it-GB, nl-GB, pt-GB
+ * Debe coincidir exactamente con los hrefLang generados en metadata.ts.
+ */
+function getBcp47Lang(locale: string, region: string): string {
+  if (region === 'uk') {
+    return `${locale}-GB`;
+  }
+  const euMap: Record<string, string> = {
+    es: 'es-ES',
+    en: 'en-US',
+    fr: 'fr-FR',
+    de: 'de-DE',
+    it: 'it-IT',
+    nl: 'nl-NL',
+    pt: 'pt-PT',
+  };
+  return euMap[locale] ?? `${locale}-${locale.toUpperCase()}`;
+}
+
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const headersList = await headers();
   const locale = headersList.get('x-locale') || 'es';
+  const region = headersList.get('x-region') || 'eu';
+  const lang = getBcp47Lang(locale, region);
   return (
-    <html lang={locale} className={fraunces.variable}>
+    <html lang={lang} className={fraunces.variable}>
       <body>
         {children}
         <Analytics />
