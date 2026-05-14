@@ -197,5 +197,25 @@
     "aiTranslationNotice": "Traduction assistée · révision à venir",
     "handcraftedAndalucia": "Fabriqué à la main en Andalousie",
     "smallBatch": "Petits lots avec contrôle humain. Matières végétales andalouses, certification ISO 16128, artisanat andalou."
+  },
+  "catalogPages": {
+    "cosmetica": {
+      "kicker": "Collection",
+      "title": "Cosmétique",
+      "accent": "artisanale",
+      "desc": "Cheveux, corps, visage et rasage en rituels sensoriels au quotidien. Trois collections — Basique, Pour Elle et Pour Lui — formulées selon la norme ISO 16128 et fabriquées à la main en Andalousie."
+    },
+    "hogar": {
+      "kicker": "Collection",
+      "title": "Entretien",
+      "accent": "maison",
+      "desc": "Nettoyage de la maison transformé en sensation de maison soignée. Lessive, adoucissant, vaisselle, nettoyants spécifiques et multi-surfaces aux formules douces d'origine naturelle."
+    },
+    "mascota": {
+      "kicker": "Collection",
+      "title": "Soins",
+      "accent": "animaux",
+      "desc": "Soins doux pour chiens et chats : hygiène tranquille, calme à la maison et connexion sans stress. Produits avec enregistrement MAPA et formules hypoallergéniques adaptées au microbiome animal."
+    }
   }
 }
