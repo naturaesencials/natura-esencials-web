@@ -75,34 +75,34 @@
         "nameMain": "Shampoo",
         "nameAccent": "2-in-1",
         "shortDescription": "Lemon, mint and lavender notes. Cleanses and conditions in a single step.",
-        "longDescription": "Champú 2 en 1 para cabello normal: limpia y aporta acondicionamiento en un solo paso.",
-        "indication": "Higiene capilar. Apto para uso frecuente.",
-        "usage": "Apply to wet hair, massage and rinse. Suitable for daily use.",
+        "longDescription": "2-in-1 shampoo for normal hair: cleanses and conditions in a single step.",
+        "indication": "Hair hygiene. Suitable for frequent use.",
+        "usage": "Apply to wet hair, massage into lather, leave for a moment and rinse. Repeat if necessary.",
         "benefits": [
-          "2 en 1: limpia y acondiciona. pH 4,5-5,5 apto para uso frecuente.",
-          "Aceite de argán. Tensioactivos derivados del coco y del azúcar."
+          "2-in-1: cleanses and conditions. pH 4.5-5.5, suitable for frequent use.",
+          "Argan oil. Surfactants derived from coconut and sugar."
         ],
         "ritual": [
           {
-            "title": "De raíz a puntas",
-            "description": "Humedece el cabello y masajea el cuero cabelludo para iniciar el ritual."
+            "title": "Root to tip",
+            "description": "Wet hair and massage the scalp to begin the ritual."
           },
           {
-            "title": "Espuma equilibrada",
-            "description": "Distribuye y deja que la espuma limpie mientras desenredas con los dedos."
+            "title": "Balanced lather",
+            "description": "Distribute and let the foam cleanse while you detangle with your fingers."
           },
           {
-            "title": "Final fácil",
-            "description": "Aclara bien y escurre suavemente para una sensación de limpieza y manejabilidad."
+            "title": "Easy finish",
+            "description": "Rinse well and gently squeeze for a clean, manageable feeling."
           }
         ],
         "sensory": {
-          "aroma": "Limpio y suave con carácter fresco. Notas de limón, clementina, menta y lavanda. Intensidad media.",
-          "texture": "Gel ligero con espuma abundante y equilibrada. Se distribuye rápidamente. Color blanco claro.",
-          "experience": "Práctico y sensorial: limpia y acondiciona en un solo paso. La textura ligera deja el cabello limpio, suave y manejable. Ideal para rutinas simplificadas.",
-          "sustainability": "96% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía en pequeños lotes."
+          "aroma": "Clean and soft with a fresh character. Notes of lemon, clementine, mint and lavender. Medium intensity.",
+          "texture": "Light gel with abundant, balanced lather. Spreads quickly. Off-white colour.",
+          "experience": "Practical and sensorial: cleanses and conditions in a single step. The light texture leaves hair clean, soft and manageable. Ideal for streamlined routines.",
+          "sustainability": "96% ingredients of natural origin (ISO 16128). Surfactants from coconut and sugar. Handcrafted in Andalusia in small batches."
         },
-        "warnings": "Evitar el contacto con ojos y mucosas. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
         "aiTranslation": true
       },
       "fr": {
@@ -114,34 +114,34 @@
         "nameMain": "Shampooing",
         "nameAccent": "2-en-1",
         "shortDescription": "Notes de citron, menthe et lavande. Nettoie et conditionne en une seule étape.",
-        "longDescription": "Champú 2 en 1 para cabello normal: limpia y aporta acondicionamiento en un solo paso.",
-        "indication": "Higiene capilar. Apto para uso frecuente.",
+        "longDescription": "Shampooing 2-en-1 pour cheveux normaux : nettoie et conditionne en un seul geste.",
+        "indication": "Hygiène capillaire. Convient à un usage fréquent.",
         "usage": "Appliquer sur cheveux mouillés, masser et rincer. Convient à un usage quotidien.",
         "benefits": [
-          "2 en 1: limpia y acondiciona. pH 4,5-5,5 apto para uso frecuente.",
-          "Aceite de argán. Tensioactivos derivados del coco y del azúcar."
+          "2-en-1 : nettoie et conditionne. pH 4,5-5,5, convient à un usage fréquent.",
+          "Huile d'argan. Tensioactifs dérivés de la noix de coco et du sucre."
         ],
         "ritual": [
           {
-            "title": "De raíz a puntas",
-            "description": "Humedece el cabello y masajea el cuero cabelludo para iniciar el ritual."
+            "title": "De la racine aux pointes",
+            "description": "Mouillez les cheveux et massez le cuir chevelu pour commencer le rituel."
           },
           {
-            "title": "Espuma equilibrada",
-            "description": "Distribuye y deja que la espuma limpie mientras desenredas con los dedos."
+            "title": "Mousse équilibrée",
+            "description": "Répartissez et laissez la mousse nettoyer en démêlant avec les doigts."
           },
           {
-            "title": "Final fácil",
-            "description": "Aclara bien y escurre suavemente para una sensación de limpieza y manejabilidad."
+            "title": "Fin facile",
+            "description": "Rincez bien et essorez doucement pour une sensation de propreté et de maniabilité."
           }
         ],
         "sensory": {
-          "aroma": "Limpio y suave con carácter fresco. Notas de limón, clementina, menta y lavanda. Intensidad media.",
-          "texture": "Gel ligero con espuma abundante y equilibrada. Se distribuye rápidamente. Color blanco claro.",
-          "experience": "Práctico y sensorial: limpia y acondiciona en un solo paso. La textura ligera deja el cabello limpio, suave y manejable. Ideal para rutinas simplificadas.",
-          "sustainability": "96% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía en pequeños lotes."
+          "aroma": "Propre et doux avec un caractère frais. Notes de citron, clémentine, menthe et lavande. Intensité moyenne.",
+          "texture": "Gel léger à mousse abondante et équilibrée. Se répand rapidement. Couleur blanc cassé.",
+          "experience": "Pratique et sensoriel : nettoie et conditionne en un seul geste. La texture légère laisse les cheveux propres, doux et faciles à coiffer. Idéal pour les routines simplifiées.",
+          "sustainability": "96 % d'ingrédients d'origine naturelle (ISO 16128). Tensioactifs dérivés de la noix de coco et du sucre. Fabriqué artisanalement en Andalousie en petits lots."
         },
-        "warnings": "Evitar el contacto con ojos y mucosas. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
         "aiTranslation": true
       },
       "de": {
@@ -153,34 +153,34 @@
         "nameMain": "Shampoo",
         "nameAccent": "2-in-1",
         "shortDescription": "Noten von Zitrone, Minze und Lavendel. Reinigt und pflegt in einem Schritt.",
-        "longDescription": "Champú 2 en 1 para cabello normal: limpia y aporta acondicionamiento en un solo paso.",
-        "indication": "Higiene capilar. Apto para uso frecuente.",
+        "longDescription": "2-in-1 Shampoo für normales Haar: reinigt und pflegt in einem Schritt.",
+        "indication": "Haarpflege. Für häufige Anwendung geeignet.",
         "usage": "Auf nasses Haar auftragen, einmassieren und ausspülen. Für den täglichen Gebrauch geeignet.",
         "benefits": [
-          "2 en 1: limpia y acondiciona. pH 4,5-5,5 apto para uso frecuente.",
-          "Aceite de argán. Tensioactivos derivados del coco y del azúcar."
+          "2-in-1: reinigt und pflegt. pH 4,5-5,5, für häufige Anwendung geeignet.",
+          "Arganöl. Tenside aus Kokos und Zucker."
         ],
         "ritual": [
           {
-            "title": "De raíz a puntas",
-            "description": "Humedece el cabello y masajea el cuero cabelludo para iniciar el ritual."
+            "title": "Von der Wurzel bis in die Spitzen",
+            "description": "Haare anfeuchten und die Kopfhaut massieren, um das Ritual zu beginnen."
           },
           {
-            "title": "Espuma equilibrada",
-            "description": "Distribuye y deja que la espuma limpie mientras desenredas con los dedos."
+            "title": "Ausgewogener Schaum",
+            "description": "Verteilen und den Schaum reinigen lassen, während Sie mit den Fingern entwirren."
           },
           {
-            "title": "Final fácil",
-            "description": "Aclara bien y escurre suavemente para una sensación de limpieza y manejabilidad."
+            "title": "Leichtes Finish",
+            "description": "Gut ausspülen und sanft ausdrücken für ein sauberes, leicht kämmbares Gefühl."
           }
         ],
         "sensory": {
-          "aroma": "Limpio y suave con carácter fresco. Notas de limón, clementina, menta y lavanda. Intensidad media.",
-          "texture": "Gel ligero con espuma abundante y equilibrada. Se distribuye rápidamente. Color blanco claro.",
-          "experience": "Práctico y sensorial: limpia y acondiciona en un solo paso. La textura ligera deja el cabello limpio, suave y manejable. Ideal para rutinas simplificadas.",
-          "sustainability": "96% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía en pequeños lotes."
+          "aroma": "Sauber und sanft mit frischem Charakter. Noten von Zitrone, Clementine, Minze und Lavendel. Mittlere Intensität.",
+          "texture": "Leichtes Gel mit reichem, ausgewogenem Schaum. Verteilt sich schnell. Cremeweiße Farbe.",
+          "experience": "Praktisch und sinnlich: reinigt und pflegt in einem Schritt. Die leichte Textur hinterlässt sauberes, weiches und pflegeleichtes Haar. Ideal für vereinfachte Routinen.",
+          "sustainability": "96 % Inhaltsstoffe natürlichen Ursprungs (ISO 16128). Tenside aus Kokos und Zucker. In Andalusien handwerklich in Kleinchargen hergestellt."
         },
-        "warnings": "Evitar el contacto con ojos y mucosas. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
         "aiTranslation": true
       },
       "it": {
@@ -192,34 +192,34 @@
         "nameMain": "Shampoo",
         "nameAccent": "2-in-1",
         "shortDescription": "Note di limone, menta e lavanda. Pulisce e condiziona in un unico passaggio.",
-        "longDescription": "Champú 2 en 1 para cabello normal: limpia y aporta acondicionamiento en un solo paso.",
-        "indication": "Higiene capilar. Apto para uso frecuente.",
+        "longDescription": "Shampoo 2-in-1 per capelli normali: pulisce e condiziona in un solo passaggio.",
+        "indication": "Igiene dei capelli. Adatto all'uso frequente.",
         "usage": "Applicare sui capelli bagnati, massaggiare e risciacquare. Adatto all'uso quotidiano.",
         "benefits": [
-          "2 en 1: limpia y acondiciona. pH 4,5-5,5 apto para uso frecuente.",
-          "Aceite de argán. Tensioactivos derivados del coco y del azúcar."
+          "2-in-1: pulisce e condiziona. pH 4,5-5,5, adatto all'uso frequente.",
+          "Olio di argan. Tensioattivi derivati dal cocco e dallo zucchero."
         ],
         "ritual": [
           {
-            "title": "De raíz a puntas",
-            "description": "Humedece el cabello y masajea el cuero cabelludo para iniciar el ritual."
+            "title": "Dalla radice alle punte",
+            "description": "Bagnare i capelli e massaggiare il cuoio capelluto per iniziare il rituale."
           },
           {
-            "title": "Espuma equilibrada",
-            "description": "Distribuye y deja que la espuma limpie mientras desenredas con los dedos."
+            "title": "Schiuma equilibrata",
+            "description": "Distribuire e lasciare che la schiuma pulisca mentre si districano i capelli con le dita."
           },
           {
-            "title": "Final fácil",
-            "description": "Aclara bien y escurre suavemente para una sensación de limpieza y manejabilidad."
+            "title": "Finish facile",
+            "description": "Sciacquare bene e strizzare delicatamente per una sensazione di pulizia e maneggevolezza."
           }
         ],
         "sensory": {
-          "aroma": "Limpio y suave con carácter fresco. Notas de limón, clementina, menta y lavanda. Intensidad media.",
-          "texture": "Gel ligero con espuma abundante y equilibrada. Se distribuye rápidamente. Color blanco claro.",
-          "experience": "Práctico y sensorial: limpia y acondiciona en un solo paso. La textura ligera deja el cabello limpio, suave y manejable. Ideal para rutinas simplificadas.",
-          "sustainability": "96% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía en pequeños lotes."
+          "aroma": "Pulito e morbido con un carattere fresco. Note di limone, clementina, menta e lavanda. Intensità media.",
+          "texture": "Gel leggero con schiuma abbondante ed equilibrata. Si distribuisce rapidamente. Colore bianco naturale.",
+          "experience": "Pratico e sensoriale: pulisce e condiziona in un solo passaggio. La texture leggera lascia i capelli puliti, morbidi e facilmente pettinabili. Ideale per routine semplificate.",
+          "sustainability": "96% ingredienti di origine naturale (ISO 16128). Tensioattivi derivati dal cocco e dallo zucchero. Prodotto artigianalmente in Andalusia in piccoli lotti."
         },
-        "warnings": "Evitar el contacto con ojos y mucosas. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
         "aiTranslation": true
       },
       "nl": {
@@ -231,34 +231,34 @@
         "nameMain": "Shampoo",
         "nameAccent": "2-in-1",
         "shortDescription": "Noten van citroen, munt en lavendel. Reinigt en verzorgt in één stap.",
-        "longDescription": "Champú 2 en 1 para cabello normal: limpia y aporta acondicionamiento en un solo paso.",
-        "indication": "Higiene capilar. Apto para uso frecuente.",
+        "longDescription": "2-in-1 shampoo voor normaal haar: reinigt en verzorgt in één stap.",
+        "indication": "Haarverzorging. Geschikt voor frequent gebruik.",
         "usage": "Aanbrengen op nat haar, masseren en afspoelen. Geschikt voor dagelijks gebruik.",
         "benefits": [
-          "2 en 1: limpia y acondiciona. pH 4,5-5,5 apto para uso frecuente.",
-          "Aceite de argán. Tensioactivos derivados del coco y del azúcar."
+          "2-in-1: reinigt en verzorgt. pH 4,5-5,5, geschikt voor frequent gebruik.",
+          "Arganolie. Tensiden afgeleid van kokos en suiker."
         ],
         "ritual": [
           {
-            "title": "De raíz a puntas",
-            "description": "Humedece el cabello y masajea el cuero cabelludo para iniciar el ritual."
+            "title": "Van wortel tot punt",
+            "description": "Bevochtig het haar en masseer de hoofdhuid om het ritueel te beginnen."
           },
           {
-            "title": "Espuma equilibrada",
-            "description": "Distribuye y deja que la espuma limpie mientras desenredas con los dedos."
+            "title": "Uitgebalanceerde schuim",
+            "description": "Verdelen en laat het schuim reinigen terwijl u met de vingers ontward."
           },
           {
-            "title": "Final fácil",
-            "description": "Aclara bien y escurre suavemente para una sensación de limpieza y manejabilidad."
+            "title": "Gemakkelijke afronding",
+            "description": "Goed uitspoelen en zachtjes uitknijpen voor een schoon, handelbaar gevoel."
           }
         ],
         "sensory": {
-          "aroma": "Limpio y suave con carácter fresco. Notas de limón, clementina, menta y lavanda. Intensidad media.",
-          "texture": "Gel ligero con espuma abundante y equilibrada. Se distribuye rápidamente. Color blanco claro.",
-          "experience": "Práctico y sensorial: limpia y acondiciona en un solo paso. La textura ligera deja el cabello limpio, suave y manejable. Ideal para rutinas simplificadas.",
-          "sustainability": "96% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía en pequeños lotes."
+          "aroma": "Schoon en zacht met een frisse karakter. Noten van citroen, clementine, munt en lavendel. Gemiddelde intensiteit.",
+          "texture": "Licht gel met rijke, uitgebalanceerde schuim. Verdeelt snel. Gebroken witte kleur.",
+          "experience": "Praktisch en sensueel: reinigt en verzorgt in één stap. De lichte textuur laat haar schoon, zacht en gemakkelijk handelbaar achter. Ideaal voor vereenvoudigde routines.",
+          "sustainability": "96% ingrediënten van natuurlijke oorsprong (ISO 16128). Tensiden afgeleid van kokos en suiker. Ambachtelijk gemaakt in Andalusië in kleine batches."
         },
-        "warnings": "Evitar el contacto con ojos y mucosas. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
         "aiTranslation": true
       },
       "pt": {
@@ -270,34 +270,34 @@
         "nameMain": "Champô",
         "nameAccent": "2-em-1",
         "shortDescription": "Notas de limão, menta e lavanda. Limpa e condiciona num único passo.",
-        "longDescription": "Champú 2 en 1 para cabello normal: limpia y aporta acondicionamiento en un solo paso.",
-        "indication": "Higiene capilar. Apto para uso frecuente.",
+        "longDescription": "Champô 2-em-1 para cabelo normal: limpa e condiciona num único passo.",
+        "indication": "Higiene capilar. Adequado para uso frequente.",
         "usage": "Aplicar no cabelo molhado, massajar e enxaguar. Adequado para uso diário.",
         "benefits": [
-          "2 en 1: limpia y acondiciona. pH 4,5-5,5 apto para uso frecuente.",
-          "Aceite de argán. Tensioactivos derivados del coco y del azúcar."
+          "2-em-1: limpa e condiciona. pH 4,5-5,5, adequado para uso frequente.",
+          "Óleo de argão. Surfactantes derivados do coco e do açúcar."
         ],
         "ritual": [
           {
-            "title": "De raíz a puntas",
-            "description": "Humedece el cabello y masajea el cuero cabelludo para iniciar el ritual."
+            "title": "Da raiz às pontas",
+            "description": "Molhe o cabelo e massaje o couro cabeludo para iniciar o ritual."
           },
           {
             "title": "Espuma equilibrada",
-            "description": "Distribuye y deja que la espuma limpie mientras desenredas con los dedos."
+            "description": "Distribua e deixe a espuma limpar enquanto desembaraça com os dedos."
           },
           {
-            "title": "Final fácil",
-            "description": "Aclara bien y escurre suavemente para una sensación de limpieza y manejabilidad."
+            "title": "Acabamento fácil",
+            "description": "Enxaguar bem e apertar suavemente para uma sensação de limpeza e maneabilidade."
           }
         ],
         "sensory": {
-          "aroma": "Limpio y suave con carácter fresco. Notas de limón, clementina, menta y lavanda. Intensidad media.",
-          "texture": "Gel ligero con espuma abundante y equilibrada. Se distribuye rápidamente. Color blanco claro.",
-          "experience": "Práctico y sensorial: limpia y acondiciona en un solo paso. La textura ligera deja el cabello limpio, suave y manejable. Ideal para rutinas simplificadas.",
-          "sustainability": "96% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía en pequeños lotes."
+          "aroma": "Limpo e suave com carácter fresco. Notas de limão, clementina, menta e lavanda. Intensidade média.",
+          "texture": "Gel leve com espuma abundante e equilibrada. Distribui-se rapidamente. Cor branco natural.",
+          "experience": "Prático e sensorial: limpa e condiciona num único passo. A textura leve deixa o cabelo limpo, suave e fácil de pentear. Ideal para rotinas simplificadas.",
+          "sustainability": "96% ingredientes de origem natural (ISO 16128). Surfactantes derivados do coco e do açúcar. Fabricado artesanalmente na Andaluzia em pequenos lotes."
         },
-        "warnings": "Evitar el contacto con ojos y mucosas. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
       }
     },
@@ -376,8 +376,8 @@
         "nameMain": "Hair",
         "nameAccent": "Conditioner",
         "shortDescription": "Deeply nourishing conditioner. Silky texture, citrus scent. Detangles and adds shine.",
-        "longDescription": "Acondicionador para todo tipo de cabello con complejo activo de quinoa hidrolizada, ácido hialurónico y pantenol. Aporta hidratación profunda, brillo y manejabilidad sin apelmazar.",
-        "indication": "Cuidado capilar post-lavado. Apto para uso frecuente.",
+        "longDescription": "Deeply nourishing conditioner. Silky texture, citrus scent. Detangles and adds shine.",
+        "indication": "Hair hygiene. Suitable for frequent use.",
         "usage": "Aplicar tras el champú sobre cabello húmedo, distribuir de medios a puntas. Dejar actuar 1-2 minutos y aclarar con agua tibia.",
         "benefits": [
           "Nutre con argán y coco. Desenreda y aporta brillo desde el primer uso.",
@@ -403,7 +403,7 @@
           "experience": "Envuelve el cabello en confort y lo deja más fácil de manejar desde el primer uso. Suaviza, desenreda y deja acabado más liso.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Evitar el contacto con ojos. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
         "aiTranslation": true
       },
       "fr": {
@@ -415,8 +415,8 @@
         "nameMain": "Après",
         "nameAccent": "-shampooing",
         "shortDescription": "Après-shampooing profondément nourrissant. Texture soyeuse, parfum citrus. Démêle et apporte brillance.",
-        "longDescription": "Acondicionador para todo tipo de cabello con complejo activo de quinoa hidrolizada, ácido hialurónico y pantenol. Aporta hidratación profunda, brillo y manejabilidad sin apelmazar.",
-        "indication": "Cuidado capilar post-lavado. Apto para uso frecuente.",
+        "longDescription": "Après-shampooing profondément nourrissant. Texture soyeuse, parfum citrus. Démêle et apporte brillance.",
+        "indication": "Hygiène capillaire. Convient à un usage fréquent.",
         "usage": "Aplicar tras el champú sobre cabello húmedo, distribuir de medios a puntas. Dejar actuar 1-2 minutos y aclarar con agua tibia.",
         "benefits": [
           "Nutre con argán y coco. Desenreda y aporta brillo desde el primer uso.",
@@ -442,7 +442,7 @@
           "experience": "Envuelve el cabello en confort y lo deja más fácil de manejar desde el primer uso. Suaviza, desenreda y deja acabado más liso.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Evitar el contacto con ojos. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
         "aiTranslation": true
       },
       "de": {
@@ -454,8 +454,8 @@
         "nameMain": "Haar",
         "nameAccent": "spülung",
         "shortDescription": "Tiefpflegender Conditioner. Seidige Textur, Zitrusduft. Entwirrt und verleiht Glanz.",
-        "longDescription": "Acondicionador para todo tipo de cabello con complejo activo de quinoa hidrolizada, ácido hialurónico y pantenol. Aporta hidratación profunda, brillo y manejabilidad sin apelmazar.",
-        "indication": "Cuidado capilar post-lavado. Apto para uso frecuente.",
+        "longDescription": "Tiefpflegender Conditioner. Seidige Textur, Zitrusduft. Entwirrt und verleiht Glanz.",
+        "indication": "Haarhygiene. Für häufige Anwendung geeignet.",
         "usage": "Aplicar tras el champú sobre cabello húmedo, distribuir de medios a puntas. Dejar actuar 1-2 minutos y aclarar con agua tibia.",
         "benefits": [
           "Nutre con argán y coco. Desenreda y aporta brillo desde el primer uso.",
@@ -481,7 +481,7 @@
           "experience": "Envuelve el cabello en confort y lo deja más fácil de manejar desde el primer uso. Suaviza, desenreda y deja acabado más liso.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Evitar el contacto con ojos. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
         "aiTranslation": true
       },
       "it": {
@@ -493,8 +493,8 @@
         "nameMain": "Balsamo",
         "nameAccent": "capelli",
         "shortDescription": "Balsamo profondamente nutriente. Texture setosa, profumo agrumato. Districante e illuminante.",
-        "longDescription": "Acondicionador para todo tipo de cabello con complejo activo de quinoa hidrolizada, ácido hialurónico y pantenol. Aporta hidratación profunda, brillo y manejabilidad sin apelmazar.",
-        "indication": "Cuidado capilar post-lavado. Apto para uso frecuente.",
+        "longDescription": "Balsamo profondamente nutriente. Texture setosa, profumo agrumato. Districante e illuminante.",
+        "indication": "Igiene capillare. Adatto all'uso frequente.",
         "usage": "Aplicar tras el champú sobre cabello húmedo, distribuir de medios a puntas. Dejar actuar 1-2 minutos y aclarar con agua tibia.",
         "benefits": [
           "Nutre con argán y coco. Desenreda y aporta brillo desde el primer uso.",
@@ -520,7 +520,7 @@
           "experience": "Envuelve el cabello en confort y lo deja más fácil de manejar desde el primer uso. Suaviza, desenreda y deja acabado más liso.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Evitar el contacto con ojos. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
         "aiTranslation": true
       },
       "nl": {
@@ -532,8 +532,8 @@
         "nameMain": "Haar",
         "nameAccent": "conditioner",
         "shortDescription": "Diepverzorgende conditioner. Zijdezachte textuur, citrusgeur. Ontklittend en glanzend.",
-        "longDescription": "Acondicionador para todo tipo de cabello con complejo activo de quinoa hidrolizada, ácido hialurónico y pantenol. Aporta hidratación profunda, brillo y manejabilidad sin apelmazar.",
-        "indication": "Cuidado capilar post-lavado. Apto para uso frecuente.",
+        "longDescription": "Diepverzorgende conditioner. Zijdezachte textuur, citrusgeur. Ontklittend en glanzend.",
+        "indication": "Haarhygiëne. Geschikt voor frequent gebruik.",
         "usage": "Aplicar tras el champú sobre cabello húmedo, distribuir de medios a puntas. Dejar actuar 1-2 minutos y aclarar con agua tibia.",
         "benefits": [
           "Nutre con argán y coco. Desenreda y aporta brillo desde el primer uso.",
@@ -559,7 +559,7 @@
           "experience": "Envuelve el cabello en confort y lo deja más fácil de manejar desde el primer uso. Suaviza, desenreda y deja acabado más liso.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Evitar el contacto con ojos. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
         "aiTranslation": true
       },
       "pt": {
@@ -571,8 +571,8 @@
         "nameMain": "Condicionador",
         "nameAccent": "capilar",
         "shortDescription": "Condicionador profundamente nutritivo. Textura sedosa, aroma cítrico. Desembaraça e dá brilho.",
-        "longDescription": "Acondicionador para todo tipo de cabello con complejo activo de quinoa hidrolizada, ácido hialurónico y pantenol. Aporta hidratación profunda, brillo y manejabilidad sin apelmazar.",
-        "indication": "Cuidado capilar post-lavado. Apto para uso frecuente.",
+        "longDescription": "Condicionador profundamente nutritivo. Textura sedosa, aroma cítrico. Desembaraça e dá brilho.",
+        "indication": "Higiene capilar. Adequado para uso frequente.",
         "usage": "Aplicar tras el champú sobre cabello húmedo, distribuir de medios a puntas. Dejar actuar 1-2 minutos y aclarar con agua tibia.",
         "benefits": [
           "Nutre con argán y coco. Desenreda y aporta brillo desde el primer uso.",
@@ -598,7 +598,7 @@
           "experience": "Envuelve el cabello en confort y lo deja más fácil de manejar desde el primer uso. Suaviza, desenreda y deja acabado más liso.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Evitar el contacto con ojos. Mantener fuera del alcance de los niños. Uso externo.",
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
       }
     },
@@ -674,8 +674,8 @@
         "nameMain": "Hand and Body",
         "nameAccent": "Soap",
         "shortDescription": "Artisan soap with extra virgin olive oil. Cleansing and moisturising, suitable for hands and body.",
-        "longDescription": "Jabón líquido para manos y cuerpo de uso diario. Limpia con suavidad y deja la piel confortable.",
-        "indication": "Higiene diaria de manos y cuerpo.",
+        "longDescription": "Artisan soap with extra virgin olive oil. Cleansing and moisturising, suitable for hands and body.",
+        "indication": "Body hygiene. Suitable for daily use.",
         "usage": "Aplicar sobre piel húmeda, masajear hasta crear espuma y aclarar con abundante agua. Repetir si es necesario.",
         "benefits": [
           "Espuma suave y generosa. Hidratación y suavidad con oliva, coco y aloe vera.",
@@ -701,7 +701,7 @@
           "experience": "Un ritual diario que se siente como autocuidado. Espuma cremosa que limpia con suavidad y deja la piel confortable sin tirantez.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética básica. Recarga BiB para reducir residuos. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
         "aiTranslation": true
       },
       "fr": {
@@ -713,8 +713,8 @@
         "nameMain": "Savon",
         "nameAccent": "mains et corps",
         "shortDescription": "Savon artisanal à l'huile d'olive extra vierge. Nettoyant et hydratant, idéal pour les mains et le corps.",
-        "longDescription": "Jabón líquido para manos y cuerpo de uso diario. Limpia con suavidad y deja la piel confortable.",
-        "indication": "Higiene diaria de manos y cuerpo.",
+        "longDescription": "Savon artisanal à l'huile d'olive extra vierge. Nettoyant et hydratant, idéal pour les mains et le corps.",
+        "indication": "Hygiène corporelle. Convient à un usage quotidien.",
         "usage": "Aplicar sobre piel húmeda, masajear hasta crear espuma y aclarar con abundante agua. Repetir si es necesario.",
         "benefits": [
           "Espuma suave y generosa. Hidratación y suavidad con oliva, coco y aloe vera.",
@@ -740,7 +740,7 @@
           "experience": "Un ritual diario que se siente como autocuidado. Espuma cremosa que limpia con suavidad y deja la piel confortable sin tirantez.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética básica. Recarga BiB para reducir residuos. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
         "aiTranslation": true
       },
       "de": {
@@ -752,8 +752,8 @@
         "nameMain": "Hand- und Körper",
         "nameAccent": "seife",
         "shortDescription": "Handgefertigte Seife mit nativem Olivenöl extra. Reinigend und feuchtigkeitsspendend, geeignet für Hände und Körper.",
-        "longDescription": "Jabón líquido para manos y cuerpo de uso diario. Limpia con suavidad y deja la piel confortable.",
-        "indication": "Higiene diaria de manos y cuerpo.",
+        "longDescription": "Handgefertigte Seife mit nativem Olivenöl extra. Reinigend und feuchtigkeitsspendend, geeignet für Hände und Körper.",
+        "indication": "Körperhygiene. Für den täglichen Gebrauch geeignet.",
         "usage": "Aplicar sobre piel húmeda, masajear hasta crear espuma y aclarar con abundante agua. Repetir si es necesario.",
         "benefits": [
           "Espuma suave y generosa. Hidratación y suavidad con oliva, coco y aloe vera.",
@@ -779,7 +779,7 @@
           "experience": "Un ritual diario que se siente como autocuidado. Espuma cremosa que limpia con suavidad y deja la piel confortable sin tirantez.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética básica. Recarga BiB para reducir residuos. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
         "aiTranslation": true
       },
       "it": {
@@ -791,8 +791,8 @@
         "nameMain": "Sapone",
         "nameAccent": "mani e corpo",
         "shortDescription": "Sapone artigianale con olio extravergine di oliva. Detergente e idratante, adatto per mani e corpo.",
-        "longDescription": "Jabón líquido para manos y cuerpo de uso diario. Limpia con suavidad y deja la piel confortable.",
-        "indication": "Higiene diaria de manos y cuerpo.",
+        "longDescription": "Sapone artigianale con olio extravergine di oliva. Detergente e idratante, adatto per mani e corpo.",
+        "indication": "Igiene corporea. Adatto all'uso quotidiano.",
         "usage": "Aplicar sobre piel húmeda, masajear hasta crear espuma y aclarar con abundante agua. Repetir si es necesario.",
         "benefits": [
           "Espuma suave y generosa. Hidratación y suavidad con oliva, coco y aloe vera.",
@@ -818,7 +818,7 @@
           "experience": "Un ritual diario que se siente como autocuidado. Espuma cremosa que limpia con suavidad y deja la piel confortable sin tirantez.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética básica. Recarga BiB para reducir residuos. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
         "aiTranslation": true
       },
       "nl": {
@@ -830,8 +830,8 @@
         "nameMain": "Hand- en Lichaams",
         "nameAccent": "zeep",
         "shortDescription": "Ambachtelijke zeep met extra vierge olijfolie. Reinigend en vochtinbrengend, geschikt voor handen en lichaam.",
-        "longDescription": "Jabón líquido para manos y cuerpo de uso diario. Limpia con suavidad y deja la piel confortable.",
-        "indication": "Higiene diaria de manos y cuerpo.",
+        "longDescription": "Ambachtelijke zeep met extra vierge olijfolie. Reinigend en vochtinbrengend, geschikt voor handen en lichaam.",
+        "indication": "Lichaamshygiëne. Geschikt voor dagelijks gebruik.",
         "usage": "Aplicar sobre piel húmeda, masajear hasta crear espuma y aclarar con abundante agua. Repetir si es necesario.",
         "benefits": [
           "Espuma suave y generosa. Hidratación y suavidad con oliva, coco y aloe vera.",
@@ -857,7 +857,7 @@
           "experience": "Un ritual diario que se siente como autocuidado. Espuma cremosa que limpia con suavidad y deja la piel confortable sin tirantez.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética básica. Recarga BiB para reducir residuos. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
         "aiTranslation": true
       },
       "pt": {
@@ -870,7 +870,7 @@
         "nameAccent": "mãos e corpo",
         "shortDescription": "Sabão artesanal com azeite extra virgem. Limpante e hidratante, adequado para mãos e corpo.",
         "longDescription": "Jabón líquido para manos y cuerpo de uso diario. Limpia con suavidad y deja la piel confortable.",
-        "indication": "Higiene diaria de manos y cuerpo.",
+        "indication": "Higiene corporal. Adequado para uso diário.",
         "usage": "Aplicar sobre piel húmeda, masajear hasta crear espuma y aclarar con abundante agua. Repetir si es necesario.",
         "benefits": [
           "Espuma suave y generosa. Hidratación y suavidad con oliva, coco y aloe vera.",
@@ -896,7 +896,7 @@
           "experience": "Un ritual diario que se siente como autocuidado. Espuma cremosa que limpia con suavidad y deja la piel confortable sin tirantez.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética básica. Recarga BiB para reducir residuos. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
       },
       "basePriceEUR": 6.3,
@@ -976,8 +976,8 @@
         "nameMain": "Body",
         "nameAccent": "Milk",
         "shortDescription": "Lightweight body milk. Fast-absorbing, non-greasy. Mango, citrus and coconut notes.",
-        "longDescription": "Loción corporal hidratante con aceites vegetales de aguacate y jojoba. Textura ligera y absorción inmediata.",
-        "indication": "Hidratación corporal diaria. Apto para todo tipo de pieles.",
+        "longDescription": "Lightweight body milk. Fast-absorbing, non-greasy. Mango, citrus and coconut notes.",
+        "indication": "Body hygiene. Suitable for daily use.",
         "usage": "Aplicar tras la ducha sobre piel ligeramente húmeda. Extender con movimientos ascendentes hasta su completa absorción.",
         "benefits": [
           "Absorción rápida. Acabado mate, sin sensación pegajosa.",
@@ -1003,7 +1003,7 @@
           "experience": "Hidratación ligera que se siente como un privilegio. Piel suave con frescor luminoso que acompaña sin saturar.",
           "sustainability": "96% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
         "aiTranslation": true
       },
       "fr": {
@@ -1015,8 +1015,8 @@
         "nameMain": "Lait",
         "nameAccent": "corporel",
         "shortDescription": "Lait corporel léger. Absorption rapide, non gras. Notes de mangue, citrus et coco.",
-        "longDescription": "Loción corporal hidratante con aceites vegetales de aguacate y jojoba. Textura ligera y absorción inmediata.",
-        "indication": "Hidratación corporal diaria. Apto para todo tipo de pieles.",
+        "longDescription": "Lait corporel léger. Absorption rapide, non gras. Notes de mangue, citrus et coco.",
+        "indication": "Hygiène corporelle. Convient à un usage quotidien.",
         "usage": "Aplicar tras la ducha sobre piel ligeramente húmeda. Extender con movimientos ascendentes hasta su completa absorción.",
         "benefits": [
           "Absorción rápida. Acabado mate, sin sensación pegajosa.",
@@ -1042,7 +1042,7 @@
           "experience": "Hidratación ligera que se siente como un privilegio. Piel suave con frescor luminoso que acompaña sin saturar.",
           "sustainability": "96% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
         "aiTranslation": true
       },
       "de": {
@@ -1054,8 +1054,8 @@
         "nameMain": "Körper",
         "nameAccent": "milch",
         "shortDescription": "Leichte Körpermilch. Schnell absorbierend, nicht fettig. Noten von Mango, Zitrus und Kokos.",
-        "longDescription": "Loción corporal hidratante con aceites vegetales de aguacate y jojoba. Textura ligera y absorción inmediata.",
-        "indication": "Hidratación corporal diaria. Apto para todo tipo de pieles.",
+        "longDescription": "Leichte Körpermilch. Schnell absorbierend, nicht fettig. Noten von Mango, Zitrus und Kokos.",
+        "indication": "Körperhygiene. Für den täglichen Gebrauch geeignet.",
         "usage": "Aplicar tras la ducha sobre piel ligeramente húmeda. Extender con movimientos ascendentes hasta su completa absorción.",
         "benefits": [
           "Absorción rápida. Acabado mate, sin sensación pegajosa.",
@@ -1081,7 +1081,7 @@
           "experience": "Hidratación ligera que se siente como un privilegio. Piel suave con frescor luminoso que acompaña sin saturar.",
           "sustainability": "96% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
         "aiTranslation": true
       },
       "it": {
@@ -1093,8 +1093,8 @@
         "nameMain": "Latte",
         "nameAccent": "corpo",
         "shortDescription": "Latte corpo leggero. Assorbimento rapido, non grasso. Note di mango, agrumi e cocco.",
-        "longDescription": "Loción corporal hidratante con aceites vegetales de aguacate y jojoba. Textura ligera y absorción inmediata.",
-        "indication": "Hidratación corporal diaria. Apto para todo tipo de pieles.",
+        "longDescription": "Latte corpo leggero. Assorbimento rapido, non grasso. Note di mango, agrumi e cocco.",
+        "indication": "Igiene corporea. Adatto all'uso quotidiano.",
         "usage": "Aplicar tras la ducha sobre piel ligeramente húmeda. Extender con movimientos ascendentes hasta su completa absorción.",
         "benefits": [
           "Absorción rápida. Acabado mate, sin sensación pegajosa.",
@@ -1120,7 +1120,7 @@
           "experience": "Hidratación ligera que se siente como un privilegio. Piel suave con frescor luminoso que acompaña sin saturar.",
           "sustainability": "96% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
         "aiTranslation": true
       },
       "nl": {
@@ -1132,8 +1132,8 @@
         "nameMain": "Body",
         "nameAccent": "milk",
         "shortDescription": "Lichte bodylotion. Snel absorberend, niet vettig. Noten van mango, citrus en kokos.",
-        "longDescription": "Loción corporal hidratante con aceites vegetales de aguacate y jojoba. Textura ligera y absorción inmediata.",
-        "indication": "Hidratación corporal diaria. Apto para todo tipo de pieles.",
+        "longDescription": "Lichte bodylotion. Snel absorberend, niet vettig. Noten van mango, citrus en kokos.",
+        "indication": "Lichaamshygiëne. Geschikt voor dagelijks gebruik.",
         "usage": "Aplicar tras la ducha sobre piel ligeramente húmeda. Extender con movimientos ascendentes hasta su completa absorción.",
         "benefits": [
           "Absorción rápida. Acabado mate, sin sensación pegajosa.",
@@ -1159,7 +1159,7 @@
           "experience": "Hidratación ligera que se siente como un privilegio. Piel suave con frescor luminoso que acompaña sin saturar.",
           "sustainability": "96% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
         "aiTranslation": true
       },
       "pt": {
@@ -1171,8 +1171,8 @@
         "nameMain": "Leite",
         "nameAccent": "corporal",
         "shortDescription": "Leite corporal leve. Absorção rápida, não gorduroso. Notas de manga, citrinos e coco.",
-        "longDescription": "Loción corporal hidratante con aceites vegetales de aguacate y jojoba. Textura ligera y absorción inmediata.",
-        "indication": "Hidratación corporal diaria. Apto para todo tipo de pieles.",
+        "longDescription": "Leite corporal leve. Absorção rápida, não gorduroso. Notas de manga, citrinos e coco.",
+        "indication": "Higiene corporal. Adequado para uso diário.",
         "usage": "Aplicar tras la ducha sobre piel ligeramente húmeda. Extender con movimientos ascendentes hasta su completa absorción.",
         "benefits": [
           "Absorción rápida. Acabado mate, sin sensación pegajosa.",
@@ -1198,7 +1198,7 @@
           "experience": "Hidratación ligera que se siente como un privilegio. Piel suave con frescor luminoso que acompaña sin saturar.",
           "sustainability": "96% de ingredientes de origen natural (ISO 16128). Aceites vegetales certificados. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
       },
       "basePriceEUR": 8.4,
@@ -1278,8 +1278,8 @@
         "nameMain": "Total",
         "nameAccent": "Body Wash",
         "shortDescription": "All-in-one body and hair wash. Gentle formula for daily use. Herbal scent.",
-        "longDescription": "Limpiador 3 en 1 para una rutina simplificada: cuerpo, cabello y acondicionamiento en un solo gesto.",
-        "indication": "Higiene completa diaria. Ideal para post-deporte o post-playa.",
+        "longDescription": "All-in-one body and hair wash. Gentle formula for daily use. Herbal scent.",
+        "indication": "Body hygiene. Suitable for daily use.",
         "usage": "Aplicar sobre piel y cabello húmedos. Masajear hasta formar espuma. Aclarar con agua abundante.",
         "benefits": [
           "3 en 1: limpia cuerpo, cabello y acondiciona. pH 4,5-5,5 para uso frecuente.",
@@ -1305,7 +1305,7 @@
           "experience": "Una limpieza integral que refresca y reinicia. Retira suavemente las impurezas y se aclara rápidamente para una sensación limpia y fresca.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
         "aiTranslation": true
       },
       "fr": {
@@ -1317,8 +1317,8 @@
         "nameMain": "Gel",
         "nameAccent": "corps et cheveux",
         "shortDescription": "Gel douche tout-en-un corps et cheveux. Formule douce pour usage quotidien. Parfum herbacé.",
-        "longDescription": "Limpiador 3 en 1 para una rutina simplificada: cuerpo, cabello y acondicionamiento en un solo gesto.",
-        "indication": "Higiene completa diaria. Ideal para post-deporte o post-playa.",
+        "longDescription": "Gel douche tout-en-un corps et cheveux. Formule douce pour usage quotidien. Parfum herbacé.",
+        "indication": "Hygiène corporelle. Convient à un usage quotidien.",
         "usage": "Aplicar sobre piel y cabello húmedos. Masajear hasta formar espuma. Aclarar con agua abundante.",
         "benefits": [
           "3 en 1: limpia cuerpo, cabello y acondiciona. pH 4,5-5,5 para uso frecuente.",
@@ -1344,7 +1344,7 @@
           "experience": "Una limpieza integral que refresca y reinicia. Retira suavemente las impurezas y se aclara rápidamente para una sensación limpia y fresca.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
         "aiTranslation": true
       },
       "de": {
@@ -1356,8 +1356,8 @@
         "nameMain": "Haar- und",
         "nameAccent": "Körpergel",
         "shortDescription": "All-in-One Körper- und Haarwaschgel. Sanfte Formel für den täglichen Gebrauch. Kräuterduft.",
-        "longDescription": "Limpiador 3 en 1 para una rutina simplificada: cuerpo, cabello y acondicionamiento en un solo gesto.",
-        "indication": "Higiene completa diaria. Ideal para post-deporte o post-playa.",
+        "longDescription": "All-in-One Körper- und Haarwaschgel. Sanfte Formel für den täglichen Gebrauch. Kräuterduft.",
+        "indication": "Körperhygiene. Für den täglichen Gebrauch geeignet.",
         "usage": "Aplicar sobre piel y cabello húmedos. Masajear hasta formar espuma. Aclarar con agua abundante.",
         "benefits": [
           "3 en 1: limpia cuerpo, cabello y acondiciona. pH 4,5-5,5 para uso frecuente.",
@@ -1383,7 +1383,7 @@
           "experience": "Una limpieza integral que refresca y reinicia. Retira suavemente las impurezas y se aclara rápidamente para una sensación limpia y fresca.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
         "aiTranslation": true
       },
       "it": {
@@ -1395,8 +1395,8 @@
         "nameMain": "Detergente",
         "nameAccent": "corpo e capelli",
         "shortDescription": "Gel doccia tutto in uno corpo e capelli. Formula delicata per uso quotidiano. Profumo erbaceo.",
-        "longDescription": "Limpiador 3 en 1 para una rutina simplificada: cuerpo, cabello y acondicionamiento en un solo gesto.",
-        "indication": "Higiene completa diaria. Ideal para post-deporte o post-playa.",
+        "longDescription": "Gel doccia tutto in uno corpo e capelli. Formula delicata per uso quotidiano. Profumo erbaceo.",
+        "indication": "Igiene corporea. Adatto all'uso quotidiano.",
         "usage": "Aplicar sobre piel y cabello húmedos. Masajear hasta formar espuma. Aclarar con agua abundante.",
         "benefits": [
           "3 en 1: limpia cuerpo, cabello y acondiciona. pH 4,5-5,5 para uso frecuente.",
@@ -1422,7 +1422,7 @@
           "experience": "Una limpieza integral que refresca y reinicia. Retira suavemente las impurezas y se aclara rápidamente para una sensación limpia y fresca.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
         "aiTranslation": true
       },
       "nl": {
@@ -1434,8 +1434,8 @@
         "nameMain": "All-in-one",
         "nameAccent": "douchegel",
         "shortDescription": "All-in-one douchegel voor lichaam en haar. Zachte formule voor dagelijks gebruik. Kruidengeur.",
-        "longDescription": "Limpiador 3 en 1 para una rutina simplificada: cuerpo, cabello y acondicionamiento en un solo gesto.",
-        "indication": "Higiene completa diaria. Ideal para post-deporte o post-playa.",
+        "longDescription": "All-in-one douchegel voor lichaam en haar. Zachte formule voor dagelijks gebruik. Kruidengeur.",
+        "indication": "Lichaamshygiëne. Geschikt voor dagelijks gebruik.",
         "usage": "Aplicar sobre piel y cabello húmedos. Masajear hasta formar espuma. Aclarar con agua abundante.",
         "benefits": [
           "3 en 1: limpia cuerpo, cabello y acondiciona. pH 4,5-5,5 para uso frecuente.",
@@ -1461,7 +1461,7 @@
           "experience": "Una limpieza integral que refresca y reinicia. Retira suavemente las impurezas y se aclara rápidamente para una sensación limpia y fresca.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
         "aiTranslation": true
       },
       "pt": {
@@ -1473,8 +1473,8 @@
         "nameMain": "Gel",
         "nameAccent": "corpo e cabelo",
         "shortDescription": "Gel de duche tudo-em-um corpo e cabelo. Fórmula suave para uso diário. Aroma herbáceo.",
-        "longDescription": "Limpiador 3 en 1 para una rutina simplificada: cuerpo, cabello y acondicionamiento en un solo gesto.",
-        "indication": "Higiene completa diaria. Ideal para post-deporte o post-playa.",
+        "longDescription": "Gel de duche tudo-em-um corpo e cabelo. Fórmula suave para uso diário. Aroma herbáceo.",
+        "indication": "Higiene corporal. Adequado para uso diário.",
         "usage": "Aplicar sobre piel y cabello húmedos. Masajear hasta formar espuma. Aclarar con agua abundante.",
         "benefits": [
           "3 en 1: limpia cuerpo, cabello y acondiciona. pH 4,5-5,5 para uso frecuente.",
@@ -1500,7 +1500,7 @@
           "experience": "Una limpieza integral que refresca y reinicia. Retira suavemente las impurezas y se aclara rápidamente para una sensación limpia y fresca.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "warnings": "Uso externo. Evitar contacto con ojos. Mantener fuera del alcance de los niños.",
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
       }
     },
@@ -1598,7 +1598,8 @@
           "experience": "El champú masculino que lo hace todo: limpia, acondiciona y huele bien. El argán y el guar dan el extra de cuidado que el cabello masculino necesita.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Shampooing Homme",
@@ -1633,7 +1634,8 @@
           "experience": "El champú masculino que lo hace todo: limpia, acondiciona y huele bien. El argán y el guar dan el extra de cuidado que el cabello masculino necesita.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Herrenshampoo",
@@ -1668,7 +1670,8 @@
           "experience": "El champú masculino que lo hace todo: limpia, acondiciona y huele bien. El argán y el guar dan el extra de cuidado que el cabello masculino necesita.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Shampoo Uomo",
@@ -1703,7 +1706,8 @@
           "experience": "El champú masculino que lo hace todo: limpia, acondiciona y huele bien. El argán y el guar dan el extra de cuidado que el cabello masculino necesita.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Mannenshampoo",
@@ -1738,7 +1742,8 @@
           "experience": "El champú masculino que lo hace todo: limpia, acondiciona y huele bien. El argán y el guar dan el extra de cuidado que el cabello masculino necesita.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Champô Homem",
@@ -1773,7 +1778,8 @@
           "experience": "El champú masculino que lo hace todo: limpia, acondiciona y huele bien. El argán y el guar dan el extra de cuidado que el cabello masculino necesita.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
@@ -1871,7 +1877,8 @@
           "experience": "El acondicionador que se siente premium desde el primer uso. El complejo de Quinoa hidrolizada y ácido hialurónico da una hidratación real, no superficial.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Après-shampooing Homme",
@@ -1906,7 +1913,8 @@
           "experience": "El acondicionador que se siente premium desde el primer uso. El complejo de Quinoa hidrolizada y ácido hialurónico da una hidratación real, no superficial.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Haarspülung Herren",
@@ -1941,7 +1949,8 @@
           "experience": "El acondicionador que se siente premium desde el primer uso. El complejo de Quinoa hidrolizada y ácido hialurónico da una hidratación real, no superficial.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Balsamo Uomo",
@@ -1976,7 +1985,8 @@
           "experience": "El acondicionador que se siente premium desde el primer uso. El complejo de Quinoa hidrolizada y ácido hialurónico da una hidratación real, no superficial.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Mannenconditioner",
@@ -2011,7 +2021,8 @@
           "experience": "El acondicionador que se siente premium desde el primer uso. El complejo de Quinoa hidrolizada y ácido hialurónico da una hidratación real, no superficial.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Condicionador Homem",
@@ -2046,7 +2057,8 @@
           "experience": "El acondicionador que se siente premium desde el primer uso. El complejo de Quinoa hidrolizada y ácido hialurónico da una hidratación real, no superficial.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "basePriceEUR": 9.0,
@@ -2144,7 +2156,8 @@
           "experience": "El gel que crea el ecosistema olfativo masculino de Natura Esencials. Mismo universo ámbar que el champú y el acondicionador.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Gel Mains et Corps Homme",
@@ -2179,7 +2192,8 @@
           "experience": "El gel que crea el ecosistema olfativo masculino de Natura Esencials. Mismo universo ámbar que el champú y el acondicionador.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Hand- und Körpergel Herren",
@@ -2214,7 +2228,8 @@
           "experience": "El gel que crea el ecosistema olfativo masculino de Natura Esencials. Mismo universo ámbar que el champú y el acondicionador.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Detergente Mani e Corpo Uomo",
@@ -2249,7 +2264,8 @@
           "experience": "El gel que crea el ecosistema olfativo masculino de Natura Esencials. Mismo universo ámbar que el champú y el acondicionador.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Hand- en Lichaamsgel Mannen",
@@ -2284,7 +2300,8 @@
           "experience": "El gel que crea el ecosistema olfativo masculino de Natura Esencials. Mismo universo ámbar que el champú y el acondicionador.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Gel Mãos e Corpo Homem",
@@ -2319,7 +2336,8 @@
           "experience": "El gel que crea el ecosistema olfativo masculino de Natura Esencials. Mismo universo ámbar que el champú y el acondicionador.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
@@ -2416,7 +2434,8 @@
           "experience": "Hidratación sin sensación de producto. La piel está cuidada pero él no tiene que pensar en ello.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Lait Corporel Homme",
@@ -2451,7 +2470,8 @@
           "experience": "Hidratación sin sensación de producto. La piel está cuidada pero él no tiene que pensar en ello.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Körpermilch Herren",
@@ -2486,7 +2506,8 @@
           "experience": "Hidratación sin sensación de producto. La piel está cuidada pero él no tiene que pensar en ello.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Latte Corpo Uomo",
@@ -2521,7 +2542,8 @@
           "experience": "Hidratación sin sensación de producto. La piel está cuidada pero él no tiene que pensar en ello.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Bodymilk Mannen",
@@ -2556,7 +2578,8 @@
           "experience": "Hidratación sin sensación de producto. La piel está cuidada pero él no tiene que pensar en ello.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Leite Corporal Homem",
@@ -2591,7 +2614,8 @@
           "experience": "Hidratación sin sensación de producto. La piel está cuidada pero él no tiene que pensar en ello.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "basePriceEUR": 9.2,
@@ -2689,7 +2713,8 @@
           "experience": "El afeitado que no irrita. La combinación de glicerina, aloe y jojoba crea una película protectora que hace que la cuchilla deslice sin tirar.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Gel de Rasage",
@@ -2724,7 +2749,8 @@
           "experience": "El afeitado que no irrita. La combinación de glicerina, aloe y jojoba crea una película protectora que hace que la cuchilla deslice sin tirar.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Rasiergel",
@@ -2759,7 +2785,8 @@
           "experience": "El afeitado que no irrita. La combinación de glicerina, aloe y jojoba crea una película protectora que hace que la cuchilla deslice sin tirar.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Gel da Barba",
@@ -2794,7 +2821,8 @@
           "experience": "El afeitado que no irrita. La combinación de glicerina, aloe y jojoba crea una película protectora que hace que la cuchilla deslice sin tirar.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Scheergel",
@@ -2829,7 +2857,8 @@
           "experience": "El afeitado que no irrita. La combinación de glicerina, aloe y jojoba crea una película protectora que hace que la cuchilla deslice sin tirar.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Gel de Barbear",
@@ -2864,7 +2893,8 @@
           "experience": "El afeitado que no irrita. La combinación de glicerina, aloe y jojoba crea una película protectora que hace que la cuchilla deslice sin tirar.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "primaryImage": "/images/landing/card-4.jpg"
@@ -2961,7 +2991,8 @@
           "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Baume Après-rasage",
@@ -2996,7 +3027,8 @@
           "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Aftershave-Balsam",
@@ -3031,7 +3063,8 @@
           "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Balsamo Dopobarba",
@@ -3066,7 +3099,8 @@
           "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Aftershave Balsem",
@@ -3101,7 +3135,8 @@
           "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Bálsamo Pós-barba",
@@ -3136,7 +3171,8 @@
           "experience": "El paso que transforma el afeitado en ritual. La piel queda reparada, hidratada y con un acabado confortable inmediato. El probiótico actúa sobre la barrera cutánea desde la primera aplicación.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo probiótico de origen biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": true
     },
@@ -3234,7 +3270,8 @@
           "experience": "Piel más limpia, fresca y suave en 30 segundos. Sin complicaciones. Los extractos marinos añadidos dan un plus de revitalización.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Gel Exfoliant Visage Homme",
@@ -3269,7 +3306,8 @@
           "experience": "Piel más limpia, fresca y suave en 30 segundos. Sin complicaciones. Los extractos marinos añadidos dan un plus de revitalización.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Gesichtspeeling Herren",
@@ -3304,7 +3342,8 @@
           "experience": "Piel más limpia, fresca y suave en 30 segundos. Sin complicaciones. Los extractos marinos añadidos dan un plus de revitalización.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Gel Esfoliante Viso Uomo",
@@ -3339,7 +3378,8 @@
           "experience": "Piel más limpia, fresca y suave en 30 segundos. Sin complicaciones. Los extractos marinos añadidos dan un plus de revitalización.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Gezichtsscrub Mannen",
@@ -3374,7 +3414,8 @@
           "experience": "Piel más limpia, fresca y suave en 30 segundos. Sin complicaciones. Los extractos marinos añadidos dan un plus de revitalización.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Gel Esfoliante Rosto Homem",
@@ -3409,7 +3450,8 @@
           "experience": "Piel más limpia, fresca y suave en 30 segundos. Sin complicaciones. Los extractos marinos añadidos dan un plus de revitalización.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "primaryImage": "/images/landing/card-4.jpg"
@@ -3507,7 +3549,8 @@
           "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Sérum Anti-cernes Homme",
@@ -3542,7 +3585,8 @@
           "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Augenserum Herren",
@@ -3577,7 +3621,8 @@
           "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Siero Occhiaie Uomo",
@@ -3612,7 +3657,8 @@
           "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Oogserum Mannen",
@@ -3647,7 +3693,8 @@
           "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Sérum Olheiras Homem",
@@ -3682,7 +3729,8 @@
           "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "primaryImage": "/images/landing/card-4.jpg"
@@ -3780,7 +3828,8 @@
           "experience": "El ritual femenino comienza ya en el champú. El aroma de naranja fresca crea continuidad con el Body Milk Woman y marca el inicio del día.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Shampooing Femme",
@@ -3815,7 +3864,8 @@
           "experience": "El ritual femenino comienza ya en el champú. El aroma de naranja fresca crea continuidad con el Body Milk Woman y marca el inicio del día.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Damenshampoo",
@@ -3850,7 +3900,8 @@
           "experience": "El ritual femenino comienza ya en el champú. El aroma de naranja fresca crea continuidad con el Body Milk Woman y marca el inicio del día.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Shampoo Donna",
@@ -3885,7 +3936,8 @@
           "experience": "El ritual femenino comienza ya en el champú. El aroma de naranja fresca crea continuidad con el Body Milk Woman y marca el inicio del día.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Vrouwenshampoo",
@@ -3920,7 +3972,8 @@
           "experience": "El ritual femenino comienza ya en el champú. El aroma de naranja fresca crea continuidad con el Body Milk Woman y marca el inicio del día.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Champô Mulher",
@@ -3955,7 +4008,8 @@
           "experience": "El ritual femenino comienza ya en el champú. El aroma de naranja fresca crea continuidad con el Body Milk Woman y marca el inicio del día.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
@@ -4053,7 +4107,8 @@
           "experience": "El acondicionador que completa el ritual femenino de naranja. El mismo universo olfativo del champú y el body milk: coherencia que el cliente siente y valora.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Après-shampooing Femme",
@@ -4088,7 +4143,8 @@
           "experience": "El acondicionador que completa el ritual femenino de naranja. El mismo universo olfativo del champú y el body milk: coherencia que el cliente siente y valora.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Haarspülung Damen",
@@ -4123,7 +4179,8 @@
           "experience": "El acondicionador que completa el ritual femenino de naranja. El mismo universo olfativo del champú y el body milk: coherencia que el cliente siente y valora.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Balsamo Donna",
@@ -4158,7 +4215,8 @@
           "experience": "El acondicionador que completa el ritual femenino de naranja. El mismo universo olfativo del champú y el body milk: coherencia que el cliente siente y valora.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Vrouwenconditioner",
@@ -4193,7 +4251,8 @@
           "experience": "El acondicionador que completa el ritual femenino de naranja. El mismo universo olfativo del champú y el body milk: coherencia que el cliente siente y valora.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Condicionador Mulher",
@@ -4228,7 +4287,8 @@
           "experience": "El acondicionador que completa el ritual femenino de naranja. El mismo universo olfativo del champú y el body milk: coherencia que el cliente siente y valora.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "basePriceEUR": 9.0,
@@ -4326,7 +4386,8 @@
           "experience": "El lavado de manos convertido en momento de ritual. El aroma de naranja fresca cierra el ecosistema olfativo de la colección femenina.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Gel Mains et Corps Femme",
@@ -4361,7 +4422,8 @@
           "experience": "El lavado de manos convertido en momento de ritual. El aroma de naranja fresca cierra el ecosistema olfativo de la colección femenina.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Hand- und Körpergel Damen",
@@ -4396,7 +4458,8 @@
           "experience": "El lavado de manos convertido en momento de ritual. El aroma de naranja fresca cierra el ecosistema olfativo de la colección femenina.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Detergente Mani e Corpo Donna",
@@ -4431,7 +4494,8 @@
           "experience": "El lavado de manos convertido en momento de ritual. El aroma de naranja fresca cierra el ecosistema olfativo de la colección femenina.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Hand- en Lichaamsgel Vrouwen",
@@ -4466,7 +4530,8 @@
           "experience": "El lavado de manos convertido en momento de ritual. El aroma de naranja fresca cierra el ecosistema olfativo de la colección femenina.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Gel Mãos e Corpo Mulher",
@@ -4501,7 +4566,8 @@
           "experience": "El lavado de manos convertido en momento de ritual. El aroma de naranja fresca cierra el ecosistema olfativo de la colección femenina.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
@@ -4598,7 +4664,8 @@
           "experience": "El cierre perfecto del ritual femenino. Piel que se siente y que huele a cuidado genuino con el aroma más emblemático de la colección.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Lait Corporel Femme",
@@ -4633,7 +4700,8 @@
           "experience": "El cierre perfecto del ritual femenino. Piel que se siente y que huele a cuidado genuino con el aroma más emblemático de la colección.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Körpermilch Damen",
@@ -4668,7 +4736,8 @@
           "experience": "El cierre perfecto del ritual femenino. Piel que se siente y que huele a cuidado genuino con el aroma más emblemático de la colección.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Latte Corpo Donna",
@@ -4703,7 +4772,8 @@
           "experience": "El cierre perfecto del ritual femenino. Piel que se siente y que huele a cuidado genuino con el aroma más emblemático de la colección.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Bodymilk Vrouwen",
@@ -4738,7 +4808,8 @@
           "experience": "El cierre perfecto del ritual femenino. Piel que se siente y que huele a cuidado genuino con el aroma más emblemático de la colección.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Leite Corporal Mulher",
@@ -4773,7 +4844,8 @@
           "experience": "El cierre perfecto del ritual femenino. Piel que se siente y que huele a cuidado genuino con el aroma más emblemático de la colección.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "basePriceEUR": 9.2,
@@ -4873,7 +4945,8 @@
           "experience": "La limpieza facial más sencilla y efectiva. Un gesto mínimo que deja la piel perfectamente preparada con el 99% de naturalidad más alto de la colección femenina.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la colección Mujer. Sin alcohol. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Eau Micellaire Démaquillante",
@@ -4908,7 +4981,8 @@
           "experience": "La limpieza facial más sencilla y efectiva. Un gesto mínimo que deja la piel perfectamente preparada con el 99% de naturalidad más alto de la colección femenina.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la colección Mujer. Sin alcohol. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Reinigendes Mizellenwasser",
@@ -4943,7 +5017,8 @@
           "experience": "La limpieza facial más sencilla y efectiva. Un gesto mínimo que deja la piel perfectamente preparada con el 99% de naturalidad más alto de la colección femenina.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la colección Mujer. Sin alcohol. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Acqua Micellare Detergente",
@@ -4978,7 +5053,8 @@
           "experience": "La limpieza facial más sencilla y efectiva. Un gesto mínimo que deja la piel perfectamente preparada con el 99% de naturalidad más alto de la colección femenina.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la colección Mujer. Sin alcohol. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Reinigend Micellair Water",
@@ -5013,7 +5089,8 @@
           "experience": "La limpieza facial más sencilla y efectiva. Un gesto mínimo que deja la piel perfectamente preparada con el 99% de naturalidad más alto de la colección femenina.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la colección Mujer. Sin alcohol. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Água Micelar Limpadora",
@@ -5048,7 +5125,8 @@
           "experience": "La limpieza facial más sencilla y efectiva. Un gesto mínimo que deja la piel perfectamente preparada con el 99% de naturalidad más alto de la colección femenina.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de la colección Mujer. Sin alcohol. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "primaryImage": "/images/landing/card-5.jpg"
@@ -5145,7 +5223,8 @@
           "experience": "El afeitado femenino sin irritación. La combinación de glicerina, aloe y jojoba protege la piel mientras el aroma de naranja hace el ritual más placentero.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Gel de Rasage Femme",
@@ -5180,7 +5259,8 @@
           "experience": "El afeitado femenino sin irritación. La combinación de glicerina, aloe y jojoba protege la piel mientras el aroma de naranja hace el ritual más placentero.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Rasiergel Damen",
@@ -5215,7 +5295,8 @@
           "experience": "El afeitado femenino sin irritación. La combinación de glicerina, aloe y jojoba protege la piel mientras el aroma de naranja hace el ritual más placentero.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Gel da Barba Donna",
@@ -5250,7 +5331,8 @@
           "experience": "El afeitado femenino sin irritación. La combinación de glicerina, aloe y jojoba protege la piel mientras el aroma de naranja hace el ritual más placentero.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Scheergel Vrouwen",
@@ -5285,7 +5367,8 @@
           "experience": "El afeitado femenino sin irritación. La combinación de glicerina, aloe y jojoba protege la piel mientras el aroma de naranja hace el ritual más placentero.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Gel de Barbear Mulher",
@@ -5320,7 +5403,8 @@
           "experience": "El afeitado femenino sin irritación. La combinación de glicerina, aloe y jojoba protege la piel mientras el aroma de naranja hace el ritual más placentero.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Sin sulfatos agresivos. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "primaryImage": "/images/landing/card-5.jpg"
@@ -5419,7 +5503,8 @@
           "experience": "La piel rinde mejor con una exfoliación regular. Luminosidad inmediata desde la primera aplicación con el extra de los extractos marinos.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Gel Exfoliant Visage Femme",
@@ -5454,7 +5539,8 @@
           "experience": "La piel rinde mejor con una exfoliación regular. Luminosidad inmediata desde la primera aplicación con el extra de los extractos marinos.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Gesichtspeeling Damen",
@@ -5489,7 +5575,8 @@
           "experience": "La piel rinde mejor con una exfoliación regular. Luminosidad inmediata desde la primera aplicación con el extra de los extractos marinos.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Gel Esfoliante Viso Donna",
@@ -5524,7 +5611,8 @@
           "experience": "La piel rinde mejor con una exfoliación regular. Luminosidad inmediata desde la primera aplicación con el extra de los extractos marinos.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Gezichtsscrub Vrouwen",
@@ -5559,7 +5647,8 @@
           "experience": "La piel rinde mejor con una exfoliación regular. Luminosidad inmediata desde la primera aplicación con el extra de los extractos marinos.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Gel Esfoliante Rosto Mulher",
@@ -5594,7 +5683,8 @@
           "experience": "La piel rinde mejor con una exfoliación regular. Luminosidad inmediata desde la primera aplicación con el extra de los extractos marinos.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Exfoliante de celulosa (origen vegetal). Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "primaryImage": "/images/landing/card-5.jpg"
@@ -5692,7 +5782,8 @@
           "experience": "Mirada descansada y luminosa desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el porcentaje más alto de la colección femenina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Sérum Anti-cernes Femme",
@@ -5727,7 +5818,8 @@
           "experience": "Mirada descansada y luminosa desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el porcentaje más alto de la colección femenina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Augenserum Damen",
@@ -5762,7 +5854,8 @@
           "experience": "Mirada descansada y luminosa desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el porcentaje más alto de la colección femenina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Siero Occhiaie Donna",
@@ -5797,7 +5890,8 @@
           "experience": "Mirada descansada y luminosa desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el porcentaje más alto de la colección femenina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Oogserum Vrouwen",
@@ -5832,7 +5926,8 @@
           "experience": "Mirada descansada y luminosa desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el porcentaje más alto de la colección femenina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Sérum Olheiras Mulher",
@@ -5867,7 +5962,8 @@
           "experience": "Mirada descansada y luminosa desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver frescura al contorno del ojo.",
           "sustainability": "99% de ingredientes de origen natural: el porcentaje más alto de la colección femenina. Activo de aguacate certificado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
       "primaryImage": "/images/landing/card-5.jpg"
@@ -5944,7 +6040,7 @@
         "nameAccent": "Detergent",
         "shortDescription": "Laundry detergent with lavender. Cleans effectively and leaves a lasting fragrance.",
         "longDescription": "Detergente líquido concentrado para todo tipo de prendas. Limpieza eficaz con bajo consumo: pocas dosis, mucho resultado.",
-        "indication": "Lavado de ropa en lavadora o a mano.",
+        "indication": "Household cleaning. For hard surfaces.",
         "usage": "Dosificar 8-12 g por kg de ropa según carga. Verter en el cajetín correspondiente. Apto para todas las temperaturas.",
         "benefits": [
           "Lavado eficaz: desengrasa y elimina suciedad difícil.",
@@ -5970,7 +6066,7 @@
           "experience": "Lavado eficaz con el placer del aroma. La lavanda deja la colada con un rastro refinado.",
           "sustainability": "97% de ingredientes de origen natural. Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños. Evitar contacto con ojos.",
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
         "aiTranslation": true
       },
       "fr": {
@@ -5983,7 +6079,7 @@
         "nameAccent": "linge",
         "shortDescription": "Lessive à la lavande. Nettoie efficacement et laisse un parfum durable.",
         "longDescription": "Detergente líquido concentrado para todo tipo de prendas. Limpieza eficaz con bajo consumo: pocas dosis, mucho resultado.",
-        "indication": "Lavado de ropa en lavadora o a mano.",
+        "indication": "Nettoyage ménager. Pour les surfaces dures.",
         "usage": "Dosificar 8-12 g por kg de ropa según carga. Verter en el cajetín correspondiente. Apto para todas las temperaturas.",
         "benefits": [
           "Lavado eficaz: desengrasa y elimina suciedad difícil.",
@@ -6009,7 +6105,7 @@
           "experience": "Lavado eficaz con el placer del aroma. La lavanda deja la colada con un rastro refinado.",
           "sustainability": "97% de ingredientes de origen natural. Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños. Evitar contacto con ojos.",
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
         "aiTranslation": true
       },
       "de": {
@@ -6022,7 +6118,7 @@
         "nameAccent": "mittel",
         "shortDescription": "Waschmittel mit Lavendel. Reinigt effektiv und hinterlässt einen anhaltenden Duft.",
         "longDescription": "Detergente líquido concentrado para todo tipo de prendas. Limpieza eficaz con bajo consumo: pocas dosis, mucho resultado.",
-        "indication": "Lavado de ropa en lavadora o a mano.",
+        "indication": "Haushaltsreinigung. Für harte Oberflächen.",
         "usage": "Dosificar 8-12 g por kg de ropa según carga. Verter en el cajetín correspondiente. Apto para todas las temperaturas.",
         "benefits": [
           "Lavado eficaz: desengrasa y elimina suciedad difícil.",
@@ -6048,7 +6144,7 @@
           "experience": "Lavado eficaz con el placer del aroma. La lavanda deja la colada con un rastro refinado.",
           "sustainability": "97% de ingredientes de origen natural. Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños. Evitar contacto con ojos.",
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
         "aiTranslation": true
       },
       "it": {
@@ -6061,7 +6157,7 @@
         "nameAccent": "bucato",
         "shortDescription": "Detersivo bucato alla lavanda. Pulisce efficacemente e lascia una fragranza duratura.",
         "longDescription": "Detergente líquido concentrado para todo tipo de prendas. Limpieza eficaz con bajo consumo: pocas dosis, mucho resultado.",
-        "indication": "Lavado de ropa en lavadora o a mano.",
+        "indication": "Pulizia domestica. Per superfici dure.",
         "usage": "Dosificar 8-12 g por kg de ropa según carga. Verter en el cajetín correspondiente. Apto para todas las temperaturas.",
         "benefits": [
           "Lavado eficaz: desengrasa y elimina suciedad difícil.",
@@ -6087,7 +6183,7 @@
           "experience": "Lavado eficaz con el placer del aroma. La lavanda deja la colada con un rastro refinado.",
           "sustainability": "97% de ingredientes de origen natural. Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños. Evitar contacto con ojos.",
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
         "aiTranslation": true
       },
       "nl": {
@@ -6100,7 +6196,7 @@
         "nameAccent": "middel",
         "shortDescription": "Wasmiddel met lavendel. Reinigt effectief en laat een langdurige geur achter.",
         "longDescription": "Detergente líquido concentrado para todo tipo de prendas. Limpieza eficaz con bajo consumo: pocas dosis, mucho resultado.",
-        "indication": "Lavado de ropa en lavadora o a mano.",
+        "indication": "Huishoudreiniging. Voor harde oppervlakken.",
         "usage": "Dosificar 8-12 g por kg de ropa según carga. Verter en el cajetín correspondiente. Apto para todas las temperaturas.",
         "benefits": [
           "Lavado eficaz: desengrasa y elimina suciedad difícil.",
@@ -6126,7 +6222,7 @@
           "experience": "Lavado eficaz con el placer del aroma. La lavanda deja la colada con un rastro refinado.",
           "sustainability": "97% de ingredientes de origen natural. Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños. Evitar contacto con ojos.",
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
         "aiTranslation": true
       },
       "pt": {
@@ -6139,7 +6235,7 @@
         "nameAccent": "roupa",
         "shortDescription": "Detergente para roupa com lavanda. Limpa eficazmente e deixa uma fragrância duradoura.",
         "longDescription": "Detergente líquido concentrado para todo tipo de prendas. Limpieza eficaz con bajo consumo: pocas dosis, mucho resultado.",
-        "indication": "Lavado de ropa en lavadora o a mano.",
+        "indication": "Limpeza doméstica. Para superfícies duras.",
         "usage": "Dosificar 8-12 g por kg de ropa según carga. Verter en el cajetín correspondiente. Apto para todas las temperaturas.",
         "benefits": [
           "Lavado eficaz: desengrasa y elimina suciedad difícil.",
@@ -6165,7 +6261,7 @@
           "experience": "Lavado eficaz con el placer del aroma. La lavanda deja la colada con un rastro refinado.",
           "sustainability": "97% de ingredientes de origen natural. Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños. Evitar contacto con ojos.",
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
       },
       "basePriceEUR": 8.6,
@@ -6242,8 +6338,8 @@
         "nameMain": "Fabric",
         "nameAccent": "Softener",
         "shortDescription": "Fabric softener with lavender. Softens fibres, facilitates ironing and maintains colour.",
-        "longDescription": "Suavizante para textiles que aporta suavidad, facilita el planchado y mantiene la viveza del color con un aroma de lavanda elegante.",
-        "indication": "Cuidado y suavizado de tejidos en lavadora o aclarado manual.",
+        "longDescription": "Fabric softener with lavender. Softens fibres, facilitates ironing and maintains colour.",
+        "indication": "Household cleaning. For hard surfaces.",
         "usage": "25 ml por lavado (50 ml para coladas muy sucias). Verter en el cajetín del suavizante.",
         "benefits": [
           "Suaviza, facilita el planchado y mantiene el color.",
@@ -6269,7 +6365,7 @@
           "experience": "El toque final que envuelve la colada en confort. Suavidad, planchado fácil y rastro refinado de lavanda.",
           "sustainability": "95% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños.",
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
         "aiTranslation": true
       },
       "fr": {
@@ -6281,8 +6377,8 @@
         "nameMain": "Adoucissant",
         "nameAccent": "linge",
         "shortDescription": "Adoucissant à la lavande. Adoucit les fibres, facilite le repassage et maintient la couleur.",
-        "longDescription": "Suavizante para textiles que aporta suavidad, facilita el planchado y mantiene la viveza del color con un aroma de lavanda elegante.",
-        "indication": "Cuidado y suavizado de tejidos en lavadora o aclarado manual.",
+        "longDescription": "Adoucissant à la lavande. Adoucit les fibres, facilite le repassage et maintient la couleur.",
+        "indication": "Nettoyage ménager. Pour les surfaces dures.",
         "usage": "25 ml por lavado (50 ml para coladas muy sucias). Verter en el cajetín del suavizante.",
         "benefits": [
           "Suaviza, facilita el planchado y mantiene el color.",
@@ -6308,7 +6404,7 @@
           "experience": "El toque final que envuelve la colada en confort. Suavidad, planchado fácil y rastro refinado de lavanda.",
           "sustainability": "95% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños.",
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
         "aiTranslation": true
       },
       "de": {
@@ -6320,8 +6416,8 @@
         "nameMain": "Weich",
         "nameAccent": "spüler",
         "shortDescription": "Weichspüler mit Lavendel. Erweicht Fasern, erleichtert das Bügeln und erhält die Farbe.",
-        "longDescription": "Suavizante para textiles que aporta suavidad, facilita el planchado y mantiene la viveza del color con un aroma de lavanda elegante.",
-        "indication": "Cuidado y suavizado de tejidos en lavadora o aclarado manual.",
+        "longDescription": "Weichspüler mit Lavendel. Erweicht Fasern, erleichtert das Bügeln und erhält die Farbe.",
+        "indication": "Haushaltsreinigung. Für harte Oberflächen.",
         "usage": "25 ml por lavado (50 ml para coladas muy sucias). Verter en el cajetín del suavizante.",
         "benefits": [
           "Suaviza, facilita el planchado y mantiene el color.",
@@ -6347,7 +6443,7 @@
           "experience": "El toque final que envuelve la colada en confort. Suavidad, planchado fácil y rastro refinado de lavanda.",
           "sustainability": "95% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños.",
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
         "aiTranslation": true
       },
       "it": {
@@ -6359,8 +6455,8 @@
         "nameMain": "Ammorbidente",
         "nameAccent": "bucato",
         "shortDescription": "Ammorbidente alla lavanda. Ammorbidisce le fibre, facilita la stiratura e mantiene il colore.",
-        "longDescription": "Suavizante para textiles que aporta suavidad, facilita el planchado y mantiene la viveza del color con un aroma de lavanda elegante.",
-        "indication": "Cuidado y suavizado de tejidos en lavadora o aclarado manual.",
+        "longDescription": "Ammorbidente alla lavanda. Ammorbidisce le fibre, facilita la stiratura e mantiene il colore.",
+        "indication": "Pulizia domestica. Per superfici dure.",
         "usage": "25 ml por lavado (50 ml para coladas muy sucias). Verter en el cajetín del suavizante.",
         "benefits": [
           "Suaviza, facilita el planchado y mantiene el color.",
@@ -6386,7 +6482,7 @@
           "experience": "El toque final que envuelve la colada en confort. Suavidad, planchado fácil y rastro refinado de lavanda.",
           "sustainability": "95% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños.",
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
         "aiTranslation": true
       },
       "nl": {
@@ -6398,8 +6494,8 @@
         "nameMain": "Was",
         "nameAccent": "verzachter",
         "shortDescription": "Wasverzachter met lavendel. Verzacht vezels, vergemakkelijkt strijken en behoudt kleur.",
-        "longDescription": "Suavizante para textiles que aporta suavidad, facilita el planchado y mantiene la viveza del color con un aroma de lavanda elegante.",
-        "indication": "Cuidado y suavizado de tejidos en lavadora o aclarado manual.",
+        "longDescription": "Wasverzachter met lavendel. Verzacht vezels, vergemakkelijkt strijken en behoudt kleur.",
+        "indication": "Huishoudreiniging. Voor harde oppervlakken.",
         "usage": "25 ml por lavado (50 ml para coladas muy sucias). Verter en el cajetín del suavizante.",
         "benefits": [
           "Suaviza, facilita el planchado y mantiene el color.",
@@ -6425,7 +6521,7 @@
           "experience": "El toque final que envuelve la colada en confort. Suavidad, planchado fácil y rastro refinado de lavanda.",
           "sustainability": "95% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños.",
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
         "aiTranslation": true
       },
       "pt": {
@@ -6438,7 +6534,7 @@
         "nameAccent": "roupa",
         "shortDescription": "Amaciador com lavanda. Suaviza as fibras, facilita o engomar e mantém a cor.",
         "longDescription": "Suavizante para textiles que aporta suavidad, facilita el planchado y mantiene la viveza del color con un aroma de lavanda elegante.",
-        "indication": "Cuidado y suavizado de tejidos en lavadora o aclarado manual.",
+        "indication": "Limpeza doméstica. Para superfícies duras.",
         "usage": "25 ml por lavado (50 ml para coladas muy sucias). Verter en el cajetín del suavizante.",
         "benefits": [
           "Suaviza, facilita el planchado y mantiene el color.",
@@ -6464,7 +6560,7 @@
           "experience": "El toque final que envuelve la colada en confort. Suavidad, planchado fácil y rastro refinado de lavanda.",
           "sustainability": "95% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Mantener fuera del alcance de los niños.",
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
       },
       "basePriceEUR": 6.6,
@@ -6542,7 +6638,7 @@
         "nameMain": "Dishwashing",
         "nameAccent": "Liquid",
         "shortDescription": "Hand dishwashing liquid with citrus fragrance. Effective degreaser, gentle on hands.",
-        "longDescription": "Lavavajillas líquido para lavado manual con alto rendimiento. Desengrasa con eficacia y respeta la piel de las manos.",
+        "longDescription": "Hand dishwashing liquid with citrus fragrance. Effective degreaser, gentle on hands.",
         "indication": "Lavado manual de vajilla.",
         "usage": "Una pequeña dosis en la esponja húmeda. Frotar la vajilla y aclarar con agua.",
         "benefits": [
@@ -6569,7 +6665,7 @@
           "experience": "Hace que lavar a mano se sienta más ligero. Espuma cremosa, aroma cítrico fresco.",
           "sustainability": "92% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Evitar contacto con ojos.",
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
         "aiTranslation": true
       },
       "fr": {
@@ -6581,7 +6677,7 @@
         "nameMain": "Liquide",
         "nameAccent": "vaisselle",
         "shortDescription": "Liquide vaisselle main avec parfum citrus. Dégraissant efficace, doux pour les mains.",
-        "longDescription": "Lavavajillas líquido para lavado manual con alto rendimiento. Desengrasa con eficacia y respeta la piel de las manos.",
+        "longDescription": "Liquide vaisselle main avec parfum citrus. Dégraissant efficace, doux pour les mains.",
         "indication": "Lavado manual de vajilla.",
         "usage": "Una pequeña dosis en la esponja húmeda. Frotar la vajilla y aclarar con agua.",
         "benefits": [
@@ -6608,7 +6704,7 @@
           "experience": "Hace que lavar a mano se sienta más ligero. Espuma cremosa, aroma cítrico fresco.",
           "sustainability": "92% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Evitar contacto con ojos.",
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
         "aiTranslation": true
       },
       "de": {
@@ -6620,7 +6716,7 @@
         "nameMain": "Spül",
         "nameAccent": "mittel",
         "shortDescription": "Handspülmittel mit Zitrusduft. Effektiver Entfetter, sanft zur Haut.",
-        "longDescription": "Lavavajillas líquido para lavado manual con alto rendimiento. Desengrasa con eficacia y respeta la piel de las manos.",
+        "longDescription": "Handspülmittel mit Zitrusduft. Effektiver Entfetter, sanft zur Haut.",
         "indication": "Lavado manual de vajilla.",
         "usage": "Una pequeña dosis en la esponja húmeda. Frotar la vajilla y aclarar con agua.",
         "benefits": [
@@ -6647,7 +6743,7 @@
           "experience": "Hace que lavar a mano se sienta más ligero. Espuma cremosa, aroma cítrico fresco.",
           "sustainability": "92% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Evitar contacto con ojos.",
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
         "aiTranslation": true
       },
       "it": {
@@ -6659,7 +6755,7 @@
         "nameMain": "Detersivo",
         "nameAccent": "piatti",
         "shortDescription": "Detersivo piatti a mano con profumo agrumato. Sgrassante efficace, delicato sulle mani.",
-        "longDescription": "Lavavajillas líquido para lavado manual con alto rendimiento. Desengrasa con eficacia y respeta la piel de las manos.",
+        "longDescription": "Detersivo piatti a mano con profumo agrumato. Sgrassante efficace, delicato sulle mani.",
         "indication": "Lavado manual de vajilla.",
         "usage": "Una pequeña dosis en la esponja húmeda. Frotar la vajilla y aclarar con agua.",
         "benefits": [
@@ -6686,7 +6782,7 @@
           "experience": "Hace que lavar a mano se sienta más ligero. Espuma cremosa, aroma cítrico fresco.",
           "sustainability": "92% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Evitar contacto con ojos.",
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
         "aiTranslation": true
       },
       "nl": {
@@ -6698,7 +6794,7 @@
         "nameMain": "Afwas",
         "nameAccent": "middel",
         "shortDescription": "Handafwasmiddel met citrusgeur. Effectief ontvettend, zacht voor handen.",
-        "longDescription": "Lavavajillas líquido para lavado manual con alto rendimiento. Desengrasa con eficacia y respeta la piel de las manos.",
+        "longDescription": "Handafwasmiddel met citrusgeur. Effectief ontvettend, zacht voor handen.",
         "indication": "Lavado manual de vajilla.",
         "usage": "Una pequeña dosis en la esponja húmeda. Frotar la vajilla y aclarar con agua.",
         "benefits": [
@@ -6725,7 +6821,7 @@
           "experience": "Hace que lavar a mano se sienta más ligero. Espuma cremosa, aroma cítrico fresco.",
           "sustainability": "92% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Evitar contacto con ojos.",
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
         "aiTranslation": true
       },
       "pt": {
@@ -6737,7 +6833,7 @@
         "nameMain": "Detergente",
         "nameAccent": "loiça manual",
         "shortDescription": "Detergente loiça manual com fragrância cítrica. Desengordurante eficaz, suave para as mãos.",
-        "longDescription": "Lavavajillas líquido para lavado manual con alto rendimiento. Desengrasa con eficacia y respeta la piel de las manos.",
+        "longDescription": "Detergente loiça manual com fragrância cítrica. Desengordurante eficaz, suave para as mãos.",
         "indication": "Lavado manual de vajilla.",
         "usage": "Una pequeña dosis en la esponja húmeda. Frotar la vajilla y aclarar con agua.",
         "benefits": [
@@ -6764,7 +6860,7 @@
           "experience": "Hace que lavar a mano se sienta más ligero. Espuma cremosa, aroma cítrico fresco.",
           "sustainability": "92% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "warnings": "No ingerir. Evitar contacto con ojos.",
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
       },
       "basePriceEUR": 6.3,
@@ -7406,7 +7502,7 @@
           "experience": "Suelos que se sienten realmente limpios. El Ritual Refugio empieza desde el suelo.",
           "sustainability": "97% de ingredientes de origen natural. Concentrado de alto rendimiento. Fabricado en Andalucía."
         },
-        "warnings": "Mantener fuera del alcance de los niños. No mezclar con otros productos de limpieza.",
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
         "aiTranslation": true
       },
       "fr": {
@@ -7445,7 +7541,7 @@
           "experience": "Suelos que se sienten realmente limpios. El Ritual Refugio empieza desde el suelo.",
           "sustainability": "97% de ingredientes de origen natural. Concentrado de alto rendimiento. Fabricado en Andalucía."
         },
-        "warnings": "Mantener fuera del alcance de los niños. No mezclar con otros productos de limpieza.",
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
         "aiTranslation": true
       },
       "de": {
@@ -7484,7 +7580,7 @@
           "experience": "Suelos que se sienten realmente limpios. El Ritual Refugio empieza desde el suelo.",
           "sustainability": "97% de ingredientes de origen natural. Concentrado de alto rendimiento. Fabricado en Andalucía."
         },
-        "warnings": "Mantener fuera del alcance de los niños. No mezclar con otros productos de limpieza.",
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
         "aiTranslation": true
       },
       "it": {
@@ -7523,7 +7619,7 @@
           "experience": "Suelos que se sienten realmente limpios. El Ritual Refugio empieza desde el suelo.",
           "sustainability": "97% de ingredientes de origen natural. Concentrado de alto rendimiento. Fabricado en Andalucía."
         },
-        "warnings": "Mantener fuera del alcance de los niños. No mezclar con otros productos de limpieza.",
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
         "aiTranslation": true
       },
       "nl": {
@@ -7562,7 +7658,7 @@
           "experience": "Suelos que se sienten realmente limpios. El Ritual Refugio empieza desde el suelo.",
           "sustainability": "97% de ingredientes de origen natural. Concentrado de alto rendimiento. Fabricado en Andalucía."
         },
-        "warnings": "Mantener fuera del alcance de los niños. No mezclar con otros productos de limpieza.",
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
         "aiTranslation": true
       },
       "pt": {
@@ -7601,7 +7697,7 @@
           "experience": "Suelos que se sienten realmente limpios. El Ritual Refugio empieza desde el suelo.",
           "sustainability": "97% de ingredientes de origen natural. Concentrado de alto rendimiento. Fabricado en Andalucía."
         },
-        "warnings": "Mantener fuera del alcance de los niños. No mezclar con otros productos de limpieza.",
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
       },
       "basePriceEUR": 6.0,
@@ -8783,7 +8879,8 @@
           "experience": "El champú que cuida el pelo desde dentro. Los extractos botánicos y las vitaminas B dan vitalidad real al pelaje.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Shampooing Argan Réparateur Chien",
@@ -8818,7 +8915,8 @@
           "experience": "El champú que cuida el pelo desde dentro. Los extractos botánicos y las vitaminas B dan vitalidad real al pelaje.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Arganöl-Hundeshampoo",
@@ -8853,7 +8951,8 @@
           "experience": "El champú que cuida el pelo desde dentro. Los extractos botánicos y las vitaminas B dan vitalidad real al pelaje.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Shampoo Argan Riparatore Cani",
@@ -8888,7 +8987,8 @@
           "experience": "El champú que cuida el pelo desde dentro. Los extractos botánicos y las vitaminas B dan vitalidad real al pelaje.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Argan Hondenshampoo",
@@ -8923,7 +9023,8 @@
           "experience": "El champú que cuida el pelo desde dentro. Los extractos botánicos y las vitaminas B dan vitalidad real al pelaje.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Champô Argão Cães",
@@ -8958,7 +9059,8 @@
           "experience": "El champú que cuida el pelo desde dentro. Los extractos botánicos y las vitaminas B dan vitalidad real al pelaje.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42
@@ -9054,7 +9156,8 @@
           "experience": "El baño del gato puede no ser traumático. Con el producto correcto y la actitud calmada, puede incluso ser un momento de vínculo.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Shampooing Naturel Chat",
@@ -9089,7 +9192,8 @@
           "experience": "El baño del gato puede no ser traumático. Con el producto correcto y la actitud calmada, puede incluso ser un momento de vínculo.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Natürliches Katzenshampoo",
@@ -9124,7 +9228,8 @@
           "experience": "El baño del gato puede no ser traumático. Con el producto correcto y la actitud calmada, puede incluso ser un momento de vínculo.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Shampoo Naturale Gatti",
@@ -9159,7 +9264,8 @@
           "experience": "El baño del gato puede no ser traumático. Con el producto correcto y la actitud calmada, puede incluso ser un momento de vínculo.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Natuurlijke Kattenshampoo",
@@ -9194,7 +9300,8 @@
           "experience": "El baño del gato puede no ser traumático. Con el producto correcto y la actitud calmada, puede incluso ser un momento de vínculo.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Champô Natural Gatos",
@@ -9229,7 +9336,8 @@
           "experience": "El baño del gato puede no ser traumático. Con el producto correcto y la actitud calmada, puede incluso ser un momento de vínculo.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42
@@ -9325,7 +9433,8 @@
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Nettoyant Oreilles Animaux",
@@ -9360,7 +9469,8 @@
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Ohrreiniger Haustiere",
@@ -9395,7 +9505,8 @@
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Detergente Orecchie Animali",
@@ -9430,7 +9541,8 @@
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Oorreiniger Huisdieren",
@@ -9465,7 +9577,8 @@
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Limpador Ouvidos Animais",
@@ -9500,7 +9613,8 @@
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       }
     },
     {
@@ -9594,7 +9708,8 @@
           "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
       },
       "fr": {
         "name": "Nettoyant Yeux Animaux",
@@ -9629,7 +9744,8 @@
           "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
       },
       "de": {
         "name": "Augenreiniger Haustiere",
@@ -9664,7 +9780,8 @@
           "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
       },
       "it": {
         "name": "Detergente Occhi Animali",
@@ -9699,7 +9816,8 @@
           "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
       },
       "nl": {
         "name": "Oogreiniger Huisdieren",
@@ -9734,7 +9852,8 @@
           "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
       },
       "pt": {
         "name": "Limpador Olhos Animais",
@@ -9769,7 +9888,8 @@
           "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       }
     }
   ]
