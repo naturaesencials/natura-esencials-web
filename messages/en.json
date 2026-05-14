@@ -197,5 +197,25 @@
     "aiTranslationNotice": "Assisted translation · pending review",
     "handcraftedAndalucia": "Handcrafted in Andalusia",
     "smallBatch": "Small batches with human control. Andalusian botanicals, ISO 16128 certification, handcrafted in Andalusia."
+  },
+  "catalogPages": {
+    "cosmetica": {
+      "kicker": "Collection",
+      "title": "Artisan",
+      "accent": "Skincare",
+      "desc": "Hair, body, face and shaving rituals for everyday use. Three collections — Basic, For Her and For Him — formulated to ISO 16128 and handcrafted in Andalusia."
+    },
+    "hogar": {
+      "kicker": "Collection",
+      "title": "Home",
+      "accent": "Care",
+      "desc": "Home cleaning turned into the feeling of a well-kept home. Detergent, softener, dishwashing, specific cleaners and multi-surface products with gentle formulas of natural origin."
+    },
+    "mascota": {
+      "kicker": "Collection",
+      "title": "Pet",
+      "accent": "Care",
+      "desc": "Gentle care for dogs and cats: calm hygiene, peace at home and stress-free bonding. Products with MAPA registration and hypoallergenic formulas adapted to the animal microbiome."
+    }
   }
 }

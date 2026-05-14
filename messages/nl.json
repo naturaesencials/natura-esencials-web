@@ -197,5 +197,25 @@
     "aiTranslationNotice": "Ondersteunde vertaling · in afwachting van revisie",
     "handcraftedAndalucia": "Met de hand gemaakt in Andalusië",
     "smallBatch": "Kleine partijen met menselijke controle. Andalusische plantenmaterialen, ISO 16128-certificering, Andalusisch ambacht."
+  },
+  "catalogPages": {
+    "cosmetica": {
+      "kicker": "Collectie",
+      "title": "Artisanale",
+      "accent": "cosmetica",
+      "desc": "Haar, lichaam, gezicht en scheren in dagelijkse sensorische rituelen. Drie collecties — Basic, Voor Haar en Voor Hem — geformuleerd volgens ISO 16128 en handgemaakt in Andalusië."
+    },
+    "hogar": {
+      "kicker": "Collectie",
+      "title": "Huishoud",
+      "accent": "verzorging",
+      "desc": "Huishoudreiniging omgezet in het gevoel van een verzorgd huis. Wasmiddel, wasverzachter, afwasmiddel, specifieke reinigingsmiddelen en allesreinigers met zachte formules van natuurlijke oorsprong."
+    },
+    "mascota": {
+      "kicker": "Collectie",
+      "title": "Huisdier",
+      "accent": "verzorging",
+      "desc": "Zachte verzorging voor honden en katten: rustige hygiëne, kalmte thuis en stressvrije verbinding. Producten met MAPA-registratie en hypoallergene formules aangepast aan het dierenmicrobioom."
+    }
   }
 }
