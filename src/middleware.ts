@@ -90,6 +90,7 @@ export function middleware(request: NextRequest) {
     }
     const res = NextResponse.next();
     res.headers.set("x-locale", secondSeg);
+    res.headers.set("x-region", firstSeg);
     return res;
   }
 
