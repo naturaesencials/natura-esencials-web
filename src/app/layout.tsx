@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Fraunces } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { headers } from 'next/headers';
 import { siteConfig } from '@/config/site';
 import './globals.css';
 
@@ -28,9 +29,11 @@ export const metadata: Metadata = {
   description: siteConfig.tagline,
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const headersList = await headers();
+  const locale = headersList.get('x-locale') || 'es';
   return (
-    <html lang="es" className={fraunces.variable}>
+    <html lang={locale} className={fraunces.variable}>
       <body>
         {children}
         <Analytics />
