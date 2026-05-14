@@ -22,6 +22,22 @@ function tl(locale: Locale, key: keyof typeof LABELS[string]) {
   return (LABELS[locale] ?? LABELS.es)[key];
 }
 
+// Mapa de labels de variante de Shopify (en español) → traducción por locale
+const VARIANT_LABELS: Record<string, Record<string, string>> = {
+  'Botella 300 ml': { en: 'Bottle 300 ml', fr: 'Flacon 300 ml', de: 'Flasche 300 ml', it: 'Flacone 300 ml', nl: 'Fles 300 ml', pt: 'Frasco 300 ml' },
+  'Botella 1 Ltr':  { en: 'Bottle 1 L',    fr: 'Flacon 1 L',    de: 'Flasche 1 L',    it: 'Flacone 1 L',    nl: 'Fles 1 L',    pt: 'Frasco 1 L'    },
+  'Caja BIB 5 Ltr': { en: 'Box BIB 5 L',   fr: 'Boîte BIB 5 L', de: 'Box BIB 5 L',    it: 'Scatola BIB 5 L',nl: 'Doos BIB 5 L', pt: 'Caixa BIB 5 L' },
+  '300 ml': { en: '300 ml', fr: '300 ml', de: '300 ml', it: '300 ml', nl: '300 ml', pt: '300 ml' },
+  '1 L':    { en: '1 L',    fr: '1 L',    de: '1 L',    it: '1 L',    nl: '1 L',    pt: '1 L'    },
+  '5 L':    { en: '5 L',    fr: '5 L',    de: '5 L',    it: '5 L',    nl: '5 L',    pt: '5 L'    },
+};
+
+function translateVariantTitle(title: string, locale: string): string {
+  const map = VARIANT_LABELS[title];
+  if (map && locale !== 'es') return map[locale] ?? title;
+  return title;
+}
+
 function formatPrice(amount: string, currency: string): string {
   return new Intl.NumberFormat('es-ES', {
     style: 'currency', currency,
@@ -130,6 +146,8 @@ export function BuyButton({
                 {variants.map((v, i) => {
                   const isSelected  = selectedIdx === i;
                   const unavailable = !v.available;
+                  // Traducir labels de variante que vienen de Shopify en español
+                  const variantLabel = translateVariantTitle(v.title, locale);
                   return (
                     <button
                       key={v.id}
@@ -146,7 +164,7 @@ export function BuyButton({
                       ].join(' ')}
                     >
                       <span className="text-[11px] uppercase tracking-[0.14em] leading-tight">
-                        {v.title}
+                        {variantLabel}
                       </span>
                       <span className={`mt-1 text-sm font-bold ${isSelected ? 'text-white' : 'text-ink'}`}>
                         {formatPrice(v.price, v.currency)}
