@@ -88,7 +88,9 @@ export function middleware(request: NextRequest) {
       const newPath = rest ? `/${firstSeg}/${fallbackLocale}/${rest}` : `/${firstSeg}/${fallbackLocale}`;
       return NextResponse.redirect(new URL(newPath, request.url), 302);
     }
-    return NextResponse.next();
+    const res = NextResponse.next();
+    res.headers.set("x-locale", secondSeg);
+    return res;
   }
 
   // CASO 2: URL solo tiene locale (/es/, /en/) → añadir región
