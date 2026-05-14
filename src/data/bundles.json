@@ -18,7 +18,7 @@
       "format": "300 ml",
       "discountPercent": 12,
       "visible": true,
-      "basePriceEUR": 34.9,
+      "basePriceEUR": 24.6,
       "es": {
         "name": "Ritual Plenitud",
         "nameMain": "Ritual",
@@ -105,7 +105,8 @@
       "handles": {
         "300 ml": "ritual-plenitud-300",
         "1 L": "ritual-plenitud-1-ltr"
-      }
+      },
+      "basePriceGBP": 21.16
     },
     {
       "id": "ritual-plenitud-1l",
@@ -125,7 +126,7 @@
       "format": "1 L",
       "discountPercent": 15,
       "visible": false,
-      "basePriceEUR": 53.6,
+      "basePriceEUR": 46.6,
       "es": {
         "name": "Ritual Plenitud",
         "nameMain": "Ritual",
@@ -208,7 +209,8 @@
         "shortDescription": "La rutina más completa de cabello y piel en formato familiar de 1 litro. Para hogares con uso intenso y mejor relación calidad-precio.",
         "longDescription": "Mismos productos del Ritual Plenitud en formato grande: ahorro y menos residuos.",
         "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
-      }
+      },
+      "basePriceGBP": 40.08
     },
     {
       "id": "ritual-ducha-perfecta-300",
@@ -227,7 +229,7 @@
       "format": "300 ml",
       "discountPercent": 10,
       "visible": true,
-      "basePriceEUR": 26.5,
+      "basePriceEUR": 18.8,
       "es": {
         "name": "Ritual Ducha Perfecta",
         "nameMain": "Ritual",
@@ -314,7 +316,8 @@
       "handles": {
         "300 ml": "pack-esenciales-diarios",
         "1 L": "ritual-ducha-perfecta-1-ltr"
-      }
+      },
+      "basePriceGBP": 16.17
     },
     {
       "id": "ritual-ducha-perfecta-1l",
@@ -333,7 +336,7 @@
       "format": "1 L",
       "discountPercent": 12,
       "visible": false,
-      "basePriceEUR": 48.86,
+      "basePriceEUR": 35.0,
       "es": {
         "name": "Ritual Ducha Perfecta",
         "nameMain": "Ritual",
@@ -416,7 +419,8 @@
         "shortDescription": "Los tres esenciales de la ducha en 1 litro. Para hogares que han hecho de Natura su rutina diaria.",
         "longDescription": "Mismo trío del Ritual Ducha Perfecta, formato grande para uso prolongado.",
         "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
-      }
+      },
+      "basePriceGBP": 30.1
     },
     {
       "id": "ritual-rendimiento-300",
@@ -434,7 +438,7 @@
       "format": "300 ml",
       "discountPercent": 8,
       "visible": true,
-      "basePriceEUR": 18.0,
+      "basePriceEUR": 13.4,
       "es": {
         "name": "Ritual Rendimiento",
         "nameMain": "Ritual",
@@ -521,7 +525,8 @@
       "handles": {
         "300 ml": "pack-deportivo-higiene-cuidado",
         "1 L": "ritual-rendimiento-1ltr"
-      }
+      },
+      "basePriceGBP": 11.52
     },
     {
       "id": "ritual-rendimiento-1l",
@@ -539,7 +544,7 @@
       "format": "1 L",
       "discountPercent": 12,
       "visible": false,
-      "basePriceEUR": 33.5,
+      "basePriceEUR": 24.3,
       "es": {
         "name": "Ritual Rendimiento",
         "nameMain": "Ritual",
@@ -622,7 +627,8 @@
         "shortDescription": "Total Body Wash y Body Milk en 1 litro. Para deportistas habituales y hogares con vida activa.",
         "longDescription": "El Ritual Rendimiento en formato grande: dos productos, mucho rendimiento.",
         "story": "Limpia, hidrata y sigue. En grande."
-      }
+      },
+      "basePriceGBP": 20.9
     },
     {
       "id": "ritual-para-ella",
@@ -729,7 +735,9 @@
       "handles": {
         "300 ml": "ritual-para-ella-300-ml",
         "1 L": "ritual-para-ella-1-ltr"
-      }
+      },
+      "basePriceEUR": 31.3,
+      "basePriceGBP": 26.92
     },
     {
       "id": "ritual-para-el",
@@ -837,7 +845,9 @@
         "300 ml": "ritual-para-el-300-ml",
         "1 L": "rital-para-el-1-ltr"
       },
-      "primaryImage": "/images/landing/card-4.jpg"
+      "primaryImage": "/images/landing/card-4.jpg",
+      "basePriceEUR": 31.3,
+      "basePriceGBP": 26.92
     },
     {
       "id": "ritual-vajilla-perfecta",
@@ -855,7 +865,7 @@
       "format": "1 L",
       "discountPercent": 8,
       "visible": true,
-      "basePriceEUR": 16.7,
+      "basePriceEUR": 12.3,
       "es": {
         "name": "Ritual Vajilla Perfecta",
         "nameMain": "Ritual",
@@ -938,7 +948,8 @@
         "shortDescription": "Ritual funcional para vender eficiencia, brillo y practicidad. Lavavajillas máquina y abrillantador en 1 litro.",
         "longDescription": "Cargar, activar y abrir con sensación de listo.",
         "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
-      }
+      },
+      "basePriceGBP": 10.58
     },
     {
       "id": "ritual-bano-impecable",
@@ -956,7 +967,7 @@
       "format": "1 L",
       "discountPercent": 8,
       "visible": true,
-      "basePriceEUR": 15.26,
+      "basePriceEUR": 11.0,
       "es": {
         "name": "Ritual Baño Impecable",
         "nameMain": "Ritual",
@@ -1039,7 +1050,8 @@
         "shortDescription": "Ritual de mantenimiento rápido con lectura visual inmediata. Limpiador de baños y limpiacristales en 1 litro.",
         "longDescription": "Pocos pasos, efecto limpio y sensación de espacio renovado.",
         "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
-      }
+      },
+      "basePriceGBP": 9.46
     },
     {
       "id": "ritual-cocina-impecable",
@@ -1058,7 +1070,7 @@
       "format": "1 L",
       "discountPercent": 10,
       "visible": true,
-      "basePriceEUR": 20.9,
+      "basePriceEUR": 15.5,
       "es": {
         "name": "Ritual Cocina Impecable",
         "nameMain": "Ritual",
@@ -1141,7 +1153,8 @@
         "shortDescription": "Pack de cocina para hogares que quieren limpieza práctica con sensación de control. Lavavajillas manual, desengrasante y multisuperficies en 1 litro.",
         "longDescription": "Vajilla, encimera y grasa resueltas en un mismo gesto.",
         "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
-      }
+      },
+      "basePriceGBP": 13.33
     },
     {
       "id": "ritual-caricia",
@@ -1159,7 +1172,7 @@
       "format": "1 L",
       "discountPercent": 8,
       "visible": true,
-      "basePriceEUR": 18.0,
+      "basePriceEUR": 13.8,
       "es": {
         "name": "Ritual Caricia",
         "nameMain": "Ritual",
@@ -1242,7 +1255,8 @@
         "shortDescription": "Cápsula emocional de colada, perfecta para cross-sell desde hogar hacia bienestar cotidiano. Detergente y suavizante en 1 litro.",
         "longDescription": "Lavar, suavizar y doblar con calma. La lavanda permanece en la ropa.",
         "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
-      }
+      },
+      "basePriceGBP": 11.87
     },
     {
       "id": "ritual-refugio",
@@ -1260,8 +1274,8 @@
       "format": "1 L",
       "visible": true,
       "outOfStock": false,
-      "basePriceEUR": 11.0,
-      "basePriceGBP": 9.5,
+      "basePriceEUR": 16.2,
+      "basePriceGBP": 13.93,
       "es": {
         "name": "Ritual Refugio",
         "nameMain": "Ritual",
@@ -1337,7 +1351,7 @@
       "format": "300 ml",
       "discountPercent": 10,
       "visible": true,
-      "basePriceEUR": 22.2,
+      "basePriceEUR": 15.7,
       "es": {
         "name": "Ritual Gato Zen",
         "nameMain": "Ritual",
@@ -1422,7 +1436,8 @@
         "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-11.jpg"
+      "primaryImage": "/images/landing/card-11.jpg",
+      "basePriceGBP": 13.5
     },
     {
       "id": "ritual-mimo-canino",
@@ -1441,7 +1456,7 @@
       "format": "300 ml",
       "discountPercent": 10,
       "visible": true,
-      "basePriceEUR": 22.2,
+      "basePriceEUR": 15.7,
       "es": {
         "name": "Ritual Mimo Canino",
         "nameMain": "Ritual",
@@ -1525,7 +1540,8 @@
         "longDescription": "Si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
         "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
       },
-      "primaryImage": "/images/landing/card-10.jpg"
+      "primaryImage": "/images/landing/card-10.jpg",
+      "basePriceGBP": 13.5
     }
   ]
 }
