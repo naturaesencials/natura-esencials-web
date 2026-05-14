@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: { default: siteConfig.name, template: `%s · ${siteConfig.name}` },
   description: siteConfig.tagline,
+  other: {
+    'facebook-domain-verification': 'bgg6rhiobr0yjzxydwotm6hwlv3h9t',
+  },
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
