@@ -1776,7 +1776,6 @@
         "aiTranslation": true
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-4.jpg",
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65
     },
@@ -2050,7 +2049,6 @@
         "aiTranslation": true
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-4.jpg",
       "basePriceEUR": 9.0,
       "basePriceGBP": 7.74
     },
@@ -2324,7 +2322,6 @@
         "aiTranslation": true
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-4.jpg",
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65
     },
@@ -2597,7 +2594,6 @@
         "aiTranslation": true
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-4.jpg",
       "basePriceEUR": 9.2,
       "basePriceGBP": 7.91
     },
