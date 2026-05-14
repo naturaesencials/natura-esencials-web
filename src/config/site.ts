@@ -2,7 +2,7 @@ export const siteConfig = {
   name: 'Natura Esencials',
   legalName: 'Natura Esencials Products, S.L.',
   tagline: 'Cosmética natural y cuidado del hogar, elaborados en Marbella',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://naturaesencials.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.naturaesencials.com',
   founded: 2021,
   origin: {
     city: 'Marbella', region: 'Andalucía', country: 'España',
