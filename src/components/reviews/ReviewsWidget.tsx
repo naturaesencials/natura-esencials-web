@@ -20,7 +20,22 @@ const T: Record<string, {
   pt: { title:'Opiniões', noReviews:'Ainda sem opiniões', noReviewsSub:'Sê o primeiro a partilhar a tua experiência.', writeReview:'Escrever opinião', loadMore:'Ver mais opiniões', loading:'A carregar opiniões…', verifiedBuyer:'Comprador verificado', showingOf:(s,t)=>`A mostrar ${s} de ${t} opiniões` },
 };
 
-// ─── Stars ───────────────────────────────────────────────────────────────────
+// Mapa locale app → código BCP47 para Intl
+const LOCALE_MAP: Record<string, string> = {
+  es: 'es-ES', en: 'en-GB', fr: 'fr-FR', de: 'de-DE',
+  it: 'it-IT', nl: 'nl-NL', pt: 'pt-PT',
+};
+
+function formatDate(dateStr: string | undefined, locale: string): string {
+  if (!dateStr) return '';
+  try {
+    return new Date(dateStr).toLocaleDateString(LOCALE_MAP[locale] ?? 'es-ES', {
+      year: 'numeric', month: 'short', day: 'numeric',
+    });
+  } catch {
+    return '';
+  }
+}
 
 function Stars({ rating, size = 14 }: { rating: number; size?: number }) {
   return (
@@ -60,10 +75,8 @@ function RatingBar({ rating, count, total }: { rating: number; count: number; to
   );
 }
 
-function ReviewCard({ review, lb }: { review: Review; lb: typeof T.es }) {
-  const date = new Date(review.published_at ?? review.created_at).toLocaleDateString(undefined, {
-    year: 'numeric', month: 'short', day: 'numeric',
-  });
+function ReviewCard({ review, lb, locale }: { review: Review; lb: typeof T.es; locale: string }) {
+  const date = formatDate(review.published_at ?? review.created_at, locale);
   return (
     <article className="flex flex-col gap-3 rounded-sm border border-rule bg-paper p-5">
       <header className="flex items-start justify-between gap-3">
@@ -187,7 +200,7 @@ export function ReviewsWidget({ handle, title, locale = 'es', shopifyHandle }: P
           </aside>
           <div className="flex-1">
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              {reviews.map(r => <ReviewCard key={r.id} review={r} lb={lb} />)}
+              {reviews.map(r => <ReviewCard key={r.id} review={r} lb={lb} locale={locale} />)}
             </div>
             {reviews.length < total && (
               <div className="mt-6 flex flex-col items-center gap-3">
