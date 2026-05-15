@@ -402,7 +402,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
         )}
 
         {/* Reviews Judge.me */}
-        <ReviewsWidget handle={product.shopifyHandle} title={tr.name} />
+        <ReviewsWidget handle={product.shopifyHandle} title={tr.name} locale={locale} />
       </div>
     </article>
   );

@@ -17,7 +17,19 @@ interface Props {
   handle: string;
   /** Product title for aria-label */
   title?: string;
+  /** Current locale */
+  locale?: string;
 }
+
+const REVIEWS_LABEL: Record<string, string> = {
+  es: 'Opiniones',
+  en: 'Reviews',
+  fr: 'Avis',
+  de: 'Bewertungen',
+  it: 'Recensioni',
+  nl: 'Beoordelingen',
+  pt: 'Opiniões',
+};
 
 declare global {
   interface Window {
@@ -28,9 +40,10 @@ declare global {
   }
 }
 
-export function ReviewsWidget({ handle, title }: Props) {
+export function ReviewsWidget({ handle, title, locale = 'es' }: Props) {
   const shopDomain = process.env.NEXT_PUBLIC_JUDGEME_SHOP_DOMAIN ?? 'www.naturaesencials.com';
   const containerRef = useRef<HTMLDivElement>(null);
+  const reviewsTitle = REVIEWS_LABEL[locale] ?? REVIEWS_LABEL.es;
 
   useEffect(() => {
     if (!handle) return;
@@ -59,10 +72,10 @@ export function ReviewsWidget({ handle, title }: Props) {
   return (
     <section
       className="mt-12 border-t border-rule pt-10"
-      aria-label={title ? `Opiniones de ${title}` : 'Opiniones de clientes'}
+      aria-label={title ? `${reviewsTitle} ${title}` : reviewsTitle}
     >
       <h2 className="mb-6 font-display text-[clamp(22px,3vw,32px)] tracking-[-0.015em]">
-        Opiniones
+        {reviewsTitle}
       </h2>
       <div
         ref={containerRef}
