@@ -42,6 +42,7 @@ declare global {
 
 export function ReviewsWidget({ handle, title, locale = 'es' }: Props) {
   const shopDomain = process.env.NEXT_PUBLIC_JUDGEME_SHOP_DOMAIN ?? 'www.naturaesencials.com';
+  const publicToken = process.env.NEXT_PUBLIC_JUDGEME_PUBLIC_TOKEN ?? 'QB36N-hDwXH60hCmBKU5F-6AHXY';
   const containerRef = useRef<HTMLDivElement>(null);
   const reviewsTitle = REVIEWS_LABEL[locale] ?? REVIEWS_LABEL.es;
 
@@ -83,6 +84,7 @@ export function ReviewsWidget({ handle, title, locale = 'es' }: Props) {
         data-id={handle}
         data-handle={handle}
         data-shop-domain={shopDomain}
+        data-public-token={publicToken}
       />
     </section>
   );

@@ -22,6 +22,7 @@ interface Props { locale: Locale; }
 export function ReviewsSection({ locale }: Props) {
   const lb = T[locale] ?? T.es;
   const shopDomain = process.env.NEXT_PUBLIC_JUDGEME_SHOP_DOMAIN ?? 'www.naturaesencials.com';
+  const publicToken = process.env.NEXT_PUBLIC_JUDGEME_PUBLIC_TOKEN ?? 'QB36N-hDwXH60hCmBKU5F-6AHXY';
   const loaded = useRef(false);
 
   useEffect(() => {
@@ -56,6 +57,7 @@ export function ReviewsSection({ locale }: Props) {
       <div
         className="jdgm-widget jdgm-all-reviews-widget"
         data-shop-domain={shopDomain}
+        data-public-token={publicToken}
       />
     </section>
   );

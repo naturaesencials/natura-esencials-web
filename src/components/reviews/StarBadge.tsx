@@ -19,7 +19,7 @@ interface Props {
 export function StarBadge({ handle, className = '' }: Props) {
   const [data, setData] = useState<ReviewSummary | null>(null);
   const shopDomain = process.env.NEXT_PUBLIC_JUDGEME_SHOP_DOMAIN ?? 'www.naturaesencials.com';
-  const token = process.env.NEXT_PUBLIC_JUDGEME_PUBLIC_TOKEN ?? '';
+  const token = process.env.NEXT_PUBLIC_JUDGEME_PUBLIC_TOKEN ?? 'QB36N-hDwXH60hCmBKU5F-6AHXY';
 
   useEffect(() => {
     if (!handle || !token) return;
