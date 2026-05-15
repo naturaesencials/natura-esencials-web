@@ -6,11 +6,31 @@ import type { Locale, Region } from '@/lib/i18n/config';
 
 interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 
+const META_DESC: Record<string, string> = {
+  es: 'Natura Esencials nace en Marbella en 2021. Formulamos a mano con materias primas de proveedores locales bajo protocolo ISO 16128. Artesanía Hecha en Andalucía.',
+  en: 'Natura Esencials was founded in Marbella in 2021. We handcraft our products using local ingredients under ISO 16128 protocol. Artesanía Hecha en Andalucía.',
+  fr: 'Natura Esencials est née à Marbella en 2021. Nous formulons à la main avec des matières premières locales selon le protocole ISO 16128. Artisanat d\'Andalousie.',
+  de: 'Natura Esencials wurde 2021 in Marbella gegründet. Wir formulieren handwerklich mit lokalen Zutaten nach ISO 16128. Handwerk aus Andalusien.',
+  it: 'Natura Esencials nasce a Marbella nel 2021. Formuliamo a mano con materie prime locali secondo il protocollo ISO 16128. Artigianato dell\'Andalusia.',
+  nl: 'Natura Esencials is opgericht in Marbella in 2021. We formuleren met de hand met lokale grondstoffen volgens ISO 16128. Ambacht uit Andalusië.',
+  pt: 'A Natura Esencials nasce em Marbella em 2021. Formulamos à mão com matérias-primas locais sob protocolo ISO 16128. Artesanato da Andaluzia.',
+};
+
+const IMG_ALT: Record<string, string> = {
+  es: 'Ingredientes naturales en el taller de Natura Esencials, Marbella',
+  en: 'Natural ingredients at the Natura Esencials workshop, Marbella',
+  fr: 'Ingrédients naturels dans l\'atelier Natura Esencials, Marbella',
+  de: 'Natürliche Zutaten in der Natura Esencials Werkstatt, Marbella',
+  it: 'Ingredienti naturali nel laboratorio Natura Esencials, Marbella',
+  nl: 'Natuurlijke ingrediënten in het atelier van Natura Esencials, Marbella',
+  pt: 'Ingredientes naturais na oficina da Natura Esencials, Marbella',
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, locale } = await params;
   return buildMetadata({
     title: 'Origen',
-    description: 'Natura Esencials nace en Marbella en 2021. Formulamos a mano con materias primas de proveedores locales y nacionales bajo protocolo ISO 16128. Artesanía Hecha en Andalucía.',
+    description: META_DESC[locale] ?? META_DESC.es,
     region, locale, path: 'origen',
   });
 }
@@ -197,6 +217,7 @@ export default async function OrigenPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const c = gc(locale);
+  const imgAlt = IMG_ALT[locale] ?? IMG_ALT.es;
 
   return (
     <main>
@@ -249,7 +270,7 @@ export default async function OrigenPage({ params }: Props) {
               </div>
               {img && (
                 <div className="relative aspect-[3/4] overflow-hidden rounded-sm bg-paper lg:mt-2">
-                  <Image src={img as string} alt="" fill sizes="(min-width:1024px) 40vw, 90vw" className="object-cover" />
+                  <Image src={img as string} alt={imgAlt} fill sizes="(min-width:1024px) 40vw, 90vw" className="object-cover" />
                 </div>
               )}
             </article>
