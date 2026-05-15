@@ -61,7 +61,7 @@ function RatingBar({ rating, count, total }: { rating: number; count: number; to
 }
 
 function ReviewCard({ review, lb }: { review: Review; lb: typeof T.es }) {
-  const date = new Date(review.published_at).toLocaleDateString(undefined, {
+  const date = new Date(review.published_at ?? review.created_at).toLocaleDateString(undefined, {
     year: 'numeric', month: 'short', day: 'numeric',
   });
   return (

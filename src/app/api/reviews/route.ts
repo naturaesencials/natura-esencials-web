@@ -6,12 +6,15 @@ const TOKEN = process.env.JUDGEME_API_TOKEN ?? '';
 export interface Review {
   id: number;
   rating: number;
-  title: string;
-  body: string;
+  title: string | null;
+  body: string | null;
   reviewer: { name: string };
-  published_at: string;
+  published_at?: string;
+  created_at: string;
+  updated_at: string;
   product_handle: string;
   product_title: string;
+  verified: string;
   pictures: Array<{ urls: { original: string } }>;
 }
 
