@@ -1563,7 +1563,10 @@
           "experience": "El champú masculino que lo hace todo: limpia, acondiciona y huele bien. El argán y el guar dan el extra de cuidado que el cabello masculino necesita.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "slug": "champu-hombre"
+        "slug": "champu-hombre",
+        "longDescription": "Champú 2 en 1 formulado para el cabello masculino: limpia, acondiciona y deja un aroma ámbar elegante.",
+        "usage": "Aplicar sobre el cabello mojado, masajear hasta hacer espuma y aclarar. Repetir si es necesario.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Men's Shampoo",
@@ -1599,7 +1602,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "2-in-1 shampoo formulated for men's hair: cleanses, conditions and leaves an elegant amber scent.",
+        "usage": "Apply to wet hair, massage to lather and rinse. Repeat if necessary."
       },
       "fr": {
         "name": "Shampooing Homme",
@@ -1635,7 +1640,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Shampooing 2 en 1 formulé pour les cheveux masculins : nettoie, conditionne et laisse un arôme ambré élégant.",
+        "usage": "Appliquer sur cheveux mouillés, masser pour former une mousse et rincer. Répéter si nécessaire."
       },
       "de": {
         "name": "Herrenshampoo",
@@ -1671,7 +1678,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "2-in-1-Shampoo für Männerhaare: reinigt, pflegt und hinterlässt einen eleganten Amber-Duft.",
+        "usage": "Auf nasses Haar auftragen, einmassieren und ausspülen. Bei Bedarf wiederholen."
       },
       "it": {
         "name": "Shampoo Uomo",
@@ -1707,7 +1716,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Shampoo 2 in 1 formulato per i capelli maschili: pulisce, ammorbidisce e lascia un elegante profumo ambrato.",
+        "usage": "Applicare sui capelli bagnati, massaggiare fino a formare la schiuma e risciacquare. Ripetere se necessario."
       },
       "nl": {
         "name": "Mannenshampoo",
@@ -1743,7 +1754,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "2-in-1 shampoo voor mannenhaar: reinigt, verzorgt en laat een elegant amber-aroma achter.",
+        "usage": "Aanbrengen op nat haar, inmasseren tot schuim en uitspoelen. Herhalen indien nodig."
       },
       "pt": {
         "name": "Champô Homem",
@@ -1779,7 +1792,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Champô 2 em 1 formulado para cabelo masculino: limpa, condiciona e deixa um aroma âmbar elegante.",
+        "usage": "Aplicar no cabelo molhado, massajar até fazer espuma e enxaguar. Repetir se necessário."
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
@@ -1842,7 +1857,10 @@
           "experience": "El acondicionador que se siente premium desde el primer uso. El complejo de Quinoa hidrolizada y ácido hialurónico da una hidratación real, no superficial.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "slug": "acondicionador-hombre"
+        "slug": "acondicionador-hombre",
+        "longDescription": "Acondicionador masculino con quinoa hidrolizada, ácido hialurónico y aceites de argán y oliva. pH 3,3-4,3.",
+        "usage": "Aplicar sobre el cabello mojado tras el champú. Dejar actuar 2-3 minutos y aclarar.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Men's Conditioner",
@@ -1878,7 +1896,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "Men's conditioner with hydrolysed quinoa, hyaluronic acid and argan and olive oils. pH 3.3–4.3.",
+        "usage": "Apply to wet hair after shampooing. Leave for 2–3 minutes and rinse."
       },
       "fr": {
         "name": "Après-shampooing Homme",
@@ -1914,7 +1934,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Après-shampooing masculin avec quinoa hydrolysée, acide hyaluronique et huiles d'argan et d'olive. pH 3,3–4,3.",
+        "usage": "Appliquer sur cheveux mouillés après le shampooing. Laisser poser 2-3 minutes et rincer."
       },
       "de": {
         "name": "Haarspülung Herren",
@@ -1950,7 +1972,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "Herren-Conditioner mit hydrolysiertem Quinoa, Hyaluronsäure sowie Argan- und Olivenöl. pH 3,3–4,3.",
+        "usage": "Nach dem Shampoonieren auf nasses Haar auftragen. 2–3 Minuten einwirken lassen und ausspülen."
       },
       "it": {
         "name": "Balsamo Uomo",
@@ -1986,7 +2010,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Balsamo maschile con quinoa idrolizzata, acido ialuronico e oli di argan e oliva. pH 3,3–4,3.",
+        "usage": "Applicare sui capelli bagnati dopo lo shampoo. Lasciare agire 2-3 minuti e risciacquare."
       },
       "nl": {
         "name": "Mannenconditioner",
@@ -2022,7 +2048,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "Conditioner voor mannen met gehydrolyseerde quinoa, hyaluronzuur en argan- en olijfolie. pH 3,3–4,3.",
+        "usage": "Aanbrengen op nat haar na het wassen. 2-3 minuten laten inwerken en uitspoelen."
       },
       "pt": {
         "name": "Condicionador Homem",
@@ -2058,7 +2086,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Condicionador masculino com quinoa hidrolisada, ácido hialurónico e óleos de argão e azeitona. pH 3,3–4,3.",
+        "usage": "Aplicar no cabelo molhado após o champô. Deixar atuar 2-3 minutos e enxaguar."
       },
       "outOfStock": false,
       "basePriceEUR": 9.0,
@@ -2121,7 +2151,10 @@
           "experience": "El gel que crea el ecosistema olfativo masculino de Natura Esencials. Mismo universo ámbar que el champú y el acondicionador.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "slug": "gel-manos-y-cuerpo-hombre"
+        "slug": "gel-manos-y-cuerpo-hombre",
+        "longDescription": "Gel de higiene corporal con tensioactivos del coco y glicerina. Aroma ámbar fresco. 95% origen natural.",
+        "usage": "Aplicar sobre piel húmeda, masajear y aclarar con agua.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Men's Hand and Body Wash",
@@ -2157,7 +2190,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "Body and hand wash with coconut-derived surfactants and glycerin. Fresh amber scent. 95% natural origin.",
+        "usage": "Apply to damp skin, massage and rinse with water."
       },
       "fr": {
         "name": "Gel Mains et Corps Homme",
@@ -2193,7 +2228,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Gel lavant corps et mains aux tensioactifs végétaux et glycérine. Parfum ambré frais. 95% d'origine naturelle.",
+        "usage": "Appliquer sur la peau humide, masser et rincer à l'eau."
       },
       "de": {
         "name": "Hand- und Körpergel Herren",
@@ -2229,7 +2266,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "Körper- und Handwaschgel mit Tensiden aus Kokos und Glycerin. Frischer Amber-Duft. 95% natürlichen Ursprungs.",
+        "usage": "Auf feuchter Haut auftragen, einmassieren und abspülen."
       },
       "it": {
         "name": "Detergente Mani e Corpo Uomo",
@@ -2265,7 +2304,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Gel detergente corpo e mani con tensioattivi del cocco e glicerina. Profumo ambrato fresco. 95% di origine naturale.",
+        "usage": "Applicare sulla pelle umida, massaggiare e sciacquare con acqua."
       },
       "nl": {
         "name": "Hand- en Lichaamsgel Mannen",
@@ -2301,7 +2342,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "Lichaam- en handenwasgel met kokosolie-tensiden en glycerine. Frisse amber-geur. 95% van natuurlijke oorsprong.",
+        "usage": "Aanbrengen op vochtige huid, inmasseren en afspoelen met water."
       },
       "pt": {
         "name": "Gel Mãos e Corpo Homem",
@@ -2337,7 +2380,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Gel de higiene corporal e mãos com tensioativos de coco e glicerina. Aroma âmbar fresco. 95% origem natural.",
+        "usage": "Aplicar na pele húmida, massajar e enxaguar com água."
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
@@ -2399,7 +2444,10 @@
           "experience": "Hidratación sin sensación de producto. La piel está cuidada pero él no tiene que pensar en ello.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
-        "slug": "body-milk-hombre"
+        "slug": "body-milk-hombre",
+        "longDescription": "Loción corporal masculina con aceites de aguacate y jojoba. Absorción rápida, efecto mate y aroma ámbar. 98% origen natural.",
+        "usage": "Aplicar sobre la piel limpia y seca tras la ducha. Masajear hasta absorción completa.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Men's Body Milk",
@@ -2435,7 +2483,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "Men's body lotion with avocado and jojoba oils. Fast absorption, matte finish and amber scent. 98% natural origin.",
+        "usage": "Apply to clean, dry skin after showering. Massage until fully absorbed."
       },
       "fr": {
         "name": "Lait Corporel Homme",
@@ -2471,7 +2521,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Lait corporel masculin aux huiles d'avocat et de jojoba. Absorption rapide, effet mat et arôme ambré. 98% d'origine naturelle.",
+        "usage": "Appliquer sur la peau propre et sèche après la douche. Masser jusqu'à absorption complète."
       },
       "de": {
         "name": "Körpermilch Herren",
@@ -2507,7 +2559,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "Körperlotion für Männer mit Avocado- und Jojobaöl. Schnelle Absorption, Matteffekt und Amber-Duft. 98% natürlichen Ursprungs.",
+        "usage": "Nach der Dusche auf saubere, trockene Haut auftragen. Bis zur vollständigen Absorption einmassieren."
       },
       "it": {
         "name": "Latte Corpo Uomo",
@@ -2543,7 +2597,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Latte corpo maschile con oli di avocado e jojoba. Assorbimento rapido, effetto mat e profumo ambrato. 98% di origine naturale.",
+        "usage": "Applicare sulla pelle pulita e asciutta dopo la doccia. Massaggiare fino al completo assorbimento."
       },
       "nl": {
         "name": "Bodymilk Mannen",
@@ -2579,7 +2635,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "Bodylotion voor mannen met avocado- en jojobaölie. Snelle absorptie, mat effect en amber-aroma. 98% van natuurlijke oorsprong.",
+        "usage": "Aanbrengen op schone, droge huid na het douchen. Inmasseren tot volledig geabsorbeerd."
       },
       "pt": {
         "name": "Leite Corporal Homem",
@@ -2615,7 +2673,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Loção corporal masculina com óleos de abacate e jojoba. Absorção rápida, efeito mate e aroma âmbar. 98% origem natural.",
+        "usage": "Aplicar na pele limpa e seca após o duche. Massajar até absorção completa."
       },
       "outOfStock": false,
       "basePriceEUR": 9.2,
@@ -3793,7 +3853,10 @@
           "experience": "El ritual femenino comienza ya en el champú. El aroma de naranja fresca crea continuidad con el Body Milk Woman y marca el inicio del día.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
-        "slug": "champu-mujer"
+        "slug": "champu-mujer",
+        "longDescription": "Champú 2 en 1 formulado para el cabello femenino con aceite de argán y aroma de naranja Citrus Aurantium.",
+        "usage": "Aplicar sobre el cabello mojado, masajear hasta hacer espuma y aclarar. Repetir si es necesario.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Women's Shampoo",
@@ -3829,7 +3892,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "2-in-1 shampoo for women's hair with argan oil and fresh Citrus Aurantium orange scent.",
+        "usage": "Apply to wet hair, massage to lather and rinse. Repeat if necessary."
       },
       "fr": {
         "name": "Shampooing Femme",
@@ -3865,7 +3930,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Shampooing 2 en 1 pour cheveux féminins avec huile d'argan et arôme d'orange Citrus Aurantium.",
+        "usage": "Appliquer sur cheveux mouillés, masser pour former une mousse et rincer. Répéter si nécessaire."
       },
       "de": {
         "name": "Damenshampoo",
@@ -3901,7 +3968,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "2-in-1-Shampoo für Frauenhaare mit Arganöl und frischem Citrus Aurantium-Orangenduft.",
+        "usage": "Auf nasses Haar auftragen, einmassieren und ausspülen. Bei Bedarf wiederholen."
       },
       "it": {
         "name": "Shampoo Donna",
@@ -3937,7 +4006,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Shampoo 2 in 1 per capelli femminili con olio di argan e aroma di arancia Citrus Aurantium.",
+        "usage": "Applicare sui capelli bagnati, massaggiare fino a formare la schiuma e risciacquare. Ripetere se necessario."
       },
       "nl": {
         "name": "Vrouwenshampoo",
@@ -3973,7 +4044,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "2-in-1 shampoo voor vrouwenhaar met arganolie en frisse Citrus Aurantium-sinaasappelgeur.",
+        "usage": "Aanbrengen op nat haar, inmasseren tot schuim en uitspoelen. Herhalen indien nodig."
       },
       "pt": {
         "name": "Champô Mulher",
@@ -4009,7 +4082,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos derivados del coco y del azúcar. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Champô 2 em 1 para cabelo feminino com óleo de argão e aroma de laranja Citrus Aurantium.",
+        "usage": "Aplicar no cabelo molhado, massajar até fazer espuma e enxaguar. Repetir se necessário."
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
@@ -4072,7 +4147,10 @@
           "experience": "El acondicionador que completa el ritual femenino de naranja. El mismo universo olfativo del champú y el body milk: coherencia que el cliente siente y valora.",
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
-        "slug": "acondicionador-mujer"
+        "slug": "acondicionador-mujer",
+        "longDescription": "Acondicionador femenino con quinoa hidrolizada, ácido hialurónico, pantenol y aceites de argán y oliva.",
+        "usage": "Aplicar sobre el cabello mojado tras el champú. Dejar actuar 2-3 minutos y aclarar.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Women's Conditioner",
@@ -4108,7 +4186,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "Women's conditioner with hydrolysed quinoa, hyaluronic acid, panthenol and argan and olive oils.",
+        "usage": "Apply to wet hair after shampooing. Leave for 2–3 minutes and rinse."
       },
       "fr": {
         "name": "Après-shampooing Femme",
@@ -4144,7 +4224,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Après-shampooing féminin avec quinoa hydrolysée, acide hyaluronique, panthénol et huiles d'argan et d'olive.",
+        "usage": "Appliquer sur cheveux mouillés après le shampooing. Laisser poser 2-3 minutes et rincer."
       },
       "de": {
         "name": "Haarspülung Damen",
@@ -4180,7 +4262,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "Damen-Conditioner mit hydrolysiertem Quinoa, Hyaluronsäure, Panthenol sowie Argan- und Olivenöl.",
+        "usage": "Nach dem Shampoonieren auf nasses Haar auftragen. 2–3 Minuten einwirken lassen und ausspülen."
       },
       "it": {
         "name": "Balsamo Donna",
@@ -4216,7 +4300,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Balsamo femminile con quinoa idrolizzata, acido ialuronico, pantenolo e oli di argan e oliva.",
+        "usage": "Applicare sui capelli bagnati dopo lo shampoo. Lasciare agire 2-3 minuti e risciacquare."
       },
       "nl": {
         "name": "Vrouwenconditioner",
@@ -4252,7 +4338,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "Conditioner voor vrouwen met gehydrolyseerde quinoa, hyaluronzuur, pantenol en argan- en olijfolie.",
+        "usage": "Aanbrengen op nat haar na het wassen. 2-3 minuten laten inwerken en uitspoelen."
       },
       "pt": {
         "name": "Condicionador Mulher",
@@ -4288,7 +4376,9 @@
           "sustainability": "97% de ingredientes de origen natural (ISO 16128). Activos de origen vegetal y biotecnológico. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Condicionador feminino com quinoa hidrolisada, ácido hialurónico, pantenol e óleos de argão e azeitona.",
+        "usage": "Aplicar no cabelo molhado após o champô. Deixar atuar 2-3 minutos e enxaguar."
       },
       "outOfStock": false,
       "basePriceEUR": 9.0,
@@ -4351,7 +4441,10 @@
           "experience": "El lavado de manos convertido en momento de ritual. El aroma de naranja fresca cierra el ecosistema olfativo de la colección femenina.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
-        "slug": "gel-manos-y-cuerpo-mujer"
+        "slug": "gel-manos-y-cuerpo-mujer",
+        "longDescription": "Gel de higiene corporal con tensioactivos del coco y glicerina. Aroma de naranja Citrus Aurantium.",
+        "usage": "Aplicar sobre piel húmeda, masajear y aclarar con agua.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Women's Hand and Body Wash",
@@ -4387,7 +4480,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "Body and hand wash with coconut-derived surfactants and glycerin. Citrus Aurantium orange scent.",
+        "usage": "Apply to damp skin, massage and rinse with water."
       },
       "fr": {
         "name": "Gel Mains et Corps Femme",
@@ -4423,7 +4518,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Gel lavant corps et mains aux tensioactifs végétaux et glycérine. Parfum d'orange Citrus Aurantium.",
+        "usage": "Appliquer sur la peau humide, masser et rincer à l'eau."
       },
       "de": {
         "name": "Hand- und Körpergel Damen",
@@ -4459,7 +4556,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "Körper- und Handwaschgel mit Tensiden aus Kokos und Glycerin. Citrus Aurantium-Orangenduft.",
+        "usage": "Auf feuchter Haut auftragen, einmassieren und abspülen."
       },
       "it": {
         "name": "Detergente Mani e Corpo Donna",
@@ -4495,7 +4594,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Gel detergente corpo e mani con tensioattivi del cocco e glicerina. Profumo di arancia Citrus Aurantium.",
+        "usage": "Applicare sulla pelle umida, massaggiare e sciacquare con acqua."
       },
       "nl": {
         "name": "Hand- en Lichaamsgel Vrouwen",
@@ -4531,7 +4632,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "Lichaam- en handenwasgel met kokosolie-tensiden en glycerine. Citrus Aurantium-sinaasappelgeur.",
+        "usage": "Aanbrengen op vochtige huid, inmasseren en afspoelen met water."
       },
       "pt": {
         "name": "Gel Mãos e Corpo Mulher",
@@ -4567,7 +4670,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Gel de higiene corporal e mãos com tensioativos de coco e glicerina. Aroma de laranja Citrus Aurantium.",
+        "usage": "Aplicar na pele húmida, massajar e enxaguar com água."
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
@@ -4629,7 +4734,10 @@
           "experience": "El cierre perfecto del ritual femenino. Piel que se siente y que huele a cuidado genuino con el aroma más emblemático de la colección.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
-        "slug": "body-milk-mujer"
+        "slug": "body-milk-mujer",
+        "longDescription": "Loción corporal femenina con aceites de origen natural y aroma Citrus Aurantium. 98% origen natural.",
+        "usage": "Aplicar sobre la piel limpia y seca tras la ducha. Masajear hasta absorción completa.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Women's Body Milk",
@@ -4665,7 +4773,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "Women's body lotion with naturally-derived oils and Citrus Aurantium scent. 98% natural origin.",
+        "usage": "Apply to clean, dry skin after showering. Massage until fully absorbed."
       },
       "fr": {
         "name": "Lait Corporel Femme",
@@ -4701,7 +4811,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Lait corporel féminin aux huiles d'origine naturelle et arôme Citrus Aurantium. 98% d'origine naturelle.",
+        "usage": "Appliquer sur la peau propre et sèche après la douche. Masser jusqu'à absorption complète."
       },
       "de": {
         "name": "Körpermilch Damen",
@@ -4737,7 +4849,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "Damen-Körperlotion mit natürlichen Ölen und Citrus Aurantium-Duft. 98% natürlichen Ursprungs.",
+        "usage": "Nach der Dusche auf saubere, trockene Haut auftragen. Bis zur vollständigen Absorption einmassieren."
       },
       "it": {
         "name": "Latte Corpo Donna",
@@ -4773,7 +4887,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Latte corpo femminile con oli di origine naturale e aroma Citrus Aurantium. 98% di origine naturale.",
+        "usage": "Applicare sulla pelle pulita e asciutta dopo la doccia. Massaggiare fino al completo assorbimento."
       },
       "nl": {
         "name": "Bodymilk Vrouwen",
@@ -4809,7 +4925,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "Bodylotion voor vrouwen met natuurlijke oliën en Citrus Aurantium-geur. 98% van natuurlijke oorsprong.",
+        "usage": "Aanbrengen op schone, droge huid na het douchen. Inmasseren tot volledig geabsorbeerd."
       },
       "pt": {
         "name": "Leite Corporal Mulher",
@@ -4845,7 +4963,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Loção corporal feminina com óleos de origem natural e aroma Citrus Aurantium. 98% origem natural.",
+        "usage": "Aplicar na pele limpa e seca após o duche. Massajar até absorção completa."
       },
       "outOfStock": false,
       "basePriceEUR": 9.2,
@@ -6921,7 +7041,10 @@
           "experience": "Rendimiento desengrasante, acabado brillante y sensación satisfactoria de orden.",
           "sustainability": "92% de ingredientes de origen natural. Formato 5L de alto rendimiento. Fabricado en Andalucía."
         },
-        "slug": "lavavajillas-maquina"
+        "slug": "lavavajillas-maquina",
+        "longDescription": "Detergente en gel para lavavajillas. Corta la grasa y protege el vidrio y el metal. 92% origen natural.",
+        "usage": "Verter la dosis recomendada en el compartimento del lavavajillas y programar el ciclo normal.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Dishwasher Detergent",
@@ -6956,7 +7079,9 @@
           "experience": "Rendimiento desengrasante, acabado brillante y sensación satisfactoria de orden.",
           "sustainability": "92% de ingredientes de origen natural. Formato 5L de alto rendimiento. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Dishwasher gel detergent. Cuts grease and protects glass and metal. 92% natural origin.",
+        "usage": "Pour the recommended dose into the dishwasher detergent compartment and select a normal cycle."
       },
       "fr": {
         "name": "Liquide Lave-vaisselle",
@@ -6991,7 +7116,9 @@
           "experience": "Rendimiento desengrasante, acabado brillante y sensación satisfactoria de orden.",
           "sustainability": "92% de ingredientes de origen natural. Formato 5L de alto rendimiento. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Détergent en gel pour lave-vaisselle. Élimine les graisses et protège le verre et le métal. 92% d'origine naturelle.",
+        "usage": "Verser la dose recommandée dans le compartiment du lave-vaisselle et sélectionner un cycle normal."
       },
       "de": {
         "name": "Geschirrspülmittel",
@@ -7026,7 +7153,9 @@
           "experience": "Rendimiento desengrasante, acabado brillante y sensación satisfactoria de orden.",
           "sustainability": "92% de ingredientes de origen natural. Formato 5L de alto rendimiento. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Geschirrspüler-Gel. Beseitigt Fett und schützt Glas und Metall. 92% natürlichen Ursprungs.",
+        "usage": "Empfohlene Dosis in das Waschmittelfach der Spülmaschine füllen und normales Programm wählen."
       },
       "it": {
         "name": "Detersivo Lavastoviglie",
@@ -7061,7 +7190,9 @@
           "experience": "Rendimiento desengrasante, acabado brillante y sensación satisfactoria de orden.",
           "sustainability": "92% de ingredientes de origen natural. Formato 5L de alto rendimiento. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Detersivo in gel per lavastoviglie. Elimina il grasso e protegge vetro e metallo. 92% di origine naturale.",
+        "usage": "Versare la dose consigliata nel vano del detersivo della lavastoviglie e selezionare un ciclo normale."
       },
       "nl": {
         "name": "Vaatwasmiddel",
@@ -7096,7 +7227,9 @@
           "experience": "Rendimiento desengrasante, acabado brillante y sensación satisfactoria de orden.",
           "sustainability": "92% de ingredientes de origen natural. Formato 5L de alto rendimiento. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Vaatwasser-gel. Verwijdert vet en beschermt glas en metaal. 92% van natuurlijke oorsprong.",
+        "usage": "Aanbevolen dosis in het waschmiddelcompartiment doen en een normaal programma selecteren."
       },
       "pt": {
         "name": "Detergente Máquina Loiça",
@@ -7131,7 +7264,9 @@
           "experience": "Rendimiento desengrasante, acabado brillante y sensación satisfactoria de orden.",
           "sustainability": "92% de ingredientes de origen natural. Formato 5L de alto rendimiento. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Detergente em gel para máquina de lavar louça. Corta a gordura e protege o vidro e o metal. 92% origem natural.",
+        "usage": "Deitar a dose recomendada no compartimento da máquina de lavar louça e selecionar um ciclo normal."
       },
       "basePriceEUR": 7.8,
       "basePriceGBP": 6.71
@@ -7191,7 +7326,10 @@
           "experience": "El toque final que eleva el resultado. Cristalería y vajilla con brillo profesional.",
           "sustainability": "98% de ingredientes de origen natural. El 2º más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "slug": "abrillantador-lavavajillas"
+        "slug": "abrillantador-lavavajillas",
+        "longDescription": "Abrillantador para lavavajillas. Previene marcas de agua y mejora el secado. 98% origen natural.",
+        "usage": "Llenar el compartimento de abrillantador hasta la marca máxima. El lavavajillas dosifica automáticamente.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Dishwasher Rinse Aid",
@@ -7226,7 +7364,9 @@
           "experience": "El toque final que eleva el resultado. Cristalería y vajilla con brillo profesional.",
           "sustainability": "98% de ingredientes de origen natural. El 2º más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Dishwasher rinse aid. Prevents water marks and improves drying. 98% natural origin.",
+        "usage": "Fill the rinse aid compartment to the maximum mark. The dishwasher doses automatically."
       },
       "fr": {
         "name": "Liquide de Rinçage",
@@ -7261,7 +7401,9 @@
           "experience": "El toque final que eleva el resultado. Cristalería y vajilla con brillo profesional.",
           "sustainability": "98% de ingredientes de origen natural. El 2º más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Liquide de rinçage pour lave-vaisselle. Prévient les traces d'eau et améliore le séchage. 98% d'origine naturelle.",
+        "usage": "Remplir le compartiment de rinçage jusqu'au niveau maximum. Le lave-vaisselle dose automatiquement."
       },
       "de": {
         "name": "Klarspüler",
@@ -7296,7 +7438,9 @@
           "experience": "El toque final que eleva el resultado. Cristalería y vajilla con brillo profesional.",
           "sustainability": "98% de ingredientes de origen natural. El 2º más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Klarspüler für die Spülmaschine. Verhindert Wasserflecken und verbessert die Trocknung. 98% natürlichen Ursprungs.",
+        "usage": "Klarspüler-Fach bis zur Maximalmarkierung füllen. Die Spülmaschine dosiert automatisch."
       },
       "it": {
         "name": "Brillantante Lavastoviglie",
@@ -7331,7 +7475,9 @@
           "experience": "El toque final que eleva el resultado. Cristalería y vajilla con brillo profesional.",
           "sustainability": "98% de ingredientes de origen natural. El 2º más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Brillantante per lavastoviglie. Previene le macchie d'acqua e migliora l'asciugatura. 98% di origine naturale.",
+        "usage": "Riempire il vano brillantante fino al livello massimo. La lavastoviglie dosifica automaticamente."
       },
       "nl": {
         "name": "Glansspoelmiddel",
@@ -7366,7 +7512,9 @@
           "experience": "El toque final que eleva el resultado. Cristalería y vajilla con brillo profesional.",
           "sustainability": "98% de ingredientes de origen natural. El 2º más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Glansspoelmiddel voor de vaatwasser. Voorkomt watervlekken en verbetert het drogen. 98% van natuurlijke oorsprong.",
+        "usage": "Het glansspoelmiddelcompartiment tot de maximummarkering vullen. De vaatwasser doseert automatisch."
       },
       "pt": {
         "name": "Abrilhantador Loiça",
@@ -7401,7 +7549,9 @@
           "experience": "El toque final que eleva el resultado. Cristalería y vajilla con brillo profesional.",
           "sustainability": "98% de ingredientes de origen natural. El 2º más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Abrillantador para máquina de lavar louça. Previne marcas de água e melhora a secagem. 98% origem natural.",
+        "usage": "Encher o compartimento do abrillantador até à marca máxima. A máquina doseia automaticamente."
       },
       "basePriceEUR": 5.7,
       "basePriceGBP": 4.9
@@ -7760,7 +7910,10 @@
           "experience": "Limpiar el baño con sensación de frescor tipo spa. Combina eficacia anti-cal con fragancia agradable.",
           "sustainability": "96% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "slug": "limpiador-banos"
+        "slug": "limpiador-banos",
+        "longDescription": "Limpiador de baños con acción antical y perfume fresco. 96% origen natural, dermatológicamente testado.",
+        "usage": "Aplicar sobre la superficie, dejar actuar 10 minutos y frotar con esponja o bayeta. Aclarar con agua.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Bathroom Cleaner",
@@ -7795,7 +7948,9 @@
           "experience": "Limpiar el baño con sensación de frescor tipo spa. Combina eficacia anti-cal con fragancia agradable.",
           "sustainability": "96% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Bathroom cleaner with anti-limescale action and fresh scent. 96% natural origin, dermatologically tested.",
+        "usage": "Apply to the surface, leave for 10 minutes and scrub with a sponge or cloth. Rinse with water."
       },
       "fr": {
         "name": "Nettoyant Salle de Bain",
@@ -7830,7 +7985,9 @@
           "experience": "Limpiar el baño con sensación de frescor tipo spa. Combina eficacia anti-cal con fragancia agradable.",
           "sustainability": "96% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Nettoyant salle de bain anti-calcaire au parfum frais. 96% d'origine naturelle, testé dermatologiquement.",
+        "usage": "Appliquer sur la surface, laisser agir 10 minutes et frotter avec une éponge ou un chiffon. Rincer à l'eau."
       },
       "de": {
         "name": "Badreiniger",
@@ -7865,7 +8022,9 @@
           "experience": "Limpiar el baño con sensación de frescor tipo spa. Combina eficacia anti-cal con fragancia agradable.",
           "sustainability": "96% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Badreiniger mit Kalkentferner-Wirkung und frischem Duft. 96% natürlichen Ursprungs, dermatologisch getestet.",
+        "usage": "Auf die Oberfläche auftragen, 10 Minuten einwirken lassen und mit Schwamm oder Tuch schrubben. Mit Wasser abspülen."
       },
       "it": {
         "name": "Detergente Bagno",
@@ -7900,7 +8059,9 @@
           "experience": "Limpiar el baño con sensación de frescor tipo spa. Combina eficacia anti-cal con fragancia agradable.",
           "sustainability": "96% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Detergente per bagno con azione anticalcare e profumo fresco. 96% di origine naturale, testato dermatologicamente.",
+        "usage": "Applicare sulla superficie, lasciare agire 10 minuti e strofinare con una spugna o un panno. Sciacquare con acqua."
       },
       "nl": {
         "name": "Badkamerreiniger",
@@ -7935,7 +8096,9 @@
           "experience": "Limpiar el baño con sensación de frescor tipo spa. Combina eficacia anti-cal con fragancia agradable.",
           "sustainability": "96% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Badkamerreiniger met antikalk-werking en frisse geur. 96% van natuurlijke oorsprong, dermatologisch getest.",
+        "usage": "Aanbrengen op het oppervlak, 10 minuten laten inwerken en schrobben met een spons of doek. Afspoelen met water."
       },
       "pt": {
         "name": "Detergente Casa de Banho",
@@ -7970,7 +8133,9 @@
           "experience": "Limpiar el baño con sensación de frescor tipo spa. Combina eficacia anti-cal con fragancia agradable.",
           "sustainability": "96% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Limpiador de casa de banho com ação anticalcário e perfume fresco. 96% origem natural, testado dermatologicamente.",
+        "usage": "Aplicar na superfície, deixar atuar 10 minutos e esfregar com esponja ou pano. Enxaguar com água."
       },
       "basePriceEUR": 6.2,
       "basePriceGBP": 5.33
@@ -8031,7 +8196,10 @@
           "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
           "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "slug": "desengrasante"
+        "slug": "desengrasante",
+        "longDescription": "Desengrasante 99% de origen natural y sin fragancia. Disuelve la grasa difícil de cocina sin esfuerzo.",
+        "usage": "Pulverizar directamente sobre la superficie engrasada, dejar actuar 1-2 minutos y limpiar con bayeta.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Degreaser",
@@ -8066,7 +8234,9 @@
           "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
           "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Degreaser 99% natural origin, fragrance-free. Effortlessly dissolves tough kitchen grease.",
+        "usage": "Spray directly onto the greasy surface, leave for 1–2 minutes and wipe with a cloth."
       },
       "fr": {
         "name": "Dégraissant",
@@ -8101,7 +8271,9 @@
           "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
           "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Dégraissant 99% d'origine naturelle, sans parfum. Dissout facilement les graisses tenaces de cuisine.",
+        "usage": "Pulvériser directement sur la surface grasse, laisser agir 1-2 minutes et essuyer avec un chiffon."
       },
       "de": {
         "name": "Fettlöser",
@@ -8136,7 +8308,9 @@
           "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
           "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Entfetter 99% natürlichen Ursprungs, ohne Duftstoffe. Löst hartnäckiges Küchenfett mühelos.",
+        "usage": "Direkt auf die fettige Oberfläche sprühen, 1–2 Minuten einwirken lassen und mit einem Tuch abwischen."
       },
       "it": {
         "name": "Sgrassatore",
@@ -8171,7 +8345,9 @@
           "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
           "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Sgrassatore 99% di origine naturale, senza profumo. Scioglie facilmente il grasso ostinato di cucina.",
+        "usage": "Spruzzare direttamente sulla superficie unta, lasciare agire 1-2 minuti e asciugare con un panno."
       },
       "nl": {
         "name": "Ontvetter",
@@ -8206,7 +8382,9 @@
           "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
           "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Ontvetter 99% van natuurlijke oorsprong, parfumvrij. Lost hardnekkig keukenvet moeiteloos op.",
+        "usage": "Rechtstreeks op het vette oppervlak spuiten, 1-2 minuten laten inwerken en afvegen met een doek."
       },
       "pt": {
         "name": "Desengordurante",
@@ -8241,7 +8419,9 @@
           "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
           "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Desengordurante 99% de origem natural e sem fragância. Dissolve a gordura difícil de cozinha sem esforço.",
+        "usage": "Pulverizar diretamente sobre a superfície engordurada, deixar atuar 1-2 minutos e limpar com pano."
       },
       "basePriceEUR": 4.8,
       "basePriceGBP": 4.13
@@ -8301,7 +8481,10 @@
           "experience": "El reset rápido del hogar. Huellas y marcas eliminadas de una pasada.",
           "sustainability": "97% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "slug": "limpiador-multisuperficies"
+        "slug": "limpiador-multisuperficies",
+        "longDescription": "Limpiador multisuperficies de origen natural para encimeras, muebles y puertas. Brillo sin rayas. 97% origen natural.",
+        "usage": "Pulverizar sobre la superficie, limpiar con bayeta húmeda o microfibra y dejar secar.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Multi-surface Cleaner",
@@ -8336,7 +8519,9 @@
           "experience": "El reset rápido del hogar. Huellas y marcas eliminadas de una pasada.",
           "sustainability": "97% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Multi-surface cleaner of natural origin for worktops, furniture and doors. Streak-free shine. 97% natural origin.",
+        "usage": "Spray onto the surface, wipe with a damp cloth or microfibre and leave to dry."
       },
       "fr": {
         "name": "Nettoyant Multi-surfaces",
@@ -8371,7 +8556,9 @@
           "experience": "El reset rápido del hogar. Huellas y marcas eliminadas de una pasada.",
           "sustainability": "97% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Nettoyant multi-surfaces d'origine naturelle pour plans de travail, meubles et portes. Brillant sans traces. 97% d'origine naturelle.",
+        "usage": "Pulvériser sur la surface, essuyer avec un chiffon humide ou en microfibre et laisser sécher."
       },
       "de": {
         "name": "Allzweckreiniger",
@@ -8406,7 +8593,9 @@
           "experience": "El reset rápido del hogar. Huellas y marcas eliminadas de una pasada.",
           "sustainability": "97% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Allzweckreiniger natürlichen Ursprungs für Arbeitsflächen, Möbel und Türen. Streifenfreier Glanz. 97% natürlichen Ursprungs.",
+        "usage": "Auf die Oberfläche sprühen, mit einem feuchten Tuch oder Mikrofasertuch abwischen und trocknen lassen."
       },
       "it": {
         "name": "Detergente Multisuperficie",
@@ -8441,7 +8630,9 @@
           "experience": "El reset rápido del hogar. Huellas y marcas eliminadas de una pasada.",
           "sustainability": "97% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Detergente multiuso di origine naturale per piani di lavoro, mobili e porte. Brillantezza senza aloni. 97% di origine naturale.",
+        "usage": "Spruzzare sulla superficie, pulire con un panno umido o in microfibra e lasciare asciugare."
       },
       "nl": {
         "name": "Allesreiniger",
@@ -8476,7 +8667,9 @@
           "experience": "El reset rápido del hogar. Huellas y marcas eliminadas de una pasada.",
           "sustainability": "97% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Multisurfacereiniger van natuurlijke oorsprong voor aanrechten, meubels en deuren. Streepvrije glans. 97% van natuurlijke oorsprong.",
+        "usage": "Op het oppervlak spuiten, afvegen met een vochtige doek of microvezeldoek en laten drogen."
       },
       "pt": {
         "name": "Detergente Multisuperfícies",
@@ -8511,7 +8704,9 @@
           "experience": "El reset rápido del hogar. Huellas y marcas eliminadas de una pasada.",
           "sustainability": "97% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Limpador multissuperfícies de origem natural para bancadas, móveis e portas. Brilho sem riscas. 97% origem natural.",
+        "usage": "Pulverizar na superfície, limpar com pano húmido ou microfibra e deixar secar."
       },
       "basePriceEUR": 6.2,
       "basePriceGBP": 5.33
@@ -8571,7 +8766,10 @@
           "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
           "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
         },
-        "slug": "limpiacristales"
+        "slug": "limpiacristales",
+        "longDescription": "Limpiacristales 99% de origen natural y sin fragancia. Deja cristales y espejos impecables sin velos ni marcas.",
+        "usage": "Pulverizar sobre el cristal o espejo y limpiar con un paño de microfibra o papel de periódico.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Glass Cleaner",
@@ -8606,7 +8804,9 @@
           "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
           "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Glass cleaner 99% natural origin, fragrance-free. Leaves glass and mirrors flawlessly clear with no streaks.",
+        "usage": "Spray onto the glass or mirror and wipe clean with a microfibre cloth or newspaper."
       },
       "fr": {
         "name": "Nettoyant Vitres",
@@ -8641,7 +8841,9 @@
           "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
           "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Nettoyant vitres 99% d'origine naturelle, sans parfum. Laisse vitres et miroirs impeccables sans voiles ni traces.",
+        "usage": "Pulvériser sur la vitre ou le miroir et nettoyer avec un chiffon en microfibre ou du papier journal."
       },
       "de": {
         "name": "Glasreiniger",
@@ -8676,7 +8878,9 @@
           "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
           "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Glasreiniger 99% natürlichen Ursprungs, ohne Duftstoffe. Hinterlässt Glas und Spiegel makellos klar und streifenfrei.",
+        "usage": "Auf Glas oder Spiegel sprühen und mit einem Mikrofasertuch oder Zeitungspapier abwischen."
       },
       "it": {
         "name": "Detergente Vetri",
@@ -8711,7 +8915,9 @@
           "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
           "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Detergente vetri 99% di origine naturale, senza profumo. Lascia vetri e specchi impeccabili senza aloni.",
+        "usage": "Spruzzare sul vetro o sullo specchio e pulire con un panno in microfibra o carta di giornale."
       },
       "nl": {
         "name": "Glasreiniger",
@@ -8746,7 +8952,9 @@
           "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
           "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Glasreiniger 99% van natuurlijke oorsprong, parfumvrij. Laat glas en spiegels vlekkeloos schoon en streepvrij.",
+        "usage": "Op het glas of de spiegel spuiten en afvegen met een microvezeldoek of krantenpapier."
       },
       "pt": {
         "name": "Limpa-vidros",
@@ -8781,7 +8989,9 @@
           "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
           "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
         },
-        "aiTranslation": true
+        "aiTranslation": true,
+        "longDescription": "Limpa-vidros 99% de origem natural e sem fragância. Deixa vidros e espelhos impecáveis sem véus nem marcas.",
+        "usage": "Pulverizar no vidro ou espelho e limpar com pano de microfibra ou papel de jornal."
       },
       "basePriceEUR": 5.9,
       "basePriceGBP": 5.07
@@ -8844,7 +9054,10 @@
           "experience": "El champú que cuida el pelo desde dentro. Los extractos botánicos y las vitaminas B dan vitalidad real al pelaje.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
-        "slug": "champu-pet-repair-argan-perros"
+        "slug": "champu-pet-repair-argan-perros",
+        "longDescription": "Champú 2 en 1 para perros con aceite de argán, extractos botánicos y activos microbioma. Apto para uso frecuente.",
+        "usage": "Mojar bien el pelaje. Aplicar y masajear desde la cabeza hacia la cola. Aclarar completamente. Repetir si es necesario.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Argan Pet Repair Shampoo",
@@ -8880,7 +9093,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "2-in-1 dog shampoo with argan oil, botanical extracts and microbiome actives. Suitable for frequent use.",
+        "usage": "Wet the coat thoroughly. Apply and massage from head to tail. Rinse completely. Repeat if necessary."
       },
       "fr": {
         "name": "Shampooing Argan Réparateur Chien",
@@ -8916,7 +9131,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Shampooing 2 en 1 pour chiens avec huile d'argan, extraits botaniques et actifs microbiome. Convient à un usage fréquent.",
+        "usage": "Bien mouiller le pelage. Appliquer et masser de la tête vers la queue. Rincer complètement. Répéter si nécessaire."
       },
       "de": {
         "name": "Arganöl-Hundeshampoo",
@@ -8952,7 +9169,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "2-in-1-Hundeshampoo mit Arganöl, Pflanzenextrakten und Mikrobiom-Wirkstoffen. Für häufige Anwendung geeignet.",
+        "usage": "Das Fell gründlich anfeuchten. Von Kopf bis Schwanz einmassieren. Vollständig ausspülen. Bei Bedarf wiederholen."
       },
       "it": {
         "name": "Shampoo Argan Riparatore Cani",
@@ -8988,7 +9207,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Shampoo 2 in 1 per cani con olio di argan, estratti botanici e attivi microbioma. Adatto all'uso frequente.",
+        "usage": "Bagnare bene il manto. Applicare e massaggiare dalla testa alla coda. Sciacquare completamente. Ripetere se necessario."
       },
       "nl": {
         "name": "Argan Hondenshampoo",
@@ -9024,7 +9245,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "2-in-1 hondenshampoo met arganolie, botanische extracten en microbioom-activatoren. Geschikt voor frequent gebruik.",
+        "usage": "De vacht grondig nat maken. Van kop tot staart inmasseren. Volledig uitspoelen. Herhalen indien nodig."
       },
       "pt": {
         "name": "Champô Argão Cães",
@@ -9060,7 +9283,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12059-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Champô 2 em 1 para cães com óleo de argão, extratos botânicos e ativos microbioma. Adequado para uso frequente.",
+        "usage": "Molhar bem o pelo. Aplicar e massajar da cabeça para a cauda. Enxaguar completamente. Repetir se necessário."
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42
@@ -9121,7 +9346,10 @@
           "experience": "El baño del gato puede no ser traumático. Con el producto correcto y la actitud calmada, puede incluso ser un momento de vínculo.",
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
-        "slug": "champu-natural-gatos"
+        "slug": "champu-natural-gatos",
+        "longDescription": "Champú suave 2 en 1 para gatos con aceite de argán y activos microbioma. pH 6,5-7,5 adaptado al gato.",
+        "usage": "Mojar bien el pelaje con agua templada. Aplicar, masajear suavemente y aclarar completamente.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Gentle Cat Shampoo",
@@ -9157,7 +9385,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "Gentle 2-in-1 cat shampoo with argan oil and microbiome actives. pH 6.5–7.5 adapted for cats.",
+        "usage": "Wet the coat with lukewarm water. Apply, gently massage and rinse thoroughly."
       },
       "fr": {
         "name": "Shampooing Naturel Chat",
@@ -9193,7 +9423,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Shampooing 2 en 1 doux pour chats avec huile d'argan et actifs microbiome. pH 6,5-7,5 adapté au chat.",
+        "usage": "Mouiller le pelage avec de l'eau tiède. Appliquer, masser doucement et rincer complètement."
       },
       "de": {
         "name": "Natürliches Katzenshampoo",
@@ -9229,7 +9461,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "Mildes 2-in-1-Katzenshampoo mit Arganöl und Mikrobiom-Wirkstoffen. pH 6,5–7,5 auf Katzen abgestimmt.",
+        "usage": "Das Fell mit lauwarmem Wasser anfeuchten. Auftragen, sanft einmassieren und vollständig ausspülen."
       },
       "it": {
         "name": "Shampoo Naturale Gatti",
@@ -9265,7 +9499,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Shampoo 2 in 1 delicato per gatti con olio di argan e attivi microbioma. pH 6,5-7,5 adattato ai gatti.",
+        "usage": "Bagnare il manto con acqua tiepida. Applicare, massaggiare delicatamente e sciacquare completamente."
       },
       "nl": {
         "name": "Natuurlijke Kattenshampoo",
@@ -9301,7 +9537,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "Zachte 2-in-1 kattenshampoo met arganolie en microbioom-activatoren. pH 6,5-7,5 afgestemd op katten.",
+        "usage": "De vacht met lauwwarm water nat maken. Aanbrengen, zachtjes inmasseren en grondig uitspoelen."
       },
       "pt": {
         "name": "Champô Natural Gatos",
@@ -9337,7 +9575,9 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Registro MAPA 12060-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Champô suave 2 em 1 para gatos com óleo de argão e ativos microbioma. pH 6,5-7,5 adaptado ao gato.",
+        "usage": "Molhar o pelo com água morna. Aplicar, massajar suavemente e enxaguar completamente."
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42
@@ -9398,7 +9638,10 @@
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
-        "slug": "limpiador-oidos-mascotas"
+        "slug": "limpiador-oidos-mascotas",
+        "longDescription": "Solución limpiadora de oídos con aceite de árbol de té al 0,2%. Sin fragancia, pH neutro. Para perros y gatos.",
+        "usage": "Aplicar unas gotas en el canal auditivo, masajear la base de la oreja y dejar que el animal sacuda la cabeza. Retirar el exceso con una gasa.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Pet Ear Cleaner",
@@ -9434,7 +9677,9 @@
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "Ear cleaning solution with 0.2% tea tree oil. Fragrance-free, neutral pH. For dogs and cats.",
+        "usage": "Apply a few drops to the ear canal, massage the base of the ear and allow the animal to shake its head. Remove excess with gauze."
       },
       "fr": {
         "name": "Nettoyant Oreilles Animaux",
@@ -9470,7 +9715,9 @@
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Solution nettoyante auriculaire à 0,2% d'huile d'arbre à thé. Sans parfum, pH neutre. Pour chiens et chats.",
+        "usage": "Appliquer quelques gouttes dans le conduit auditif, masser la base de l'oreille et laisser l'animal secouer la tête. Retirer l'excès avec une compresse."
       },
       "de": {
         "name": "Ohrreiniger Haustiere",
@@ -9506,7 +9753,9 @@
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "Ohrreinigungslösung mit 0,2% Teebaumöl. Ohne Duftstoffe, neutraler pH. Für Hunde und Katzen.",
+        "usage": "Einige Tropfen in den Gehörgang geben, die Ohrbasis sanft massieren und das Tier den Kopf schütteln lassen. Überschuss mit Gaze entfernen."
       },
       "it": {
         "name": "Detergente Orecchie Animali",
@@ -9542,7 +9791,9 @@
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Soluzione detergente per orecchie con olio dell'albero del tè allo 0,2%. Senza profumo, pH neutro. Per cani e gatti.",
+        "usage": "Applicare alcune gocce nel condotto uditivo, massaggiare la base dell'orecchio e lasciare che l'animale scuota la testa. Rimuovere l'eccesso con una garza."
       },
       "nl": {
         "name": "Oorreiniger Huisdieren",
@@ -9578,7 +9829,9 @@
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "Oorschoonmaakmiddel met 0,2% tea tree olie. Parfumvrij, neutrale pH. Voor honden en katten.",
+        "usage": "Een paar druppels in het gehoorkanaal aanbrengen, de basis van het oor masseren en het dier zijn hoofd laten schudden. Overtollig middel met gaas verwijderen."
       },
       "pt": {
         "name": "Limpador Ouvidos Animais",
@@ -9614,7 +9867,9 @@
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Solução limpadora de ouvidos com óleo de árvore do chá a 0,2%. Sem fragância, pH neutro. Para cães e gatos.",
+        "usage": "Aplicar algumas gotas no canal auditivo, massajar a base da orelha e deixar o animal sacudir a cabeça. Retirar o excesso com gaze."
       }
     },
     {
@@ -9673,7 +9928,10 @@
           "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
-        "slug": "limpiador-ojos-mascotas"
+        "slug": "limpiador-ojos-mascotas",
+        "longDescription": "Solución limpiadora ocular con complejo herbal de 6 plantas. Antiséptico, antiinflamatorio e inodoro. Para perros y gatos.",
+        "usage": "Aplicar unas gotas sobre una gasa limpia y limpiar suavemente el contorno del ojo de interior a exterior.",
+        "aiTranslation": true
       },
       "en": {
         "name": "Pet Eye Cleaner",
@@ -9709,7 +9967,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only.",
+        "longDescription": "Eye cleaning solution with a 6-plant herbal complex. Antiseptic, anti-inflammatory and odourless. For dogs and cats.",
+        "usage": "Apply a few drops to clean gauze and gently clean around the eye from the inside outward."
       },
       "fr": {
         "name": "Nettoyant Yeux Animaux",
@@ -9745,7 +10005,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement.",
+        "longDescription": "Solution nettoyante oculaire avec complexe herbal de 6 plantes. Antiseptique, anti-inflammatoire et inodore. Pour chiens et chats.",
+        "usage": "Appliquer quelques gouttes sur une compresse propre et nettoyer délicatement le contour de l'œil de l'intérieur vers l'extérieur."
       },
       "de": {
         "name": "Augenreiniger Haustiere",
@@ -9781,7 +10043,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
+        "longDescription": "Augenreinigungslösung mit einem Kräuterkomplex aus 6 Pflanzen. Antiseptisch, entzündungshemmend und geruchlos. Für Hunde und Katzen.",
+        "usage": "Einige Tropfen auf saubere Gaze geben und den Augenbereich sanft von innen nach außen reinigen."
       },
       "it": {
         "name": "Detergente Occhi Animali",
@@ -9817,7 +10081,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
+        "longDescription": "Soluzione detergente oculare con complesso erboristico di 6 piante. Antisettico, antinfiammatorio e inodore. Per cani e gatti.",
+        "usage": "Applicare alcune gocce su una garza pulita e pulire delicatamente il contorno dell'occhio dall'interno verso l'esterno."
       },
       "nl": {
         "name": "Oogreiniger Huisdieren",
@@ -9853,7 +10119,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
+        "longDescription": "Oogschoonmaakmiddel met een kruidencomplex van 6 planten. Antiseptisch, ontstekingsremmend en geurloos. Voor honden en katten.",
+        "usage": "Een paar druppels op schoon gaas aanbrengen en voorzichtig rond het oog reinigen van binnen naar buiten."
       },
       "pt": {
         "name": "Limpador Olhos Animais",
@@ -9889,7 +10157,9 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
-        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
+        "longDescription": "Solução limpadora ocular com complexo herbal de 6 plantas. Antisséptico, anti-inflamatório e inodoro. Para cães e gatos.",
+        "usage": "Aplicar algumas gotas em gaze limpa e limpar suavemente o contorno do olho de dentro para fora."
       }
     }
   ]
