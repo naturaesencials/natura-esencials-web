@@ -1164,7 +1164,7 @@
       },
       "pt": {
         "name": "Leite Corporal",
-        "subtitle": "Loción corporal con aceites de aguacate y jojoba. Absorción rápida, acabado mate.",
+        "subtitle": "Loção corporal com óleos de abacate e jojoba. Absorção rápida, efeito mate.",
         "slug": "leite-corporal",
         "olfactiveFamily": "Floral suave · Aromático",
         "momentOfUse": "Após o duche · Cuidado diário",
@@ -1576,7 +1576,7 @@
         "momentOfUse": "Morning shower · Daily routine",
         "nameMain": "Shampoo",
         "nameAccent": "for Him",
-        "shortDescription": "Limpia, acondiciona y da carácter al ritual matinal. Dermatológicamente testado.",
+        "shortDescription": "Cleanses, conditions and gives character to the morning ritual. Dermatologically tested.",
         "benefits": [
           "2-in-1: cleanses and conditions. Argan for dry, lifeless hair. Dermatologically tested.",
           "Coconut and sugar-derived surfactants. pH 4.5–5.5 for frequent use. PAO 12 months."
@@ -1614,7 +1614,7 @@
         "momentOfUse": "Douche du matin · Routine quotidienne",
         "nameMain": "Shampooing",
         "nameAccent": "homme",
-        "shortDescription": "Limpia, acondiciona y da carácter al ritual matinal. Dermatológicamente testado.",
+        "shortDescription": "Nettoie, conditionne et donne du caractère au rituel matinal. Testé dermatologiquement.",
         "benefits": [
           "2 en 1 : nettoie et conditionne. Argan pour les cheveux secs et sans vitalité. Testé dermatologiquement.",
           "Tensioactifs dérivés du coco et du sucre. pH 4,5-5,5 usage fréquent. PAO 12 mois."
@@ -1652,7 +1652,7 @@
         "momentOfUse": "Morgendliche Dusche · Tägliche Routine",
         "nameMain": "Herren",
         "nameAccent": "shampoo",
-        "shortDescription": "Limpia, acondiciona y da carácter al ritual matinal. Dermatológicamente testado.",
+        "shortDescription": "Reinigt, pflegt und verleiht dem Morgenritual Charakter. Dermatologisch getestet.",
         "benefits": [
           "2-in-1: reinigt und pflegt. Argan für trockenes, kraftloses Haar. Dermatologisch getestet.",
           "Tenside aus Kokos und Zucker. pH 4,5–5,5 für häufigen Einsatz. PAO 12 Monate."
@@ -1690,7 +1690,7 @@
         "momentOfUse": "Doccia del mattino · Routine quotidiana",
         "nameMain": "Shampoo",
         "nameAccent": "uomo",
-        "shortDescription": "Limpia, acondiciona y da carácter al ritual matinal. Dermatológicamente testado.",
+        "shortDescription": "Pulisce, idrata e dà carattere al rituale mattutino. Testato dermatologicamente.",
         "benefits": [
           "2 in 1: pulisce e idrata. Argan per capelli secchi e privi di vitalità. Testato dermatologicamente.",
           "Tensioattivi derivati dal cocco e dallo zucchero. pH 4,5-5,5 uso frequente. PAO 12 mesi."
@@ -1728,7 +1728,7 @@
         "momentOfUse": "Ochtenddouche · Dagelijkse routine",
         "nameMain": "Mannen",
         "nameAccent": "shampoo",
-        "shortDescription": "Limpia, acondiciona y da carácter al ritual matinal. Dermatológicamente testado.",
+        "shortDescription": "Reinigt, verzorgt en geeft karakter aan het ochtendritueeel. Dermatologisch getest.",
         "benefits": [
           "2-in-1: reinigt en verzorgt. Argan voor droog, levenloos haar. Dermatologisch getest.",
           "Tensiden van kokos en suiker. pH 4,5-5,5 voor frequent gebruik. PAO 12 maanden."
@@ -1766,7 +1766,7 @@
         "momentOfUse": "Duche matinal · Rotina diária",
         "nameMain": "Champô",
         "nameAccent": "homem",
-        "shortDescription": "Limpia, acondiciona y da carácter al ritual matinal. Dermatológicamente testado.",
+        "shortDescription": "Limpa, condiciona e dá carácter ao ritual matinal. Testado dermatologicamente.",
         "benefits": [
           "2 em 1: limpa e condiciona. Argão para cabelo seco e sem vitalidade. Testado dermatologicamente.",
           "Tensioativos derivados de coco e açúcar. pH 4,5-5,5 uso frequente. PAO 12 meses."
@@ -1870,7 +1870,7 @@
         "momentOfUse": "After shampoo · Daily care",
         "nameMain": "Conditioner",
         "nameAccent": "for Him",
-        "shortDescription": "Aroma ámbar fresco masculino. pH 3,3-4,3 óptimo para el cabello.",
+        "shortDescription": "Fresh amber masculine scent. pH 3.3–4.3 optimal for hair.",
         "benefits": [
           "Hydrolysed quinoa + hyaluronic acid + panthenol + Pisum Sativum. Intense nourishment.",
           "Olive + argan + coconut oils. pH 3.3–4.3 optimal for hair. Amber scent."
@@ -1908,7 +1908,7 @@
         "momentOfUse": "Après le shampooing · Soin quotidien",
         "nameMain": "Après-shampooing",
         "nameAccent": "homme",
-        "shortDescription": "Aroma ámbar fresco masculino. pH 3,3-4,3 óptimo para el cabello.",
+        "shortDescription": "Arôme ambré frais masculin. pH 3,3-4,3 optimal pour les cheveux.",
         "benefits": [
           "Quinoa hydrolysée + acide hyaluronique + panthénol + Pisum Sativum. Nutrition intense.",
           "Olive + argan + huile de coco. pH 3,3-4,3 optimal pour les cheveux. Arôme ambré."
@@ -1946,7 +1946,7 @@
         "momentOfUse": "Nach dem Shampoo · Tägliche Pflege",
         "nameMain": "Haarspülung",
         "nameAccent": "Herren",
-        "shortDescription": "Aroma ámbar fresco masculino. pH 3,3-4,3 óptimo para el cabello.",
+        "shortDescription": "Frischer maskuliner Amber-Duft. pH 3,3–4,3 optimal für das Haar.",
         "benefits": [
           "Hydrolysiertes Quinoa + Hyaluronsäure + Panthenol + Pisum Sativum. Intensive Pflege.",
           "Oliven- + Argan- + Kokosöl. pH 3,3–4,3 optimal für Haare. Amber-Duft."
@@ -1984,7 +1984,7 @@
         "momentOfUse": "Dopo lo shampoo · Cura quotidiana",
         "nameMain": "Balsamo",
         "nameAccent": "uomo",
-        "shortDescription": "Aroma ámbar fresco masculino. pH 3,3-4,3 óptimo para el cabello.",
+        "shortDescription": "Aroma ambrato fresco maschile. pH 3,3-4,3 ottimale per i capelli.",
         "benefits": [
           "Quinoa idrolizzata + acido ialuronico + pantenolo + Pisum Sativum. Nutrimento intenso.",
           "Oli di oliva + argan + cocco. pH 3,3-4,3 ottimale per i capelli. Aroma ambrato."
@@ -2022,7 +2022,7 @@
         "momentOfUse": "Na de shampoo · Dagelijkse verzorging",
         "nameMain": "Mannen",
         "nameAccent": "conditioner",
-        "shortDescription": "Aroma ámbar fresco masculino. pH 3,3-4,3 óptimo para el cabello.",
+        "shortDescription": "Fris masculien amber-aroma. pH 3,3-4,3 optimaal voor het haar.",
         "benefits": [
           "Gehydrolyseerde quinoa + hyaluronzuur + pantenol + Pisum Sativum. Intensieve voeding.",
           "Olijf- + argan- + kokosolie. pH 3,3-4,3 optimaal voor haar. Amber-aroma."
@@ -2060,7 +2060,7 @@
         "momentOfUse": "Após o champô · Cuidado diário",
         "nameMain": "Condicionador",
         "nameAccent": "homem",
-        "shortDescription": "Aroma ámbar fresco masculino. pH 3,3-4,3 óptimo para el cabello.",
+        "shortDescription": "Aroma âmbar fresco masculino. pH 3,3-4,3 ótimo para o cabelo.",
         "benefits": [
           "Quinoa hidrolisada + ácido hialurónico + pantenol + Pisum Sativum. Nutrição intensa.",
           "Azeite + argão + óleo de coco. pH 3,3-4,3 ótimo para o cabelo. Aroma âmbar."
@@ -2164,7 +2164,7 @@
         "momentOfUse": "Daily handwash · Quick shower",
         "nameMain": "Hand and Body Wash",
         "nameAccent": "for Him",
-        "shortDescription": "Aroma ámbar fresco masculino. Respeta el manto hidrolipídico. 95% origen natural.",
+        "shortDescription": "Fresh amber masculine scent. Respects the hydrolipidic film. 95% natural origin.",
         "benefits": [
           "Coconut and sugar surfactants: gentle lather that respects the hydrolipidic film.",
           "With moisturising glycerin. pH recovers quickly. Fresh amber scent."
@@ -2202,7 +2202,7 @@
         "momentOfUse": "Lavabo · Douche rapide",
         "nameMain": "Gel mains et corps",
         "nameAccent": "homme",
-        "shortDescription": "Aroma ámbar fresco masculino. Respeta el manto hidrolipídico. 95% origen natural.",
+        "shortDescription": "Arôme ambré frais masculin. Respecte le film hydrolipidique. 95% d'origine naturelle.",
         "benefits": [
           "Tensioactifs du coco et du sucre : savonnage doux qui respecte le film hydrolipidique.",
           "Avec de la glycérine hydratante. Le pH se rétablit rapidement. Parfum ambré frais."
@@ -2240,7 +2240,7 @@
         "momentOfUse": "Tägliche Handwäsche · Schnelle Dusche",
         "nameMain": "Hand- und Körpergel",
         "nameAccent": "Herren",
-        "shortDescription": "Aroma ámbar fresco masculino. Respeta el manto hidrolipídico. 95% origen natural.",
+        "shortDescription": "Frischer maskuliner Amber-Duft. Schont den Hydrolipidfilm. 95% natürlichen Ursprungs.",
         "benefits": [
           "Tenside aus Kokos und Zucker: sanfter Schaum, der den Hydrolipidfilm schont.",
           "Mit feuchtigkeitsspendender Glycerin. pH erholt sich schnell. Frischer Amber-Duft."
@@ -2278,7 +2278,7 @@
         "momentOfUse": "Lavaggio quotidiano · Doccia veloce",
         "nameMain": "Detergente mani e corpo",
         "nameAccent": "uomo",
-        "shortDescription": "Aroma ámbar fresco masculino. Respeta el manto hidrolipídico. 95% origen natural.",
+        "shortDescription": "Aroma ambrato fresco maschile. Rispetta il film idrolipidico. 95% di origine naturale.",
         "benefits": [
           "Tensioattivi del cocco e dello zucchero: detergenza delicata che rispetta il film idrolipidico.",
           "Con glicerina idratante. Il pH si recupera rapidamente. Profumo ambrato fresco."
@@ -2316,7 +2316,7 @@
         "momentOfUse": "Dagelijkse handwas · Snelle douche",
         "nameMain": "Hand- en lichaamsgel",
         "nameAccent": "mannen",
-        "shortDescription": "Aroma ámbar fresco masculino. Respeta el manto hidrolipídico. 95% origen natural.",
+        "shortDescription": "Fris masculien amber-aroma. Respecteert het hydrolipidische film. 95% van natuurlijke oorsprong.",
         "benefits": [
           "Tensiden van kokos en suiker: zachte zeep die de hydrolipidische film respecteert.",
           "Met vochtinbrengende glycerine. pH herstelt snel. Frisse amber-geur."
@@ -2354,7 +2354,7 @@
         "momentOfUse": "Lavagem diária · Duche rápido",
         "nameMain": "Gel mãos e corpo",
         "nameAccent": "homem",
-        "shortDescription": "Aroma ámbar fresco masculino. Respeta el manto hidrolipídico. 95% origen natural.",
+        "shortDescription": "Aroma âmbar fresco masculino. Respeita o manto hidrolipídico. 95% de origem natural.",
         "benefits": [
           "Tensioativos de coco e açúcar: sabonagem suave que respeita o manto hidrolipídico.",
           "Com glicerina hidratante. O pH recupera rapidamente. Aroma âmbar fresco."
@@ -2457,7 +2457,7 @@
         "momentOfUse": "After shower · Quick finish",
         "nameMain": "Body Milk",
         "nameAccent": "for Him",
-        "shortDescription": "Absorción casi instantánea, efecto mate y aroma ámbar discreto.",
+        "shortDescription": "Near-instant absorption, matte effect and subtle amber scent.",
         "benefits": [
           "Near-instant absorption, matte effect, zero stickiness. Non-greasy.",
           "With avocado and jojoba oils. Pleasant, subtle masculine scent."
@@ -2495,7 +2495,7 @@
         "momentOfUse": "Après la douche · Fini rapide",
         "nameMain": "Lait corporel",
         "nameAccent": "homme",
-        "shortDescription": "Absorción casi instantánea, efecto mate y aroma ámbar discreto.",
+        "shortDescription": "Absorption quasi instantanée, effet mat et arôme ambré discret.",
         "benefits": [
           "Absorption quasi instantanée, effet mat, zéro collant. Non gras.",
           "Avec des huiles d'avocat et de jojoba. Parfum masculin agréable et discret."
@@ -2533,7 +2533,7 @@
         "momentOfUse": "Nach der Dusche · Schnelles Finish",
         "nameMain": "Körpermilch",
         "nameAccent": "Herren",
-        "shortDescription": "Absorción casi instantánea, efecto mate y aroma ámbar discreto.",
+        "shortDescription": "Nahezu sofortige Absorption, Matteffekt und dezenter Amber-Duft.",
         "benefits": [
           "Nahezu sofortige Absorption, Matteffekt, null Klebrigkeit. Nicht fettig.",
           "Mit Avocado- und Jojobaöl. Angenehmer, dezenter maskuliner Duft."
@@ -2571,7 +2571,7 @@
         "momentOfUse": "Dopo la doccia · Finitura veloce",
         "nameMain": "Latte corpo",
         "nameAccent": "uomo",
-        "shortDescription": "Absorción casi instantánea, efecto mate y aroma ámbar discreto.",
+        "shortDescription": "Assorbimento quasi istantaneo, effetto mat e aroma ambrato discreto.",
         "benefits": [
           "Assorbimento quasi istantaneo, effetto mat, zero appiccicosità. Non grasso.",
           "Con oli di avocado e jojoba. Profumo maschile piacevole e discreto."
@@ -2609,7 +2609,7 @@
         "momentOfUse": "Na de douche · Snelle afwerking",
         "nameMain": "Body milk",
         "nameAccent": "mannen",
-        "shortDescription": "Absorción casi instantánea, efecto mate y aroma ámbar discreto.",
+        "shortDescription": "Vrijwel onmiddellijke absorptie, mat effect en subtiele amber-geur.",
         "benefits": [
           "Vrijwel onmiddellijke absorptie, mat effect, nul kleverigheid. Niet vettig.",
           "Met avocado- en jojobaölie. Aangenaam, subtiel masculien aroma."
@@ -2647,7 +2647,7 @@
         "momentOfUse": "Após o duche · Acabamento rápido",
         "nameMain": "Leite corporal",
         "nameAccent": "homem",
-        "shortDescription": "Absorción casi instantánea, efecto mate y aroma ámbar discreto.",
+        "shortDescription": "Absorção quase instantânea, efeito mate e aroma âmbar discreto.",
         "benefits": [
           "Absorção quase instantânea, efeito mate, zero pegajosidade. Não gorduroso.",
           "Com óleos de abacate e jojoba. Aroma masculino agradável e discreto."
@@ -3866,7 +3866,7 @@
         "momentOfUse": "Daily shower · Hair routine",
         "nameMain": "Shampoo",
         "nameAccent": "for Her",
-        "shortDescription": "Limpia, acondiciona y deja la firma cítrica femenina de la colección.",
+        "shortDescription": "Cleanses, conditions and leaves the feminine citrus signature of the collection.",
         "benefits": [
           "2-in-1: cleanses and conditions. Argan for shine, manageability and vitality.",
           "Fresh orange Citrus Aurantium + Limonene scent. Dermatologically tested."
@@ -3904,7 +3904,7 @@
         "momentOfUse": "Douche quotidienne · Routine cheveux",
         "nameMain": "Shampooing",
         "nameAccent": "femme",
-        "shortDescription": "Limpia, acondiciona y deja la firma cítrica femenina de la colección.",
+        "shortDescription": "Nettoie, conditionne et laisse la signature citronnée féminine de la collection.",
         "benefits": [
           "2 en 1 : nettoie et conditionne. Argan pour la brillance, la maniabilité et la vitalité.",
           "Parfum d'orange fraîche Citrus Aurantium + Limonène. Testé dermatologiquement."
@@ -3942,7 +3942,7 @@
         "momentOfUse": "Tägliche Dusche · Haarroutine",
         "nameMain": "Damen",
         "nameAccent": "shampoo",
-        "shortDescription": "Limpia, acondiciona y deja la firma cítrica femenina de la colección.",
+        "shortDescription": "Reinigt, pflegt und hinterlässt die feminine Zitrussignatur der Kollektion.",
         "benefits": [
           "2-in-1: reinigt und pflegt. Argan für Glanz, Handhabbarkeit und Vitalität.",
           "Frischer Orangen-Citrus Aurantium + Limonen-Duft. Dermatologisch getestet."
@@ -3980,7 +3980,7 @@
         "momentOfUse": "Doccia quotidiana · Routine capelli",
         "nameMain": "Shampoo",
         "nameAccent": "donna",
-        "shortDescription": "Limpia, acondiciona y deja la firma cítrica femenina de la colección.",
+        "shortDescription": "Pulisce, idrata e lascia la firma agrumata femminile della collezione.",
         "benefits": [
           "2 in 1: pulisce e idrata. Argan per brillantezza, maneggevolezza e vitalità.",
           "Profumo di arancia fresca Citrus Aurantium + Limonene. Testato dermatologicamente."
@@ -4018,7 +4018,7 @@
         "momentOfUse": "Dagelijkse douche · Haarroutine",
         "nameMain": "Vrouwen",
         "nameAccent": "shampoo",
-        "shortDescription": "Limpia, acondiciona y deja la firma cítrica femenina de la colección.",
+        "shortDescription": "Reinigt, verzorgt en laat de vrouwelijke citrushandtekening van de collectie achter.",
         "benefits": [
           "2-in-1: reinigt en verzorgt. Argan voor glans, hanteerbaarheid en vitaliteit.",
           "Frisse sinaasappel Citrus Aurantium + Limonene geur. Dermatologisch getest."
@@ -4056,7 +4056,7 @@
         "momentOfUse": "Duche diário · Rotina capilar",
         "nameMain": "Champô",
         "nameAccent": "mulher",
-        "shortDescription": "Limpia, acondiciona y deja la firma cítrica femenina de la colección.",
+        "shortDescription": "Limpa, condiciona e deixa a assinatura cítrica feminina da coleção.",
         "benefits": [
           "2 em 1: limpa e condiciona. Argão para brilho, maneabilidade e vitalidade.",
           "Aroma de laranja fresca Citrus Aurantium + Limoneno. Testado dermatologicamente."
@@ -4160,7 +4160,7 @@
         "momentOfUse": "After shampoo · Daily care",
         "nameMain": "Conditioner",
         "nameAccent": "for Her",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium. El ritual capilar femenino completo.",
+        "shortDescription": "Fresh orange Citrus Aurantium scent. The complete feminine hair ritual.",
         "benefits": [
           "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
           "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
@@ -4198,7 +4198,7 @@
         "momentOfUse": "Après le shampooing · Soin quotidien",
         "nameMain": "Après-shampooing",
         "nameAccent": "femme",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium. El ritual capilar femenino completo.",
+        "shortDescription": "Arôme d'orange fraîche Citrus Aurantium. Le rituel capillaire féminin complet.",
         "benefits": [
           "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
           "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
@@ -4236,7 +4236,7 @@
         "momentOfUse": "Nach dem Shampoo · Tägliche Pflege",
         "nameMain": "Haarspülung",
         "nameAccent": "Damen",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium. El ritual capilar femenino completo.",
+        "shortDescription": "Frischer Citrus Aurantium Orangen-Duft. Das vollständige feminine Haar-Ritual.",
         "benefits": [
           "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
           "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
@@ -4274,7 +4274,7 @@
         "momentOfUse": "Dopo lo shampoo · Cura quotidiana",
         "nameMain": "Balsamo",
         "nameAccent": "donna",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium. El ritual capilar femenino completo.",
+        "shortDescription": "Aroma di arancia fresca Citrus Aurantium. Il rituale capillare femminile completo.",
         "benefits": [
           "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
           "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
@@ -4312,7 +4312,7 @@
         "momentOfUse": "Na de shampoo · Dagelijkse verzorging",
         "nameMain": "Vrouwen",
         "nameAccent": "conditioner",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium. El ritual capilar femenino completo.",
+        "shortDescription": "Frisse Citrus Aurantium sinaasappelgeur. Het volledige feminiene haarritueel.",
         "benefits": [
           "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
           "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
@@ -4350,7 +4350,7 @@
         "momentOfUse": "Após o champô · Cuidado diário",
         "nameMain": "Condicionador",
         "nameAccent": "mulher",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium. El ritual capilar femenino completo.",
+        "shortDescription": "Aroma de laranja fresca Citrus Aurantium. O ritual capilar feminino completo.",
         "benefits": [
           "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
           "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
@@ -4454,7 +4454,7 @@
         "momentOfUse": "Daily handwash · Shower",
         "nameMain": "Hand and Body Wash",
         "nameAccent": "for Her",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium que transforma cada gesto.",
+        "shortDescription": "Fresh Citrus Aurantium orange scent that transforms every gesture.",
         "benefits": [
           "Coconut and sugar surfactants: respect the hydrolipidic film and skin pH.",
           "With moisturising glycerin. Fresh orange Citrus Aurantium scent. Frequent use."
@@ -4492,7 +4492,7 @@
         "momentOfUse": "Lavabo · Douche",
         "nameMain": "Gel mains et corps",
         "nameAccent": "femme",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium que transforma cada gesto.",
+        "shortDescription": "Arôme d'orange fraîche Citrus Aurantium qui transforme chaque geste.",
         "benefits": [
           "Tensioactifs du coco et du sucre : respectent le film hydrolipidique et le pH de la peau.",
           "Avec de la glycérine hydratante. Parfum d'orange fraîche Citrus Aurantium. Usage fréquent."
@@ -4530,7 +4530,7 @@
         "momentOfUse": "Tägliche Handwäsche · Dusche",
         "nameMain": "Hand- und Körpergel",
         "nameAccent": "Damen",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium que transforma cada gesto.",
+        "shortDescription": "Frischer Citrus Aurantium Orangenduft, der jede Geste verwandelt.",
         "benefits": [
           "Tenside aus Kokos und Zucker: schonen den Hydrolipidfilm und den Haut-pH.",
           "Mit feuchtigkeitsspendender Glycerin. Frischer Orangen-Citrus Aurantium-Duft. Häufiger Einsatz."
@@ -4568,7 +4568,7 @@
         "momentOfUse": "Lavaggio quotidiano · Doccia",
         "nameMain": "Detergente mani e corpo",
         "nameAccent": "donna",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium que transforma cada gesto.",
+        "shortDescription": "Aroma di arancia fresca Citrus Aurantium che trasforma ogni gesto.",
         "benefits": [
           "Tensioattivi del cocco e dello zucchero: rispettano il film idrolipidico e il pH della pelle.",
           "Con glicerina idratante. Profumo di arancia fresca Citrus Aurantium. Uso frequente."
@@ -4606,7 +4606,7 @@
         "momentOfUse": "Dagelijkse handwas · Douche",
         "nameMain": "Hand- en lichaamsgel",
         "nameAccent": "vrouwen",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium que transforma cada gesto.",
+        "shortDescription": "Frisse Citrus Aurantium sinaasappelgeur die elk gebaar transformeert.",
         "benefits": [
           "Tensiden van kokos en suiker: respecteren het hydrolipidische film en de huid-pH.",
           "Met vochtinbrengende glycerine. Frisse sinaasappel Citrus Aurantium geur. Frequent gebruik."
@@ -4644,7 +4644,7 @@
         "momentOfUse": "Lavagem diária · Duche",
         "nameMain": "Gel mãos e corpo",
         "nameAccent": "mulher",
-        "shortDescription": "Aroma de naranja fresca Citrus Aurantium que transforma cada gesto.",
+        "shortDescription": "Aroma de laranja fresca Citrus Aurantium que transforma cada gesto.",
         "benefits": [
           "Tensioativos de coco e açúcar: respeitam o manto hidrolipídico e o pH da pele.",
           "Com glicerina hidratante. Aroma de laranja fresca Citrus Aurantium. Uso frequente."
@@ -4747,7 +4747,7 @@
         "momentOfUse": "After shower · Skin ritual",
         "nameMain": "Body Milk",
         "nameAccent": "for Her",
-        "shortDescription": "Aroma de naranja Citrus Aurantium: el cierre perfecto del ritual femenino.",
+        "shortDescription": "Citrus Aurantium orange scent: the perfect close to the feminine ritual.",
         "benefits": [
           "Fast absorption, matte effect. With avocado and jojoba. No sticky feeling.",
           "Fresh orange (Citrus Aurantium + Limonene) scent. The most gifted product."
@@ -4785,7 +4785,7 @@
         "momentOfUse": "Après la douche · Rituel peau",
         "nameMain": "Lait corporel",
         "nameAccent": "femme",
-        "shortDescription": "Aroma de naranja Citrus Aurantium: el cierre perfecto del ritual femenino.",
+        "shortDescription": "Arôme d'orange Citrus Aurantium : la clôture parfaite du rituel féminin.",
         "benefits": [
           "Absorption rapide, effet mat. Avec avocat et jojoba. Sans sensation collante.",
           "Parfum d'orange fraîche (Citrus Aurantium + Limonène). Le plus offert."
@@ -4823,7 +4823,7 @@
         "momentOfUse": "Nach der Dusche · Hautritual",
         "nameMain": "Körpermilch",
         "nameAccent": "Damen",
-        "shortDescription": "Aroma de naranja Citrus Aurantium: el cierre perfecto del ritual femenino.",
+        "shortDescription": "Citrus Aurantium Orangenduft: der perfekte Abschluss des femininen Rituals.",
         "benefits": [
           "Schnelle Absorption, Matteffekt. Mit Avocado und Jojoba. Kein klebriges Gefühl.",
           "Frischer Orangen-Duft (Citrus Aurantium + Limonen). Das am häufigsten verschenkte Produkt."
@@ -4861,7 +4861,7 @@
         "momentOfUse": "Dopo la doccia · Rituale pelle",
         "nameMain": "Latte corpo",
         "nameAccent": "donna",
-        "shortDescription": "Aroma de naranja Citrus Aurantium: el cierre perfecto del ritual femenino.",
+        "shortDescription": "Aroma di arancia Citrus Aurantium: la chiusura perfetta del rituale femminile.",
         "benefits": [
           "Assorbimento rapido, effetto mat. Con avocado e jojoba. Senza sensazione appiccicosa.",
           "Profumo di arancia fresca (Citrus Aurantium + Limonene). Il più regalato."
@@ -4899,7 +4899,7 @@
         "momentOfUse": "Na de douche · Huidritueel",
         "nameMain": "Body milk",
         "nameAccent": "vrouwen",
-        "shortDescription": "Aroma de naranja Citrus Aurantium: el cierre perfecto del ritual femenino.",
+        "shortDescription": "Citrus Aurantium sinaasappelgeur: de perfecte afsluiting van het feminiene ritueel.",
         "benefits": [
           "Snelle absorptie, mat effect. Met avocado en jojoba. Geen plakkerig gevoel.",
           "Frisse sinaasappelgeur (Citrus Aurantium + Limonene). Het meest cadeau gedane product."
@@ -4931,13 +4931,13 @@
       },
       "pt": {
         "name": "Leite Corporal Mulher",
-        "subtitle": "Loción corporal femenina con aceites nutritivos de origen natural. 98% origen natural.",
+        "subtitle": "Loção corporal feminina com óleos nutritivos de origem natural. 98% de origem natural.",
         "slug": "leite-corporal-mulher",
         "olfactiveFamily": "Citrinos · Conforto limpo",
         "momentOfUse": "Após o duche · Ritual de pele",
         "nameMain": "Leite corporal",
         "nameAccent": "mulher",
-        "shortDescription": "Aroma de naranja Citrus Aurantium: el cierre perfecto del ritual femenino.",
+        "shortDescription": "Aroma de laranja Citrus Aurantium: o fecho perfeito do ritual feminino.",
         "benefits": [
           "Absorção rápida, efeito mate. Com abacate e jojoba. Sem sensação pegajosa.",
           "Aroma de laranja fresca (Citrus Aurantium + Limoneno). O mais oferecido como presente."
@@ -6747,7 +6747,7 @@
         "nameAccent": "Liquid",
         "shortDescription": "Hand dishwashing liquid with citrus fragrance. Effective degreaser, gentle on hands.",
         "longDescription": "Hand dishwashing liquid with citrus fragrance. Effective degreaser, gentle on hands.",
-        "indication": "Lavado manual de vajilla.",
+        "indication": "Manual dishwashing.",
         "usage": "A small dose on a wet sponge. Scrub the dishes and rinse with water.",
         "benefits": [
           "Effective wash: degreases and removes tough dirt. Rich lather.",
@@ -6786,7 +6786,7 @@
         "nameAccent": "vaisselle",
         "shortDescription": "Liquide vaisselle main avec parfum citrus. Dégraissant efficace, doux pour les mains.",
         "longDescription": "Liquide vaisselle main avec parfum citrus. Dégraissant efficace, doux pour les mains.",
-        "indication": "Lavado manual de vajilla.",
+        "indication": "Vaisselle à la main.",
         "usage": "Une petite dose sur une éponge humide. Frotter la vaisselle et rincer à l'eau.",
         "benefits": [
           "Lavage efficace : dégraisse et élimine la saleté tenace. Mousse abondante.",
@@ -6825,7 +6825,7 @@
         "nameAccent": "mittel",
         "shortDescription": "Handspülmittel mit Zitrusduft. Effektiver Entfetter, sanft zur Haut.",
         "longDescription": "Handspülmittel mit Zitrusduft. Effektiver Entfetter, sanft zur Haut.",
-        "indication": "Lavado manual de vajilla.",
+        "indication": "Manuelles Geschirrspülen.",
         "usage": "Eine kleine Dosis auf einen feuchten Schwamm. Geschirr schrubben und mit Wasser abspülen.",
         "benefits": [
           "Wirksame Reinigung: entfettet und entfernt hartnäckigen Schmutz. Reichlich Schaum.",
@@ -6864,7 +6864,7 @@
         "nameAccent": "piatti",
         "shortDescription": "Detersivo piatti a mano con profumo agrumato. Sgrassante efficace, delicato sulle mani.",
         "longDescription": "Detersivo piatti a mano con profumo agrumato. Sgrassante efficace, delicato sulle mani.",
-        "indication": "Lavado manual de vajilla.",
+        "indication": "Lavaggio manuale delle stoviglie.",
         "usage": "Una piccola dose su una spugna umida. Strofinare le stoviglie e sciacquare con acqua.",
         "benefits": [
           "Lavaggio efficace: sgrassa ed elimina lo sporco difficile. Schiuma abbondante.",
@@ -6903,7 +6903,7 @@
         "nameAccent": "middel",
         "shortDescription": "Handafwasmiddel met citrusgeur. Effectief ontvettend, zacht voor handen.",
         "longDescription": "Handafwasmiddel met citrusgeur. Effectief ontvettend, zacht voor handen.",
-        "indication": "Lavado manual de vajilla.",
+        "indication": "Met de hand afwassen.",
         "usage": "Een kleine dosis op een natte spons. Het servies schrobben en afspoelen met water.",
         "benefits": [
           "Effectief wassen: ontvet en verwijdert hardnekkig vuil. Rijke schuim.",
@@ -6942,7 +6942,7 @@
         "nameAccent": "loiça manual",
         "shortDescription": "Detergente loiça manual com fragrância cítrica. Desengordurante eficaz, suave para as mãos.",
         "longDescription": "Detergente loiça manual com fragrância cítrica. Desengordurante eficaz, suave para as mãos.",
-        "indication": "Lavado manual de vajilla.",
+        "indication": "Lavagem manual de louça.",
         "usage": "Uma pequena dose numa esponja húmida. Esfregar a loiça e enxaguar com água.",
         "benefits": [
           "Lavagem eficaz: desengordura e elimina sujidade difícil. Espuma abundante.",
@@ -7602,7 +7602,7 @@
         "nameAccent": "Cleaner",
         "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
         "longDescription": "Concentrated floor cleaner with a clean floral scent. No rinsing needed. 97% natural origin.",
-        "indication": "Limpieza de suelos cerámicos, gres, mármol, parquet sellado.",
+        "indication": "Cleaning of ceramic, stoneware, marble and sealed parquet floors.",
         "usage": "Dilute 50 ml in 5 litres of water. Mop as normal. No rinsing required.",
         "benefits": [
           "Clean, shiny and fragrant floors. No rinsing needed.",
@@ -7640,7 +7640,7 @@
         "nameAccent": "sols",
         "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
         "longDescription": "Nettoyant sol concentré au parfum floral propre. Sans rinçage. 97% d'origine naturelle.",
-        "indication": "Limpieza de suelos cerámicos, gres, mármol, parquet sellado.",
+        "indication": "Nettoyage des sols en céramique, grès, marbre et parquet traité.",
         "usage": "Diluer 50 ml dans 5 litres d'eau. Frotter normalement. Aucun rinçage requis.",
         "benefits": [
           "Sols propres, brillants et parfumés. Sans rinçage.",
@@ -7678,7 +7678,7 @@
         "nameAccent": "reiniger",
         "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
         "longDescription": "Konzentrierter Bodenreiniger mit sauberem Blumenduft. Kein Nachwischen erforderlich. 97% natürlichen Ursprungs.",
-        "indication": "Limpieza de suelos cerámicos, gres, mármol, parquet sellado.",
+        "indication": "Reinigung von Keramik-, Steinzeug-, Marmor- und versiegeltem Parkettboden.",
         "usage": "50 ml in 5 Liter Wasser verdünnen. Normal wischen. Kein Nachwischen erforderlich.",
         "benefits": [
           "Saubere, glänzende und duftende Böden. Kein Nachwischen erforderlich.",
@@ -7716,7 +7716,7 @@
         "nameAccent": "pavimenti",
         "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
         "longDescription": "Detergente pavimenti concentrato con profumo floreale pulito. Senza risciacquo. 97% di origine naturale.",
-        "indication": "Limpieza de suelos cerámicos, gres, mármol, parquet sellado.",
+        "indication": "Pulizia di pavimenti in ceramica, gres, marmo e parquet sigillato.",
         "usage": "Diluire 50 ml in 5 litri di acqua. Passare il mocio normalmente. Nessun risciacquo necessario.",
         "benefits": [
           "Pavimenti puliti, lucidi e profumati. Senza risciacquo.",
@@ -7754,7 +7754,7 @@
         "nameAccent": "reiniger",
         "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
         "longDescription": "Geconcentreerde vloerreiniger met schone bloemengeur. Geen naspoelen nodig. 97% van natuurlijke oorsprong.",
-        "indication": "Limpieza de suelos cerámicos, gres, mármol, parquet sellado.",
+        "indication": "Reiniging van keramische, stenen, marmeren en gelakt parketvloeren.",
         "usage": "50 ml verdunnen in 5 liter water. Normaal dweilen. Geen naspoelen vereist.",
         "benefits": [
           "Schone, glanzende en geurige vloeren. Geen naspoelen nodig.",
@@ -7792,7 +7792,7 @@
         "nameAccent": "chão",
         "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
         "longDescription": "Limpador de pavimentos concentrado com aroma floral limpo. Sem enxaguamento necessário. 97% de origem natural.",
-        "indication": "Limpieza de suelos cerámicos, gres, mármol, parquet sellado.",
+        "indication": "Limpeza de pavimentos cerâmicos, grés, mármore e parquet selado.",
         "usage": "Diluir 50 ml em 5 litros de água. Esfregar normalmente. Não requer enxaguamento.",
         "benefits": [
           "Pavimentos limpos, brilhantes e perfumados. Não requer enxaguamento.",
@@ -9609,7 +9609,7 @@
         "momentOfUse": "Weekly care · Pet routine",
         "nameMain": "Pet",
         "nameAccent": "Ear Cleaner",
-        "shortDescription": "Sin fragancia, pH neutro. Para perros y gatos. Registro MAPA 12061-H.",
+        "shortDescription": "Fragrance-free, neutral pH. For dogs and cats. MAPA registration 12061-H.",
         "benefits": [
           "Aceite de Árbol de Té 0,2%: antiinflamatorio, antibacteriano y antifúngico.",
           "pH 6,5-7,5 adecuado para mascotas. Sin fragancia. Uso regular para perros y gatos."
@@ -9647,7 +9647,7 @@
         "momentOfUse": "Soin hebdomadaire · Routine animale",
         "nameMain": "Nettoyant oreilles",
         "nameAccent": "animaux",
-        "shortDescription": "Sin fragancia, pH neutro. Para perros y gatos. Registro MAPA 12061-H.",
+        "shortDescription": "Sans parfum, pH neutre. Pour chiens et chats. Enregistrement MAPA 12061-H.",
         "benefits": [
           "Aceite de Árbol de Té 0,2%: antiinflamatorio, antibacteriano y antifúngico.",
           "pH 6,5-7,5 adecuado para mascotas. Sin fragancia. Uso regular para perros y gatos."
@@ -9685,7 +9685,7 @@
         "momentOfUse": "Wöchentliche Pflege · Tierroutine",
         "nameMain": "Ohr",
         "nameAccent": "reiniger Haustiere",
-        "shortDescription": "Sin fragancia, pH neutro. Para perros y gatos. Registro MAPA 12061-H.",
+        "shortDescription": "Ohne Duftstoffe, neutraler pH. Für Hunde und Katzen. MAPA-Registrierung 12061-H.",
         "benefits": [
           "Aceite de Árbol de Té 0,2%: antiinflamatorio, antibacteriano y antifúngico.",
           "pH 6,5-7,5 adecuado para mascotas. Sin fragancia. Uso regular para perros y gatos."
@@ -9723,7 +9723,7 @@
         "momentOfUse": "Cura settimanale · Routine animale",
         "nameMain": "Detergente orecchie",
         "nameAccent": "animali",
-        "shortDescription": "Sin fragancia, pH neutro. Para perros y gatos. Registro MAPA 12061-H.",
+        "shortDescription": "Senza profumo, pH neutro. Per cani e gatti. Registrazione MAPA 12061-H.",
         "benefits": [
           "Aceite de Árbol de Té 0,2%: antiinflamatorio, antibacteriano y antifúngico.",
           "pH 6,5-7,5 adecuado para mascotas. Sin fragancia. Uso regular para perros y gatos."
@@ -9761,7 +9761,7 @@
         "momentOfUse": "Wekelijkse zorg · Huisdierroutine",
         "nameMain": "Oor",
         "nameAccent": "reiniger huisdieren",
-        "shortDescription": "Sin fragancia, pH neutro. Para perros y gatos. Registro MAPA 12061-H.",
+        "shortDescription": "Parfumvrij, neutrale pH. Voor honden en katten. MAPA-registratie 12061-H.",
         "benefits": [
           "Aceite de Árbol de Té 0,2%: antiinflamatorio, antibacteriano y antifúngico.",
           "pH 6,5-7,5 adecuado para mascotas. Sin fragancia. Uso regular para perros y gatos."
@@ -9799,7 +9799,7 @@
         "momentOfUse": "Cuidado semanal · Rotina animal",
         "nameMain": "Limpador ouvidos",
         "nameAccent": "animais",
-        "shortDescription": "Sin fragancia, pH neutro. Para perros y gatos. Registro MAPA 12061-H.",
+        "shortDescription": "Sem fragância, pH neutro. Para cães e gatos. Registo MAPA 12061-H.",
         "benefits": [
           "Aceite de Árbol de Té 0,2%: antiinflamatorio, antibacteriano y antifúngico.",
           "pH 6,5-7,5 adecuado para mascotas. Sin fragancia. Uso regular para perros y gatos."
@@ -9899,7 +9899,7 @@
         "momentOfUse": "Daily care · Sensitive routine",
         "nameMain": "Pet",
         "nameAccent": "Eye Cleaner",
-        "shortDescription": "Antiséptico, antiinflamatorio e inodoro. Para perros y gatos. 98% origen natural.",
+        "shortDescription": "Antiseptic, anti-inflammatory and odourless. For dogs and cats. 98% natural origin.",
         "benefits": [
           "Complejo herbal de 6 plantas: antiséptico, antiinflamatorio y emoliente.",
           "Urea y Alantoína como hidratantes poderosos. Inodoro, incoloro. Para perros y gatos."
@@ -9937,7 +9937,7 @@
         "momentOfUse": "Soin quotidien · Routine sensible",
         "nameMain": "Nettoyant yeux",
         "nameAccent": "animaux",
-        "shortDescription": "Antiséptico, antiinflamatorio e inodoro. Para perros y gatos. 98% origen natural.",
+        "shortDescription": "Antiseptique, anti-inflammatoire et inodore. Pour chiens et chats. 98% d'origine naturelle.",
         "benefits": [
           "Complejo herbal de 6 plantas: antiséptico, antiinflamatorio y emoliente.",
           "Urea y Alantoína como hidratantes poderosos. Inodoro, incoloro. Para perros y gatos."
@@ -9975,7 +9975,7 @@
         "momentOfUse": "Tägliche Pflege · Empfindliche Routine",
         "nameMain": "Augen",
         "nameAccent": "reiniger Haustiere",
-        "shortDescription": "Antiséptico, antiinflamatorio e inodoro. Para perros y gatos. 98% origen natural.",
+        "shortDescription": "Antiseptisch, entzündungshemmend und geruchlos. Für Hunde und Katzen. 98% natürlichen Ursprungs.",
         "benefits": [
           "Complejo herbal de 6 plantas: antiséptico, antiinflamatorio y emoliente.",
           "Urea y Alantoína como hidratantes poderosos. Inodoro, incoloro. Para perros y gatos."
@@ -10013,7 +10013,7 @@
         "momentOfUse": "Cura quotidiana · Routine sensibile",
         "nameMain": "Detergente occhi",
         "nameAccent": "animali",
-        "shortDescription": "Antiséptico, antiinflamatorio e inodoro. Para perros y gatos. 98% origen natural.",
+        "shortDescription": "Antisettico, antinfiammatorio e inodore. Per cani e gatti. 98% di origine naturale.",
         "benefits": [
           "Complejo herbal de 6 plantas: antiséptico, antiinflamatorio y emoliente.",
           "Urea y Alantoína como hidratantes poderosos. Inodoro, incoloro. Para perros y gatos."
@@ -10051,7 +10051,7 @@
         "momentOfUse": "Dagelijkse zorg · Gevoelige routine",
         "nameMain": "Oog",
         "nameAccent": "reiniger huisdieren",
-        "shortDescription": "Antiséptico, antiinflamatorio e inodoro. Para perros y gatos. 98% origen natural.",
+        "shortDescription": "Antiseptisch, ontstekingsremmend en geurloos. Voor honden en katten. 98% van natuurlijke oorsprong.",
         "benefits": [
           "Complejo herbal de 6 plantas: antiséptico, antiinflamatorio y emoliente.",
           "Urea y Alantoína como hidratantes poderosos. Inodoro, incoloro. Para perros y gatos."
@@ -10089,7 +10089,7 @@
         "momentOfUse": "Cuidado diário · Rotina sensível",
         "nameMain": "Limpador olhos",
         "nameAccent": "animais",
-        "shortDescription": "Antiséptico, antiinflamatorio e inodoro. Para perros y gatos. 98% origen natural.",
+        "shortDescription": "Antisséptico, anti-inflamatório e inodoro. Para cães e gatos. 98% de origem natural.",
         "benefits": [
           "Complejo herbal de 6 plantas: antiséptico, antiinflamatorio y emoliente.",
           "Urea y Alantoína como hidratantes poderosos. Inodoro, incoloro. Para perros y gatos."
