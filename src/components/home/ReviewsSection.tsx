@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { ReviewsWidget } from '@/components/reviews/ReviewsWidget';
 import type { Locale } from '@/lib/i18n/config';
 
 const T: Record<string, { title: string; sub: string; poweredBy: string }> = {
@@ -13,28 +13,10 @@ const T: Record<string, { title: string; sub: string; poweredBy: string }> = {
   pt: { title: 'O que dizem os nossos clientes', sub: 'Avaliações verificadas de compradores reais.', poweredBy: 'Verificado por' },
 };
 
-declare global {
-  interface Window { jdgm?: { customInit?: () => void; init?: () => void }; }
-}
-
 interface Props { locale: Locale; }
 
 export function ReviewsSection({ locale }: Props) {
   const lb = T[locale] ?? T.es;
-  const shopDomain = process.env.NEXT_PUBLIC_JUDGEME_SHOP_DOMAIN ?? 'www.naturaesencials.com';
-  const publicToken = process.env.NEXT_PUBLIC_JUDGEME_PUBLIC_TOKEN ?? 'QB36N-hDwXH60hCmBKU5F-6AHXY';
-  const loaded = useRef(false);
-
-  useEffect(() => {
-    if (loaded.current) return;
-    loaded.current = true;
-    const scriptId = 'judgeme-theme-js';
-    const init = () => { window.jdgm?.customInit?.() ?? window.jdgm?.init?.(); };
-    if (document.getElementById(scriptId)) { init(); return; }
-    const s = document.createElement('script');
-    s.id = scriptId; s.src = 'https://cdn.judge.me/assets/theme.js'; s.async = true; s.onload = init;
-    document.head.appendChild(s);
-  }, []);
 
   return (
     <section className="border-t border-rule bg-paper px-pad-x py-[clamp(48px,8vw,96px)]">
@@ -53,12 +35,8 @@ export function ReviewsSection({ locale }: Props) {
         </p>
       </header>
 
-      {/* Widget de todas las reseñas de la tienda */}
-      <div
-        className="jdgm-widget jdgm-all-reviews-widget"
-        data-shop-domain={shopDomain}
-        data-public-token={publicToken}
-      />
+      {/* All-store reviews widget */}
+      <ReviewsWidget locale={locale} />
     </section>
   );
 }
