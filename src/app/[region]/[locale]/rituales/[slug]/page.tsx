@@ -221,6 +221,12 @@ export default async function RitualPage({ params }: Props) {
                 </p>
               )}
 
+              {tr.story && (
+                <p className="text-sm leading-[1.85] text-muted/70 italic">
+                  {tr.story}
+                </p>
+              )}
+
               {/* Precio + comprar */}
               <div className="flex flex-col gap-5 mt-2">
                 {bundle.discountPercent && (
