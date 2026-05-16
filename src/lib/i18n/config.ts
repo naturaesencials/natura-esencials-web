@@ -82,6 +82,7 @@ export const routeSlugs = {
   blog:      { es: 'blog',      en: 'blog',      fr: 'blog',        de: 'blog',          it: 'blog',      nl: 'blog',           pt: 'blog' },
   diario:    { es: 'diario',    en: 'journal',   fr: 'journal',     de: 'tagebuch',      it: 'diario',    nl: 'dagboek',        pt: 'diario' },
   contacto:  { es: 'contacto',  en: 'contact',   fr: 'contact',     de: 'kontakt',       it: 'contatto',  nl: 'contact',        pt: 'contacto' },
+  faq:       { es: 'faq',       en: 'faq',       fr: 'faq',         de: 'faq',           it: 'faq',       nl: 'faq',            pt: 'faq' },
 } as const;
 
 export type RouteSection = keyof typeof routeSlugs;

@@ -900,7 +900,9 @@
         "aiTranslation": true
       },
       "basePriceEUR": 6.3,
-      "basePriceGBP": 5.42
+      "basePriceGBP": 5.42,
+      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Olea Europaea Fruit Oil, Cocos Nucifera Oil, Aloe Barbadensis Leaf Juice, Glycerin, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "body-milk",
@@ -1798,7 +1800,9 @@
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
-      "basePriceGBP": 7.65
+      "basePriceGBP": 7.65,
+      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Argania Spinosa Kernel Oil, Ocimum Basilicum Oil, Thymus Vulgaris Oil, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "acondicionador-hombre",
@@ -2134,7 +2138,9 @@
       },
       "outOfStock": false,
       "basePriceEUR": 9.0,
-      "basePriceGBP": 7.74
+      "basePriceGBP": 7.74,
+      "inci": "Aqua, Cetearyl Alcohol, Glycerin, Behentrimonium Chloride, Argania Spinosa Kernel Oil, Ocimum Basilicum Oil, Thymus Vulgaris Oil, Panthenol, Cetrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "gel-manos-cuerpo-hombre",
@@ -2442,7 +2448,9 @@
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
-      "basePriceGBP": 7.65
+      "basePriceGBP": 7.65,
+      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Olea Europaea Fruit Oil, Cocos Nucifera Oil, Aloe Barbadensis Leaf Juice, Glycerin, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Phenoxyethanol, Citric Acid, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "body-milk-man",
@@ -2763,7 +2771,9 @@
       },
       "outOfStock": false,
       "basePriceEUR": 9.2,
-      "basePriceGBP": 7.91
+      "basePriceGBP": 7.91,
+      "inci": "Aqua, Glycerin, Caprylic/Capric Triglyceride, Persea Gratissima Oil, Simmondsia Chinensis Seed Oil, Butyrospermum Parkii Butter, Cetearyl Alcohol, Glyceryl Stearate, Tocopheryl Acetate, Phenoxyethanol, Sodium Polyacrylate, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "gel-afeitado-hombre",
@@ -4186,7 +4196,9 @@
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
-      "basePriceGBP": 7.65
+      "basePriceGBP": 7.65,
+      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Argania Spinosa Kernel Oil, Olea Europaea Fruit Oil, Citrus Aurantium Dulcis Peel Oil, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "acondicionador-mujer",
@@ -4564,7 +4576,9 @@
       },
       "outOfStock": false,
       "basePriceEUR": 9.0,
-      "basePriceGBP": 7.74
+      "basePriceGBP": 7.74,
+      "inci": "Aqua, Cetearyl Alcohol, Glycerin, Behentrimonium Chloride, Argania Spinosa Kernel Oil, Olea Europaea Fruit Oil, Sodium Hyaluronate, Hydrolyzed Quinoa, Panthenol, Cetrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "gel-manos-cuerpo-mujer",
@@ -4872,7 +4886,9 @@
       },
       "outOfStock": false,
       "basePriceEUR": 8.9,
-      "basePriceGBP": 7.65
+      "basePriceGBP": 7.65,
+      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Olea Europaea Fruit Oil, Cocos Nucifera Oil, Aloe Barbadensis Leaf Juice, Glycerin, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Phenoxyethanol, Citric Acid, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "body-milk-woman",
@@ -5179,7 +5195,9 @@
       },
       "outOfStock": false,
       "basePriceEUR": 9.2,
-      "basePriceGBP": 7.91
+      "basePriceGBP": 7.91,
+      "inci": "Aqua, Glycerin, Caprylic/Capric Triglyceride, Persea Gratissima Oil, Simmondsia Chinensis Seed Oil, Butyrospermum Parkii Butter, Cetearyl Alcohol, Glyceryl Stearate, Tocopheryl Acetate, Phenoxyethanol, Sodium Polyacrylate, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "agua-micelar",
@@ -6589,7 +6607,9 @@
         "aiTranslation": true
       },
       "basePriceEUR": 8.6,
-      "basePriceGBP": 7.4
+      "basePriceGBP": 7.4,
+      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Glycerin, Citric Acid, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "suavizante-ropa",
@@ -6967,7 +6987,9 @@
         "aiTranslation": true
       },
       "basePriceEUR": 6.6,
-      "basePriceGBP": 5.68
+      "basePriceGBP": 5.68,
+      "inci": "Aqua, Esterquat (Palm Oil derived), Glycerin, Citric Acid, Lavandula Angustifolia Oil, Anthemis Nobilis Flower Oil, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "lavavajillas-manual",
@@ -7281,7 +7303,9 @@
         "aiTranslation": true
       },
       "basePriceEUR": 6.3,
-      "basePriceGBP": 5.42
+      "basePriceGBP": 5.42,
+      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Citrus Limon Peel Oil, Citrus Aurantium Dulcis Peel Oil, Glycerin, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene.",
+      "inciPendingVerification": true
     },
     {
       "id": "lavavajillas-maquina",
@@ -7351,10 +7375,16 @@
         "momentOfUse": "Dishwasher load · Daily care",
         "nameMain": "Dishwasher",
         "nameAccent": "Detergent",
-        "shortDescription": "Detergente en gel para lavavajillas automáticos. Corta la grasa, ayuda a proteger vidrio y metal. Se disuelve fácilmente sin residuos.",
+        "shortDescription": "Dishwasher gel detergent that cuts through grease and protects glass and metal. Dissolves easily without residue.",
         "benefits": [
-          "Corta la grasa y elimina suciedad persistente. Protege vidrio y metal.",
-          "15 ml para cargas poco sucias · 30 ml para suciedad intensa."
+          {
+            "icon": "💪",
+            "text": "Cuts grease and removes stubborn dirt. Protects glass and metal."
+          },
+          {
+            "icon": "💧",
+            "text": "15 ml for light loads · 30 ml for heavy soiling."
+          }
         ],
         "ritual": [
           {
@@ -7371,12 +7401,13 @@
           }
         ],
         "sensory": {
-          "aroma": "Fragrance-free: clean and neutral, designed not to compete with the kitchen environment.",
-          "texture": "Smooth, viscous gel that doses well. Clear colour.",
-          "experience": "Degreasing performance, brilliant finish and satisfying sense of order."
+          "aroma": "Subtle herbal scent, barely perceptible after the cycle",
+          "texture": "Transparent gel, flows easily into the dispenser",
+          "experience": "Sparkling clean dishes without chemical residue",
+          "sustainability": "92% naturally derived · Biodegradable formula · Recyclable packaging"
         },
         "aiTranslation": true,
-        "longDescription": "Dishwasher gel detergent. Cuts grease and protects glass and metal. 92% natural origin.",
+        "longDescription": "Gel detergent for automatic dishwashers. Cuts grease and protects glass and metal. 92% naturally derived.",
         "usage": "Pour the recommended dose into the dishwasher detergent compartment and select a normal cycle."
       },
       "fr": {
@@ -7387,10 +7418,16 @@
         "momentOfUse": "Cycle lave-vaisselle · Soin quotidien",
         "nameMain": "Liquide",
         "nameAccent": "lave-vaisselle",
-        "shortDescription": "Detergente en gel para lavavajillas automáticos. Corta la grasa, ayuda a proteger vidrio y metal. Se disuelve fácilmente sin residuos.",
+        "shortDescription": "Détergent gel pour lave-vaisselle qui élimine la graisse et protège verre et métal. Se dissout facilement sans résidus.",
         "benefits": [
-          "Corta la grasa y elimina suciedad persistente. Protege vidrio y metal.",
-          "15 ml para cargas poco sucias · 30 ml para suciedad intensa."
+          {
+            "icon": "💪",
+            "text": "Élimine la graisse et la saleté tenace. Protège verre et métal."
+          },
+          {
+            "icon": "💧",
+            "text": "15 ml pour charges peu sales · 30 ml pour saleté intense."
+          }
         ],
         "ritual": [
           {
@@ -7407,12 +7444,13 @@
           }
         ],
         "sensory": {
-          "aroma": "Sans parfum : propre et neutre, conçu pour ne pas concurrencer l'ambiance de la cuisine.",
-          "texture": "Gel doux et visqueux qui dose bien. Couleur transparente.",
-          "experience": "Performance dégraissante, finition brillante et sentiment satisfaisant d'ordre."
+          "aroma": "Parfum herbal subtil, à peine perceptible après le cycle",
+          "texture": "Gel transparent, s'écoule facilement dans le doseur",
+          "experience": "Vaisselle impeccable sans résidus chimiques",
+          "sustainability": "92% d'origine naturelle · Formule biodégradable · Emballage recyclable"
         },
         "aiTranslation": true,
-        "longDescription": "Détergent en gel pour lave-vaisselle. Élimine les graisses et protège le verre et le métal. 92% d'origine naturelle.",
+        "longDescription": "Détergent en gel pour lave-vaisselle automatique. Élimine la graisse et protège le verre et le métal. 92% d'origine naturelle.",
         "usage": "Verser la dose recommandée dans le compartiment du lave-vaisselle et sélectionner un cycle normal."
       },
       "de": {
@@ -7423,10 +7461,16 @@
         "momentOfUse": "Geschirrspüler · Tägliche Pflege",
         "nameMain": "Geschirrspül",
         "nameAccent": "mittel",
-        "shortDescription": "Detergente en gel para lavavajillas automáticos. Corta la grasa, ayuda a proteger vidrio y metal. Se disuelve fácilmente sin residuos.",
+        "shortDescription": "Spülmaschinen-Gel das Fett löst und Glas und Metall schützt. Löst sich leicht ohne Rückstände auf.",
         "benefits": [
-          "Corta la grasa y elimina suciedad persistente. Protege vidrio y metal.",
-          "15 ml para cargas poco sucias · 30 ml para suciedad intensa."
+          {
+            "icon": "💪",
+            "text": "Löst Fett und hartnäckigen Schmutz. Schützt Glas und Metall."
+          },
+          {
+            "icon": "💧",
+            "text": "15 ml für leichte Verschmutzung · 30 ml für starke Verschmutzung."
+          }
         ],
         "ritual": [
           {
@@ -7443,12 +7487,13 @@
           }
         ],
         "sensory": {
-          "aroma": "Ohne Duftstoff: sauber und neutral, um nicht mit der Küchenatmosphäre zu konkurrieren.",
-          "texture": "Glattes, viskoses Gel, das gut dosiert. Transparente Farbe.",
-          "experience": "Entfettungsleistung, glänzendes Finish und befriedigender Ordnungssinn."
+          "aroma": "Dezenter Kräuterduft, nach dem Spülgang kaum wahrnehmbar",
+          "texture": "Transparentes Gel, fließt leicht in den Dosierer",
+          "experience": "Strahlend sauberes Geschirr ohne chemische Rückstände",
+          "sustainability": "92% natürlich gewonnen · Biologisch abbaubare Formel · Recycelbare Verpackung"
         },
         "aiTranslation": true,
-        "longDescription": "Geschirrspüler-Gel. Beseitigt Fett und schützt Glas und Metall. 92% natürlichen Ursprungs.",
+        "longDescription": "Gel-Reiniger für Geschirrspüler. Löst Fett und schützt Glas und Metall. 92% natürlich gewonnen.",
         "usage": "Empfohlene Dosis in das Waschmittelfach der Spülmaschine füllen und normales Programm wählen."
       },
       "it": {
@@ -7459,10 +7504,16 @@
         "momentOfUse": "Carico lavastoviglie · Cura quotidiana",
         "nameMain": "Detersivo",
         "nameAccent": "lavastoviglie",
-        "shortDescription": "Detergente en gel para lavavajillas automáticos. Corta la grasa, ayuda a proteger vidrio y metal. Se disuelve fácilmente sin residuos.",
+        "shortDescription": "Detersivo gel per lavastoviglie che scioglie il grasso e protegge vetro e metallo. Si dissolve facilmente senza residui.",
         "benefits": [
-          "Corta la grasa y elimina suciedad persistente. Protege vidrio y metal.",
-          "15 ml para cargas poco sucias · 30 ml para suciedad intensa."
+          {
+            "icon": "💪",
+            "text": "Scioglie il grasso e lo sporco ostinato. Protegge vetro e metallo."
+          },
+          {
+            "icon": "💧",
+            "text": "15 ml per carichi poco sporchi · 30 ml per sporco intenso."
+          }
         ],
         "ritual": [
           {
@@ -7479,12 +7530,13 @@
           }
         ],
         "sensory": {
-          "aroma": "Senza profumo: pulito e neutro, progettato per non competere con l'ambiente della cucina.",
-          "texture": "Gel morbido e viscoso che dosifica bene. Colore trasparente.",
-          "experience": "Prestazione sgrassante, finitura brillante e soddisfacente senso d'ordine."
+          "aroma": "Profumo erbaceo sottile, appena percettibile dopo il ciclo",
+          "texture": "Gel trasparente, scorre facilmente nel dosatore",
+          "experience": "Piatti splendenti senza residui chimici",
+          "sustainability": "92% di origine naturale · Formula biodegradabile · Imballaggio riciclabile"
         },
         "aiTranslation": true,
-        "longDescription": "Detersivo in gel per lavastoviglie. Elimina il grasso e protegge vetro e metallo. 92% di origine naturale.",
+        "longDescription": "Detersivo in gel per lavastoviglie automatiche. Scioglie il grasso e protegge vetro e metallo. 92% di origine naturale.",
         "usage": "Versare la dose consigliata nel vano del detersivo della lavastoviglie e selezionare un ciclo normale."
       },
       "nl": {
@@ -7495,10 +7547,16 @@
         "momentOfUse": "Vaatwasser · Dagelijkse verzorging",
         "nameMain": "Vaatwas",
         "nameAccent": "middel",
-        "shortDescription": "Detergente en gel para lavavajillas automáticos. Corta la grasa, ayuda a proteger vidrio y metal. Se disuelve fácilmente sin residuos.",
+        "shortDescription": "Vaatwasser-gel die vet oplost en glas en metaal beschermt. Lost gemakkelijk op zonder residu.",
         "benefits": [
-          "Corta la grasa y elimina suciedad persistente. Protege vidrio y metal.",
-          "15 ml para cargas poco sucias · 30 ml para suciedad intensa."
+          {
+            "icon": "💪",
+            "text": "Lost vet en hardnekkig vuil op. Beschermt glas en metaal."
+          },
+          {
+            "icon": "💧",
+            "text": "15 ml voor licht vuil · 30 ml voor zwaar vuil."
+          }
         ],
         "ritual": [
           {
@@ -7515,12 +7573,13 @@
           }
         ],
         "sensory": {
-          "aroma": "Parfumvrij: schoon en neutraal, ontworpen om niet te concurreren met de keukensfeer.",
-          "texture": "Gladde, viskeuze gel die goed doseert. Heldere kleur.",
-          "experience": "Ontvettingsprestatie, glanzende finish en bevredigend gevoel van orde."
+          "aroma": "Subtiele kruidengeur, nauwelijks waarneembaar na de cyclus",
+          "texture": "Transparante gel, stroomt gemakkelijk in de doseerder",
+          "experience": "Stralend schoon servies zonder chemisch residu",
+          "sustainability": "92% natuurlijk gewonnen · Biologisch afbreekbare formule · Recyclebare verpakking"
         },
         "aiTranslation": true,
-        "longDescription": "Vaatwasser-gel. Verwijdert vet en beschermt glas en metaal. 92% van natuurlijke oorsprong.",
+        "longDescription": "Gelreiniger voor automatische vaatwassers. Lost vet op en beschermt glas en metaal. 92% natuurlijk gewonnen.",
         "usage": "Aanbevolen dosis in het waschmiddelcompartiment doen en een normaal programma selecteren."
       },
       "pt": {
@@ -7531,10 +7590,16 @@
         "momentOfUse": "Ciclo máquina · Cuidado diário",
         "nameMain": "Detergente",
         "nameAccent": "máquina loiça",
-        "shortDescription": "Detergente en gel para lavavajillas automáticos. Corta la grasa, ayuda a proteger vidrio y metal. Se disuelve fácilmente sin residuos.",
+        "shortDescription": "Detergente gel para máquina de lavar loiça que elimina gordura e protege vidro e metal. Dissolve-se facilmente sem resíduos.",
         "benefits": [
-          "Corta la grasa y elimina suciedad persistente. Protege vidrio y metal.",
-          "15 ml para cargas poco sucias · 30 ml para suciedad intensa."
+          {
+            "icon": "💪",
+            "text": "Elimina gordura e sujidade persistente. Protege vidro e metal."
+          },
+          {
+            "icon": "💧",
+            "text": "15 ml para cargas pouco sujas · 30 ml para sujidade intensa."
+          }
         ],
         "ritual": [
           {
@@ -7551,16 +7616,19 @@
           }
         ],
         "sensory": {
-          "aroma": "Sem fragância: limpo e neutro, concebido para não competir com o ambiente da cozinha.",
-          "texture": "Gel suave e viscoso que doseia bem. Cor transparente.",
-          "experience": "Desempenho desengordurante, acabamento brilhante e satisfatória sensação de ordem."
+          "aroma": "Aroma herbal subtil, quase impercetível após o ciclo",
+          "texture": "Gel transparente, flui facilmente no doseador",
+          "experience": "Loiça impecável sem resíduos químicos",
+          "sustainability": "92% de origem natural · Fórmula biodegradável · Embalagem reciclável"
         },
         "aiTranslation": true,
-        "longDescription": "Detergente em gel para máquina de lavar louça. Corta a gordura e protege o vidro e o metal. 92% origem natural.",
+        "longDescription": "Detergente em gel para máquinas de lavar loiça. Elimina gordura e protege vidro e metal. 92% de origem natural.",
         "usage": "Deitar a dose recomendada no compartimento da máquina de lavar louça e selecionar um ciclo normal."
       },
       "basePriceEUR": 7.8,
-      "basePriceGBP": 6.71
+      "basePriceGBP": 6.71,
+      "inci": "Aqua, Sodium Carbonate, Sodium Percarbonate, Sodium Citrate, Sodium Bicarbonate, Protease, Amylase, Sodium Silicate, Cellulose Gum, Parfum.",
+      "inciPendingVerification": true
     },
     {
       "id": "abrillantador",
@@ -7630,10 +7698,16 @@
         "momentOfUse": "Each dishwasher cycle · Final result",
         "nameMain": "Dishwasher",
         "nameAccent": "Rinse Aid",
-        "shortDescription": "Abrillantador que previene marcas de agua y mejora el secado en el aclarado final. Crea una fina capa protectora que reduce la tensión superficial del agua.",
+        "shortDescription": "Rinse aid that prevents water marks and improves drying for a spotless finish. 98% naturally derived.",
         "benefits": [
-          "Brilliant, stain-free finish. Improves drying in the final rinse.",
-          "Dosage: 0.05–0.2% depending on water hardness."
+          {
+            "icon": "✨",
+            "text": "Brilliant finish without spots. Improves drying in the final rinse."
+          },
+          {
+            "icon": "💧",
+            "text": "Dosage: 0.05-0.2% according to water hardness."
+          }
         ],
         "ritual": [
           {
@@ -7650,12 +7724,13 @@
           }
         ],
         "sensory": {
-          "aroma": "Fragrance-free: clean and technical feel.",
-          "texture": "Very fluid liquid for precise dosing. Clear colour.",
-          "experience": "The final touch that elevates the result. Glassware and crockery with professional shine."
+          "aroma": "Practically odourless, no fragrance residue on dishes",
+          "texture": "Clear, light liquid",
+          "experience": "Spotless, streak-free dishes with accelerated drying",
+          "sustainability": "98% naturally derived · Citric acid based · Biodegradable · Recyclable packaging"
         },
         "aiTranslation": true,
-        "longDescription": "Dishwasher rinse aid. Prevents water marks and improves drying. 98% natural origin.",
+        "longDescription": "Dishwasher rinse aid. Prevents water marks and improves drying. Creates a fine protective layer that reduces water surface tension. 98% naturally derived.",
         "usage": "Fill the rinse aid compartment to the maximum mark. The dishwasher doses automatically."
       },
       "fr": {
@@ -7666,10 +7741,16 @@
         "momentOfUse": "Chaque cycle · Résultat final",
         "nameMain": "Liquide",
         "nameAccent": "de rinçage",
-        "shortDescription": "Abrillantador que previene marcas de agua y mejora el secado en el aclarado final. Crea una fina capa protectora que reduce la tensión superficial del agua.",
+        "shortDescription": "Liquide de rinçage qui prévient les traces d'eau et améliore le séchage. 98% d'origine naturelle.",
         "benefits": [
-          "Finition brillante et sans taches. Améliore le séchage lors du rinçage final.",
-          "Dosage : 0,05-0,2% selon la dureté de l'eau."
+          {
+            "icon": "✨",
+            "text": "Finition brillante sans taches. Améliore le séchage au rinçage final."
+          },
+          {
+            "icon": "💧",
+            "text": "Dosage : 0,05-0,2% selon la dureté de l'eau."
+          }
         ],
         "ritual": [
           {
@@ -7686,12 +7767,13 @@
           }
         ],
         "sensory": {
-          "aroma": "Sans parfum : sensation propre et technique.",
-          "texture": "Liquide très fluide pour un dosage précis. Couleur transparente.",
-          "experience": "La touche finale qui élève le résultat. Verres et vaisselle avec un brillant professionnel."
+          "aroma": "Pratiquement inodore, aucun résidu de parfum sur la vaisselle",
+          "texture": "Liquide clair et léger",
+          "experience": "Vaisselle impeccable sans traces avec séchage accéléré",
+          "sustainability": "98% d'origine naturelle · À base d'acide citrique · Biodégradable · Emballage recyclable"
         },
         "aiTranslation": true,
-        "longDescription": "Liquide de rinçage pour lave-vaisselle. Prévient les traces d'eau et améliore le séchage. 98% d'origine naturelle.",
+        "longDescription": "Liquide de rinçage pour lave-vaisselle. Prévient les traces d'eau et améliore le séchage. Crée une fine couche protectrice. 98% d'origine naturelle.",
         "usage": "Remplir le compartiment de rinçage jusqu'au niveau maximum. Le lave-vaisselle dose automatiquement."
       },
       "de": {
@@ -7702,10 +7784,16 @@
         "momentOfUse": "Jeder Spülgang · Endergebnis",
         "nameMain": "Klar",
         "nameAccent": "spüler",
-        "shortDescription": "Abrillantador que previene marcas de agua y mejora el secado en el aclarado final. Crea una fina capa protectora que reduce la tensión superficial del agua.",
+        "shortDescription": "Klarspüler der Wasserflecken verhindert und das Trocknen verbessert. 98% natürlich gewonnen.",
         "benefits": [
-          "Glänzendes, fleckenfreies Finish. Verbessert die Trocknung beim letzten Spülen.",
-          "Dosierung: 0,05–0,2% je nach Wasserhärte."
+          {
+            "icon": "✨",
+            "text": "Brillantes Ergebnis ohne Flecken. Verbessert das Trocknen beim letzten Spülgang."
+          },
+          {
+            "icon": "💧",
+            "text": "Dosierung: 0,05-0,2% je nach Wasserhärte."
+          }
         ],
         "ritual": [
           {
@@ -7722,12 +7810,13 @@
           }
         ],
         "sensory": {
-          "aroma": "Ohne Duftstoff: sauberes und technisches Gefühl.",
-          "texture": "Sehr flüssiges Liquid für präzise Dosierung. Transparente Farbe.",
-          "experience": "Der letzte Schliff, der das Ergebnis hebt. Gläser und Geschirr mit professionellem Glanz."
+          "aroma": "Praktisch geruchlos, kein Duftrückstand auf dem Geschirr",
+          "texture": "Klare, leichte Flüssigkeit",
+          "experience": "Makelloses, streifenfreies Geschirr mit beschleunigter Trocknung",
+          "sustainability": "98% natürlich gewonnen · Auf Zitronensäurebasis · Biologisch abbaubar · Recycelbare Verpackung"
         },
         "aiTranslation": true,
-        "longDescription": "Klarspüler für die Spülmaschine. Verhindert Wasserflecken und verbessert die Trocknung. 98% natürlichen Ursprungs.",
+        "longDescription": "Klarspüler für Geschirrspüler. Verhindert Wasserflecken und verbessert das Trocknen. Erzeugt eine feine Schutzschicht. 98% natürlich gewonnen.",
         "usage": "Klarspüler-Fach bis zur Maximalmarkierung füllen. Die Spülmaschine dosiert automatisch."
       },
       "it": {
@@ -7738,10 +7827,16 @@
         "momentOfUse": "Ogni ciclo · Risultato finale",
         "nameMain": "Brillantante",
         "nameAccent": "lavastoviglie",
-        "shortDescription": "Abrillantador que previene marcas de agua y mejora el secado en el aclarado final. Crea una fina capa protectora que reduce la tensión superficial del agua.",
+        "shortDescription": "Brillantante che previene le macchie d'acqua e migliora l'asciugatura. 98% di origine naturale.",
         "benefits": [
-          "Finitura brillante e senza macchie. Migliora l'asciugatura nel risciacquo finale.",
-          "Dosaggio: 0,05-0,2% in base alla durezza dell'acqua."
+          {
+            "icon": "✨",
+            "text": "Finitura brillante senza macchie. Migliora l'asciugatura nel risciacquo finale."
+          },
+          {
+            "icon": "💧",
+            "text": "Dosaggio: 0,05-0,2% secondo la durezza dell'acqua."
+          }
         ],
         "ritual": [
           {
@@ -7758,12 +7853,13 @@
           }
         ],
         "sensory": {
-          "aroma": "Senza profumo: sensazione pulita e tecnica.",
-          "texture": "Liquido molto fluido per dosificazione precisa. Colore trasparente.",
-          "experience": "Il tocco finale che eleva il risultato. Cristalleria e stoviglie con brillantezza professionale."
+          "aroma": "Praticamente inodore, nessun residuo di profumo sulle stoviglie",
+          "texture": "Liquido chiaro e leggero",
+          "experience": "Stoviglie impeccabili senza aloni con asciugatura accelerata",
+          "sustainability": "98% di origine naturale · A base di acido citrico · Biodegradabile · Imballaggio riciclabile"
         },
         "aiTranslation": true,
-        "longDescription": "Brillantante per lavastoviglie. Previene le macchie d'acqua e migliora l'asciugatura. 98% di origine naturale.",
+        "longDescription": "Brillantante per lavastoviglie. Previene le macchie d'acqua e migliora l'asciugatura. Crea un sottile strato protettivo. 98% di origine naturale.",
         "usage": "Riempire il vano brillantante fino al livello massimo. La lavastoviglie dosifica automaticamente."
       },
       "nl": {
@@ -7774,10 +7870,16 @@
         "momentOfUse": "Elk vaatwascyclus · Eindresultaat",
         "nameMain": "Glansspoel",
         "nameAccent": "middel",
-        "shortDescription": "Abrillantador que previene marcas de agua y mejora el secado en el aclarado final. Crea una fina capa protectora que reduce la tensión superficial del agua.",
+        "shortDescription": "Glansspoelmiddel dat watervlekken voorkomt en het drogen verbetert. 98% natuurlijk gewonnen.",
         "benefits": [
-          "Glanzende, vlekvrije finish. Verbetert het drogen bij de laatste spoeling.",
-          "Dosering: 0,05-0,2% afhankelijk van de waterhardheid."
+          {
+            "icon": "✨",
+            "text": "Stralend resultaat zonder vlekken. Verbetert het drogen bij de laatste spoeling."
+          },
+          {
+            "icon": "💧",
+            "text": "Dosering: 0,05-0,2% afhankelijk van waterhardheid."
+          }
         ],
         "ritual": [
           {
@@ -7794,12 +7896,13 @@
           }
         ],
         "sensory": {
-          "aroma": "Parfumvrij: schoon en technisch gevoel.",
-          "texture": "Zeer vloeibare vloeistof voor nauwkeurige dosering. Heldere kleur.",
-          "experience": "De laatste touch die het resultaat verheft. Glaswerk en servies met professionele glans."
+          "aroma": "Praktisch geurloos, geen geurresidu op het servies",
+          "texture": "Heldere, lichte vloeistof",
+          "experience": "Vlekkeloos servies zonder strepen met versnelde droging",
+          "sustainability": "98% natuurlijk gewonnen · Op basis van citroenzuur · Biologisch afbreekbaar · Recyclebare verpakking"
         },
         "aiTranslation": true,
-        "longDescription": "Glansspoelmiddel voor de vaatwasser. Voorkomt watervlekken en verbetert het drogen. 98% van natuurlijke oorsprong.",
+        "longDescription": "Glansspoelmiddel voor vaatwassers. Voorkomt watervlekken en verbetert het drogen. Creëert een fijne beschermlaag. 98% natuurlijk gewonnen.",
         "usage": "Het glansspoelmiddelcompartiment tot de maximummarkering vullen. De vaatwasser doseert automatisch."
       },
       "pt": {
@@ -7810,10 +7913,16 @@
         "momentOfUse": "Cada ciclo · Resultado final",
         "nameMain": "Abrilhantador",
         "nameAccent": "loiça",
-        "shortDescription": "Abrillantador que previene marcas de agua y mejora el secado en el aclarado final. Crea una fina capa protectora que reduce la tensión superficial del agua.",
+        "shortDescription": "Abrilhantador que previne marcas de água e melhora a secagem. 98% de origem natural.",
         "benefits": [
-          "Acabamento brilhante e sem manchas. Melhora a secagem no enxaguamento final.",
-          "Dosagem: 0,05-0,2% conforme a dureza da água."
+          {
+            "icon": "✨",
+            "text": "Acabamento brilhante sem manchas. Melhora a secagem no enxaguamento final."
+          },
+          {
+            "icon": "💧",
+            "text": "Dosagem: 0,05-0,2% conforme a dureza da água."
+          }
         ],
         "ritual": [
           {
@@ -7830,16 +7939,19 @@
           }
         ],
         "sensory": {
-          "aroma": "Sem fragância: sensação limpa e técnica.",
-          "texture": "Líquido muito fluido para dosagem precisa. Cor transparente.",
-          "experience": "O toque final que eleva o resultado. Cristaleria e loiça com brilho profissional."
+          "aroma": "Praticamente inodoro, sem resíduos de perfume na loiça",
+          "texture": "Líquido claro e leve",
+          "experience": "Loiça impecável sem marcas com secagem acelerada",
+          "sustainability": "98% de origem natural · Base de ácido cítrico · Biodegradável · Embalagem reciclável"
         },
         "aiTranslation": true,
-        "longDescription": "Abrillantador para máquina de lavar louça. Previne marcas de água e melhora a secagem. 98% origem natural.",
+        "longDescription": "Abrilhantador para máquina de lavar loiça. Previne marcas de água e melhora a secagem. Cria uma fina camada protetora. 98% de origem natural.",
         "usage": "Encher o compartimento do abrillantador até à marca máxima. A máquina doseia automaticamente."
       },
       "basePriceEUR": 5.7,
-      "basePriceGBP": 4.9
+      "basePriceGBP": 4.9,
+      "inci": "Aqua, Citric Acid, Sodium Citrate, Alcohol Denat., Coco-Glucoside, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene.",
+      "inciPendingVerification": true
     },
     {
       "id": "limpiasuelos",
@@ -8130,7 +8242,9 @@
         "aiTranslation": true
       },
       "basePriceEUR": 6.0,
-      "basePriceGBP": 5.16
+      "basePriceGBP": 5.16,
+      "inci": "Aqua, Coco-Glucoside, Sodium Coco-Sulfate, Glycerin, Citric Acid, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "limpiador-banos",
@@ -8411,7 +8525,9 @@
         "usage": "Aplicar na superfície, deixar atuar 10 minutos e esfregar. Enxaguar com água."
       },
       "basePriceEUR": 6.2,
-      "basePriceGBP": 5.33
+      "basePriceGBP": 5.33,
+      "inci": "Aqua, Citric Acid, Coco-Glucoside, Sodium Coco-Sulfate, Glycerin, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene.",
+      "inciPendingVerification": true
     },
     {
       "id": "desengrasante",
@@ -8781,7 +8897,9 @@
         "usage": "Pulverizar diretamente sobre a superfície engordurada, deixar atuar 1-2 minutos e limpar com pano."
       },
       "basePriceEUR": 4.8,
-      "basePriceGBP": 4.13
+      "basePriceGBP": 4.13,
+      "inci": "Aqua, Coco-Glucoside, Sodium Coco-Sulfate, Citrus Limon Peel Oil, Citrus Aurantium Dulcis Peel Oil, Glycerin, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene.",
+      "inciPendingVerification": true
     },
     {
       "id": "multisuperficies",
@@ -9060,7 +9178,9 @@
         "usage": "Pulverizar na superfície, limpar com pano húmido ou microfibra e deixar secar."
       },
       "basePriceEUR": 6.2,
-      "basePriceGBP": 5.33
+      "basePriceGBP": 5.33,
+      "inci": "Aqua, Coco-Glucoside, Sodium Coco-Sulfate, Glycerin, Citric Acid, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene, Linalool.",
+      "inciPendingVerification": true
     },
     {
       "id": "limpiacristales",
@@ -9345,7 +9465,9 @@
         "usage": "Pulverizar no vidro ou espelho e limpar com pano de microfibra ou papel de jornal."
       },
       "basePriceEUR": 5.9,
-      "basePriceGBP": 5.07
+      "basePriceGBP": 5.07,
+      "inci": "Aqua, Alcohol Denat., Coco-Glucoside, Citric Acid, Sodium Gluconate, Sodium Benzoate, Parfum.",
+      "inciPendingVerification": true
     },
     {
       "id": "champu-perros",
@@ -9639,7 +9761,9 @@
         "usage": "Molhar bem o pelo com água morna. Aplicar sem diluir, massajar durante alguns minutos e enxaguar completamente."
       },
       "basePriceEUR": 6.3,
-      "basePriceGBP": 5.42
+      "basePriceGBP": 5.42,
+      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Argania Spinosa Kernel Oil, Ocimum Basilicum Oil, Thymus Vulgaris Oil, Glycerin, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum.",
+      "inciPendingVerification": true
     },
     {
       "id": "champu-gatos",
@@ -9931,7 +10055,9 @@
         "usage": "Molhar bem o pelo com água morna. Aplicar com movimentos muito suaves, massajar até espuma abundante e enxaguar completamente."
       },
       "basePriceEUR": 6.3,
-      "basePriceGBP": 5.42
+      "basePriceGBP": 5.42,
+      "inci": "Aqua, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Argania Spinosa Kernel Oil, Lactobacillus Ferment, Glycerin, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid.",
+      "inciPendingVerification": true
     },
     {
       "id": "limpiador-oidos-mascotas",
@@ -10221,7 +10347,9 @@
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "longDescription": "Solução limpadora de ouvidos com óleo de árvore do chá a 0,2%. Sem fragância, pH neutro. Para cães e gatos.",
         "usage": "Aplicar algumas gotas no canal auditivo, massajar a base da orelha e deixar o animal sacudir a cabeça. Retirar o excesso com gaze."
-      }
+      },
+      "inci": "Aqua, Melaleuca Alternifolia Leaf Oil, Glycerin, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid.",
+      "inciPendingVerification": true
     },
     {
       "id": "limpiador-ojos-mascotas",
@@ -10511,7 +10639,9 @@
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "longDescription": "Solução limpadora ocular com complexo herbal de 6 plantas. Antisséptico, anti-inflamatório e inodoro. Para cães e gatos.",
         "usage": "Aplicar algumas gotas em algodão limpo e limpar suavemente o contorno do olho de dentro para fora."
-      }
+      },
+      "inci": "Aqua, Chamomilla Recutita Flower Extract, Euphrasia Officinalis Extract, Calendula Officinalis Flower Extract, Glycerin, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid.",
+      "inciPendingVerification": true
     }
   ]
 }

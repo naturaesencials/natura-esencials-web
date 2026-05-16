@@ -61,6 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'origen',
     'diario',
     'contacto',
+    'faq',
   ];
   const entries: MetadataRoute.Sitemap = [];
   const now = new Date();
