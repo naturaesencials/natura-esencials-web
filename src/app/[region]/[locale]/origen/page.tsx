@@ -29,7 +29,7 @@ const IMG_ALT: Record<string, string> = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, locale } = await params;
   return buildMetadata({
-    title: 'Origen',
+    title: ({"es": "Nuestro origen", "en": "Our Origin", "fr": "Notre origine", "de": "Unser Ursprung", "it": "La nostra origine", "nl": "Onze oorsprong", "pt": "A nossa origem"} as Record<string, string>)[locale] ?? 'Origen',
     description: META_DESC[locale] ?? META_DESC.es,
     region, locale, noIndex: region === "uk", path: 'origen',
   });

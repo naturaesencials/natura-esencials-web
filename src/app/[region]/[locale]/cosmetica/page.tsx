@@ -10,7 +10,7 @@ interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, locale } = await params;
   return buildMetadata({
-    title: 'Cosmética',
+    title: ({"es": "Cosmética artesanal", "en": "Artisan Skincare", "fr": "Cosmétique artisanale", "de": "Handwerkliche Kosmetik", "it": "Cosmetica artigianale", "nl": "Ambachtelijke cosmetica", "pt": "Cosmética artesanal"} as Record<string, string>)[locale] ?? 'Cosmética',
     description: 'Cosmética natural elaborada en Andalucía. Cabello, cuerpo, rostro y afeitado en rituales sensoriales con certificación ISO 16128.',
     region,
     noIndex: region === "uk",

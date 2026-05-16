@@ -10,7 +10,7 @@ interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, locale } = await params;
   return buildMetadata({
-    title: 'Hogar',
+    title: ({"es": "Cuidado del hogar", "en": "Home Care", "fr": "Entretien maison", "de": "Haushaltspflege", "it": "Cura della casa", "nl": "Huishoudverzorging", "pt": "Cuidado do lar"} as Record<string, string>)[locale] ?? 'Hogar',
     description: 'Limpieza del hogar convertida en ritual. Ropa, cocina, baño y limpieza general con fórmulas suaves y aromas que cuidan el espacio.',
     region,
     noIndex: region === "uk",

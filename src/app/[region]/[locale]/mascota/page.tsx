@@ -10,7 +10,7 @@ interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, locale } = await params;
   return buildMetadata({
-    title: 'Mascota',
+    title: ({"es": "Cuidado de mascotas", "en": "Pet Care", "fr": "Soins animaux", "de": "Tierpflege", "it": "Cura degli animali", "nl": "Huisdierverzorging", "pt": "Cuidado de animais"} as Record<string, string>)[locale] ?? 'Mascota',
     description: 'Higiene suave para perros y gatos. Champús, limpiador de oídos y de ojos formulados con respeto al microbioma y aromas hipoalergénicos.',
     region,
     noIndex: region === "uk",
