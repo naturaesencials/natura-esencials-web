@@ -20,6 +20,7 @@ import { CartProvider } from '@/context/CartContext';
 import { CookieBanner } from '@/components/layout/CookieBanner';
 import { CartDrawer } from '@/components/cart/CartDrawer';
 import { UkComingSoon } from '@/components/layout/UkComingSoon';
+import { WhatsAppButton } from '@/components/social/WhatsAppButton';
 
 interface Props {
   children: React.ReactNode;
@@ -60,6 +61,7 @@ export default async function RegionLocaleLayout({ children, params }: Props) {
             {region === 'uk' ? <UkComingSoon region={region} locale={locale} /> : children}
           </main>
           <Footer region={region} locale={locale} />
+          {region !== 'uk' && <WhatsAppButton locale={locale} />}
         <CookieBanner region={region} locale={locale} />
         </CartProvider>
       </div>
