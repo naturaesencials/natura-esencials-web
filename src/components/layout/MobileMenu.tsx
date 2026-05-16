@@ -32,7 +32,7 @@ export function MobileMenu({ open, onClose, region, locale, onOpenRegionSelector
           { key: 'navMascota',   section: 'mascota'   as const, color: 'text-citrico' },
           { key: 'navRituales',  section: 'rituales'  as const, color: 'text-verde-vivo' },
           { key: 'navOrigen',    section: 'origen'    as const, color: 'text-ink' },
-          ...(locale === 'es' ? [{ key: 'navDiario', section: 'blog' as const, color: 'text-ink' }] : []),
+          ...[{ key: 'navDiario', section: 'blog' as const, color: 'text-ink' }],
         ].map((item) => (
           <Link
             key={item.section}
