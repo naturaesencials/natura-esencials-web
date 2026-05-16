@@ -38,13 +38,13 @@ export default async function BlogPage({ params }: Props) {
   const lang = locale as string;
 
   const labels: Record<string, { title: string; sub: string; readMin: string }> = {
-    es: { title: 'Diario', sub: 'Formulación, ingredientes y rituales.', readMin: 'min de lectura' },
-    en: { title: 'Journal', sub: 'Formulation, ingredients and rituals.', readMin: 'min read' },
-    fr: { title: 'Journal', sub: 'Formulation, ingrédients et rituels.', readMin: 'min de lecture' },
-    de: { title: 'Tagebuch', sub: 'Formulierung, Zutaten und Rituale.', readMin: 'Min. Lesezeit' },
-    it: { title: 'Diario', sub: 'Formulazione, ingredienti e rituali.', readMin: 'min di lettura' },
-    nl: { title: 'Dagboek', sub: 'Formulering, ingrediënten en rituelen.', readMin: 'min lezen' },
-    pt: { title: 'Diário', sub: 'Formulação, ingredientes e rituais.', readMin: 'min de leitura' },
+    es: { title: 'Diario', sub: 'Formulación, ingredientes y rituales de cosmética natural.', readMin: 'min de lectura' },
+    en: { title: 'Journal', sub: 'Formulation, ingredients and natural cosmetics rituals.', readMin: 'min read' },
+    fr: { title: 'Journal', sub: 'Formulation, ingrédients et rituels de cosmétique naturelle.', readMin: 'min de lecture' },
+    de: { title: 'Tagebuch', sub: 'Formulierung, Zutaten und Rituale für Naturkosmetik.', readMin: 'Min. Lesezeit' },
+    it: { title: 'Diario', sub: 'Formulazione, ingredienti e rituali di cosmetica naturale.', readMin: 'min di lettura' },
+    nl: { title: 'Dagboek', sub: 'Formulering, ingrediënten en rituelen voor natuurlijke cosmetica.', readMin: 'min lezen' },
+    pt: { title: 'Diário', sub: 'Formulação, ingredientes e rituais de cosmética natural.', readMin: 'min de leitura' },
   };
   const readMoreLabels: Record<string, string> = {
     es: 'Leer artículo', en: 'Read article', fr: 'Lire l\'article',

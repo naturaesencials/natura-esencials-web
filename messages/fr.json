@@ -204,19 +204,19 @@
       "kicker": "Collection",
       "title": "Cosmétique",
       "accent": "artisanale",
-      "desc": "Cheveux, corps, visage et rasage en rituels sensoriels au quotidien. Trois collections — Basique, Pour Elle et Pour Lui — formulées selon la norme ISO 16128 et fabriquées à la main en Andalousie."
+      "desc": "Cosmétique artisanale au quotidien : cheveux, corps, visage et rasage en rituels sensoriels. Trois collections — Basique, Pour Elle et Pour Lui — formulées selon la norme ISO 16128 et fabriquées à la main en Andalousie."
     },
     "hogar": {
       "kicker": "Collection",
       "title": "Entretien",
       "accent": "maison",
-      "desc": "Nettoyage de la maison transformé en sensation de maison soignée. Lessive, adoucissant, vaisselle, nettoyants spécifiques et multi-surfaces aux formules douces d'origine naturelle."
+      "desc": "Entretien maison en rituel : nettoyage naturel transformé en sensation de maison soignée. Lessive, adoucissant, vaisselle, nettoyants spécifiques et multi-surfaces aux formules douces d'origine naturelle."
     },
     "mascota": {
       "kicker": "Collection",
       "title": "Soins",
       "accent": "animaux",
-      "desc": "Soins doux pour chiens et chats : hygiène tranquille, calme à la maison et connexion sans stress. Produits avec enregistrement MAPA et formules hypoallergéniques adaptées au microbiome animal."
+      "desc": "Soins animaux en rituel : soin doux pour chiens et chats avec hygiène tranquille, calme à la maison et connexion sans stress. Produits avec enregistrement MAPA et formules hypoallergéniques."
     }
   }
 }

@@ -204,19 +204,19 @@
       "kicker": "Collezione",
       "title": "Cosmetica",
       "accent": "artigianale",
-      "desc": "Capelli, corpo, viso e rasatura in rituali sensoriali quotidiani. Tre collezioni — Base, Per Lei e Per Lui — formulate secondo ISO 16128 e prodotte artigianalmente in Andalusia."
+      "desc": "Cosmetica artigianale quotidiana: capelli, corpo, viso e rasatura in rituali sensoriali. Tre collezioni — Base, Per Lei e Per Lui — formulate secondo ISO 16128 e prodotte artigianalmente in Andalusia."
     },
     "hogar": {
       "kicker": "Collezione",
       "title": "Cura della",
       "accent": "casa",
-      "desc": "La pulizia della casa trasformata in sensazione di casa curata. Detersivo, ammorbidente, piatti, detergenti specifici e multiuso con formule delicate di origine naturale."
+      "desc": "Cura della casa come rituale: la pulizia trasformata in sensazione di casa curata. Detersivo, ammorbidente, piatti, detergenti specifici e multiuso con formule delicate di origine naturale."
     },
     "mascota": {
       "kicker": "Collezione",
       "title": "Cura degli",
       "accent": "animali",
-      "desc": "Cura delicata per cani e gatti: igiene tranquilla, calma in casa e connessione senza stress. Prodotti con registrazione MAPA e formule ipoallergeniche adattate al microbioma animale."
+      "desc": "Cura degli animali come rituale: cure delicate per cani e gatti con igiene tranquilla, calma in casa. Prodotti con registrazione MAPA e formule ipoallergeniche adattate al microbioma animale."
     }
   }
 }

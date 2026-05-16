@@ -30,6 +30,11 @@ export const metadata: Metadata = {
   other: {
     'facebook-domain-verification': 'bgg6rhiobr0yjzxydwotm6hwlv3h9t',
   },
+  alternates: {
+    types: {
+      'application/xml': `${siteConfig.url}/sitemap.xml`,
+    },
+  },
 };
 
 /**
