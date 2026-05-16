@@ -330,7 +330,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
             {t.handcraftedAndalucia}
           </p>
           <p className="text-body-fluid text-bg/70 max-w-xl mx-auto">
-            {t.smallBatch}
+            {t.smallBatch} {tr.name}.
           </p>
         </section>
 
