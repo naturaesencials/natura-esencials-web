@@ -68,7 +68,7 @@ export function DualFeatured({ region, locale }: Props) {
               href={cosmeticaHref}
               className="inline-flex min-h-touch items-center border-b border-ink pb-1 text-[10px] font-medium uppercase tracking-[0.28em] transition-colors hover:border-verde hover:text-verde"
             >
-              {tc('addToBag')} →
+              {cosmetica.names[locale].full} →
             </Link>
           </div>
         </div>
@@ -101,7 +101,7 @@ export function DualFeatured({ region, locale }: Props) {
                 href={hogarHref}
                 className="inline-flex min-h-touch items-center border-b border-ink pb-1 text-[10px] font-medium uppercase tracking-[0.28em] transition-colors hover:border-azul hover:text-azul"
               >
-                {tc('addToBag')} →
+                {hogar.names[locale].full} →
               </Link>
             </div>
           </div>
