@@ -81,8 +81,13 @@ export function makeGenerateMetadata(line: ProductLine) {
         .map(([loc, t]) => [loc, t!.slug]),
     ) as Partial<Record<Locale, string>>;
 
+    // Title: nombre + primera frase del subtitle para diferenciar variantes (SEO)
+    const titleSuffix = tr.subtitle ? ` — ${tr.subtitle.split('.')[0]}` : '';
+    const fullTitle = `${tr.name}${titleSuffix}`;
+    const title = fullTitle.length > 55 ? fullTitle.slice(0, 52) + '…' : fullTitle;
+
     return buildMetadata({
-      title: tr.name,
+      title,
       description: tr.shortDescription,
       region,
       locale,
