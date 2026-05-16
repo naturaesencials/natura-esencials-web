@@ -44,15 +44,24 @@ export async function GET(req: NextRequest) {
 
   try {
     const res = await fetch(url.toString(), {
-      next: { revalidate: 300 }, // cache 5 min
+      next: { revalidate: 300 },
     });
     if (!res.ok) {
       return NextResponse.json({ reviews: [], total: 0, current_page: 1 });
     }
     const data: JudgeMeResponse = await res.json();
+    let reviews: Review[] = data.reviews ?? [];
+
+    // Si se pidió un producto concreto, filtrar estrictamente por handle.
+    // Las "shop reviews" (product_handle: "judgeme-shop-reviews") solo
+    // aparecen en la homepage (sin handle), nunca en páginas de producto.
+    if (handle) {
+      reviews = reviews.filter((r) => r.product_handle === handle);
+    }
+
     return NextResponse.json({
-      reviews: data.reviews ?? [],
-      total: data.total ?? 0,
+      reviews,
+      total: reviews.length,
       current_page: data.current_page ?? 1,
     });
   } catch {
