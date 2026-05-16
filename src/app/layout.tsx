@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Fraunces } from 'next/font/google';
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { headers } from 'next/headers';
 import { siteConfig } from '@/config/site';
