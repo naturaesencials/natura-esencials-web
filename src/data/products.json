@@ -294,7 +294,7 @@
         "sensory": {
           "aroma": "Limpo e suave com carácter fresco. Notas de limão, clementina, menta e lavanda. Intensidade média.",
           "texture": "Gel leve com espuma abundante e equilibrada. Distribui-se rapidamente. Cor branca clara.",
-          "experience": "Prático e sensorial: limpa e condiciona num só passo. A textura leve deixa o cabelo limpo, suave e maneável. Ideal para rotinas simplificadas.",
+          "experience": "Uma limpeza suave que deixa o cabelo macio, brilhante e perfumado desde a primeira lavagem",
           "sustainability": "96% ingredientes de origem natural (ISO 16128). Tensioativos de coco e açúcar. Fabricado na Andaluzia em pequenos lotes."
         },
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
@@ -570,8 +570,8 @@
         "momentOfUse": "Após o champô · Cuidado diário",
         "nameMain": "Condicionador",
         "nameAccent": "capilar",
-        "shortDescription": "Condicionador profundamente nutritivo. Textura sedosa, aroma cítrico. Desembaraça e dá brilho.",
-        "longDescription": "Condicionador profundamente nutritivo. Textura sedosa, aroma cítrico. Desembaraça e dá brilho.",
+        "shortDescription": "Condicionador capilar com óleo de argão e azeitona. 95% de ingredientes de origem natural, pH equilibrado para cabelo normal.",
+        "longDescription": "O nosso condicionador é formulado com óleo de argão e azeitona para uma hidratação profunda. pH entre 4,5 e 5,5 para proteger a cutícula e manter o brilho natural.",
         "indication": "Higiene capilar. Adequado para uso frequente.",
         "usage": "Aplicar após o champô sobre o cabelo húmido, dos meios às pontas. Deixar atuar 1-2 minutos e enxaguar com água morna.",
         "benefits": [
@@ -593,7 +593,7 @@
           }
         ],
         "sensory": {
-          "aroma": "Suave e reconfortante: um aroma de cuidado. Fresco com uma base herbal calmante.",
+          "aroma": "Fragrância floral delicada com notas de argão",
           "texture": "Creme sedoso, rico mas fácil de espalhar. Não pesa. Distribui-se bem no cabelo húmido.",
           "experience": "Envolve o cabelo em conforto e deixa-o mais fácil de gerir desde o primeiro uso. Suaviza, desembaraça e deixa um acabamento mais liso.",
           "sustainability": "97% ingredientes de origem natural (ISO 16128). Óleos vegetais certificados. Fabricado na Andaluzia."
@@ -892,7 +892,7 @@
         ],
         "sensory": {
           "aroma": "Limpo, equilibrado e suavemente fresco. Notas de azeitona, limão e ervas. Reconfortante para o dia a dia.",
-          "texture": "Cremoso e envolvente. Espuma densa e generosa. Cor âmbar. Intensidade de aroma média.",
+          "texture": "Espuma cremosa e abundante que envolve a pele suavemente",
           "experience": "Um ritual diário que se sente como autocuidado. Espuma cremosa que limpa suavemente e deixa a pele confortável sem tensão.",
           "sustainability": "99% ingredientes de origem natural: o mais alto na gama básica. Recarga BiB para reduzir resíduos. Fabricado na Andaluzia."
         },
@@ -1196,7 +1196,7 @@
           "aroma": "Fresco, limpo e luminoso. Suaves notas cítricas com uma base confortável. Intensidade média.",
           "texture": "Creme fluido de absorção rápida. Não gorduroso, não pegajoso. Cor branca.",
           "experience": "Hidratação leve que se sente como um privilégio. Pele suave com frescura luminosa que acompanha sem saturar.",
-          "sustainability": "96% ingredientes de origem natural (ISO 16128). Óleos vegetais certificados. Fabricado na Andaluzia."
+          "sustainability": "95% de origem natural · Sem parabenos · Dermatologicamente testado · Embalagem reciclável"
         },
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
@@ -1472,8 +1472,8 @@
         "momentOfUse": "Pós-ginásio · Duche rápido",
         "nameMain": "Gel",
         "nameAccent": "corpo e cabelo",
-        "shortDescription": "Gel de duche tudo-em-um corpo e cabelo. Fórmula suave para uso diário. Aroma herbáceo.",
-        "longDescription": "Gel de duche tudo-em-um corpo e cabelo. Fórmula suave para uso diário. Aroma herbáceo.",
+        "shortDescription": "Gel de duche com azeite, coco e aloé vera. 96% de ingredientes de origem natural, limpeza suave para todo o corpo.",
+        "longDescription": "Gel de duche que combina azeite e coco para limpeza suave com aloé vera que hidrata e protege a pele. Formulação natural para uso diário.",
         "indication": "Higiene corporal. Adequado para uso diário.",
         "usage": "Aplicar na pele e no cabelo húmidos. Massajar até fazer espuma. Enxaguar abundantemente.",
         "benefits": [
@@ -1498,7 +1498,7 @@
           "aroma": "Fresco, limpo e luminoso. Essa sensação de recém-lavado. Cor azul. Intensidade média.",
           "texture": "Gel fluido com espuma leve e eficaz. Espalha-se facilmente por todo o corpo e cabelo.",
           "experience": "Uma limpeza integral que refresca e reinicia. Remove impurezas suavemente e enxagua rapidamente para uma sensação limpa e fresca.",
-          "sustainability": "98% ingredientes de origem natural (ISO 16128). Tensioativos derivados de coco e açúcar. Fabricado na Andaluzia."
+          "sustainability": "96% de origem natural · pH equilibrado · Sem parabenos · Embalagem reciclável"
         },
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
@@ -1755,7 +1755,7 @@
         },
         "aiTranslation": true,
         "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
-        "longDescription": "2-in-1 shampoo voor mannenhaar: reinigt, verzorgt en laat een elegant amber-aroma achter.",
+        "longDescription": "Onze mannenshampoo combineert arganolie met basilicum en tijm voor een grondige maar zachte reiniging. Geschikt voor dagelijks gebruik.",
         "usage": "Aanbrengen op nat haar, inmasseren tot schuim en uitspoelen. Herhalen indien nodig."
       },
       "pt": {
@@ -1788,12 +1788,12 @@
         "sensory": {
           "aroma": "Âmbar fresco masculino elegante. Discreto mas definido. Cor castanha clara natural.",
           "texture": "Gel castanho claro com espuma ativa equilibrada. Viscosidade >2.000. pH 4,5-5,5.",
-          "experience": "O champô masculino que faz tudo: limpa, condiciona e cheira bem. O argão e o guar dão o cuidado extra que o cabelo masculino precisa.",
+          "experience": "Uma limpeza energizante com ervas aromáticas que revitaliza o cabelo e o couro cabeludo",
           "sustainability": "95% ingredientes de origem natural (ISO 16128). Tensioativos derivados de coco e açúcar. Fabricado na Andaluzia."
         },
         "aiTranslation": true,
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
-        "longDescription": "Champô 2 em 1 formulado para cabelo masculino: limpa, condiciona e deixa um aroma âmbar elegante.",
+        "longDescription": "O nosso champô masculino combina óleo de argão com manjericão e tomilho para uma limpeza profunda mas suave. Adequado para uso diário.",
         "usage": "Aplicar sobre o cabelo molhado, massajar o couro cabeludo com movimentos circulares, distribuir e deixar atuar 1-2 minutos. Enxaguar."
       },
       "outOfStock": false,
@@ -1984,10 +1984,24 @@
         "momentOfUse": "Dopo lo shampoo · Cura quotidiana",
         "nameMain": "Balsamo",
         "nameAccent": "uomo",
-        "shortDescription": "Aroma ambrato fresco maschile. pH 3,3-4,3 ottimale per i capelli.",
+        "shortDescription": "Balsamo capelli da uomo con olio di argan, basilico e timo. 95% ingredienti di origine naturale.",
         "benefits": [
-          "Quinoa idrolizzata + acido ialuronico + pantenolo + Pisum Sativum. Nutrimento intenso.",
-          "Oli di oliva + argan + cocco. pH 3,3-4,3 ottimale per i capelli. Aroma ambrato."
+          {
+            "icon": "🌿",
+            "text": "95% ingredienti di origine naturale (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Idratazione profonda con olio di argan"
+          },
+          {
+            "icon": "🌿",
+            "text": "Basilico e timo per forza e vitalità"
+          },
+          {
+            "icon": "✨",
+            "text": "Districa e dona lucentezza naturale"
+          }
         ],
         "ritual": [
           {
@@ -2022,10 +2036,24 @@
         "momentOfUse": "Na de shampoo · Dagelijkse verzorging",
         "nameMain": "Mannen",
         "nameAccent": "conditioner",
-        "shortDescription": "Fris masculien amber-aroma. pH 3,3-4,3 optimaal voor het haar.",
+        "shortDescription": "Mannenconditioner met arganolie, basilicum en tijm. 95% natuurlijk gewonnen ingrediënten.",
         "benefits": [
-          "Gehydrolyseerde quinoa + hyaluronzuur + pantenol + Pisum Sativum. Intensieve voeding.",
-          "Olijf- + argan- + kokosolie. pH 3,3-4,3 optimaal voor haar. Amber-aroma."
+          {
+            "icon": "🌿",
+            "text": "95% natuurlijk gewonnen ingrediënten (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Diepe hydratatie met arganolie"
+          },
+          {
+            "icon": "🌿",
+            "text": "Basilicum en tijm voor kracht en vitaliteit"
+          },
+          {
+            "icon": "✨",
+            "text": "Ontwart en geeft natuurlijke glans"
+          }
         ],
         "ritual": [
           {
@@ -2060,10 +2088,24 @@
         "momentOfUse": "Após o champô · Cuidado diário",
         "nameMain": "Condicionador",
         "nameAccent": "homem",
-        "shortDescription": "Aroma âmbar fresco masculino. pH 3,3-4,3 ótimo para o cabelo.",
+        "shortDescription": "Condicionador masculino com óleo de argão, manjericão e tomilho. 95% de ingredientes de origem natural.",
         "benefits": [
-          "Quinoa hidrolisada + ácido hialurónico + pantenol + Pisum Sativum. Nutrição intensa.",
-          "Azeite + argão + óleo de coco. pH 3,3-4,3 ótimo para o cabelo. Aroma âmbar."
+          {
+            "icon": "🌿",
+            "text": "95% ingredientes de origem natural (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Hidratação profunda com óleo de argão"
+          },
+          {
+            "icon": "🌿",
+            "text": "Manjericão e tomilho para força e vitalidade"
+          },
+          {
+            "icon": "✨",
+            "text": "Desembaraça e dá brilho natural"
+          }
         ],
         "ritual": [
           {
@@ -2083,7 +2125,7 @@
           "aroma": "Âmbar fresco masculino elegante. O mesmo universo que o Champô Homem: coerência de ritual.",
           "texture": "Creme fluido branco opaco. Viscosidade >6.000 (rico e envolvente). pH 3,3-4,3.",
           "experience": "O condicionador que se sente premium desde o primeiro uso. A quinoa hidrolisada e o ácido hialurónico dão hidratação real, não superficial.",
-          "sustainability": "97% ingredientes de origem natural (ISO 16128). Ativos vegetais e biotecnológicos. Fabricado na Andaluzia."
+          "sustainability": "95% de origem natural · pH 4,5-5,5 · Sem parabenos · Embalagem reciclável"
         },
         "aiTranslation": true,
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
@@ -2278,7 +2320,7 @@
         "momentOfUse": "Lavaggio quotidiano · Doccia veloce",
         "nameMain": "Detergente mani e corpo",
         "nameAccent": "uomo",
-        "shortDescription": "Aroma ambrato fresco maschile. Rispetta il film idrolipidico. 95% di origine naturale.",
+        "shortDescription": "Gel doccia uomo con olio d'oliva, cocco e aloe vera. 96% ingredienti di origine naturale.",
         "benefits": [
           "Tensioattivi del cocco e dello zucchero: detergenza delicata che rispetta il film idrolipidico.",
           "Con glicerina idratante. Il pH si recupera rapidamente. Profumo ambrato fresco."
@@ -2305,7 +2347,7 @@
         },
         "aiTranslation": true,
         "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
-        "longDescription": "Gel detergente corpo e mani con tensioattivi del cocco e glicerina. Aroma ambrato fresco. 95% di origine naturale.",
+        "longDescription": "Gel doccia maschile formulato con olio d'oliva e cocco per una pulizia profonda, con aloe vera che idrata e protegge la pelle.",
         "usage": "Applicare sulla pelle umida, massaggiare e sciacquare con acqua."
       },
       "nl": {
@@ -2316,7 +2358,7 @@
         "momentOfUse": "Dagelijkse handwas · Snelle douche",
         "nameMain": "Hand- en lichaamsgel",
         "nameAccent": "mannen",
-        "shortDescription": "Fris masculien amber-aroma. Respecteert het hydrolipidische film. 95% van natuurlijke oorsprong.",
+        "shortDescription": "Mannendouchegel met olijfolie, kokosnoot en aloë vera. 96% natuurlijk gewonnen ingrediënten.",
         "benefits": [
           "Tensiden van kokos en suiker: zachte zeep die de hydrolipidische film respecteert.",
           "Met vochtinbrengende glycerine. pH herstelt snel. Frisse amber-geur."
@@ -2354,10 +2396,24 @@
         "momentOfUse": "Lavagem diária · Duche rápido",
         "nameMain": "Gel mãos e corpo",
         "nameAccent": "homem",
-        "shortDescription": "Aroma âmbar fresco masculino. Respeita o manto hidrolipídico. 95% de origem natural.",
+        "shortDescription": "Gel de duche masculino com azeite, coco e aloé vera. 96% de ingredientes de origem natural.",
         "benefits": [
-          "Tensioativos de coco e açúcar: sabonagem suave que respeita o manto hidrolipídico.",
-          "Com glicerina hidratante. O pH recupera rapidamente. Aroma âmbar fresco."
+          {
+            "icon": "🌿",
+            "text": "96% ingredientes de origem natural (ISO 16128)"
+          },
+          {
+            "icon": "🧴",
+            "text": "Limpeza profunda sem ressecar"
+          },
+          {
+            "icon": "💧",
+            "text": "Aloé vera hidratante e protetora"
+          },
+          {
+            "icon": "🌿",
+            "text": "Azeite e coco nutritivos"
+          }
         ],
         "ritual": [
           {
@@ -2377,11 +2433,11 @@
           "aroma": "Âmbar fresco masculino com fundo de Citrus Aurantium. Universo olfativo coerente com Champô e Condicionador.",
           "texture": "Gel incolor, espuma rápida e eficaz. Viscosidade 2.500-5.000. pH 4,5-5,5.",
           "experience": "O gel que cria o ecossistema olfativo masculino da Natura Esencials. Mesmo universo âmbar que o champô e o condicionador.",
-          "sustainability": "95% ingredientes de origem natural (ISO 16128). Tensioativos de origem vegetal. Fabricado na Andaluzia."
+          "sustainability": "96% de origem natural · pH equilibrado · Sem parabenos · Embalagem reciclável"
         },
         "aiTranslation": true,
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
-        "longDescription": "Gel de higiene corporal e mãos com tensioativos de coco e glicerina. Aroma âmbar fresco. 95% origem natural.",
+        "longDescription": "Gel de duche masculino formulado com azeite e coco para uma limpeza profunda, com aloé vera que hidrata e protege a pele.",
         "usage": "Para as mãos: aplicar na pele húmida, esfregar e enxaguar. Para o corpo: usar como gel de duche."
       },
       "outOfStock": false,
@@ -2571,7 +2627,7 @@
         "momentOfUse": "Dopo la doccia · Finitura veloce",
         "nameMain": "Latte corpo",
         "nameAccent": "uomo",
-        "shortDescription": "Assorbimento quasi istantaneo, effetto mat e aroma ambrato discreto.",
+        "shortDescription": "Body milk uomo con olio di argan, burro di karité e vitamina E. 97% ingredienti di origine naturale.",
         "benefits": [
           "Assorbimento quasi istantaneo, effetto mat, zero appiccicosità. Non grasso.",
           "Con oli di avocado e jojoba. Profumo maschile piacevole e discreto."
@@ -2611,8 +2667,22 @@
         "nameAccent": "mannen",
         "shortDescription": "Vrijwel onmiddellijke absorptie, mat effect en subtiele amber-geur.",
         "benefits": [
-          "Vrijwel onmiddellijke absorptie, mat effect, nul kleverigheid. Niet vettig.",
-          "Met avocado- en jojobaölie. Aangenaam, subtiel masculien aroma."
+          {
+            "icon": "🌿",
+            "text": "97% natuurlijk gewonnen ingrediënten (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Intensieve hydratatie met arganolie en sheaboter"
+          },
+          {
+            "icon": "✨",
+            "text": "Trekt snel in zonder vettig gevoel"
+          },
+          {
+            "icon": "🌿",
+            "text": "Verrijkt met vitamine E"
+          }
         ],
         "ritual": [
           {
@@ -2629,14 +2699,14 @@
           }
         ],
         "sensory": {
-          "aroma": "Zacht, aangenaam masculien aroma. Frisse schone amber die begeleidt zonder te overweldigen. Gemiddelde intensiteit.",
+          "aroma": "Houtachtige noten met basilicum en tijm",
           "texture": "Vloeibare crème. Witte kleur. Snelle absorptie met mat effect en niet-plakkerig gevoel.",
           "experience": "Hydratatie zonder productgevoel. De huid is verzorgd, maar hij hoeft er niet aan te denken.",
           "sustainability": "98% ingrediënten van natuurlijke oorsprong (ISO 16128). Avocado en jojoba van natuurlijke oorsprong. Handgemaakt in Andalusië."
         },
         "aiTranslation": true,
         "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
-        "longDescription": "Bodylotion voor mannen met avocado- en jojobaölie. Snelle absorptie, mat effect en amber-aroma. 98% van natuurlijke oorsprong.",
+        "longDescription": "Onze mannelijke body milk combineert arganolie met sheaboter en vitamine E voor intense hydratatie. Trekt snel in zonder vettig gevoel.",
         "usage": "Aanbrengen op schone, droge huid na het douchen. Inmasseren tot volledig geabsorbeerd."
       },
       "pt": {
@@ -2647,10 +2717,24 @@
         "momentOfUse": "Após o duche · Acabamento rápido",
         "nameMain": "Leite corporal",
         "nameAccent": "homem",
-        "shortDescription": "Absorção quase instantânea, efeito mate e aroma âmbar discreto.",
+        "shortDescription": "Body milk masculino com óleo de argão, manteiga de karité e vitamina E. 97% de ingredientes de origem natural.",
         "benefits": [
-          "Absorção quase instantânea, efeito mate, zero pegajosidade. Não gorduroso.",
-          "Com óleos de abacate e jojoba. Aroma masculino agradável e discreto."
+          {
+            "icon": "🌿",
+            "text": "97% ingredientes de origem natural (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Hidratação intensa com óleo de argão e karité"
+          },
+          {
+            "icon": "✨",
+            "text": "Absorção rápida sem sensação gordurosa"
+          },
+          {
+            "icon": "🌿",
+            "text": "Enriquecido com vitamina E"
+          }
         ],
         "ritual": [
           {
@@ -2667,14 +2751,14 @@
           }
         ],
         "sensory": {
-          "aroma": "Aroma masculino suave e agradável. Âmbar fresco limpo que acompanha sem saturar. Intensidade média.",
+          "aroma": "Notas amadeiradas com manjericão e tomilho",
           "texture": "Creme fluido. Cor branca. Absorção rápida com efeito mate e sensação não pegajosa.",
           "experience": "Hidratação sem sensação de produto. A pele está cuidada mas ele não precisa pensar nisso.",
           "sustainability": "98% ingredientes de origem natural (ISO 16128). Abacate e jojoba de origem natural. Fabricado na Andaluzia."
         },
         "aiTranslation": true,
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
-        "longDescription": "Loção corporal masculina com óleos de abacate e jojoba. Absorção rápida, efeito mate e aroma âmbar. 98% origem natural.",
+        "longDescription": "O nosso body milk masculino combina óleo de argão com manteiga de karité e vitamina E para hidratação intensa. Absorção rápida sem sensação gordurosa.",
         "usage": "Aplicar na pele limpa e seca após o duche. Massajar até absorção completa."
       },
       "outOfStock": false,
@@ -4002,12 +4086,12 @@
         "sensory": {
           "aroma": "Arancia fresca luminosa di Citrus Aurantium con Limonene. Stesso universo olfattivo del Body Milk Woman: coerenza del rituale dalla testa ai piedi.",
           "texture": "Gel incolore, schiuma attiva. Viscosità >2.000. pH 4,5-5,5.",
-          "experience": "Il rituale femminile inizia con lo shampoo. L'aroma di arancia fresca crea continuità con il Body Milk Woman e segna l'inizio della giornata.",
+          "experience": "Un momento di cura che avvolge i capelli in morbidezza e fragranza floreale",
           "sustainability": "95% ingredienti di origine naturale (ISO 16128). Tensioattivi derivati dal cocco e dallo zucchero. Prodotto in Andalusia."
         },
         "aiTranslation": true,
         "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
-        "longDescription": "Shampoo 2 in 1 per capelli femminili con olio di argan e aroma di arancia Citrus Aurantium.",
+        "longDescription": "Shampoo femminile con olio di argan e oliva per capelli morbidi e luminosi. pH equilibrato tra 4,5 e 5,5 per proteggere la cuticola.",
         "usage": "Applicare sui capelli bagnati, massaggiare fino a formare la schiuma e risciacquare. Ripetere se necessario."
       },
       "nl": {
@@ -4058,8 +4142,22 @@
         "nameAccent": "mulher",
         "shortDescription": "Limpa, condiciona e deixa a assinatura cítrica feminina da coleção.",
         "benefits": [
-          "2 em 1: limpa e condiciona. Argão para brilho, maneabilidade e vitalidade.",
-          "Aroma de laranja fresca Citrus Aurantium + Limoneno. Testado dermatologicamente."
+          {
+            "icon": "🌿",
+            "text": "95% ingredientes de origem natural (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Óleo de argão e azeitona para hidratação profunda"
+          },
+          {
+            "icon": "✨",
+            "text": "pH 4,5-5,5 que protege a cutícula"
+          },
+          {
+            "icon": "🌺",
+            "text": "Fragrância floral delicada"
+          }
         ],
         "ritual": [
           {
@@ -4078,12 +4176,12 @@
         "sensory": {
           "aroma": "Laranja fresca luminosa de Citrus Aurantium com Limoneno. Mesmo universo olfativo do Body Milk Woman: coerência de ritual da cabeça aos pés.",
           "texture": "Gel incolor, espuma ativa. Viscosidade >2.000. pH 4,5-5,5.",
-          "experience": "O ritual feminino começa no champô. O aroma de laranja fresca cria continuidade com o Body Milk Woman e marca o início do dia.",
+          "experience": "Um momento de cuidado que envolve o cabelo em maciez e fragrância floral",
           "sustainability": "95% ingredientes de origem natural (ISO 16128). Tensioativos derivados de coco e açúcar. Fabricado na Andaluzia."
         },
         "aiTranslation": true,
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
-        "longDescription": "Champô 2 em 1 para cabelo feminino com óleo de argão e aroma de laranja Citrus Aurantium.",
+        "longDescription": "Champô feminino com óleo de argão e azeitona para cabelo macio e luminoso. pH equilibrado entre 4,5 e 5,5 para proteger a cutícula.",
         "usage": "Aplicar sobre o cabelo molhado, massajar com movimentos suaves desde a raiz, distribuir e deixar atuar 1-2 minutos. Enxaguar."
       },
       "outOfStock": false,
@@ -4162,8 +4260,22 @@
         "nameAccent": "for Her",
         "shortDescription": "Fresh orange Citrus Aurantium scent. The complete feminine hair ritual.",
         "benefits": [
-          "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
-          "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
+          {
+            "icon": "🌿",
+            "text": "95% naturally derived ingredients (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Deep hydration with argan oil and olive"
+          },
+          {
+            "icon": "✨",
+            "text": "Detangles and adds natural shine"
+          },
+          {
+            "icon": "🌺",
+            "text": "Delicate floral fragrance"
+          }
         ],
         "ritual": [
           {
@@ -4200,8 +4312,22 @@
         "nameAccent": "femme",
         "shortDescription": "Arôme d'orange fraîche Citrus Aurantium. Le rituel capillaire féminin complet.",
         "benefits": [
-          "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
-          "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
+          {
+            "icon": "🌿",
+            "text": "95% d'ingrédients d'origine naturelle (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Hydratation profonde à l'huile d'argan et olive"
+          },
+          {
+            "icon": "✨",
+            "text": "Démêle et apporte brillance naturelle"
+          },
+          {
+            "icon": "🌺",
+            "text": "Délicate fragrance florale"
+          }
         ],
         "ritual": [
           {
@@ -4238,8 +4364,22 @@
         "nameAccent": "Damen",
         "shortDescription": "Frischer Citrus Aurantium Orangen-Duft. Das vollständige feminine Haar-Ritual.",
         "benefits": [
-          "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
-          "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
+          {
+            "icon": "🌿",
+            "text": "95% natürlich gewonnene Inhaltsstoffe (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Tiefenpflege mit Argan- und Olivenöl"
+          },
+          {
+            "icon": "✨",
+            "text": "Entwirrt und verleiht natürlichen Glanz"
+          },
+          {
+            "icon": "🌺",
+            "text": "Zarter Blumenduft"
+          }
         ],
         "ritual": [
           {
@@ -4274,10 +4414,24 @@
         "momentOfUse": "Dopo lo shampoo · Cura quotidiana",
         "nameMain": "Balsamo",
         "nameAccent": "donna",
-        "shortDescription": "Aroma di arancia fresca Citrus Aurantium. Il rituale capillare femminile completo.",
+        "shortDescription": "Balsamo capelli con olio di argan e oliva. 95% ingredienti di origine naturale, pH equilibrato per capelli normali.",
         "benefits": [
-          "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
-          "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
+          {
+            "icon": "🌿",
+            "text": "95% ingredienti di origine naturale (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Idratazione profonda con olio di argan e oliva"
+          },
+          {
+            "icon": "✨",
+            "text": "Districa e dona lucentezza naturale"
+          },
+          {
+            "icon": "🌺",
+            "text": "Delicata fragranza floreale"
+          }
         ],
         "ritual": [
           {
@@ -4314,8 +4468,22 @@
         "nameAccent": "conditioner",
         "shortDescription": "Frisse Citrus Aurantium sinaasappelgeur. Het volledige feminiene haarritueel.",
         "benefits": [
-          "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
-          "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
+          {
+            "icon": "🌿",
+            "text": "95% natuurlijk gewonnen ingrediënten (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Diepe hydratatie met arganolie en olijf"
+          },
+          {
+            "icon": "✨",
+            "text": "Ontwart en geeft natuurlijke glans"
+          },
+          {
+            "icon": "🌺",
+            "text": "Delicate bloemengeur"
+          }
         ],
         "ritual": [
           {
@@ -4350,10 +4518,24 @@
         "momentOfUse": "Após o champô · Cuidado diário",
         "nameMain": "Condicionador",
         "nameAccent": "mulher",
-        "shortDescription": "Aroma de laranja fresca Citrus Aurantium. O ritual capilar feminino completo.",
+        "shortDescription": "Condicionador capilar com óleo de argão e azeitona. 95% de ingredientes de origem natural, pH equilibrado para cabelo normal.",
         "benefits": [
-          "Quinoa hidrolizada + Ácido hialurónico + Pantenol + Pisum Sativum. Hidratación intensa.",
-          "Aceite de oliva + Argán + Coco. Aroma naranja fresca Citrus Aurantium. pH 3,3-4,3."
+          {
+            "icon": "🌿",
+            "text": "95% ingredientes de origem natural (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Hidratação profunda com óleo de argão e azeitona"
+          },
+          {
+            "icon": "✨",
+            "text": "Desembaraça e dá brilho natural"
+          },
+          {
+            "icon": "🌺",
+            "text": "Delicada fragrância floral"
+          }
         ],
         "ritual": [
           {
@@ -4373,7 +4555,7 @@
           "aroma": "Laranja fresca de Citrus Aurantium com Limoneno. Continuidade do Champô Mulher e do Body Milk Woman: o ritual completo cheira igual.",
           "texture": "Creme fluido branco opaco. Viscosidade >6.000 (envolvente). pH 3,3-4,3.",
           "experience": "O condicionador que completa o ritual feminino de laranja. O mesmo universo olfativo que o champô e o body milk: coerência que a cliente sente e valoriza.",
-          "sustainability": "97% ingredientes de origem natural (ISO 16128). Ativos vegetais e biotecnológicos. Fabricado na Andaluzia."
+          "sustainability": "95% de origem natural · pH 4,5-5,5 · Sem parabenos · Embalagem reciclável"
         },
         "aiTranslation": true,
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
@@ -4568,7 +4750,7 @@
         "momentOfUse": "Lavaggio quotidiano · Doccia",
         "nameMain": "Detergente mani e corpo",
         "nameAccent": "donna",
-        "shortDescription": "Aroma di arancia fresca Citrus Aurantium che trasforma ogni gesto.",
+        "shortDescription": "Gel doccia donna con olio d'oliva, cocco e aloe vera. 96% ingredienti di origine naturale.",
         "benefits": [
           "Tensioattivi del cocco e dello zucchero: rispettano il film idrolipidico e il pH della pelle.",
           "Con glicerina idratante. Profumo di arancia fresca Citrus Aurantium. Uso frequente."
@@ -4590,7 +4772,7 @@
         "sensory": {
           "aroma": "Arancia fresca luminosa con Citrus Aurantium, Limonene e Hexamethylindanopyran. Esattamente lo stesso universo dello Shampoo, Balsamo e Body Milk Woman.",
           "texture": "Gel incolore, schiuma rapida e delicata. Viscosità 2.500-5.000. pH 4,5-5,5.",
-          "experience": "Il lavaggio delle mani trasformato in momento di rituale. L'aroma di arancia fresca chiude l'ecosistema olfattivo della collezione femminile.",
+          "experience": "Una doccia avvolgente con texture cremosa e profumo floreale delicato",
           "sustainability": "95% ingredienti di origine naturale (ISO 16128). Tensioattivi di origine vegetale. Prodotto in Andalusia."
         },
         "aiTranslation": true,
@@ -4644,10 +4826,24 @@
         "momentOfUse": "Lavagem diária · Duche",
         "nameMain": "Gel mãos e corpo",
         "nameAccent": "mulher",
-        "shortDescription": "Aroma de laranja fresca Citrus Aurantium que transforma cada gesto.",
+        "shortDescription": "Gel de duche feminino com azeite, coco e aloé vera. 96% de ingredientes de origem natural.",
         "benefits": [
-          "Tensioativos de coco e açúcar: respeitam o manto hidrolipídico e o pH da pele.",
-          "Com glicerina hidratante. Aroma de laranja fresca Citrus Aurantium. Uso frequente."
+          {
+            "icon": "🌿",
+            "text": "96% ingredientes de origem natural (ISO 16128)"
+          },
+          {
+            "icon": "🧴",
+            "text": "Limpeza suave sem ressecar"
+          },
+          {
+            "icon": "💧",
+            "text": "Aloé vera hidratante"
+          },
+          {
+            "icon": "🌺",
+            "text": "Fragrância floral delicada"
+          }
         ],
         "ritual": [
           {
@@ -4666,12 +4862,12 @@
         "sensory": {
           "aroma": "Laranja fresca luminosa com Citrus Aurantium, Limoneno e Hexamethylindanopyran. Exatamente o mesmo universo do Champô, Condicionador e Body Milk Woman.",
           "texture": "Gel incolor, espuma rápida e suave. Viscosidade 2.500-5.000. pH 4,5-5,5.",
-          "experience": "A lavagem das mãos transformada em momento de ritual. O aroma de laranja fresca fecha o ecossistema olfativo da coleção feminina.",
+          "experience": "Um duche envolvente com textura cremosa e perfume floral delicado",
           "sustainability": "95% ingredientes de origem natural (ISO 16128). Tensioativos de origem vegetal. Fabricado na Andaluzia."
         },
         "aiTranslation": true,
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
-        "longDescription": "Gel de higiene corporal e mãos com tensioativos de coco e glicerina. Aroma de laranja Citrus Aurantium.",
+        "longDescription": "Gel de duche feminino com azeite e coco para limpeza suave. A aloé vera hidrata e protege a pele mantendo a sua barreira natural.",
         "usage": "Para as mãos: aplicar na pele húmida, esfregar e enxaguar. Para o corpo: usar como gel de duche."
       },
       "outOfStock": false,
@@ -4861,7 +5057,7 @@
         "momentOfUse": "Dopo la doccia · Rituale pelle",
         "nameMain": "Latte corpo",
         "nameAccent": "donna",
-        "shortDescription": "Aroma di arancia Citrus Aurantium: la chiusura perfetta del rituale femminile.",
+        "shortDescription": "Body milk donna con olio di argan, burro di karité e vitamina E. 97% ingredienti di origine naturale.",
         "benefits": [
           "Assorbimento rapido, effetto mat. Con avocado e jojoba. Senza sensazione appiccicosa.",
           "Profumo di arancia fresca (Citrus Aurantium + Limonene). Il più regalato."
@@ -4888,7 +5084,7 @@
         },
         "aiTranslation": true,
         "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
-        "longDescription": "Latte corpo femminile con oli di origine naturale e aroma Citrus Aurantium. 98% di origine naturale.",
+        "longDescription": "Body milk femminile che combina olio di argan con burro di karité e vitamina E per un'idratazione intensa e duratura.",
         "usage": "Applicare sulla pelle pulita e asciutta dopo la doccia. Massaggiare fino al completo assorbimento."
       },
       "nl": {
@@ -4937,10 +5133,24 @@
         "momentOfUse": "Após o duche · Ritual de pele",
         "nameMain": "Leite corporal",
         "nameAccent": "mulher",
-        "shortDescription": "Aroma de laranja Citrus Aurantium: o fecho perfeito do ritual feminino.",
+        "shortDescription": "Body milk feminino com óleo de argão, manteiga de karité e vitamina E. 97% de ingredientes de origem natural.",
         "benefits": [
-          "Absorção rápida, efeito mate. Com abacate e jojoba. Sem sensação pegajosa.",
-          "Aroma de laranja fresca (Citrus Aurantium + Limoneno). O mais oferecido como presente."
+          {
+            "icon": "🌿",
+            "text": "97% ingredientes de origem natural (ISO 16128)"
+          },
+          {
+            "icon": "💧",
+            "text": "Hidratação intensa com argão e karité"
+          },
+          {
+            "icon": "✨",
+            "text": "Absorção rápida, pele macia"
+          },
+          {
+            "icon": "🌺",
+            "text": "Fragrância floral delicada"
+          }
         ],
         "ritual": [
           {
@@ -4959,12 +5169,12 @@
         "sensory": {
           "aroma": "Laranja fresca com delicadas notas florais. Luminosa, feminina, que permanece suavemente na pele.",
           "texture": "Creme fluido branco. Absorção rápida com efeito mate e sensação não pegajosa.",
-          "experience": "O fecho perfeito do ritual feminino. Pele que se sente e cheira a cuidado genuíno com o aroma mais emblemático da coleção.",
+          "experience": "Uma experiência de cuidado feminino que nutre a pele e envolve os sentidos",
           "sustainability": "98% ingredientes de origem natural (ISO 16128). Abacate e jojoba certificados. Fabricado na Andaluzia."
         },
         "aiTranslation": true,
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
-        "longDescription": "Loção corporal feminina com óleos de origem natural e aroma Citrus Aurantium. 98% origem natural.",
+        "longDescription": "Body milk feminino que combina óleo de argão com manteiga de karité e vitamina E para hidratação intensa e duradoura.",
         "usage": "Aplicar na pele limpa e seca após o duche. Massajar até absorção completa."
       },
       "outOfStock": false,
@@ -6297,7 +6507,7 @@
         "sensory": {
           "aroma": "Lavanda classica: pulita, confortante e avvolgente. Il profumo del bucato ben fatto.",
           "texture": "Gel liquido concentrato. Colore bianco. Poche dosi, grandi risultati.",
-          "experience": "Lavaggio efficace con il piacere dell'aroma. La lavanda lascia il bucato con una traccia raffinata."
+          "experience": "Un bucato pulito con fragranza naturale delicata che rispetta i tessuti"
         },
         "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
         "aiTranslation": true
@@ -6349,7 +6559,7 @@
         "nameMain": "Detergente",
         "nameAccent": "roupa",
         "shortDescription": "Detergente para roupa com lavanda. Limpa eficazmente e deixa uma fragrância duradoura.",
-        "longDescription": "Gel detergente concentrado para roupa com aroma de lavanda clássica. 97% de origem natural.",
+        "longDescription": "Detergente de roupa com 95% de ingredientes de origem natural. Limpeza eficaz a qualquer temperatura, suave com os tecidos e com a pele.",
         "indication": "Limpeza doméstica. Para superfícies duras.",
         "usage": "Dosear 8-12 g por kg de roupa conforme a carga. Deitar na gaveta correspondente. Adequado para todas as temperaturas.",
         "benefits": [
@@ -6371,7 +6581,7 @@
           }
         ],
         "sensory": {
-          "aroma": "Lavanda clássica: limpa, reconfortante e envolvente. O aroma da roupa bem lavada.",
+          "aroma": "Fragrância suave e fresca com notas herbais",
           "texture": "Gel líquido concentrado. Cor branca. Poucas doses, muito resultado.",
           "experience": "Lavagem eficaz com o prazer do aroma. A lavanda deixa a roupa com um rasto refinado."
         },
@@ -6456,8 +6666,22 @@
         "indication": "Household cleaning. For hard surfaces.",
         "usage": "25 ml per wash (50 ml for heavily soiled laundry). Pour into the softener drawer.",
         "benefits": [
-          "Suaviza, facilita el planchado y mantiene el color.",
-          "Lavanda suave y elegante. 25 ml por lavado (50 ml colada muy sucia)."
+          {
+            "icon": "🌿",
+            "text": "98% naturally derived ingredients (ISO 16128)"
+          },
+          {
+            "icon": "🧣",
+            "text": "Softens and protects fabric fibres"
+          },
+          {
+            "icon": "🌸",
+            "text": "Delicate floral fragrance with lavender and chamomile"
+          },
+          {
+            "icon": "🐾",
+            "text": "Suitable for sensitive skin and baby clothes"
+          }
         ],
         "ritual": [
           {
@@ -6494,8 +6718,22 @@
         "indication": "Nettoyage ménager. Pour les surfaces dures.",
         "usage": "25 ml par lavage (50 ml pour le linge très sale). Verser dans le bac à adoucissant.",
         "benefits": [
-          "Suaviza, facilita el planchado y mantiene el color.",
-          "Lavanda suave y elegante. 25 ml por lavado (50 ml colada muy sucia)."
+          {
+            "icon": "🌿",
+            "text": "98% d'ingrédients d'origine naturelle (ISO 16128)"
+          },
+          {
+            "icon": "🧣",
+            "text": "Adoucit et protège les fibres textiles"
+          },
+          {
+            "icon": "🌸",
+            "text": "Parfum floral délicat à la lavande et camomille"
+          },
+          {
+            "icon": "🐾",
+            "text": "Convient aux peaux sensibles et vêtements bébé"
+          }
         ],
         "ritual": [
           {
@@ -6532,8 +6770,22 @@
         "indication": "Haushaltsreinigung. Für harte Oberflächen.",
         "usage": "25 ml pro Waschgang (50 ml bei stark verschmutzter Wäsche). In das Weichspüler-Fach füllen.",
         "benefits": [
-          "Suaviza, facilita el planchado y mantiene el color.",
-          "Lavanda suave y elegante. 25 ml por lavado (50 ml colada muy sucia)."
+          {
+            "icon": "🌿",
+            "text": "98% natürlich gewonnene Inhaltsstoffe (ISO 16128)"
+          },
+          {
+            "icon": "🧣",
+            "text": "Weicht ein und schützt Textilfasern"
+          },
+          {
+            "icon": "🌸",
+            "text": "Zarter Blumenduft mit Lavendel und Kamille"
+          },
+          {
+            "icon": "🐾",
+            "text": "Geeignet für empfindliche Haut und Babykleidung"
+          }
         ],
         "ritual": [
           {
@@ -6570,8 +6822,22 @@
         "indication": "Pulizia domestica. Per superfici dure.",
         "usage": "25 ml per lavaggio (50 ml per bucato molto sporco). Versare nel cassetto dell'ammorbidente.",
         "benefits": [
-          "Suaviza, facilita el planchado y mantiene el color.",
-          "Lavanda suave y elegante. 25 ml por lavado (50 ml colada muy sucia)."
+          {
+            "icon": "🌿",
+            "text": "98% ingredienti di origine naturale (ISO 16128)"
+          },
+          {
+            "icon": "🧣",
+            "text": "Ammorbidisce e protegge le fibre tessili"
+          },
+          {
+            "icon": "🌸",
+            "text": "Delicata fragranza floreale con lavanda e camomilla"
+          },
+          {
+            "icon": "🐾",
+            "text": "Adatto a pelli sensibili e vestiti per neonati"
+          }
         ],
         "ritual": [
           {
@@ -6608,8 +6874,22 @@
         "indication": "Huishoudreiniging. Voor harde oppervlakken.",
         "usage": "25 ml per wasbeurt (50 ml voor zeer vuil wasgoed). In het verzachtercompartiment gieten.",
         "benefits": [
-          "Suaviza, facilita el planchado y mantiene el color.",
-          "Lavanda suave y elegante. 25 ml por lavado (50 ml colada muy sucia)."
+          {
+            "icon": "🌿",
+            "text": "98% natuurlijk gewonnen ingrediënten (ISO 16128)"
+          },
+          {
+            "icon": "🧣",
+            "text": "Verzacht en beschermt textielvezels"
+          },
+          {
+            "icon": "🌸",
+            "text": "Delicate bloemengeur met lavendel en kamille"
+          },
+          {
+            "icon": "🐾",
+            "text": "Geschikt voor gevoelige huid en babykleding"
+          }
         ],
         "ritual": [
           {
@@ -6641,13 +6921,27 @@
         "momentOfUse": "Enxaguamento roupa · Fim da rotina",
         "nameMain": "Amaciador",
         "nameAccent": "roupa",
-        "shortDescription": "Amaciador com lavanda. Suaviza as fibras, facilita o engomar e mantém a cor.",
-        "longDescription": "Amaciador de roupa com aroma de lavanda suave e elegante. Suaviza, facilita o engomar e mantém a cor. 95% de origem natural.",
+        "shortDescription": "Amaciador de roupa com 98% de ingredientes de origem natural. Amacia, protege e perfuma a roupa com lavanda e camomila.",
+        "longDescription": "O nosso amaciador de roupa é formulado com 98% de ingredientes de origem natural segundo a ISO 16128. Amacia e protege as fibras, deixando a roupa com uma fragrância suave e natural.",
         "indication": "Limpeza doméstica. Para superfícies duras.",
         "usage": "25 ml por lavagem (50 ml para roupa muito suja). Deitar na gaveta do amaciador.",
         "benefits": [
-          "Suaviza, facilita el planchado y mantiene el color.",
-          "Lavanda suave y elegante. 25 ml por lavado (50 ml colada muy sucia)."
+          {
+            "icon": "🌿",
+            "text": "98% ingredientes de origem natural (ISO 16128)"
+          },
+          {
+            "icon": "🧣",
+            "text": "Amacia e protege as fibras têxteis"
+          },
+          {
+            "icon": "🌸",
+            "text": "Fragrância floral delicada com lavanda e camomila"
+          },
+          {
+            "icon": "🐾",
+            "text": "Adequado para peles sensíveis e roupa de bebé"
+          }
         ],
         "ritual": [
           {
@@ -6664,9 +6958,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Lavanda suave e elegante com uma nota de base limpa. O amaciador é o aroma que fica na roupa.",
-          "texture": "Líquido cremoso com sensação suavizante. Cor branca opaca. Intensidade de aroma média.",
-          "experience": "O toque final que envolve a roupa em conforto. Suavidade, engomar fácil e rasto refinado de lavanda."
+          "aroma": "Fragrância floral suave com lavanda e camomila",
+          "texture": "Líquido suave e concentrado",
+          "experience": "Roupa macia ao toque com perfume natural duradouro",
+          "sustainability": "98% de origem natural · Fórmula biodegradável · Embalagem reciclável"
         },
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
@@ -6887,7 +7182,7 @@
         "sensory": {
           "aroma": "Agrumato luminoso e appetitoso con sensazione fresca.",
           "texture": "Gel con schiuma ricca e duratura. Colore trasparente.",
-          "experience": "Rende il lavaggio a mano più piacevole. Schiuma cremosa, aroma agrumato fresco.",
+          "experience": "Piatti puliti con una fragranza agrumata fresca che rende il lavaggio piacevole",
           "sustainability": "92% ingredienti di origine naturale. Testato dermatologicamente. Prodotto in Andalusia."
         },
         "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
@@ -6945,8 +7240,22 @@
         "indication": "Lavagem manual de louça.",
         "usage": "Uma pequena dose numa esponja húmida. Esfregar a loiça e enxaguar com água.",
         "benefits": [
-          "Lavagem eficaz: desengordura e elimina sujidade difícil. Espuma abundante.",
-          "Aroma cítrico luminoso. Suave nas mãos. Testado dermatologicamente."
+          {
+            "icon": "🌿",
+            "text": "95% ingredientes de origem natural (ISO 16128)"
+          },
+          {
+            "icon": "🍋",
+            "text": "Fragrância cítrica natural"
+          },
+          {
+            "icon": "💪",
+            "text": "Alto poder desengordurante"
+          },
+          {
+            "icon": "💧",
+            "text": "Suave com as mãos"
+          }
         ],
         "ritual": [
           {
@@ -6965,7 +7274,7 @@
         "sensory": {
           "aroma": "Cítrico luminoso e apetecível com sensação fresca.",
           "texture": "Gel com espuma rica e duradoura. Cor transparente.",
-          "experience": "Torna a lavagem à mão mais leve. Espuma cremosa, aroma cítrico fresco.",
+          "experience": "Loiça limpa com uma fragrância cítrica fresca que torna a lavagem agradável",
           "sustainability": "92% ingredientes de origem natural. Testado dermatologicamente. Fabricado na Andaluzia."
         },
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
@@ -7791,7 +8100,7 @@
         "nameMain": "Detergente",
         "nameAccent": "chão",
         "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
-        "longDescription": "Limpador de pavimentos concentrado com aroma floral limpo. Sem enxaguamento necessário. 97% de origem natural.",
+        "longDescription": "O nosso limpa-chão é formulado com 97% de ingredientes de origem natural. Limpa eficazmente todo o tipo de pavimentos deixando um aroma fresco e natural.",
         "indication": "Limpeza de pavimentos cerâmicos, grés, mármore e parquet selado.",
         "usage": "Diluir 50 ml em 5 litros de água. Esfregar normalmente. Não requer enxaguamento.",
         "benefits": [
@@ -7813,7 +8122,7 @@
           }
         ],
         "sensory": {
-          "aroma": "Aroma floral limpo e reconfortante. Preenche o espaço com um fundo de frescura.",
+          "aroma": "Fragrância fresca e limpa com notas herbais",
           "texture": "Líquido diluível com sensação fresca. Cor transparente.",
           "experience": "Pavimentos que se sentem verdadeiramente limpos. O Ritual Refugio começa desde o chão."
         },
@@ -8073,7 +8382,7 @@
         "momentOfUse": "Limpeza semanal · Momento bem-estar",
         "nameMain": "Detergente",
         "nameAccent": "casa de banho",
-        "shortDescription": "Limpador de casa de banho com aroma fresco. Remove o calcário em 10 minutos. Testado dermatologicamente.",
+        "shortDescription": "Limpa casa de banho com 97% de ingredientes de origem natural. Remove calcário e sujidade sem riscar as superfícies.",
         "benefits": [
           "Eficaz contra o calcário. Pulverizar, deixar atuar 10 min, enxaguar.",
           "Fragância agradável. Testado dermatologicamente. Suave para a pele."
@@ -8098,7 +8407,7 @@
           "experience": "Limpar a casa de banho com uma sensação de frescura tipo spa. Combina eficácia anticalcário com uma fragância agradável."
         },
         "aiTranslation": true,
-        "longDescription": "Limpiador de casa de banho com ação anticalcário e perfume fresco. 96% origem natural, testado dermatologicamente.",
+        "longDescription": "Limpa casa de banho de origem natural que remove calcário e sujidade de forma eficaz. Seguro em cerâmica, azulejos, cromados e vidro.",
         "usage": "Aplicar na superfície, deixar atuar 10 minutos e esfregar. Enxaguar com água."
       },
       "basePriceEUR": 6.2,
@@ -8175,8 +8484,22 @@
         "nameAccent": "greaser",
         "shortDescription": "Degreaser 99% natural origin. No fragrance. Ready to use. Removes tough grease from kitchens.",
         "benefits": [
-          "Disuelve grasa difícil en la mayoría de superficies. Listo para usar.",
-          "Sin fragancia. 99% de origen natural: el más alto de la colección hogar."
+          {
+            "icon": "🌿",
+            "text": "99% naturally derived ingredients (ISO 16128)"
+          },
+          {
+            "icon": "💪",
+            "text": "Dissolves tough grease without harsh chemicals"
+          },
+          {
+            "icon": "🍋",
+            "text": "Fresh citrus fragrance"
+          },
+          {
+            "icon": "🧽",
+            "text": "Safe on all kitchen surfaces"
+          }
         ],
         "ritual": [
           {
@@ -8193,10 +8516,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Sin fragancia: limpieza funcional, directa. La eficacia es el argumento.",
-          "texture": "Líquido ligero; pulveriza bien. Color transparente.",
-          "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
-          "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
+          "aroma": "Fresh citrus with lemon and orange notes",
+          "texture": "Fine mist spray, even coverage",
+          "experience": "Instant degreasing power with a fresh natural scent",
+          "sustainability": "99% naturally derived · Biodegradable formula · Recyclable packaging"
         },
         "aiTranslation": true,
         "longDescription": "Degreaser 99% natural origin, fragrance-free. Effortlessly dissolves tough kitchen grease.",
@@ -8212,8 +8535,22 @@
         "nameAccent": "graissant",
         "shortDescription": "Dégraissant 99% d'origine naturelle. Sans parfum. Prêt à l'emploi. Élimine les graisses tenaces en cuisine.",
         "benefits": [
-          "Disuelve grasa difícil en la mayoría de superficies. Listo para usar.",
-          "Sin fragancia. 99% de origen natural: el más alto de la colección hogar."
+          {
+            "icon": "🌿",
+            "text": "99% d'ingrédients d'origine naturelle (ISO 16128)"
+          },
+          {
+            "icon": "💪",
+            "text": "Dissout les graisses tenaces sans produits chimiques agressifs"
+          },
+          {
+            "icon": "🍋",
+            "text": "Fraîche fragrance d'agrumes"
+          },
+          {
+            "icon": "🧽",
+            "text": "Sans danger pour toutes les surfaces de cuisine"
+          }
         ],
         "ritual": [
           {
@@ -8230,10 +8567,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Sin fragancia: limpieza funcional, directa. La eficacia es el argumento.",
-          "texture": "Líquido ligero; pulveriza bien. Color transparente.",
-          "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
-          "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
+          "aroma": "Agrumes frais avec notes de citron et orange",
+          "texture": "Brume fine en spray, couverture uniforme",
+          "experience": "Puissance dégraissante instantanée avec un parfum naturel frais",
+          "sustainability": "99% d'origine naturelle · Formule biodégradable · Emballage recyclable"
         },
         "aiTranslation": true,
         "longDescription": "Dégraissant 99% d'origine naturelle, sans parfum. Dissout facilement les graisses tenaces de cuisine.",
@@ -8249,8 +8586,22 @@
         "nameAccent": "löser",
         "shortDescription": "Entfettungsmittel 99% natürlichen Ursprungs. Ohne Duft. Gebrauchsfertig. Entfernt hartnäckiges Fett in der Küche.",
         "benefits": [
-          "Disuelve grasa difícil en la mayoría de superficies. Listo para usar.",
-          "Sin fragancia. 99% de origen natural: el más alto de la colección hogar."
+          {
+            "icon": "🌿",
+            "text": "99% natürlich gewonnene Inhaltsstoffe (ISO 16128)"
+          },
+          {
+            "icon": "💪",
+            "text": "Löst hartnäckiges Fett ohne aggressive Chemie"
+          },
+          {
+            "icon": "🍋",
+            "text": "Frischer Zitrusduft"
+          },
+          {
+            "icon": "🧽",
+            "text": "Sicher für alle Küchenoberflächen"
+          }
         ],
         "ritual": [
           {
@@ -8267,10 +8618,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Sin fragancia: limpieza funcional, directa. La eficacia es el argumento.",
-          "texture": "Líquido ligero; pulveriza bien. Color transparente.",
-          "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
-          "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
+          "aroma": "Frische Zitrusnoten mit Zitrone und Orange",
+          "texture": "Feiner Sprühnebel, gleichmäßige Abdeckung",
+          "experience": "Sofortige Entfettungskraft mit frischem natürlichem Duft",
+          "sustainability": "99% natürlich gewonnen · Biologisch abbaubare Formel · Recycelbare Verpackung"
         },
         "aiTranslation": true,
         "longDescription": "Entfetter 99% natürlichen Ursprungs, ohne Duftstoffe. Löst hartnäckiges Küchenfett mühelos.",
@@ -8286,8 +8637,22 @@
         "nameAccent": "atore",
         "shortDescription": "Sgrassatore 99% di origine naturale. Senza profumo. Pronto all'uso. Rimuove il grasso ostinato in cucina.",
         "benefits": [
-          "Disuelve grasa difícil en la mayoría de superficies. Listo para usar.",
-          "Sin fragancia. 99% de origen natural: el más alto de la colección hogar."
+          {
+            "icon": "🌿",
+            "text": "99% ingredienti di origine naturale (ISO 16128)"
+          },
+          {
+            "icon": "💪",
+            "text": "Scioglie il grasso ostinato senza prodotti chimici aggressivi"
+          },
+          {
+            "icon": "🍋",
+            "text": "Fresca fragranza agrumata"
+          },
+          {
+            "icon": "🧽",
+            "text": "Sicuro su tutte le superfici della cucina"
+          }
         ],
         "ritual": [
           {
@@ -8304,10 +8669,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Sin fragancia: limpieza funcional, directa. La eficacia es el argumento.",
-          "texture": "Líquido ligero; pulveriza bien. Color transparente.",
-          "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
-          "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
+          "aroma": "Agrumi freschi con note di limone e arancia",
+          "texture": "Nebulizzazione fine in spray, copertura uniforme",
+          "experience": "Potere sgrassante istantaneo con profumo naturale fresco",
+          "sustainability": "99% di origine naturale · Formula biodegradabile · Imballaggio riciclabile"
         },
         "aiTranslation": true,
         "longDescription": "Sgrassatore 99% di origine naturale, senza profumo. Scioglie facilmente il grasso ostinato di cucina.",
@@ -8323,8 +8688,22 @@
         "nameAccent": "vetter",
         "shortDescription": "Ontvetter 99% van natuurlijke oorsprong. Zonder geur. Gebruiksklaar. Verwijdert hardnekkig vet in de keuken.",
         "benefits": [
-          "Disuelve grasa difícil en la mayoría de superficies. Listo para usar.",
-          "Sin fragancia. 99% de origen natural: el más alto de la colección hogar."
+          {
+            "icon": "🌿",
+            "text": "99% natuurlijk gewonnen ingrediënten (ISO 16128)"
+          },
+          {
+            "icon": "💪",
+            "text": "Lost hardnekkig vet op zonder agressieve chemicaliën"
+          },
+          {
+            "icon": "🍋",
+            "text": "Frisse citrusgeur"
+          },
+          {
+            "icon": "🧽",
+            "text": "Veilig voor alle keukenoppervlakken"
+          }
         ],
         "ritual": [
           {
@@ -8341,10 +8720,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Sin fragancia: limpieza funcional, directa. La eficacia es el argumento.",
-          "texture": "Líquido ligero; pulveriza bien. Color transparente.",
-          "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
-          "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
+          "aroma": "Frisse citrus met citroen- en sinaasappelnoten",
+          "texture": "Fijne sproeivel, gelijkmatige dekking",
+          "experience": "Direct ontvettend vermogen met een frisse natuurlijke geur",
+          "sustainability": "99% natuurlijk gewonnen · Biologisch afbreekbare formule · Recyclebare verpakking"
         },
         "aiTranslation": true,
         "longDescription": "Ontvetter 99% van natuurlijke oorsprong, parfumvrij. Lost hardnekkig keukenvet moeiteloos op.",
@@ -8360,8 +8739,22 @@
         "nameAccent": "urante",
         "shortDescription": "Desengordurante 99% de origem natural. Sem fragrância. Pronto a usar. Remove gordura difícil na cozinha.",
         "benefits": [
-          "Disuelve grasa difícil en la mayoría de superficies. Listo para usar.",
-          "Sin fragancia. 99% de origen natural: el más alto de la colección hogar."
+          {
+            "icon": "🌿",
+            "text": "99% ingredientes de origem natural (ISO 16128)"
+          },
+          {
+            "icon": "💪",
+            "text": "Dissolve gordura difícil sem químicos agressivos"
+          },
+          {
+            "icon": "🍋",
+            "text": "Fragrância fresca de citrinos"
+          },
+          {
+            "icon": "🧽",
+            "text": "Seguro em todas as superfícies da cozinha"
+          }
         ],
         "ritual": [
           {
@@ -8378,10 +8771,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Sin fragancia: limpieza funcional, directa. La eficacia es el argumento.",
-          "texture": "Líquido ligero; pulveriza bien. Color transparente.",
-          "experience": "Resultados potentes de forma sencilla. Elimina la grasa persistente sin residuos pesados.",
-          "sustainability": "99% de ingredientes de origen natural. El % más alto de la colección hogar. Fabricado en Andalucía."
+          "aroma": "Citrinos frescos com notas de limão e laranja",
+          "texture": "Pulverização fina, cobertura uniforme",
+          "experience": "Poder desengordurante instantâneo com aroma natural fresco",
+          "sustainability": "99% de origem natural · Fórmula biodegradável · Embalagem reciclável"
         },
         "aiTranslation": true,
         "longDescription": "Desengordurante 99% de origem natural e sem fragância. Dissolve a gordura difícil de cozinha sem esforço.",
@@ -8638,7 +9031,7 @@
         "momentOfUse": "Cuidado diário · Limpeza rápida",
         "nameMain": "Detergente",
         "nameAccent": "multisuperfícies",
-        "shortDescription": "Limpador multissuperfícies com perfume suave. Para bancadas, móveis e portas. Sem marcas.",
+        "shortDescription": "Produto multiusos com 97% de ingredientes de origem natural. Limpa e desinfeta todas as superfícies com eficácia.",
         "benefits": [
           "Elimina marcas e impressões digitais na maioria das superfícies. Brilho sem riscas.",
           "Secagem rápida. Com fragância suave agradável. Testado dermatologicamente."
@@ -8658,7 +9051,7 @@
           }
         ],
         "sensory": {
-          "aroma": "Aroma suave e limpo, pensado para uso diário.",
+          "aroma": "Fragrância fresca e limpa, quase neutra",
           "texture": "Líquido leve; secagem rápida com acabamento brilhante.",
           "experience": "O reset rápido do lar. Marcas e impressões digitais eliminadas numa passagem."
         },
@@ -8737,7 +9130,7 @@
         "momentOfUse": "Weekly clean · Final touch",
         "nameMain": "Glass",
         "nameAccent": "Cleaner",
-        "shortDescription": "Listo para usar. Brillo sin marcas en vidrio y superficies vitrificadas. Sin fragancia, 99% de ingredientes de origen natural. Una sola pulverización es suficiente.",
+        "shortDescription": "Glass and mirror cleaner with 97% naturally derived ingredients. Streak-free shine on glass, mirrors and shiny surfaces.",
         "benefits": [
           "Streak-free clean. Ready to use. One pass is enough.",
           "Fragrance-free, 99% natural origin. The highest % in the home range."
@@ -8757,10 +9150,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Neutro y limpio: sensación de aire fresco sin perfume.",
-          "texture": "Líquido ligero; pulverización fina tipo bruma.",
-          "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
-          "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
+          "aroma": "Light fresh scent, barely perceptible",
+          "texture": "Fine mist spray with instant evaporation",
+          "experience": "Crystal-clear surfaces without streaks or residue",
+          "sustainability": "97% naturally derived · Biodegradable formula · Recyclable packaging"
         },
         "aiTranslation": true,
         "longDescription": "Glass cleaner 99% natural origin, fragrance-free. Leaves glass and mirrors flawlessly clear with no streaks.",
@@ -8774,7 +9167,7 @@
         "momentOfUse": "Nettoyage hebdo · Touche finale",
         "nameMain": "Nettoyant",
         "nameAccent": "vitres",
-        "shortDescription": "Listo para usar. Brillo sin marcas en vidrio y superficies vitrificadas. Sin fragancia, 99% de ingredientes de origen natural. Una sola pulverización es suficiente.",
+        "shortDescription": "Nettoyant vitres et miroirs aux ingrédients 97% d'origine naturelle. Brillance sans traces sur verre, miroirs et surfaces lisses.",
         "benefits": [
           "Nettoyage sans traces. Prêt à l'emploi. Un seul passage suffit.",
           "Sans parfum, 99% d'origine naturelle. Le % le plus élevé de la gamme maison."
@@ -8794,10 +9187,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Neutro y limpio: sensación de aire fresco sin perfume.",
-          "texture": "Líquido ligero; pulverización fina tipo bruma.",
-          "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
-          "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
+          "aroma": "Parfum léger et frais, à peine perceptible",
+          "texture": "Brume fine en spray à évaporation instantanée",
+          "experience": "Surfaces cristallines sans traces ni résidus",
+          "sustainability": "97% d'origine naturelle · Formule biodégradable · Emballage recyclable"
         },
         "aiTranslation": true,
         "longDescription": "Nettoyant vitres 99% d'origine naturelle, sans parfum. Laisse vitres et miroirs impeccables sans voiles ni traces.",
@@ -8811,7 +9204,7 @@
         "momentOfUse": "Wöchentliche Reinigung · Letzter Schliff",
         "nameMain": "Glas",
         "nameAccent": "reiniger",
-        "shortDescription": "Listo para usar. Brillo sin marcas en vidrio y superficies vitrificadas. Sin fragancia, 99% de ingredientes de origen natural. Una sola pulverización es suficiente.",
+        "shortDescription": "Glas- und Spiegelreiniger mit 97% natürlich gewonnenen Inhaltsstoffen. Streifenfreier Glanz auf Glas, Spiegeln und glatten Oberflächen.",
         "benefits": [
           "Streifenfreie Reinigung. Gebrauchsfertig. Ein Zug genügt.",
           "Ohne Duftstoffe, 99% natürlichen Ursprungs. Der höchste % in der Haushaltsreihe."
@@ -8831,10 +9224,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Neutro y limpio: sensación de aire fresco sin perfume.",
-          "texture": "Líquido ligero; pulverización fina tipo bruma.",
-          "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
-          "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
+          "aroma": "Leichter frischer Duft, kaum wahrnehmbar",
+          "texture": "Feiner Sprühnebel mit sofortiger Verdunstung",
+          "experience": "Kristallklare Oberflächen ohne Streifen oder Rückstände",
+          "sustainability": "97% natürlich gewonnen · Biologisch abbaubare Formel · Recycelbare Verpackung"
         },
         "aiTranslation": true,
         "longDescription": "Glasreiniger 99% natürlichen Ursprungs, ohne Duftstoffe. Hinterlässt Glas und Spiegel makellos klar und streifenfrei.",
@@ -8848,7 +9241,7 @@
         "momentOfUse": "Pulizia settimanale · Tocco finale",
         "nameMain": "Detergente",
         "nameAccent": "vetri",
-        "shortDescription": "Listo para usar. Brillo sin marcas en vidrio y superficies vitrificadas. Sin fragancia, 99% de ingredientes de origen natural. Una sola pulverización es suficiente.",
+        "shortDescription": "Detergente vetri e specchi con 97% di ingredienti di origine naturale. Brillantezza senza aloni su vetro, specchi e superfici lisce.",
         "benefits": [
           "Pulizia senza aloni. Pronto all'uso. Un solo passaggio è sufficiente.",
           "Senza profumo, 99% di origine naturale. Il % più alto della gamma casa."
@@ -8868,10 +9261,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Neutro y limpio: sensación de aire fresco sin perfume.",
-          "texture": "Líquido ligero; pulverización fina tipo bruma.",
-          "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
-          "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
+          "aroma": "Profumo leggero e fresco, appena percettibile",
+          "texture": "Nebulizzazione fine con evaporazione istantanea",
+          "experience": "Superfici cristalline senza aloni né residui",
+          "sustainability": "97% di origine naturale · Formula biodegradabile · Imballaggio riciclabile"
         },
         "aiTranslation": true,
         "longDescription": "Detergente vetri 99% di origine naturale, senza profumo. Lascia vetri e specchi impeccabili senza aloni.",
@@ -8885,7 +9278,7 @@
         "momentOfUse": "Wekelijkse reiniging · Finishing touch",
         "nameMain": "Glas",
         "nameAccent": "reiniger",
-        "shortDescription": "Listo para usar. Brillo sin marcas en vidrio y superficies vitrificadas. Sin fragancia, 99% de ingredientes de origen natural. Una sola pulverización es suficiente.",
+        "shortDescription": "Glas- en spiegelreiniger met 97% natuurlijk gewonnen ingrediënten. Streepvrije glans op glas, spiegels en gladde oppervlakken.",
         "benefits": [
           "Streepvrije reiniging. Gebruiksklaar. Eén haal is genoeg.",
           "Parfumvrij, 99% van natuurlijke oorsprong. Het hoogste % in de thuisreeks."
@@ -8905,10 +9298,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Neutro y limpio: sensación de aire fresco sin perfume.",
-          "texture": "Líquido ligero; pulverización fina tipo bruma.",
-          "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
-          "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
+          "aroma": "Lichte frisse geur, nauwelijks waarneembaar",
+          "texture": "Fijne sproeivel met directe verdamping",
+          "experience": "Kristalheldere oppervlakken zonder strepen of residu",
+          "sustainability": "97% natuurlijk gewonnen · Biologisch afbreekbare formule · Recyclebare verpakking"
         },
         "aiTranslation": true,
         "longDescription": "Glasreiniger 99% van natuurlijke oorsprong, parfumvrij. Laat glas en spiegels vlekkeloos schoon en streepvrij.",
@@ -8922,7 +9315,7 @@
         "momentOfUse": "Limpeza semanal · Toque final",
         "nameMain": "Limpa",
         "nameAccent": "vidros",
-        "shortDescription": "Listo para usar. Brillo sin marcas en vidrio y superficies vitrificadas. Sin fragancia, 99% de ingredientes de origen natural. Una sola pulverización es suficiente.",
+        "shortDescription": "Limpa-vidros e espelhos com 97% de ingredientes de origem natural. Brilho sem riscos em vidro, espelhos e superfícies lisas.",
         "benefits": [
           "Limpeza sem riscos. Pronto a usar. Uma passagem é suficiente.",
           "Sem fragância, 99% de origem natural. A % mais alta na gama lar."
@@ -8942,10 +9335,10 @@
           }
         ],
         "sensory": {
-          "aroma": "Neutro y limpio: sensación de aire fresco sin perfume.",
-          "texture": "Líquido ligero; pulverización fina tipo bruma.",
-          "experience": "Una pulverización rápida, un acabado pulido. La claridad visual es el protagonista.",
-          "sustainability": "99% de ingredientes de origen natural. Sin fragancia, Fabricado en Andalucía."
+          "aroma": "Aroma ligeiro e fresco, quase impercetível",
+          "texture": "Pulverização fina com evaporação instantânea",
+          "experience": "Superfícies cristalinas sem riscos nem resíduos",
+          "sustainability": "97% de origem natural · Fórmula biodegradável · Embalagem reciclável"
         },
         "aiTranslation": true,
         "longDescription": "Limpa-vidros 99% de origem natural e sem fragância. Deixa vidros e espelhos impecáveis sem véus nem marcas.",
@@ -9197,7 +9590,7 @@
           }
         ],
         "sensory": {
-          "aroma": "Mild, discreet aroma. Hypoallergeen. Geen sterke geuren die het dier zouden storen.",
+          "aroma": "Zachte kruidengeur met basilicum en tijm",
           "texture": "Transparante gel met zachte schuim. pH 6,5-7,5 aangepast voor honden. Milde tensiden van kokos en suiker.",
           "experience": "De shampoo die de vacht van binnenuit verzorgt. Botanische extracten en vitamine B geven de vacht echte vitaliteit.",
           "sustainability": "95% ingrediënten van natuurlijke oorsprong (ISO 16128). MAPA-registratie 12059-H. Handgemaakt in Andalusië."
@@ -9235,7 +9628,7 @@
           }
         ],
         "sensory": {
-          "aroma": "Aroma suave e discreto. Hipoalergénico. Sem fragrâncias fortes que possam incomodar o animal.",
+          "aroma": "Aroma suave de ervas com manjericão e tomilho",
           "texture": "Gel translúcido com espuma suave. pH 6,5-7,5 adaptado ao cão. Tensioativos suaves de coco e açúcar.",
           "experience": "O champô que cuida do pelo por dentro. Os extratos botânicos e as vitaminas B dão vitalidade real ao pelo.",
           "sustainability": "95% ingredientes de origem natural (ISO 16128). Registo MAPA 12059-H. Fabricado na Andaluzia."
@@ -9489,7 +9882,7 @@
           }
         ],
         "sensory": {
-          "aroma": "Mild, discreet aroma. Katten zijn hypergevoelig voor geuren: minimale intensiteit.",
+          "aroma": "Zeer zachte geur, bijna neutraal, ontworpen om katten niet te storen",
           "texture": "Transparante gel met zachte schuim. pH 6,5-7,5. Milde tensiden van kokos en suiker.",
           "experience": "Het bad van de kat hoeft niet traumatisch te zijn. Met het juiste product en een rustige aanpak kan het zelfs een bindingsmoment zijn.",
           "sustainability": "95% ingrediënten van natuurlijke oorsprong (ISO 16128). MAPA-registratie 12060-H. Handgemaakt in Andalusië."
@@ -9527,7 +9920,7 @@
           }
         ],
         "sensory": {
-          "aroma": "Aroma suave e discreto. Os gatos são hipersensíveis aos cheiros: intensidade mínima.",
+          "aroma": "Aroma muito suave, quase neutro, concebido para não perturbar os gatos",
           "texture": "Gel translúcido com espuma suave. pH 6,5-7,5. Tensioativos suaves de coco e açúcar.",
           "experience": "O banho do gato pode não ser traumático. Com o produto certo e uma abordagem calma, pode até ser um momento de vínculo.",
           "sustainability": "95% ingredientes de origem natural (ISO 16128). Registo MAPA 12060-H. Fabricado na Andaluzia."
@@ -9630,7 +10023,7 @@
         ],
         "sensory": {
           "aroma": "Sin fragancia. Completamente neutro. En el canal auditivo, la pureza es fundamental.",
-          "texture": "Gel fluido de aplicación precisa con cánula. Color transparente. Sin perfume.",
+          "texture": "Light liquid, easy to apply drop by drop",
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
@@ -9668,7 +10061,7 @@
         ],
         "sensory": {
           "aroma": "Sin fragancia. Completamente neutro. En el canal auditivo, la pureza es fundamental.",
-          "texture": "Gel fluido de aplicación precisa con cánula. Color transparente. Sin perfume.",
+          "texture": "Liquide léger, facile à appliquer goutte à goutte",
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
@@ -9706,7 +10099,7 @@
         ],
         "sensory": {
           "aroma": "Sin fragancia. Completamente neutro. En el canal auditivo, la pureza es fundamental.",
-          "texture": "Gel fluido de aplicación precisa con cánula. Color transparente. Sin perfume.",
+          "texture": "Leichte Flüssigkeit, tropfenweise leicht aufzutragen",
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
@@ -9744,7 +10137,7 @@
         ],
         "sensory": {
           "aroma": "Sin fragancia. Completamente neutro. En el canal auditivo, la pureza es fundamental.",
-          "texture": "Gel fluido de aplicación precisa con cánula. Color transparente. Sin perfume.",
+          "texture": "Liquido leggero, facile da applicare goccia a goccia",
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
@@ -9782,7 +10175,7 @@
         ],
         "sensory": {
           "aroma": "Sin fragancia. Completamente neutro. En el canal auditivo, la pureza es fundamental.",
-          "texture": "Gel fluido de aplicación precisa con cánula. Color transparente. Sin perfume.",
+          "texture": "Lichte vloeistof, gemakkelijk druppelsgewijs aan te brengen",
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
@@ -9820,7 +10213,7 @@
         ],
         "sensory": {
           "aroma": "Sin fragancia. Completamente neutro. En el canal auditivo, la pureza es fundamental.",
-          "texture": "Gel fluido de aplicación precisa con cánula. Color transparente. Sin perfume.",
+          "texture": "Líquido leve, fácil de aplicar gota a gota",
           "experience": "La limpieza de oídos es la más ignorada y más necesaria. El Aceite de Árbol de Té da al dueño la seguridad de estar usando un activo con propiedades demostradas.",
           "sustainability": "99% de ingredientes de origen natural: el máximo de toda la gama. Registro MAPA 12061-H. Fabricado en Andalucía."
         },
@@ -9921,7 +10314,7 @@
         "sensory": {
           "aroma": "Completamente inodoro. El ojo de la mascota es la zona más sensible de su cara.",
           "texture": "Líquido acuoso muy ligero. Color transparente. pH neutro (6,5-7,5). Fácil aplicación.",
-          "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
+          "experience": "Gentle herbal care that soothes and cleans the eye area naturally",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
@@ -9959,7 +10352,7 @@
         "sensory": {
           "aroma": "Completamente inodoro. El ojo de la mascota es la zona más sensible de su cara.",
           "texture": "Líquido acuoso muy ligero. Color transparente. pH neutro (6,5-7,5). Fácil aplicación.",
-          "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
+          "experience": "Soin herbal doux qui apaise et nettoie le contour des yeux naturellement",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
@@ -9997,7 +10390,7 @@
         "sensory": {
           "aroma": "Completamente inodoro. El ojo de la mascota es la zona más sensible de su cara.",
           "texture": "Líquido acuoso muy ligero. Color transparente. pH neutro (6,5-7,5). Fácil aplicación.",
-          "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
+          "experience": "Sanfte Kräuterpflege die den Augenbereich natürlich beruhigt und reinigt",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
@@ -10035,7 +10428,7 @@
         "sensory": {
           "aroma": "Completamente inodoro. El ojo de la mascota es la zona más sensible de su cara.",
           "texture": "Líquido acuoso muy ligero. Color transparente. pH neutro (6,5-7,5). Fácil aplicación.",
-          "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
+          "experience": "Cura delicata alle erbe che lenisce e pulisce il contorno occhi naturalmente",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
@@ -10073,7 +10466,7 @@
         "sensory": {
           "aroma": "Completamente inodoro. El ojo de la mascota es la zona más sensible de su cara.",
           "texture": "Líquido acuoso muy ligero. Color transparente. pH neutro (6,5-7,5). Fácil aplicación.",
-          "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
+          "experience": "Zachte kruidenverzorging die het ooggebied natuurlijk kalmeert en reinigt",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
@@ -10111,7 +10504,7 @@
         "sensory": {
           "aroma": "Completamente inodoro. El ojo de la mascota es la zona más sensible de su cara.",
           "texture": "Líquido acuoso muy ligero. Color transparente. pH neutro (6,5-7,5). Fácil aplicación.",
-          "experience": "El cuidado ocular de la mascota hecho con lo más suave posible. El complejo herbal de 6 plantas cuida con la misma lógica que la herboristería tradicional.",
+          "experience": "Cuidado herbal suave que acalma e limpa a zona ocular naturalmente",
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Complejo herbal certificado. Registro MAPA 12062-H. Fabricado en Andalucía."
         },
         "aiTranslation": true,
