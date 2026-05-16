@@ -189,6 +189,9 @@ export default async function RitualesPage({ params }: Props) {
             {pageDesc[locale] ?? pageDesc.es}
           </span>
         </h1>
+        <p className="mt-6 text-[15px] leading-[1.85] text-graphite max-w-xl">
+          {pageDesc[locale] ?? pageDesc.es}
+        </p>
       </header>
 
       {/* Secciones */}
