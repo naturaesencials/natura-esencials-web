@@ -12,6 +12,7 @@ import { Strip } from '@/components/home/Strip';
 import { Edicion } from '@/components/home/Edicion';
 import { Newsletter } from '@/components/home/Newsletter';
 import { ReviewsSection } from '@/components/home/ReviewsSection';
+import { BlogPreview } from '@/components/home/BlogPreview';
 import { Popup } from '@/components/home/Popup';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { breadcrumbSchema, itemListSchema } from '@/lib/seo/schema';
@@ -66,6 +67,7 @@ export default async function HomePage({ params }: Props) {
       <Strip />
       <ReviewsSection locale={locale} />
       <Edicion region={region} locale={locale} />
+      <BlogPreview region={region} locale={locale} />
       <Newsletter />
       <Popup />
     </>

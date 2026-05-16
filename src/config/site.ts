@@ -18,6 +18,7 @@ export const siteConfig = {
   social: {
     instagram: 'https://instagram.com/naturaesencials',
     facebook: 'https://facebook.com/naturaesencials',
+    youtube: 'https://youtube.com/@naturaesencials',
     pinterest: 'https://pinterest.com/naturaesencials',
     tiktok: 'https://tiktok.com/@naturaesencials',
     linkedin: 'https://linkedin.com/company/naturaesencials',

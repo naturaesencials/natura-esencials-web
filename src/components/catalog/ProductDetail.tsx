@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { ShareButtons } from '@/components/social/ShareButtons';
 import type { Product, Bundle } from '@/data/types';
 import type { Locale, Region } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
@@ -323,6 +324,18 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
             </details>
           </section>
         )}
+
+        {/* Compartir */}
+        <div className="mb-pad-y-sm flex items-center gap-4">
+          <span className="text-[11px] uppercase tracking-[0.22em] text-graphite">
+            {({ es:'Compartir', en:'Share', fr:'Partager', de:'Teilen', it:'Condividi', nl:'Delen', pt:'Partilhar' })[locale] ?? 'Share'}
+          </span>
+          <ShareButtons
+            url={`https://www.naturaesencials.com${buildPath(region, locale, `${product.line}/${tr.slug}`)}`}
+            title={`${tr.name} — Natura Esencials`}
+            description={tr.shortDescription}
+          />
+        </div>
 
         {/* Pruebas: Andalucía + lote */}
         <section className="mb-pad-y-sm bg-ink text-bg rounded-2xl p-8 sm:p-12 text-center">
