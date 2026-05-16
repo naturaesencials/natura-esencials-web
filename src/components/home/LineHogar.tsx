@@ -62,10 +62,10 @@ export function LineHogar({ region, locale }: Props) {
                 <span className="font-caption text-sm opacity-75">{r.number}</span>
               </div>
               <div className="relative z-10">
-                <h4 className="font-heading text-[clamp(20px,2.2vw,24px)] leading-[1.15] tracking-[-0.008em]">
+                <h3 className="font-heading text-[clamp(20px,2.2vw,24px)] leading-[1.15] tracking-[-0.008em]">
                   {r.names[locale].main}{r.names[locale].accent && <> <em className="font-heading-italic">{r.names[locale].accent}</em></>}
                   <span className="mt-1.5 block text-[10px] font-normal uppercase tracking-[0.14em] opacity-80">{r.subtitles[locale]}</span>
-                </h4>
+                </h3>
                 <div className="mt-2.5 flex min-h-touch items-end justify-between">
                   <div className="flex flex-col gap-1">
                     <span className="text-[22px] font-extrabold leading-none text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">{symbol}{price}</span>

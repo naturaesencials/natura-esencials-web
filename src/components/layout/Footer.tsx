@@ -34,25 +34,25 @@ export function Footer({ region, locale }: Props) {
 
       {/* Cosmética */}
       <div>
-        <h5 className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-verde-claro">{t('colCosmetica')}</h5>
+        <p className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-verde-claro">{t('colCosmetica')}</p>
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'cosmetica')}>{t('colCosmetica')}</Link>
       </div>
 
       {/* Hogar */}
       <div>
-        <h5 className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-azul-claro">{t('colHogar')}</h5>
+        <p className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-azul-claro">{t('colHogar')}</p>
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'hogar')}>{t('colHogar')}</Link>
       </div>
 
       {/* Mascota */}
       <div>
-        <h5 className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-citrico">{t('colMascota')}</h5>
+        <p className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-citrico">{t('colMascota')}</p>
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'mascota')}>{t('colMascota')}</Link>
       </div>
 
       {/* Casa / Links */}
       <div>
-        <h5 className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-bg/55">{t('colCasa')}</h5>
+        <p className="mb-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-bg/55">{t('colCasa')}</p>
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'origen')}>{t('linkOrigen')}</Link>
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'blog')}>{t('linkDiario')}</Link>
         <Link className="flex min-h-[34px] items-center text-bg/70 transition-colors hover:text-bg" href={buildPath(region, locale, 'contacto')}>{t('linkContacto')}</Link>

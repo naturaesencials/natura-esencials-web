@@ -85,12 +85,12 @@ export function Edicion({ region, locale }: Props) {
               <div className={`mb-1.5 text-[10px] uppercase tracking-[0.22em] ${COLOR[ritual.line]}`}>
                 {ritual.category[locale]}
               </div>
-              <h4 className="font-heading text-[clamp(17px,1.8vw,22px)] leading-[1.15] tracking-[-0.008em]">
+              <h3 className="font-heading text-[clamp(17px,1.8vw,22px)] leading-[1.15] tracking-[-0.008em]">
                 {ritual.names[locale].main}{' '}
                 {ritual.names[locale].accent && (
                   <em className={`font-heading-italic ${COLOR[ritual.line]}`}>{ritual.names[locale].accent}</em>
                 )}
-              </h4>
+              </h3>
               <div className="mt-3 flex items-center justify-between gap-1.5 border-t border-rule pt-2.5">
                 {format && <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-ink/60">{format}</span>}
                 <strong className="font-caption text-xl font-black text-ink">{symbol}{basePrice}</strong>

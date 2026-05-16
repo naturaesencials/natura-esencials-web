@@ -54,7 +54,7 @@ export function Popup() {
       </div>
       <div className="px-7 pb-7 pt-6">
         <div className="text-[10px] uppercase tracking-[0.32em] text-verde-vivo">— {t('kicker')}</div>
-        <h4 id="popup-title" className="mt-3 font-display text-[clamp(22px,3.4vw,28px)] leading-[1.12] tracking-[-0.012em] text-ink">{t('title')}</h4>
+        <p id="popup-title" className="mt-3 font-display text-[clamp(22px,3.4vw,28px)] leading-[1.12] tracking-[-0.012em] text-ink">{t('title')}</p>
         <p className="mt-2.5 text-[13px] leading-[1.65] text-graphite">{t('body')}</p>
         {submitted ? (
           <p className="mt-4 text-sm text-verde">✓</p>

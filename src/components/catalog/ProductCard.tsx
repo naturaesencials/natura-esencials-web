@@ -115,7 +115,7 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
 
       {/* Contenido */}
       <div className="p-4 lg:p-5 flex flex-col gap-2 flex-1">
-        <h3 className="font-display text-lg lg:text-xl leading-tight">
+        <h2 className="font-display text-lg lg:text-xl leading-tight">
           {translation.nameMain && translation.nameAccent ? (
             <>
               {translation.nameMain} <em className="font-italic">{translation.nameAccent}</em>
@@ -123,7 +123,7 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
           ) : (
             translation.name
           )}
-        </h3>
+        </h2>
         <p className="text-graphite text-xs lg:text-sm line-clamp-2 flex-1">
           {translation.subtitle}
         </p>
