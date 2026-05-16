@@ -104,8 +104,9 @@ export function getAlternates(path: string = ''): Record<string, string> {
   const alternates: Record<string, string> = {};
 
   for (const region of regions) {
+    if (region === 'uk') continue; // UK noindexed — excluir de hreflang
     for (const locale of regionLocales[region]) {
-      const key = `${locale}-${region === 'uk' ? 'GB' : getCountryForLocale(locale)}`;
+      const key = `${locale}-${getCountryForLocale(locale)}`;
       alternates[key] = getCanonicalUrl(region, locale, path);
     }
   }
@@ -125,9 +126,10 @@ export function getLocaleSlugAlternates(
 ): Record<string, string> {
   const alternates: Record<string, string> = {};
   for (const region of regions) {
+    if (region === 'uk') continue; // UK noindexed — excluir de hreflang
     for (const locale of regionLocales[region]) {
       const slug = slugsByLocale[locale] ?? defaultSlug;
-      const key = `${locale}-${region === 'uk' ? 'GB' : getCountryForLocale(locale)}`;
+      const key = `${locale}-${getCountryForLocale(locale)}`;
       alternates[key] = getCanonicalUrl(region, locale, `${section}/${slug}`);
     }
   }

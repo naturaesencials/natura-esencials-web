@@ -4,16 +4,52 @@ import {
   regions,
   regionLocales,
   type RouteSection,
+  type Locale,
+  type Region,
 } from '@/lib/i18n/config';
 import { products, bundles } from '@/data';
 
 /**
- * Sitemap multi-región multi-idioma con hreflang completo.
- * Genera URLs para las combinaciones region+locale e incluye:
- *   - Secciones estáticas (home + 6 secciones)
- *   - Los 35 productos individuales en sus 3 líneas
- *   - Los 14 packs/rituales
+ * Sitemap multi-región multi-idioma con hreflang correcto.
+ *
+ * Formato hreflang: language-COUNTRY (ISO 639-1 + ISO 3166-1 alpha-2).
+ * "EU" no es un código de país válido → usamos el país principal de cada idioma.
+ * UK = "GB" en ISO 3166-1.
+ *
+ * Excluye:
+ *  - UK region (Coming soon, noindex)
+ *  - Blog/diario en locales ≠ es (contenido en español, noindex)
  */
+
+// Mapa de hreflang correcto por locale+region
+const HREFLANG: Record<Region, Record<string, string>> = {
+  eu: {
+    es: 'es-ES',
+    en: 'en-IE',
+    fr: 'fr-FR',
+    de: 'de-DE',
+    it: 'it-IT',
+    nl: 'nl-NL',
+    pt: 'pt-PT',
+  },
+  uk: {
+    es: 'es-GB',
+    en: 'en-GB',
+    fr: 'fr-GB',
+    de: 'de-GB',
+    it: 'it-GB',
+    nl: 'nl-GB',
+    pt: 'pt-GB',
+  },
+};
+
+function hreflangKey(locale: string, region: Region): string {
+  return HREFLANG[region]?.[locale] ?? `${locale}`;
+}
+
+// Secciones con blog excluido de non-ES
+const BLOG_SECTIONS = new Set(['blog', 'diario']);
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticSections: (RouteSection | '')[] = [
     '',
@@ -29,26 +65,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
   const now = new Date();
 
-  // ── Secciones estáticas ──
-  // Las carpetas físicas de Next.js son literales en español; el SEO se logra
-  // con hreflang + content localizado, no con URLs traducidas.
+  // ── Secciones estáticas (solo EU, excluyendo UK) ──
   for (const section of staticSections) {
-    for (const region of regions) {
-      for (const locale of regionLocales[region]) {
-        const path = section
-          ? `/${region}/${locale}/${section}`
-          : `/${region}/${locale}`;
+    // Skip UK entirely (Coming soon, noindex)
+    const region: Region = 'eu';
+    for (const locale of regionLocales[region]) {
+      // Blog/diario: solo incluir en ES
+      if (BLOG_SECTIONS.has(section) && locale !== 'es') continue;
 
-        entries.push({
-          url: `${siteConfig.url}${path}`,
-          lastModified: now,
-          changeFrequency: section === '' ? 'daily' : 'weekly',
-          priority: section === '' ? 1.0 : 0.8,
-          alternates: {
-            languages: buildAlternateLanguages(section),
-          },
-        });
-      }
+      const path = section
+        ? `/${region}/${locale}/${section}`
+        : `/${region}/${locale}`;
+
+      entries.push({
+        url: `${siteConfig.url}${path}`,
+        lastModified: now,
+        changeFrequency: section === '' ? 'daily' : 'weekly',
+        priority: section === '' ? 1.0 : 0.8,
+        alternates: {
+          languages: buildAlternateLanguages(section),
+        },
+      });
     }
   }
 
@@ -56,21 +93,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const product of products) {
     if (!product.visible) continue;
     for (const region of product.availableIn) {
+      if (region === 'uk') continue; // Skip UK
       for (const locale of regionLocales[region]) {
         const t = product.translations[locale] || product.translations.es;
-        if (!t) continue;
-        // Segmento de línea literal en español (estructura física de las carpetas);
-        // el slug del producto SÍ está traducido por idioma.
-        const path = `/${region}/${locale}/${product.line}/${t.slug || product.baseSlug}`;
+        if (!t?.slug) continue;
+        const path = `/${region}/${locale}/${product.line}/${t.slug}`;
 
-        // Construir alternates hreflang para esta ficha en todos los idiomas disponibles
+        // Hreflang: cada locale apunta a su propio slug traducido
         const alternates: Record<string, string> = {};
         for (const altRegion of product.availableIn) {
+          if (altRegion === 'uk') continue;
           for (const altLocale of regionLocales[altRegion]) {
             const altT = product.translations[altLocale] || product.translations.es;
-            if (!altT) continue;
-            const altPath = `/${altRegion}/${altLocale}/${product.line}/${altT.slug || product.baseSlug}`;
-            alternates[`${altLocale}-${altRegion.toUpperCase()}`] = `${siteConfig.url}${altPath}`;
+            if (!altT?.slug) continue;
+            const altPath = `/${altRegion}/${altLocale}/${product.line}/${altT.slug}`;
+            alternates[hreflangKey(altLocale, altRegion)] = `${siteConfig.url}${altPath}`;
           }
         }
 
@@ -89,19 +126,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const bundle of bundles) {
     if (!bundle.visible) continue;
     for (const region of bundle.availableIn) {
+      if (region === 'uk') continue; // Skip UK
       for (const locale of regionLocales[region]) {
         const t = bundle.translations[locale] || bundle.translations.es;
-        if (!t) continue;
-        const path = `/${region}/${locale}/rituales/${t.slug || bundle.baseSlug}`;
+        if (!t?.slug) continue;
+        const path = `/${region}/${locale}/rituales/${t.slug}`;
 
-        // hreflang para cada bundle
         const alternates: Record<string, string> = {};
         for (const altRegion of bundle.availableIn) {
+          if (altRegion === 'uk') continue;
           for (const altLocale of regionLocales[altRegion]) {
             const altT = bundle.translations[altLocale] || bundle.translations.es;
-            if (!altT) continue;
-            const altPath = `/${altRegion}/${altLocale}/rituales/${altT.slug || bundle.baseSlug}`;
-            alternates[`${altLocale}-${altRegion.toUpperCase()}`] = `${siteConfig.url}${altPath}`;
+            if (!altT?.slug) continue;
+            const altPath = `/${altRegion}/${altLocale}/rituales/${altT.slug}`;
+            alternates[hreflangKey(altLocale, altRegion)] = `${siteConfig.url}${altPath}`;
           }
         }
 
@@ -123,14 +161,16 @@ function buildAlternateLanguages(
   section: RouteSection | '',
 ): Record<string, string> {
   const langs: Record<string, string> = {};
-  for (const region of regions) {
-    for (const locale of regionLocales[region]) {
-      const key = `${locale}-${region.toUpperCase()}`;
-      const path = section
-        ? `/${region}/${locale}/${section}`
-        : `/${region}/${locale}`;
-      langs[key] = `${siteConfig.url}${path}`;
-    }
+  // Solo EU (UK está excluido del sitemap)
+  const region: Region = 'eu';
+  for (const locale of regionLocales[region]) {
+    // Blog/diario: solo ES en hreflang
+    if (BLOG_SECTIONS.has(section) && locale !== 'es') continue;
+    const key = hreflangKey(locale, region);
+    const path = section
+      ? `/${region}/${locale}/${section}`
+      : `/${region}/${locale}`;
+    langs[key] = `${siteConfig.url}${path}`;
   }
   return langs;
 }
