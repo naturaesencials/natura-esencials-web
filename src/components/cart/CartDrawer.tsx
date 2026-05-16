@@ -194,8 +194,7 @@ export function CartDrawer({ locale }: CartDrawerProps) {
             </div>
             <a
               href={cart?.checkoutUrl
-                ?.replace('https://www.naturaesencials.com', 'https://bdchtj-1p.myshopify.com')
-                ?.replace('https://tienda.naturaesencials.com', 'https://bdchtj-1p.myshopify.com')}
+                ?.replace('https://bdchtj-1p.myshopify.com', 'https://tienda.naturaesencials.com')}
               target="_blank"
               rel="noopener noreferrer"
               className={`flex w-full items-center justify-center gap-2 bg-ink px-6 py-4 text-[11px] uppercase tracking-[0.28em] text-bg transition-colors hover:bg-verde ${

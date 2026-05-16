@@ -68,8 +68,9 @@ export function buildContext(region: Region, locale: Locale) {
 
 /** Devuelve la URL del checkout para una región (para el carrito) */
 export function getCheckoutDomain(region: Region): string {
+  // Usar el dominio personalizado para evitar redirects (SEO)
   return region === 'eu'
-    ? (process.env.SHOPIFY_EU_DOMAIN || '')
+    ? 'tienda.naturaesencials.com'
     : (process.env.SHOPIFY_UK_DOMAIN || '');
 }
 
