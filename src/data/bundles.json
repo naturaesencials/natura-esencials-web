@@ -40,7 +40,7 @@
         "nameAccent": "Wholeness",
         "shortDescription": "Shampoo, conditioner, soap and body milk: the complete feminine routine. Our natural formulation with argan and olive oils from start to finish.",
         "longDescription": "An upgrade pack for those who want a more complete experience. Four essential steps for daily care in 300ml format.",
-        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+        "story": "Four products that work in harmony: the 2-in-1 shampoo cleanses, the conditioner seals, the soap purifies and the body milk hydrates. A complete circuit, nothing left over."
       },
       "fr": {
         "name": "Rituel Plénitude",
@@ -52,7 +52,7 @@
         "nameAccent": "Plénitude",
         "shortDescription": "Shampooing, après-shampooing, savon et lait corporel : la routine féminine complète. Formulation naturelle maison aux huiles d'argan et d'olive.",
         "longDescription": "Un pack upgrade pour celles qui veulent une expérience plus complète. Quatre étapes essentielles pour le soin quotidien en format 300ml.",
-        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+        "story": "Quatre produits qui dialoguent entre eux : le shampooing 2 en 1 nettoie, l'après-shampooing scelle, le savon purifie et le lait corporel hydrate. Un circuit complet, rien de trop."
       },
       "de": {
         "name": "Ritual Fülle",
@@ -64,7 +64,7 @@
         "nameAccent": "Fülle",
         "shortDescription": "Shampoo, Conditioner, Seife und Body Milk: die vollständige Frauenpflegeroutine. Unsere natürliche Hausformulierung mit Argan- und Olivenölen.",
         "longDescription": "Ein Upgrade-Pack für alle, die eine rundum vollständigere Erfahrung möchten. Vier wesentliche Schritte für die tägliche Pflege im 300ml-Format.",
-        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+        "story": "Vier Produkte, die zusammenwirken: Das 2-in-1-Shampoo reinigt, der Conditioner versiegelt, die Seife klärt und die Body Milk pflegt. Ein vollständiger Kreislauf, nichts überflüssig."
       },
       "it": {
         "name": "Rituale Pienezza",
@@ -76,7 +76,7 @@
         "nameAccent": "Pienezza",
         "shortDescription": "Shampoo, balsamo, sapone e body milk: la routine femminile completa. Formulazione naturale di casa con oli di argan e oliva dall'inizio alla fine.",
         "longDescription": "Un pack upgrade per chi vuole un'esperienza più completa. Quattro passi essenziali per la cura quotidiana in formato 300ml.",
-        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+        "story": "Quattro prodotti che dialogano tra loro: lo shampoo 2 in 1 pulisce, il balsamo sigilla, il sapone purifica e il body milk idrata. Un circuito completo, niente di troppo."
       },
       "nl": {
         "name": "Ritueel Volheid",
@@ -88,7 +88,7 @@
         "nameAccent": "Volheid",
         "shortDescription": "Shampoo, conditioner, zeep en body milk: de complete vrouwelijke routine. Onze natuurlijke huisformulering met argan- en olijfolie van begin tot eind.",
         "longDescription": "Een upgrade pack voor wie een completere ervaring wil. Vier essentiële stappen voor dagelijkse verzorging in 300ml-formaat.",
-        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+        "story": "Vier producten die samenwerken: de 2-in-1 shampoo reinigt, de conditioner sluit af, de zeep zuivert en de body milk hydrateert. Een compleet circuit, niets overbodig."
       },
       "pt": {
         "name": "Ritual Plenitude",
@@ -100,7 +100,7 @@
         "nameAccent": "Plenitude",
         "shortDescription": "Champô, condicionador, sabão e body milk: a rotina feminina completa. Formulação natural da casa com óleos de argão e azeite do início ao fim.",
         "longDescription": "Um pack upgrade para quem quer uma experiência mais completa. Quatro passos essenciais para os cuidados diários em formato 300ml.",
-        "story": "Cuatro productos que se hablan entre sí: el champú 2 en 1 limpia y acondiciona, el acondicionador da brillo, el jabón cuida manos y cuerpo, y el body milk cierra el ritual con hidratación luminosa."
+        "story": "Quatro produtos que dialogam entre si: o champô 2 em 1 limpa, o condicionador sela, o sabão purifica e o body milk hidrata. Um circuito completo, nada a mais."
       },
       "handles": {
         "300 ml": "ritual-plenitud-300",
@@ -148,7 +148,7 @@
         "nameAccent": "Wholeness",
         "shortDescription": "Shampoo, conditioner, soap and body milk in 1L format: the complete feminine routine. Our natural formulation.",
         "longDescription": "Same products as Ritual Fulfillment in a larger format: savings and less waste.",
-        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+        "story": "Four products in 1 litre so the ritual never runs short. Same formulations, bigger format, less waste."
       },
       "fr": {
         "name": "Rituel Plénitude 1L",
@@ -160,7 +160,7 @@
         "nameAccent": "Plénitude 1L",
         "shortDescription": "Shampooing, après-shampooing, savon et lait corporel en format 1L : la routine féminine complète. Formulation naturelle maison.",
         "longDescription": "Mêmes produits du Rituel Plénitude en grand format : économies et moins de déchets.",
-        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+        "story": "Quatre produits en 1 litre pour que le rituel ne s'interrompe jamais. Mêmes formulations, plus grand format, moins de déchets."
       },
       "de": {
         "name": "Ritual Fülle 1L",
@@ -172,7 +172,7 @@
         "nameAccent": "Fülle 1L",
         "shortDescription": "Shampoo, Conditioner, Seife und Body Milk im 1L-Format: die vollständige Frauenpflegeroutine. Unsere natürliche Hausformulierung.",
         "longDescription": "Gleiche Produkte des Ritual Fülle im Großformat: Ersparnis und weniger Abfall.",
-        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+        "story": "Vier Produkte in 1 Liter, damit das Ritual nie unterbrochen wird. Gleiche Formulierungen, größeres Format, weniger Abfall."
       },
       "it": {
         "name": "Rituale Pienezza 1L",
@@ -184,7 +184,7 @@
         "nameAccent": "Pienezza 1L",
         "shortDescription": "Shampoo, balsamo, sapone e body milk in formato 1L: la routine femminile completa. Formulazione naturale di casa.",
         "longDescription": "Stessi prodotti del Rituale Pienezza in grande formato: risparmio e meno rifiuti.",
-        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+        "story": "Quattro prodotti in 1 litro perché il rituale non si interrompa mai. Stesse formulazioni, formato più grande, meno sprechi."
       },
       "nl": {
         "name": "Ritueel Volheid 1L",
@@ -196,7 +196,7 @@
         "nameAccent": "Volheid 1L",
         "shortDescription": "Shampoo, conditioner, zeep en body milk in 1L-formaat: de complete vrouwelijke routine. Onze natuurlijke huisformulering.",
         "longDescription": "Dezelfde producten van Ritueel Volheid in groot formaat: besparing en minder afval.",
-        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+        "story": "Vier producten in 1 liter zodat het ritueel nooit wordt onderbroken. Dezelfde formuleringen, groter formaat, minder afval."
       },
       "pt": {
         "name": "Ritual Plenitude 1L",
@@ -208,7 +208,7 @@
         "nameAccent": "Plenitude 1L",
         "shortDescription": "Champô, condicionador, sabão e body milk em formato 1L: a rotina feminina completa. Formulação natural da casa.",
         "longDescription": "Os mesmos produtos do Ritual Plenitude em grande formato: poupança e menos desperdício.",
-        "story": "Cuatro productos en 1 litro para que el ritual no se interrumpa nunca."
+        "story": "Quatro produtos em 1 litro para que o ritual nunca se interrompa. Mesmas formulações, formato maior, menos desperdício."
       },
       "basePriceGBP": 40.08
     },
@@ -251,7 +251,7 @@
         "nameAccent": "Perfect Shower",
         "shortDescription": "Argan shampoo, olive and coconut soap, and avocado and jojoba lotion. The complete shower with naturally derived ingredients, head to toe.",
         "longDescription": "Hair and skin in order with a clear daily-use routine.",
-        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+        "story": "Wash the day away, reset and seal in the care. Three steps, one intention: feel good in your skin."
       },
       "fr": {
         "name": "Rituel Douche Parfaite",
@@ -263,7 +263,7 @@
         "nameAccent": "Douche Parfaite",
         "shortDescription": "Shampooing à l'argan, savon à l'olive et coco, et lotion à l'avocat et jojoba. La douche complète aux ingrédients d'origine naturelle.",
         "longDescription": "Cheveux et peau en ordre avec une routine claire d'utilisation quotidienne.",
-        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+        "story": "Se débarrasser de la journée, redémarrer et sceller le soin. Trois étapes, une intention : se sentir bien dans sa peau."
       },
       "de": {
         "name": "Ritual Perfekte Dusche",
@@ -275,7 +275,7 @@
         "nameAccent": "Perfekte Dusche",
         "shortDescription": "Argan-Shampoo, Oliven-Kokos-Seife und Avocado-Jojoba-Lotion. Die vollständige Dusche mit natürlich gewonnenen Inhaltsstoffen.",
         "longDescription": "Haare und Haut in Ordnung mit einer klaren täglichen Routine.",
-        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+        "story": "Den Tag abwaschen, neu starten und die Pflege versiegeln. Drei Schritte, eine Absicht: sich wohl in der eigenen Haut fühlen."
       },
       "it": {
         "name": "Rituale Doccia Perfetta",
@@ -287,7 +287,7 @@
         "nameAccent": "Doccia Perfetta",
         "shortDescription": "Shampoo all'argan, sapone all'oliva e cocco, e lozione all'avocado e jojoba. La doccia completa con ingredienti di origine naturale.",
         "longDescription": "Capelli e pelle in ordine con una routine chiara di uso quotidiano.",
-        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+        "story": "Lava via la giornata, riparti e sigilla la cura. Tre passi, un'intenzione: stare bene nella propria pelle."
       },
       "nl": {
         "name": "Ritueel Perfecte Douche",
@@ -299,7 +299,7 @@
         "nameAccent": "Perfecte Douche",
         "shortDescription": "Argan shampoo, olijf-kokosnoot zeep en avocado-jojoba lotion. De complete douche met natuurlijk gewonnen ingrediënten.",
         "longDescription": "Haar en huid in orde met een duidelijke dagelijkse routine.",
-        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+        "story": "Was de dag van je af, begin opnieuw en sluit de verzorging af. Drie stappen, één intentie: je goed voelen in je eigen huid."
       },
       "pt": {
         "name": "Ritual Duche Perfeito",
@@ -311,7 +311,7 @@
         "nameAccent": "Duche Perfeito",
         "shortDescription": "Champô com argão, sabão de azeitona e coco, e loção de abacate e jojoba. O duche completo com ingredientes de origem natural.",
         "longDescription": "Cabelo e pele em ordem com uma rotina clara de uso diário.",
-        "story": "Me quito el día de encima, reinicio y sello el cuidado."
+        "story": "Lava o dia, recomeça e sela o cuidado. Três passos, uma intenção: sentir-se bem na própria pele."
       },
       "handles": {
         "300 ml": "pack-esenciales-diarios",
@@ -358,7 +358,7 @@
         "nameAccent": "Perfect Shower 1L",
         "shortDescription": "Argan shampoo, olive and coconut soap, and avocado and jojoba lotion in 1L format. The complete daily shower.",
         "longDescription": "Same products as Ritual Perfect Shower in a larger format: savings and less waste.",
-        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+        "story": "2-in-1 shampoo, soap and body milk in 1 litre: practical, efficient and without interruption."
       },
       "fr": {
         "name": "Rituel Douche Parfaite 1L",
@@ -370,7 +370,7 @@
         "nameAccent": "Douche Parfaite 1L",
         "shortDescription": "Shampooing à l'argan, savon à l'olive et coco, et lotion à l'avocat et jojoba en format 1L. La douche quotidienne complète.",
         "longDescription": "Mêmes produits du Rituel Douche Parfaite en grand format : économies et moins de déchets.",
-        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+        "story": "Shampooing 2 en 1, savon et lait corporel en 1 litre : pratique, efficace et sans interruption."
       },
       "de": {
         "name": "Ritual Perfekte Dusche 1L",
@@ -382,7 +382,7 @@
         "nameAccent": "Perfekte Dusche 1L",
         "shortDescription": "Argan-Shampoo, Oliven-Kokos-Seife und Avocado-Jojoba-Lotion im 1L-Format. Die vollständige tägliche Dusche.",
         "longDescription": "Gleiche Produkte des Ritual Perfekte Dusche im Großformat: Ersparnis und weniger Abfall.",
-        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+        "story": "2-in-1-Shampoo, Seife und Body Milk in 1 Liter: praktisch, effizient und ohne Unterbrechung."
       },
       "it": {
         "name": "Rituale Doccia Perfetta 1L",
@@ -394,7 +394,7 @@
         "nameAccent": "Doccia Perfetta 1L",
         "shortDescription": "Shampoo all'argan, sapone all'oliva e cocco, e lozione all'avocado e jojoba in formato 1L. La doccia quotidiana completa.",
         "longDescription": "Stessi prodotti del Rituale Doccia Perfetta in grande formato: risparmio e meno rifiuti.",
-        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+        "story": "Shampoo 2 in 1, sapone e body milk in 1 litro: pratico, efficiente e senza interruzione."
       },
       "nl": {
         "name": "Ritueel Perfecte Douche 1L",
@@ -406,7 +406,7 @@
         "nameAccent": "Perfecte Douche 1L",
         "shortDescription": "Argan shampoo, olijf-kokosnoot zeep en avocado-jojoba lotion in 1L-formaat. De complete dagelijkse douche.",
         "longDescription": "Dezelfde producten van Ritueel Perfecte Douche in groot formaat: besparing en minder afval.",
-        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+        "story": "2-in-1 shampoo, zeep en body milk in 1 liter: praktisch, efficiënt en zonder onderbreking."
       },
       "pt": {
         "name": "Ritual Duche Perfeito 1L",
@@ -418,7 +418,7 @@
         "nameAccent": "Duche Perfeito 1L",
         "shortDescription": "Champô com argão, sabão de azeitona e coco, e loção de abacate e jojoba em formato 1L. O duche diário completo.",
         "longDescription": "Os mesmos produtos do Ritual Duche Perfeito em grande formato: poupança e menos desperdício.",
-        "story": "Champú 2 en 1, jabón y body milk en 1 litro: cómodo, eficiente y sostenible."
+        "story": "Champô 2 em 1, sabão e body milk em 1 litro: prático, eficiente e sem interrupção."
       },
       "basePriceGBP": 30.1
     },
@@ -460,7 +460,7 @@
         "nameAccent": "Performance",
         "shortDescription": "Men's shampoo, shower gel, aftershave balm and body milk. The complete daily masculine routine with natural ingredients.",
         "longDescription": "Four essential steps for a practical and effective daily routine. 300ml format.",
-        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+        "story": "Post-gym, post-beach, back in the groove. No fuss."
       },
       "fr": {
         "name": "Rituel Performance",
@@ -472,7 +472,7 @@
         "nameAccent": "Performance",
         "shortDescription": "Shampooing homme, gel douche, baume après-rasage et lait corporel. La routine masculine quotidienne complète aux ingrédients naturels.",
         "longDescription": "Quatre étapes essentielles pour une routine quotidienne pratique et efficace. Format 300ml.",
-        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+        "story": "Après la salle, après la plage, retour au rythme. Sans complications."
       },
       "de": {
         "name": "Ritual Leistung",
@@ -484,7 +484,7 @@
         "nameAccent": "Leistung",
         "shortDescription": "Männershampoo, Duschgel, Aftershave-Balsam und Body Milk. Die vollständige tägliche Männerpflegeroutine mit natürlichen Inhaltsstoffen.",
         "longDescription": "Vier wesentliche Schritte für eine praktische und effektive tägliche Routine. 300ml-Format.",
-        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+        "story": "Nach dem Sport, nach dem Strand, zurück im Rhythmus. Unkompliziert."
       },
       "it": {
         "name": "Rituale Rendimento",
@@ -496,7 +496,7 @@
         "nameAccent": "Rendimento",
         "shortDescription": "Shampoo uomo, gel doccia, balsamo dopobarba e body milk. La routine maschile quotidiana completa con ingredienti naturali.",
         "longDescription": "Quattro passi essenziali per una routine quotidiana pratica ed efficace. Formato 300ml.",
-        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+        "story": "Dopo la palestra, dopo la spiaggia, di nuovo nel ritmo. Senza complicazioni."
       },
       "nl": {
         "name": "Ritueel Performance",
@@ -508,7 +508,7 @@
         "nameAccent": "Performance",
         "shortDescription": "Mannenshampoo, douchegel, aftershave balsem en body milk. De complete dagelijkse mannelijke routine met natuurlijke ingrediënten.",
         "longDescription": "Vier essentiële stappen voor een praktische en effectieve dagelijkse routine. 300ml-formaat.",
-        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+        "story": "Na de sportschool, na het strand, weer in het ritme. Zonder gedoe."
       },
       "pt": {
         "name": "Ritual Desempenho",
@@ -520,7 +520,7 @@
         "nameAccent": "Desempenho",
         "shortDescription": "Champô homem, gel de duche, bálsamo pós-barba e body milk. A rotina masculina diária completa com ingredientes naturais.",
         "longDescription": "Quatro passos essenciais para uma rotina diária prática e eficaz. Formato 300ml.",
-        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones."
+        "story": "Pós-ginásio, pós-praia, de volta ao ritmo. Sem complicações."
       },
       "handles": {
         "300 ml": "pack-deportivo-higiene-cuidado",
@@ -566,7 +566,7 @@
         "nameAccent": "Performance 1L",
         "shortDescription": "Men's shampoo, shower gel, aftershave balm and body milk in 1L format. The complete masculine routine.",
         "longDescription": "Same products as Ritual Performance in a larger format: savings and less waste.",
-        "story": "Limpia, hidrata y sigue. En grande."
+        "story": "Cleanse, hydrate and carry on. In a bigger format."
       },
       "fr": {
         "name": "Rituel Performance 1L",
@@ -578,7 +578,7 @@
         "nameAccent": "Performance 1L",
         "shortDescription": "Shampooing homme, gel douche, baume après-rasage et lait corporel en format 1L. La routine masculine complète.",
         "longDescription": "Mêmes produits du Rituel Performance en grand format : économies et moins de déchets.",
-        "story": "Limpia, hidrata y sigue. En grande."
+        "story": "Nettoyer, hydrater et continuer. En grand format."
       },
       "de": {
         "name": "Ritual Leistung 1L",
@@ -590,7 +590,7 @@
         "nameAccent": "Leistung 1L",
         "shortDescription": "Männershampoo, Duschgel, Aftershave-Balsam und Body Milk im 1L-Format. Die vollständige Männerpflegeroutine.",
         "longDescription": "Gleiche Produkte des Ritual Leistung im Großformat: Ersparnis und weniger Abfall.",
-        "story": "Limpia, hidrata y sigue. En grande."
+        "story": "Reinigen, pflegen und weitermachen. Im Großformat."
       },
       "it": {
         "name": "Rituale Rendimento 1L",
@@ -602,7 +602,7 @@
         "nameAccent": "Rendimento 1L",
         "shortDescription": "Shampoo uomo, gel doccia, balsamo dopobarba e body milk in formato 1L. La routine maschile completa.",
         "longDescription": "Stessi prodotti del Rituale Prestazione in grande formato: risparmio e meno rifiuti.",
-        "story": "Limpia, hidrata y sigue. En grande."
+        "story": "Pulisci, idrata e vai avanti. In grande formato."
       },
       "nl": {
         "name": "Ritueel Performance 1L",
@@ -614,7 +614,7 @@
         "nameAccent": "Performance 1L",
         "shortDescription": "Mannenshampoo, douchegel, aftershave balsem en body milk in 1L-formaat. De complete mannelijke routine.",
         "longDescription": "Dezelfde producten van Ritueel Prestatie in groot formaat: besparing en minder afval.",
-        "story": "Limpia, hidrata y sigue. En grande."
+        "story": "Reinig, hydrateer en ga verder. In groot formaat."
       },
       "pt": {
         "name": "Ritual Desempenho 1L",
@@ -626,7 +626,7 @@
         "nameAccent": "Desempenho 1L",
         "shortDescription": "Champô homem, gel de duche, bálsamo pós-barba e body milk em formato 1L. A rotina masculina completa.",
         "longDescription": "Os mesmos produtos do Ritual Desempenho em grande formato: poupança e menos desperdício.",
-        "story": "Limpia, hidrata y sigue. En grande."
+        "story": "Limpa, hidrata e segue em frente. Em grande formato."
       },
       "basePriceGBP": 20.9
     },
@@ -669,7 +669,7 @@
         "nameAccent": "for Her",
         "shortDescription": "All 300ml and 1L products from the feminine line: shampoo, conditioner, soap, body milk and shower gel. The most complete ritual.",
         "longDescription": "For her, the most comprehensive routine: every product from the feminine collection together.",
-        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+        "story": "The feminine ritual that begins with shampoo and ends in the softness of body milk. Every product from the collection, nothing missing."
       },
       "fr": {
         "name": "Rituel Pour Elle",
@@ -681,7 +681,7 @@
         "nameAccent": "Pour Elle",
         "shortDescription": "Tous les produits 300ml et 1L de la gamme féminine : shampooing, après-shampooing, savon, lait corporel et gel douche. Le rituel le plus complet.",
         "longDescription": "Pour elle, la routine la plus complète : chaque produit de la collection féminine réuni.",
-        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+        "story": "Le rituel féminin qui commence au shampooing et se termine dans la douceur du lait corporel. Chaque produit de la collection, rien ne manque."
       },
       "de": {
         "name": "Ritual für Sie",
@@ -693,7 +693,7 @@
         "nameAccent": "für Sie",
         "shortDescription": "Alle 300ml- und 1L-Produkte der Frauenlinie: Shampoo, Conditioner, Seife, Body Milk und Duschgel. Das vollständigste Ritual.",
         "longDescription": "Für sie die umfassendste Routine: jedes Produkt der Frauenkollektion vereint.",
-        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+        "story": "Das feminine Ritual, das beim Shampoo beginnt und in der Sanftheit der Body Milk endet. Jedes Produkt der Kollektion, nichts fehlt."
       },
       "it": {
         "name": "Rituale Per Lei",
@@ -705,7 +705,7 @@
         "nameAccent": "Per Lei",
         "shortDescription": "Tutti i prodotti 300ml e 1L della linea femminile: shampoo, balsamo, sapone, body milk e gel doccia. Il rituale più completo.",
         "longDescription": "Per lei, la routine più completa: ogni prodotto della collezione femminile riunito.",
-        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+        "story": "Il rituale femminile che inizia dallo shampoo e finisce nella morbidezza del body milk. Ogni prodotto della collezione, niente manca."
       },
       "nl": {
         "name": "Ritueel Voor Haar",
@@ -717,7 +717,7 @@
         "nameAccent": "Voor Haar",
         "shortDescription": "Alle 300ml- en 1L-producten van de vrouwenlijn: shampoo, conditioner, zeep, body milk en douchegel. Het meest complete ritueel.",
         "longDescription": "Voor haar de meest complete routine: elk product uit de vrouwencollectie samengevoegd.",
-        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+        "story": "Het vrouwelijke ritueel dat begint bij de shampoo en eindigt in de zachtheid van de body milk. Elk product uit de collectie, niets ontbreekt."
       },
       "pt": {
         "name": "Ritual Para Ela",
@@ -729,7 +729,7 @@
         "nameAccent": "Para Ela",
         "shortDescription": "Todos os produtos 300ml e 1L da linha feminina: champô, condicionador, sabão, body milk e gel de duche. O ritual mais completo.",
         "longDescription": "Para ela, a rotina mais completa: cada produto da coleção feminina reunido.",
-        "story": "El ritual femenino que comienza en el champú y termina en la piel: el mismo aroma de naranja fresca acompaña todo el momento."
+        "story": "O ritual feminino que começa no champô e termina na suavidade do body milk. Cada produto da coleção, nada a faltar."
       },
       "outOfStock": false,
       "handles": {
@@ -778,7 +778,7 @@
         "nameAccent": "for Him",
         "shortDescription": "All products from the masculine line: shampoo, shower gel, aftershave balm and body milk. The most complete masculine ritual.",
         "longDescription": "For him, the most comprehensive routine: every product from the masculine collection together.",
-        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+        "story": "The masculine ritual with one olfactory universe: warm amber with basil and thyme. From hair to skin, one coherent intention."
       },
       "fr": {
         "name": "Rituel Pour Lui",
@@ -790,7 +790,7 @@
         "nameAccent": "Pour Lui",
         "shortDescription": "Tous les produits de la gamme masculine : shampooing, gel douche, baume après-rasage et lait corporel. Le rituel masculin le plus complet.",
         "longDescription": "Pour lui, la routine la plus complète : chaque produit de la collection masculine réuni.",
-        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+        "story": "Le rituel masculin avec un seul univers olfactif : l'ambre chaud avec basilic et thym. Des cheveux à la peau, une intention cohérente."
       },
       "de": {
         "name": "Ritual für Ihn",
@@ -802,7 +802,7 @@
         "nameAccent": "für Ihn",
         "shortDescription": "Alle Produkte der Männerlinie: Shampoo, Duschgel, Aftershave-Balsam und Body Milk. Das vollständigste Männerritual.",
         "longDescription": "Für ihn die umfassendste Routine: jedes Produkt der Männerkollektion vereint.",
-        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+        "story": "Das maskuline Ritual mit einem einzigen Duftuniversum: warmer Amber mit Basilikum und Thymian. Vom Haar bis zur Haut, eine klare Absicht."
       },
       "it": {
         "name": "Rituale Per Lui",
@@ -814,7 +814,7 @@
         "nameAccent": "Per Lui",
         "shortDescription": "Tutti i prodotti della linea maschile: shampoo, gel doccia, balsamo dopobarba e body milk. Il rituale maschile più completo.",
         "longDescription": "Per lui, la routine più completa: ogni prodotto della collezione maschile riunito.",
-        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+        "story": "Il rituale maschile con un unico universo olfattivo: ambra calda con basilico e timo. Dai capelli alla pelle, un'intenzione coerente."
       },
       "nl": {
         "name": "Ritueel Voor Hem",
@@ -826,7 +826,7 @@
         "nameAccent": "Voor Hem",
         "shortDescription": "Alle producten van de mannenlijn: shampoo, douchegel, aftershave balsem en body milk. Het meest complete mannelijke ritueel.",
         "longDescription": "Voor hem de meest complete routine: elk product uit de mannencollectie samengevoegd.",
-        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+        "story": "Het mannelijke ritueel met één geurwereld: warm amber met basilicum en tijm. Van haar tot huid, één coherente intentie."
       },
       "pt": {
         "name": "Ritual Para Ele",
@@ -838,7 +838,7 @@
         "nameAccent": "Para Ele",
         "shortDescription": "Todos os produtos da linha masculina: champô, gel de duche, bálsamo pós-barba e body milk. O ritual masculino mais completo.",
         "longDescription": "Para ele, a rotina mais completa: cada produto da coleção masculina reunido.",
-        "story": "El ritual masculino con un solo universo olfativo: el ámbar fresco que define el carácter de la colección."
+        "story": "O ritual masculino com um universo olfativo: âmbar quente com manjericão e tomilho. Do cabelo à pele, uma intenção coerente."
       },
       "outOfStock": false,
       "handles": {
@@ -887,7 +887,7 @@
         "nameAccent": "Perfect Dishes",
         "shortDescription": "Dishwashing liquid, rinse aid and salt: everything you need for sparkling dishes with naturally derived ingredients.",
         "longDescription": "The Perfect Dishware Ritual combines our citrus Dishwashing Liquid, naturally derived Rinse Aid and Dishwasher Salt.",
-        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+        "story": "Close the kitchen, start the machine, enjoy the sparkle."
       },
       "fr": {
         "name": "Rituel Vaisselle Parfaite",
@@ -899,7 +899,7 @@
         "nameAccent": "Vaisselle Parfaite",
         "shortDescription": "Liquide vaisselle, liquide de rinçage et sel : tout pour une vaisselle impeccable aux ingrédients d'origine naturelle.",
         "longDescription": "Le Rituel Vaisselle Parfaite combine notre Liquide Vaisselle citronné, le Liquide de Rinçage d'origine naturelle et le Sel Régénérant.",
-        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+        "story": "Fermer la cuisine, lancer la machine, profiter de l'éclat."
       },
       "de": {
         "name": "Ritual Perfektes Geschirr",
@@ -911,7 +911,7 @@
         "nameAccent": "Perfektes Geschirr",
         "shortDescription": "Spülmittel, Klarspüler und Salz: alles für strahlend sauberes Geschirr mit natürlich gewonnenen Inhaltsstoffen.",
         "longDescription": "Das Ritual Perfektes Geschirr vereint unser Zitrus-Spülmittel, den natürlich gewonnenen Klarspüler und das Regeneriersalz.",
-        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+        "story": "Küche schließen, Maschine starten, den Glanz genießen."
       },
       "it": {
         "name": "Rituale Stoviglie Perfette",
@@ -923,7 +923,7 @@
         "nameAccent": "Stoviglie Perfette",
         "shortDescription": "Detersivo piatti, brillantante e sale: tutto per piatti impeccabili con ingredienti di origine naturale.",
         "longDescription": "Il Rituale Vasellame Perfetto combina il nostro Detersivo Piatti agli agrumi, il Brillantante di origine naturale e il Sale Rigenerante.",
-        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+        "story": "Chiudere la cucina, avviare la macchina, godersi la brillantezza."
       },
       "nl": {
         "name": "Ritueel Perfecte Vaat",
@@ -935,7 +935,7 @@
         "nameAccent": "Perfecte Vaat",
         "shortDescription": "Afwasmiddel, glansspoelmiddel en zout: alles voor stralend schoon servies met natuurlijk gewonnen ingrediënten.",
         "longDescription": "Het Ritueel Perfecte Vaat verenigt ons citroenafwasmiddel, het natuurlijk gewonnen glansspoelmiddel en het regenereerzout.",
-        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+        "story": "Keuken sluiten, machine starten, genieten van de glans."
       },
       "pt": {
         "name": "Ritual Loiça Perfeita",
@@ -947,7 +947,7 @@
         "nameAccent": "Loiça Perfeita",
         "shortDescription": "Detergente da loiça, abrilhantador e sal: tudo para loiça impecável com ingredientes de origem natural.",
         "longDescription": "O Ritual Loiça Perfeita combina o nosso Detergente da Loiça cítrico, o Abrilhantador de origem natural e o Sal Regenerador.",
-        "story": "Cierra la cocina, abre la máquina, disfruta del brillo."
+        "story": "Fechar a cozinha, ligar a máquina, desfrutar do brilho."
       },
       "basePriceGBP": 10.58
     },
@@ -989,7 +989,7 @@
         "nameAccent": "Impeccable Bathroom",
         "shortDescription": "Bathroom cleaner, limescale remover and glass cleaner: the complete bathroom care with naturally derived ingredients.",
         "longDescription": "The Impeccable Bathroom Ritual brings together three products designed to keep every surface in the bathroom spotless.",
-        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+        "story": "Limescale remover and final shine: the bathroom looks brand new in two easy steps."
       },
       "fr": {
         "name": "Rituel Salle de Bain Impeccable",
@@ -1001,7 +1001,7 @@
         "nameAccent": "Salle de Bain Impeccable",
         "shortDescription": "Nettoyant salle de bain, anticalcaire et nettoyant vitres : le soin complet pour la salle de bain aux ingrédients d'origine naturelle.",
         "longDescription": "Le Rituel Salle de Bain Impeccable réunit trois produits conçus pour garder chaque surface impeccable.",
-        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+        "story": "Anti-calcaire et brillance finale : la salle de bain redevient neuve en deux gestes."
       },
       "de": {
         "name": "Ritual Makelloses Bad",
@@ -1013,7 +1013,7 @@
         "nameAccent": "Makelloses Bad",
         "shortDescription": "Badreiniger, Kalkentferner und Glasreiniger: die vollständige Badezimmerpflege mit natürlich gewonnenen Inhaltsstoffen.",
         "longDescription": "Das Ritual Makelloses Bad vereint drei Produkte, die jede Oberfläche im Bad makellos halten.",
-        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+        "story": "Kalkentferner und Schlussglanz: das Bad sieht wie neu aus in zwei Handgriffen."
       },
       "it": {
         "name": "Rituale Bagno Impeccabile",
@@ -1025,7 +1025,7 @@
         "nameAccent": "Bagno Impeccabile",
         "shortDescription": "Detergente bagno, anticalcare e lavavetri: la cura completa del bagno con ingredienti di origine naturale.",
         "longDescription": "Il Rituale Bagno Impeccabile riunisce tre prodotti pensati per mantenere ogni superficie del bagno impeccabile.",
-        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+        "story": "Anticalcare e brillantezza finale: il bagno sembra nuovo in due gesti."
       },
       "nl": {
         "name": "Ritueel Onberispelijke Badkamer",
@@ -1037,7 +1037,7 @@
         "nameAccent": "Onberispelijke Badkamer",
         "shortDescription": "Badkamerreiniger, kalkreiniger en glasreiniger: de complete badkamerverzorging met natuurlijk gewonnen ingrediënten.",
         "longDescription": "Het Ritueel Onberispelijke Badkamer verenigt drie producten ontworpen om elk oppervlak in de badkamer vlekkeloos te houden.",
-        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+        "story": "Kalkreiniger en laatste glans: de badkamer ziet eruit als nieuw in twee stappen."
       },
       "pt": {
         "name": "Ritual Casa de Banho Impecável",
@@ -1049,7 +1049,7 @@
         "nameAccent": "Casa de Banho Impecável",
         "shortDescription": "Limpa casa de banho, anticalcário e limpa-vidros: os cuidados completos para a casa de banho com ingredientes de origem natural.",
         "longDescription": "O Ritual Casa de Banho Impecável reúne três produtos concebidos para manter cada superfície impecável.",
-        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos."
+        "story": "Anticalcário e brilho final: a casa de banho fica como nova em dois gestos."
       },
       "basePriceGBP": 9.46
     },
@@ -1092,7 +1092,7 @@
         "nameAccent": "Impeccable Kitchen",
         "shortDescription": "99% naturally derived degreaser, citrus dishwashing liquid and 97% natural multi-surface cleaner. The impeccably clean kitchen.",
         "longDescription": "The Impeccable Kitchen Ritual brings together the 99% naturally derived Degreaser, the Citrus Dishwashing Liquid and the Multi-Surface Cleaner. The degreaser dissolves grease effectively while remaining gentle on surfaces.",
-        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+        "story": "Three products, one entire clean kitchen. The perfect end to the day that smells of citrus."
       },
       "fr": {
         "name": "Rituel Cuisine Impeccable",
@@ -1104,7 +1104,7 @@
         "nameAccent": "Cuisine Impeccable",
         "shortDescription": "Dégraissant 99% d'origine naturelle, liquide vaisselle citronné et nettoyant multi-surfaces 97% naturel. La cuisine impeccable.",
         "longDescription": "Le Rituel Cuisine Impeccable réunit le Dégraissant 99% d'origine naturelle, le Liquide Vaisselle à la fragrance citronnée et le Nettoyant Multi-Surfaces d'origine naturelle.",
-        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+        "story": "Trois produits, une cuisine entière propre. La fin parfaite de la journée qui sent les agrumes."
       },
       "de": {
         "name": "Ritual Makellose Küche",
@@ -1116,7 +1116,7 @@
         "nameAccent": "Makellose Küche",
         "shortDescription": "99% natürlich gewonnener Entfetter, Zitrus-Spülmittel und 97% natürlicher Allzweckreiniger. Die makellose Küche.",
         "longDescription": "Das Ritual Makellose Küche vereint den 99% natürlich gewonnenen Entfetter, das Zitrus-Spülmittel und den Allzweckreiniger. Der Entfetter löst Fett effektiv auf und ist dabei schonend für Oberflächen.",
-        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+        "story": "Drei Produkte, eine komplett saubere Küche. Der perfekte Tagesabschluss mit Zitrusduft."
       },
       "it": {
         "name": "Rituale Cucina Impeccabile",
@@ -1128,7 +1128,7 @@
         "nameAccent": "Cucina Impeccabile",
         "shortDescription": "Sgrassatore 99% di origine naturale, detersivo piatti agli agrumi e detergente multi-superficie 97% naturale. La cucina impeccabile.",
         "longDescription": "Il Rituale Cucina Impeccabile riunisce lo Sgrassatore 99% di origine naturale, il Detersivo Piatti alla fragranza agrumata e il Detergente Multi-Superficie di origine naturale.",
-        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+        "story": "Tre prodotti, un'intera cucina pulita. La fine perfetta della giornata che profuma di agrumi."
       },
       "nl": {
         "name": "Ritueel Onberispelijke Keuken",
@@ -1140,7 +1140,7 @@
         "nameAccent": "Onberispelijke Keuken",
         "shortDescription": "99% natuurlijk gewonnen ontvetter, citroenafwasmiddel en 97% natuurlijk allesreiniger. De vlekkeloze keuken.",
         "longDescription": "Het Ritueel Onberispelijke Keuken verenigt de 99% natuurlijk gewonnen Ontvetter, het Citroenafwasmiddel en de Allesreiniger. De ontvetter lost vet effectief op terwijl het zacht blijft op oppervlakken.",
-        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+        "story": "Drie producten, één volledig schone keuken. Het perfecte einde van de dag met citrusgeur."
       },
       "pt": {
         "name": "Ritual Cozinha Impecável",
@@ -1152,7 +1152,7 @@
         "nameAccent": "Cozinha Impecável",
         "shortDescription": "Desengordurante 99% de origem natural, detergente da loiça cítrico e produto multiusos 97% natural. A cozinha impecável.",
         "longDescription": "O Ritual Cozinha Impecável reúne o Desengordurante 99% de origem natural, o Detergente da Loiça com fragrância cítrica e o Produto Multiusos de origem natural.",
-        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio."
+        "story": "Três produtos, uma cozinha inteira limpa. O final perfeito do dia com aroma a citrinos."
       },
       "basePriceGBP": 13.33
     },
@@ -1194,7 +1194,7 @@
         "nameAccent": "Caress",
         "shortDescription": "Laundry detergent, fabric softener and stain remover: complete textile care with naturally derived ingredients.",
         "longDescription": "The Caress Ritual combines gentle cleaning, softening and stain removal for a complete textile care experience.",
-        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+        "story": "Classic lavender detergent and elegant softener: your clothes come out clean, soft and subtly scented."
       },
       "fr": {
         "name": "Rituel Caresse",
@@ -1206,7 +1206,7 @@
         "nameAccent": "Caresse",
         "shortDescription": "Lessive, adoucissant et détachant : le soin textile complet aux ingrédients d'origine naturelle.",
         "longDescription": "Le Rituel Caresse combine nettoyage doux, adoucissement et détachage pour un soin textile complet.",
-        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+        "story": "Le détergent à la lavande classique et l'adoucissant élégant : vos vêtements ressortent propres, doux et subtilement parfumés."
       },
       "de": {
         "name": "Ritual Liebkosung",
@@ -1218,7 +1218,7 @@
         "nameAccent": "Liebkosung",
         "shortDescription": "Waschmittel, Weichspüler und Fleckenentferner: vollständige Textilpflege mit natürlich gewonnenen Inhaltsstoffen.",
         "longDescription": "Das Ritual Liebkosung vereint sanfte Reinigung, Weichspülung und Fleckenentfernung für eine vollständige Textilpflege.",
-        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+        "story": "Das klassische Lavendel-Waschmittel und der elegante Weichspüler: Ihre Kleidung wird sauber, weich und dezent duftend."
       },
       "it": {
         "name": "Rituale Carezza",
@@ -1230,7 +1230,7 @@
         "nameAccent": "Carezza",
         "shortDescription": "Detersivo bucato, ammorbidente e smacchiatore: la cura tessile completa con ingredienti di origine naturale.",
         "longDescription": "Il Rituale Carezza combina pulizia delicata, ammorbidimento e smacchiatura per una cura tessile completa.",
-        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+        "story": "Il detersivo alla lavanda classica e l'ammorbidente elegante: i tuoi vestiti escono puliti, morbidi e delicatamente profumati."
       },
       "nl": {
         "name": "Ritueel Liefkozing",
@@ -1242,7 +1242,7 @@
         "nameAccent": "Liefkozing",
         "shortDescription": "Wasmiddel, wasverzachter en vlekkenverwijderaar: complete textielverzorging met natuurlijk gewonnen ingrediënten.",
         "longDescription": "Het Ritueel Liefkozing combineert zachte reiniging, verzachting en vlekverwijdering voor een complete textielverzorging.",
-        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+        "story": "Het klassieke lavendelwasmiddel en de elegante wasverzachter: je kleding komt er schoon, zacht en subtiel geparfumeerd uit."
       },
       "pt": {
         "name": "Ritual Carícia",
@@ -1254,7 +1254,7 @@
         "nameAccent": "Carícia",
         "shortDescription": "Detergente roupa, amaciador e tira-nódoas: o cuidado têxtil completo com ingredientes de origem natural.",
         "longDescription": "O Ritual Carícia combina limpeza suave, amaciamento e remoção de nódoas para uma experiência completa de cuidado têxtil.",
-        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla."
+        "story": "O detergente com lavanda clássica e o amaciador elegante: a sua roupa sai limpa, macia e subtilmente perfumada."
       },
       "basePriceGBP": 11.87
     },
@@ -1293,7 +1293,8 @@
         "subtitle": "The complete home care ritual — feel safe and cosy at home.",
         "shortDescription": "Floor cleaner, multi-surface cleaner, glass cleaner, degreaser and limescale remover. Complete home care with naturally derived ingredients.",
         "longDescription": "The Sanctuary Ritual brings together five essential cleaning products to keep every corner of your home fresh and protected.",
-        "promise": "Your home, your sanctuary."
+        "promise": "Your home, your sanctuary.",
+        "story": "Five products for the whole house. The calm of knowing every corner is clean, naturally."
       },
       "fr": {
         "name": "Ritual Refuge",
@@ -1303,7 +1304,8 @@
         "subtitle": "Le rituel soin complet de la maison — se sentir en sécurité chez soi.",
         "shortDescription": "Nettoyant sol, multi-surfaces, vitres, dégraissant et anticalcaire. Le soin complet de la maison aux ingrédients d'origine naturelle.",
         "longDescription": "Le Rituel Refuge réunit cinq produits essentiels pour garder chaque coin de la maison frais et protégé.",
-        "promise": "Votre maison, votre refuge."
+        "promise": "Votre maison, votre refuge.",
+        "story": "Cinq produits pour toute la maison. La tranquillité de savoir que chaque recoin est propre, naturellement."
       },
       "de": {
         "name": "Ritual Geborgenheit",
@@ -1313,7 +1315,8 @@
         "subtitle": "Das vollständige Hauspflegeritual — sich zu Hause geborgen fühlen.",
         "shortDescription": "Bodenreiniger, Allzweckreiniger, Glasreiniger, Entfetter und Kalkentferner. Vollständige Hauspflege mit natürlich gewonnenen Inhaltsstoffen.",
         "longDescription": "Das Ritual Geborgenheit vereint fünf wesentliche Reinigungsprodukte, um jeden Winkel des Hauses frisch und geschützt zu halten.",
-        "promise": "Dein Zuhause, deine Geborgenheit."
+        "promise": "Dein Zuhause, deine Geborgenheit.",
+        "story": "Fünf Produkte für das ganze Haus. Die Ruhe zu wissen, dass jede Ecke sauber ist, natürlich."
       },
       "it": {
         "name": "Ritual Rifugio",
@@ -1323,7 +1326,8 @@
         "subtitle": "Il rituale completo per la cura della casa — sentirsi al sicuro a casa.",
         "shortDescription": "Detergente pavimenti, multi-superficie, vetri, sgrassatore e anticalcare. Cura completa della casa con ingredienti di origine naturale.",
         "longDescription": "Il Rituale Rifugio riunisce cinque prodotti essenziali per mantenere ogni angolo della casa fresco e protetto.",
-        "promise": "La tua casa, il tuo rifugio."
+        "promise": "La tua casa, il tuo rifugio.",
+        "story": "Cinque prodotti per tutta la casa. La tranquillità di sapere che ogni angolo è pulito, naturalmente."
       },
       "nl": {
         "name": "Ritual Toevlucht",
@@ -1333,7 +1337,8 @@
         "subtitle": "Het complete huisverzorgingsritueel — je veilig en geborgen voelen thuis.",
         "shortDescription": "Vloerreiniger, allesreiniger, glasreiniger, ontvetter en kalkreiniger. Complete huisverzorging met natuurlijk gewonnen ingrediënten.",
         "longDescription": "Het Ritueel Geborgenheid verenigt vijf essentiële schoonmaakproducten om elke hoek van je huis fris en beschermd te houden.",
-        "promise": "Jouw huis, jouw geborgenheid."
+        "promise": "Jouw huis, jouw geborgenheid.",
+        "story": "Vijf producten voor het hele huis. De rust van weten dat elke hoek schoon is, natuurlijk."
       },
       "pt": {
         "name": "Ritual Refúgio",
@@ -1343,7 +1348,8 @@
         "subtitle": "O ritual completo de cuidado do lar — sentir-se seguro e acolhido em casa.",
         "shortDescription": "Limpa-chão, multiusos, limpa-vidros, desengordurante e anticalcário. Cuidado completo do lar com ingredientes de origem natural.",
         "longDescription": "O Ritual Refúgio reúne cinco produtos essenciais para manter cada canto da casa fresco e protegido.",
-        "promise": "A sua casa, o seu refúgio."
+        "promise": "A sua casa, o seu refúgio.",
+        "story": "Cinco produtos para toda a casa. A tranquilidade de saber que cada canto está limpo, naturalmente."
       }
     },
     {
@@ -1385,7 +1391,7 @@
         "nameAccent": "Zen Cat",
         "shortDescription": "Gentle shampoo with argan and microbiome actives, herbal eye care and ear cleanser with tea tree.",
         "longDescription": "Calm hygiene, no struggle. Three products designed to reduce stress at grooming time, from the Calm and Connection perspective.",
-        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+        "story": "If your cat is well, so are you. The complete grooming ritual designed to reduce stress for both of you."
       },
       "fr": {
         "name": "Rituel Chat Zen",
@@ -1397,7 +1403,7 @@
         "nameAccent": "Chat Zen",
         "shortDescription": "Shampooing doux à l'argan et aux actifs microbiome, soin oculaire herbal et nettoyant auriculaire à l'arbre à thé.",
         "longDescription": "Hygiène tranquille, sans lutte. Trois produits conçus pour réduire le stress au moment de l'hygiène, avec Calme et Connexion.",
-        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+        "story": "Si votre chat va bien, vous aussi. Le rituel d'hygiène complet conçu pour réduire le stress des deux côtés."
       },
       "de": {
         "name": "Ritual Zen-Katze",
@@ -1409,7 +1415,7 @@
         "nameAccent": "Zen-Katze",
         "shortDescription": "Sanftes Shampoo mit Argan und Mikrobiom-Wirkstoffen, pflanzliche Augenpflege und Ohrenreiniger mit Teebaum.",
         "longDescription": "Ruhige Hygiene, kein Kampf. Drei Produkte, die entwickelt wurden, um den Stress beim Hygienemoment zu reduzieren, aus Ruhe und Verbindung heraus.",
-        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+        "story": "Wenn es deiner Katze gut geht, geht es dir auch gut. Das vollständige Pflegeritual, das Stress für beide reduziert."
       },
       "it": {
         "name": "Rituale Gatto Zen",
@@ -1421,7 +1427,7 @@
         "nameAccent": "Gatto Zen",
         "shortDescription": "Shampoo delicato con argan e attivi microbioma, cura oculare alle erbe e detergente auricolare all'albero del tè.",
         "longDescription": "Igiene tranquilla, senza lotta. Tre prodotti progettati per ridurre lo stress del momento dell'igiene, dalla Calma e dalla Connessione.",
-        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+        "story": "Se il tuo gatto sta bene, stai bene anche tu. Il rituale di cura completo pensato per ridurre lo stress di entrambi."
       },
       "nl": {
         "name": "Ritueel Zen Kat",
@@ -1433,7 +1439,7 @@
         "nameAccent": "Zen Kat",
         "shortDescription": "Zachte shampoo met argan en microbioom-activa, kruidenverzorging voor ogen en oordruppels met tea tree.",
         "longDescription": "Rustige hygiëne, geen gevecht. Drie producten ontworpen om stress tijdens het hygiënemoment te verminderen, vanuit Rust en Verbinding.",
-        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+        "story": "Als jouw kat het goed heeft, heb jij het ook goed. Het complete verzorgingsritueel ontworpen om stress voor jullie beiden te verminderen."
       },
       "pt": {
         "name": "Ritual Gato Zen",
@@ -1445,7 +1451,7 @@
         "nameAccent": "Gato Zen",
         "shortDescription": "Champô suave com argão e ativos microbioma, cuidado ocular herbal e limpa-ouvidos com árvore do chá.",
         "longDescription": "Higiene tranquila, sem luta. Três produtos concebidos para reduzir o stress no momento da higiene, a partir da Calma e da Conexão.",
-        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino."
+        "story": "Se o seu gato está bem, você também está. O ritual de cuidado completo concebido para reduzir o stress de ambos."
       },
       "outOfStock": false,
       "primaryImage": "/images/landing/card-11.jpg",
@@ -1490,7 +1496,7 @@
         "nameAccent": "Pampered Pup",
         "shortDescription": "Shampoo with argan, basil and thyme, herbal eye cleanser and ear cleanser with tea tree.",
         "longDescription": "If your dog is well, so are you. Gentle hygiene, a calm routine and a sense of Connection between pet and home.",
-        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+        "story": "Three products designed so that grooming time becomes a moment of calm and connection between you and your dog."
       },
       "fr": {
         "name": "Rituel Cocoon Canin",
@@ -1502,7 +1508,7 @@
         "nameAccent": "Cocoon Canin",
         "shortDescription": "Shampooing à l'argan, au basilic et au thym, nettoyant oculaire herbal et nettoyant auriculaire à l'arbre à thé.",
         "longDescription": "Si votre chien va bien, vous aussi. Hygiène douce, routine tranquille et sentiment de Connexion entre animal et maison.",
-        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+        "story": "Trois produits conçus pour que le moment de l'hygiène devienne un moment de calme et de connexion entre vous et votre chien."
       },
       "de": {
         "name": "Ritual Hundeverwöhnung",
@@ -1514,7 +1520,7 @@
         "nameAccent": "Hundeverwöhnung",
         "shortDescription": "Shampoo mit Argan, Basilikum und Thymian, pflanzlicher Augenreiniger und Ohrenreiniger mit Teebaum.",
         "longDescription": "Wenn es deinem Hund gut geht, geht es dir auch gut. Sanfte Hygiene, ruhige Routine und ein Gefühl der Verbindung zwischen Haustier und Zuhause.",
-        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+        "story": "Drei Produkte, die dafür sorgen, dass die Pflegezeit ein Moment der Ruhe und Verbindung zwischen dir und deinem Hund wird."
       },
       "it": {
         "name": "Rituale Coccole Canine",
@@ -1526,7 +1532,7 @@
         "nameAccent": "Coccole Canine",
         "shortDescription": "Shampoo con argan, basilico e timo, detergente oculare alle erbe e detergente auricolare all'albero del tè.",
         "longDescription": "Se il tuo cane sta bene, stai bene anche tu. Igiene delicata, routine tranquilla e sensazione di Connessione tra animale e casa.",
-        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+        "story": "Tre prodotti pensati perché il momento della cura diventi un momento di calma e connessione tra te e il tuo cane."
       },
       "nl": {
         "name": "Ritueel Verwende Hond",
@@ -1538,7 +1544,7 @@
         "nameAccent": "Verwende Hond",
         "shortDescription": "Shampoo met argan, basilicum en tijm, kruidenoogdruppels en oordruppels met tea tree.",
         "longDescription": "Als jouw hond het goed heeft, heb jij het ook goed. Zachte hygiëne, een rustige routine en een gevoel van Verbinding tussen huisdier en thuis.",
-        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+        "story": "Drie producten ontworpen zodat het verzorgingsmoment een moment van rust en verbinding wordt tussen jou en je hond."
       },
       "pt": {
         "name": "Ritual Mimo Canino",
@@ -1550,7 +1556,7 @@
         "nameAccent": "Mimo Canino",
         "shortDescription": "Champô com argão, manjericão e tomilho, limpa-olhos herbal e limpa-ouvidos com árvore do chá.",
         "longDescription": "Se o seu cão está bem, você também está. Higiene suave, rotina tranquila e sensação de Conexão entre animal de estimação e casa.",
-        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite."
+        "story": "Três produtos concebidos para que o momento de cuidado se torne um momento de calma e conexão entre si e o seu cão."
       },
       "primaryImage": "/images/landing/card-10.jpg",
       "basePriceGBP": 13.5
