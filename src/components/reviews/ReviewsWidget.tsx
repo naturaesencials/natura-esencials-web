@@ -151,8 +151,8 @@ export function ReviewsWidget({ handle, title, locale = 'es', shopifyHandle }: P
     : 0;
   const dist = [5, 4, 3, 2, 1].map(n => ({ rating: n, count: reviews.filter(r => r.rating === n).length }));
   const reviewLink = shopifyHandle
-    ? `https://bdchtj-1p.myshopify.com/products/${shopifyHandle}`
-    : undefined;
+    ? `https://tienda.naturaesencials.com/products/${shopifyHandle}#judgeme_product_reviews`
+    : 'https://tienda.naturaesencials.com#judgeme_product_reviews';
 
   return (
     <section className="mt-12 border-t border-rule pt-10">

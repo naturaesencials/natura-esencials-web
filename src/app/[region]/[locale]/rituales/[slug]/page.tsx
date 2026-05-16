@@ -128,6 +128,21 @@ export default async function RitualPage({ params }: Props) {
     { name: tr.name,     url },
   ]);
 
+  // ── i18n labels ──
+  const SAVE_LABEL: Record<string, (pct: number) => string> = {
+    es: (p) => `−${p}% de ahorro con el ritual`,
+    en: (p) => `Save ${p}% with this ritual`,
+    fr: (p) => `−${p}% d'économie avec le rituel`,
+    de: (p) => `${p}% Ersparnis mit dem Ritual`,
+    it: (p) => `−${p}% di risparmio con il rituale`,
+    nl: (p) => `${p}% besparing met dit ritueel`,
+    pt: (p) => `−${p}% de poupança com o ritual`,
+  };
+  const INCLUDES: Record<string, string> = {
+    es: 'Incluye', en: 'Includes', fr: 'Comprend', de: 'Enthält',
+    it: 'Include', nl: 'Bevat', pt: 'Inclui',
+  };
+
   // Included products (visible ones)
   const includedProducts = (bundle.includes ?? [])
     .map((id: string) => getProductById(id))
@@ -207,7 +222,7 @@ export default async function RitualPage({ params }: Props) {
               <div className="flex flex-col gap-5 mt-2">
                 {bundle.discountPercent && (
                   <span className="inline-block w-fit text-[11px] uppercase tracking-[0.22em] text-verde border border-verde px-3 py-1">
-                    −{bundle.discountPercent}% descuento ritual
+                    {(SAVE_LABEL[locale] ?? SAVE_LABEL.es)(bundle.discountPercent)}
                   </span>
                 )}
                 {bundle.handles && Object.keys(bundle.handles).filter(k => bundle.handles![k]).length > 1 ? (
@@ -231,7 +246,7 @@ export default async function RitualPage({ params }: Props) {
               {includedProducts.length > 0 && (
                 <div className="mt-4">
                   <p className="text-[11px] uppercase tracking-[0.2em] text-muted mb-3">
-                    {locale === 'es' ? 'Incluye' : locale === 'en' ? 'Includes' : locale === 'fr' ? 'Comprend' : 'Incluye'}
+                    {INCLUDES[locale] ?? INCLUDES.es}
                   </p>
                   <ul className="flex flex-col gap-1">
                     {includedProducts.map((p: any) => {
@@ -252,7 +267,7 @@ export default async function RitualPage({ params }: Props) {
       </article>
       {bundle.shopifyHandle && (
         <div className="px-pad-x pb-pad-y">
-          <ReviewsWidget handle={bundle.shopifyHandle} title={bundle.translations?.es?.name} />
+          <ReviewsWidget handle={bundle.shopifyHandle} title={tr.name} locale={locale} shopifyHandle={bundle.shopifyHandle} />
         </div>
       )}
     </>
