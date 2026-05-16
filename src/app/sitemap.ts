@@ -59,7 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'rituales',
     'blog',
     'origen',
-    'diario',
+    
     'contacto',
     'faq',
   ];

@@ -55,6 +55,8 @@ const nextConfig = {
       { source: '/eu/nl/rituales/streling', destination: '/eu/nl/rituales/liefkozing', permanent: true },
       { source: '/eu/pt/rituales/louca-perfeita', destination: '/eu/pt/rituales/loica-perfeita', permanent: true },
       { source: '/eu/pt/rituales/rendimento-300', destination: '/eu/pt/rituales/desempenho-300', permanent: true },
+      // Diario → Blog (duplicate content)
+      { source: '/:region/:locale/diario', destination: '/:region/:locale/blog', permanent: true },
     ];
   },
 
