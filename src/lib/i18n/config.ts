@@ -142,7 +142,7 @@ export function getLocaleSlugAlternates(
 
 function getCountryForLocale(locale: Locale): string {
   const map: Record<Locale, string> = {
-    es: 'ES', en: 'US', fr: 'FR', de: 'DE', it: 'IT', nl: 'NL', pt: 'PT',
+    es: 'ES', en: 'IE', fr: 'FR', de: 'DE', it: 'IT', nl: 'NL', pt: 'PT',
   };
   return map[locale];
 }
