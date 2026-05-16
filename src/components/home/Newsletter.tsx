@@ -40,7 +40,7 @@ export function Newsletter() {
 
   return (
     <section className="relative overflow-hidden bg-paper px-pad-x py-pad-y">
-      <Image src="https://images.pexels.com/photos/11254917/pexels-photo-11254917.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" fill sizes="100vw" className="object-cover opacity-40" aria-hidden />
+      <Image src="https://images.pexels.com/photos/11254917/pexels-photo-11254917.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Plantas aromáticas y botánicos naturales de Andalucía" fill sizes="100vw" className="object-cover opacity-40" />
       <div className="absolute inset-0 bg-gradient-to-b from-paper/[0.88] to-bg/[0.92]" />
       <div className="relative z-10 mx-auto max-w-[760px] text-center">
         <div className="mb-7 text-[11px] uppercase tracking-[0.38em] text-verde-vivo">— {t('kicker')}</div>

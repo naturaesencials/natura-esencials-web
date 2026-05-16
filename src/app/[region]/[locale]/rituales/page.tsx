@@ -146,14 +146,14 @@ function RitualCard({
         )}
         <div className={`mt-auto pt-3 text-[11px] font-medium uppercase tracking-[0.22em] ${href ? color : 'text-graphite/50'}`}>
           {href
-            ? (locale === 'es' ? 'Ver ritual →' : locale === 'en' ? 'View ritual →' : '→')
+            ? (locale === 'es' ? 'Ver ritual' : locale === 'en' ? 'View ritual' : locale === 'fr' ? 'Voir le rituel' : locale === 'de' ? 'Ritual ansehen' : locale === 'it' ? 'Vedi rituale' : locale === 'nl' ? 'Bekijk ritueel' : 'Ver ritual') + ' →'
             : '·'}
         </div>
       </div>
     </div>
   );
 
-  return href ? <Link href={href}>{content}</Link> : <div>{content}</div>;
+  return href ? <Link href={href} aria-label={name.full}>{content}</Link> : <div>{content}</div>;
 }
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
@@ -169,13 +169,13 @@ export default async function RitualesPage({ params }: Props) {
     de: 'Unsere Rituale', it: 'I nostri rituali', nl: 'Onze rituelen', pt: 'Os nossos rituais',
   };
   const pageDesc: Record<string, string> = {
-    es: 'Cada ritual es un pack completo de productos formulados para trabajar juntos.',
-    en: 'Each ritual is a complete pack of products formulated to work together.',
-    fr: 'Chaque rituel est un pack complet de produits formulés pour travailler ensemble.',
-    de: 'Jedes Ritual ist ein komplettes Produktpaket, das zusammen formuliert wurde.',
-    it: 'Ogni rituale è un pack completo di prodotti formulati per lavorare insieme.',
-    nl: 'Elk ritueel is een compleet pakket producten die samen geformuleerd zijn.',
-    pt: 'Cada ritual é um pack completo de produtos formulados para trabalhar juntos.',
+    es: 'Cada ritual es un pack completo de productos formulados para trabajar juntos. Cosmética natural, limpieza del hogar y cuidado de mascotas — todo artesanal desde Andalucía.',
+    en: 'Each ritual is a complete pack of products formulated to work together. Natural cosmetics, home care and pet care — all artisan-crafted in Andalusia.',
+    fr: 'Chaque rituel est un pack complet de produits formulés pour travailler ensemble. Cosmétique naturelle, entretien maison et soins animaux — fabriqués artisanalement en Andalousie.',
+    de: 'Jedes Ritual ist ein komplettes Produktpaket, das zusammen formuliert wurde. Naturkosmetik, Haushaltspflege und Tierpflege — handwerklich gefertigt in Andalusien.',
+    it: 'Ogni rituale è un pack completo di prodotti formulati per lavorare insieme. Cosmetica naturale, cura della casa e degli animali — tutto artigianale dall\'Andalusia.',
+    nl: 'Elk ritueel is een compleet pakket producten die samen geformuleerd zijn. Natuurlijke cosmetica, huishoudverzorging en dierenverzorging — ambachtelijk gemaakt in Andalusië.',
+    pt: 'Cada ritual é um pack completo de produtos formulados para trabalhar juntos. Cosmética natural, cuidado do lar e animais de estimação — tudo artesanal da Andaluzia.',
   };
 
   return (
@@ -185,11 +185,8 @@ export default async function RitualesPage({ params }: Props) {
         <p className="mb-4 text-[11px] uppercase tracking-[0.35em] text-verde">— Natura Esencials</p>
         <h1 className="font-display text-h1-fluid leading-[0.95] tracking-[-0.025em]">
           {pageTitle[locale] ?? pageTitle.es}
-          <span className="block mt-4 font-sans text-[clamp(14px,1.8vw,17px)] font-normal text-graphite leading-relaxed tracking-normal">
-            {pageDesc[locale] ?? pageDesc.es}
-          </span>
         </h1>
-        <p className="mt-6 text-[15px] leading-[1.85] text-graphite max-w-xl">
+        <p className="mt-4 text-[15px] leading-[1.85] text-graphite max-w-xl">
           {pageDesc[locale] ?? pageDesc.es}
         </p>
       </header>

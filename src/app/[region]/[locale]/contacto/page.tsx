@@ -7,9 +7,22 @@ interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, locale } = await params;
+  const titles: Record<string, string> = {
+    es: 'Contacto', en: 'Contact', fr: 'Contact',
+    de: 'Kontakt', it: 'Contatto', nl: 'Contact', pt: 'Contacto',
+  };
+  const descs: Record<string, string> = {
+    es: 'Contacta con Natura Esencials — cosmética artesanal natural desde Andalucía. Atención al cliente, mayoristas, prensa y colaboraciones.',
+    en: 'Contact Natura Esencials — artisan natural cosmetics from Andalusia. Customer service, wholesale, press and collaborations.',
+    fr: 'Contactez Natura Esencials — cosmétique artisanale naturelle depuis l\'Andalousie. Service client, grossistes, presse et collaborations.',
+    de: 'Kontaktieren Sie Natura Esencials — handwerkliche Naturkosmetik aus Andalusien. Kundendienst, Großhandel, Presse und Kooperationen.',
+    it: 'Contatta Natura Esencials — cosmetica artigianale naturale dall\'Andalusia. Assistenza clienti, grossisti, stampa e collaborazioni.',
+    nl: 'Neem contact op met Natura Esencials — ambachtelijke natuurlijke cosmetica uit Andalusië. Klantenservice, groothandel, pers en samenwerkingen.',
+    pt: 'Entre em contacto com Natura Esencials — cosmética artesanal natural da Andaluzia. Atendimento ao cliente, grossistas, imprensa e colaborações.',
+  };
   return buildMetadata({
-    title: 'Contacto',
-    description: 'Atención al cliente, mayoristas, prensa, colaboraciones. Marbella, España.',
+    title: titles[locale] ?? 'Contacto',
+    description: descs[locale] ?? descs.es,
     region,
     noIndex: region === "uk",
     locale,
@@ -45,12 +58,12 @@ export default async function ContactoPage({ params }: Props) {
   return (
     <main className="px-pad-x py-pad-y">
       <div className="mx-auto max-w-2xl">
-        <h1 className="font-display text-h2-fluid mb-6">
+        <h1 className="font-display text-h2-fluid mb-3">
           {h.title}
-          <span className="block mt-3 font-sans text-base font-normal text-graphite leading-relaxed tracking-normal">
-            {h.desc}
-          </span>
         </h1>
+        <p className="font-sans text-base font-normal text-graphite leading-relaxed tracking-normal mb-6">
+          {h.desc}
+        </p>
 
         <div className="mt-12 space-y-10 text-[15px] leading-[1.85]">
           <div>

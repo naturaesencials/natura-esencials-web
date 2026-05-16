@@ -39,10 +39,10 @@ export default async function MascotaPage({ params }: Props) {
         </span>
         <h1 className="font-display text-h2-fluid leading-tight mb-4">
           {t('mascota.title')} <em className="font-italic">{t('mascota.accent')}</em>
-          <span className="block mt-3 font-sans text-base font-normal text-graphite leading-relaxed tracking-normal max-w-2xl mx-auto">
-            {t('mascota.desc')}
-          </span>
         </h1>
+        <p className="font-sans text-base font-normal text-graphite leading-relaxed tracking-normal max-w-2xl mx-auto">
+          {t('mascota.desc')}
+        </p>
       </header>
 
       <CatalogGrid

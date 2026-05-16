@@ -161,12 +161,12 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                   <em className="font-display-italic text-verde">{tr.nameAccent}</em>
                 </>
               )}
-              {tr.subtitle && (
-                <span className="block mt-4 font-caption text-[clamp(14px,1.8vw,18px)] not-italic font-normal text-graphite leading-relaxed tracking-normal">
-                  {tr.subtitle}
-                </span>
-              )}
             </h1>
+            {tr.subtitle && (
+              <p className="mt-4 font-caption text-[clamp(14px,1.8vw,18px)] font-normal text-graphite leading-relaxed tracking-normal">
+                {tr.subtitle}
+              </p>
+            )}
 
             {/* Datos sensoriales */}
             <dl className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 text-body-fluid">

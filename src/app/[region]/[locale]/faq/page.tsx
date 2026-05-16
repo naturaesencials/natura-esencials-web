@@ -24,6 +24,16 @@ const SUBTITLE: Record<string, string> = {
   nl: 'Alles wat u moet weten over onze formuleringen, certificeringen en ambachtelijk proces.',
   pt: 'Tudo o que precisa saber sobre as nossas formulações, certificações e processo artesanal.',
 };
+// Long-form H1: descriptive phrase for SEO (avoids "too short" flag)
+const H1_LONG: Record<string, string> = {
+  es: 'Preguntas frecuentes sobre cosmética natural artesanal',
+  en: 'Frequently asked questions about artisan natural cosmetics',
+  fr: 'Questions fréquentes sur la cosmétique naturelle artisanale',
+  de: 'Häufige Fragen zu handwerklicher Naturkosmetik',
+  it: 'Domande frequenti sulla cosmetica naturale artigianale',
+  nl: 'Veelgestelde vragen over ambachtelijke natuurlijke cosmetica',
+  pt: 'Perguntas frequentes sobre cosmética natural artesanal',
+};
 
 const FAQS: Record<string, FAQ[]> = {
   es: [
@@ -140,6 +150,7 @@ export default async function FaqPage({ params }: Props) {
   const faqs = FAQS[locale] ?? FAQS.es;
   const title = TITLE[locale] ?? TITLE.es;
   const subtitle = SUBTITLE[locale] ?? SUBTITLE.es;
+  const h1Text = H1_LONG[locale] ?? H1_LONG.es;
 
   return (
     <main className="px-pad-x py-pad-y">
@@ -151,7 +162,7 @@ export default async function FaqPage({ params }: Props) {
             <span className="mx-2">·</span>
             <span className="text-ink">{title}</span>
           </nav>
-          <h1 className="font-display text-h1-fluid leading-[0.96] tracking-[-0.025em] mb-4">{title}</h1>
+          <h1 className="font-display text-h1-fluid leading-[0.96] tracking-[-0.025em] mb-4">{h1Text}</h1>
           <p className="text-lg text-muted">{subtitle}</p>
         </header>
 

@@ -90,7 +90,7 @@ function ReviewCard({ review, lb, locale }: { review: Review; lb: typeof T.es; l
       {review.pictures?.length > 0 && (
         <div className="flex gap-2 flex-wrap">
           {review.pictures.slice(0, 4).map((pic, i) => (
-            <img key={i} src={pic.urls.original} alt="" className="h-14 w-14 rounded-sm object-cover" loading="lazy" />
+            <img key={i} src={pic.urls.original} alt={`Foto de opinión de ${review.reviewer.name}`} className="h-14 w-14 rounded-sm object-cover" loading="lazy" />
           ))}
         </div>
       )}
@@ -167,7 +167,8 @@ export function ReviewsWidget({ handle, title, locale = 'es', shopifyHandle }: P
           )}
         </div>
         {reviewLink && (
-          <a href={reviewLink} target="_blank" rel="noopener noreferrer"
+          <a href={reviewLink} target="_blank" rel="nofollow noopener noreferrer"
+            aria-label={`${lb.writeReview}${title ? ` — ${title}` : ''}`}
             className="shrink-0 border border-ink/20 px-5 py-2.5 text-[11px] uppercase tracking-[0.2em] text-ink hover:border-ink/60 transition-colors">
             {lb.writeReview}
           </a>
@@ -183,7 +184,8 @@ export function ReviewsWidget({ handle, title, locale = 'es', shopifyHandle }: P
           <p className="font-display text-lg italic text-ink/60 mb-2">{lb.noReviews}</p>
           <p className="text-sm text-graphite mb-6">{lb.noReviewsSub}</p>
           {reviewLink && (
-            <a href={reviewLink} target="_blank" rel="noopener noreferrer"
+            <a href={reviewLink} target="_blank" rel="nofollow noopener noreferrer"
+              aria-label={`${lb.writeReview}${title ? ` — ${title}` : ''}`}
               className="inline-block border border-ink/20 px-6 py-2.5 text-[11px] uppercase tracking-[0.2em] text-ink hover:border-ink/60 transition-colors">
               {lb.writeReview}
             </a>

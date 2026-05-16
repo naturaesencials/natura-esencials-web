@@ -11,9 +11,22 @@ interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, locale } = await params;
+  const titles: Record<string, string> = {
+    es: 'Diario', en: 'Journal', fr: 'Journal',
+    de: 'Tagebuch', it: 'Diario', nl: 'Dagboek', pt: 'Diário',
+  };
+  const descriptions: Record<string, string> = {
+    es: 'Formulación, ingredientes y rituales. El diario de Natura Esencials.',
+    en: 'Formulation, ingredients and rituals. The Natura Esencials journal.',
+    fr: 'Formulation, ingrédients et rituels. Le journal de Natura Esencials.',
+    de: 'Formulierung, Zutaten und Rituale. Das Tagebuch von Natura Esencials.',
+    it: 'Formulazione, ingredienti e rituali. Il diario di Natura Esencials.',
+    nl: 'Formulering, ingrediënten en rituelen. Het dagboek van Natura Esencials.',
+    pt: 'Formulação, ingredientes e rituais. O diário da Natura Esencials.',
+  };
   return buildMetadata({
-    title: 'Diario',
-    description: 'Formulación, ingredientes y rituales. El diario de Natura Esencials.',
+    title: titles[locale] ?? 'Journal',
+    description: descriptions[locale] ?? descriptions.es,
     region, locale, path: 'blog',
     noIndex: region === 'uk',
   });
@@ -33,7 +46,12 @@ export default async function BlogPage({ params }: Props) {
     nl: { title: 'Dagboek', sub: 'Formulering, ingrediënten en rituelen.', readMin: 'min lezen' },
     pt: { title: 'Diário', sub: 'Formulação, ingredientes e rituais.', readMin: 'min de leitura' },
   };
+  const readMoreLabels: Record<string, string> = {
+    es: 'Leer artículo', en: 'Read article', fr: 'Lire l\'article',
+    de: 'Artikel lesen', it: 'Leggi articolo', nl: 'Artikel lezen', pt: 'Ler artigo',
+  };
   const lb = labels[lang] ?? labels.es;
+  const readMoreLabel = readMoreLabels[lang] ?? readMoreLabels.en;
 
   return (
     <main className="px-pad-x py-pad-y">
@@ -87,8 +105,12 @@ export default async function BlogPage({ params }: Props) {
               {/* Excerpt */}
               <p className="text-[13px] leading-[1.7] text-graphite line-clamp-3">{excerpt}</p>
 
-              <Link href={href} className="mt-3 inline-block border-b border-ink pb-0.5 text-[11px] uppercase tracking-[0.22em] transition-colors group-hover:border-verde group-hover:text-verde">
-                Leer →
+              <Link
+                href={href}
+                aria-label={`${readMoreLabel}: ${title}`}
+                className="mt-3 inline-block border-b border-ink pb-0.5 text-[11px] uppercase tracking-[0.22em] transition-colors group-hover:border-verde group-hover:text-verde"
+              >
+                {readMoreLabel} →
               </Link>
             </article>
           );

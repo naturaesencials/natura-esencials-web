@@ -81,10 +81,20 @@ export function makeGenerateMetadata(line: ProductLine) {
         .map(([loc, t]) => [loc, t!.slug]),
     ) as Partial<Record<Locale, string>>;
 
-    // Title: nombre + primera frase del subtitle para diferenciar variantes (SEO)
-    const titleSuffix = tr.subtitle ? ` — ${tr.subtitle.split('.')[0]}` : '';
+    // Title: nombre + primera cláusula de shortDescription (evita repetición de palabras del name)
+    // shortDescription no empieza con el nombre del producto → sin "word repetition"
+    // Límite 44 chars: 44 + " · Natura Esencials" (19) = 63 chars ≈ 504px < 580px límite Seobility
+    const shortDesc = (tr.shortDescription || '').trim();
+    const firstClause = shortDesc.split(/[.·]/)[0].trim();
+    // Sólo añadir cláusula si no empieza con el nombre del producto (evita duplicación)
+    const nameFirstWord = tr.name.split(' ')[0].toLowerCase();
+    const clauseIsRepetitive = firstClause.toLowerCase().startsWith(nameFirstWord);
+    const titleSuffix = firstClause && !clauseIsRepetitive ? ` — ${firstClause}` : '';
     const fullTitle = `${tr.name}${titleSuffix}`;
-    const title = fullTitle.length > 55 ? fullTitle.slice(0, 52) + '…' : fullTitle;
+    // Word-boundary truncation to avoid cutting mid-word
+    const title = fullTitle.length > 44
+      ? fullTitle.slice(0, 41).replace(/\s+\S*$/, '') + '…'
+      : fullTitle;
 
     return buildMetadata({
       title,

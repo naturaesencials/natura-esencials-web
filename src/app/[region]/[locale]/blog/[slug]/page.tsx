@@ -39,7 +39,11 @@ export default async function BlogPostPage({ params }: Props) {
   const lang    = locale as string;
   const title   = post.title[lang]   ?? post.title.es;
   const body    = post.body[lang]    ?? post.body.es;
-  const backLbl = lang === 'es' ? '← Diario' : lang === 'en' ? '← Journal' : '← Diario';
+  const backLabels: Record<string, string> = {
+    es: '← Diario', en: '← Journal', fr: '← Journal',
+    de: '← Tagebuch', it: '← Diario', nl: '← Dagboek', pt: '← Diário',
+  };
+  const backLbl = backLabels[lang] ?? '← Diario';
   const dateStr = new Date(post.date).toLocaleDateString(lang === 'en' ? 'en-GB' : lang, {
     day: 'numeric', month: 'long', year: 'numeric',
   });

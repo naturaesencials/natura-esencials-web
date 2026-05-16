@@ -39,10 +39,10 @@ export default async function CosmeticaPage({ params }: Props) {
         </span>
         <h1 className="font-display text-h2-fluid leading-tight mb-4">
           {t('cosmetica.title')} <em className="font-italic">{t('cosmetica.accent')}</em>
-          <span className="block mt-3 font-sans text-base font-normal text-graphite leading-relaxed tracking-normal max-w-2xl mx-auto">
-            {t('cosmetica.desc')}
-          </span>
         </h1>
+        <p className="font-sans text-base font-normal text-graphite leading-relaxed tracking-normal max-w-2xl mx-auto">
+          {t('cosmetica.desc')}
+        </p>
       </header>
 
       <CatalogGrid

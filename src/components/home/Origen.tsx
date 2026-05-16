@@ -10,7 +10,7 @@ export function Origen({ region, locale }: Props) {
   const t = useTranslations('origen');
   return (
     <section id="origen-section" className="relative overflow-hidden bg-verde" style={{ minHeight: 'clamp(440px, 72vh, 680px)' }}>
-      <Image src="/images/landing/origen.jpg" alt="" fill sizes="100vw" className="object-cover" aria-hidden />
+      <Image src="/images/landing/origen.jpg" alt="Taller artesanal Natura Esencials en Marbella, Andalucía" fill sizes="100vw" className="object-cover" />
       <div className="absolute inset-0 bg-gradient-to-r from-ink/[0.82] via-ink/[0.38] to-ink/[0.08]" />
       <div className="relative z-10 flex h-full items-center px-pad-x py-pad-y">
         <div className="max-w-[540px] text-bg">
