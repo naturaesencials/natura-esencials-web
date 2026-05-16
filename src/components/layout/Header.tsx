@@ -88,7 +88,7 @@ export function Header({ region, locale }: HeaderProps) {
             <span>{region.toUpperCase()} · {locale.toUpperCase()}</span>
           </button>
           <button onClick={() => setSearchOpen(true)} className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{tc('search')}</button>
-          <a href={`https://www.naturaesencials.com/account`} target="_blank" rel="noopener" className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{tc('account')}</a>
+          <a href={`https://tienda.naturaesencials.com/account`} target="_blank" rel="noopener" className="px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo">{tc('account')}</a>
           <button
             onClick={openCart}
             className="flex items-center gap-1 px-0.5 py-2 text-[11px] font-[450] uppercase tracking-[0.22em] transition-colors hover:text-verde-vivo"

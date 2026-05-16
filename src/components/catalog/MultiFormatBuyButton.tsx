@@ -23,6 +23,15 @@ const LABELS: Record<string, { add: string; adding: string; added: string; forma
   pt: { add: 'Adicionar ao cesto', adding: 'A adicionar…', added: '✓ Adicionado', format: 'Formato', outOfStock: 'Esgotado' },
 };
 
+// Traducción de etiquetas de formato con prefijo
+const FORMAT_PREFIX: Record<string, Record<string, string>> = {
+  '300 ml': { es: 'Botella 300 ml', en: 'Bottle 300 ml', fr: 'Flacon 300 ml', de: 'Flasche 300 ml', it: 'Flacone 300 ml', nl: 'Fles 300 ml', pt: 'Frasco 300 ml' },
+  '1 L':    { es: 'Botella 1 L',    en: 'Bottle 1 L',    fr: 'Flacon 1 L',    de: 'Flasche 1 L',    it: 'Flacone 1 L',    nl: 'Fles 1 L',    pt: 'Frasco 1 L'    },
+};
+function fmtLabel(fmt: string, locale: string): string {
+  return FORMAT_PREFIX[fmt]?.[locale] ?? fmt;
+}
+
 function formatPrice(amount: string, currency: string) {
   return new Intl.NumberFormat('es-ES', { style: 'currency', currency, minimumFractionDigits: 2 }).format(parseFloat(amount));
 }
@@ -111,7 +120,7 @@ export function MultiFormatBuyButton({ handles, region, locale }: Props) {
                     unavailable ? 'opacity-40 cursor-not-allowed' : 'cursor-pointer',
                   ].join(' ')}
                 >
-                  <span className="text-[11px] uppercase tracking-[0.14em]">{fmt}</span>
+                  <span className="text-[11px] uppercase tracking-[0.14em]">{fmtLabel(fmt, locale)}</span>
                   {fmtVariant?.price && (
                     <span className={`mt-1 text-sm font-bold ${isSelected ? 'text-white' : 'text-ink'}`}>
                       {formatPrice(fmtVariant.price, fmtVariant.currency)}
