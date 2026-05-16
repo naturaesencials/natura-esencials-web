@@ -1990,22 +1990,10 @@
         "nameAccent": "uomo",
         "shortDescription": "Balsamo capelli da uomo con olio di argan, basilico e timo. 95% ingredienti di origine naturale.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% ingredienti di origine naturale (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Idratazione profonda con olio di argan"
-          },
-          {
-            "icon": "🌿",
-            "text": "Basilico e timo per forza e vitalità"
-          },
-          {
-            "icon": "✨",
-            "text": "Districa e dona lucentezza naturale"
-          }
+          "95% ingredienti di origine naturale (ISO 16128)",
+          "Idratazione profonda con olio di argan",
+          "Basilico e timo per forza e vitalità",
+          "Districa e dona lucentezza naturale"
         ],
         "ritual": [
           {
@@ -2042,22 +2030,10 @@
         "nameAccent": "conditioner",
         "shortDescription": "Mannenconditioner met arganolie, basilicum en tijm. 95% natuurlijk gewonnen ingrediënten.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% natuurlijk gewonnen ingrediënten (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Diepe hydratatie met arganolie"
-          },
-          {
-            "icon": "🌿",
-            "text": "Basilicum en tijm voor kracht en vitaliteit"
-          },
-          {
-            "icon": "✨",
-            "text": "Ontwart en geeft natuurlijke glans"
-          }
+          "95% natuurlijk gewonnen ingrediënten (ISO 16128)",
+          "Diepe hydratatie met arganolie",
+          "Basilicum en tijm voor kracht en vitaliteit",
+          "Ontwart en geeft natuurlijke glans"
         ],
         "ritual": [
           {
@@ -2094,22 +2070,10 @@
         "nameAccent": "homem",
         "shortDescription": "Condicionador masculino com óleo de argão, manjericão e tomilho. 95% de ingredientes de origem natural.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% ingredientes de origem natural (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Hidratação profunda com óleo de argão"
-          },
-          {
-            "icon": "🌿",
-            "text": "Manjericão e tomilho para força e vitalidade"
-          },
-          {
-            "icon": "✨",
-            "text": "Desembaraça e dá brilho natural"
-          }
+          "95% ingredientes de origem natural (ISO 16128)",
+          "Hidratação profunda com óleo de argão",
+          "Manjericão e tomilho para força e vitalidade",
+          "Desembaraça e dá brilho natural"
         ],
         "ritual": [
           {
@@ -2404,22 +2368,10 @@
         "nameAccent": "homem",
         "shortDescription": "Gel de duche masculino com azeite, coco e aloé vera. 96% de ingredientes de origem natural.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "96% ingredientes de origem natural (ISO 16128)"
-          },
-          {
-            "icon": "🧴",
-            "text": "Limpeza profunda sem ressecar"
-          },
-          {
-            "icon": "💧",
-            "text": "Aloé vera hidratante e protetora"
-          },
-          {
-            "icon": "🌿",
-            "text": "Azeite e coco nutritivos"
-          }
+          "96% ingredientes de origem natural (ISO 16128)",
+          "Limpeza profunda sem ressecar",
+          "Aloé vera hidratante e protetora",
+          "Azeite e coco nutritivos"
         ],
         "ritual": [
           {
@@ -2675,22 +2627,10 @@
         "nameAccent": "mannen",
         "shortDescription": "Vrijwel onmiddellijke absorptie, mat effect en subtiele amber-geur.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "97% natuurlijk gewonnen ingrediënten (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Intensieve hydratatie met arganolie en sheaboter"
-          },
-          {
-            "icon": "✨",
-            "text": "Trekt snel in zonder vettig gevoel"
-          },
-          {
-            "icon": "🌿",
-            "text": "Verrijkt met vitamine E"
-          }
+          "97% natuurlijk gewonnen ingrediënten (ISO 16128)",
+          "Intensieve hydratatie met arganolie en sheaboter",
+          "Trekt snel in zonder vettig gevoel",
+          "Verrijkt met vitamine E"
         ],
         "ritual": [
           {
@@ -2727,22 +2667,10 @@
         "nameAccent": "homem",
         "shortDescription": "Body milk masculino com óleo de argão, manteiga de karité e vitamina E. 97% de ingredientes de origem natural.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "97% ingredientes de origem natural (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Hidratação intensa com óleo de argão e karité"
-          },
-          {
-            "icon": "✨",
-            "text": "Absorção rápida sem sensação gordurosa"
-          },
-          {
-            "icon": "🌿",
-            "text": "Enriquecido com vitamina E"
-          }
+          "97% ingredientes de origem natural (ISO 16128)",
+          "Hidratação intensa com óleo de argão e karité",
+          "Absorção rápida sem sensação gordurosa",
+          "Enriquecido com vitamina E"
         ],
         "ritual": [
           {
@@ -4152,22 +4080,10 @@
         "nameAccent": "mulher",
         "shortDescription": "Limpa, condiciona e deixa a assinatura cítrica feminina da coleção.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% ingredientes de origem natural (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Óleo de argão e azeitona para hidratação profunda"
-          },
-          {
-            "icon": "✨",
-            "text": "pH 4,5-5,5 que protege a cutícula"
-          },
-          {
-            "icon": "🌺",
-            "text": "Fragrância floral delicada"
-          }
+          "95% ingredientes de origem natural (ISO 16128)",
+          "Óleo de argão e azeitona para hidratação profunda",
+          "pH 4,5-5,5 que protege a cutícula",
+          "Fragrância floral delicada"
         ],
         "ritual": [
           {
@@ -4272,22 +4188,10 @@
         "nameAccent": "for Her",
         "shortDescription": "Fresh orange Citrus Aurantium scent. The complete feminine hair ritual.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% naturally derived ingredients (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Deep hydration with argan oil and olive"
-          },
-          {
-            "icon": "✨",
-            "text": "Detangles and adds natural shine"
-          },
-          {
-            "icon": "🌺",
-            "text": "Delicate floral fragrance"
-          }
+          "95% naturally derived ingredients (ISO 16128)",
+          "Deep hydration with argan oil and olive",
+          "Detangles and adds natural shine",
+          "Delicate floral fragrance"
         ],
         "ritual": [
           {
@@ -4324,22 +4228,10 @@
         "nameAccent": "femme",
         "shortDescription": "Arôme d'orange fraîche Citrus Aurantium. Le rituel capillaire féminin complet.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% d'ingrédients d'origine naturelle (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Hydratation profonde à l'huile d'argan et olive"
-          },
-          {
-            "icon": "✨",
-            "text": "Démêle et apporte brillance naturelle"
-          },
-          {
-            "icon": "🌺",
-            "text": "Délicate fragrance florale"
-          }
+          "95% d'ingrédients d'origine naturelle (ISO 16128)",
+          "Hydratation profonde à l'huile d'argan et olive",
+          "Démêle et apporte brillance naturelle",
+          "Délicate fragrance florale"
         ],
         "ritual": [
           {
@@ -4376,22 +4268,10 @@
         "nameAccent": "Damen",
         "shortDescription": "Frischer Citrus Aurantium Orangen-Duft. Das vollständige feminine Haar-Ritual.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% natürlich gewonnene Inhaltsstoffe (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Tiefenpflege mit Argan- und Olivenöl"
-          },
-          {
-            "icon": "✨",
-            "text": "Entwirrt und verleiht natürlichen Glanz"
-          },
-          {
-            "icon": "🌺",
-            "text": "Zarter Blumenduft"
-          }
+          "95% natürlich gewonnene Inhaltsstoffe (ISO 16128)",
+          "Tiefenpflege mit Argan- und Olivenöl",
+          "Entwirrt und verleiht natürlichen Glanz",
+          "Zarter Blumenduft"
         ],
         "ritual": [
           {
@@ -4428,22 +4308,10 @@
         "nameAccent": "donna",
         "shortDescription": "Balsamo capelli con olio di argan e oliva. 95% ingredienti di origine naturale, pH equilibrato per capelli normali.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% ingredienti di origine naturale (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Idratazione profonda con olio di argan e oliva"
-          },
-          {
-            "icon": "✨",
-            "text": "Districa e dona lucentezza naturale"
-          },
-          {
-            "icon": "🌺",
-            "text": "Delicata fragranza floreale"
-          }
+          "95% ingredienti di origine naturale (ISO 16128)",
+          "Idratazione profonda con olio di argan e oliva",
+          "Districa e dona lucentezza naturale",
+          "Delicata fragranza floreale"
         ],
         "ritual": [
           {
@@ -4480,22 +4348,10 @@
         "nameAccent": "conditioner",
         "shortDescription": "Frisse Citrus Aurantium sinaasappelgeur. Het volledige feminiene haarritueel.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% natuurlijk gewonnen ingrediënten (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Diepe hydratatie met arganolie en olijf"
-          },
-          {
-            "icon": "✨",
-            "text": "Ontwart en geeft natuurlijke glans"
-          },
-          {
-            "icon": "🌺",
-            "text": "Delicate bloemengeur"
-          }
+          "95% natuurlijk gewonnen ingrediënten (ISO 16128)",
+          "Diepe hydratatie met arganolie en olijf",
+          "Ontwart en geeft natuurlijke glans",
+          "Delicate bloemengeur"
         ],
         "ritual": [
           {
@@ -4532,22 +4388,10 @@
         "nameAccent": "mulher",
         "shortDescription": "Condicionador capilar com óleo de argão e azeitona. 95% de ingredientes de origem natural, pH equilibrado para cabelo normal.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% ingredientes de origem natural (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Hidratação profunda com óleo de argão e azeitona"
-          },
-          {
-            "icon": "✨",
-            "text": "Desembaraça e dá brilho natural"
-          },
-          {
-            "icon": "🌺",
-            "text": "Delicada fragrância floral"
-          }
+          "95% ingredientes de origem natural (ISO 16128)",
+          "Hidratação profunda com óleo de argão e azeitona",
+          "Desembaraça e dá brilho natural",
+          "Delicada fragrância floral"
         ],
         "ritual": [
           {
@@ -4842,22 +4686,10 @@
         "nameAccent": "mulher",
         "shortDescription": "Gel de duche feminino com azeite, coco e aloé vera. 96% de ingredientes de origem natural.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "96% ingredientes de origem natural (ISO 16128)"
-          },
-          {
-            "icon": "🧴",
-            "text": "Limpeza suave sem ressecar"
-          },
-          {
-            "icon": "💧",
-            "text": "Aloé vera hidratante"
-          },
-          {
-            "icon": "🌺",
-            "text": "Fragrância floral delicada"
-          }
+          "96% ingredientes de origem natural (ISO 16128)",
+          "Limpeza suave sem ressecar",
+          "Aloé vera hidratante",
+          "Fragrância floral delicada"
         ],
         "ritual": [
           {
@@ -5151,22 +4983,10 @@
         "nameAccent": "mulher",
         "shortDescription": "Body milk feminino com óleo de argão, manteiga de karité e vitamina E. 97% de ingredientes de origem natural.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "97% ingredientes de origem natural (ISO 16128)"
-          },
-          {
-            "icon": "💧",
-            "text": "Hidratação intensa com argão e karité"
-          },
-          {
-            "icon": "✨",
-            "text": "Absorção rápida, pele macia"
-          },
-          {
-            "icon": "🌺",
-            "text": "Fragrância floral delicada"
-          }
+          "97% ingredientes de origem natural (ISO 16128)",
+          "Hidratação intensa com argão e karité",
+          "Absorção rápida, pele macia",
+          "Fragrância floral delicada"
         ],
         "ritual": [
           {
@@ -6686,22 +6506,10 @@
         "indication": "Household cleaning. For hard surfaces.",
         "usage": "25 ml per wash (50 ml for heavily soiled laundry). Pour into the softener drawer.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "98% naturally derived ingredients (ISO 16128)"
-          },
-          {
-            "icon": "🧣",
-            "text": "Softens and protects fabric fibres"
-          },
-          {
-            "icon": "🌸",
-            "text": "Delicate floral fragrance with lavender and chamomile"
-          },
-          {
-            "icon": "🐾",
-            "text": "Suitable for sensitive skin and baby clothes"
-          }
+          "98% naturally derived ingredients (ISO 16128)",
+          "Softens and protects fabric fibres",
+          "Delicate floral fragrance with lavender and chamomile",
+          "Suitable for sensitive skin and baby clothes"
         ],
         "ritual": [
           {
@@ -6738,22 +6546,10 @@
         "indication": "Nettoyage ménager. Pour les surfaces dures.",
         "usage": "25 ml par lavage (50 ml pour le linge très sale). Verser dans le bac à adoucissant.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "98% d'ingrédients d'origine naturelle (ISO 16128)"
-          },
-          {
-            "icon": "🧣",
-            "text": "Adoucit et protège les fibres textiles"
-          },
-          {
-            "icon": "🌸",
-            "text": "Parfum floral délicat à la lavande et camomille"
-          },
-          {
-            "icon": "🐾",
-            "text": "Convient aux peaux sensibles et vêtements bébé"
-          }
+          "98% d'ingrédients d'origine naturelle (ISO 16128)",
+          "Adoucit et protège les fibres textiles",
+          "Parfum floral délicat à la lavande et camomille",
+          "Convient aux peaux sensibles et vêtements bébé"
         ],
         "ritual": [
           {
@@ -6790,22 +6586,10 @@
         "indication": "Haushaltsreinigung. Für harte Oberflächen.",
         "usage": "25 ml pro Waschgang (50 ml bei stark verschmutzter Wäsche). In das Weichspüler-Fach füllen.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "98% natürlich gewonnene Inhaltsstoffe (ISO 16128)"
-          },
-          {
-            "icon": "🧣",
-            "text": "Weicht ein und schützt Textilfasern"
-          },
-          {
-            "icon": "🌸",
-            "text": "Zarter Blumenduft mit Lavendel und Kamille"
-          },
-          {
-            "icon": "🐾",
-            "text": "Geeignet für empfindliche Haut und Babykleidung"
-          }
+          "98% natürlich gewonnene Inhaltsstoffe (ISO 16128)",
+          "Weicht ein und schützt Textilfasern",
+          "Zarter Blumenduft mit Lavendel und Kamille",
+          "Geeignet für empfindliche Haut und Babykleidung"
         ],
         "ritual": [
           {
@@ -6842,22 +6626,10 @@
         "indication": "Pulizia domestica. Per superfici dure.",
         "usage": "25 ml per lavaggio (50 ml per bucato molto sporco). Versare nel cassetto dell'ammorbidente.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "98% ingredienti di origine naturale (ISO 16128)"
-          },
-          {
-            "icon": "🧣",
-            "text": "Ammorbidisce e protegge le fibre tessili"
-          },
-          {
-            "icon": "🌸",
-            "text": "Delicata fragranza floreale con lavanda e camomilla"
-          },
-          {
-            "icon": "🐾",
-            "text": "Adatto a pelli sensibili e vestiti per neonati"
-          }
+          "98% ingredienti di origine naturale (ISO 16128)",
+          "Ammorbidisce e protegge le fibre tessili",
+          "Delicata fragranza floreale con lavanda e camomilla",
+          "Adatto a pelli sensibili e vestiti per neonati"
         ],
         "ritual": [
           {
@@ -6894,22 +6666,10 @@
         "indication": "Huishoudreiniging. Voor harde oppervlakken.",
         "usage": "25 ml per wasbeurt (50 ml voor zeer vuil wasgoed). In het verzachtercompartiment gieten.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "98% natuurlijk gewonnen ingrediënten (ISO 16128)"
-          },
-          {
-            "icon": "🧣",
-            "text": "Verzacht en beschermt textielvezels"
-          },
-          {
-            "icon": "🌸",
-            "text": "Delicate bloemengeur met lavendel en kamille"
-          },
-          {
-            "icon": "🐾",
-            "text": "Geschikt voor gevoelige huid en babykleding"
-          }
+          "98% natuurlijk gewonnen ingrediënten (ISO 16128)",
+          "Verzacht en beschermt textielvezels",
+          "Delicate bloemengeur met lavendel en kamille",
+          "Geschikt voor gevoelige huid en babykleding"
         ],
         "ritual": [
           {
@@ -6946,22 +6706,10 @@
         "indication": "Limpeza doméstica. Para superfícies duras.",
         "usage": "25 ml por lavagem (50 ml para roupa muito suja). Deitar na gaveta do amaciador.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "98% ingredientes de origem natural (ISO 16128)"
-          },
-          {
-            "icon": "🧣",
-            "text": "Amacia e protege as fibras têxteis"
-          },
-          {
-            "icon": "🌸",
-            "text": "Fragrância floral delicada com lavanda e camomila"
-          },
-          {
-            "icon": "🐾",
-            "text": "Adequado para peles sensíveis e roupa de bebé"
-          }
+          "98% ingredientes de origem natural (ISO 16128)",
+          "Amacia e protege as fibras têxteis",
+          "Fragrância floral delicada com lavanda e camomila",
+          "Adequado para peles sensíveis e roupa de bebé"
         ],
         "ritual": [
           {
@@ -7262,22 +7010,10 @@
         "indication": "Lavagem manual de louça.",
         "usage": "Uma pequena dose numa esponja húmida. Esfregar a loiça e enxaguar com água.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "95% ingredientes de origem natural (ISO 16128)"
-          },
-          {
-            "icon": "🍋",
-            "text": "Fragrância cítrica natural"
-          },
-          {
-            "icon": "💪",
-            "text": "Alto poder desengordurante"
-          },
-          {
-            "icon": "💧",
-            "text": "Suave com as mãos"
-          }
+          "95% ingredientes de origem natural (ISO 16128)",
+          "Fragrância cítrica natural",
+          "Alto poder desengordurante",
+          "Suave com as mãos"
         ],
         "ritual": [
           {
@@ -7377,14 +7113,8 @@
         "nameAccent": "Detergent",
         "shortDescription": "Dishwasher gel detergent that cuts through grease and protects glass and metal. Dissolves easily without residue.",
         "benefits": [
-          {
-            "icon": "💪",
-            "text": "Cuts grease and removes stubborn dirt. Protects glass and metal."
-          },
-          {
-            "icon": "💧",
-            "text": "15 ml for light loads · 30 ml for heavy soiling."
-          }
+          "Cuts grease and removes stubborn dirt. Protects glass and metal.",
+          "15 ml for light loads · 30 ml for heavy soiling."
         ],
         "ritual": [
           {
@@ -7420,14 +7150,8 @@
         "nameAccent": "lave-vaisselle",
         "shortDescription": "Détergent gel pour lave-vaisselle qui élimine la graisse et protège verre et métal. Se dissout facilement sans résidus.",
         "benefits": [
-          {
-            "icon": "💪",
-            "text": "Élimine la graisse et la saleté tenace. Protège verre et métal."
-          },
-          {
-            "icon": "💧",
-            "text": "15 ml pour charges peu sales · 30 ml pour saleté intense."
-          }
+          "Élimine la graisse et la saleté tenace. Protège verre et métal.",
+          "15 ml pour charges peu sales · 30 ml pour saleté intense."
         ],
         "ritual": [
           {
@@ -7463,14 +7187,8 @@
         "nameAccent": "mittel",
         "shortDescription": "Spülmaschinen-Gel das Fett löst und Glas und Metall schützt. Löst sich leicht ohne Rückstände auf.",
         "benefits": [
-          {
-            "icon": "💪",
-            "text": "Löst Fett und hartnäckigen Schmutz. Schützt Glas und Metall."
-          },
-          {
-            "icon": "💧",
-            "text": "15 ml für leichte Verschmutzung · 30 ml für starke Verschmutzung."
-          }
+          "Löst Fett und hartnäckigen Schmutz. Schützt Glas und Metall.",
+          "15 ml für leichte Verschmutzung · 30 ml für starke Verschmutzung."
         ],
         "ritual": [
           {
@@ -7506,14 +7224,8 @@
         "nameAccent": "lavastoviglie",
         "shortDescription": "Detersivo gel per lavastoviglie che scioglie il grasso e protegge vetro e metallo. Si dissolve facilmente senza residui.",
         "benefits": [
-          {
-            "icon": "💪",
-            "text": "Scioglie il grasso e lo sporco ostinato. Protegge vetro e metallo."
-          },
-          {
-            "icon": "💧",
-            "text": "15 ml per carichi poco sporchi · 30 ml per sporco intenso."
-          }
+          "Scioglie il grasso e lo sporco ostinato. Protegge vetro e metallo.",
+          "15 ml per carichi poco sporchi · 30 ml per sporco intenso."
         ],
         "ritual": [
           {
@@ -7549,14 +7261,8 @@
         "nameAccent": "middel",
         "shortDescription": "Vaatwasser-gel die vet oplost en glas en metaal beschermt. Lost gemakkelijk op zonder residu.",
         "benefits": [
-          {
-            "icon": "💪",
-            "text": "Lost vet en hardnekkig vuil op. Beschermt glas en metaal."
-          },
-          {
-            "icon": "💧",
-            "text": "15 ml voor licht vuil · 30 ml voor zwaar vuil."
-          }
+          "Lost vet en hardnekkig vuil op. Beschermt glas en metaal.",
+          "15 ml voor licht vuil · 30 ml voor zwaar vuil."
         ],
         "ritual": [
           {
@@ -7592,14 +7298,8 @@
         "nameAccent": "máquina loiça",
         "shortDescription": "Detergente gel para máquina de lavar loiça que elimina gordura e protege vidro e metal. Dissolve-se facilmente sem resíduos.",
         "benefits": [
-          {
-            "icon": "💪",
-            "text": "Elimina gordura e sujidade persistente. Protege vidro e metal."
-          },
-          {
-            "icon": "💧",
-            "text": "15 ml para cargas pouco sujas · 30 ml para sujidade intensa."
-          }
+          "Elimina gordura e sujidade persistente. Protege vidro e metal.",
+          "15 ml para cargas pouco sujas · 30 ml para sujidade intensa."
         ],
         "ritual": [
           {
@@ -7700,14 +7400,8 @@
         "nameAccent": "Rinse Aid",
         "shortDescription": "Rinse aid that prevents water marks and improves drying for a spotless finish. 98% naturally derived.",
         "benefits": [
-          {
-            "icon": "✨",
-            "text": "Brilliant finish without spots. Improves drying in the final rinse."
-          },
-          {
-            "icon": "💧",
-            "text": "Dosage: 0.05-0.2% according to water hardness."
-          }
+          "Brilliant finish without spots. Improves drying in the final rinse.",
+          "Dosage: 0.05-0.2% according to water hardness."
         ],
         "ritual": [
           {
@@ -7743,14 +7437,8 @@
         "nameAccent": "de rinçage",
         "shortDescription": "Liquide de rinçage qui prévient les traces d'eau et améliore le séchage. 98% d'origine naturelle.",
         "benefits": [
-          {
-            "icon": "✨",
-            "text": "Finition brillante sans taches. Améliore le séchage au rinçage final."
-          },
-          {
-            "icon": "💧",
-            "text": "Dosage : 0,05-0,2% selon la dureté de l'eau."
-          }
+          "Finition brillante sans taches. Améliore le séchage au rinçage final.",
+          "Dosage : 0,05-0,2% selon la dureté de l'eau."
         ],
         "ritual": [
           {
@@ -7786,14 +7474,8 @@
         "nameAccent": "spüler",
         "shortDescription": "Klarspüler der Wasserflecken verhindert und das Trocknen verbessert. 98% natürlich gewonnen.",
         "benefits": [
-          {
-            "icon": "✨",
-            "text": "Brillantes Ergebnis ohne Flecken. Verbessert das Trocknen beim letzten Spülgang."
-          },
-          {
-            "icon": "💧",
-            "text": "Dosierung: 0,05-0,2% je nach Wasserhärte."
-          }
+          "Brillantes Ergebnis ohne Flecken. Verbessert das Trocknen beim letzten Spülgang.",
+          "Dosierung: 0,05-0,2% je nach Wasserhärte."
         ],
         "ritual": [
           {
@@ -7829,14 +7511,8 @@
         "nameAccent": "lavastoviglie",
         "shortDescription": "Brillantante che previene le macchie d'acqua e migliora l'asciugatura. 98% di origine naturale.",
         "benefits": [
-          {
-            "icon": "✨",
-            "text": "Finitura brillante senza macchie. Migliora l'asciugatura nel risciacquo finale."
-          },
-          {
-            "icon": "💧",
-            "text": "Dosaggio: 0,05-0,2% secondo la durezza dell'acqua."
-          }
+          "Finitura brillante senza macchie. Migliora l'asciugatura nel risciacquo finale.",
+          "Dosaggio: 0,05-0,2% secondo la durezza dell'acqua."
         ],
         "ritual": [
           {
@@ -7872,14 +7548,8 @@
         "nameAccent": "middel",
         "shortDescription": "Glansspoelmiddel dat watervlekken voorkomt en het drogen verbetert. 98% natuurlijk gewonnen.",
         "benefits": [
-          {
-            "icon": "✨",
-            "text": "Stralend resultaat zonder vlekken. Verbetert het drogen bij de laatste spoeling."
-          },
-          {
-            "icon": "💧",
-            "text": "Dosering: 0,05-0,2% afhankelijk van waterhardheid."
-          }
+          "Stralend resultaat zonder vlekken. Verbetert het drogen bij de laatste spoeling.",
+          "Dosering: 0,05-0,2% afhankelijk van waterhardheid."
         ],
         "ritual": [
           {
@@ -7915,14 +7585,8 @@
         "nameAccent": "loiça",
         "shortDescription": "Abrilhantador que previne marcas de água e melhora a secagem. 98% de origem natural.",
         "benefits": [
-          {
-            "icon": "✨",
-            "text": "Acabamento brilhante sem manchas. Melhora a secagem no enxaguamento final."
-          },
-          {
-            "icon": "💧",
-            "text": "Dosagem: 0,05-0,2% conforme a dureza da água."
-          }
+          "Acabamento brilhante sem manchas. Melhora a secagem no enxaguamento final.",
+          "Dosagem: 0,05-0,2% conforme a dureza da água."
         ],
         "ritual": [
           {
@@ -8600,22 +8264,10 @@
         "nameAccent": "greaser",
         "shortDescription": "Degreaser 99% natural origin. No fragrance. Ready to use. Removes tough grease from kitchens.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "99% naturally derived ingredients (ISO 16128)"
-          },
-          {
-            "icon": "💪",
-            "text": "Dissolves tough grease without harsh chemicals"
-          },
-          {
-            "icon": "🍋",
-            "text": "Fresh citrus fragrance"
-          },
-          {
-            "icon": "🧽",
-            "text": "Safe on all kitchen surfaces"
-          }
+          "99% naturally derived ingredients (ISO 16128)",
+          "Dissolves tough grease without harsh chemicals",
+          "Fresh citrus fragrance",
+          "Safe on all kitchen surfaces"
         ],
         "ritual": [
           {
@@ -8651,22 +8303,10 @@
         "nameAccent": "graissant",
         "shortDescription": "Dégraissant 99% d'origine naturelle. Sans parfum. Prêt à l'emploi. Élimine les graisses tenaces en cuisine.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "99% d'ingrédients d'origine naturelle (ISO 16128)"
-          },
-          {
-            "icon": "💪",
-            "text": "Dissout les graisses tenaces sans produits chimiques agressifs"
-          },
-          {
-            "icon": "🍋",
-            "text": "Fraîche fragrance d'agrumes"
-          },
-          {
-            "icon": "🧽",
-            "text": "Sans danger pour toutes les surfaces de cuisine"
-          }
+          "99% d'ingrédients d'origine naturelle (ISO 16128)",
+          "Dissout les graisses tenaces sans produits chimiques agressifs",
+          "Fraîche fragrance d'agrumes",
+          "Sans danger pour toutes les surfaces de cuisine"
         ],
         "ritual": [
           {
@@ -8702,22 +8342,10 @@
         "nameAccent": "löser",
         "shortDescription": "Entfettungsmittel 99% natürlichen Ursprungs. Ohne Duft. Gebrauchsfertig. Entfernt hartnäckiges Fett in der Küche.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "99% natürlich gewonnene Inhaltsstoffe (ISO 16128)"
-          },
-          {
-            "icon": "💪",
-            "text": "Löst hartnäckiges Fett ohne aggressive Chemie"
-          },
-          {
-            "icon": "🍋",
-            "text": "Frischer Zitrusduft"
-          },
-          {
-            "icon": "🧽",
-            "text": "Sicher für alle Küchenoberflächen"
-          }
+          "99% natürlich gewonnene Inhaltsstoffe (ISO 16128)",
+          "Löst hartnäckiges Fett ohne aggressive Chemie",
+          "Frischer Zitrusduft",
+          "Sicher für alle Küchenoberflächen"
         ],
         "ritual": [
           {
@@ -8753,22 +8381,10 @@
         "nameAccent": "atore",
         "shortDescription": "Sgrassatore 99% di origine naturale. Senza profumo. Pronto all'uso. Rimuove il grasso ostinato in cucina.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "99% ingredienti di origine naturale (ISO 16128)"
-          },
-          {
-            "icon": "💪",
-            "text": "Scioglie il grasso ostinato senza prodotti chimici aggressivi"
-          },
-          {
-            "icon": "🍋",
-            "text": "Fresca fragranza agrumata"
-          },
-          {
-            "icon": "🧽",
-            "text": "Sicuro su tutte le superfici della cucina"
-          }
+          "99% ingredienti di origine naturale (ISO 16128)",
+          "Scioglie il grasso ostinato senza prodotti chimici aggressivi",
+          "Fresca fragranza agrumata",
+          "Sicuro su tutte le superfici della cucina"
         ],
         "ritual": [
           {
@@ -8804,22 +8420,10 @@
         "nameAccent": "vetter",
         "shortDescription": "Ontvetter 99% van natuurlijke oorsprong. Zonder geur. Gebruiksklaar. Verwijdert hardnekkig vet in de keuken.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "99% natuurlijk gewonnen ingrediënten (ISO 16128)"
-          },
-          {
-            "icon": "💪",
-            "text": "Lost hardnekkig vet op zonder agressieve chemicaliën"
-          },
-          {
-            "icon": "🍋",
-            "text": "Frisse citrusgeur"
-          },
-          {
-            "icon": "🧽",
-            "text": "Veilig voor alle keukenoppervlakken"
-          }
+          "99% natuurlijk gewonnen ingrediënten (ISO 16128)",
+          "Lost hardnekkig vet op zonder agressieve chemicaliën",
+          "Frisse citrusgeur",
+          "Veilig voor alle keukenoppervlakken"
         ],
         "ritual": [
           {
@@ -8855,22 +8459,10 @@
         "nameAccent": "urante",
         "shortDescription": "Desengordurante 99% de origem natural. Sem fragrância. Pronto a usar. Remove gordura difícil na cozinha.",
         "benefits": [
-          {
-            "icon": "🌿",
-            "text": "99% ingredientes de origem natural (ISO 16128)"
-          },
-          {
-            "icon": "💪",
-            "text": "Dissolve gordura difícil sem químicos agressivos"
-          },
-          {
-            "icon": "🍋",
-            "text": "Fragrância fresca de citrinos"
-          },
-          {
-            "icon": "🧽",
-            "text": "Seguro em todas as superfícies da cozinha"
-          }
+          "99% ingredientes de origem natural (ISO 16128)",
+          "Dissolve gordura difícil sem químicos agressivos",
+          "Fragrância fresca de citrinos",
+          "Seguro em todas as superfícies da cozinha"
         ],
         "ritual": [
           {
