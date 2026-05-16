@@ -7,9 +7,9 @@ import type { Locale, Region } from '@/lib/i18n/config';
 interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 
 const META_DESC: Record<string, string> = {
-  es: 'Natura Esencials nace en Marbella en 2021. Formulamos a mano con materias primas de proveedores locales bajo protocolo ISO 16128. Artesanía Hecha en Andalucía.',
-  en: 'Natura Esencials was founded in Marbella in 2021. We handcraft our products using local ingredients under ISO 16128 protocol. Artesanía Hecha en Andalucía.',
-  fr: 'Natura Esencials est née à Marbella en 2021. Nous formulons à la main avec des matières premières locales selon le protocole ISO 16128. Artisanat d\'Andalousie.',
+  es: 'Natura Esencials nace en Marbella en 2021. Formulamos a mano con materias primas locales bajo ISO 16128.',
+  en: 'Natura Esencials was founded in Marbella in 2021. We handcraft our products using local ingredients under ISO 16128 protocol.',
+  fr: 'Natura Esencials est née à Marbella en 2021. Nous formulons à la main avec des matières premières locales selon ISO 16128.',
   de: 'Natura Esencials wurde 2021 in Marbella gegründet. Wir formulieren handwerklich mit lokalen Zutaten nach ISO 16128. Handwerk aus Andalusien.',
   it: 'Natura Esencials nasce a Marbella nel 2021. Formuliamo a mano con materie prime locali secondo il protocollo ISO 16128. Artigianato dell\'Andalusia.',
   nl: 'Natura Esencials is opgericht in Marbella in 2021. We formuleren met de hand met lokale grondstoffen volgens ISO 16128. Ambacht uit Andalusië.',

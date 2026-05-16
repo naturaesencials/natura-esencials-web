@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return buildMetadata({
     title: tr.name,
-    description: tr.subtitle,
+    description: tr.shortDescription || tr.subtitle,
     region,
     locale,
     path: `rituales/${canonicalSlug}`,
