@@ -33,6 +33,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     image: '/og-default.jpg',
     imageAlt: 'Natura Esencials',
+    // UK está en "Coming soon" — no indexar hasta que esté activa
+    noIndex: region === 'uk',
   });
 }
 

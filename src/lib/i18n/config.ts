@@ -114,6 +114,30 @@ export function getAlternates(path: string = ''): Record<string, string> {
   return alternates;
 }
 
+/**
+ * Alternates correctos para páginas con slugs distintos por idioma (rituales, productos).
+ * slugsByLocale: { es: 'plenitud-300', en: 'fulfillment-300', ... }
+ */
+export function getLocaleSlugAlternates(
+  section: string,
+  slugsByLocale: Partial<Record<Locale, string>>,
+  defaultSlug: string,
+): Record<string, string> {
+  const alternates: Record<string, string> = {};
+  for (const region of regions) {
+    for (const locale of regionLocales[region]) {
+      const slug = slugsByLocale[locale] ?? defaultSlug;
+      const key = `${locale}-${region === 'uk' ? 'GB' : getCountryForLocale(locale)}`;
+      alternates[key] = getCanonicalUrl(region, locale, `${section}/${slug}`);
+    }
+  }
+  alternates['x-default'] = getCanonicalUrl(
+    defaultRegion, defaultLocale,
+    `${section}/${slugsByLocale[defaultLocale] ?? defaultSlug}`,
+  );
+  return alternates;
+}
+
 function getCountryForLocale(locale: Locale): string {
   const map: Record<Locale, string> = {
     es: 'ES', en: 'US', fr: 'FR', de: 'DE', it: 'IT', nl: 'NL', pt: 'PT',

@@ -22,6 +22,8 @@ interface PageSeoConfig {
   publishedTime?: string;
   modifiedTime?: string;
   author?: string;
+  /** Override hreflang alternates when slug differs per locale (e.g. rituals, products) */
+  customAlternates?: Record<string, string>;
 }
 
 /**
@@ -32,18 +34,16 @@ export function buildMetadata(config: PageSeoConfig): Metadata {
   const {
     title, description, path = '', region, locale,
     image = '/og-default.jpg', imageAlt, type = 'website',
-    noIndex = false, keywords, publishedTime, modifiedTime, author,
+    noIndex = false, keywords, publishedTime, modifiedTime, author, customAlternates,
   } = config;
 
-  // El template "%s · Natura Esencials" del root layout añade automáticamente el sufijo.
-  // Solo pasamos el title puro aquí (sin nombre de marca) para evitar duplicación.
   const cleanTitle = title.replace(new RegExp(`\\s*·\\s*${siteConfig.name}\\s*$`), '').trim();
   const truncatedDesc = description.length > 160
     ? description.slice(0, 157).replace(/\s+\S*$/, '') + '…'
     : description;
 
   const canonical = getCanonicalUrl(region, locale, path);
-  const alternates = getAlternates(path);
+  const alternates = customAlternates ?? getAlternates(path);
   const absoluteImage = image.startsWith('http') ? image : `${siteConfig.url}${image}`;
 
   return {

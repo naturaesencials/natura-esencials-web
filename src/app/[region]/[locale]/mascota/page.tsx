@@ -13,6 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: 'Mascota',
     description: 'Higiene suave para perros y gatos. Champús, limpiador de oídos y de ojos formulados con respeto al microbioma y aromas hipoalergénicos.',
     region,
+    noIndex: region === "uk",
     locale,
     path: 'mascota',
   });

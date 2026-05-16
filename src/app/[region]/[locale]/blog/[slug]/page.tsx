@@ -23,6 +23,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: post.excerpt[locale] ?? post.excerpt.es,
     region, locale,
     path: `blog/${slug}`,
+    // Blog content en español → noindex si locale ≠ es y no hay body traducido
+    // También noindex para UK (Coming soon)
+    noIndex: region === 'uk' || (!post.body[locale] && locale !== 'es'),
   });
 }
 

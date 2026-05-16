@@ -13,6 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: 'Hogar',
     description: 'Limpieza del hogar convertida en ritual. Ropa, cocina, baño y limpieza general con fórmulas suaves y aromas que cuidan el espacio.',
     region,
+    noIndex: region === "uk",
     locale,
     path: 'hogar',
   });

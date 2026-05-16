@@ -11,6 +11,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: 'Diario',
     description: 'Crónicas del taller, ediciones limitadas, fórmulas, ingredientes y nuestra forma de trabajar.',
     region,
+    noIndex: region === "uk" || locale !== "es",
     locale,
     path: 'diario',
   });

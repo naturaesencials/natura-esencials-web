@@ -13,6 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: 'Cosmética',
     description: 'Cosmética natural elaborada en Andalucía. Cabello, cuerpo, rostro y afeitado en rituales sensoriales con certificación ISO 16128.',
     region,
+    noIndex: region === "uk",
     locale,
     path: 'cosmetica',
   });

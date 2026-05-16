@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     nl: 'Alle Natura Esencials rituelen. Natuurlijke cosmetica, huishoudverzorging en dierenverzorging.',
     pt: 'Todos os rituais Natura Esencials. Cosmética natural, cuidado do lar e animais de estimação.',
   };
-  return buildMetadata({ title: titles[locale] ?? titles.es, description: descs[locale] ?? descs.es, region, locale, path: 'rituales' });
+  return buildMetadata({ title: titles[locale] ?? titles.es, description: descs[locale] ?? descs.es, region, locale, path: 'rituales', noIndex: region === 'uk' });
 }
 
 // ─── Configuración de secciones ───────────────────────────────────────────────

@@ -11,6 +11,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: 'Contacto',
     description: 'Atención al cliente, mayoristas, prensa, colaboraciones. Marbella, España.',
     region,
+    noIndex: region === "uk",
     locale,
     path: 'contacto',
   });

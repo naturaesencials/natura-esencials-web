@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: 'Diario',
     description: 'Formulación, ingredientes y rituales. El diario de Natura Esencials.',
     region, locale, path: 'blog',
+    noIndex: region === 'uk' || locale !== 'es',
   });
 }
 

@@ -13,6 +13,7 @@ import {
 import {
   type Locale,
   type Region,
+  getLocaleSlugAlternates,
   regionCurrency,
   getCanonicalUrl,
 } from '@/lib/i18n/config';
@@ -51,16 +52,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tr = bundle.translations[locale];
   if (!tr) return buildMetadata({ title: bundle.translations.es?.name ?? '', description: '', region, locale });
 
+  // Canonical slug for this locale
+  const canonicalSlug = bundle.translations[locale]?.slug ?? slug;
+  const isNonCanonical = slug !== canonicalSlug;
+
+  // Build correct hreflang: each locale points to its own slug
+  const slugsByLocale = Object.fromEntries(
+    Object.entries(bundle.translations)
+      .filter(([, t]) => t?.slug)
+      .map(([loc, t]) => [loc, t!.slug]),
+  ) as Partial<Record<Locale, string>>;
+
   return buildMetadata({
     title: tr.name,
     description: tr.subtitle,
     region,
     locale,
-    path: `rituales/${slug}`,
+    path: `rituales/${canonicalSlug}`,
     type: 'product',
+    noIndex: isNonCanonical,
     keywords: [tr.name, 'ritual', 'Natura Esencials'],
     image: resolveBundleImage(bundle.id, region, bundle.primaryImage).src,
     imageAlt: tr.name,
+    customAlternates: getLocaleSlugAlternates('rituales', slugsByLocale, slug),
   });
 }
 
@@ -78,7 +92,11 @@ export default async function RitualPage({ params }: Props) {
   const tr = bundle.translations[locale] ?? bundle.translations.es;
   if (!tr) notFound();
 
-  const symbol   = regionCurrency[region].symbol;
+  // Slug no canónico para este locale → 404 (evita duplicados y language mismatch)
+  const canonicalSlug = tr.slug ?? slug;
+  if (slug !== canonicalSlug) notFound();
+
+
   const price    = region === 'eu' ? bundle.basePriceEUR : (bundle.basePriceGBP ?? bundle.basePriceEUR);
   const currency = regionCurrency[region].code;
   const url      = getCanonicalUrl(region, locale, `rituales/${slug}`);

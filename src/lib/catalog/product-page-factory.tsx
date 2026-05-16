@@ -16,6 +16,7 @@ import {
   regionCurrency,
   getCanonicalUrl,
   localeMap,
+  getLocaleSlugAlternates,
 } from '@/lib/i18n/config';
 import { siteConfig } from '@/config/site';
 import { getAbsoluteProductImage, getOgProductImage } from '@/lib/images';
@@ -73,6 +74,13 @@ export function makeGenerateMetadata(line: ProductLine) {
     const sensationKeyword = tr.olfactiveFamily.split('·').map((s) => s.trim()).filter(Boolean);
     const lineName = getLineNameForLocale(line, locale);
 
+    // Hreflang correcto: cada locale apunta a su propio slug traducido
+    const slugsByLocale = Object.fromEntries(
+      Object.entries(product.translations)
+        .filter(([, t]) => t?.slug)
+        .map(([loc, t]) => [loc, t!.slug]),
+    ) as Partial<Record<Locale, string>>;
+
     return buildMetadata({
       title: tr.name,
       description: tr.shortDescription,
@@ -91,6 +99,7 @@ export function makeGenerateMetadata(line: ProductLine) {
       ],
       image: getOgProductImage(product.id, region, product.primaryImage),
       imageAlt: tr.name,
+      customAlternates: getLocaleSlugAlternates(line, slugsByLocale, tr.slug),
     });
   };
 }
@@ -109,6 +118,9 @@ export function makeProductPage(line: ProductLine) {
 
     const tr = product.translations[locale] || product.translations.es;
     if (!tr) notFound();
+
+    // Slug no canónico para este locale → 404 (evita duplicados y language mismatch)
+    if (slug !== tr.slug) notFound();
 
     const t = await getTranslations({ locale, namespace: 'product' });
     const url = getCanonicalUrl(region, locale, `${line}/${tr.slug}`);

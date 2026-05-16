@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata({
     title: 'Origen',
     description: META_DESC[locale] ?? META_DESC.es,
-    region, locale, path: 'origen',
+    region, locale, noIndex: region === "uk", path: 'origen',
   });
 }
 
