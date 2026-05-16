@@ -374,23 +374,26 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
             {(() => {
               const pt = recommendedPack.translations[locale] || recommendedPack.translations.es;
               if (!pt) return null;
+              const packHref = buildPath(region, locale, `rituales/${pt.slug}`);
               return (
-                <Link
-                  href={buildPath(region, locale, `rituales/${pt.slug}`)}
-                  className="block bg-verde text-bg rounded-2xl p-8 sm:p-10 transition-all hover:shadow-xl"
-                >
+                <div className="bg-verde text-bg rounded-2xl p-8 sm:p-10">
                   <p className="text-meta-fluid uppercase tracking-[0.28em] text-bg/70 mb-3">
                     {recommendedPack.sensation}
                   </p>
                   <h3 className="font-display text-h2-fluid leading-[0.96] tracking-[-0.02em]">
-                    {pt.nameMain || pt.name}
-                    {pt.nameAccent && <em className="font-display-italic"> {pt.nameAccent}</em>}
+                    <Link href={packHref} className="hover:underline">
+                      {pt.nameMain || pt.name}
+                      {pt.nameAccent && <em className="font-display-italic"> {pt.nameAccent}</em>}
+                    </Link>
                   </h3>
                   <p className="mt-4 text-lede-fluid italic font-caption max-w-xl">{pt.subtitle}</p>
                   {pt.promise && (
                     <p className="mt-4 text-body-fluid text-bg/80">{pt.promise}</p>
                   )}
-                </Link>
+                  <Link href={packHref} className="mt-6 inline-block border border-bg/30 px-5 py-2.5 text-[11px] uppercase tracking-[0.2em] hover:bg-bg/10 transition-colors">
+                    {pt.nameMain || pt.name} →
+                  </Link>
+                </div>
               );
             })()}
           </section>
