@@ -26,6 +26,10 @@ export default async function CookiesPage({ params }: Props) {
   return (
     <main className="px-pad-x py-pad-y">
       <div className="mx-auto max-w-3xl">
+        {(() => {
+          const H1: Record<string, string> = {"es": "Política de Cookies — Natura Esencials", "en": "Cookie Policy — Natura Esencials", "fr": "Politique de Cookies — Natura Esencials", "de": "Cookie-Richtlinie — Natura Esencials", "it": "Informativa sui Cookie — Natura Esencials", "nl": "Cookiebeleid — Natura Esencials", "pt": "Política de Cookies — Natura Esencials"};
+          return <h1 className="font-display text-[clamp(24px,4vw,36px)] tracking-[-0.02em] mb-10">{H1[locale] ?? H1.es}</h1>;
+        })()}
         <div
           className="prose prose-sm max-w-none
             [&_h2]:font-display [&_h2]:text-[clamp(28px,4vw,40px)] [&_h2]:tracking-[-0.02em] [&_h2]:mb-8

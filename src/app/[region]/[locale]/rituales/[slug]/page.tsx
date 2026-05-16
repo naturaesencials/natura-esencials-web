@@ -204,9 +204,12 @@ export default async function RitualPage({ params }: Props) {
                 {tr.nameAccent && (
                   <em className="font-display-italic text-accent block">{tr.nameAccent}</em>
                 )}
+                {tr.subtitle && (
+                  <span className="block mt-4 font-caption text-[clamp(14px,1.8vw,18px)] not-italic font-normal text-muted leading-relaxed tracking-normal">
+                    {tr.subtitle}
+                  </span>
+                )}
               </h1>
-
-              <p className="text-lg text-muted">{tr.subtitle}</p>
 
               {tr.shortDescription && (
                 <p className="text-sm text-muted/80 leading-relaxed">{tr.shortDescription}</p>

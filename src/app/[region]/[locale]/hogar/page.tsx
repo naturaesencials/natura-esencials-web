@@ -39,10 +39,10 @@ export default async function HogarPage({ params }: Props) {
         </span>
         <h1 className="font-display text-h2-fluid leading-tight mb-4">
           {t('hogar.title')} <em className="font-italic">{t('hogar.accent')}</em>
+          <span className="block mt-3 font-sans text-base font-normal text-graphite leading-relaxed tracking-normal max-w-2xl mx-auto">
+            {t('hogar.desc')}
+          </span>
         </h1>
-        <p className="text-graphite text-base lg:text-lg max-w-2xl mx-auto leading-relaxed">
-          {t('hogar.desc')}
-        </p>
       </header>
 
       <CatalogGrid

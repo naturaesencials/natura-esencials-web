@@ -185,10 +185,10 @@ export default async function RitualesPage({ params }: Props) {
         <p className="mb-4 text-[11px] uppercase tracking-[0.35em] text-verde">— Natura Esencials</p>
         <h1 className="font-display text-h1-fluid leading-[0.95] tracking-[-0.025em]">
           {pageTitle[locale] ?? pageTitle.es}
+          <span className="block mt-4 font-sans text-[clamp(14px,1.8vw,17px)] font-normal text-graphite leading-relaxed tracking-normal">
+            {pageDesc[locale] ?? pageDesc.es}
+          </span>
         </h1>
-        <p className="mt-5 text-[15px] leading-[1.85] text-graphite">
-          {pageDesc[locale] ?? pageDesc.es}
-        </p>
       </header>
 
       {/* Secciones */}

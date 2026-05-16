@@ -26,6 +26,10 @@ export default async function TerminosPage({ params }: Props) {
   return (
     <main className="px-pad-x py-pad-y">
       <div className="mx-auto max-w-3xl">
+        {(() => {
+          const H1: Record<string, string> = {"es": "Términos y Condiciones — Natura Esencials", "en": "Terms and Conditions — Natura Esencials", "fr": "Conditions Générales — Natura Esencials", "de": "Allgemeine Geschäftsbedingungen — Natura Esencials", "it": "Termini e Condizioni — Natura Esencials", "nl": "Algemene Voorwaarden — Natura Esencials", "pt": "Termos e Condições — Natura Esencials"};
+          return <h1 className="font-display text-[clamp(24px,4vw,36px)] tracking-[-0.02em] mb-10">{H1[locale] ?? H1.es}</h1>;
+        })()}
         <div
           className="prose prose-sm max-w-none
             [&_h2]:font-display [&_h2]:text-[clamp(28px,4vw,40px)] [&_h2]:tracking-[-0.02em] [&_h2]:mb-8
