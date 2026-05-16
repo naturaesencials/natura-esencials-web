@@ -321,7 +321,7 @@
         "1 L",
         "Caja BIB 5 L"
       ],
-      "inci": "Aqua, Cetearyl Alcohol, Glycerin, Behentrimonium Chloride, Argania Spinosa Kernel Oil, Cocos Nucifera Oil, Sodium Hyaluronate, Hydrolyzed Quinoa, Panthenol, Cetrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
+      "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum.",
       "dermatologicallyTested": true,
       "complements": [
         "champu-2-en-1",
@@ -901,8 +901,7 @@
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42,
-      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Olea Europaea Fruit Oil, Cocos Nucifera Oil, Aloe Barbadensis Leaf Juice, Glycerin, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Olea Europaea Fruit Oil, Glycerin, Potassium Hydroxide, Cocos Nucifera Oil, Aloe Barbadensis Leaf Juice, Melaleuca Alternifolia Leaf Oil, Cymbopogon Citratus Leaf Oil, Lavandula Hybrida Grosso Herb Oil, Citrus Aurantium Amara Leaf/Twig Oil, Pogostemon Cablin Leaf Oil, Potassium Carbonate, Citric Acid, Potassium Sorbate, Sodium Gluconate, Sodium Chloride, Citral, Linalool, Geraniol."
     },
     {
       "id": "body-milk",
@@ -923,7 +922,7 @@
         "1 L",
         "Caja BIB 5 L"
       ],
-      "inci": "Aqua, Glycerin, Caprylic/Capric Triglyceride, Persea Gratissima Oil, Simmondsia Chinensis Seed Oil, Cetearyl Alcohol, Glyceryl Stearate, Phenoxyethanol, Sodium Polyacrylate, Tocopheryl Acetate, Parfum, Limonene, Linalool.",
+      "inci": "Aqua, Glycerin, Persea Gratisima Oil, C15-19 Alkane, Helianthus Annuus Seed Oil, Hydrolyzed Jojoba Esters, Sodium Polyacrylate, Glyceryl Stearate, Xylitol, Caprylic Acid, Tocopherol, Phenylpropanol, 1,2-Hexanediol, Parfum.",
       "dermatologicallyTested": true,
       "complements": [
         "jabon-manos-cuerpo",
@@ -1225,7 +1224,7 @@
         "1 L",
         "Caja BIB 5 L"
       ],
-      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Argania Spinosa Kernel Oil, Glycerin, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Phenoxyethanol, Citric Acid, Parfum, Limonene, Linalool, CI 42090.",
+      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Hydroxypropyltrimonium Inulin, Argania Spinosa Kernel Oil, PEG-90 Glyceryl Isostearate, Laureth-2, Sodium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, CI 42090.",
       "dermatologicallyTested": true,
       "complements": [
         "body-milk",
@@ -1801,8 +1800,7 @@
       "outOfStock": false,
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
-      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Argania Spinosa Kernel Oil, Ocimum Basilicum Oil, Thymus Vulgaris Oil, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Argania Spinosa Kernel Oil, Guar Hydroxypropyltrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes, Caramel."
     },
     {
       "id": "acondicionador-hombre",
@@ -2103,8 +2101,7 @@
       "outOfStock": false,
       "basePriceEUR": 9.0,
       "basePriceGBP": 7.74,
-      "inci": "Aqua, Cetearyl Alcohol, Glycerin, Behentrimonium Chloride, Argania Spinosa Kernel Oil, Ocimum Basilicum Oil, Thymus Vulgaris Oil, Panthenol, Cetrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes."
     },
     {
       "id": "gel-manos-cuerpo-hombre",
@@ -2401,8 +2398,7 @@
       "outOfStock": false,
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
-      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Olea Europaea Fruit Oil, Cocos Nucifera Oil, Aloe Barbadensis Leaf Juice, Glycerin, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Phenoxyethanol, Citric Acid, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Glycerin, Citrus Aurantium Peel Oil, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes."
     },
     {
       "id": "body-milk-man",
@@ -2700,8 +2696,7 @@
       "outOfStock": false,
       "basePriceEUR": 9.2,
       "basePriceGBP": 7.91,
-      "inci": "Aqua, Glycerin, Caprylic/Capric Triglyceride, Persea Gratissima Oil, Simmondsia Chinensis Seed Oil, Butyrospermum Parkii Butter, Cetearyl Alcohol, Glyceryl Stearate, Tocopheryl Acetate, Phenoxyethanol, Sodium Polyacrylate, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Glycerin, Persea Gratisima Oil, C15-19 Alkane, Helianthus Annuus Seed Oil, Hydrolyzed Jojoba Esters, Sodium Polyacrylate, Glyceryl Stearate, Xylitol, Caprylic Acid, Tocopherol, Phenylpropanol, 1,2-Hexanediol, Parfum, Tetramethylacetyloctahydronaphtalenes."
     },
     {
       "id": "gel-afeitado-hombre",
@@ -4113,8 +4108,7 @@
       "outOfStock": false,
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
-      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Argania Spinosa Kernel Oil, Olea Europaea Fruit Oil, Citrus Aurantium Dulcis Peel Oil, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Citrus Aurantium Peel Oil, Argania Spinosa Kernel Oil, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool, Hexamethylindanopyran."
     },
     {
       "id": "acondicionador-mujer",
@@ -4421,8 +4415,7 @@
       "outOfStock": false,
       "basePriceEUR": 9.0,
       "basePriceGBP": 7.74,
-      "inci": "Aqua, Cetearyl Alcohol, Glycerin, Behentrimonium Chloride, Argania Spinosa Kernel Oil, Olea Europaea Fruit Oil, Sodium Hyaluronate, Hydrolyzed Quinoa, Panthenol, Cetrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Citrus Aurantium Peel Oil, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum, Hexamethylindanopyran, Limonene."
     },
     {
       "id": "gel-manos-cuerpo-mujer",
@@ -4719,8 +4712,7 @@
       "outOfStock": false,
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
-      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Olea Europaea Fruit Oil, Cocos Nucifera Oil, Aloe Barbadensis Leaf Juice, Glycerin, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Phenoxyethanol, Citric Acid, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Glycerin, Citrus Aurantium Peel Oil, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexamethylindanopyran, Limonene, Linalool."
     },
     {
       "id": "body-milk-woman",
@@ -5016,8 +5008,7 @@
       "outOfStock": false,
       "basePriceEUR": 9.2,
       "basePriceGBP": 7.91,
-      "inci": "Aqua, Glycerin, Caprylic/Capric Triglyceride, Persea Gratissima Oil, Simmondsia Chinensis Seed Oil, Butyrospermum Parkii Butter, Cetearyl Alcohol, Glyceryl Stearate, Tocopheryl Acetate, Phenoxyethanol, Sodium Polyacrylate, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Glycerin, Persea Gratisima Oil, C15-19 Alkane, Helianthus Annuus Seed Oil, Citrus Aurantium Peel Oil, Hydrolyzed Jojoba Esters, Sodium Polyacrylate, Glyceryl Stearate, Xylitol, Caprylic Acid, Tocopherol, Phenylpropanol, 1,2-Hexanediol, Parfum, Hexamethylindanopyran, Limonene."
     },
     {
       "id": "agua-micelar",
@@ -6428,8 +6419,7 @@
       },
       "basePriceEUR": 8.6,
       "basePriceGBP": 7.4,
-      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Glycerin, Citric Acid, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Jabón < 5%, Tensioactivos no iónicos 5–15%, Tensioactivos aniónicos < 5%, Conservantes (Benzisothiazolinone, Methylisothiazolinone), Fragancias alergénicas (Tetramethyl Acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Citronellol, Coumarin, Limonene, Lavandula Hybrida Extract, Citrus Aurantium Amara Peel Oil, Linalool)."
     },
     {
       "id": "suavizante-ropa",
@@ -6736,8 +6726,7 @@
       },
       "basePriceEUR": 6.6,
       "basePriceGBP": 5.68,
-      "inci": "Aqua, Esterquat (Palm Oil derived), Glycerin, Citric Acid, Lavandula Angustifolia Oil, Anthemis Nobilis Flower Oil, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Tensioactivos catiónicos 5–15%, Conservantes (Phenoxyethanol), Fragancias alergénicas (Tetramethyl Acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Citronellol, Coumarin, Limonene, Lavandula Hybrida Extract, Citrus Aurantium Amara Flower Extract, Linalool, Pogostemon Cablin Leaf Oil)."
     },
     {
       "id": "lavavajillas-manual",
@@ -7040,8 +7029,7 @@
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42,
-      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Citrus Limon Peel Oil, Citrus Aurantium Dulcis Peel Oil, Glycerin, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene.",
-      "inciPendingVerification": true
+      "inci": "Tensioactivos aniónicos 5–15%, Tensioactivos no iónicos < 5%, Tensioactivos anfotéricos < 5%, Fragancias alergénicas (Citral), Conservantes (Benzisothiazolinone, Methylisothiazolinone)."
     },
     {
       "id": "lavavajillas-maquina",
@@ -7327,8 +7315,7 @@
       },
       "basePriceEUR": 7.8,
       "basePriceGBP": 6.71,
-      "inci": "Aqua, Sodium Carbonate, Sodium Percarbonate, Sodium Citrate, Sodium Bicarbonate, Protease, Amylase, Sodium Silicate, Cellulose Gum, Parfum.",
-      "inciPendingVerification": true
+      "inci": "Tensioactivos no iónicos < 5%."
     },
     {
       "id": "abrillantador",
@@ -7907,8 +7894,7 @@
       },
       "basePriceEUR": 6.0,
       "basePriceGBP": 5.16,
-      "inci": "Aqua, Coco-Glucoside, Sodium Coco-Sulfate, Glycerin, Citric Acid, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Tensioactivos aniónicos < 5%, Tensioactivos no iónicos < 5%, Perfumes (Alpha-Isomethyl Ionone, Hexyl Cinnamal, Citronellol, Linalool), Conservantes (Benzisothiazolinone, Methylisothiazolinone)."
     },
     {
       "id": "limpiador-banos",
@@ -8190,8 +8176,7 @@
       },
       "basePriceEUR": 6.2,
       "basePriceGBP": 5.33,
-      "inci": "Aqua, Citric Acid, Coco-Glucoside, Sodium Coco-Sulfate, Glycerin, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene.",
-      "inciPendingVerification": true
+      "inci": "Tensioactivos no iónicos < 5%, Tensioactivos aniónicos < 5%, Tensioactivos anfotéricos < 5%."
     },
     {
       "id": "desengrasante",
@@ -8490,8 +8475,7 @@
       },
       "basePriceEUR": 4.8,
       "basePriceGBP": 4.13,
-      "inci": "Aqua, Coco-Glucoside, Sodium Coco-Sulfate, Citrus Limon Peel Oil, Citrus Aurantium Dulcis Peel Oil, Glycerin, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene.",
-      "inciPendingVerification": true
+      "inci": "Tensioactivos no iónicos < 5%."
     },
     {
       "id": "multisuperficies",
@@ -8771,8 +8755,7 @@
       },
       "basePriceEUR": 6.2,
       "basePriceGBP": 5.33,
-      "inci": "Aqua, Coco-Glucoside, Sodium Coco-Sulfate, Glycerin, Citric Acid, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Parfum, Limonene, Linalool.",
-      "inciPendingVerification": true
+      "inci": "Tensioactivos aniónicos < 5%, Tensioactivos no iónicos < 5%, Conservantes (Benzisothiazolinone, Methylisothiazolinone), Fragancias alergénicas (Citral, Limonene)."
     },
     {
       "id": "limpiacristales",
@@ -9058,8 +9041,7 @@
       },
       "basePriceEUR": 5.9,
       "basePriceGBP": 5.07,
-      "inci": "Aqua, Alcohol Denat., Coco-Glucoside, Citric Acid, Sodium Gluconate, Sodium Benzoate, Parfum.",
-      "inciPendingVerification": true
+      "inci": "Conservantes (Benzisothiazolinone, Methylisothiazolinone)."
     },
     {
       "id": "champu-perros",
@@ -9354,8 +9336,7 @@
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42,
-      "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Argania Spinosa Kernel Oil, Ocimum Basilicum Oil, Thymus Vulgaris Oil, Glycerin, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaina, Coco-Glucoside, Glycerin, Sodium Chloride, Phenylpropanol, Argania Spinosa Kernel Oil, Ocimum Basilicum Flower/Leaf/Steam Extract, Mentha Piperita Extract, Thymus Vulgaris Extract, Faex Extract, Hydrolyzed Keratin, Glycosaminoglycams, Niacinamide, Panthenol, Riboflavin, Pyridoxine HCL, Inositol, Biotin, Thiamine HCL, Cyanocobalamin, Guar Hydroxypropyltrimonium Chloride, 1,2-Hexanediol, PEG-90 Glyceryl Isostearate, Laureth-2, Quaternium-80, Potassium Sorbate, Citric Acid, Sodium Gluconate, Parfum, Linalool, Citronellol, Alpha-Isomethyl Ionone, Hexyl Cinnamal."
     },
     {
       "id": "champu-gatos",
@@ -9648,8 +9629,7 @@
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42,
-      "inci": "Aqua, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Argania Spinosa Kernel Oil, Lactobacillus Ferment, Glycerin, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Glycerin, Sodium Chloride, Phenylpropanol, Argania Spinosa Kernel Oil, Guar Hydroxypropyltrimonium Chloride, Hexylene Glycol, Capryloylglycine, Xylitylglucoside, 1,2-Hexanediol, PEG-90 Glyceryl Isostearate, Laureth-2, Citric Acid, Sodium Gluconate, Parfum, Hexyl Cinnamal, Limonene."
     },
     {
       "id": "limpiador-oidos-mascotas",
@@ -9940,8 +9920,7 @@
         "longDescription": "Solução limpadora de ouvidos com óleo de árvore do chá a 0,2%. Sem fragância, pH neutro. Para cães e gatos.",
         "usage": "Aplicar algumas gotas no canal auditivo, massajar a base da orelha e deixar o animal sacudir a cabeça. Retirar o excesso com gaze."
       },
-      "inci": "Aqua, Melaleuca Alternifolia Leaf Oil, Glycerin, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Glycerin, Coco-Glucoside, Melaleuca Alternifolia Leaf Oil, Tocopherol, Acacia Senegal Gum, Xanthan Gum, PEG-40 Hydrogenated Castor Oil, Polysorbate 20, Disodium EDTA, Phenylpropanol, 1,2-Hexanediol, Citric Acid."
     },
     {
       "id": "limpiador-ojos-mascotas",
@@ -10232,8 +10211,7 @@
         "longDescription": "Solução limpadora ocular com complexo herbal de 6 plantas. Antisséptico, anti-inflamatório e inodoro. Para cães e gatos.",
         "usage": "Aplicar algumas gotas em algodão limpo e limpar suavemente o contorno do olho de dentro para fora."
       },
-      "inci": "Aqua, Chamomilla Recutita Flower Extract, Euphrasia Officinalis Extract, Calendula Officinalis Flower Extract, Glycerin, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid.",
-      "inciPendingVerification": true
+      "inci": "Aqua, Foeniculum Vulgare Fruit Extract, Humulus Lupulus Extract, Melissa Officinalis Leaf Extract, Viscum Album Leaf Extract, Chamomilla Recutita Flower Extract, Achillea Milefolium Extract, Urea, Allantoin, Alcohol Denat, Coco-Glucoside, Phenylpropanol, 1,2-Hexanediol, Diethyl Phthalate, Citric Acid."
     }
   ]
 }
