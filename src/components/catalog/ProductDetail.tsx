@@ -325,7 +325,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
             <details className="bg-paper rounded-xl p-6">
               <summary className="font-heading text-h4-fluid cursor-pointer">{t.inciTitle}</summary>
               <p className="mt-4 text-body-fluid leading-relaxed text-graphite font-mono text-sm">
-                {product.inci}
+                <span translate="no" lang="la">{product.inci}</span>
               </p>
             </details>
           </section>

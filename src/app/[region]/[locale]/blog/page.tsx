@@ -37,14 +37,14 @@ export default async function BlogPage({ params }: Props) {
   setRequestLocale(locale);
   const lang = locale as string;
 
-  const labels: Record<string, { title: string; sub: string; readMin: string }> = {
-    es: { title: 'Diario', sub: 'Formulación, ingredientes y rituales de cosmética natural.', readMin: 'min de lectura' },
-    en: { title: 'Journal', sub: 'Formulation, ingredients and natural cosmetics rituals.', readMin: 'min read' },
-    fr: { title: 'Journal', sub: 'Formulation, ingrédients et rituels de cosmétique naturelle.', readMin: 'min de lecture' },
-    de: { title: 'Tagebuch', sub: 'Formulierung, Zutaten und Rituale für Naturkosmetik.', readMin: 'Min. Lesezeit' },
-    it: { title: 'Diario', sub: 'Formulazione, ingredienti e rituali di cosmetica naturale.', readMin: 'min di lettura' },
-    nl: { title: 'Dagboek', sub: 'Formulering, ingrediënten en rituelen voor natuurlijke cosmetica.', readMin: 'min lezen' },
-    pt: { title: 'Diário', sub: 'Formulação, ingredientes e rituais de cosmética natural.', readMin: 'min de leitura' },
+  const labels: Record<string, { title: string; sub: string; readMin: string; desc: string }> = {
+    es: { title: 'Diario', sub: 'Formulación, ingredientes y rituales de cosmética natural.', readMin: 'min de lectura', desc: 'Artículos sobre formulación, ingredientes activos y rituales de cosmética natural artesanal. ISO 16128, origen natural y eficacia sin compromisos.' },
+    en: { title: 'Journal', sub: 'Formulation, ingredients and natural cosmetics rituals.', readMin: 'min read', desc: 'Articles on formulation, active ingredients and natural cosmetics rituals. ISO 16128 certification, natural origin and efficacy without compromise.' },
+    fr: { title: 'Journal', sub: 'Formulation, ingrédients et rituels de cosmétique naturelle.', readMin: 'min de lecture', desc: "Articles sur la formulation, les ingrédients actifs et les rituels de cosmétique naturelle. Certification ISO 16128, origine naturelle et efficacité sans compromis." },
+    de: { title: 'Tagebuch', sub: 'Formulierung, Zutaten und Rituale für Naturkosmetik.', readMin: 'Min. Lesezeit', desc: 'Artikel über Formulierung, Wirkstoffe und Rituale für Naturkosmetik. ISO 16128 Zertifizierung, natürliche Inhaltsstoffe und Wirksamkeit ohne Kompromisse.' },
+    it: { title: 'Diario', sub: 'Formulazione, ingredienti e rituali di cosmetica naturale.', readMin: 'min di lettura', desc: 'Articoli su formulazione, ingredienti attivi e rituali di cosmetica naturale. Certificazione ISO 16128, origine naturale ed efficacia senza compromessi.' },
+    nl: { title: 'Dagboek', sub: 'Formulering, ingrediënten en rituelen voor natuurlijke cosmetica.', readMin: 'min lezen', desc: 'Artikelen over formulering, actieve ingrediënten en rituelen voor natuurlijke cosmetica. ISO 16128 certificering, natuurlijke oorsprong en effectiviteit.' },
+    pt: { title: 'Diário', sub: 'Formulação, ingredientes e rituais de cosmética natural.', readMin: 'min de leitura', desc: 'Artigos sobre formulação, ingredientes ativos e rituais de cosmética natural. Certificação ISO 16128, origem natural e eficácia sem compromissos.' },
   };
   const readMoreLabels: Record<string, string> = {
     es: 'Leer artículo', en: 'Read article', fr: 'Lire l\'article',
@@ -61,6 +61,9 @@ export default async function BlogPage({ params }: Props) {
         <h1 className="font-display text-h1-fluid leading-[0.96] tracking-[-0.025em]">
           {lb.sub}
         </h1>
+        <p className="mt-4 text-[15px] leading-[1.85] text-graphite max-w-xl">
+          {lb.desc}
+        </p>
       </header>
 
       {/* Grid de artículos */}

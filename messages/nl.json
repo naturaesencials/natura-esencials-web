@@ -204,22 +204,22 @@
       "kicker": "Collectie",
       "title": "Ambachtelijke",
       "accent": "cosmetica",
-      "desc": "Artisanale cosmetica voor dagelijks gebruik: haar, lichaam, gezicht en scheren in sensorische rituelen. Drie collecties — Basic, Voor Haar en Voor Hem — geformuleerd volgens ISO 16128 en handgemaakt in Andalusië.",
-      "h1Qualifier": "Naturlijk"
+      "desc": "Ambachtelijke cosmetica voor dagelijks gebruik: haar, lichaam, gezicht en scheren in zintuiglijke rituelen. Natuurlijk gecertificeerd, handgemaakt in Andalusië.",
+      "h1Qualifier": "Natuurlijk"
     },
     "hogar": {
       "kicker": "Collectie",
       "title": "Natuurlijke",
       "accent": "huishoudverzorging",
-      "desc": "Huishoud verzorging als ritueel: schoonmaken omgezet in het gevoel van een verzorgd huis. Wasmiddel, wasverzachter, afwasmiddel, specifieke reinigingsmiddelen en allesreinigers met zachte formules van natuurlijke oorsprong.",
-      "h1Qualifier": "Naturlijk"
+      "desc": "Natuurlijke huishoudverzorging als ritueel: schoonmaken omgezet in het gevoel van een verzorgd thuis. Reinigingsproducten met tot 99% van natuurlijke oorsprong.",
+      "h1Qualifier": "Natuurlijk"
     },
     "mascota": {
       "kicker": "Collectie",
       "title": "Natuurlijke",
       "accent": "huisdierverzorging",
-      "desc": "Huisdier verzorging als ritueel: zachte verzorging voor honden en katten met rustige hygiëne en stressvrije verbinding. Producten met MAPA-registratie en hypoallergene formules.",
-      "h1Qualifier": "Naturlijk"
+      "desc": "Natuurlijke huisdierverzorging als ritueel: zachte verzorging voor honden en katten met rustige hygiëne, geborgenheid thuis. 97% van natuurlijke oorsprong, uit Andalusië.",
+      "h1Qualifier": "Natuurlijk"
     }
   }
 }

@@ -169,13 +169,22 @@ export default async function RitualesPage({ params }: Props) {
     de: 'Unsere natürlichen Rituale', it: 'I nostri rituali naturali', nl: 'Onze natuurlijke rituelen', pt: 'Os nossos rituais naturais',
   };
   const pageDesc: Record<string, string> = {
-    es: 'Cada ritual es un pack completo de productos formulados para trabajar juntos. Cosmética natural, limpieza del hogar y cuidado de mascotas — todo artesanal desde Andalucía.',
-    en: 'Each ritual is a complete pack of products formulated to work together. Natural cosmetics, home care and pet care — all artisan-crafted in Andalusia.',
-    fr: 'Chaque rituel est un pack complet de produits formulés pour travailler ensemble. Cosmétique naturelle, entretien maison et soins animaux — fabriqués artisanalement en Andalousie.',
-    de: 'Jedes Ritual ist ein komplettes Produktpaket, das zusammen formuliert wurde. Naturkosmetik, Haushaltspflege und Tierpflege — handwerklich gefertigt in Andalusien.',
-    it: 'Ogni rituale è un pack completo di prodotti formulati per lavorare insieme. Cosmetica naturale, cura della casa e degli animali — tutto artigianale dall\'Andalusia.',
-    nl: 'Elk ritueel is een compleet pakket producten die samen geformuleerd zijn. Natuurlijke cosmetica, huishoudverzorging en dierenverzorging — ambachtelijk gemaakt in Andalusië.',
-    pt: 'Cada ritual é um pack completo de produtos formulados para trabalhar juntos. Cosmética natural, cuidado do lar e animais de estimação — tudo artesanal da Andaluzia.',
+    es: 'Cada ritual es un pack completo de productos naturales formulados para trabajar juntos. Nuestros rituales naturales abarcan cosmética artesanal, limpieza del hogar y cuidado de mascotas — todo desde Andalucía.',
+    en: 'Each ritual is a complete pack of natural products formulated to work together. Natural skincare rituals, home care and pet care — all artisan-crafted in Andalusia.',
+    fr: 'Chaque rituel est un pack complet de produits naturels formulés pour travailler ensemble. Nos rituels naturels couvrent cosmétique artisanale, entretien maison et soins animaux — fabriqués en Andalousie.',
+    de: 'Jedes Ritual ist ein komplettes Paket natürlicher Produkte, das zusammen formuliert wurde. Unsere natürlichen Rituale umfassen Naturkosmetik, Haushaltspflege und Tierpflege — handwerklich aus Andalusien.',
+    it: 'Ogni rituale è un pack completo di prodotti naturali formulati per lavorare insieme. I nostri rituali naturali coprono cosmetica artigianale, cura della casa e degli animali — tutto dall\'Andalusia.',
+    nl: 'Elk ritueel is een compleet pakket natuurlijke producten die samen geformuleerd zijn. Onze natuurlijke rituelen omvatten cosmetica, huishoudverzorging en dierenverzorging — ambachtelijk uit Andalusië.',
+    pt: 'Cada ritual é um pack completo de produtos naturais formulados para trabalhar juntos. Os nossos rituais naturais abrangem cosmética artesanal, cuidado do lar e animais — tudo da Andaluzia.',
+  };
+  const pageDesc2: Record<string, string> = {
+    es: 'Formulados según el protocolo ISO 16128, con un mínimo del 92% de ingredientes de origen natural. Cada línea — cosmética, hogar y mascotas — comparte la misma filosofía: máxima eficacia con el mínimo impacto.',
+    en: 'Formulated according to the ISO 16128 protocol, with a minimum of 92% naturally derived ingredients. Each line — skincare, home and pets — shares the same philosophy: maximum efficacy with minimal impact.',
+    fr: "Formulés selon le protocole ISO 16128, avec un minimum de 92% d'ingrédients d'origine naturelle. Chaque ligne — cosmétique, maison et animaux — partage la même philosophie : efficacité maximale, impact minimal.",
+    de: 'Nach dem ISO 16128-Protokoll formuliert, mit mindestens 92% natürlich gewonnenen Inhaltsstoffen. Jede Linie — Kosmetik, Haushalt und Tierpflege — teilt dieselbe Philosophie: maximale Wirksamkeit, minimaler Einfluss.',
+    it: 'Formulati secondo il protocollo ISO 16128, con un minimo del 92% di ingredienti di origine naturale. Ogni linea — cosmetica, casa e animali — condivide la stessa filosofia: massima efficacia, impatto minimo.',
+    nl: 'Geformuleerd volgens het ISO 16128-protocol, met minimaal 92% van natuurlijke oorsprong. Elke lijn — cosmetica, huishoudverzorging en huisdieren — deelt dezelfde filosofie: maximale effectiviteit, minimale impact.',
+    pt: 'Formulados segundo o protocolo ISO 16128, com um mínimo de 92% de ingredientes de origem natural. Cada linha — cosmética, lar e animais — partilha a mesma filosofia: máxima eficácia com impacto mínimo.',
   };
 
   return (
@@ -188,6 +197,9 @@ export default async function RitualesPage({ params }: Props) {
         </h1>
         <p className="mt-4 text-[15px] leading-[1.85] text-graphite max-w-xl">
           {pageDesc[locale] ?? pageDesc.es}
+        </p>
+        <p className="mt-3 text-[15px] leading-[1.85] text-graphite max-w-xl">
+          {pageDesc2[locale] ?? pageDesc2.es}
         </p>
       </header>
 

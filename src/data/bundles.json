@@ -32,7 +32,7 @@
       },
       "en": {
         "name": "Ritual Wholeness",
-        "subtitle": "The complete feminine routine with argan and olive oils for hair, body and skin. Four essential products.",
+        "subtitle": "The complete feminine routine with argan and olive oils for hair, body and skin. Four essential products. Natural artisan product from Andalusia.",
         "slug": "fulfillment-300",
         "promise": "Complete care, no fuss.",
         "aiTranslation": true,
@@ -44,7 +44,7 @@
       },
       "fr": {
         "name": "Rituel Plénitude",
-        "subtitle": "La routine féminine complète aux huiles d'argan et d'olive. Quatre produits, une expérience sensorielle complète.",
+        "subtitle": "La routine féminine complète aux huiles d'argan et d'olive. Quatre produits, une expérience sensorielle complète. Produit naturel artisanal d'Andalousie.",
         "slug": "plenitude-300",
         "promise": "Soin complet sans complications.",
         "aiTranslation": true,
@@ -56,7 +56,7 @@
       },
       "de": {
         "name": "Ritual Fülle",
-        "subtitle": "Die vollständige Frauenpflegeroutine mit Argan- und Olivenöl für Haar, Körper und Haut. Vier Produkte.",
+        "subtitle": "Die vollständige Frauenpflegeroutine mit Argan- und Olivenöl für Haar, Körper und Haut. Vier Produkte. Naturprodukt aus Andalusien, handgefertigt.",
         "slug": "fuelle-300",
         "promise": "Vollständige Pflege, unkompliziert.",
         "aiTranslation": true,
@@ -68,7 +68,7 @@
       },
       "it": {
         "name": "Rituale Pienezza",
-        "subtitle": "La routine femminile completa con oli di argan e oliva per capelli, corpo e pelle. Quattro prodotti essenziali.",
+        "subtitle": "La routine femminile completa con oli di argan e oliva per capelli, corpo e pelle. Quattro prodotti essenziali. Prodotto naturale artigianale dall'Andalusia.",
         "slug": "pienezza-300",
         "promise": "Cura completa, senza complicazioni.",
         "aiTranslation": true,
@@ -80,7 +80,7 @@
       },
       "nl": {
         "name": "Ritueel Volheid",
-        "subtitle": "De complete vrouwelijke routine met argan- en olijfolie voor haar, lichaam en huid. Vier essentiële producten.",
+        "subtitle": "De complete vrouwelijke routine met argan- en olijfolie voor haar, lichaam en huid. Vier essentiële producten. Natuurlijk product, handgemaakt in Andalusië.",
         "slug": "volheid-300",
         "promise": "Volledige verzorging, geen gedoe.",
         "aiTranslation": true,
@@ -92,7 +92,7 @@
       },
       "pt": {
         "name": "Ritual Plenitude",
-        "subtitle": "A rotina feminina completa com óleos de argão e azeite virgem para o cabelo, o corpo e a pele. Quatro passos.",
+        "subtitle": "A rotina feminina completa com óleos de argão e azeite virgem para o cabelo, o corpo e a pele. Quatro passos. Produto natural artesanal da Andaluzia.",
         "slug": "plenitude-300",
         "promise": "Cuidado completo sem complicações.",
         "aiTranslation": true,
@@ -673,7 +673,7 @@
       },
       "fr": {
         "name": "Rituel Pour Elle",
-        "subtitle": "Le cadeau féminin ultime : soin complet des cheveux, du corps et de la peau en une seule boîte soignée.",
+        "subtitle": "Le cadeau féminin ultime : soin complet des cheveux, du corps et de la peau en une seule boîte soignée. Produit naturel artisanal d'Andalousie.",
         "slug": "pour-elle",
         "promise": "Le cadeau complet pour elle.",
         "aiTranslation": true,
@@ -685,7 +685,7 @@
       },
       "de": {
         "name": "Ritual für Sie",
-        "subtitle": "Das ultimative Frauengeschenk: vollständige Haar-, Körper- und Hautpflege in einer einzigen eleganten Box.",
+        "subtitle": "Das ultimative Frauengeschenk: vollständige Haar-, Körper- und Hautpflege in einer einzigen eleganten Box. Naturprodukt aus Andalusien, handgefertigt.",
         "slug": "fuer-sie",
         "promise": "Das komplette Geschenk für sie.",
         "aiTranslation": true,
@@ -697,7 +697,7 @@
       },
       "it": {
         "name": "Rituale Per Lei",
-        "subtitle": "Il regalo femminile definitivo: cura completa di capelli, corpo e pelle in un'unica scatola elegante.",
+        "subtitle": "Il regalo femminile definitivo: cura completa di capelli, corpo e pelle in un'unica scatola elegante. Prodotto naturale artigianale dall'Andalusia.",
         "slug": "per-lei",
         "promise": "Il regalo completo per lei.",
         "aiTranslation": true,
@@ -721,7 +721,7 @@
       },
       "pt": {
         "name": "Ritual Para Ela",
-        "subtitle": "O presente feminino definitivo: cuidado completo do cabelo, corpo e pele numa só embalagem elegante.",
+        "subtitle": "O presente feminino definitivo: cuidado completo do cabelo, corpo e pele numa só embalagem elegante. Produto natural artesanal da Andaluzia.",
         "slug": "para-ela",
         "promise": "O presente completo para ela.",
         "aiTranslation": true,
@@ -770,7 +770,7 @@
       },
       "en": {
         "name": "Ritual for Him",
-        "subtitle": "The ultimate masculine gift set: complete head-to-toe grooming with warm amber, basil and thyme notes.",
+        "subtitle": "The ultimate masculine gift set: complete head-to-toe grooming with warm amber, basil and thyme notes. Natural artisan product from Andalusia.",
         "slug": "for-him",
         "promise": "The complete gift for him.",
         "aiTranslation": true,
@@ -782,7 +782,7 @@
       },
       "fr": {
         "name": "Rituel Pour Lui",
-        "subtitle": "Le cadeau masculin ultime : soin complet de la tête aux pieds, dans une seule boîte élégante pour lui.",
+        "subtitle": "Le cadeau masculin ultime : soin complet de la tête aux pieds, dans une seule boîte élégante pour lui. Produit naturel artisanal d'Andalousie.",
         "slug": "pour-lui",
         "promise": "Le cadeau complet pour lui.",
         "aiTranslation": true,
@@ -794,7 +794,7 @@
       },
       "de": {
         "name": "Ritual für Ihn",
-        "subtitle": "Das ultimative Männergeschenk: vollständige Pflege von Kopf bis Fuß in einer eleganten Box mit Amber-Duft.",
+        "subtitle": "Das ultimative Männergeschenk: vollständige Pflege von Kopf bis Fuß in einer eleganten Box mit Amber-Duft. Naturprodukt aus Andalusien, handgefertigt.",
         "slug": "fuer-ihn",
         "promise": "Das komplette Geschenk für ihn.",
         "aiTranslation": true,
@@ -806,7 +806,7 @@
       },
       "it": {
         "name": "Rituale Per Lui",
-        "subtitle": "Il regalo maschile definitivo: cura completa dalla testa ai piedi in un'unica elegante scatola profumata.",
+        "subtitle": "Il regalo maschile definitivo: cura completa dalla testa ai piedi in un'unica elegante scatola profumata. Prodotto naturale artigianale dall'Andalusia.",
         "slug": "per-lui",
         "promise": "Il regalo completo per lui.",
         "aiTranslation": true,
@@ -818,7 +818,7 @@
       },
       "nl": {
         "name": "Ritueel Voor Hem",
-        "subtitle": "Het ultieme mannelijke cadeau: complete verzorging van hoofd tot teen in één elegante doos met amberdeur.",
+        "subtitle": "Het ultieme mannelijke cadeau: complete verzorging van hoofd tot teen in één elegante doos met amberdeur. Natuurlijk product, handgemaakt in Andalusië.",
         "slug": "voor-hem",
         "promise": "Het complete cadeau voor hem.",
         "aiTranslation": true,
@@ -830,7 +830,7 @@
       },
       "pt": {
         "name": "Ritual Para Ele",
-        "subtitle": "O presente masculino definitivo: cuidado completo da cabeça aos pés numa única caixa elegante perfumada.",
+        "subtitle": "O presente masculino definitivo: cuidado completo da cabeça aos pés numa única caixa elegante perfumada. Produto natural artesanal da Andaluzia.",
         "slug": "para-ele",
         "promise": "O presente completo para ele.",
         "aiTranslation": true,
@@ -915,7 +915,7 @@
       },
       "it": {
         "name": "Rituale Stoviglie Perfette",
-        "subtitle": "Il rituale lavastoviglie completo con ingredienti naturali. Stoviglie immacolate, asciugatura perfetta.",
+        "subtitle": "Il rituale lavastoviglie completo con ingredienti naturali. Stoviglie immacolate, asciugatura perfetta. Prodotto naturale artigianale dall'Andalusia.",
         "slug": "stoviglie-perfette",
         "promise": "Piatti splendenti, naturalmente.",
         "aiTranslation": true,
@@ -939,7 +939,7 @@
       },
       "pt": {
         "name": "Ritual Loiça Perfeita",
-        "subtitle": "O ritual de loiça completo com ingredientes naturais. Louça impecável, secagem perfeita, sem química agressiva.",
+        "subtitle": "O ritual de loiça completo com ingredientes naturais. Louça impecável, secagem perfeita, sem química agressiva. Produto natural artesanal da Andaluzia.",
         "slug": "loica-perfeita",
         "promise": "Loiça reluzente, naturalmente.",
         "aiTranslation": true,
@@ -1017,7 +1017,7 @@
       },
       "it": {
         "name": "Rituale Bagno Impeccabile",
-        "subtitle": "Il rituale pulizia bagno completo con ingredienti naturali. Brillantezza senza sforzo, pulito naturalmente.",
+        "subtitle": "Il rituale pulizia bagno completo con ingredienti naturali. Brillantezza senza sforzo, pulito naturalmente. Prodotto naturale artigianale dall'Andalusia.",
         "slug": "bagno-impeccabile",
         "promise": "Un bagno impeccabile, naturalmente.",
         "aiTranslation": true,
@@ -1177,7 +1177,7 @@
         "name": "Ritual Caricia",
         "nameMain": "Ritual",
         "nameAccent": "Caricia",
-        "subtitle": "La colada que limpia, suaviza y deja en la ropa un aroma de lavanda que abraza al doblarla con calma.",
+        "subtitle": "La colada que limpia, suaviza y deja en la ropa un aroma de lavanda que abraza al doblarla con calma. Producto natural artesanal de Andalucía.",
         "shortDescription": "Detergente con lavanda reconfortante y suavizante con lavanda elegante. La colada perfecta.",
         "longDescription": "El Ritual Caricia combina el Detergente para Ropa con lavanda reconfortante y el Suavizante con lavanda elegante, ambos de origen natural. El detergente limpia con eficacia y deja un aroma duradero. El suavizante suaviza las fibras, facilita el planchado y mantiene el color. La colada que limpia, suaviza y deja en la ropa un aroma que abraza.",
         "promise": "Ropa suave con sensación de hogar.",
@@ -1222,7 +1222,7 @@
       },
       "it": {
         "name": "Rituale Carezza",
-        "subtitle": "Il rituale tessile completo con ingredienti naturali. Detersivo alla lavanda e ammorbidente elegante inclusi.",
+        "subtitle": "Il rituale tessile completo con ingredienti naturali. Detersivo alla lavanda e ammorbidente elegante inclusi. Prodotto naturale artigianale dall'Andalusia.",
         "slug": "carezza",
         "promise": "Vestiti morbidi, naturalmente.",
         "aiTranslation": true,
@@ -1246,7 +1246,7 @@
       },
       "pt": {
         "name": "Ritual Carícia",
-        "subtitle": "O ritual de cuidado têxtil completo com ingredientes naturais. Detergente de lavanda e amaciador elegante.",
+        "subtitle": "O ritual de cuidado têxtil completo com ingredientes naturais. Detergente de lavanda e amaciador elegante. Produto natural artesanal da Andaluzia.",
         "slug": "caricia",
         "promise": "Roupa macia, naturalmente.",
         "aiTranslation": true,
@@ -1324,7 +1324,7 @@
         "nameMain": "Ritual",
         "nameAccent": "Rifugio",
         "slug": "rifugio",
-        "subtitle": "Il rituale completo per la cura della casa — sentirsi al sicuro con ingredienti naturali in ogni prodotto.",
+        "subtitle": "Il rituale completo per la cura della casa — sentirsi al sicuro con ingredienti naturali in ogni prodotto. Prodotto naturale artigianale dall'Andalusia.",
         "shortDescription": "Detergente pavimenti, multi-superficie, vetri, sgrassatore e anticalcare. Cura completa della casa con ingredienti di origine naturale.",
         "longDescription": "Il Rituale Rifugio riunisce il Detergente Multisuperficie, Detergente Pavimenti, Detergente Vetri, Sgrassatore e Detergente Bagno. Cinque prodotti di origine naturale per ogni angolo della casa. Tensioattivi vegetali, oli essenziali reali e formule biodegradabili senza residui chimici.",
         "promise": "La tua casa, il tuo rifugio.",
