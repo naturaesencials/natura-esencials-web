@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 17/05/2026 — Sesión 7 SEO completada.
+> Actualizado: 17/05/2026 — Sesión 8 SEO completada.
 
 ---
 
@@ -264,13 +264,20 @@ Esto afectó: ProductDetail.tsx, rituales/[slug], cosmetica, hogar, mascota, rit
 
 ---
 
+## ✅ FIXES APLICADOS (sesión 8) — 1 commit
+
+| Fichero | Fix |
+|---------|-----|
+| `products.json` | 81 fichas DE/IT/NL con <3 párrafos ≥100 chars → expandidos subtitle+shortDesc+longDesc |
+| — | Cosmetica básica, hombre, mujer; hogar (detergente, suavizante, lavavajillas, etc.); mascotas |
+
+**Resultado esperado:** ~102 páginas "pocos párrafos" → 0 en DE/IT/NL tras recrawl
+
+---
+
 ### PRIORIDAD ALTA
 ```
-1. Sitemap Seobility (0 detectados):
-   → Acción manual: en app.seobility.net → Proyecto → Settings → Sitemaps
-   → Añadir: https://www.naturaesencials.com/sitemap.xml
-
-2. Keyword cannibalization (21 pares):
+1. Keyword cannibalization (21 pares):
    → tienda.naturaesencials.com/products/X compite con www.naturaesencials.com/eu/es/X
    → Fix: canonical tags en páginas Shopify (necesita acceso Shopify admin)
    → Alternativa: verificar que www pages tienen contenido único suficiente
@@ -472,6 +479,7 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 | 5 | 17 may 2026 | 3 | Corrección regresiones: H1 en product pages, anchor texts, titles |
 | 6 | 17 may 2026 | 1 | 82% overall (+17%): H1 too short fix, meta titles, blog titles, shortDescs |
 | 7 | 17 may 2026 | 1 | Homepage headings fix, DE compound words, body-milk nameMain |
+| 8 | 17 may 2026 | 1 | 81 fichas DE/IT/NL: subtitle+shortDesc+longDesc expandidos ≥100 chars |
 
 ---
 
