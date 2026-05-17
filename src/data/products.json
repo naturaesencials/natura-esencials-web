@@ -667,7 +667,7 @@
       },
       "en": {
         "name": "Hand and Body Soap",
-        "subtitle": "Gentle daily wash with a clean, fresh finish",
+        "subtitle": "Artisan liquid bar soap with extra virgin olive oil, coconut oil and aloe vera. Cleansing and moisturising for hands and body. 99% natural origin, ISO 16128.",
         "slug": "hand-and-body-soap",
         "olfactiveFamily": "Citrus · Aromatic",
         "momentOfUse": "Daily handwash · Shower",
@@ -1009,7 +1009,7 @@
       },
       "fr": {
         "name": "Lait Corporel",
-        "subtitle": "Hydratation légère, touche propre et réconfortante",
+        "subtitle": "Lait corporel léger, formule universelle — huiles d'avocat et jojoba. Absorption rapide, non gras. Notes de mangue, agrumes et noix de coco. 97% naturel, ISO 16128.",
         "slug": "lait-corporel",
         "olfactiveFamily": "Floral doux · Aromatique",
         "momentOfUse": "Après la douche · Soin quotidien",
@@ -1087,7 +1087,7 @@
       },
       "it": {
         "name": "Latte Corpo",
-        "subtitle": "Idratazione leggera, finitura pulita e avvolgente — oli di avocado e jojoba. 97% ingredienti di origine naturale, ISO 16128.",
+        "subtitle": "Latte corpo leggero unisex con oli di avocado e jojoba. Idratazione rapida e senza residui. Note di mango, agrumi e cocco. 97% di origine naturale, ISO 16128.",
         "slug": "latte-corpo",
         "olfactiveFamily": "Floreale soft · Aromatico",
         "momentOfUse": "Dopo la doccia · Cura quotidiana",
@@ -1165,7 +1165,7 @@
       },
       "pt": {
         "name": "Leite Corporal",
-        "subtitle": "Loção corporal com óleos de abacate e jojoba. Absorção rápida, efeito mate.",
+        "subtitle": "Leite corporal leve e universal com óleos de abacate e jojoba. Absorção rápida, sem gordura. Notas de manga, citrinos e coco. 97% de origem natural, ISO 16128.",
         "slug": "leite-corporal",
         "olfactiveFamily": "Floral suave · Aromático",
         "momentOfUse": "Após o duche · Cuidado diário",
@@ -1609,7 +1609,7 @@
       },
       "fr": {
         "name": "Shampooing Homme",
-        "subtitle": "Shampooing quotidien frais, cheveux et cuir chevelu propres",
+        "subtitle": "Shampooing quotidien pour cheveux masculins — nettoie, conditionne et apporte du caractère. Arôme ambré frais, 96% d'origine naturelle, ISO 16128.",
         "slug": "shampooing-homme",
         "olfactiveFamily": "Frais · Boisé aromatique",
         "momentOfUse": "Douche du matin · Routine quotidienne",
@@ -1904,7 +1904,7 @@
       },
       "fr": {
         "name": "Après-shampooing Homme",
-        "subtitle": "Confort léger, coiffage facile, sans résidu",
+        "subtitle": "Après-shampooing pour cheveux masculins — confort léger, coiffage facile, sans résidus lourds. Quinoa hydrolysé et acide hyaluronique. 95% naturel, ISO 16128.",
         "slug": "apres-shampooing-homme",
         "olfactiveFamily": "Frais propre · Parfum doux",
         "momentOfUse": "Après le shampooing · Soin quotidien",
@@ -2501,7 +2501,7 @@
       },
       "fr": {
         "name": "Lait Corporel Homme",
-        "subtitle": "Fini rapide, non collant, pour clôturer la routine",
+        "subtitle": "Lait corporel homme — finition rapide, non collant, effet mat discret. Huiles d'avocat et jojoba, arôme ambré masculin. 98% d'origine naturelle, ISO 16128.",
         "slug": "lait-corporel-homme",
         "olfactiveFamily": "Frais propre · Parfum doux",
         "momentOfUse": "Après la douche · Fini rapide",
@@ -2577,7 +2577,7 @@
       },
       "it": {
         "name": "Latte Corpo Uomo",
-        "subtitle": "Finitura veloce, non appiccicosa, per chiudere la routine — oli di avocado e jojoba. 98% di origine naturale, ISO 16128.",
+        "subtitle": "Latte corpo uomo — finitura veloce, non appiccicosa, effetto mat. Oli di avocado e jojoba. Aroma ambrato maschile discreto. 98% di origine naturale, ISO 16128.",
         "slug": "latte-corpo-uomo",
         "olfactiveFamily": "Fresco pulito · Profumo soft",
         "momentOfUse": "Dopo la doccia · Finitura veloce",
@@ -2655,7 +2655,7 @@
       },
       "pt": {
         "name": "Leite Corporal Homem",
-        "subtitle": "Acabamento rápido, não pegajoso, para fechar a rotina",
+        "subtitle": "Leite corporal para homem — acabamento rápido, não pegajoso, efeito matte. Óleos de abacate e jojoba, aroma âmbar masculino. 98% de origem natural, ISO 16128.",
         "slug": "leite-corporal-homem",
         "olfactiveFamily": "Fresco limpo · Perfume suave",
         "momentOfUse": "Após o duche · Acabamento rápido",
@@ -3915,7 +3915,7 @@
       },
       "fr": {
         "name": "Shampooing Femme",
-        "subtitle": "Shampooing quotidien à la finition douce et réconfortante",
+        "subtitle": "Shampooing quotidien pour cheveux féminins — nettoie et conditionne en douceur. Signature agrumée Citrus Aurantium. 96% d'origine naturelle, ISO 16128.",
         "slug": "shampooing-femme",
         "olfactiveFamily": "Floral doux · Agrumes",
         "momentOfUse": "Douche quotidienne · Routine cheveux",
@@ -4214,7 +4214,7 @@
       },
       "fr": {
         "name": "Après-shampooing Femme",
-        "subtitle": "Cheveux doux, coiffage facile, confort durable",
+        "subtitle": "Après-shampooing pour femme — cheveux doux, coiffage facile, confort durable. Quinoa hydrolysé et acide hyaluronique. Parfum Citrus Aurantium. 95% naturel.",
         "slug": "apres-shampooing-femme",
         "olfactiveFamily": "Agrumes · Confort doux",
         "momentOfUse": "Après le shampooing · Soin quotidien",
@@ -4815,7 +4815,7 @@
       },
       "fr": {
         "name": "Lait Corporel Femme",
-        "subtitle": "Hydratation légère pour clôturer le rituel, douce et lumineuse",
+        "subtitle": "Lait corporel femme — hydratation légère pour clore le rituel féminin. Argan, beurre de karité et vitamine E. Parfum Citrus Aurantium. 98% naturel, ISO 16128.",
         "slug": "lait-corporel-femme",
         "olfactiveFamily": "Agrumes · Confort propre",
         "momentOfUse": "Après la douche · Rituel peau",
@@ -4891,7 +4891,7 @@
       },
       "it": {
         "name": "Latte Corpo Donna",
-        "subtitle": "Idratazione leggera per chiudere il rituale, morbida e luminosa — argan e Citrus Aurantium. 98% di origine naturale, ISO 16128.",
+        "subtitle": "Latte corpo donna — idratazione leggera per chiudere il rituale femminile. Argan, burro di karité e vitamina E. Profumo Citrus Aurantium. 98% naturale, ISO 16128.",
         "slug": "latte-corpo-donna",
         "olfactiveFamily": "Agrumi · Comfort pulito",
         "momentOfUse": "Dopo la doccia · Rituale pelle",
@@ -4967,7 +4967,7 @@
       },
       "pt": {
         "name": "Leite Corporal Mulher",
-        "subtitle": "Loção corporal feminina com óleos nutritivos de origem natural. 98% de origem natural.",
+        "subtitle": "Leite corporal para mulher — hidratação leve para fechar o ritual feminino. Argão, manteiga de karité e vitamina E. Perfume Citrus Aurantium. 98% natural, ISO 16128.",
         "slug": "leite-corporal-mulher",
         "olfactiveFamily": "Citrinos · Conforto limpo",
         "momentOfUse": "Após o duche · Ritual de pele",
@@ -6832,7 +6832,7 @@
       },
       "fr": {
         "name": "Liquide Vaisselle",
-        "subtitle": "Dégraisse et laisse une cuisine propre et fraîche",
+        "subtitle": "Lavage à la main efficace avec touche fraîche d'agrumes. Dégraissant puissant, doux pour les mains. 92% d'origine naturelle, certifié ISO 16128.",
         "slug": "liquide-vaisselle",
         "olfactiveFamily": "Agrumes · Frais",
         "momentOfUse": "Après les repas · Routine cuisine",
@@ -7130,7 +7130,7 @@
       },
       "fr": {
         "name": "Liquide Lave-vaisselle",
-        "subtitle": "Vaisselle impeccable, sans drame",
+        "subtitle": "Gel lave-vaisselle pour machine automatique. Élimine les taches, protège verre et métal. 92% d'origine naturelle, sans parfum ajouté, ISO 16128.",
         "slug": "liquide-lave-vaisselle",
         "olfactiveFamily": "Agrumes · Herbacé",
         "momentOfUse": "Cycle lave-vaisselle · Soin quotidien",

@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 17/05/2026 — Sesión 8 SEO completada.
+> Actualizado: 17/05/2026 — Sesión 10 SEO completada.
 
 ---
 
@@ -264,6 +264,28 @@ Esto afectó: ProductDetail.tsx, rituales/[slug], cosmetica, hogar, mascota, rit
 
 ---
 
+## ✅ FIXES APLICADOS (sesiones 9-10) — 2 commits
+
+### Sesión 9 (Content SEO report 17/05/26):
+- NL h1Qualifier typo: Naturlijk → Natuurlijk
+- 23 bundle subtitles: qualifier word añadido (natürlich/natuurlijk/naturel/naturale/natural)
+- messages DE/NL/FR/ES: catalog desc con palabras H1 compuestas (Tierpflege, huishoudverzorging, etc.)
+- rituales/page.tsx: pageDesc+pageDesc2 con naturales/naturels/naturali/naturais/natürlichen
+- origen/page.tsx: body0 con keywords H1 en todos los idiomas
+- blog/page.tsx: labels.desc con Formulierung/ingrediënten + eliminar excerpt BlogPreview
+- contacto/page.tsx: desc+wholesale+press ≥100 chars todos los idiomas
+- INCI: translate="no" lang="la" → Caramel/Viscum Album no se marcan como typos
+- products.json: desengrasante EN + limpiacristales ES subtitle ≥100 chars
+
+### Sesión 10 (Content SEO cont.):
+- cookies/page.tsx: párrafos managing ≥100 chars (5 idiomas)
+- faq/page.tsx: FAQ DE desc incluye "handwerklicher"
+- products.json: 10 subtitles diferenciados para competing pages
+  (body-milk unisex vs hombre/mujer en IT/FR/PT; dishwasher FR manual vs automático;
+   shampooing/après-shampooing FR; jabon EN vs hand&body wash)
+
+---
+
 ## ✅ FIXES APLICADOS (sesión 8) — 1 commit
 
 | Fichero | Fix |
@@ -480,6 +502,8 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 | 6 | 17 may 2026 | 1 | 82% overall (+17%): H1 too short fix, meta titles, blog titles, shortDescs |
 | 7 | 17 may 2026 | 1 | Homepage headings fix, DE compound words, body-milk nameMain |
 | 8 | 17 may 2026 | 1 | 81 fichas DE/IT/NL: subtitle+shortDesc+longDesc expandidos ≥100 chars |
+| 9 | 17 may 2026 | 1 | Content SEO: NL typo, bundle qualifiers, catalog/ritual/origen/blog/contacto fixes |
+| 10 | 17 may 2026 | 1 | Competing pages, cookies paragraphs, FAQ DE, blog/contacto completion |
 
 ---
 

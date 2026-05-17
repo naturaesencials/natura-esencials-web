@@ -19,7 +19,7 @@ const SUBTITLE: Record<string, string> = {
   es: 'Todo lo que necesitas saber sobre nuestras formulaciones, certificaciones y proceso artesanal.',
   en: 'Everything you need to know about our formulations, certifications and artisan process.',
   fr: 'Tout ce que vous devez savoir sur nos formulations, certifications et processus artisanal.',
-  de: 'Alles, was Sie über unsere Formulierungen, Zertifizierungen und den handwerklichen Prozess wissen müssen.',
+  de: 'Alles über handwerklicher Naturkosmetik: Formulierungen, ISO 16128-Zertifizierungen und den handwerklichen Prozess erklärt.',
   it: 'Tutto quello che devi sapere sulle nostre formulazioni, certificazioni e processo artigianale.',
   nl: 'Alles wat u moet weten over onze formuleringen, certificeringen en ambachtelijk proces.',
   pt: 'Tudo o que precisa saber sobre as nossas formulações, certificações e processo artesanal.',
