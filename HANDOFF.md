@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 17/05/2026 — Sesión 6 SEO completada.
+> Actualizado: 17/05/2026 — Sesión 7 SEO completada.
 
 ---
 
@@ -247,6 +247,23 @@ Esto afectó: ProductDetail.tsx, rituales/[slug], cosmetica, hogar, mascota, rit
 
 ## 🔴 PROBLEMAS PENDIENTES (a resolver en próxima sesión)
 
+## ✅ FIXES APLICADOS (sesión 7) — 1 commit
+
+| Fichero | Fix |
+|---------|-----|
+| `DualFeatured.tsx` | h3→p: fix duplicate heading + H1→H3 structural jump en homepage |
+| `Edicion.tsx` | h3→p: reduce heading count homepage |
+| `Newsletter.tsx` | h2→p: sección formulario no es contenido estructurado |
+| `products.json` | 21 DE nameMain/nameAccent corregidos: compound word splits → "Natürlich/er/e/es {Word}" |
+| `products.json` | body-milk ES/EN nameMain extendido: "Hidratante"/"Lightweight" → H1 ≥20 chars |
+
+**Resultado esperado en próximo crawl:**
+- Homepage 7 locales: sin duplicate heading, sin H1→H3 jump, heading count ≤19
+- Productos DE: H1s ≥21 chars (nameMain+nameAccent como palabras naturales en alemán)
+- 209 H1 "too short" → deberían reducirse significativamente
+
+---
+
 ### PRIORIDAD ALTA
 ```
 1. Sitemap Seobility (0 detectados):
@@ -454,6 +471,7 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 | 4 | abr 2026 | varios | Links, redirects, contenido páginas, typos, redes sociales |
 | 5 | 17 may 2026 | 3 | Corrección regresiones: H1 en product pages, anchor texts, titles |
 | 6 | 17 may 2026 | 1 | 82% overall (+17%): H1 too short fix, meta titles, blog titles, shortDescs |
+| 7 | 17 may 2026 | 1 | Homepage headings fix, DE compound words, body-milk nameMain |
 
 ---
 

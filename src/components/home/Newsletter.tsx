@@ -44,9 +44,9 @@ export function Newsletter() {
       <div className="absolute inset-0 bg-gradient-to-b from-paper/[0.88] to-bg/[0.92]" />
       <div className="relative z-10 mx-auto max-w-[760px] text-center">
         <div className="mb-7 text-[11px] uppercase tracking-[0.38em] text-verde-vivo">— {t('kicker')}</div>
-        <h2 className="font-display text-h1-fluid leading-[1.02] tracking-[-0.022em]">
+        <p className="font-display text-h1-fluid leading-[1.02] tracking-[-0.022em]">
           {t('title1')}<br/>{t('title2')}<br/><em className="font-display-italic text-verde">{t('titleAccent')}</em>
-        </h2>
+        </p>
         <p className="mx-auto mt-5 max-w-[460px] text-sm leading-[1.75] text-graphite">{t('sub')}</p>
         <form onSubmit={submit} className="mx-auto mt-12 flex max-w-[460px] items-center border-b border-verde">
           <label htmlFor="nl-email" className="sr-only">Email</label>

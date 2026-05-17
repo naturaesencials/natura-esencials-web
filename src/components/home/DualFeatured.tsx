@@ -56,9 +56,9 @@ export function DualFeatured({ region, locale }: Props) {
         </Link>
         <div className="w-full">
           <div className="mb-3.5 text-[11px] uppercase tracking-[0.28em] text-verde-vivo">— {t('personalLine')}</div>
-          <h3 className="font-display text-h3-fluid leading-[0.98] tracking-[-0.018em]" style={{ fontVariationSettings: "'opsz' 144, 'wght' 300, 'SOFT' 30" }}>
+          <p className="font-display text-h3-fluid leading-[0.98] tracking-[-0.018em]" style={{ fontVariationSettings: "'opsz' 144, 'wght' 300, 'SOFT' 30" }}>
             {cosmetica.names[locale].main}<br/><em className="font-display-italic text-verde">{cosmetica.names[locale].accent}</em>
-          </h3>
+          </p>
           <p className="mt-4 text-sm leading-[1.7] text-graphite">
             {t.rich('personalDesc', { em: (c) => <em className="font-body-medium not-italic text-ink">{c}</em> })}
           </p>
@@ -89,9 +89,9 @@ export function DualFeatured({ region, locale }: Props) {
           </Link>
           <div className="w-full">
             <div className="mb-3.5 text-[11px] uppercase tracking-[0.28em] text-azul">— {t('hogarLine')}</div>
-            <h3 className="font-display text-h3-fluid leading-[0.98] tracking-[-0.018em]" style={{ fontVariationSettings: "'opsz' 144, 'wght' 300, 'SOFT' 30" }}>
+            <p className="font-display text-h3-fluid leading-[0.98] tracking-[-0.018em]" style={{ fontVariationSettings: "'opsz' 144, 'wght' 300, 'SOFT' 30" }}>
               {hogar.names[locale].main}<br/><em className="font-display-italic text-azul">{hogar.names[locale].accent}</em>
-            </h3>
+            </p>
             <p className="mt-4 text-sm leading-[1.7] text-graphite">
               {t.rich('hogarDesc', { em: (c) => <em className="font-body-medium not-italic text-ink">{c}</em> })}
             </p>
