@@ -202,21 +202,24 @@
   "catalogPages": {
     "cosmetica": {
       "kicker": "Línea",
-      "title": "Cosmética",
-      "accent": "artesanal",
-      "desc": "Cosmética artesanal para el día a día: cabello, cuerpo, rostro y afeitado en rituales sensoriales. Tres colecciones — Básica, Para Ella y Para Él — formuladas con norma ISO 16128 y fabricadas a mano en Andalucía."
+      "title": "Cosmética artesanal",
+      "accent": "natural",
+      "desc": "Cosmética artesanal para el día a día: cabello, cuerpo, rostro y afeitado en rituales sensoriales. Tres colecciones — Básica, Para Ella y Para Él — formuladas con norma ISO 16128 y fabricadas a mano en Andalucía.",
+      "h1Qualifier": "Natural"
     },
     "hogar": {
       "kicker": "Línea",
-      "title": "Rituales del",
-      "accent": "hogar",
-      "desc": "Rituales del hogar: limpieza natural convertida en sensación de casa cuidada. Detergente, suavizante, lavavajillas, limpiadores específicos y multisuperficies con fórmulas suaves de origen natural para mascotas, ropa y superficies."
+      "title": "Rituales del hogar",
+      "accent": "natural",
+      "desc": "Rituales del hogar: limpieza natural convertida en sensación de casa cuidada. Detergente, suavizante, lavavajillas, limpiadores específicos y multisuperficies con fórmulas suaves de origen natural para mascotas, ropa y superficies.",
+      "h1Qualifier": "Natural"
     },
     "mascota": {
       "kicker": "Línea",
-      "title": "Rituales",
+      "title": "Rituales para",
       "accent": "mascotas",
-      "desc": "Rituales para mascotas: cuidado suave para perros y gatos con higiene tranquila, calma en casa y conexión sin estrés. Productos con registro MAPA y fórmulas hipoalergénicas adaptadas al microbioma animal."
+      "desc": "Rituales para mascotas: cuidado suave para perros y gatos con higiene tranquila, calma en casa y conexión sin estrés. Productos con registro MAPA y fórmulas hipoalergénicas adaptadas al microbioma animal.",
+      "h1Qualifier": "Natural"
     }
   }
 }

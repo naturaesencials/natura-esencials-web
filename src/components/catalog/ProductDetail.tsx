@@ -72,6 +72,11 @@ interface ProductDetailProps {
 export function ProductDetail({ product, region, locale, t }: ProductDetailProps) {
   const tr = product.translations[locale] || product.translations.es;
   if (!tr) return null;
+  const h1Qualifier: Record<string, string> = {
+    es: 'Natural', en: 'Natural', fr: 'Naturelle',
+    de: 'Natürlich', it: 'Naturale', nl: 'Naturlijk', pt: 'Natural',
+  };
+  const h1Q = h1Qualifier[locale] ?? 'Natural';
 
   const { src: imageSrc, fallbackSrc: imageFallback } = resolveProductImage(
     product.id,
@@ -161,6 +166,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                   <em className="font-display-italic text-verde">{tr.nameAccent}</em>
                 </>
               )}
+              {' · '}{h1Q}
             </h1>
             {tr.subtitle && (
               <p className="mt-4 font-caption text-[clamp(14px,1.8vw,18px)] font-normal text-graphite leading-relaxed tracking-normal">
@@ -361,6 +367,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                   <Link
                     key={c.id}
                     href={buildPath(region, locale, `${c.line}/${ct.slug}`)}
+                    aria-label={ct.nameAccent ? `${ct.nameMain || ct.name} ${ct.nameAccent}` : (ct.nameMain || ct.name)}
                     className="group bg-paper rounded-xl p-6 transition-all hover:shadow-lg hover:-translate-y-0.5"
                   >
                     <p className="text-meta-fluid uppercase tracking-[0.22em] text-verde-vivo mb-2">

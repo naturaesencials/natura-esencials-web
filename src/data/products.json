@@ -673,7 +673,7 @@
         "momentOfUse": "Daily handwash · Shower",
         "nameMain": "Hand and Body",
         "nameAccent": "Soap",
-        "shortDescription": "Artisan soap with extra virgin olive oil. Cleansing and moisturising, suitable for hands and body.",
+        "shortDescription": "Artisan bar with extra virgin olive oil. Cleansing and moisturising, suitable for hands and body.",
         "longDescription": "Artisan soap with extra virgin olive oil. Cleansing and moisturising, suitable for hands and body.",
         "indication": "Body hygiene. Suitable for daily use.",
         "usage": "Apply to wet skin, lather and rinse thoroughly with water. Repeat if necessary.",
@@ -976,7 +976,7 @@
         "momentOfUse": "After shower · Daily care",
         "nameMain": "Body",
         "nameAccent": "Milk",
-        "shortDescription": "Lightweight body milk. Fast-absorbing, non-greasy. Mango, citrus and coconut notes.",
+        "shortDescription": "Lightweight moisturiser. Fast-absorbing, non-greasy. Notes of mango, citrus and coconut.",
         "longDescription": "Lightweight body milk. Fast-absorbing, non-greasy. Mango, citrus and coconut notes.",
         "indication": "Body hygiene. Suitable for daily use.",
         "usage": "Apply after showering to slightly damp skin. Spread with upward movements until fully absorbed.",
@@ -1015,7 +1015,7 @@
         "momentOfUse": "Après la douche · Soin quotidien",
         "nameMain": "Lait",
         "nameAccent": "corporel",
-        "shortDescription": "Lait corporel léger. Absorption rapide, non gras. Notes de mangue, citrus et coco.",
+        "shortDescription": "Hydratant léger. Absorption rapide, non gras. Notes de mangue, citrus et noix de coco.",
         "longDescription": "Lait corporel léger. Absorption rapide, non gras. Notes de mangue, citrus et coco.",
         "indication": "Hygiène corporelle. Convient à un usage quotidien.",
         "usage": "Appliquer après la douche sur une peau légèrement humide. Étaler avec des mouvements ascendants jusqu'à absorption complète.",
@@ -1054,7 +1054,7 @@
         "momentOfUse": "Nach der Dusche · Tägliche Pflege",
         "nameMain": "Körper",
         "nameAccent": "milch",
-        "shortDescription": "Leichte Körpermilch. Schnell absorbierend, nicht fettig. Noten von Mango, Zitrus und Kokos.",
+        "shortDescription": "Leichte Feuchtigkeitspflege. Schnell absorbierend, nicht fettig. Noten von Mango, Zitrus und Kokos.",
         "longDescription": "Leichte Körpermilch. Schnell absorbierend, nicht fettig. Noten von Mango, Zitrus und Kokos.",
         "indication": "Körperhygiene. Für den täglichen Gebrauch geeignet.",
         "usage": "Nach der Dusche auf leicht feuchter Haut auftragen. Mit aufwärts gerichteten Bewegungen bis zur vollständigen Absorption einmassieren.",
@@ -1093,7 +1093,7 @@
         "momentOfUse": "Dopo la doccia · Cura quotidiana",
         "nameMain": "Latte",
         "nameAccent": "corpo",
-        "shortDescription": "Latte corpo leggero. Assorbimento rapido, non grasso. Note di mango, agrumi e cocco.",
+        "shortDescription": "Idratante leggero. Assorbimento rapido, non grasso. Note di mango, agrumi e cocco.",
         "longDescription": "Latte corpo leggero. Assorbimento rapido, non grasso. Note di mango, agrumi e cocco.",
         "indication": "Igiene corporea. Adatto all'uso quotidiano.",
         "usage": "Applicare dopo la doccia sulla pelle leggermente umida. Stendere con movimenti ascendenti fino al completo assorbimento.",
@@ -7385,7 +7385,7 @@
         "momentOfUse": "Each dishwasher cycle · Final result",
         "nameMain": "Dishwasher",
         "nameAccent": "Rinse Aid",
-        "shortDescription": "Rinse aid that prevents water marks and improves drying for a spotless finish. 98% naturally derived.",
+        "shortDescription": "Prevents water marks and improves drying for a spotless finish. 98% natural origin.",
         "benefits": [
           "Brilliant finish without spots. Improves drying in the final rinse.",
           "Dosage: 0.05-0.2% according to water hardness."
@@ -7422,7 +7422,7 @@
         "momentOfUse": "Chaque cycle · Résultat final",
         "nameMain": "Liquide",
         "nameAccent": "de rinçage",
-        "shortDescription": "Liquide de rinçage qui prévient les traces d'eau et améliore le séchage. 98% d'origine naturelle.",
+        "shortDescription": "Prévient les traces d'eau et améliore le séchage pour un résultat impeccable. 98% naturel.",
         "benefits": [
           "Finition brillante sans taches. Améliore le séchage au rinçage final.",
           "Dosage : 0,05-0,2% selon la dureté de l'eau."
@@ -7459,7 +7459,7 @@
         "momentOfUse": "Jeder Spülgang · Endergebnis",
         "nameMain": "Klar",
         "nameAccent": "spüler",
-        "shortDescription": "Klarspüler der Wasserflecken verhindert und das Trocknen verbessert. 98% natürlich gewonnen.",
+        "shortDescription": "Verhindert Wasserflecken und verbessert das Trocknen für ein makelloses Ergebnis. 98% natürlich.",
         "benefits": [
           "Brillantes Ergebnis ohne Flecken. Verbessert das Trocknen beim letzten Spülgang.",
           "Dosierung: 0,05-0,2% je nach Wasserhärte."
@@ -7533,7 +7533,7 @@
         "momentOfUse": "Elk vaatwascyclus · Eindresultaat",
         "nameMain": "Glansspoel",
         "nameAccent": "middel",
-        "shortDescription": "Glansspoelmiddel dat watervlekken voorkomt en het drogen verbetert. 98% natuurlijk gewonnen.",
+        "shortDescription": "Voorkomt watervlekken en verbetert het drogen voor een vlekkeloos resultaat. 98% natuurlijk.",
         "benefits": [
           "Stralend resultaat zonder vlekken. Verbetert het drogen bij de laatste spoeling.",
           "Dosering: 0,05-0,2% afhankelijk van waterhardheid."
@@ -7671,7 +7671,7 @@
         "momentOfUse": "Weekly cleaning · Refuge ritual",
         "nameMain": "Floor",
         "nameAccent": "Cleaner",
-        "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
+        "shortDescription": "For daily maintenance. Clean, bright and pleasantly scented floors. No rinsing required. Concentrated: 50 ml per 5 litres of water. 97% natural origin.",
         "longDescription": "Concentrated floor cleaner with a clean floral scent. No rinsing needed. 97% natural origin.",
         "indication": "Cleaning of ceramic, stoneware, marble and sealed parquet floors.",
         "usage": "Dilute 50 ml in 5 litres of water. Mop as normal. No rinsing required.",
@@ -7709,7 +7709,7 @@
         "momentOfUse": "Nettoyage hebdo · Rituel refuge",
         "nameMain": "Nettoyant",
         "nameAccent": "sols",
-        "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
+        "shortDescription": "Pour l'entretien quotidien. Sols propres, brillants et agréablement parfumés. Pas de rinçage. Concentré : 50 ml pour 5 litres d'eau. 97% d'origine naturelle.",
         "longDescription": "Nettoyant sol concentré au parfum floral propre. Sans rinçage. 97% d'origine naturelle.",
         "indication": "Nettoyage des sols en céramique, grès, marbre et parquet traité.",
         "usage": "Diluer 50 ml dans 5 litres d'eau. Frotter normalement. Aucun rinçage requis.",
@@ -7747,7 +7747,7 @@
         "momentOfUse": "Wöchentliche Reinigung · Refugio-Ritual",
         "nameMain": "Boden",
         "nameAccent": "reiniger",
-        "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
+        "shortDescription": "Für die tägliche Pflege. Saubere, glänzende und angenehm duftende Böden. Kein Nachspülen. Konzentriert: 50 ml auf 5 Liter Wasser. 97% natürlich gewonnen.",
         "longDescription": "Konzentrierter Bodenreiniger mit sauberem Blumenduft. Kein Nachwischen erforderlich. 97% natürlichen Ursprungs.",
         "indication": "Reinigung von Keramik-, Steinzeug-, Marmor- und versiegeltem Parkettboden.",
         "usage": "50 ml in 5 Liter Wasser verdünnen. Normal wischen. Kein Nachwischen erforderlich.",
@@ -7785,7 +7785,7 @@
         "momentOfUse": "Pulizia settimanale · Rituale rifugio",
         "nameMain": "Detergente",
         "nameAccent": "pavimenti",
-        "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
+        "shortDescription": "Per la manutenzione quotidiana. Pavimenti puliti, lucidi e piacevolmente profumati. No risciacquo. Concentrato: 50 ml in 5 litri d'acqua. 97% di origine naturale.",
         "longDescription": "Detergente pavimenti concentrato con profumo floreale pulito. Senza risciacquo. 97% di origine naturale.",
         "indication": "Pulizia di pavimenti in ceramica, gres, marmo e parquet sigillato.",
         "usage": "Diluire 50 ml in 5 litri di acqua. Passare il mocio normalmente. Nessun risciacquo necessario.",
@@ -7823,7 +7823,7 @@
         "momentOfUse": "Wekelijkse reiniging · Toevluchtsritueel",
         "nameMain": "Vloer",
         "nameAccent": "reiniger",
-        "shortDescription": "Para mantenimiento diario. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
+        "shortDescription": "Voor dagelijks onderhoud. Schone, glanzende en aangenaam geurende vloeren. Geen naspoelen. Geconcentreerd: 50 ml op 5 liter water. 97% natuurlijk gewonnen.",
         "longDescription": "Geconcentreerde vloerreiniger met schone bloemengeur. Geen naspoelen nodig. 97% van natuurlijke oorsprong.",
         "indication": "Reiniging van keramische, stenen, marmeren en gelakt parketvloeren.",
         "usage": "50 ml verdunnen in 5 liter water. Normaal dweilen. Geen naspoelen vereist.",
@@ -7861,7 +7861,7 @@
         "momentOfUse": "Limpeza semanal · Ritual refúgio",
         "nameMain": "Detergente",
         "nameAccent": "chão",
-        "shortDescription": "Para mantenimiento diário. Suelos limpios, brillantes y agradablemente perfumados. No requiere aclarado. Concentrado: 50 ml en 5 litros de agua.",
+        "shortDescription": "Para manutenção diária. Pavimentos limpos, brilhantes e agradavelmente perfumados. Não enxaguar. Concentrado: 50 ml em 5 litros de água. 97% de origem natural.",
         "longDescription": "O nosso limpa-chão é formulado com 97% de ingredientes de origem natural. Limpa eficazmente todo o tipo de pavimentos deixando um aroma fresco e natural.",
         "indication": "Limpeza de pavimentos cerâmicos, grés, mármore e parquet selado.",
         "usage": "Diluir 50 ml em 5 litros de água. Esfregar normalmente. Não requer enxaguamento.",
@@ -7965,7 +7965,7 @@
         "momentOfUse": "Weekly cleaning · Wellness moment",
         "nameMain": "Bathroom",
         "nameAccent": "Cleaner",
-        "shortDescription": "Bathroom cleaner with fresh scent. Removes limescale in 10 minutes. Dermatologically tested.",
+        "shortDescription": "Fresh-scented formula. Removes limescale in 10 minutes. Dermatologically tested. 96% natural origin.",
         "benefits": [
           "Effective against limescale. Spray, leave 10 min, rinse.",
           "Pleasant fragrance. Dermatologically tested. Gentle on skin."
@@ -8001,7 +8001,7 @@
         "momentOfUse": "Nettoyage hebdo · Moment bien-être",
         "nameMain": "Nettoyant",
         "nameAccent": "salle de bain",
-        "shortDescription": "Nettoyant salle de bain au parfum frais. Détartre en 10 minutes. Testé dermatologiquement.",
+        "shortDescription": "Parfum frais. Détartre en 10 minutes. Testé dermatologiquement. 96% d'origine naturelle.",
         "benefits": [
           "Efficace contre le calcaire. Pulvériser, laisser agir 10 min, rincer.",
           "Parfum agréable. Testé dermatologiquement. Doux avec la peau."
@@ -8037,7 +8037,7 @@
         "momentOfUse": "Wöchentliche Reinigung · Wellness-Moment",
         "nameMain": "Bad",
         "nameAccent": "reiniger",
-        "shortDescription": "Badreiniger mit frischem Duft. Entfernt Kalk in 10 Minuten. Dermatologisch getestet.",
+        "shortDescription": "Mit frischem Duft. Entfernt Kalk in 10 Minuten. Dermatologisch getestet. 96% natürlich.",
         "benefits": [
           "Wirksam gegen Kalk. Sprühen, 10 Min. einwirken lassen, abspülen.",
           "Angenehmer Duft. Dermatologisch getestet. Hautfreundlich."
@@ -8073,7 +8073,7 @@
         "momentOfUse": "Pulizia settimanale · Momento benessere",
         "nameMain": "Detergente",
         "nameAccent": "bagno",
-        "shortDescription": "Detergente bagno con profumo fresco. Rimuove il calcare in 10 minuti. Testato dermatologicamente.",
+        "shortDescription": "Profumo fresco. Rimuove il calcare in 10 minuti. Testato dermatologicamente. 96% naturale.",
         "benefits": [
           "Efficace contro il calcare. Spruzzare, lasciare agire 10 min, sciacquare.",
           "Profumo piacevole. Testato dermatologicamente. Delicato sulla pelle."
@@ -8109,7 +8109,7 @@
         "momentOfUse": "Wekelijkse reiniging · Wellness-moment",
         "nameMain": "Badkamer",
         "nameAccent": "reiniger",
-        "shortDescription": "Badreiniger met frisse geur. Verwijdert kalk in 10 minuten. Dermatologisch getest.",
+        "shortDescription": "Met frisse geur. Verwijdert kalk in 10 minuten. Dermatologisch getest. 96% natuurlijk.",
         "benefits": [
           "Effectief tegen kalkaanslag. Spuiten, 10 min laten inwerken, afspoelen.",
           "Aangename geur. Dermatologisch getest. Zacht voor de huid."
@@ -8145,7 +8145,7 @@
         "momentOfUse": "Limpeza semanal · Momento bem-estar",
         "nameMain": "Detergente",
         "nameAccent": "casa de banho",
-        "shortDescription": "Limpa casa de banho com 97% de ingredientes de origem natural. Remove calcário e sujidade sem riscar as superfícies.",
+        "shortDescription": "Fórmula de 97% de ingredientes naturais. Remove calcário e sujidade em 10 minutos. Testado dermatologicamente.",
         "benefits": [
           "Eficaz contra o calcário. Pulverizar, deixar atuar 10 min, enxaguar.",
           "Fragância agradável. Testado dermatologicamente. Suave para a pele."
@@ -9406,7 +9406,7 @@
         "momentOfUse": "Bath day · Calm ritual",
         "nameMain": "Natural",
         "nameAccent": "Cat Shampoo",
-        "shortDescription": "Natural cat shampoo. Ultra-gentle, no-rinse formula. Antibacterial and antifungal.",
+        "shortDescription": "Ultra-gentle, no-rinse formula for cats. Antibacterial and antifungal. pH adapted 6.5-7.5.",
         "benefits": [
           "2-in-1: cleanses and conditions. Argan for dry, lifeless coat.",
           "Microbiome actives to preserve friendly bacteria. pH 6.5–7.5 adapted for cats."
@@ -9444,7 +9444,7 @@
         "momentOfUse": "Jour de bain · Rituel calme",
         "nameMain": "Shampooing naturel",
         "nameAccent": "chat",
-        "shortDescription": "Shampooing naturel pour chats. Formule ultra-douce sans rinçage. Antibactérien et antifongique.",
+        "shortDescription": "Formule ultra-douce sans rinçage pour chats. Antibactérien et antifongique. pH adapté 6,5-7,5.",
         "benefits": [
           "2 en 1 : nettoie et conditionne. Argan pour le pelage sec et sans vitalité.",
           "Actifs microbiome pour préserver les bactéries amies. pH 6,5-7,5 adapté au chat."
@@ -9482,7 +9482,7 @@
         "momentOfUse": "Badetag · Ruhe-Ritual",
         "nameMain": "Natürliches",
         "nameAccent": "Katzenshampoo",
-        "shortDescription": "Natürliches Katzenshampoo. Ultraschonendes, spülfreies Shampoo. Antibakteriell und antimykotisch.",
+        "shortDescription": "Ultraschonendes, spülfreies Shampoo für Katzen. Antibakteriell und antimykotisch. pH 6,5-7,5.",
         "benefits": [
           "2-in-1: reinigt und pflegt. Argan für trockenes, kraftloses Fell.",
           "Mikrobiom-Wirkstoffe zur Erhaltung freundlicher Bakterien. pH 6,5–7,5 für Katzen angepasst."
@@ -9558,7 +9558,7 @@
         "momentOfUse": "Baddag · Rustritueel",
         "nameMain": "Natuurlijke",
         "nameAccent": "kattenshampoo",
-        "shortDescription": "Natuurlijke kattenshampoo. Ultrazachte, spoelvrije formule. Antibacterieel en antischimmel.",
+        "shortDescription": "Ultrazachte, spoelvrije formule voor katten. Antibacterieel en antischimmelwerking. pH 6,5-7,5.",
         "benefits": [
           "2-in-1: reinigt en verzorgt. Argan voor droge, levenloze vacht.",
           "Microbioom-activatoren om vriendelijke bacteriën te behouden. pH 6,5-7,5 aangepast voor katten."

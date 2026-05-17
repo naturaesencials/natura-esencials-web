@@ -165,8 +165,8 @@ export default async function RitualesPage({ params }: Props) {
   const symbol = regionCurrency[region].symbol;
 
   const pageTitle: Record<string, string> = {
-    es: 'Nuestros rituales', en: 'Our rituals', fr: 'Nos rituels',
-    de: 'Unsere Rituale', it: 'I nostri rituali', nl: 'Onze rituelen', pt: 'Os nossos rituais',
+    es: 'Nuestros rituales naturales', en: 'Our natural skincare rituals', fr: 'Nos rituels naturels',
+    de: 'Unsere natürlichen Rituale', it: 'I nostri rituali naturali', nl: 'Onze natuurlijke rituelen', pt: 'Os nossos rituais naturais',
   };
   const pageDesc: Record<string, string> = {
     es: 'Cada ritual es un pack completo de productos formulados para trabajar juntos. Cosmética natural, limpieza del hogar y cuidado de mascotas — todo artesanal desde Andalucía.',

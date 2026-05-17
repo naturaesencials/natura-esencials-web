@@ -86,14 +86,15 @@ export function makeGenerateMetadata(line: ProductLine) {
     // Límite 44 chars: 44 + " · Natura Esencials" (19) = 63 chars ≈ 504px < 580px límite Seobility
     const shortDesc = (tr.shortDescription || '').trim();
     const firstClause = shortDesc.split(/[.·]/)[0].trim();
-    // Sólo añadir cláusula si no empieza con el nombre del producto (evita duplicación)
-    const nameFirstWord = tr.name.split(' ')[0].toLowerCase();
-    const clauseIsRepetitive = firstClause.toLowerCase().startsWith(nameFirstWord);
+    // Evitar word repetition: ninguna palabra significativa del nombre (>3 chars) en la cláusula
+    const nameWords = tr.name.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+    const clauseLower = firstClause.toLowerCase();
+    const clauseIsRepetitive = nameWords.some(w => clauseLower.includes(w));
     const titleSuffix = firstClause && !clauseIsRepetitive ? ` — ${firstClause}` : '';
     const fullTitle = `${tr.name}${titleSuffix}`;
-    // Word-boundary truncation to avoid cutting mid-word
-    const title = fullTitle.length > 44
-      ? fullTitle.slice(0, 41).replace(/\s+\S*$/, '') + '…'
+    // Word-boundary truncation — 40 chars max (40+19 suffix=59 chars ≈ 566px, safely under 580px limit)
+    const title = fullTitle.length > 40
+      ? fullTitle.slice(0, 37).replace(/\s+\S*$/, '') + '…'
       : fullTitle;
 
     return buildMetadata({

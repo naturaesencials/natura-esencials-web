@@ -202,21 +202,24 @@
   "catalogPages": {
     "cosmetica": {
       "kicker": "Collectie",
-      "title": "Artisanale",
+      "title": "Ambachtelijke",
       "accent": "cosmetica",
-      "desc": "Artisanale cosmetica voor dagelijks gebruik: haar, lichaam, gezicht en scheren in sensorische rituelen. Drie collecties — Basic, Voor Haar en Voor Hem — geformuleerd volgens ISO 16128 en handgemaakt in Andalusië."
+      "desc": "Artisanale cosmetica voor dagelijks gebruik: haar, lichaam, gezicht en scheren in sensorische rituelen. Drie collecties — Basic, Voor Haar en Voor Hem — geformuleerd volgens ISO 16128 en handgemaakt in Andalusië.",
+      "h1Qualifier": "Naturlijk"
     },
     "hogar": {
       "kicker": "Collectie",
-      "title": "Huishoud",
-      "accent": "verzorging",
-      "desc": "Huishoud verzorging als ritueel: schoonmaken omgezet in het gevoel van een verzorgd huis. Wasmiddel, wasverzachter, afwasmiddel, specifieke reinigingsmiddelen en allesreinigers met zachte formules van natuurlijke oorsprong."
+      "title": "Natuurlijke",
+      "accent": "huishoudverzorging",
+      "desc": "Huishoud verzorging als ritueel: schoonmaken omgezet in het gevoel van een verzorgd huis. Wasmiddel, wasverzachter, afwasmiddel, specifieke reinigingsmiddelen en allesreinigers met zachte formules van natuurlijke oorsprong.",
+      "h1Qualifier": "Naturlijk"
     },
     "mascota": {
       "kicker": "Collectie",
-      "title": "Huisdier",
-      "accent": "verzorging",
-      "desc": "Huisdier verzorging als ritueel: zachte verzorging voor honden en katten met rustige hygiëne en stressvrije verbinding. Producten met MAPA-registratie en hypoallergene formules."
+      "title": "Natuurlijke",
+      "accent": "huisdierverzorging",
+      "desc": "Huisdier verzorging als ritueel: zachte verzorging voor honden en katten met rustige hygiëne en stressvrije verbinding. Producten met MAPA-registratie en hypoallergene formules.",
+      "h1Qualifier": "Naturlijk"
     }
   }
 }

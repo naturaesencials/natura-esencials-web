@@ -23,7 +23,7 @@
         "name": "Ritual Plenitud",
         "nameMain": "Ritual",
         "nameAccent": "Plenitud",
-        "subtitle": "La rutina femenina completa con aceites de argán y oliva.",
+        "subtitle": "La rutina femenina completa con aceites de argán y oliva virgen. Cuatro pasos, un solo universo natural.",
         "shortDescription": "Champú, acondicionador, jabón y body milk: la rutina femenina completa. Formulación natural de la casa, con aceites de argán y oliva de principio a fin.",
         "longDescription": "Pack de upgrade para quien quiere una experiencia más redonda. Cuatro pasos esenciales para el cuidado diario en formato 300ml.",
         "promise": "Cuidado completo sin complicarte.",
@@ -32,7 +32,7 @@
       },
       "en": {
         "name": "Ritual Wholeness",
-        "subtitle": "The complete feminine routine with argan and olive oils.",
+        "subtitle": "The complete feminine routine with argan and olive oils for hair, body and skin. Four essential products.",
         "slug": "fulfillment-300",
         "promise": "Complete care, no fuss.",
         "aiTranslation": true,
@@ -44,7 +44,7 @@
       },
       "fr": {
         "name": "Rituel Plénitude",
-        "subtitle": "La routine féminine complète aux huiles d'argan et d'olive.",
+        "subtitle": "La routine féminine complète aux huiles d'argan et d'olive. Quatre produits, une expérience sensorielle complète.",
         "slug": "plenitude-300",
         "promise": "Soin complet sans complications.",
         "aiTranslation": true,
@@ -56,7 +56,7 @@
       },
       "de": {
         "name": "Ritual Fülle",
-        "subtitle": "Die vollständige Frauenpflegeroutine mit Argan- und Olivenöl.",
+        "subtitle": "Die vollständige Frauenpflegeroutine mit Argan- und Olivenöl für Haar, Körper und Haut. Vier Produkte.",
         "slug": "fuelle-300",
         "promise": "Vollständige Pflege, unkompliziert.",
         "aiTranslation": true,
@@ -68,7 +68,7 @@
       },
       "it": {
         "name": "Rituale Pienezza",
-        "subtitle": "La routine femminile completa con oli di argan e oliva.",
+        "subtitle": "La routine femminile completa con oli di argan e oliva per capelli, corpo e pelle. Quattro prodotti essenziali.",
         "slug": "pienezza-300",
         "promise": "Cura completa, senza complicazioni.",
         "aiTranslation": true,
@@ -80,7 +80,7 @@
       },
       "nl": {
         "name": "Ritueel Volheid",
-        "subtitle": "De complete vrouwelijke routine met argan- en olijfolie.",
+        "subtitle": "De complete vrouwelijke routine met argan- en olijfolie voor haar, lichaam en huid. Vier essentiële producten.",
         "slug": "volheid-300",
         "promise": "Volledige verzorging, geen gedoe.",
         "aiTranslation": true,
@@ -92,7 +92,7 @@
       },
       "pt": {
         "name": "Ritual Plenitude",
-        "subtitle": "A rotina feminina completa com óleos de argão e azeite.",
+        "subtitle": "A rotina feminina completa com óleos de argão e azeite virgem para o cabelo, o corpo e a pele. Quatro passos.",
         "slug": "plenitude-300",
         "promise": "Cuidado completo sem complicações.",
         "aiTranslation": true,
@@ -234,16 +234,16 @@
         "name": "Ritual Ducha Perfecta",
         "nameMain": "Ritual",
         "nameAccent": "Ducha Perfecta",
-        "subtitle": "La ducha completa con ingredientes de origen natural, de cabeza a pies.",
+        "subtitle": "La ducha completa con ingredientes de origen natural, de cabeza a pies. Un ritual pensado para cada día.",
         "shortDescription": "Champú con argán, jabón de oliva y coco, y loción de aguacate y jojoba. La ducha completa con ingredientes de origen natural, de cabeza a pies.",
         "longDescription": "El Ritual Ducha Perfecta: cabello y piel en orden con una rutina clara de uso diario.",
         "promise": "Estar bien en tu piel.",
-        "story": "Me quito el día de encima, reinicio y sello el cuidado.",
+        "story": "Me quito el día de encima, reinicio y sello el cuidado. Tres pasos, una sola intención: estar bien en tu piel.",
         "slug": "ducha-perfecta-300"
       },
       "en": {
         "name": "Ritual Perfect Shower",
-        "subtitle": "The complete shower with naturally derived ingredients, head to toe.",
+        "subtitle": "The complete shower with naturally derived ingredients, head to toe. One daily ritual, fresh results every time.",
         "slug": "perfect-shower-300",
         "promise": "Feel good in your skin.",
         "aiTranslation": true,
@@ -251,11 +251,11 @@
         "nameAccent": "Perfect Shower",
         "shortDescription": "Argan shampoo, olive and coconut soap, and avocado and jojoba lotion. The complete shower with naturally derived ingredients, head to toe.",
         "longDescription": "The Ritual Perfect Shower: hair and skin in order with a clear daily-use routine.",
-        "story": "Wash the day away, reset and seal in the care. Three steps, one intention: feel good in your skin."
+        "story": "Wash the day away, reset and seal in the care. Three steps, one clear intention: feel completely good in your skin."
       },
       "fr": {
         "name": "Rituel Douche Parfaite",
-        "subtitle": "La douche complète aux ingrédients d'origine naturelle, de la tête aux pieds.",
+        "subtitle": "La douche complète aux ingrédients d'origine naturelle, de la tête aux pieds. Un rituel conçu pour chaque jour.",
         "slug": "douche-parfaite-300",
         "promise": "Se sentir bien dans sa peau.",
         "aiTranslation": true,
@@ -267,7 +267,7 @@
       },
       "de": {
         "name": "Ritual Perfekte Dusche",
-        "subtitle": "Die vollständige Dusche mit natürlich gewonnenen Inhaltsstoffen, von Kopf bis Fuß.",
+        "subtitle": "Die vollständige Dusche mit natürlich gewonnenen Inhaltsstoffen, von Kopf bis Fuß. Täglich frisch und gepflegt.",
         "slug": "perfekte-dusche-300",
         "promise": "Sich wohl in der eigenen Haut fühlen.",
         "aiTranslation": true,
@@ -279,7 +279,7 @@
       },
       "it": {
         "name": "Rituale Doccia Perfetta",
-        "subtitle": "La doccia completa con ingredienti di origine naturale, dalla testa ai piedi.",
+        "subtitle": "La doccia completa con ingredienti di origine naturale, dalla testa ai piedi. Un rituale pensato per ogni giorno.",
         "slug": "doccia-perfetta-300",
         "promise": "Stare bene nella propria pelle.",
         "aiTranslation": true,
@@ -291,7 +291,7 @@
       },
       "nl": {
         "name": "Ritueel Perfecte Douche",
-        "subtitle": "De complete douche met natuurlijk gewonnen ingrediënten, van hoofd tot teen.",
+        "subtitle": "De complete douche met natuurlijk gewonnen ingrediënten, van hoofd tot teen. Een dagelijks ritueel, elke dag fris.",
         "slug": "perfecte-douche-300",
         "promise": "Je goed voelen in je eigen huid.",
         "aiTranslation": true,
@@ -303,7 +303,7 @@
       },
       "pt": {
         "name": "Ritual Duche Perfeito",
-        "subtitle": "O duche completo com ingredientes de origem natural, da cabeça aos pés.",
+        "subtitle": "O duche completo com ingredientes de origem natural, da cabeça aos pés. Um ritual pensado para cada dia do ano.",
         "slug": "duche-perfeito-300",
         "promise": "Sentir-se bem na sua própria pele.",
         "aiTranslation": true,
@@ -311,7 +311,7 @@
         "nameAccent": "Duche Perfeito",
         "shortDescription": "Champô com argão, sabão de azeitona e coco, e loção de abacate e jojoba. O duche completo com ingredientes de origem natural.",
         "longDescription": "O Ritual Duche Perfeito: cabelo e pele em ordem com uma rotina clara de uso diário.",
-        "story": "Lava o dia, recomeça e sela o cuidado. Três passos, uma intenção: sentir-se bem na própria pele."
+        "story": "Lava o dia, recomeça e sela o cuidado. Três passos, uma intenção clara: sentir-se completamente bem na própria pele."
       },
       "handles": {
         "300 ml": "pack-esenciales-diarios",
@@ -443,16 +443,16 @@
         "name": "Ritual Rendimiento",
         "nameMain": "Ritual",
         "nameAccent": "Rendimiento",
-        "subtitle": "El ritual del hombre activo: eficaz, rápido y 100% de origen natural.",
+        "subtitle": "El ritual del hombre activo: eficaz, rápido y 100% de origen natural. Del pelo a la piel sin complicaciones.",
         "shortDescription": "Limpiador 3 en 1 con argán para cuerpo y cabello, más body milk de aguacate y jojoba. El ritual del hombre activo.",
         "longDescription": "Volver a ti en dos pasos, con una ducha funcional y un cierre ligero sobre la piel.",
         "promise": "Limpiar, hidratar, seguir.",
-        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones.",
+        "story": "Post-gym, post-playa, vuelta al ritmo. Sin complicaciones, sin residuos, sin perder el tiempo con la piel.",
         "slug": "rendimiento-300"
       },
       "en": {
         "name": "Ritual Performance",
-        "subtitle": "The complete masculine routine from head to toe.",
+        "subtitle": "The complete masculine routine from head to toe, formulated with naturally derived active ingredients.",
         "slug": "performance-300",
         "promise": "Performance without compromise.",
         "aiTranslation": true,
@@ -460,11 +460,11 @@
         "nameAccent": "Performance",
         "shortDescription": "Men's shampoo, shower gel, aftershave balm and body milk. The complete daily masculine routine with natural ingredients.",
         "longDescription": "The Ritual Performance: four essential steps for a practical and effective daily routine. 300ml format.",
-        "story": "Post-gym, post-beach, back in the groove. No fuss."
+        "story": "Post-gym, post-beach, back in the groove. No fuss, no residue, no time wasted — just clean, cared-for skin."
       },
       "fr": {
         "name": "Rituel Performance",
-        "subtitle": "La routine masculine complète de la tête aux pieds.",
+        "subtitle": "La routine masculine complète de la tête aux pieds, formulée avec des ingrédients d'origine naturelle.",
         "slug": "performance-300",
         "promise": "Performance sans compromis.",
         "aiTranslation": true,
@@ -472,11 +472,11 @@
         "nameAccent": "Performance",
         "shortDescription": "Shampooing homme, gel douche, baume après-rasage et lait corporel. La routine masculine quotidienne complète aux ingrédients naturels.",
         "longDescription": "Le Rituel Performance: quatre étapes essentielles pour une routine quotidienne pratique et efficace. Format 300ml.",
-        "story": "Après la salle, après la plage, retour au rythme. Sans complications."
+        "story": "Après la salle, après la plage, retour au rythme. Sans complications, sans résidus, sans perdre de temps."
       },
       "de": {
         "name": "Ritual Leistung",
-        "subtitle": "Die vollständige Männerpflegeroutine von Kopf bis Fuß.",
+        "subtitle": "Die vollständige Männerpflegeroutine von Kopf bis Fuß, formuliert mit natürlich gewonnenen Wirkstoffen.",
         "slug": "leistung-300",
         "promise": "Leistung ohne Kompromisse.",
         "aiTranslation": true,
@@ -484,11 +484,11 @@
         "nameAccent": "Leistung",
         "shortDescription": "Männershampoo, Duschgel, Aftershave-Balsam und Body Milk. Die vollständige tägliche Männerpflegeroutine mit natürlichen Inhaltsstoffen.",
         "longDescription": "Das Ritual Leistung: vier wesentliche Schritte für eine praktische und effektive tägliche Routine. 300ml-Format.",
-        "story": "Nach dem Sport, nach dem Strand, zurück im Rhythmus. Unkompliziert."
+        "story": "Nach dem Sport, nach dem Strand, zurück im Rhythmus. Unkompliziert, ohne Rückstände, ohne Zeitverlust für die Haut."
       },
       "it": {
         "name": "Rituale Rendimento",
-        "subtitle": "La routine maschile completa dalla testa ai piedi.",
+        "subtitle": "La routine maschile completa dalla testa ai piedi, formulata con ingredienti di origine naturale attivi.",
         "slug": "rendimento-300",
         "promise": "Prestazioni senza compromessi.",
         "aiTranslation": true,
@@ -496,11 +496,11 @@
         "nameAccent": "Rendimento",
         "shortDescription": "Shampoo uomo, gel doccia, balsamo dopobarba e body milk. La routine maschile quotidiana completa con ingredienti naturali.",
         "longDescription": "Il Rituale Rendimento: quattro passi essenziali per una routine quotidiana pratica ed efficace. Formato 300ml.",
-        "story": "Dopo la palestra, dopo la spiaggia, di nuovo nel ritmo. Senza complicazioni."
+        "story": "Dopo la palestra, dopo la spiaggia, di nuovo nel ritmo. Senza complicazioni, senza residui, senza sprechi di tempo."
       },
       "nl": {
         "name": "Ritueel Performance",
-        "subtitle": "De complete mannelijke routine van hoofd tot teen.",
+        "subtitle": "De complete mannelijke routine van hoofd tot teen, geformuleerd met natuurlijk gewonnen ingrediënten.",
         "slug": "performance-300",
         "promise": "Prestatie zonder compromissen.",
         "aiTranslation": true,
@@ -508,11 +508,11 @@
         "nameAccent": "Performance",
         "shortDescription": "Mannenshampoo, douchegel, aftershave balsem en body milk. De complete dagelijkse mannelijke routine met natuurlijke ingrediënten.",
         "longDescription": "Het Ritueel Performance: vier essentiële stappen voor een praktische en effectieve dagelijkse routine. 300ml-formaat.",
-        "story": "Na de sportschool, na het strand, weer in het ritme. Zonder gedoe."
+        "story": "Na de sportschool, na het strand, weer in het ritme. Zonder gedoe, zonder resten, zonder tijdverlies voor de huid."
       },
       "pt": {
         "name": "Ritual Desempenho",
-        "subtitle": "A rotina masculina completa da cabeça aos pés.",
+        "subtitle": "A rotina masculina completa da cabeça aos pés, formulada com ingredientes de origem natural ativos e eficazes.",
         "slug": "desempenho-300",
         "promise": "Desempenho sem compromissos.",
         "aiTranslation": true,
@@ -520,7 +520,7 @@
         "nameAccent": "Desempenho",
         "shortDescription": "Champô homem, gel de duche, bálsamo pós-barba e body milk. A rotina masculina diária completa com ingredientes naturais.",
         "longDescription": "O Ritual Desempenho: quatro passos essenciais para uma rotina diária prática e eficaz. Formato 300ml.",
-        "story": "Pós-ginásio, pós-praia, de volta ao ritmo. Sem complicações."
+        "story": "Pós-ginásio, pós-praia, de volta ao ritmo. Sem complicações, sem resíduos, sem perder tempo a cuidar da pele."
       },
       "handles": {
         "300 ml": "pack-deportivo-higiene-cuidado",
@@ -652,7 +652,7 @@
         "name": "Ritual Para Ella",
         "nameMain": "Ritual",
         "nameAccent": "Para Ella",
-        "subtitle": "Cuatro productos, una sola filosofía: cuidado femenino natural de pies a cabeza.",
+        "subtitle": "Cuatro productos, una sola filosofía: cuidado femenino natural de pies a cabeza con aroma de naranja fresca.",
         "shortDescription": "Champú, acondicionador, gel y body milk con aroma de naranja fresca Citrus Aurantium. Cuatro productos, una sola filosofía.",
         "longDescription": "Mimo diario, piel bonita, cierre ligero y perfumado. Cuatro productos que comparten la misma firma olfativa: naranja fresca con notas cítricas.",
         "promise": "Mimo diario con coherencia sensorial.",
@@ -661,7 +661,7 @@
       },
       "en": {
         "name": "Ritual for Her",
-        "subtitle": "The ultimate feminine gift: hair, body and soul.",
+        "subtitle": "The ultimate feminine gift set: complete hair, body and skin care in one beautifully curated natural box.",
         "slug": "for-her",
         "promise": "The complete gift for her.",
         "aiTranslation": true,
@@ -673,7 +673,7 @@
       },
       "fr": {
         "name": "Rituel Pour Elle",
-        "subtitle": "Le cadeau féminin ultime : cheveux, corps et âme.",
+        "subtitle": "Le cadeau féminin ultime : soin complet des cheveux, du corps et de la peau en une seule boîte soignée.",
         "slug": "pour-elle",
         "promise": "Le cadeau complet pour elle.",
         "aiTranslation": true,
@@ -685,7 +685,7 @@
       },
       "de": {
         "name": "Ritual für Sie",
-        "subtitle": "Das ultimative Frauengeschenk: Haare, Körper und Seele.",
+        "subtitle": "Das ultimative Frauengeschenk: vollständige Haar-, Körper- und Hautpflege in einer einzigen eleganten Box.",
         "slug": "fuer-sie",
         "promise": "Das komplette Geschenk für sie.",
         "aiTranslation": true,
@@ -697,7 +697,7 @@
       },
       "it": {
         "name": "Rituale Per Lei",
-        "subtitle": "Il regalo femminile definitivo: capelli, corpo e anima.",
+        "subtitle": "Il regalo femminile definitivo: cura completa di capelli, corpo e pelle in un'unica scatola elegante.",
         "slug": "per-lei",
         "promise": "Il regalo completo per lei.",
         "aiTranslation": true,
@@ -709,7 +709,7 @@
       },
       "nl": {
         "name": "Ritueel Voor Haar",
-        "subtitle": "Het ultieme vrouwelijke cadeau: haar, lichaam en ziel.",
+        "subtitle": "Het ultieme vrouwelijke cadeau: complete verzorging van haar, lichaam en huid in één elegante doos met natuurlijke formule.",
         "slug": "voor-haar",
         "promise": "Het complete cadeau voor haar.",
         "aiTranslation": true,
@@ -721,7 +721,7 @@
       },
       "pt": {
         "name": "Ritual Para Ela",
-        "subtitle": "O presente feminino definitivo: cabelo, corpo e alma.",
+        "subtitle": "O presente feminino definitivo: cuidado completo do cabelo, corpo e pele numa só embalagem elegante.",
         "slug": "para-ela",
         "promise": "O presente completo para ela.",
         "aiTranslation": true,
@@ -761,7 +761,7 @@
         "name": "Ritual Para Él",
         "nameMain": "Ritual",
         "nameAccent": "Para Él",
-        "subtitle": "La rutina masculina completa: cuatro pasos, cero compromisos.",
+        "subtitle": "La rutina masculina completa: cuatro pasos, cero compromisos. Ámbar fresco de cabeza a pies, todo natural.",
         "shortDescription": "Champú, acondicionador, gel y body milk con aroma ámbar fresco masculino y aceite de argán. La rutina masculina completa.",
         "longDescription": "Limpio, fresco, práctico y bien resuelto. Cuatro productos con el mismo carácter ámbar masculino para una rutina diaria coherente y elegante.",
         "promise": "Rutina masculina con carácter ámbar.",
@@ -770,7 +770,7 @@
       },
       "en": {
         "name": "Ritual for Him",
-        "subtitle": "The ultimate masculine gift: head to toe.",
+        "subtitle": "The ultimate masculine gift set: complete head-to-toe grooming with warm amber, basil and thyme notes.",
         "slug": "for-him",
         "promise": "The complete gift for him.",
         "aiTranslation": true,
@@ -782,7 +782,7 @@
       },
       "fr": {
         "name": "Rituel Pour Lui",
-        "subtitle": "Le cadeau masculin ultime : de la tête aux pieds.",
+        "subtitle": "Le cadeau masculin ultime : soin complet de la tête aux pieds, dans une seule boîte élégante pour lui.",
         "slug": "pour-lui",
         "promise": "Le cadeau complet pour lui.",
         "aiTranslation": true,
@@ -794,7 +794,7 @@
       },
       "de": {
         "name": "Ritual für Ihn",
-        "subtitle": "Das ultimative Männergeschenk: von Kopf bis Fuß.",
+        "subtitle": "Das ultimative Männergeschenk: vollständige Pflege von Kopf bis Fuß in einer eleganten Box mit Amber-Duft.",
         "slug": "fuer-ihn",
         "promise": "Das komplette Geschenk für ihn.",
         "aiTranslation": true,
@@ -806,7 +806,7 @@
       },
       "it": {
         "name": "Rituale Per Lui",
-        "subtitle": "Il regalo maschile definitivo: dalla testa ai piedi.",
+        "subtitle": "Il regalo maschile definitivo: cura completa dalla testa ai piedi in un'unica elegante scatola profumata.",
         "slug": "per-lui",
         "promise": "Il regalo completo per lui.",
         "aiTranslation": true,
@@ -818,7 +818,7 @@
       },
       "nl": {
         "name": "Ritueel Voor Hem",
-        "subtitle": "Het ultieme mannelijke cadeau: van hoofd tot teen.",
+        "subtitle": "Het ultieme mannelijke cadeau: complete verzorging van hoofd tot teen in één elegante doos met amberdeur.",
         "slug": "voor-hem",
         "promise": "Het complete cadeau voor hem.",
         "aiTranslation": true,
@@ -830,7 +830,7 @@
       },
       "pt": {
         "name": "Ritual Para Ele",
-        "subtitle": "O presente masculino definitivo: da cabeça aos pés.",
+        "subtitle": "O presente masculino definitivo: cuidado completo da cabeça aos pés numa única caixa elegante perfumada.",
         "slug": "para-ele",
         "promise": "O presente completo para ele.",
         "aiTranslation": true,
@@ -870,16 +870,16 @@
         "name": "Ritual Vajilla Perfecta",
         "nameMain": "Ritual",
         "nameAccent": "Vajilla Perfecta",
-        "subtitle": "Vajilla impecable, sin marcas de agua y con secado perfecto.",
+        "subtitle": "Vajilla impecable sin marcas de agua y con secado perfecto. Detergente y abrillantador de origen natural.",
         "shortDescription": "Detergente en gel y abrillantador para lavavajillas, ambos de origen natural. Vajilla perfecta en cada lavado.",
         "longDescription": "El Ritual Vajilla Perfecta combina el Detergente en gel para lavavajillas y el Abrillantador, ambos de origen natural. El detergente corta la grasa y protege el vidrio y el metal. El abrillantador previene las marcas de agua y mejora el secado. Resultado: vajilla impecable, sin marcas de agua y con secado perfecto en cada ciclo.",
         "promise": "Orden sin drama.",
-        "story": "Cierra la cocina, abre la máquina, disfruta del brillo.",
+        "story": "Cierra la cocina, abre la máquina, disfruta del brillo. Así de fácil, así de natural y así de eficaz.",
         "slug": "vajilla-perfecta"
       },
       "en": {
         "name": "Ritual Perfect Dishes",
-        "subtitle": "The complete dishwashing ritual with natural ingredients.",
+        "subtitle": "The complete dishwashing ritual with natural ingredients. Spotless dishes, perfect drying, no harsh chemicals.",
         "slug": "perfect-dishes",
         "promise": "Sparkling dishes, naturally.",
         "aiTranslation": true,
@@ -887,11 +887,11 @@
         "nameAccent": "Perfect Dishes",
         "shortDescription": "Dishwashing liquid, rinse aid and salt: everything you need for sparkling dishes with naturally derived ingredients.",
         "longDescription": "The Perfect Dishware Ritual combines our citrus Dishwashing Liquid, naturally derived Rinse Aid and Dishwasher Salt.",
-        "story": "Close the kitchen, start the machine, enjoy the sparkle."
+        "story": "Close the kitchen, start the machine, enjoy the sparkle. Clean and natural results without harsh chemical residues."
       },
       "fr": {
         "name": "Rituel Vaisselle Parfaite",
-        "subtitle": "Le rituel vaisselle complet aux ingrédients naturels.",
+        "subtitle": "Le rituel vaisselle complet aux ingrédients naturels. Vaisselle impeccable, séchage parfait, sans chimie agressive.",
         "slug": "vaisselle-parfaite",
         "promise": "Vaisselle éclatante, naturellement.",
         "aiTranslation": true,
@@ -899,11 +899,11 @@
         "nameAccent": "Vaisselle Parfaite",
         "shortDescription": "Liquide vaisselle, liquide de rinçage et sel : tout pour une vaisselle impeccable aux ingrédients d'origine naturelle.",
         "longDescription": "Le Rituel Vaisselle Parfaite combine notre Liquide Vaisselle citronné, le Liquide de Rinçage d'origine naturelle et le Sel Régénérant.",
-        "story": "Fermer la cuisine, lancer la machine, profiter de l'éclat."
+        "story": "Fermer la cuisine, lancer la machine, profiter de l'éclat. Des résultats propres et naturels sans résidus chimiques."
       },
       "de": {
         "name": "Ritual Perfektes Geschirr",
-        "subtitle": "Das vollständige Geschirrspülritual mit natürlichen Inhaltsstoffen.",
+        "subtitle": "Das vollständige Geschirrspülritual mit natürlichen Inhaltsstoffen. Makellose Ergebnisse ohne harte Chemikalien.",
         "slug": "perfektes-geschirr",
         "promise": "Strahlendes Geschirr, natürlich.",
         "aiTranslation": true,
@@ -911,11 +911,11 @@
         "nameAccent": "Perfektes Geschirr",
         "shortDescription": "Spülmittel, Klarspüler und Salz: alles für strahlend sauberes Geschirr mit natürlich gewonnenen Inhaltsstoffen.",
         "longDescription": "Das Ritual Perfektes Geschirr vereint unser Zitrus-Spülmittel, den natürlich gewonnenen Klarspüler und das Regeneriersalz.",
-        "story": "Küche schließen, Maschine starten, den Glanz genießen."
+        "story": "Küche schließen, Maschine starten, den Glanz genießen. Saubere und natürliche Ergebnisse ohne chemische Rückstände."
       },
       "it": {
         "name": "Rituale Stoviglie Perfette",
-        "subtitle": "Il rituale lavastoviglie completo con ingredienti naturali.",
+        "subtitle": "Il rituale lavastoviglie completo con ingredienti naturali. Stoviglie immacolate, asciugatura perfetta.",
         "slug": "stoviglie-perfette",
         "promise": "Piatti splendenti, naturalmente.",
         "aiTranslation": true,
@@ -923,11 +923,11 @@
         "nameAccent": "Stoviglie Perfette",
         "shortDescription": "Detersivo piatti, brillantante e sale: tutto per piatti impeccabili con ingredienti di origine naturale.",
         "longDescription": "Il Rituale Vasellame Perfetto combina il nostro Detersivo Piatti agli agrumi, il Brillantante di origine naturale e il Sale Rigenerante.",
-        "story": "Chiudere la cucina, avviare la macchina, godersi la brillantezza."
+        "story": "Chiudere la cucina, avviare la macchina, godersi la brillantezza. Risultati puliti e naturali senza sostanze aggressive."
       },
       "nl": {
         "name": "Ritueel Perfecte Vaat",
-        "subtitle": "Het complete vaatwasritueel met natuurlijke ingrediënten.",
+        "subtitle": "Het complete vaatwasritueel met natuurlijke ingrediënten. Vlekkeloze vaat, perfect drogen, geen agressieve stoffen.",
         "slug": "perfecte-vaat",
         "promise": "Stralend schoon servies, natuurlijk.",
         "aiTranslation": true,
@@ -935,11 +935,11 @@
         "nameAccent": "Perfecte Vaat",
         "shortDescription": "Afwasmiddel, glansspoelmiddel en zout: alles voor stralend schoon servies met natuurlijk gewonnen ingrediënten.",
         "longDescription": "Het Ritueel Perfecte Vaat verenigt ons citroenafwasmiddel, het natuurlijk gewonnen glansspoelmiddel en het regenereerzout.",
-        "story": "Keuken sluiten, machine starten, genieten van de glans."
+        "story": "Keuken sluiten, machine starten, genieten van de glans. Schone en natuurlijke resultaten zonder agressieve resten."
       },
       "pt": {
         "name": "Ritual Loiça Perfeita",
-        "subtitle": "O ritual de loiça completo com ingredientes naturais.",
+        "subtitle": "O ritual de loiça completo com ingredientes naturais. Louça impecável, secagem perfeita, sem química agressiva.",
         "slug": "loica-perfeita",
         "promise": "Loiça reluzente, naturalmente.",
         "aiTranslation": true,
@@ -947,7 +947,7 @@
         "nameAccent": "Loiça Perfeita",
         "shortDescription": "Detergente da loiça, abrilhantador e sal: tudo para loiça impecável com ingredientes de origem natural.",
         "longDescription": "O Ritual Loiça Perfeita combina o nosso Detergente da Loiça cítrico, o Abrilhantador de origem natural e o Sal Regenerador.",
-        "story": "Fechar a cozinha, ligar a máquina, desfrutar do brilho."
+        "story": "Fechar a cozinha, ligar a máquina, desfrutar do brilho. Resultados limpos e naturais sem substâncias agressivas."
       },
       "basePriceGBP": 10.58
     },
@@ -972,16 +972,16 @@
         "name": "Ritual Baño Impecable",
         "nameMain": "Ritual",
         "nameAccent": "Baño Impecable",
-        "subtitle": "El baño que brilla sin esfuerzo. Ambos 96-99% de origen natural.",
+        "subtitle": "El baño que brilla sin esfuerzo: limpiador de baños y limpiacristales, ambos 96-99% de origen natural.",
         "shortDescription": "Limpiador anticálcáreo con perfume fresco y limpiacristales sin velos. El baño que brilla sin esfuerzo.",
         "longDescription": "El Ritual Baño Impecable combina el Limpiador de Baños anticálcáreo y el Limpiacristales sin velos, ambos 96-99% de origen natural. El limpiador actúa contra la cal en 10 minutos y está dermatológicamente testado. El limpiacristales deja espejos y mamparas perfectos con una sola pulverización. El baño que brilla sin esfuerzo.",
         "promise": "Baño que invita a cuidarte.",
-        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos.",
+        "story": "Anti-cal y brillo final: el baño queda como nuevo en dos gestos sencillos, con fórmula completamente natural.",
         "slug": "bano-impecable"
       },
       "en": {
         "name": "Ritual Impeccable Bathroom",
-        "subtitle": "The complete bathroom cleaning ritual with natural ingredients.",
+        "subtitle": "The complete bathroom cleaning ritual with natural ingredients. Effortless sparkle, no harsh chemicals needed.",
         "slug": "impeccable-bathroom",
         "promise": "A spotless bathroom, naturally.",
         "aiTranslation": true,
@@ -989,11 +989,11 @@
         "nameAccent": "Impeccable Bathroom",
         "shortDescription": "Bathroom cleaner, limescale remover and glass cleaner: the complete bathroom care with naturally derived ingredients.",
         "longDescription": "The Impeccable Bathroom Ritual brings together three products designed to keep every surface in the bathroom spotless.",
-        "story": "Limescale remover and final shine: the bathroom looks brand new in two easy steps."
+        "story": "Limescale remover and final shine: the bathroom looks brand new in two simple and fully natural cleaning steps."
       },
       "fr": {
         "name": "Rituel Salle de Bain Impeccable",
-        "subtitle": "Le rituel salle de bain complet aux ingrédients naturels.",
+        "subtitle": "Le rituel salle de bain complet aux ingrédients naturels. Brillance sans effort, propre et naturellement.",
         "slug": "salle-de-bain-impeccable",
         "promise": "Une salle de bain impeccable, naturellement.",
         "aiTranslation": true,
@@ -1001,11 +1001,11 @@
         "nameAccent": "Salle de Bain Impeccable",
         "shortDescription": "Nettoyant salle de bain, anticalcaire et nettoyant vitres : le soin complet pour la salle de bain aux ingrédients d'origine naturelle.",
         "longDescription": "Le Rituel Salle de Bain Impeccable réunit trois produits conçus pour garder chaque surface impeccable.",
-        "story": "Anti-calcaire et brillance finale : la salle de bain redevient neuve en deux gestes."
+        "story": "Anti-calcaire et brillance finale : la salle de bain redevient neuve en deux gestes simples et entièrement naturels."
       },
       "de": {
         "name": "Ritual Makelloses Bad",
-        "subtitle": "Das vollständige Badezimmer-Reinigungsritual mit natürlichen Inhaltsstoffen.",
+        "subtitle": "Das vollständige Badezimmer-Reinigungsritual mit natürlichen Inhaltsstoffen. Glanz ohne Aufwand, sanft und wirksam.",
         "slug": "makelloses-bad",
         "promise": "Ein makelloses Bad, natürlich.",
         "aiTranslation": true,
@@ -1013,11 +1013,11 @@
         "nameAccent": "Makelloses Bad",
         "shortDescription": "Badreiniger, Kalkentferner und Glasreiniger: die vollständige Badezimmerpflege mit natürlich gewonnenen Inhaltsstoffen.",
         "longDescription": "Das Ritual Makelloses Bad vereint drei Produkte, die jede Oberfläche im Bad makellos halten.",
-        "story": "Kalkentferner und Schlussglanz: das Bad sieht wie neu aus in zwei Handgriffen."
+        "story": "Kalkentferner und Schlussglanz: das Bad sieht wie neu aus in zwei einfachen und vollkommen natürlichen Schritten."
       },
       "it": {
         "name": "Rituale Bagno Impeccabile",
-        "subtitle": "Il rituale pulizia bagno completo con ingredienti naturali.",
+        "subtitle": "Il rituale pulizia bagno completo con ingredienti naturali. Brillantezza senza sforzo, pulito naturalmente.",
         "slug": "bagno-impeccabile",
         "promise": "Un bagno impeccabile, naturalmente.",
         "aiTranslation": true,
@@ -1025,11 +1025,11 @@
         "nameAccent": "Bagno Impeccabile",
         "shortDescription": "Detergente bagno, anticalcare e lavavetri: la cura completa del bagno con ingredienti di origine naturale.",
         "longDescription": "Il Rituale Bagno Impeccabile riunisce tre prodotti pensati per mantenere ogni superficie del bagno impeccabile.",
-        "story": "Anticalcare e brillantezza finale: il bagno sembra nuovo in due gesti."
+        "story": "Anticalcare e brillantezza finale: il bagno sembra completamente nuovo in due gesti semplici e del tutto naturali."
       },
       "nl": {
         "name": "Ritueel Onberispelijke Badkamer",
-        "subtitle": "Het complete badkamerreinigingsritueel met natuurlijke ingrediënten.",
+        "subtitle": "Het complete badkamerreinigingsritueel met natuurlijke ingrediënten. Glans zonder moeite, zacht en effectief.",
         "slug": "onberispelijke-badkamer",
         "promise": "Een vlekkeloze badkamer, natuurlijk.",
         "aiTranslation": true,
@@ -1037,11 +1037,11 @@
         "nameAccent": "Onberispelijke Badkamer",
         "shortDescription": "Badkamerreiniger, kalkreiniger en glasreiniger: de complete badkamerverzorging met natuurlijk gewonnen ingrediënten.",
         "longDescription": "Het Ritueel Onberispelijke Badkamer verenigt drie producten ontworpen om elk oppervlak in de badkamer vlekkeloos te houden.",
-        "story": "Kalkreiniger en laatste glans: de badkamer ziet eruit als nieuw in twee stappen."
+        "story": "Kalkreiniger en laatste glans: de badkamer ziet eruit als gloednieuw in twee eenvoudige en volledig natuurlijke stappen."
       },
       "pt": {
         "name": "Ritual Casa de Banho Impecável",
-        "subtitle": "O ritual de limpeza de casa de banho completo com ingredientes naturais.",
+        "subtitle": "O ritual de limpeza de casa de banho completo com ingredientes naturais. Brilho sem esforço, natural e eficaz.",
         "slug": "casa-de-banho-impecavel",
         "promise": "Uma casa de banho impecável, naturalmente.",
         "aiTranslation": true,
@@ -1049,7 +1049,7 @@
         "nameAccent": "Casa de Banho Impecável",
         "shortDescription": "Limpa casa de banho, anticalcário e limpa-vidros: os cuidados completos para a casa de banho com ingredientes de origem natural.",
         "longDescription": "O Ritual Casa de Banho Impecável reúne três produtos concebidos para manter cada superfície impecável.",
-        "story": "Anticalcário e brilho final: a casa de banho fica como nova em dois gestos."
+        "story": "Anticalcário e brilho final: a casa de banho fica como nova em dois gestos simples e completamente naturais."
       },
       "basePriceGBP": 9.46
     },
@@ -1075,16 +1075,16 @@
         "name": "Ritual Cocina Impecable",
         "nameMain": "Ritual",
         "nameAccent": "Cocina Impecable",
-        "subtitle": "La cocina impecable de dentro a fuera, con ingredientes de origen natural.",
+        "subtitle": "La cocina impecable de dentro a fuera, con ingredientes de origen natural al 96-99%. Tres productos, todo cubierto.",
         "shortDescription": "Desengrasante 99% de origen natural, lavavajillas cítrico y multisuperficies 97% natural. La cocina impecable.",
         "longDescription": "El Ritual Cocina Impecable reúne el Desengrasante 99% de origen natural, el Lavavajillas Manual con fragancia cítrica y el Limpiador Multisuperficies de origen natural. El desengrasante disuelve la grasa difícil sin esfuerzo. El lavavajillas cuida las manos mientras desengrasa con aroma cítrico. El multisuperficies deja encimeras y muebles brillantes sin rayas. La cocina impecable de dentro a fuera.",
         "promise": "Cerrar la cocina y respirar.",
-        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio.",
+        "story": "Tres productos, una cocina entera limpia. El cierre del día más satisfactorio, con aroma fresco a cítricos.",
         "slug": "cocina-impecable"
       },
       "en": {
         "name": "Ritual Impeccable Kitchen",
-        "subtitle": "The impeccably clean kitchen, inside and out, with naturally derived ingredients.",
+        "subtitle": "The impeccably clean kitchen, inside and out, with naturally derived ingredients. Three products, one complete kit.",
         "slug": "impeccable-kitchen",
         "promise": "Close the kitchen and breathe easy.",
         "aiTranslation": true,
@@ -1092,11 +1092,11 @@
         "nameAccent": "Impeccable Kitchen",
         "shortDescription": "99% naturally derived degreaser, citrus dishwashing liquid and 97% natural multi-surface cleaner. The impeccably clean kitchen.",
         "longDescription": "The Impeccable Kitchen Ritual brings together the 99% naturally derived Degreaser, the Citrus Dishwashing Liquid and the Multi-Surface Cleaner. The degreaser dissolves grease effectively while remaining gentle on surfaces.",
-        "story": "Three products, one entire clean kitchen. The perfect end to the day that smells of citrus."
+        "story": "Three products, one entire clean kitchen. The perfect end to the day that smells of fresh citrus and feels natural."
       },
       "fr": {
         "name": "Rituel Cuisine Impeccable",
-        "subtitle": "La cuisine impeccable de l'intérieur vers l'extérieur, avec des ingrédients d'origine naturelle.",
+        "subtitle": "La cuisine impeccable de l'intérieur vers l'extérieur, avec des ingrédients d'origine naturelle. Trois produits suffisent.",
         "slug": "cuisine-impeccable",
         "promise": "Fermer la cuisine et respirer.",
         "aiTranslation": true,
@@ -1104,11 +1104,11 @@
         "nameAccent": "Cuisine Impeccable",
         "shortDescription": "Dégraissant 99% d'origine naturelle, liquide vaisselle citronné et nettoyant multi-surfaces 97% naturel. La cuisine impeccable.",
         "longDescription": "Le Rituel Cuisine Impeccable réunit le Dégraissant 99% d'origine naturelle, le Liquide Vaisselle à la fragrance citronnée et le Nettoyant Multi-Surfaces d'origine naturelle.",
-        "story": "Trois produits, une cuisine entière propre. La fin parfaite de la journée qui sent les agrumes."
+        "story": "Trois produits, une cuisine entière propre. La fin parfaite de la journée qui sent les agrumes frais et naturels."
       },
       "de": {
         "name": "Ritual Makellose Küche",
-        "subtitle": "Die makellose Küche von innen nach außen, mit natürlich gewonnenen Inhaltsstoffen.",
+        "subtitle": "Die makellose Küche von innen nach außen, mit natürlich gewonnenen Inhaltsstoffen. Drei Produkte genügen.",
         "slug": "makellose-kueche",
         "promise": "Küche schließen und durchatmen.",
         "aiTranslation": true,
@@ -1116,11 +1116,11 @@
         "nameAccent": "Makellose Küche",
         "shortDescription": "99% natürlich gewonnener Entfetter, Zitrus-Spülmittel und 97% natürlicher Allzweckreiniger. Die makellose Küche.",
         "longDescription": "Das Ritual Makellose Küche vereint den 99% natürlich gewonnenen Entfetter, das Zitrus-Spülmittel und den Allzweckreiniger. Der Entfetter löst Fett effektiv auf und ist dabei schonend für Oberflächen.",
-        "story": "Drei Produkte, eine komplett saubere Küche. Der perfekte Tagesabschluss mit Zitrusduft."
+        "story": "Drei Produkte, eine komplett saubere Küche. Der perfekte Tagesabschluss mit frischem und natürlichem Zitrusduft."
       },
       "it": {
         "name": "Rituale Cucina Impeccabile",
-        "subtitle": "La cucina impeccabile dall'interno all'esterno, con ingredienti di origine naturale.",
+        "subtitle": "La cucina impeccabile dall'interno all'esterno, con ingredienti di origine naturale. Tre prodotti bastano.",
         "slug": "cucina-impeccabile",
         "promise": "Chiudere la cucina e respirare.",
         "aiTranslation": true,
@@ -1128,11 +1128,11 @@
         "nameAccent": "Cucina Impeccabile",
         "shortDescription": "Sgrassatore 99% di origine naturale, detersivo piatti agli agrumi e detergente multi-superficie 97% naturale. La cucina impeccabile.",
         "longDescription": "Il Rituale Cucina Impeccabile riunisce lo Sgrassatore 99% di origine naturale, il Detersivo Piatti alla fragranza agrumata e il Detergente Multi-Superficie di origine naturale.",
-        "story": "Tre prodotti, un'intera cucina pulita. La fine perfetta della giornata che profuma di agrumi."
+        "story": "Tre prodotti, un intera cucina pulita. La fine perfetta della giornata che profuma di agrumi freschi e naturali."
       },
       "nl": {
         "name": "Ritueel Onberispelijke Keuken",
-        "subtitle": "De vlekkeloze keuken van binnen naar buiten, met natuurlijk gewonnen ingrediënten.",
+        "subtitle": "De vlekkeloze keuken van binnen naar buiten, met natuurlijk gewonnen ingrediënten. Drie producten volstaan.",
         "slug": "onberispelijke-keuken",
         "promise": "Keuken sluiten en ademen.",
         "aiTranslation": true,
@@ -1140,11 +1140,11 @@
         "nameAccent": "Onberispelijke Keuken",
         "shortDescription": "99% natuurlijk gewonnen ontvetter, citroenafwasmiddel en 97% natuurlijk allesreiniger. De vlekkeloze keuken.",
         "longDescription": "Het Ritueel Onberispelijke Keuken verenigt de 99% natuurlijk gewonnen Ontvetter, het Citroenafwasmiddel en de Allesreiniger. De ontvetter lost vet effectief op terwijl het zacht blijft op oppervlakken.",
-        "story": "Drie producten, één volledig schone keuken. Het perfecte einde van de dag met citrusgeur."
+        "story": "Drie producten, één volledig schone keuken. Het perfecte einde van de dag met frisse en natuurlijke citrusgeur."
       },
       "pt": {
         "name": "Ritual Cozinha Impecável",
-        "subtitle": "A cozinha impecável por dentro e por fora, com ingredientes de origem natural.",
+        "subtitle": "A cozinha impecável por dentro e por fora, com ingredientes de origem natural ao 96-99%. Três produtos bastam.",
         "slug": "cozinha-impecavel",
         "promise": "Fechar a cozinha e respirar.",
         "aiTranslation": true,
@@ -1152,7 +1152,7 @@
         "nameAccent": "Cozinha Impecável",
         "shortDescription": "Desengordurante 99% de origem natural, detergente da loiça cítrico e produto multiusos 97% natural. A cozinha impecável.",
         "longDescription": "O Ritual Cozinha Impecável reúne o Desengordurante 99% de origem natural, o Detergente da Loiça com fragrância cítrica e o Produto Multiusos de origem natural.",
-        "story": "Três produtos, uma cozinha inteira limpa. O final perfeito do dia com aroma a citrinos."
+        "story": "Três produtos, uma cozinha inteira limpa. O final perfeito do dia com aroma a citrinos frescos e naturais."
       },
       "basePriceGBP": 13.33
     },
@@ -1177,16 +1177,16 @@
         "name": "Ritual Caricia",
         "nameMain": "Ritual",
         "nameAccent": "Caricia",
-        "subtitle": "La colada que limpia, suaviza y deja en la ropa un aroma que abraza.",
+        "subtitle": "La colada que limpia, suaviza y deja en la ropa un aroma de lavanda que abraza al doblarla con calma.",
         "shortDescription": "Detergente con lavanda reconfortante y suavizante con lavanda elegante. La colada perfecta.",
         "longDescription": "El Ritual Caricia combina el Detergente para Ropa con lavanda reconfortante y el Suavizante con lavanda elegante, ambos de origen natural. El detergente limpia con eficacia y deja un aroma duradero. El suavizante suaviza las fibras, facilita el planchado y mantiene el color. La colada que limpia, suaviza y deja en la ropa un aroma que abraza.",
         "promise": "Ropa suave con sensación de hogar.",
-        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla.",
+        "story": "El detergente con lavanda clásica y el suavizante elegante: la colada que abraza al doblarla, tarde a tarde.",
         "slug": "caricia"
       },
       "en": {
         "name": "Ritual Caress",
-        "subtitle": "The complete textile care ritual with natural ingredients.",
+        "subtitle": "The complete textile care ritual with natural ingredients. Lavender detergent and an elegant fabric softener.",
         "slug": "caress",
         "promise": "Soft clothes, naturally.",
         "aiTranslation": true,
@@ -1198,7 +1198,7 @@
       },
       "fr": {
         "name": "Rituel Caresse",
-        "subtitle": "Le rituel soin textile complet aux ingrédients naturels.",
+        "subtitle": "Le rituel soin textile complet aux ingrédients naturels. Détergent à la lavande et adoucissant élégant inclus.",
         "slug": "caresse",
         "promise": "Des vêtements doux, naturellement.",
         "aiTranslation": true,
@@ -1210,7 +1210,7 @@
       },
       "de": {
         "name": "Ritual Liebkosung",
-        "subtitle": "Das vollständige Textilpflegeritual mit natürlichen Inhaltsstoffen.",
+        "subtitle": "Das vollständige Textilpflegeritual mit natürlichen Inhaltsstoffen. Lavendelwaschmittel und eleganter Weichspüler.",
         "slug": "liebkosung",
         "promise": "Weiche Kleidung, natürlich.",
         "aiTranslation": true,
@@ -1222,7 +1222,7 @@
       },
       "it": {
         "name": "Rituale Carezza",
-        "subtitle": "Il rituale tessile completo con ingredienti naturali.",
+        "subtitle": "Il rituale tessile completo con ingredienti naturali. Detersivo alla lavanda e ammorbidente elegante inclusi.",
         "slug": "carezza",
         "promise": "Vestiti morbidi, naturalmente.",
         "aiTranslation": true,
@@ -1234,7 +1234,7 @@
       },
       "nl": {
         "name": "Ritueel Liefkozing",
-        "subtitle": "Het complete textielritueel met natuurlijke ingrediënten.",
+        "subtitle": "Het complete textielritueel met natuurlijke ingrediënten. Lavendelwasmiddel en elegante wasverzachter inbegrepen.",
         "slug": "liefkozing",
         "promise": "Zachte kleding, natuurlijk.",
         "aiTranslation": true,
@@ -1246,7 +1246,7 @@
       },
       "pt": {
         "name": "Ritual Carícia",
-        "subtitle": "O ritual de cuidado têxtil completo com ingredientes naturais.",
+        "subtitle": "O ritual de cuidado têxtil completo com ingredientes naturais. Detergente de lavanda e amaciador elegante.",
         "slug": "caricia",
         "promise": "Roupa macia, naturalmente.",
         "aiTranslation": true,
@@ -1281,27 +1281,28 @@
         "nameMain": "Ritual",
         "nameAccent": "Refugio",
         "slug": "refugio",
-        "subtitle": "Brillo limpio en todo el hogar, sin químicos agresivos.",
+        "subtitle": "Brillo limpio en todo el hogar, sin químicos agresivos. Cinco productos de origen natural al 96-99%.",
         "shortDescription": "Limpiador multisuperficies y limpiacristales, ambos 97-99% de origen natural. Brillo limpio en todo el hogar.",
-        "longDescription": "El Ritual Refugio reúne el Limpiador Multisuperficies de origen natural y el Limpiacristales 99% de origen natural. El limpiador con perfume suave elimina marcas y huellas en encimeras, muebles y puertas con brillo sin rayas. El limpiacristales deja cristales y espejos sin velos ni marcas con una sola pulverización. Brillo limpio en todo el hogar, sin ingredientes agresivos."
+        "longDescription": "El Ritual Refugio reúne el Limpiador Multisuperficies de origen natural y el Limpiacristales 99% de origen natural. El limpiador con perfume suave elimina marcas y huellas en encimeras, muebles y puertas con brillo sin rayas. El limpiacristales deja cristales y espejos sin velos ni marcas con una sola pulverización. Brillo limpio en todo el hogar, sin ingredientes agresivos.",
+        "story": "Cinco productos para toda la casa. La tranquilidad de saber que cada rincón está limpio, de forma natural y suave."
       },
       "en": {
         "name": "Ritual Sanctuary",
         "nameMain": "Ritual",
         "nameAccent": "Sanctuary",
         "slug": "shelter",
-        "subtitle": "The complete home care ritual — feel safe and cosy at home.",
+        "subtitle": "The complete home care ritual — feel safe and cosy at home with natural ingredients in every product.",
         "shortDescription": "Floor cleaner, multi-surface cleaner, glass cleaner, degreaser and limescale remover. Complete home care with naturally derived ingredients.",
         "longDescription": "The Sanctuary Ritual brings together the Multi-Surface Cleaner, Floor Cleaner, Glass Cleaner, Degreaser and Bathroom Cleaner. Five naturally derived products for every corner of the home. Plant-based surfactants, real essential oils and biodegradable formulas that leave no chemical residue. The complete home care kit, from kitchen to bathroom.",
         "promise": "Your home, your sanctuary.",
-        "story": "Five products for the whole house. The calm of knowing every corner is clean, naturally."
+        "story": "Five products for the whole house. The calm of knowing every single corner is clean, naturally and gently."
       },
       "fr": {
         "name": "Ritual Refuge",
         "nameMain": "Ritual",
         "nameAccent": "Refuge",
         "slug": "refuge",
-        "subtitle": "Le rituel soin complet de la maison — se sentir en sécurité chez soi.",
+        "subtitle": "Le rituel soin complet de la maison — se sentir en sécurité chez soi grâce à des ingrédients naturels.",
         "shortDescription": "Nettoyant sol, multi-surfaces, vitres, dégraissant et anticalcaire. Le soin complet de la maison aux ingrédients d'origine naturelle.",
         "longDescription": "Le Ritual Refuge: le Rituel Refuge réunit le Nettoyant Multi-Surfaces, le Nettoyant Sols, le Nettoyant Vitres, le Dégraissant et le Nettoyant Salle de Bain. Cinq produits d'origine naturelle pour chaque coin de la maison. Tensioactifs végétaux, huiles essentielles réelles et formules biodégradables sans résidus chimiques.",
         "promise": "Votre maison, votre refuge.",
@@ -1312,18 +1313,18 @@
         "nameMain": "Ritual",
         "nameAccent": "Geborgenheit",
         "slug": "zuflucht",
-        "subtitle": "Das vollständige Hauspflegeritual — sich zu Hause geborgen fühlen.",
+        "subtitle": "Das vollständige Hauspflegeritual — sich zu Hause geborgen fühlen mit natürlichen Inhaltsstoffen überall.",
         "shortDescription": "Bodenreiniger, Allzweckreiniger, Glasreiniger, Entfetter und Kalkentferner. Vollständige Hauspflege mit natürlich gewonnenen Inhaltsstoffen.",
         "longDescription": "Das Ritual Geborgenheit vereint den Allzweckreiniger, Bodenreiniger, Glasreiniger, Fettlöser und Badreiniger. Fünf natürlich gewonnene Produkte für jeden Winkel des Hauses. Pflanzliche Tenside, echte ätherische Öle und biologisch abbaubare Formeln ohne chemische Rückstände.",
         "promise": "Dein Zuhause, deine Geborgenheit.",
-        "story": "Fünf Produkte für das ganze Haus. Die Ruhe zu wissen, dass jede Ecke sauber ist, natürlich."
+        "story": "Fünf Produkte für das ganze Haus. Die Ruhe zu wissen, dass jede Ecke sauber ist, natürlich und sanft gepflegt."
       },
       "it": {
         "name": "Ritual Rifugio",
         "nameMain": "Ritual",
         "nameAccent": "Rifugio",
         "slug": "rifugio",
-        "subtitle": "Il rituale completo per la cura della casa — sentirsi al sicuro a casa.",
+        "subtitle": "Il rituale completo per la cura della casa — sentirsi al sicuro con ingredienti naturali in ogni prodotto.",
         "shortDescription": "Detergente pavimenti, multi-superficie, vetri, sgrassatore e anticalcare. Cura completa della casa con ingredienti di origine naturale.",
         "longDescription": "Il Rituale Rifugio riunisce il Detergente Multisuperficie, Detergente Pavimenti, Detergente Vetri, Sgrassatore e Detergente Bagno. Cinque prodotti di origine naturale per ogni angolo della casa. Tensioattivi vegetali, oli essenziali reali e formule biodegradabili senza residui chimici.",
         "promise": "La tua casa, il tuo rifugio.",
@@ -1334,22 +1335,22 @@
         "nameMain": "Ritual",
         "nameAccent": "Toevlucht",
         "slug": "toevlucht",
-        "subtitle": "Het complete huisverzorgingsritueel — je veilig en geborgen voelen thuis.",
+        "subtitle": "Het complete huisverzorgingsritueel — je veilig en geborgen voelen thuis met de kracht van de natuur.",
         "shortDescription": "Vloerreiniger, allesreiniger, glasreiniger, ontvetter en kalkreiniger. Complete huisverzorging met natuurlijk gewonnen ingrediënten.",
         "longDescription": "Het Ritual Toevlucht: het Ritueel Geborgenheid verenigt de Allesreiniger, Vloerreiniger, Glasreiniger, Ontvetter en Badkamerreiniger. Vijf natuurlijk gewonnen producten voor elke hoek van het huis. Plantaardige oppervlakteactieve stoffen, echte essentiële oliën en biologisch afbreekbare formules zonder chemische residuen.",
         "promise": "Jouw huis, jouw geborgenheid.",
-        "story": "Vijf producten voor het hele huis. De rust van weten dat elke hoek schoon is, natuurlijk."
+        "story": "Vijf producten voor het hele huis. De rust van weten dat elke hoek schoon is, natuurlijk en zacht verzorgd."
       },
       "pt": {
         "name": "Ritual Refúgio",
         "nameMain": "Ritual",
         "nameAccent": "Refúgio",
         "slug": "refugio",
-        "subtitle": "O ritual completo de cuidado do lar — sentir-se seguro e acolhido em casa.",
+        "subtitle": "O ritual completo de cuidado do lar — sentir-se seguro e acolhido em casa com ingredientes completamente naturais.",
         "shortDescription": "Limpa-chão, multiusos, limpa-vidros, desengordurante e anticalcário. Cuidado completo do lar com ingredientes de origem natural.",
         "longDescription": "O Ritual Refúgio reúne o Detergente Multisuperfícies, Detergente de Chão, Limpa Vidros, Desengordurante e Detergente Casa de Banho. Cinco produtos de origem natural para cada canto da casa. Tensioativos vegetais, óleos essenciais reais e fórmulas biodegradáveis sem resíduos químicos.",
         "promise": "A sua casa, o seu refúgio.",
-        "story": "Cinco produtos para toda a casa. A tranquilidade de saber que cada canto está limpo, naturalmente."
+        "story": "Cinco produtos para toda a casa. A tranquilidade de saber que cada canto está limpo, de forma natural e suave."
       }
     },
     {
@@ -1374,16 +1375,16 @@
         "name": "Ritual Gato Zen",
         "nameMain": "Ritual",
         "nameAccent": "Gato Zen",
-        "subtitle": "El ritual tranquilo para el gato que lo merece todo.",
+        "subtitle": "El ritual tranquilo para el gato que lo merece todo. Champú y limpiadores de origen natural al 97% activo.",
         "shortDescription": "Champú suave con argán y activos microbioma, cuidado ocular herbal y auricular con árbol de té.",
         "longDescription": "Higiene tranquila, sin pelea. Tres productos diseñados para reducir el estrés del momento de higiene desde la Calma y la Conexión.",
         "promise": "Higiene tranquila para tu gato.",
-        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino.",
+        "story": "Si tu gato está bien, tú también. El ritual completo de cuidado felino con ingredientes de origen natural suave.",
         "slug": "gato-zen"
       },
       "en": {
         "name": "Ritual Zen Cat",
-        "subtitle": "The calm ritual for the cat who deserves everything.",
+        "subtitle": "The calm ritual for the cat who deserves everything. Natural grooming products designed to reduce stress.",
         "slug": "zen-cat",
         "promise": "Calm hygiene for your cat.",
         "aiTranslation": true,
@@ -1395,7 +1396,7 @@
       },
       "fr": {
         "name": "Rituel Chat Zen",
-        "subtitle": "Le rituel tranquille pour le chat qui mérite tout.",
+        "subtitle": "Le rituel tranquille pour le chat qui mérite tout. Soin naturel conçu pour réduire le stress et apaiser.",
         "slug": "chat-zen",
         "promise": "Hygiène tranquille pour votre chat.",
         "aiTranslation": true,
@@ -1407,7 +1408,7 @@
       },
       "de": {
         "name": "Ritual Zen-Katze",
-        "subtitle": "Das ruhige Ritual für die Katze, die alles verdient.",
+        "subtitle": "Das ruhige Ritual für die Katze, die alles verdient. Natürliche Pflege zur Stressreduzierung und Beruhigung.",
         "slug": "zen-katze",
         "promise": "Ruhige Hygiene für deine Katze.",
         "aiTranslation": true,
@@ -1419,7 +1420,7 @@
       },
       "it": {
         "name": "Rituale Gatto Zen",
-        "subtitle": "Il rituale tranquillo per il gatto che merita tutto.",
+        "subtitle": "Il rituale tranquillo per il gatto che merita tutto. Cura naturale progettata per ridurre lo stress e calmare.",
         "slug": "gatto-zen",
         "promise": "Igiene tranquilla per il tuo gatto.",
         "aiTranslation": true,
@@ -1431,7 +1432,7 @@
       },
       "nl": {
         "name": "Ritueel Zen Kat",
-        "subtitle": "Het rustige ritueel voor de kat die alles verdient.",
+        "subtitle": "Het rustige ritueel voor de kat die alles verdient. Natuurlijke verzorging om stress te verminderen en te kalmeren.",
         "slug": "zen-kat",
         "promise": "Rustige hygiëne voor jouw kat.",
         "aiTranslation": true,
@@ -1443,7 +1444,7 @@
       },
       "pt": {
         "name": "Ritual Gato Zen",
-        "subtitle": "O ritual tranquilo para o gato que merece tudo.",
+        "subtitle": "O ritual tranquilo para o gato que merece tudo. Cuidado natural concebido para reduzir o stress e acalmar.",
         "slug": "gato-zen",
         "promise": "Higiene tranquila para o seu gato.",
         "aiTranslation": true,
@@ -1479,16 +1480,16 @@
         "name": "Ritual Mimo Canino",
         "nameMain": "Ritual",
         "nameAccent": "Mimo Canino",
-        "subtitle": "El cuidado completo para tu perro, de cabeza a orejas.",
+        "subtitle": "El cuidado completo para tu perro, de cabeza a orejas. Champú y limpiadores de origen natural al 97% activo.",
         "shortDescription": "Champú con argán, albahaca y tomillo, limpiador ocular herbal y limpiador de oídos con árbol de té.",
         "longDescription": "El Ritual Mimo Canino: si tu perro está bien, tú también. Higiene suave, rutina tranquila y sensación de Conexión entre mascota y hogar.",
         "promise": "Cuidado suave para tu perro.",
-        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo, no un trámite.",
+        "story": "Tres productos pensados para que el cuidado canino sea un momento de vínculo real, no un simple trámite diario.",
         "slug": "mimo-canino"
       },
       "en": {
         "name": "Ritual Pampered Pup",
-        "subtitle": "Complete care for your dog, from head to ears.",
+        "subtitle": "Complete grooming care for your dog, from head to ears, with naturally derived ingredients at every step.",
         "slug": "pampered-pup",
         "promise": "Gentle care for your dog.",
         "aiTranslation": true,
@@ -1500,7 +1501,7 @@
       },
       "fr": {
         "name": "Rituel Cocoon Canin",
-        "subtitle": "Le soin complet pour votre chien, de la tête aux oreilles.",
+        "subtitle": "Le soin complet pour votre chien, de la tête aux oreilles, avec des ingrédients d'origine naturelle à chaque étape.",
         "slug": "cocoon-canin",
         "promise": "Soin doux pour votre chien.",
         "aiTranslation": true,
@@ -1512,7 +1513,7 @@
       },
       "de": {
         "name": "Ritual Hundeverwöhnung",
-        "subtitle": "Die vollständige Pflege für deinen Hund, von Kopf bis Ohren.",
+        "subtitle": "Die vollständige Pflege für deinen Hund, von Kopf bis Ohren, mit natürlich gewonnenen Inhaltsstoffen in jedem Schritt.",
         "slug": "hundeverwoehnung",
         "promise": "Sanfte Pflege für deinen Hund.",
         "aiTranslation": true,
@@ -1524,7 +1525,7 @@
       },
       "it": {
         "name": "Rituale Coccole Canine",
-        "subtitle": "La cura completa per il tuo cane, dalla testa alle orecchie.",
+        "subtitle": "La cura completa per il tuo cane, dalla testa alle orecchie, con ingredienti di origine naturale in ogni fase.",
         "slug": "coccole-canine",
         "promise": "Cura delicata per il tuo cane.",
         "aiTranslation": true,
@@ -1536,7 +1537,7 @@
       },
       "nl": {
         "name": "Ritueel Verwende Hond",
-        "subtitle": "De complete verzorging voor jouw hond, van hoofd tot oren.",
+        "subtitle": "De complete verzorging voor jouw hond, van hoofd tot oren, met natuurlijk gewonnen ingrediënten bij elke stap.",
         "slug": "verwende-hond",
         "promise": "Zachte verzorging voor jouw hond.",
         "aiTranslation": true,
@@ -1548,7 +1549,7 @@
       },
       "pt": {
         "name": "Ritual Mimo Canino",
-        "subtitle": "Os cuidados completos para o seu cão, da cabeça às orelhas.",
+        "subtitle": "Os cuidados completos para o seu cão, da cabeça às orelhas, com ingredientes de origem natural em cada passo.",
         "slug": "mimo-canino",
         "promise": "Cuidado suave para o seu cão.",
         "aiTranslation": true,

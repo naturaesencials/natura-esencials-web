@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 17/05/2026 — Sesión 5 SEO completada.
+> Actualizado: 17/05/2026 — Sesión 6 SEO completada.
 
 ---
 
@@ -164,6 +164,12 @@ Sesión 5 (may 17):
   - Structure:    54% (-40%)  ← REGRESIÓN detectada y corregida
   - Content:      52% (-10%)  ← REGRESIÓN detectada y corregida
   Overall: 65%
+Sesión 6 (may 17) — reporte PDF recibido:
+  - Tech & Meta:  92% (+4%)   ← mejorado
+  - Structure:    89% (+36%)  ← gran salto
+  - Content:      66% (+14%)  ← mejorado
+  Overall: 82% (+17%)
+  Issues principales: 209 H1 too short, 35 meta titles, 7 home headings
 ```
 
 ### Causa raíz de regresiones (sesión 4→5)
@@ -215,6 +221,27 @@ Esto afectó: ProductDetail.tsx, rituales/[slug], cosmetica, hogar, mascota, rit
 - `messages/*.json` catalogPages.{cosmetica,hogar,mascota}.desc → empieza con keyword del H1
 - `blog/page.tsx` → H1 labels más descriptivos ("...de cosmética natural")
 - `layout.tsx` → sitemap en alternates metadata (para detección Seobility)
+
+---
+
+## ✅ FIXES APLICADOS (sesión 6) — 1 commit
+
+| Fichero | Fix |
+|---------|-----|
+| `bundles.json` | 109 campos subtitle/story expandidos a ≥100 chars (12 rituales × 7 locales) |
+| `bundles.json` | story de ritual-refugio[es] creada (estaba vacía) |
+| `ProductDetail.tsx` | aria-label en complement cards (fix anchor text largo) |
+| `ProductDetail.tsx` | H1 + ` · {h1Qualifier}` por locale → H1 ≥20 chars en todos los productos |
+| `rituales/[slug]/page.tsx` | H1: space fix entre nameMain/nameAccent + qualifier appended |
+| `rituales/page.tsx` | pageTitle extendidos a ≥20 chars (7 idiomas) |
+| `messages/*.json` | catalogPages title/accent extendidos a ≥20 chars (cosmetica/hogar/mascota × 7) |
+| `messages/*.json` | h1Qualifier añadido por línea y locale |
+| `messages/fr.json` | homeTitle acortado: "Cosmétique artisanale et maison naturelle" (41 chars) |
+| `products.json` | limpiasuelos shortDesc: 6 locales con texto en español → traducido correctamente |
+| `products.json` | body-milk/abrillantador/jabon/champu-gatos/limpiador-banos: word repetition fixed (25 fields) |
+| `product-page-factory.tsx` | word repetition detection fortalecida (nameWords contains check) |
+| `product-page-factory.tsx` | truncation limit 44→40 chars (pixel safety en Seobility) |
+| `posts.ts` | Todos los blog titles acortados a ≤42 chars (18 titles × 2 posts + 2 for ISO) |
 
 ---
 
@@ -426,6 +453,7 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 | 3 | mar 2026 | varios | Blog × 7 idiomas, heading hierarchy, meta titles |
 | 4 | abr 2026 | varios | Links, redirects, contenido páginas, typos, redes sociales |
 | 5 | 17 may 2026 | 3 | Corrección regresiones: H1 en product pages, anchor texts, titles |
+| 6 | 17 may 2026 | 1 | 82% overall (+17%): H1 too short fix, meta titles, blog titles, shortDescs |
 
 ---
 

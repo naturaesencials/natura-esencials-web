@@ -202,8 +202,12 @@ export default async function RitualPage({ params }: Props) {
               <h1 className="font-display text-h1-fluid leading-[0.96] tracking-[-0.025em]">
                 {tr.nameMain ?? tr.name}
                 {tr.nameAccent && (
-                  <em className="font-display-italic text-accent block">{tr.nameAccent}</em>
+                  <em className="font-display-italic text-accent block">{' '}{tr.nameAccent}</em>
                 )}
+                {' · '}{{
+                  es: 'Natural', en: 'Natural', fr: 'Naturelle',
+                  de: 'Natürlich', it: 'Naturale', nl: 'Naturlijk', pt: 'Natural',
+                }[locale] ?? 'Natural'}
               </h1>
               {tr.subtitle && (
                 <p className="mt-2 font-caption text-[clamp(14px,1.8vw,18px)] font-normal text-muted leading-relaxed tracking-normal">

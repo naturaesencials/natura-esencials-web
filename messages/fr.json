@@ -166,7 +166,7 @@
     "linkCookies": "Cookies"
   },
   "metadata": {
-    "homeTitle": "Cosmétique artisanale et entretien de la maison",
+    "homeTitle": "Cosmétique artisanale et maison naturelle",
     "homeDescription": "Onze rituels naturels formulés à la main à Marbella. Cosmétique et nettoyants ménagers avec certification ISO 16128, matières végétales andalouses et emballage recyclable.",
     "homeKeywords": "cosmétique naturelle, cosmétique artisanale, entretien maison, savon naturel, Marbella, Andalousie, ISO 16128, gel douche naturel"
   },
@@ -203,20 +203,23 @@
     "cosmetica": {
       "kicker": "Collection",
       "title": "Cosmétique",
-      "accent": "artisanale",
-      "desc": "Cosmétique artisanale au quotidien : cheveux, corps, visage et rasage en rituels sensoriels. Trois collections — Basique, Pour Elle et Pour Lui — formulées selon la norme ISO 16128 et fabriquées à la main en Andalousie."
+      "accent": "artisanale naturelle",
+      "desc": "Cosmétique artisanale au quotidien : cheveux, corps, visage et rasage en rituels sensoriels. Trois collections — Basique, Pour Elle et Pour Lui — formulées selon la norme ISO 16128 et fabriquées à la main en Andalousie.",
+      "h1Qualifier": "Naturelle"
     },
     "hogar": {
       "kicker": "Collection",
-      "title": "Entretien",
-      "accent": "maison",
-      "desc": "Entretien maison en rituel : nettoyage naturel transformé en sensation de maison soignée. Lessive, adoucissant, vaisselle, nettoyants spécifiques et multi-surfaces aux formules douces d'origine naturelle."
+      "title": "Entretien maison",
+      "accent": "naturel",
+      "desc": "Entretien maison en rituel : nettoyage naturel transformé en sensation de maison soignée. Lessive, adoucissant, vaisselle, nettoyants spécifiques et multi-surfaces aux formules douces d'origine naturelle.",
+      "h1Qualifier": "Naturelle"
     },
     "mascota": {
       "kicker": "Collection",
-      "title": "Soins",
+      "title": "Soins naturels",
       "accent": "animaux",
-      "desc": "Soins animaux en rituel : soin doux pour chiens et chats avec hygiène tranquille, calme à la maison et connexion sans stress. Produits avec enregistrement MAPA et formules hypoallergéniques."
+      "desc": "Soins animaux en rituel : soin doux pour chiens et chats avec hygiène tranquille, calme à la maison et connexion sans stress. Produits avec enregistrement MAPA et formules hypoallergéniques.",
+      "h1Qualifier": "Naturelle"
     }
   }
 }
