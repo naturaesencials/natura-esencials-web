@@ -42,7 +42,7 @@ export function WhatsAppButton({ locale }: Props) {
           <a
             href={waUrl}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="flex items-center justify-center gap-2 border-t border-gray-100 px-5 py-3.5 text-sm font-medium text-[#075E54] transition-colors hover:bg-gray-50"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">

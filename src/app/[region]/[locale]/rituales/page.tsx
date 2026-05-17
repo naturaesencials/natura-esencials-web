@@ -146,7 +146,10 @@ function RitualCard({
         )}
         <div className={`mt-auto pt-3 text-[11px] font-medium uppercase tracking-[0.22em] ${href ? color : 'text-graphite/50'}`}>
           {href
-            ? (locale === 'es' ? 'Ver ritual' : locale === 'en' ? 'View ritual' : locale === 'fr' ? 'Voir le rituel' : locale === 'de' ? 'Ritual ansehen' : locale === 'it' ? 'Vedi rituale' : locale === 'nl' ? 'Bekijk ritueel' : 'Ver ritual') + ' →'
+            ? (() => {
+                const cta = locale === 'es' ? 'Ver' : locale === 'en' ? 'View' : locale === 'fr' ? 'Voir' : locale === 'de' ? 'Ansehen' : locale === 'it' ? 'Vedi' : locale === 'nl' ? 'Bekijk' : 'Ver';
+                return `${cta} ${name.accent || name.main} →`;
+              })()
             : '·'}
         </div>
       </div>

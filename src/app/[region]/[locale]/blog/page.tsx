@@ -108,13 +108,9 @@ export default async function BlogPage({ params }: Props) {
               {/* Excerpt */}
               <p className="text-[13px] leading-[1.7] text-graphite line-clamp-3">{excerpt}</p>
 
-              <Link
-                href={href}
-                aria-label={`${readMoreLabel}: ${title}`}
-                className="mt-3 inline-block border-b border-ink pb-0.5 text-[11px] uppercase tracking-[0.22em] transition-colors group-hover:border-verde group-hover:text-verde"
-              >
+              <span className="mt-3 inline-block border-b border-ink pb-0.5 text-[11px] uppercase tracking-[0.22em] text-verde">
                 {readMoreLabel} →
-              </Link>
+              </span>
             </article>
           );
         })}

@@ -83,7 +83,7 @@ export function LineCosmetica({ region, locale }: Props) {
           );
 
           return href ? (
-            <Link key={r.id} href={href} className={`${cardCls} transition-transform duration-500`}>{inner}</Link>
+            <Link key={r.id} href={href} aria-label={r.names[locale].full} className={`${cardCls} transition-transform duration-500`}>{inner}</Link>
           ) : (
             <div key={r.id} className={cardCls}>{inner}</div>
           );

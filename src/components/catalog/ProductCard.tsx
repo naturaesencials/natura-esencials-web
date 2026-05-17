@@ -52,9 +52,14 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
     : resolveProductImage(item.id, region, item.primaryImage);
   const sensationClass = SENSATION_COLORS[item.sensation] || 'bg-stone-100 text-stone-800';
 
+  const ariaLabel = translation?.nameAccent 
+    ? `${translation.nameMain || translation.name} ${translation.nameAccent}` 
+    : (translation?.nameMain || translation?.name || item.id);
+
   return (
     <Link
       href={linkHref}
+      aria-label={ariaLabel}
       className="group flex flex-col bg-paper border border-ink/8 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 hover:border-ink/15"
     >
       {/* Imagen */}

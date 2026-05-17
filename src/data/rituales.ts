@@ -29,7 +29,7 @@ export const rituales: Ritual[] = [
     shopifyHandle: 'ritual-plenitud',
     availableIn: ['eu', 'uk'],
     slugs: {
-      es: 'plenitud-300', en: 'plenitude-300', fr: 'plenitude-300',
+      es: 'plenitud-300', en: 'fulfillment-300', fr: 'plenitude-300',
       de: 'fuelle-300', it: 'pienezza-300', nl: 'volheid-300', pt: 'plenitude-300',
     },
     names: {
@@ -98,7 +98,7 @@ export const rituales: Ritual[] = [
     availableIn: ['eu'],
     slugs: {
       es: 'rendimiento-300', en: 'performance-300', fr: 'performance-300',
-      de: 'leistung-300', it: 'rendimento-300', nl: 'prestatie-300', pt: 'rendimento-300',
+      de: 'leistung-300', it: 'rendimento-300', nl: 'performance-300', pt: 'desempenho-300',
     },
     names: {
       es: { main: 'Ritual', accent: 'Rendimiento', full: 'Ritual Rendimiento' },
@@ -234,7 +234,7 @@ export const rituales: Ritual[] = [
     shopifyHandle: 'ritual-cocina-impecable',
     availableIn: ['eu'],
     slugs: {
-      es: 'cocina-impecable', en: 'flawless-kitchen', fr: 'cuisine-impeccable',
+      es: 'cocina-impecable', en: 'impeccable-kitchen', fr: 'cuisine-impeccable',
       de: 'makellose-kueche', it: 'cucina-impeccabile', nl: 'onberispelijke-keuken', pt: 'cozinha-impecavel',
     },
     names: {
@@ -268,8 +268,8 @@ export const rituales: Ritual[] = [
     shopifyHandle: 'ritual-vajilla-perfecta',
     availableIn: ['eu'],
     slugs: {
-      es: 'vajilla-perfecta', en: 'perfect-dishware', fr: 'vaisselle-parfaite',
-      de: 'perfektes-geschirr', it: 'stoviglie-perfette', nl: 'perfect-servies', pt: 'louca-perfeita',
+      es: 'vajilla-perfecta', en: 'perfect-dishes', fr: 'vaisselle-parfaite',
+      de: 'perfektes-geschirr', it: 'stoviglie-perfette', nl: 'perfecte-vaat', pt: 'loica-perfeita',
     },
     names: {
       es: { main: 'Ritual', accent: 'Vajilla Perfecta', full: 'Ritual Vajilla Perfecta' },
@@ -303,7 +303,7 @@ export const rituales: Ritual[] = [
     availableIn: ['eu'],
     slugs: {
       es: 'caricia', en: 'caress', fr: 'caresse',
-      de: 'liebkosung', it: 'carezza', nl: 'streling', pt: 'caricia',
+      de: 'liebkosung', it: 'carezza', nl: 'liefkozing', pt: 'caricia',
     },
     names: {
       es: { main: 'Ritual', accent: 'Caricia', full: 'Ritual Caricia' },
@@ -336,7 +336,7 @@ export const rituales: Ritual[] = [
     shopifyHandle: 'pack-bano-esencial',
     availableIn: ['eu'],
     slugs: {
-      es: 'bano-impecable', en: 'flawless-bathroom', fr: 'salle-de-bain-impeccable',
+      es: 'bano-impecable', en: 'impeccable-bathroom', fr: 'salle-de-bain-impeccable',
       de: 'makelloses-bad', it: 'bagno-impeccabile', nl: 'onberispelijke-badkamer', pt: 'casa-de-banho-impecavel',
     },
     names: {
@@ -371,8 +371,8 @@ export const rituales: Ritual[] = [
     shopifyHandle: 'ritual-mimo-canino',
     availableIn: ['eu', 'uk'],
     slugs: {
-      es: 'mimo-canino', en: 'canine-care', fr: 'soin-canin',
-      de: 'hundeverwoehnung', it: 'coccola-canina', nl: 'hondenverzorging', pt: 'mimo-canino',
+      es: 'mimo-canino', en: 'pampered-pup', fr: 'cocoon-canin',
+      de: 'hundeverwoehnung', it: 'coccole-canine', nl: 'verwende-hond', pt: 'mimo-canino',
     },
     names: {
       es: { main: 'Ritual', accent: 'Mimo Canino', full: 'Ritual Mimo Canino' },
