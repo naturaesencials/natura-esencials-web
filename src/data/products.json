@@ -1513,8 +1513,7 @@
       "sku": "NE-H01",
       "shopifyHandle": "hombre-champu-2-en-1-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Energía",
       "isoNaturalPercent": 95,
@@ -1810,8 +1809,7 @@
       "sku": "NE-H02",
       "shopifyHandle": "hombre-acondicionador-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Refugio",
       "isoNaturalPercent": 97,
@@ -2099,7 +2097,7 @@
         "usage": "Aplicar sobre o cabelo húmido após o champô. Apenas nos meios e pontas. Deixar atuar 1-2 minutos e enxaguar."
       },
       "outOfStock": false,
-      "basePriceEUR": 9.0,
+      "basePriceEUR": 9,
       "basePriceGBP": 7.74,
       "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes."
     },
@@ -2111,8 +2109,7 @@
       "sku": "NE-H03",
       "shopifyHandle": "hombre-gel-manos-y-cuerpo-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Energía",
       "isoNaturalPercent": 95,
@@ -2408,8 +2405,7 @@
       "sku": "NE-H04",
       "shopifyHandle": "hombre-body-milk-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Refugio",
       "isoNaturalPercent": 98,
@@ -2706,8 +2702,7 @@
       "sku": "NE-H05",
       "shopifyHandle": "gel-afeitado-hombre",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Energía",
       "isoNaturalPercent": 98,
@@ -2984,8 +2979,7 @@
       "sku": "NE-H06",
       "shopifyHandle": "balsamo-aftershave",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Refugio",
       "isoNaturalPercent": 98,
@@ -3261,8 +3255,7 @@
       "sku": "NE-H07",
       "shopifyHandle": "exfoliante-facial-hombre",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Energía",
       "isoNaturalPercent": 97,
@@ -3541,8 +3534,7 @@
       "sku": "NE-H08",
       "shopifyHandle": "serum-antiojeras-hombre",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Refugio",
       "isoNaturalPercent": 99,
@@ -3820,8 +3812,7 @@
       "sku": "NE-M01",
       "shopifyHandle": "mujer-champu-2-en-1-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Refugio",
       "isoNaturalPercent": 95,
@@ -4118,8 +4109,7 @@
       "sku": "NE-M02",
       "shopifyHandle": "mujer-acondicionador-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Refugio",
       "isoNaturalPercent": 97,
@@ -4413,7 +4403,7 @@
         "usage": "Aplicar sobre o cabelo húmido após o champô. Apenas dos meios às pontas. Deixar atuar 2-3 minutos e enxaguar."
       },
       "outOfStock": false,
-      "basePriceEUR": 9.0,
+      "basePriceEUR": 9,
       "basePriceGBP": 7.74,
       "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Citrus Aurantium Peel Oil, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum, Hexamethylindanopyran, Limonene."
     },
@@ -4425,8 +4415,7 @@
       "sku": "NE-M03",
       "shopifyHandle": "mujer-gel-manos-y-cuerpo-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Energía",
       "isoNaturalPercent": 95,
@@ -4722,8 +4711,7 @@
       "sku": "NE-M04",
       "shopifyHandle": "mujer-body-milk-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Refugio",
       "isoNaturalPercent": 98,
@@ -5018,8 +5006,7 @@
       "sku": "NE-M05",
       "shopifyHandle": "agua-micelar",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Calma",
       "isoNaturalPercent": 99,
@@ -5298,8 +5285,7 @@
       "sku": "NE-M06",
       "shopifyHandle": "gel-afeitado-mujer",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Calma",
       "isoNaturalPercent": 98,
@@ -5576,8 +5562,7 @@
       "sku": "NE-M07",
       "shopifyHandle": "exfoliante-facial-mujer",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Energía",
       "isoNaturalPercent": 97,
@@ -5856,8 +5841,7 @@
       "sku": "NE-M08",
       "shopifyHandle": "serum-antiojeras-mujer",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Refugio",
       "isoNaturalPercent": 99,
@@ -7891,7 +7875,7 @@
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
       },
-      "basePriceEUR": 6.0,
+      "basePriceEUR": 6,
       "basePriceGBP": 5.16,
       "inci": "Tensioactivos aniónicos < 5%, Tensioactivos no iónicos < 5%, Perfumes (Alpha-Isomethyl Ionone, Hexyl Cinnamal, Citronellol, Linalool), Conservantes (Benzisothiazolinone, Methylisothiazolinone)."
     },
@@ -9050,8 +9034,7 @@
       "sku": "NE0301",
       "shopifyHandle": "champu-para-perros-natural-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Conexión",
       "isoNaturalPercent": 95,
@@ -9345,8 +9328,7 @@
       "sku": "NE0302",
       "shopifyHandle": "champu-para-gatos-natural-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Calma",
       "isoNaturalPercent": 95,
@@ -9638,8 +9620,7 @@
       "sku": "NE0303",
       "shopifyHandle": "limpiador-de-oidos-para-perros-y-gatos-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Calma",
       "isoNaturalPercent": 99,
@@ -9929,8 +9910,7 @@
       "sku": "NE0304",
       "shopifyHandle": "limpiador-de-ojos-para-perros-y-gatos-natura-esencials",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Calma",
       "isoNaturalPercent": 98,

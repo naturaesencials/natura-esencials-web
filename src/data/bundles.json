@@ -336,7 +336,7 @@
       "format": "1 L",
       "discountPercent": 12,
       "visible": false,
-      "basePriceEUR": 35.0,
+      "basePriceEUR": 35,
       "es": {
         "name": "Ritual Ducha Perfecta",
         "nameMain": "Ritual",
@@ -635,8 +635,7 @@
       "line": "cosmetica",
       "shopifyHandle": "ritual-para-ella-300-ml",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Refugio",
       "includes": [
@@ -744,8 +743,7 @@
       "line": "cosmetica",
       "shopifyHandle": "ritual-para-el-300-ml",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Energía",
       "includes": [
@@ -967,7 +965,7 @@
       "format": "1 L",
       "discountPercent": 8,
       "visible": true,
-      "basePriceEUR": 11.0,
+      "basePriceEUR": 11,
       "es": {
         "name": "Ritual Baño Impecable",
         "nameMain": "Ritual",
@@ -1358,8 +1356,7 @@
       "line": "mascota",
       "shopifyHandle": "pack-higiene-basica-gatos",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Calma",
       "includes": [
@@ -1463,8 +1460,7 @@
       "line": "mascota",
       "shopifyHandle": "pack-higiene-basica-perros",
       "availableIn": [
-        "eu",
-        "uk"
+        "eu"
       ],
       "sensation": "Conexión",
       "includes": [

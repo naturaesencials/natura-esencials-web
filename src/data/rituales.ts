@@ -129,7 +129,7 @@ export const rituales: Ritual[] = [
   {
     id: 4, number: '04', line: 'cosmetica',
     shopifyHandle: 'ritual-para-el',
-    availableIn: ['eu', 'uk'],
+    availableIn: ['eu'],
     slugs: {
       es: 'para-el', en: 'for-him', fr: 'pour-lui',
       de: 'fuer-ihn', it: 'per-lui', nl: 'voor-hem', pt: 'para-ele',
@@ -163,7 +163,7 @@ export const rituales: Ritual[] = [
   {
     id: 5, number: '05', line: 'cosmetica',
     shopifyHandle: 'ritual-para-ella',
-    availableIn: ['eu', 'uk'],
+    availableIn: ['eu'],
     slugs: {
       es: 'para-ella', en: 'for-her', fr: 'pour-elle',
       de: 'fuer-sie', it: 'per-lei', nl: 'voor-haar', pt: 'para-ela',
@@ -369,7 +369,7 @@ export const rituales: Ritual[] = [
   {
     id: 10, number: '10', line: 'mascota',
     shopifyHandle: 'ritual-mimo-canino',
-    availableIn: ['eu', 'uk'],
+    availableIn: ['eu'],
     slugs: {
       es: 'mimo-canino', en: 'pampered-pup', fr: 'cocoon-canin',
       de: 'hundeverwoehnung', it: 'coccole-canine', nl: 'verwende-hond', pt: 'mimo-canino',
