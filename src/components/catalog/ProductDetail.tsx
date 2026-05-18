@@ -5,7 +5,7 @@ import { ShareButtons } from '@/components/social/ShareButtons';
 import type { Product, Bundle } from '@/data/types';
 import type { Locale, Region } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
-import { getProductById, getBundleById, getProductsForRegion } from '@/data';
+import { getProductById, getBundleById, getProductsForRegion, resolveShopifyHandle } from '@/data';
 import { ProductImage } from './ProductImage';
 import { resolveProductImage } from '@/lib/images';
 import { BuyButton } from './BuyButton';
@@ -209,7 +209,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
             {/* Formatos + precio + comprar */}
             <div className="mt-8 pt-8 border-t border-ink/10 flex flex-col gap-5">
               <BuyButton
-                handle={product.shopifyHandle}
+                handle={resolveShopifyHandle(product, region)}
                 formats={product.formats}
                 region={region}
                 locale={locale}
@@ -477,7 +477,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
         )}
 
         {/* Reviews Judge.me */}
-        <ReviewsWidget handle={product.shopifyHandle} title={tr.name} locale={locale} shopifyHandle={product.shopifyHandle} />
+        <ReviewsWidget handle={resolveShopifyHandle(product, region)} title={tr.name} locale={locale} shopifyHandle={resolveShopifyHandle(product, region)} />
       </div>
     </article>
   );

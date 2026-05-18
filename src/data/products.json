@@ -7,6 +7,7 @@
       "subcategory": "Cabello",
       "sku": "NE0102",
       "shopifyHandle": "champu-2-en-1-natural-para-cabello-normal-natura-esencials",
+      "shopifyHandleUK": "2-in-1-shampoo",
       "availableIn": [
         "eu",
         "uk"
@@ -308,6 +309,7 @@
       "subcategory": "Cabello",
       "sku": "NE0104",
       "shopifyHandle": "acondicionador-natural-natura-esencials",
+      "shopifyHandleUK": "hair-conditioner",
       "availableIn": [
         "eu",
         "uk"
@@ -609,6 +611,7 @@
       "subcategory": "Cuerpo",
       "sku": "NE0101",
       "shopifyHandle": "jabon-natural-por-saponificacion-con-aceite-de-oliva-virgen-extra-natura-esencials",
+      "shopifyHandleUK": "hand-and-body-soap",
       "availableIn": [
         "eu",
         "uk"
@@ -910,6 +913,7 @@
       "subcategory": "Cuerpo",
       "sku": "NE0105",
       "shopifyHandle": "body-milk-natural-artesanal-natura-esencials",
+      "shopifyHandleUK": "body-milk",
       "availableIn": [
         "eu",
         "uk"
@@ -1212,6 +1216,7 @@
       "subcategory": "Cuerpo",
       "sku": "NE0103",
       "shopifyHandle": "total-body-wash-natural-para-cuerpo-y-cabello-natura-esencials",
+      "shopifyHandleUK": "total-body-wash",
       "availableIn": [
         "eu",
         "uk"
@@ -6118,6 +6123,7 @@
       "subcategory": "Ropa",
       "sku": "NE0203",
       "shopifyHandle": "detergente-para-ropa-natural-natura-esencials",
+      "shopifyHandleUK": "laundry-detergent",
       "availableIn": [
         "eu",
         "uk"
@@ -6412,6 +6418,7 @@
       "subcategory": "Ropa",
       "sku": "NE0204",
       "shopifyHandle": "suavizante-para-ropa-natural-natura-esencials",
+      "shopifyHandleUK": "fabric-softener",
       "availableIn": [
         "eu",
         "uk"
@@ -6719,6 +6726,7 @@
       "subcategory": "Cocina",
       "sku": "NE0205",
       "shopifyHandle": "lavavajillas-manual-natural-natura-esencials",
+      "shopifyHandleUK": "hand-washing-up-liquid",
       "availableIn": [
         "eu",
         "uk"
@@ -7022,6 +7030,7 @@
       "subcategory": "Cocina",
       "sku": "NE0206",
       "shopifyHandle": "detergente-para-maquina-lavavajillas-natural-natura-esencials",
+      "shopifyHandleUK": "machine-dishwasher-detergent",
       "availableIn": [
         "eu",
         "uk"
@@ -7308,6 +7317,7 @@
       "subcategory": "Cocina",
       "sku": "NE0201",
       "shopifyHandle": "abrillantador-para-maquina-lavavajillas-natural-natura-esencials",
+      "shopifyHandleUK": "dishwasher-rinse-aid",
       "availableIn": [
         "eu",
         "uk"
@@ -7594,6 +7604,7 @@
       "subcategory": "Limpieza general",
       "sku": "NE0210",
       "shopifyHandle": "limpiasuelos-natural-natura-esencials",
+      "shopifyHandleUK": "floor-cleaner",
       "availableIn": [
         "eu",
         "uk"
@@ -7886,6 +7897,7 @@
       "subcategory": "Baño",
       "sku": "NE0208",
       "shopifyHandle": "limpiador-de-banos-natural-natura-esencials",
+      "shopifyHandleUK": "bathroom-cleaner",
       "availableIn": [
         "eu",
         "uk"
@@ -8168,6 +8180,7 @@
       "subcategory": "Cocina",
       "sku": "NE0202",
       "shopifyHandle": "desengrasante-natural-para-cocina-y-superficies-natura-esencials",
+      "shopifyHandleUK": "degreaser",
       "availableIn": [
         "eu",
         "uk"
@@ -8467,6 +8480,7 @@
       "subcategory": "Limpieza general",
       "sku": "NE0209",
       "shopifyHandle": "limpiador-multisuperficies-natural-natura-esencials",
+      "shopifyHandleUK": "multi-surface-cleaner",
       "availableIn": [
         "eu",
         "uk"
@@ -8747,6 +8761,7 @@
       "subcategory": "Limpieza general",
       "sku": "NE0207",
       "shopifyHandle": "limpiacristales-natural-natura-esencials",
+      "shopifyHandleUK": "glass-cleaner",
       "availableIn": [
         "eu",
         "uk"

@@ -9,6 +9,8 @@ import {
   getBundleBySlug,
   getAllBundleRoutes,
   getProductById,
+  resolveShopifyHandle,
+  resolveBundleHandles,
 } from '@/data';
 import {
   type Locale,
@@ -238,21 +240,25 @@ export default async function RitualPage({ params }: Props) {
                     {(SAVE_LABEL[locale] ?? SAVE_LABEL.es)(bundle.discountPercent)}
                   </span>
                 )}
-                {bundle.handles && Object.keys(bundle.handles).filter(k => bundle.handles![k]).length > 1 ? (
-                  <MultiFormatBuyButton
-                    handles={bundle.handles as Record<string, string>}
-                    region={region}
-                    locale={locale}
-                  />
-                ) : (
-                  <BuyButton
-                    handle={bundle.shopifyHandle}
-                    formats={bundle.format ? [bundle.format] : []}
-                    region={region}
-                    locale={locale}
-                    showPricing={true}
-                  />
-                )}
+                {(() => {
+                  const bundleHandles = resolveBundleHandles(bundle, region);
+                  const bundleHandle = resolveShopifyHandle(bundle, region);
+                  return bundleHandles && Object.keys(bundleHandles).filter(k => bundleHandles[k]).length > 1 ? (
+                    <MultiFormatBuyButton
+                      handles={bundleHandles as Record<string, string>}
+                      region={region}
+                      locale={locale}
+                    />
+                  ) : (
+                    <BuyButton
+                      handle={bundleHandle}
+                      formats={bundle.format ? [bundle.format] : []}
+                      region={region}
+                      locale={locale}
+                      showPricing={true}
+                    />
+                  );
+                })()}
               </div>
 
               {/* Productos incluidos */}
@@ -280,7 +286,7 @@ export default async function RitualPage({ params }: Props) {
       </article>
       {bundle.shopifyHandle && (
         <div className="px-pad-x pb-pad-y">
-          <ReviewsWidget handle={bundle.shopifyHandle} title={tr.name} locale={locale} shopifyHandle={bundle.shopifyHandle} />
+          <ReviewsWidget handle={resolveShopifyHandle(bundle, region)} title={tr.name} locale={locale} shopifyHandle={resolveShopifyHandle(bundle, region)} />
         </div>
       )}
     </>

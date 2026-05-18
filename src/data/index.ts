@@ -100,6 +100,7 @@ function transformProduct(raw: RawProduct): Product {
     subcategory: raw.subcategory,
     sku: raw.sku,
     shopifyHandle: raw.shopifyHandle,
+    shopifyHandleUK: raw.shopifyHandleUK,
     availableIn: raw.availableIn,
     sensation: raw.sensation,
     isoNaturalPercent: raw.isoNaturalPercent,
@@ -139,7 +140,9 @@ function transformBundle(raw: RawBundle): Bundle {
     baseSlug: raw.id,
     line: raw.line,
     shopifyHandle: raw.shopifyHandle,
+    shopifyHandleUK: raw.shopifyHandleUK,
     handles: raw.handles,
+    handlesUK: raw.handlesUK,
     availableIn: raw.availableIn,
     sensation: raw.sensation,
     includes: raw.includes,
@@ -160,6 +163,33 @@ function transformBundle(raw: RawBundle): Bundle {
 export const products: Product[] = (productsData.products as RawProduct[]).map(transformProduct);
 
 export const bundles: Bundle[] = (bundlesData.bundles as RawBundle[]).map(transformBundle);
+
+// ─────────────────────────── handle resolution ───────────────────────────
+
+/**
+ * Devuelve el handle Shopify correcto según la región.
+ * UK tiene su propia tienda con handles distintos al EU.
+ * Si shopifyHandleUK no está definido, hace fallback a shopifyHandle.
+ */
+export function resolveShopifyHandle(
+  item: { shopifyHandle: string; shopifyHandleUK?: string },
+  region: 'eu' | 'uk',
+): string {
+  if (region === 'uk' && item.shopifyHandleUK) return item.shopifyHandleUK;
+  return item.shopifyHandle;
+}
+
+/**
+ * Devuelve el mapping formato→handle correcto según la región.
+ * Para bundles multi-formato con handles distintos por región.
+ */
+export function resolveBundleHandles(
+  bundle: Bundle,
+  region: 'eu' | 'uk',
+): Record<string, string> | undefined {
+  if (region === 'uk' && bundle.handlesUK) return bundle.handlesUK;
+  return bundle.handles;
+}
 
 // ─────────────────────────── lookup helpers ───────────────────────────
 

@@ -4,6 +4,7 @@
       "id": "ritual-plenitud-300",
       "line": "cosmetica",
       "shopifyHandle": "ritual-plenitud-300",
+      "shopifyHandleUK": "ritual-wholeness-300-ml",
       "availableIn": [
         "eu",
         "uk"
@@ -106,12 +107,21 @@
         "300 ml": "ritual-plenitud-300",
         "1 L": "ritual-plenitud-1-ltr"
       },
+      "handlesUK": {
+        "300 ml": "ritual-wholeness-300-ml",
+        "1 L": "ritual-wholeness-1-ltr"
+      },
       "basePriceGBP": 21.16
     },
     {
       "id": "ritual-plenitud-1l",
       "line": "cosmetica",
       "shopifyHandle": "ritual-plenitud-1-ltr",
+      "shopifyHandleUK": "ritual-wholeness-1-ltr",
+      "handlesUK": {
+        "300 ml": "ritual-wholeness-300-ml",
+        "1 L": "ritual-wholeness-1-ltr"
+      },
       "availableIn": [
         "eu",
         "uk"
@@ -216,6 +226,7 @@
       "id": "ritual-ducha-perfecta-300",
       "line": "cosmetica",
       "shopifyHandle": "pack-esenciales-diarios",
+      "shopifyHandleUK": "ritual-perfect-shower-300-ml",
       "availableIn": [
         "eu",
         "uk"
@@ -317,12 +328,21 @@
         "300 ml": "pack-esenciales-diarios",
         "1 L": "ritual-ducha-perfecta-1-ltr"
       },
+      "handlesUK": {
+        "300 ml": "ritual-perfect-shower-300-ml",
+        "1 L": "ritual-perfect-shower-1-ltr"
+      },
       "basePriceGBP": 16.17
     },
     {
       "id": "ritual-ducha-perfecta-1l",
       "line": "cosmetica",
       "shopifyHandle": "ritual-ducha-perfecta-1-ltr",
+      "shopifyHandleUK": "ritual-perfect-shower-1-ltr",
+      "handlesUK": {
+        "300 ml": "ritual-perfect-shower-300-ml",
+        "1 L": "ritual-perfect-shower-1-ltr"
+      },
       "availableIn": [
         "eu",
         "uk"
@@ -426,6 +446,7 @@
       "id": "ritual-rendimiento-300",
       "line": "cosmetica",
       "shopifyHandle": "pack-deportivo-higiene-cuidado",
+      "shopifyHandleUK": "ritual-performance-300-ml",
       "availableIn": [
         "eu",
         "uk"
@@ -526,12 +547,21 @@
         "300 ml": "pack-deportivo-higiene-cuidado",
         "1 L": "ritual-rendimiento-1ltr"
       },
+      "handlesUK": {
+        "300 ml": "ritual-performance-300-ml",
+        "1 L": "ritual-performance-1-ltr"
+      },
       "basePriceGBP": 11.52
     },
     {
       "id": "ritual-rendimiento-1l",
       "line": "cosmetica",
       "shopifyHandle": "ritual-rendimiento-1ltr",
+      "shopifyHandleUK": "ritual-performance-1-ltr",
+      "handlesUK": {
+        "300 ml": "ritual-performance-300-ml",
+        "1 L": "ritual-performance-1-ltr"
+      },
       "availableIn": [
         "eu",
         "uk"
@@ -851,6 +881,7 @@
       "id": "ritual-vajilla-perfecta",
       "line": "hogar",
       "shopifyHandle": "pack-cuidado-lavavajilla",
+      "shopifyHandleUK": "ritual-perfect-dishes",
       "availableIn": [
         "eu",
         "uk"
@@ -953,6 +984,7 @@
       "id": "ritual-bano-impecable",
       "line": "hogar",
       "shopifyHandle": "pack-bano-esencial",
+      "shopifyHandleUK": "ritual-impeccable-bathroom",
       "availableIn": [
         "eu",
         "uk"
@@ -1055,6 +1087,7 @@
       "id": "ritual-cocina-impecable",
       "line": "hogar",
       "shopifyHandle": "pack-cocina-impecable",
+      "shopifyHandleUK": "ritual-impeccable-kitchen",
       "availableIn": [
         "eu",
         "uk"
@@ -1158,6 +1191,7 @@
       "id": "ritual-caricia",
       "line": "hogar",
       "shopifyHandle": "pack-colada-esencial",
+      "shopifyHandleUK": "ritual-caress",
       "availableIn": [
         "eu",
         "uk"
@@ -1261,6 +1295,7 @@
       "baseSlug": "ritual-refugio",
       "line": "hogar",
       "shopifyHandle": "ritual-refugio",
+      "shopifyHandleUK": "ritual-sanctuary",
       "availableIn": [
         "eu",
         "uk"

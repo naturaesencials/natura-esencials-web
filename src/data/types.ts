@@ -92,6 +92,8 @@ export interface Product {
   sku: string;
   /** Handle de Shopify (para conectar con Storefront API) */
   shopifyHandle: string;
+  /** Handle de Shopify UK (cuando difiere del EU). Si no está, fallback a shopifyHandle */
+  shopifyHandleUK?: string;
   handles?: Record<string, string>;
   /** Regiones donde se vende */
   availableIn: Region[];
@@ -138,7 +140,11 @@ export interface Bundle {
   baseSlug: string;
   line: ProductLine;
   shopifyHandle: string;
+  /** Handle de Shopify UK (si difiere). Fallback a shopifyHandle. */
+  shopifyHandleUK?: string;
   handles?: Record<string, string>;
+  /** Mapping de formato a handle de Shopify UK */
+  handlesUK?: Record<string, string>;
   availableIn: Region[];
   sensation: Sensation;
   /** IDs de los productos individuales que componen el pack */
