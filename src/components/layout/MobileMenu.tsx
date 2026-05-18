@@ -54,7 +54,16 @@ export function MobileMenu({ open, onClose, region, locale, onOpenRegionSelector
           <span aria-hidden>🌍</span>
           <span>{tc('region')} · <em className="not-italic text-verde">{region.toUpperCase()} · {locale.toUpperCase()}</em></span>
         </button>
-        <a href="https://tienda.naturaesencials.com/account" target="_blank" rel="noopener" className="flex min-h-touch items-center">{tc('account')}</a>
+        <a
+          href={region === 'uk'
+            ? 'https://natura-esencials.myshopify.com/account'
+            : 'https://tienda.naturaesencials.com/account'}
+          target="_blank"
+          rel="noopener"
+          className="flex min-h-touch items-center"
+        >
+          {tc('account')}
+        </a>
         <a className="flex min-h-touch items-center">Contacto · WhatsApp</a>
       </div>
     </div>
