@@ -53,21 +53,25 @@ interface JudgeMeResponse {
  */
 async function fetchFromJudgeMe(region: Region, handle: string): Promise<Review[]> {
   const { shop, token } = getConfig(region);
-  if (!token || !handle) return [];
+  if (!token) return [];
 
   const url = new URL('https://judge.me/api/v1/reviews');
   url.searchParams.set('api_token', token);
   url.searchParams.set('shop_domain', shop);
   url.searchParams.set('per_page', '100');
-  url.searchParams.set('handle', handle);
+  if (handle) url.searchParams.set('handle', handle);
 
   try {
     const res = await fetch(url.toString(), { next: { revalidate: 300 } });
     if (!res.ok) return [];
     const data: JudgeMeResponse = await res.json();
-    // Filter strictly by handle (Judge.me sometimes returns shop-level reviews
-    // even when handle is set; we want only product reviews matching this handle).
-    return (data.reviews ?? []).filter((r) => r.product_handle === handle);
+    let reviews = data.reviews ?? [];
+    // Filter strictly by handle ONLY when a handle was specified.
+    // Without handle, return all (used for shop-level reviews on homepage).
+    if (handle) {
+      reviews = reviews.filter((r) => r.product_handle === handle);
+    }
+    return reviews;
   } catch {
     return [];
   }
