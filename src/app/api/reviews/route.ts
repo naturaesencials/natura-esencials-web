@@ -87,12 +87,22 @@ export async function GET(req: NextRequest) {
   const region: Region = regionParam === 'uk' ? 'uk' : 'eu';
   const otherRegion: Region = region === 'uk' ? 'eu' : 'uk';
 
-  // Parallel fetch: primary region + cross region (if crossHandle provided).
-  // The "cross" query is how we surface EU reviews on UK pages (and vice versa)
-  // because Judge.me cross-store syndication only works at widget level, not API level.
+  // Parallel fetch: primary region + cross region.
+  //
+  // Cross-region behavior:
+  //   - PRODUCT pages (handle + cross_handle):   primary region with handle, other region with cross_handle
+  //   - HOMEPAGE / shop-level (no handle):       BOTH regions without handle (returns shop reviews from both)
+  //   - Single region (handle only):             primary region only
+  //
+  // This bypasses Judge.me cross-store syndication (which only works at widget level, not API)
+  // and ensures reviews accumulated across regions are visible everywhere on the site.
   const [primary, cross] = await Promise.all([
     fetchFromJudgeMe(region, handle),
-    crossHandle ? fetchFromJudgeMe(otherRegion, crossHandle) : Promise.resolve([] as Review[]),
+    crossHandle
+      ? fetchFromJudgeMe(otherRegion, crossHandle)
+      : !handle
+        ? fetchFromJudgeMe(otherRegion, '')      // homepage: also fetch other region's shop reviews
+        : Promise.resolve([] as Review[]),
   ]);
 
   // Merge, dedupe by review ID (defensive — same review shouldn't appear in both),
