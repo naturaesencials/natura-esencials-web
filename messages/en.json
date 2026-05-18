@@ -221,7 +221,13 @@
       "title": "Natural",
       "accent": "Pet Grooming",
       "desc": "Natural pet grooming and care rituals: gentle care for dogs and cats with calm hygiene, peace at home and stress-free bonding. Products with MAPA registration and hypoallergenic formulas adapted to the animal microbiome.",
-      "h1Qualifier": "Natural"
+      "h1Qualifier": "Natural",
+      "comingSoonKicker": "Coming Soon · UK",
+      "comingSoonTitle": "Pet Care",
+      "comingSoonAccent": "Coming Soon",
+      "comingSoonBody": "We are preparing our natural pet care line — shampoos, ear and eye cleaners for dogs and cats — for the UK market. Subscribe to our newsletter to be the first to know when it launches.",
+      "comingSoonCTA": "Browse available cosmetics",
+      "comingSoonCTASecondary": "Back to home"
     }
   }
 }

@@ -221,7 +221,13 @@
       "title": "Soins naturels",
       "accent": "animaux",
       "desc": "Soins naturels animaux en rituel : soin doux pour chiens et chats avec hygiène tranquille, sérénité à la maison. 97% naturels, artisanaux d'Andalousie.",
-      "h1Qualifier": "Naturelle"
+      "h1Qualifier": "Naturelle",
+      "comingSoonKicker": "Bientôt · UK",
+      "comingSoonTitle": "Soins pour animaux",
+      "comingSoonAccent": "Coming Soon",
+      "comingSoonBody": "Nous préparons notre ligne de soin naturel pour chiens et chats pour le marché britannique. Abonnez-vous à notre newsletter pour être informé du lancement.",
+      "comingSoonCTA": "Voir la cosmétique disponible",
+      "comingSoonCTASecondary": "Retour à l'accueil"
     }
   }
 }

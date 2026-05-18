@@ -95,7 +95,7 @@ export const rituales: Ritual[] = [
   {
     id: 3, number: '03', line: 'cosmetica',
     shopifyHandle: 'ritual-rendimiento',
-    availableIn: ['eu'],
+    availableIn: ['eu', 'uk'],
     slugs: {
       es: 'rendimiento-300', en: 'performance-300', fr: 'performance-300',
       de: 'leistung-300', it: 'rendimento-300', nl: 'performance-300', pt: 'desempenho-300',
@@ -232,7 +232,7 @@ export const rituales: Ritual[] = [
   {
     id: 7, number: '07', line: 'hogar',
     shopifyHandle: 'ritual-cocina-impecable',
-    availableIn: ['eu'],
+    availableIn: ['eu', 'uk'],
     slugs: {
       es: 'cocina-impecable', en: 'impeccable-kitchen', fr: 'cuisine-impeccable',
       de: 'makellose-kueche', it: 'cucina-impeccabile', nl: 'onberispelijke-keuken', pt: 'cozinha-impecavel',
@@ -266,7 +266,7 @@ export const rituales: Ritual[] = [
   {
     id: 8, number: '08', line: 'hogar',
     shopifyHandle: 'ritual-vajilla-perfecta',
-    availableIn: ['eu'],
+    availableIn: ['eu', 'uk'],
     slugs: {
       es: 'vajilla-perfecta', en: 'perfect-dishes', fr: 'vaisselle-parfaite',
       de: 'perfektes-geschirr', it: 'stoviglie-perfette', nl: 'perfecte-vaat', pt: 'loica-perfeita',
@@ -300,7 +300,7 @@ export const rituales: Ritual[] = [
   {
     id: 9, number: '09', line: 'hogar',
     shopifyHandle: 'ritual-caricia',
-    availableIn: ['eu'],
+    availableIn: ['eu', 'uk'],
     slugs: {
       es: 'caricia', en: 'caress', fr: 'caresse',
       de: 'liebkosung', it: 'carezza', nl: 'liefkozing', pt: 'caricia',
@@ -334,7 +334,7 @@ export const rituales: Ritual[] = [
   {
     id: 12, number: '12', line: 'hogar',
     shopifyHandle: 'pack-bano-esencial',
-    availableIn: ['eu'],
+    availableIn: ['eu', 'uk'],
     slugs: {
       es: 'bano-impecable', en: 'impeccable-bathroom', fr: 'salle-de-bain-impeccable',
       de: 'makelloses-bad', it: 'bagno-impeccabile', nl: 'onberispelijke-badkamer', pt: 'casa-de-banho-impecavel',
