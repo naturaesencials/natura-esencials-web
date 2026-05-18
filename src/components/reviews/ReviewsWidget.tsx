@@ -110,13 +110,15 @@ function ReviewCard({ review, lb, locale }: { review: Review; lb: typeof T.es; l
 
 interface Props {
   handle?: string;
+  /** Handle of the same product in the OTHER region. Enables cross-region review merge. */
+  crossHandle?: string;
   title?: string;
   locale?: string;
   shopifyHandle?: string;
   region?: 'eu' | 'uk';
 }
 
-export function ReviewsWidget({ handle, title, locale = 'es', shopifyHandle, region = 'eu' }: Props) {
+export function ReviewsWidget({ handle, crossHandle, title, locale = 'es', shopifyHandle, region = 'eu' }: Props) {
   const lb = T[locale] ?? T.es;
   const [reviews, setReviews] = useState<Review[]>([]);
   const [total, setTotal] = useState(0);
@@ -128,11 +130,12 @@ export function ReviewsWidget({ handle, title, locale = 'es', shopifyHandle, reg
   const fetchReviews = useCallback(async (p: number, append = false) => {
     const params = new URLSearchParams({ page: String(p), per_page: String(PER_PAGE), region });
     if (handle) params.set('handle', handle);
+    if (crossHandle && crossHandle !== handle) params.set('cross_handle', crossHandle);
     const res = await fetch(`/api/reviews?${params}`);
     const data = await res.json();
     setTotal(data.total ?? 0);
     setReviews(prev => append ? [...prev, ...(data.reviews ?? [])] : (data.reviews ?? []));
-  }, [handle, region]);
+  }, [handle, crossHandle, region]);
 
   useEffect(() => {
     setLoading(true);

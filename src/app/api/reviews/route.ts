@@ -42,51 +42,70 @@ interface JudgeMeResponse {
   total: number;
 }
 
-export async function GET(req: NextRequest) {
-  const { searchParams } = new URL(req.url);
-  const handle = searchParams.get('handle') ?? '';
-  const page = searchParams.get('page') ?? '1';
-  const perPage = searchParams.get('per_page') ?? '10';
-  const regionParam = (searchParams.get('region') ?? 'eu').toLowerCase();
-  const region: Region = regionParam === 'uk' ? 'uk' : 'eu';
-
+/**
+ * Fetch reviews from a single Judge.me account (one region).
+ * Returns up to 100 reviews for the given handle.
+ *
+ * Cross-store syndication via Judge.me's group feature requires identical SKUs
+ * across stores. Since our EU/UK Shopify products have different SKUs, syndication
+ * doesn't work natively. We bypass it by querying each region's Judge.me directly
+ * and merging on our side (see GET handler).
+ */
+async function fetchFromJudgeMe(region: Region, handle: string): Promise<Review[]> {
   const { shop, token } = getConfig(region);
-
-  if (!token) {
-    // Return empty gracefully — will show "no reviews yet" UI
-    return NextResponse.json({ reviews: [], total: 0, current_page: 1 });
-  }
+  if (!token || !handle) return [];
 
   const url = new URL('https://judge.me/api/v1/reviews');
   url.searchParams.set('api_token', token);
   url.searchParams.set('shop_domain', shop);
-  url.searchParams.set('page', page);
-  url.searchParams.set('per_page', perPage);
-  if (handle) url.searchParams.set('handle', handle);
+  url.searchParams.set('per_page', '100');
+  url.searchParams.set('handle', handle);
 
   try {
-    const res = await fetch(url.toString(), {
-      next: { revalidate: 300 },
-    });
-    if (!res.ok) {
-      return NextResponse.json({ reviews: [], total: 0, current_page: 1 });
-    }
+    const res = await fetch(url.toString(), { next: { revalidate: 300 } });
+    if (!res.ok) return [];
     const data: JudgeMeResponse = await res.json();
-    let reviews: Review[] = data.reviews ?? [];
-
-    // Si se pidió un producto concreto, filtrar estrictamente por handle.
-    // Las "shop reviews" (product_handle: "judgeme-shop-reviews") solo
-    // aparecen en la homepage (sin handle), nunca en páginas de producto.
-    if (handle) {
-      reviews = reviews.filter((r) => r.product_handle === handle);
-    }
-
-    return NextResponse.json({
-      reviews,
-      total: reviews.length,
-      current_page: data.current_page ?? 1,
-    });
+    // Filter strictly by handle (Judge.me sometimes returns shop-level reviews
+    // even when handle is set; we want only product reviews matching this handle).
+    return (data.reviews ?? []).filter((r) => r.product_handle === handle);
   } catch {
-    return NextResponse.json({ reviews: [], total: 0, current_page: 1 });
+    return [];
   }
+}
+
+export async function GET(req: NextRequest) {
+  const { searchParams } = new URL(req.url);
+  const handle = searchParams.get('handle') ?? '';
+  const crossHandle = searchParams.get('cross_handle') ?? '';
+  const page = searchParams.get('page') ?? '1';
+  const perPage = searchParams.get('per_page') ?? '10';
+  const regionParam = (searchParams.get('region') ?? 'eu').toLowerCase();
+  const region: Region = regionParam === 'uk' ? 'uk' : 'eu';
+  const otherRegion: Region = region === 'uk' ? 'eu' : 'uk';
+
+  // Parallel fetch: primary region + cross region (if crossHandle provided).
+  // The "cross" query is how we surface EU reviews on UK pages (and vice versa)
+  // because Judge.me cross-store syndication only works at widget level, not API level.
+  const [primary, cross] = await Promise.all([
+    fetchFromJudgeMe(region, handle),
+    crossHandle ? fetchFromJudgeMe(otherRegion, crossHandle) : Promise.resolve([] as Review[]),
+  ]);
+
+  // Merge, dedupe by review ID (defensive — same review shouldn't appear in both),
+  // sort newest first by created_at.
+  const merged = [...primary, ...cross];
+  const deduped = Array.from(new Map(merged.map((r) => [r.id, r])).values());
+  deduped.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+
+  // Server-side pagination over the merged result set.
+  const pageNum = Math.max(1, parseInt(page, 10) || 1);
+  const limit = Math.max(1, Math.min(100, parseInt(perPage, 10) || 10));
+  const start = (pageNum - 1) * limit;
+  const reviews = deduped.slice(start, start + limit);
+
+  return NextResponse.json({
+    reviews,
+    total: deduped.length,
+    current_page: pageNum,
+  });
 }

@@ -470,8 +470,15 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
           </section>
         )}
 
-        {/* Reviews Judge.me */}
-        <ReviewsWidget handle={resolveShopifyHandle(product, region)} title={tr.name} locale={locale} shopifyHandle={resolveShopifyHandle(product, region)} region={region} />
+        {/* Reviews Judge.me — cross-region merge (UK page shows EU reviews via crossHandle and vice versa) */}
+        <ReviewsWidget
+          handle={resolveShopifyHandle(product, region)}
+          crossHandle={resolveShopifyHandle(product, region === 'uk' ? 'eu' : 'uk')}
+          title={tr.name}
+          locale={locale}
+          shopifyHandle={resolveShopifyHandle(product, region)}
+          region={region}
+        />
       </div>
     </article>
   );
