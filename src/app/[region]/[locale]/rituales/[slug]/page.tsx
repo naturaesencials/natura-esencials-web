@@ -206,7 +206,7 @@ export default async function RitualPage({ params }: Props) {
                 )}
                 {' · '}{{
                   es: 'Natural', en: 'Natural', fr: 'Naturelle',
-                  de: 'Natürlich', it: 'Naturale', nl: 'Naturlijk', pt: 'Natural',
+                  de: 'Natürlich', it: 'Naturale', nl: 'Natuurlijk', pt: 'Natural',
                 }[locale] ?? 'Natural'}
               </h1>
               {tr.subtitle && (

@@ -74,7 +74,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
   if (!tr) return null;
   const h1Qualifier: Record<string, string> = {
     es: 'Natural', en: 'Natural', fr: 'Naturelle',
-    de: 'Natürlich', it: 'Naturale', nl: 'Naturlijk', pt: 'Natural',
+    de: 'Natürlich', it: 'Naturale', nl: 'Natuurlijk', pt: 'Natural',
   };
   const h1Q = h1Qualifier[locale] ?? 'Natural';
 

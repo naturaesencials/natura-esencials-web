@@ -679,7 +679,7 @@
         "aiTranslation": true,
         "nameMain": "Rituel",
         "nameAccent": "Pour Elle",
-        "shortDescription": "Tous les produits 300ml et 1L de la gamme féminine : shampooing, après-shampooing, savon, lait corporel et gel douche. Le rituel le plus complet.",
+        "shortDescription": "Tous les produits 300ml et 1L de la gamme féminine : shampooing, après-shampooing, savon, lait corporel et gel douche. Une formule naturelle artisanale, le rituel le plus complet pour elle.",
         "longDescription": "Pour elle, la routine la plus complète : chaque produit de la collection féminine réuni.",
         "story": "Le rituel féminin qui commence au shampooing et se termine dans la douceur du lait corporel. Chaque produit de la collection, rien ne manque."
       },
@@ -691,7 +691,7 @@
         "aiTranslation": true,
         "nameMain": "Ritual",
         "nameAccent": "für Sie",
-        "shortDescription": "Alle 300ml- und 1L-Produkte der Frauenlinie: Shampoo, Conditioner, Seife, Body Milk und Duschgel. Das vollständigste Ritual.",
+        "shortDescription": "Alle 300ml- und 1L-Produkte der Frauenlinie: Shampoo, Conditioner, Seife, Body Milk und Duschgel. Das vollständigste natürliche Ritual für sie.",
         "longDescription": "Für sie die umfassendste Routine: jedes Produkt der Frauenkollektion vereint.",
         "story": "Das feminine Ritual, das beim Shampoo beginnt und in der Sanftheit der Body Milk endet. Jedes Produkt der Kollektion, nichts fehlt."
       },
@@ -788,7 +788,7 @@
         "aiTranslation": true,
         "nameMain": "Rituel",
         "nameAccent": "Pour Lui",
-        "shortDescription": "Tous les produits de la gamme masculine : shampooing, gel douche, baume après-rasage et lait corporel. Le rituel masculin le plus complet.",
+        "shortDescription": "Tous les produits de la gamme masculine : shampooing, gel douche, baume après-rasage et lait corporel. Une formule naturelle artisanale — le rituel masculin le plus complet.",
         "longDescription": "Pour lui, la routine la plus complète : chaque produit de la collection masculine réuni.",
         "story": "Le rituel masculin avec un seul univers olfactif : l'ambre chaud avec basilic et thym. Des cheveux à la peau, une intention cohérente."
       },
@@ -800,7 +800,7 @@
         "aiTranslation": true,
         "nameMain": "Ritual",
         "nameAccent": "für Ihn",
-        "shortDescription": "Alle Produkte der Männerlinie: Shampoo, Duschgel, Aftershave-Balsam und Body Milk. Das vollständigste Männerritual.",
+        "shortDescription": "Alle Produkte der Männerlinie: Shampoo, Duschgel, Aftershave-Balsam und Body Milk. Das vollständigste natürliche Männerritual aus Andalusien.",
         "longDescription": "Für ihn die umfassendste Routine: jedes Produkt der Männerkollektion vereint.",
         "story": "Das maskuline Ritual mit einem einzigen Duftuniversum: warmer Amber mit Basilikum und Thymian. Vom Haar bis zur Haut, eine klare Absicht."
       },
@@ -1402,7 +1402,7 @@
         "aiTranslation": true,
         "nameMain": "Rituel",
         "nameAccent": "Chat Zen",
-        "shortDescription": "Shampooing doux à l'argan et aux actifs microbiome, soin oculaire herbal et nettoyant auriculaire à l'arbre à thé.",
+        "shortDescription": "Shampooing doux à l'argan et aux actifs microbiome, soin oculaire herbal et nettoyant auriculaire à l'arbre à thé. Une routine naturelle et apaisante pour votre chat.",
         "longDescription": "Hygiène tranquille, sans lutte. Trois produits conçus pour réduire le stress au moment de l'hygiène, avec Calme et Connexion.",
         "story": "Si votre chat va bien, vous aussi. Le rituel d'hygiène complet conçu pour réduire le stress des deux côtés."
       },

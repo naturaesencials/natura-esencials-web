@@ -211,6 +211,17 @@ export default async function RitualesPage({ params }: Props) {
         <p className="mt-3 text-[15px] leading-[1.85] text-graphite max-w-xl">
           {pageDesc2[locale] ?? pageDesc2.es}
         </p>
+        <p className="mt-3 text-[15px] leading-[1.85] text-graphite max-w-xl">
+          {({
+            es: 'Todos los rituales se fabrican a mano en nuestro taller de Marbella, usando materias primas de origen vegetal seleccionadas en Andalucía. Certificación ISO 16128, sin parabenos, sin sulfatos agresivos.',
+            en: 'All rituals are handcrafted in our Marbella workshop, using plant-based raw materials sourced in Andalusia. ISO 16128 certified, paraben-free, free from aggressive sulphates.',
+            fr: 'Tous les rituels sont fabriqués à la main dans notre atelier de Marbella, avec des matières premières végétales sélectionnées en Andalousie. Certifiés ISO 16128, sans parabènes ni sulfates agressifs.',
+            de: 'Alle Rituale werden handgefertigt in unserem Atelier in Marbella, mit pflanzlichen Rohstoffen aus Andalusien. ISO 16128 zertifiziert, parabenfrei, ohne aggressive Sulfate.',
+            it: 'Tutti i rituali sono prodotti a mano nel nostro laboratorio di Marbella, con materie prime vegetali selezionate in Andalusia. Certificati ISO 16128, senza parabeni né solfati aggressivi.',
+            nl: 'Alle rituelen worden met de hand gemaakt in ons atelier in Marbella, met plantaardige grondstoffen uit Andalusië. ISO 16128 gecertificeerd, vrij van parabenen en agressieve sulfaten.',
+            pt: 'Todos os rituais são produzidos à mão no nosso atelier em Marbella, com matérias-primas vegetais selecionadas na Andaluzia. Certificados ISO 16128, sem parabenos, sem sulfatos agressivos.',
+          } as Record<string, string>)[locale] ?? 'Todos los rituales se fabrican a mano en nuestro taller de Marbella, usando materias primas de origen vegetal seleccionadas en Andalucía.'}
+        </p>
       </header>
 
       {/* Secciones */}

@@ -41,14 +41,14 @@ En Natura Esencials formulamos nuestro Champú 2 en 1 con un pH cuidadosamente a
 
 **¿Cómo lo conseguimos?** Usando tensioactivos de origen vegetal (coco y azúcar) que son intrínsecamente más suaves, y ajustando el pH con ácido cítrico al final del proceso de fabricación. Cada lote se mide con pHmetro calibrado antes del envasado.
 
-El resultado es un cabello limpio, sin encrespamiento, con la cutícula intacta. Así de sencillo — y así de importante.`,
+El resultado es un cabello limpio, sin encrespamiento, con la cutícula intacta. Así de sencillo — y así de importante. El pH debe ser el primer criterio al elegir un champú.`,
       en: `Human hair has a natural pH of between 4.5 and 5.5 — slightly acidic. The hair cuticle, that layer of scales protecting the hair shaft, stays closed and smooth within that range. When exposed to products with alkaline pH (between 7 and 9, common in many conventional shampoos), the scales open, hair loses shine, becomes porous and breaks more easily.
 
 At Natura Esencials we formulate our 2-in-1 Shampoo with a carefully adjusted pH between 4.5 and 5.5. This is not a minor detail — it is part of the ISO 16128 formulation protocol we follow in every product.
 
 **How do we achieve it?** By using plant-based surfactants (coconut and sugar) that are inherently gentler, and adjusting pH with citric acid at the end of the manufacturing process. Each batch is measured with a calibrated pH meter before bottling.
 
-The result is clean hair, without frizz, with the cuticle intact. That simple — and that important.`,
+The result is clean hair, without frizz, with the cuticle intact. That simple — and that important. pH matters more than most people realise.`,
       fr: `Le cheveu humain a un pH naturel compris entre 4,5 et 5,5. La cuticule capillaire reste fermée et lisse dans cette plage. Les produits au pH alcalin ouvrent les écailles, le cheveu perd son éclat et casse plus facilement.
 
 Chez Natura Esencials, nous formulons notre Shampooing 2 en 1 avec un pH ajusté entre 4,5 et 5,5. Cela fait partie du protocole ISO 16128.
@@ -56,7 +56,7 @@ Chez Natura Esencials, nous formulons notre Shampooing 2 en 1 avec un pH ajusté
 **Comment y parvenons-nous ?** En utilisant des tensioactifs d'origine végétale (coco et sucre) et en ajustant le pH avec de l'acide citrique.
 
 Le résultat : un cheveu propre, sans frisottis, avec la cuticule intacte.`,
-      de: `Menschliches Haar hat einen pH-Wert zwischen 4,5 und 5,5. Die Haarschuppenschicht bleibt geschlossen und glatt. Produkte mit alkalischem pH-Wert öffnen die Schuppen, das Haar verliert Glanz und bricht leichter.
+      de: `Menschliches Haar hat einen pH-Wert zwischen 4,5 und 5,5. Jedes gute Naturshampoo sollte einen sauren pH in diesem Bereich haben. Die Haarschuppenschicht bleibt geschlossen und glatt. Produkte mit alkalischem pH-Wert öffnen die Schuppen, das Haar verliert Glanz und bricht leichter.
 
 Bei Natura Esencials formulieren wir unser 2-in-1-Shampoo mit einem pH-Wert zwischen 4,5 und 5,5. Das ist Teil des ISO 16128-Protokolls.
 
@@ -70,7 +70,7 @@ In Natura Esencials formuliamo il nostro Shampoo 2 in 1 con un pH regolato tra 4
 **Come ci riusciamo?** Tensioattivi di origine vegetale (cocco e zucchero) e regolazione del pH con acido citrico.
 
 Il risultato: capelli puliti, senza crespo, con la cuticola intatta.`,
-      nl: `Menselijk haar heeft een pH tussen 4,5 en 5,5. De haarschubbenlaag blijft gesloten en glad. Producten met alkalische pH openen de schubben, het haar verliest glans en breekt gemakkelijker.
+      nl: `Menselijk haar heeft een pH tussen 4,5 en 5,5. De haarschubbenlaag blijft gesloten en glad bij een zure pH van 4,5 tot 5,5. Producten met alkalische pH openen de schubben, het haar verliest glans en breekt gemakkelijker.
 
 Bij Natura Esencials formuleren we onze 2-in-1 Shampoo met een pH tussen 4,5 en 5,5. Dit maakt deel uit van het ISO 16128-protocol.
 
@@ -121,7 +121,7 @@ Cuando diseñamos nuestra línea Hogar, la pregunta no fue "¿cómo hacemos un p
 
 **El resultado.** Nuestro Limpiasuelos Natural limpia sin dejar residuo, sin necesidad de aclarado y con un perfil de seguridad apto para hogares con niños y mascotas. Lo mismo aplica a nuestro Desengrasante, Limpiacristales y el resto de la gama.
 
-Limpiar bien no requiere agresividad química. Requiere buena formulación.`,
+Limpiar bien no requiere químicos agresivos ni agresividad química. Requiere buena formulación.`,
       en: `Spanish households consume an average of 12 kg of cleaning products per year. Most of them contain aggressive sulphates, synthetic fragrances and preservatives that, with repeated use, can irritate the airways, dry out the skin and accumulate in the environment.
 
 When we designed our Home line, the question was not "how do we make a natural cleaning product?" but "how do we make a product that truly cleans and is also safe for daily use?"
@@ -132,7 +132,7 @@ When we designed our Home line, the question was not "how do we make a natural c
 
 **The result.** Our Natural Floor Cleaner cleans without leaving residue, without rinsing, and with a safety profile suitable for homes with children and pets. The same applies to our Degreaser, Glass Cleaner and the rest of the range.
 
-Cleaning well does not require chemical aggression. It requires good formulation.`,
+Cleaning well does not require harsh chemicals or chemical aggression. It requires good formulation.`,
       fr: `Les foyers européens consomment en moyenne 12 kg de produits d'entretien par an. La plupart contiennent des sulfates agressifs et des parfums de synthèse qui irritent les voies respiratoires.
 
 Notre ligne Maison a été conçue pour nettoyer vraiment tout en étant sûre au quotidien.
@@ -141,7 +141,7 @@ Notre ligne Maison a été conçue pour nettoyer vraiment tout en étant sûre a
 
 **Le parfum compte.** Huiles essentielles réelles : citron de Málaga, lavande, menthe.
 
-Notre Nettoyant Sols nettoie sans résidu, sans rinçage, adapté aux foyers avec enfants et animaux. Bien nettoyer nécessite une bonne formulation.`,
+Notre Nettoyant Sols nettoie sans résidu, sans rinçage, adapté aux foyers avec enfants et animaux. Bien nettoyer ne nécessite pas de produits chimiques agressifs. Une bonne formulation suffit.`,
       de: `Europäische Haushalte verbrauchen durchschnittlich 12 kg Reinigungsprodukte pro Jahr. Die meisten enthalten aggressive Sulfate und synthetische Duftstoffe, die die Atemwege reizen.
 
 Unsere Haushaltslinie wurde entwickelt, um wirklich zu reinigen und zugleich sicher für den täglichen Gebrauch zu sein.
@@ -159,7 +159,7 @@ La nostra linea Casa è stata progettata per pulire davvero, in sicurezza quotid
 
 **Il profumo conta.** Veri oli essenziali: limone di Málaga, lavanda, menta.
 
-Il nostro Detergente Pavimenti pulisce senza residui, senza risciacquo, sicuro per case con bambini e animali. Pulire bene richiede buona formulazione.`,
+Il nostro Detergente Pavimenti pulisce senza residui, senza risciacquo, sicuro per case con bambini e animali. Una casa pulita si ottiene con una buona formulazione, senza prodotti aggressivi.`,
       nl: `Europese huishoudens verbruiken gemiddeld 12 kg schoonmaakproducten per jaar. De meeste bevatten agressieve sulfaten en synthetische geurstoffen die de luchtwegen irriteren.
 
 Onze Huishoudlijn is ontworpen om echt te reinigen en veilig te zijn voor dagelijks gebruik.
@@ -168,7 +168,7 @@ Onze Huishoudlijn is ontworpen om echt te reinigen en veilig te zijn voor dageli
 
 **Geur is belangrijk.** Echte essentiële oliën: Málaga-citroen, lavendel, munt.
 
-Onze Vloerreiniger reinigt zonder residu, zonder naspoelen, veilig voor huishoudens met kinderen en huisdieren. Goed reinigen vereist goede formulering.`,
+Onze Vloerreiniger reinigt zonder residu, zonder naspoelen, veilig voor huishoudens met kinderen en huisdieren. Goed schoonmaken vereist goede formulering, geen agressieve chemicaliën.`,
       pt: `As famílias europeias consomem em média 12 kg de produtos de limpeza por ano. A maioria contém sulfatos agressivos e fragrâncias sintéticas que irritam as vias respiratórias.
 
 A nossa linha Lar foi concebida para limpar a sério, com segurança diária.
@@ -177,7 +177,7 @@ A nossa linha Lar foi concebida para limpar a sério, com segurança diária.
 
 **O aroma importa.** Óleos essenciais reais: limão de Málaga, lavanda, menta.
 
-O nosso Detergente de Chão limpa sem resíduos, sem enxaguamento, seguro para lares com crianças e animais. Limpar bem requer boa formulação.`,
+O nosso Detergente de Chão limpa sem resíduos, sem enxaguamento, seguro para lares com crianças e animais. Limpar bem não requer químicos agressivos — requer boa formulação.`,
     },
   },
   {
@@ -199,7 +199,7 @@ O nosso Detergente de Chão limpa sem resíduos, sem enxaguamento, seguro para l
       es: 'ISO 16128 es el estándar internacional que define qué es un ingrediente natural en cosmética. No todos los productos que se dicen naturales lo son. Explicamos cómo interpretarlo.',
       en: 'ISO 16128 is the international standard that defines what constitutes a natural ingredient in cosmetics. Not all products claiming to be natural truly are. We explain how to interpret it.',
       fr: "ISO 16128 est la norme internationale qui définit les ingrédients naturels en cosmétique. Tous les produits naturels ne le sont pas vraiment.",
-      de: "ISO 16128 definiert, was ein natürlicher Inhaltsstoff in der Kosmetik ist. Nicht alle Produkte, die sich natürlich nennen, sind es auch.",
+      de: "ISO 16128 definiert die Zutaten und Inhaltsstoffe in der Kosmetik. Was wirklich natürlich ist — und warum das wichtig ist.",
       it: "ISO 16128 è lo standard che definisce gli ingredienti naturali in cosmetica. Non tutti i prodotti naturali lo sono davvero.",
       nl: "ISO 16128 definieert wat een natuurlijk ingrediënt in cosmetica is. Niet alle producten die zich natuurlijk noemen zijn dat ook.",
       pt: "ISO 16128 é a norma que define ingredientes naturais em cosmética. Nem todos os produtos naturais o são realmente.",
@@ -223,7 +223,7 @@ En Natura Esencials usamos ISO 16128 como herramienta de formulación desde el i
 **What does it mean in practice?** A product with an ISO 16128 index of 96% has 96% of its mass composed of natural or naturally-derived ingredients. The remaining 4% may be, for example, preservatives necessary for the microbiological safety of the product.
 
 At Natura Esencials we have used ISO 16128 as a formulation tool from the start: it forces us to justify each ingredient, to look for natural alternatives when they exist, and to be honest about what is in each bottle.`,
-      fr: `Natural est l'un des mots les plus utilisés et les moins réglementés en cosmétique. Cela change avec ISO 16128.
+      fr: `Natural est l'un des mots les plus utilisés et les moins réglementés en cosmétique. ISO 16128 signifie la fin de cette ambiguïté.
 
 **Qu'est-ce que l'ISO 16128 ?** Une norme technique internationale qui établit des critères pour classer les ingrédients cosmétiques comme naturels ou d'origine naturelle. Elle permet de calculer un indice de naturalité.
 
@@ -232,7 +232,7 @@ At Natura Esencials we have used ISO 16128 as a formulation tool from the start:
 **En pratique ?** Un produit avec un indice de 96% a 96% de sa masse d'origine naturelle.
 
 Chez Natura Esencials, ISO 16128 est notre outil de formulation depuis le début.`,
-      de: `Natürlich ist eines der am häufigsten verwendeten und am wenigsten regulierten Wörter auf dem Kosmetikmarkt. Das ändert sich mit ISO 16128.
+      de: `Natürlich ist eines der am häufigsten verwendeten und am wenigsten regulierten Wörter auf dem Kosmetikmarkt. ISO 16128 bedeutet das Ende dieser Unklarheit.
 
 **Was ist ISO 16128?** Ein internationaler Standard, der Kriterien für die Klassifizierung kosmetischer Inhaltsstoffe als natürlich oder natürlich gewonnen festlegt. Er ermöglicht die Berechnung eines Natürlichkeitsindex.
 
