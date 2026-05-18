@@ -16,23 +16,23 @@ const TITLE: Record<string, string> = {
   de: 'Häufige Fragen', it: 'Domande Frequenti', nl: 'Veelgestelde Vragen', pt: 'Perguntas Frequentes',
 };
 const SUBTITLE: Record<string, string> = {
-  es: 'Preguntas frecuentes sobre cosmética natural artesanal: nuestras formulaciones, certificaciones y proceso de fabricación.',
-  en: 'Frequently asked questions about our natural cosmetics: formulations, certifications and artisan manufacturing process.',
-  fr: 'Questions fréquentes sur notre cosmétique naturelle artisanale : formulations, certifications et processus artisanal.',
-  de: 'Häufige Fragen zu handwerklicher Naturkosmetik: Formulierungen, ISO 16128-Zertifizierungen und unser handwerklicher Prozess erklärt.',
-  it: 'Domande frequenti sulla nostra cosmetica naturale artigianale: formulazioni, certificazioni e processo artigianale di fabbricazione.',
-  nl: 'Veelgestelde vragen over onze ambachtelijke natuurlijke cosmetica: formuleringen, certificeringen en ambachtelijk proces.',
-  pt: 'Perguntas frequentes sobre cosmética natural artesanal: as nossas formulações, certificações e processo de fabrico.',
+  es: 'Preguntas frecuentes sobre cosmética de origen natural artesanal: nuestras formulaciones, certificaciones y proceso de fabricación.',
+  en: 'Frequently asked questions about our artisan cosmetics of natural origin: formulations, certifications and manufacturing process.',
+  fr: "Questions fréquentes sur notre cosmétique artisanale d'origine naturelle : formulations, certifications et processus artisanal.",
+  de: 'Häufige Fragen zu handwerklicher Kosmetik natürlichen Ursprungs: Formulierungen, ISO 16128-Zertifizierungen und unser handwerklicher Prozess erklärt.',
+  it: 'Domande frequenti sulla nostra cosmetica artigianale di origine naturale: formulazioni, certificazioni e processo artigianale di fabbricazione.',
+  nl: 'Veelgestelde vragen over onze ambachtelijke cosmetica van natuurlijke oorsprong: formuleringen, certificeringen en ambachtelijk proces.',
+  pt: 'Perguntas frequentes sobre cosmética artesanal de origem natural: as nossas formulações, certificações e processo de fabrico.',
 };
 // Long-form H1: descriptive phrase for SEO (avoids "too short" flag)
 const H1_LONG: Record<string, string> = {
-  es: 'Preguntas frecuentes sobre cosmética natural artesanal',
-  en: 'Frequently asked questions about artisan natural cosmetics',
-  fr: 'Questions fréquentes sur la cosmétique naturelle artisanale',
-  de: 'Häufige Fragen zu handwerklicher Naturkosmetik',
-  it: 'Domande frequenti sulla cosmetica naturale artigianale',
-  nl: 'Veelgestelde vragen over ambachtelijke natuurlijke cosmetica',
-  pt: 'Perguntas frequentes sobre cosmética natural artesanal',
+  es: 'Preguntas frecuentes sobre cosmética artesanal',
+  en: 'Frequently asked questions about artisan cosmetics',
+  fr: 'Questions fréquentes sur la cosmétique artisanale',
+  de: 'Häufige Fragen zu handwerklicher Kosmetik',
+  it: 'Domande frequenti sulla cosmetica artigianale',
+  nl: 'Veelgestelde vragen over ambachtelijke cosmetica',
+  pt: 'Perguntas frequentes sobre cosmética artesanal',
 };
 
 const FAQS: Record<string, FAQ[]> = {

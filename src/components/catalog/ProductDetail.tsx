@@ -74,11 +74,6 @@ interface ProductDetailProps {
 export function ProductDetail({ product, region, locale, t }: ProductDetailProps) {
   const tr = product.translations[locale] || product.translations.es;
   if (!tr) return null;
-  const h1Qualifier: Record<string, string> = {
-    es: 'Natural', en: 'Natural', fr: 'Naturelle',
-    de: 'Natürlich', it: 'Naturale', nl: 'Natuurlijk', pt: 'Natural',
-  };
-  const h1Q = h1Qualifier[locale] ?? 'Natural';
 
   const { src: imageSrc, fallbackSrc: imageFallback } = resolveProductImage(
     product.id,
@@ -168,13 +163,12 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
             </p>
             <h1 className="font-display text-h1-fluid leading-[0.96] tracking-[-0.025em]">
               {tr.nameMain || tr.name}
-              {tr.nameAccent && (
+              {tr.nameMain && tr.nameAccent && (
                 <>
                   {' '}
                   <em className="font-display-italic text-verde">{tr.nameAccent}</em>
                 </>
               )}
-              {' · '}{h1Q}
             </h1>
             {tr.subtitle && (
               <p className="mt-4 font-caption text-[clamp(14px,1.8vw,18px)] font-normal text-graphite leading-relaxed tracking-normal">
@@ -383,7 +377,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                     </p>
                     <h3 className="font-heading text-h4-fluid mb-2 group-hover:text-verde transition-colors">
                       {ct.nameMain || ct.name}
-                      {ct.nameAccent && <em className="font-heading-italic text-verde"> {ct.nameAccent}</em>}
+                      {ct.nameMain && ct.nameAccent && <em className="font-heading-italic text-verde"> {ct.nameAccent}</em>}
                     </h3>
                     <p className="text-body-fluid text-graphite">{ct.subtitle}</p>
                   </Link>
@@ -411,7 +405,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                   <h3 className="font-display text-h2-fluid leading-[0.96] tracking-[-0.02em]">
                     <Link href={packHref} className="hover:underline">
                       {pt.nameMain || pt.name}
-                      {pt.nameAccent && <em className="font-display-italic"> {pt.nameAccent}</em>}
+                      {pt.nameMain && pt.nameAccent && <em className="font-display-italic"> {pt.nameAccent}</em>}
                     </Link>
                   </h3>
                   <p className="mt-4 text-lede-fluid italic font-caption max-w-xl">{pt.subtitle}</p>
@@ -419,7 +413,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                     <p className="mt-4 text-body-fluid text-bg/80">{pt.promise}</p>
                   )}
                   <Link href={packHref} className="mt-6 inline-block border border-bg/30 px-5 py-2.5 text-[11px] uppercase tracking-[0.2em] hover:bg-bg/10 transition-colors">
-                    {pt.nameMain || pt.name}{pt.nameAccent ? ` ${pt.nameAccent}` : ''} →
+                    {pt.nameMain || pt.name}{pt.nameMain && pt.nameAccent ? ` ${pt.nameAccent}` : ''} →
                   </Link>
                 </div>
               );
@@ -453,7 +447,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                 const mt = m.translations[locale] || m.translations.es;
                 if (!mt) return null;
                 const href = buildPath(region, locale, `${m.line}/${mt.slug}`);
-                const linkLabel = mt.nameAccent ? `${mt.nameMain || mt.name} ${mt.nameAccent}` : (mt.nameMain || mt.name);
+                const linkLabel = mt.nameMain && mt.nameAccent ? `${mt.nameMain} ${mt.nameAccent}` : (mt.nameMain || mt.name);
                 return (
                   <li key={m.id}>
                     <Link
@@ -466,7 +460,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                       </p>
                       <p className="font-heading text-body-fluid leading-tight text-ink group-hover:text-verde transition-colors">
                         {mt.nameMain || mt.name}
-                        {mt.nameAccent && <em className="font-heading-italic"> {mt.nameAccent}</em>}
+                        {mt.nameMain && mt.nameAccent && <em className="font-heading-italic"> {mt.nameAccent}</em>}
                       </p>
                     </Link>
                   </li>

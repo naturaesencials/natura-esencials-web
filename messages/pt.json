@@ -205,23 +205,23 @@
     "cosmetica": {
       "kicker": "Coleção",
       "title": "Cosmética artesanal",
-      "accent": "natural",
+      "accent": "essencial",
       "desc": "Cosmética artesanal natural para o dia a dia: cabelo, corpo, rosto e barbear em rituais sensoriais. Três coleções — Básica, Para Ela e Para Ele — formuladas com norma ISO 16128 e fabricadas à mão na Andaluzia.",
-      "h1Qualifier": "Natural"
+      "h1Qualifier": ""
     },
     "hogar": {
       "kicker": "Coleção",
-      "title": "Cuidado natural",
+      "title": "Cuidado",
       "accent": "do lar",
       "desc": "Cuidado do lar como ritual: limpeza natural transformada em sensação de casa cuidada. Detergente, amaciador, loiça, limpadores específicos e multissuperfícies com fórmulas suaves de origem natural.",
-      "h1Qualifier": "Natural"
+      "h1Qualifier": ""
     },
     "mascota": {
       "kicker": "Coleção",
-      "title": "Cuidado natural",
+      "title": "Cuidado",
       "accent": "de animais",
       "desc": "Cuidado natural de animais como ritual: cuidado suave para cães e gatos com higiene tranquila, calma em casa e ligação sem stress. Produtos com registo MAPA e fórmulas hipoalergénicas adaptadas ao microbioma animal.",
-      "h1Qualifier": "Natural",
+      "h1Qualifier": "",
       "comingSoonKicker": "Em breve · UK",
       "comingSoonTitle": "Cuidado de animais",
       "comingSoonAccent": "Coming Soon",

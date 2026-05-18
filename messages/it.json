@@ -205,23 +205,23 @@
     "cosmetica": {
       "kicker": "Collezione",
       "title": "Cosmetica",
-      "accent": "artigianale naturale",
+      "accent": "artigianale",
       "desc": "Cosmetica artigianale e naturale quotidiana: capelli, corpo, viso e rasatura in rituali sensoriali. Tre collezioni — Base, Per Lei e Per Lui — formulate secondo ISO 16128 e prodotte artigianalmente in Andalusia.",
-      "h1Qualifier": "Naturale"
+      "h1Qualifier": ""
     },
     "hogar": {
       "kicker": "Collezione",
-      "title": "Cura naturale",
+      "title": "Cura",
       "accent": "della casa",
       "desc": "Cura della casa come rituale: la pulizia trasformata in sensazione di casa curata. Detersivo, ammorbidente, piatti, detergenti specifici e multiuso con formule delicate di origine naturale.",
-      "h1Qualifier": "Naturale"
+      "h1Qualifier": ""
     },
     "mascota": {
       "kicker": "Collezione",
-      "title": "Cura naturale",
+      "title": "Cura",
       "accent": "degli animali",
       "desc": "Cura degli animali come rituale naturale: shampoo, detergente oculare e auricolare formulati per la cute sensibile di cani e gatti. Senza prodotti aggressivi, con ingredienti di origine naturale al 97-99%, testati dermatologicamente e registrati MAPA. Fatti a mano a Marbella, in Andalusia.",
-      "h1Qualifier": "Naturale",
+      "h1Qualifier": "",
       "comingSoonKicker": "Prossimamente · UK",
       "comingSoonTitle": "Cura degli animali",
       "comingSoonAccent": "Coming Soon",
