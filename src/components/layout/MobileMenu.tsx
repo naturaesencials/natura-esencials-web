@@ -33,7 +33,7 @@ export function MobileMenu({ open, onClose, region, locale, onOpenRegionSelector
     <div
       id="mobile-menu"
       aria-hidden={!open}
-      className={`fixed inset-0 z-[800] flex flex-col gap-8 overflow-y-auto bg-bg px-pad-x pb-10 transition-all duration-300 lg:hidden ${
+      className={`fixed inset-0 z-[800] flex flex-col gap-8 overflow-y-auto bg-bg px-pad-x pb-10 transition-[opacity,transform] duration-300 lg:hidden ${
         open ? 'pointer-events-auto translate-y-0 opacity-100' : 'pointer-events-none -translate-y-2 opacity-0'
       }`}
       style={{
@@ -59,8 +59,16 @@ export function MobileMenu({ open, onClose, region, locale, onOpenRegionSelector
               key={item.section}
               href={href}
               onClick={goTo(href)}
-              className="flex min-h-touch items-center justify-between border-b border-ink/10 px-1 py-5 text-[28px] font-[350] tracking-[-0.012em] text-ink"
-              style={{ fontVariationSettings: "'opsz' 144, 'wght' 350, 'SOFT' 30" }}
+              className="flex items-center justify-between border-b border-ink/10 px-1 text-[28px] font-[350] tracking-[-0.012em] text-ink"
+              style={{
+                fontVariationSettings: "'opsz' 144, 'wght' 350, 'SOFT' 30",
+                // Lock the item box dimensions so a font-swap (Georgia fallback
+                // → Fraunces) cannot reflow them visibly. Without this, the
+                // EU/Spanish menu items shrank a few px after the variable
+                // font loaded, mid-interaction.
+                height: '76px',
+                lineHeight: '36px',
+              }}
             >
               <span>
                 <em className={`font-display-italic ${item.color}`}>{t(item.key)}</em>
