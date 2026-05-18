@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 18/05/2026 — Sesión 12 SEO completada.
+> Actualizado: 18/05/2026 — Sesión 13 SEO completada.
 
 ---
 
@@ -177,6 +177,13 @@ Sesión 12 (may 18) — último crawl recibido:
   Overall: 83%
   Issues corregidos: 33 identical anchor texts, 40 anchor too long DE
   Resultado esperado próximo crawl: Structure ≥85%, anchor issues → 0
+Sesión 13 (may 18) — content report 18/05/26 atacado:
+  - NL Naturlijk typo corregido (~15 páginas H1≠body)
+  - FR Naturelle añadido en 3 bundles
+  - Blog body keywords añadidos (10 combinaciones post×locale)
+  - Pocas páginas: rituales+cookies+contacto → 3 párrafos
+  - Keyword cannibalization: body-milk/vaisselle/shampooing diferenciados
+  Resultado esperado: Content 72% → 80%+
 ```
 
 ### Causa raíz de regresiones (sesión 4→5)
@@ -513,6 +520,7 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 | 10 | 17 may 2026 | 1 | Competing pages, cookies paragraphs, FAQ DE, blog/contacto completion |
 | 11 | 17 may 2026 | 1 | Structure SEO report fixes (sesión anterior) |
 | 12 | 18 may 2026 | 1 | Overlay link pattern en ProductCard/RitualCard/LineCosmetica/LineHogar/LineMascota/Edicion/DualFeatured; anchor CTA ProductDetail usa nameMain+nameAccent; bundles.json ritual-refugio nameMain FR/IT/NL corregido |
+| 13 | 18 may 2026 | 1 | Content report: NL Naturlijk→Natuurlijk, FR naturelle en bundles, blog body keywords, 3er párrafo rituales/cookies/contacto, keyword cannibalization body-milk/vaisselle/shampooing |
 
 ---
 
