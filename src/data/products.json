@@ -32,7 +32,7 @@
         "name": "Champú 2 en 1",
         "nameMain": "Champú",
         "nameAccent": "2 en 1",
-        "subtitle": "Champú 2 en 1 con aceite de argán y tensioactivos del coco y del azúcar.",
+        "subtitle": "Champú 2 en 1 con aceite de argán y tensioactivos del coco y del azúcar. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Cítrica · Menta · Lavanda",
         "momentOfUse": "Ducha matinal · Rutina simplificada",
         "shortDescription": "Notas de limón, menta y lavanda. Limpia y acondiciona en un solo paso.",
@@ -68,7 +68,7 @@
       },
       "en": {
         "name": "2-in-1 Shampoo",
-        "subtitle": "Cleanses and conditions in a single step",
+        "subtitle": "Cleanses and conditions in a single step. Natural artisan cosmetics from Marbella.",
         "slug": "2-in-1-shampoo",
         "olfactiveFamily": "Citrus · Mint · Lavender",
         "momentOfUse": "Morning shower · Streamlined routine",
@@ -107,7 +107,7 @@
       },
       "fr": {
         "name": "Shampooing 2-en-1",
-        "subtitle": "Lave et démêle en un seul geste",
+        "subtitle": "Lave et démêle en un seul geste. Cosmétique naturelle artisanale de Marbella.",
         "slug": "shampooing-2-en-1",
         "olfactiveFamily": "Agrumes · Menthe · Lavande",
         "momentOfUse": "Douche du matin · Routine simplifiée",
@@ -224,7 +224,7 @@
       },
       "nl": {
         "name": "2-in-1 Shampoo",
-        "subtitle": "Reinigt en verzorgt in één stap met arganolie en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128 gecertificeerd.",
+        "subtitle": "Reinigt en verzorgt in één stap met arganolie en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128 gecertificeerd. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "2-in-1-shampoo",
         "olfactiveFamily": "Citrus · Munt · Lavendel",
         "momentOfUse": "Ochtenddouche · Eenvoudige routine",
@@ -263,7 +263,7 @@
       },
       "pt": {
         "name": "Champô 2-em-1",
-        "subtitle": "Lava e amacia num só passo",
+        "subtitle": "Lava e amacia num só passo. Cosmética natural artesanal de Marbella.",
         "slug": "champo-2-em-1",
         "olfactiveFamily": "Citrinos · Menta · Alfazema",
         "momentOfUse": "Duche matinal · Rotina simplificada",
@@ -333,7 +333,7 @@
         "name": "Acondicionador Capilar",
         "nameMain": "Acondicionador",
         "nameAccent": "capilar",
-        "subtitle": "Acondicionador con argán, coco, quinoa hidrolizada, ácido hialurónico y pantenol.",
+        "subtitle": "Acondicionador con argán, coco, quinoa hidrolizada, ácido hialurónico y pantenol. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Herbal reconfortante",
         "momentOfUse": "Post-ducha · Ritual capilar completo",
         "shortDescription": "Nutre, desenreda y aporta brillo desde el primer uso. Aroma herbal reconfortante.",
@@ -369,7 +369,7 @@
       },
       "en": {
         "name": "Hair Conditioner",
-        "subtitle": "Softens, detangles and brings everyday shine",
+        "subtitle": "Softens, detangles and brings everyday shine. Natural artisan cosmetics from Marbella.",
         "slug": "hair-conditioner",
         "olfactiveFamily": "Argan · Citrus",
         "momentOfUse": "After shampoo · Daily care",
@@ -408,7 +408,7 @@
       },
       "fr": {
         "name": "Après-shampooing",
-        "subtitle": "Adoucit, démêle et apporte de la brillance au quotidien",
+        "subtitle": "Adoucit, démêle et apporte de la brillance au quotidien. Cosmétique naturelle artisanale de Marbella.",
         "slug": "apres-shampooing",
         "olfactiveFamily": "Argan · Agrumes",
         "momentOfUse": "Après le shampooing · Soin quotidien",
@@ -525,7 +525,7 @@
       },
       "nl": {
         "name": "Haarconditioner",
-        "subtitle": "Verzacht, ontwart en geeft dagelijkse glans met gehydrolyseerde quinoa en hyaluronzuur. 95% van natuurlijke oorsprong, ISO 16128.",
+        "subtitle": "Verzacht, ontwart en geeft dagelijkse glans met gehydrolyseerde quinoa en hyaluronzuur. 95% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "haarconditioner",
         "olfactiveFamily": "Argan · Citrus",
         "momentOfUse": "Na de shampoo · Dagelijkse verzorging",
@@ -706,7 +706,7 @@
       },
       "fr": {
         "name": "Savon Mains et Corps",
-        "subtitle": "Lavage doux quotidien, fini propre et frais",
+        "subtitle": "Lavage doux quotidien, fini propre et frais. Cosmétique naturelle artisanale de Marbella.",
         "slug": "savon-mains-et-corps",
         "olfactiveFamily": "Agrumes · Aromatique",
         "momentOfUse": "Lavabo · Douche",
@@ -823,7 +823,7 @@
       },
       "nl": {
         "name": "Hand- en Lichaamszeep",
-        "subtitle": "Milde dagelijkse reiniging met extra vergine olijfolie en aloe vera. 99% van natuurlijke oorsprong, dermatologisch getest, ISO 16128.",
+        "subtitle": "Milde dagelijkse reiniging met extra vergine olijfolie en aloe vera. 99% van natuurlijke oorsprong, dermatologisch getest, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "hand-en-lichaamszeep",
         "olfactiveFamily": "Citrus · Aromatisch",
         "momentOfUse": "Dagelijkse handwas · Douche",
@@ -934,7 +934,7 @@
         "name": "Body Milk",
         "nameMain": "Hidratante",
         "nameAccent": "Body Milk",
-        "subtitle": "Loción corporal con aceites de aguacate y jojoba. Absorción rápida, acabado mate.",
+        "subtitle": "Loción corporal con aceites de aguacate y jojoba. Absorción rápida, acabado mate. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Cítrica luminosa · Fresca",
         "momentOfUse": "Post-ducha · Hidratación diaria",
         "shortDescription": "Sin sensación pegajosa. Aroma cítrico luminoso para el día a día.",
@@ -970,7 +970,7 @@
       },
       "en": {
         "name": "Body Milk",
-        "subtitle": "Unisex body lotion for everyday use — avocado and jojoba oils for soft, non-greasy skin.",
+        "subtitle": "Unisex body lotion for everyday use — avocado and jojoba oils for soft, non-greasy skin. Natural artisan cosmetics from Marbella.",
         "slug": "body-milk",
         "olfactiveFamily": "Soft floral · Aromatic",
         "momentOfUse": "After shower · Daily care",
@@ -1126,7 +1126,7 @@
       },
       "nl": {
         "name": "Bodymilk",
-        "subtitle": "Universele bodylotion voor dagelijks gebruik — avocado- en jojobaolie voor zachte huid.",
+        "subtitle": "Universele bodylotion voor dagelijks gebruik — avocado- en jojobaolie voor zachte huid. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "bodymilk",
         "olfactiveFamily": "Zachte floraal · Aromatisch",
         "momentOfUse": "Na de douche · Dagelijkse verzorging",
@@ -1236,7 +1236,7 @@
         "name": "Total Body Wash",
         "nameMain": "Total",
         "nameAccent": "Body Wash",
-        "subtitle": "Limpiador 3 en 1 para cuerpo y cabello con aceite de argán y tensioactivos del coco.",
+        "subtitle": "Limpiador 3 en 1 para cuerpo y cabello con aceite de argán y tensioactivos del coco. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Fresca · Limpia · Luminosa",
         "momentOfUse": "Ducha completa · Post-actividad · 3 en 1",
         "shortDescription": "Limpia, hidrata y acondiciona en un solo paso. El aliado del hombre activo.",
@@ -1272,7 +1272,7 @@
       },
       "en": {
         "name": "Total Body Wash",
-        "subtitle": "Hair and body in a single sensorial gesture",
+        "subtitle": "Hair and body in a single sensorial gesture. Natural artisan cosmetics from Marbella.",
         "slug": "total-body-wash",
         "olfactiveFamily": "Aromatic Spa · Citrus",
         "momentOfUse": "Post-gym · Quick shower",
@@ -1311,7 +1311,7 @@
       },
       "fr": {
         "name": "Gel Corps et Cheveux",
-        "subtitle": "Cheveux et corps en un seul geste sensoriel",
+        "subtitle": "Cheveux et corps en un seul geste sensoriel. Cosmétique naturelle artisanale de Marbella.",
         "slug": "gel-corps-et-cheveux",
         "olfactiveFamily": "Spa aromatique · Agrumes",
         "momentOfUse": "Post-gym · Douche rapide",
@@ -1428,7 +1428,7 @@
       },
       "nl": {
         "name": "All-in-one Douchegel",
-        "subtitle": "Haar en lichaam in één zintuiglijk gebaar — met arganolie en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128.",
+        "subtitle": "Haar en lichaam in één zintuiglijk gebaar — met arganolie en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "all-in-one-douchegel",
         "olfactiveFamily": "Aromatische spa · Citrus",
         "momentOfUse": "Na het sporten · Snelle douche",
@@ -1535,7 +1535,7 @@
         "name": "Champú Hombre",
         "nameMain": "Champú",
         "nameAccent": "hombre",
-        "subtitle": "Champú 2 en 1 con aceite de argán y tensioactivos del coco. Aroma ámbar masculino elegante.",
+        "subtitle": "Champú 2 en 1 con aceite de argán y tensioactivos del coco. Aroma ámbar masculino elegante. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Ámbar fresco · Masculino elegante",
         "momentOfUse": "Ducha matinal · Rutina masculina",
         "shortDescription": "Limpia, acondiciona y da carácter al ritual matinal. Dermatológicamente testado.",
@@ -1570,7 +1570,7 @@
       },
       "en": {
         "name": "Men's Shampoo",
-        "subtitle": "Fresh, daily-use shampoo for clean hair and scalp",
+        "subtitle": "Fresh, daily-use shampoo for clean hair and scalp. Natural artisan cosmetics from Marbella.",
         "slug": "mens-shampoo",
         "olfactiveFamily": "Fresh · Aromatic woody",
         "momentOfUse": "Morning shower · Daily routine",
@@ -1608,7 +1608,7 @@
       },
       "fr": {
         "name": "Shampooing Homme",
-        "subtitle": "Shampooing homme à l'huile d'argan — nettoyage profond pour cheveux masculins forts.",
+        "subtitle": "Shampooing homme à l'huile d'argan — nettoyage profond pour cheveux masculins forts. Cosmétique naturelle artisanale de Marbella.",
         "slug": "shampooing-homme",
         "olfactiveFamily": "Frais · Boisé aromatique",
         "momentOfUse": "Douche du matin · Routine quotidienne",
@@ -1760,7 +1760,7 @@
       },
       "pt": {
         "name": "Champô Homem",
-        "subtitle": "Champô diário fresco, cabelo e couro cabeludo limpos",
+        "subtitle": "Champô diário fresco, cabelo e couro cabeludo limpos. Cosmética natural artesanal de Marbella.",
         "slug": "champo-homem",
         "olfactiveFamily": "Fresco · Amadeirado aromático",
         "momentOfUse": "Duche matinal · Rotina diária",
@@ -1829,7 +1829,7 @@
         "name": "Acondicionador Hombre",
         "nameMain": "Acondicionador",
         "nameAccent": "hombre",
-        "subtitle": "Complejo premium: quinoa hidrolizada, ácido hialurónico, aceites de oliva, argán y coco.",
+        "subtitle": "Complejo premium: quinoa hidrolizada, ácido hialurónico, aceites de oliva, argán y coco. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Ámbar fresco masculino · Suave persistente",
         "momentOfUse": "Post-ducha · Ritual capilar masculino",
         "shortDescription": "Aroma ámbar fresco masculino. pH 3,3-4,3 óptimo para el cabello.",
@@ -1864,7 +1864,7 @@
       },
       "en": {
         "name": "Men's Conditioner",
-        "subtitle": "Light comfort, easier styling, no heavy residue",
+        "subtitle": "Light comfort, easier styling, no heavy residue. Natural artisan cosmetics from Marbella.",
         "slug": "mens-conditioner",
         "olfactiveFamily": "Fresh clean · Soft perfume",
         "momentOfUse": "After shampoo · Daily care",
@@ -1902,7 +1902,7 @@
       },
       "fr": {
         "name": "Après-shampooing Homme",
-        "subtitle": "Après-shampooing homme pour cheveux forts — démêlant et nourrissant avec argan.",
+        "subtitle": "Après-shampooing homme pour cheveux forts — démêlant et nourrissant avec argan. Cosmétique naturelle artisanale de Marbella.",
         "slug": "apres-shampooing-homme",
         "olfactiveFamily": "Frais propre · Parfum doux",
         "momentOfUse": "Après le shampooing · Soin quotidien",
@@ -2316,7 +2316,7 @@
       },
       "nl": {
         "name": "Hand- en Lichaamsgel Mannen",
-        "subtitle": "Frequente reiniging voor handen en douche — met amber en kokosnoot-tensiden. 96% van natuurlijke oorsprong, dermatologisch getest, ISO 16128.",
+        "subtitle": "Frequente reiniging voor handen en douche — met amber en kokosnoot-tensiden. 96% van natuurlijke oorsprong, dermatologisch getest, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "hand-en-lichaamsgel-mannen",
         "olfactiveFamily": "Fris schoon · Zachte parfum",
         "momentOfUse": "Dagelijkse handwas · Snelle douche",
@@ -2354,7 +2354,7 @@
       },
       "pt": {
         "name": "Gel Mãos e Corpo Homem",
-        "subtitle": "Gel de mãos e corpo masculino — fórmula de limpeza para as mãos e o corpo do homem.",
+        "subtitle": "Gel de mãos e corpo masculino — fórmula de limpeza para as mãos e o corpo do homem. Cosmética natural artesanal de Marbella.",
         "slug": "gel-maos-corpo-homem",
         "olfactiveFamily": "Fresco limpo · Perfume suave",
         "momentOfUse": "Lavagem diária · Duche rápido",
@@ -2611,7 +2611,7 @@
       },
       "nl": {
         "name": "Bodymilk Mannen",
-        "subtitle": "Mannen bodylotion met arganolie en basilicum — speciaal voor de dikkere mannenhuid.",
+        "subtitle": "Mannen bodylotion met arganolie en basilicum — speciaal voor de dikkere mannenhuid. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "bodymilk-mannen",
         "olfactiveFamily": "Fris schoon · Zachte parfum",
         "momentOfUse": "Na de douche · Snelle afwerking",
@@ -3833,7 +3833,7 @@
         "name": "Champú Mujer",
         "nameMain": "Champú",
         "nameAccent": "mujer",
-        "subtitle": "Champú 2 en 1 con aceite de argán y aroma de naranja fresca Citrus Aurantium.",
+        "subtitle": "Champú 2 en 1 con aceite de argán y aroma de naranja fresca Citrus Aurantium. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Naranja fresca · Citrus Aurantium · Limonene",
         "momentOfUse": "Ducha · Ritual capilar femenino",
         "shortDescription": "Limpia, acondiciona y deja la firma cítrica femenina de la colección.",
@@ -3868,7 +3868,7 @@
       },
       "en": {
         "name": "Women's Shampoo",
-        "subtitle": "Daily shampoo with a soft, comforting finish",
+        "subtitle": "Daily shampoo with a soft, comforting finish. Natural artisan cosmetics from Marbella.",
         "slug": "womens-shampoo",
         "olfactiveFamily": "Soft floral · Citrus",
         "momentOfUse": "Daily shower · Hair routine",
@@ -3906,7 +3906,7 @@
       },
       "fr": {
         "name": "Shampooing Femme",
-        "subtitle": "Shampooing femme pour cheveux brillants — formule douce aux extraits floraux.",
+        "subtitle": "Shampooing femme pour cheveux brillants — formule douce aux extraits floraux. Cosmétique naturelle artisanale de Marbella.",
         "slug": "shampooing-femme",
         "olfactiveFamily": "Floral doux · Agrumes",
         "momentOfUse": "Douche quotidienne · Routine cheveux",
@@ -4020,7 +4020,7 @@
       },
       "nl": {
         "name": "Vrouwenshampoo",
-        "subtitle": "Dagelijkse shampoo met zachte, troostende afwerking — arganolie en Citrus Aurantium. 96% van natuurlijke oorsprong, ISO 16128.",
+        "subtitle": "Dagelijkse shampoo met zachte, troostende afwerking — arganolie en Citrus Aurantium. 96% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "vrouwenshampoo",
         "olfactiveFamily": "Zachte floraal · Citrus",
         "momentOfUse": "Dagelijkse douche · Haarroutine",
@@ -4058,7 +4058,7 @@
       },
       "pt": {
         "name": "Champô Mulher",
-        "subtitle": "Champô diário com acabamento suave e reconfortante",
+        "subtitle": "Champô diário com acabamento suave e reconfortante. Cosmética natural artesanal de Marbella.",
         "slug": "champo-mulher",
         "olfactiveFamily": "Floral suave · Citrinos",
         "momentOfUse": "Duche diário · Rotina capilar",
@@ -4129,7 +4129,7 @@
         "name": "Acondicionador Mujer",
         "nameMain": "Acondicionador",
         "nameAccent": "mujer",
-        "subtitle": "Complejo premium: quinoa hidrolizada, ácido hialurónico, pantenol y aceites de argán y oliva.",
+        "subtitle": "Complejo premium: quinoa hidrolizada, ácido hialurónico, pantenol y aceites de argán y oliva. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Naranja fresca · Citrus Aurantium · Limonene",
         "momentOfUse": "Post-ducha · Ritual capilar femenino",
         "shortDescription": "Aroma de naranja fresca Citrus Aurantium. El ritual capilar femenino completo.",
@@ -4164,7 +4164,7 @@
       },
       "en": {
         "name": "Women's Conditioner",
-        "subtitle": "Soft hair, easy styling, long-lasting comfort",
+        "subtitle": "Soft hair, easy styling, long-lasting comfort. Natural artisan cosmetics from Marbella.",
         "slug": "womens-conditioner",
         "olfactiveFamily": "Citrus · Soft comfort",
         "momentOfUse": "After shampoo · Daily care",
@@ -4204,7 +4204,7 @@
       },
       "fr": {
         "name": "Après-shampooing Femme",
-        "subtitle": "Après-shampooing femme pour cheveux soyeux — démêlant doux et nourrissant.",
+        "subtitle": "Après-shampooing femme pour cheveux soyeux — démêlant doux et nourrissant. Cosmétique naturelle artisanale de Marbella.",
         "slug": "apres-shampooing-femme",
         "olfactiveFamily": "Agrumes · Confort doux",
         "momentOfUse": "Après le shampooing · Soin quotidien",
@@ -4324,7 +4324,7 @@
       },
       "nl": {
         "name": "Vrouwenconditioner",
-        "subtitle": "Zacht haar, gemakkelijk stylen, langdurig comfort — quinoa en hyaluronzuur. 95% van natuurlijke oorsprong, ISO 16128.",
+        "subtitle": "Zacht haar, gemakkelijk stylen, langdurig comfort — quinoa en hyaluronzuur. 95% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "vrouwenconditioner",
         "olfactiveFamily": "Citrus · Zacht comfort",
         "momentOfUse": "Na de shampoo · Dagelijkse verzorging",
@@ -4364,7 +4364,7 @@
       },
       "pt": {
         "name": "Condicionador Mulher",
-        "subtitle": "Cabelo suave, penteado fácil, conforto duradouro",
+        "subtitle": "Cabelo suave, penteado fácil, conforto duradouro. Cosmética natural artesanal de Marbella.",
         "slug": "condicionador-mulher",
         "olfactiveFamily": "Citrinos · Conforto suave",
         "momentOfUse": "Após o champô · Cuidado diário",
@@ -4435,7 +4435,7 @@
         "name": "Gel de Manos y Cuerpo Mujer",
         "nameMain": "Gel",
         "nameAccent": "manos y cuerpo mujer",
-        "subtitle": "Gel de higiene con tensioactivos del coco y glicerina hidratante.",
+        "subtitle": "Gel de higiene con tensioactivos del coco y glicerina hidratante. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Naranja fresca · Citrus Aurantium · Limonene",
         "momentOfUse": "Lavabo · Ducha · Todo el día",
         "shortDescription": "Aroma de naranja fresca Citrus Aurantium que transforma cada gesto.",
@@ -4470,7 +4470,7 @@
       },
       "en": {
         "name": "Women's Hand and Body Wash",
-        "subtitle": "Frequent-use cleansing with a fresh, energising touch",
+        "subtitle": "Frequent-use cleansing with a fresh, energising touch. Natural artisan cosmetics from Marbella.",
         "slug": "womens-hand-and-body-wash",
         "olfactiveFamily": "Citrus · Fresh",
         "momentOfUse": "Daily handwash · Shower",
@@ -4508,7 +4508,7 @@
       },
       "fr": {
         "name": "Gel Mains et Corps Femme",
-        "subtitle": "Nettoyage fréquent, touche fraîche et énergisante",
+        "subtitle": "Nettoyage fréquent, touche fraîche et énergisante. Cosmétique naturelle artisanale de Marbella.",
         "slug": "gel-mains-et-corps-femme",
         "olfactiveFamily": "Agrumes · Frais",
         "momentOfUse": "Lavabo · Douche",
@@ -4622,7 +4622,7 @@
       },
       "nl": {
         "name": "Hand- en Lichaamsgel Vrouwen",
-        "subtitle": "Frequente reiniging met frisse, energieke aanraking — Citrus Aurantium en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128.",
+        "subtitle": "Frequente reiniging met frisse, energieke aanraking — Citrus Aurantium en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "hand-en-lichaamsgel-vrouwen",
         "olfactiveFamily": "Citrus · Fris",
         "momentOfUse": "Dagelijkse handwas · Douche",
@@ -4917,7 +4917,7 @@
       },
       "nl": {
         "name": "Bodymilk Vrouwen",
-        "subtitle": "Lichte hydratatie om het ritueel af te sluiten, zacht en stralend — argan en Citrus Aurantium. 98% van natuurlijke oorsprong, ISO 16128.",
+        "subtitle": "Lichte hydratatie om het ritueel af te sluiten, zacht en stralend — argan en Citrus Aurantium. 98% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "bodymilk-vrouwen",
         "olfactiveFamily": "Citrus · Schoon comfort",
         "momentOfUse": "Na de douche · Huidritueel",
@@ -6327,7 +6327,7 @@
       },
       "nl": {
         "name": "Wasmiddel",
-        "subtitle": "Effectieve was met zachte, troostende lavendelgeur. 97% van natuurlijke oorsprong, geschikt voor alle stoffen en temperaturen.",
+        "subtitle": "Effectieve was met zachte, troostende lavendelgeur. 97% van natuurlijke oorsprong, geschikt voor alle stoffen en temperaturen. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "wasmiddel",
         "olfactiveFamily": "Lavendel · Aromatisch",
         "momentOfUse": "Wasdag · Dagelijkse verzorging",
@@ -6629,7 +6629,7 @@
       },
       "nl": {
         "name": "Wasverzachter",
-        "subtitle": "Zachte, knusse kleding met rustgevende lavendelgeur van thuis. 97% van natuurlijke oorsprong, geschikt voor alle stoffen.",
+        "subtitle": "Zachte, knusse kleding met rustgevende lavendelgeur van thuis. 97% van natuurlijke oorsprong, geschikt voor alle stoffen. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "wasverzachter",
         "olfactiveFamily": "Lavendel · Zachte floraal",
         "momentOfUse": "Naspoelen wasgoed · Afsluiten routine",
@@ -6777,7 +6777,7 @@
       },
       "en": {
         "name": "Dishwashing Liquid",
-        "subtitle": "Cuts grease and leaves a clean, fresh kitchen",
+        "subtitle": "Cuts grease and leaves a clean, fresh kitchen. Natural artisan cosmetics from Marbella.",
         "slug": "dishwashing-liquid",
         "olfactiveFamily": "Citrus · Fresh",
         "momentOfUse": "After meals · Kitchen routine",
@@ -6816,7 +6816,7 @@
       },
       "fr": {
         "name": "Liquide Vaisselle",
-        "subtitle": "Liquide vaisselle à la main — dégraissant naturel pour vaisselle faite à la main.",
+        "subtitle": "Liquide vaisselle à la main — dégraissant naturel pour vaisselle faite à la main. Cosmétique naturelle artisanale de Marbella.",
         "slug": "liquide-vaisselle",
         "olfactiveFamily": "Agrumes · Frais",
         "momentOfUse": "Après les repas · Routine cuisine",
@@ -6933,7 +6933,7 @@
       },
       "nl": {
         "name": "Afwasmiddel",
-        "subtitle": "Snijdt vet en laat een schone, frisse keuken achter — met citrus-tensiden. 92% van natuurlijke oorsprong, dermatologisch getest.",
+        "subtitle": "Snijdt vet en laat een schone, frisse keuken achter — met citrus-tensiden. 92% van natuurlijke oorsprong, dermatologisch getest. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "afwasmiddel",
         "olfactiveFamily": "Citrus · Fris",
         "momentOfUse": "Na de maaltijd · Keukenroutine",
@@ -6972,7 +6972,7 @@
       },
       "pt": {
         "name": "Detergente Loiça Manual",
-        "subtitle": "Corta a gordura e deixa cozinha limpa e fresca",
+        "subtitle": "Corta a gordura e deixa cozinha limpa e fresca. Cosmética natural artesanal de Marbella.",
         "slug": "detergente-loica-manual",
         "olfactiveFamily": "Citrinos · Fresco",
         "momentOfUse": "Após as refeições · Rotina cozinha",
@@ -7077,7 +7077,7 @@
       },
       "en": {
         "name": "Dishwasher Detergent",
-        "subtitle": "Spotless dishes with no drama",
+        "subtitle": "Spotless dishes with no drama. Natural artisan cosmetics from Marbella.",
         "slug": "dishwasher-detergent",
         "olfactiveFamily": "Citrus · Herbal",
         "momentOfUse": "Dishwasher load · Daily care",
@@ -8087,7 +8087,7 @@
       },
       "nl": {
         "name": "Badkamerreiniger",
-        "subtitle": "Een schone badkamer die uitnodigt tot zelfzorg — met frisse geur. 96% van natuurlijke oorsprong, dermatologisch getest.",
+        "subtitle": "Een schone badkamer die uitnodigt tot zelfzorg — met frisse geur. 96% van natuurlijke oorsprong, dermatologisch getest. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "badkamerreiniger",
         "olfactiveFamily": "Spa · Sinaasappelbloesem · Lavendel",
         "momentOfUse": "Wekelijkse reiniging · Wellness-moment",
@@ -8380,7 +8380,7 @@
       },
       "nl": {
         "name": "Ontvetter",
-        "subtitle": "Krachtige ontvetter voor keukens en kookplaten — met plantaardige tensiden. 97% van natuurlijke oorsprong.",
+        "subtitle": "Krachtige ontvetter voor keukens en kookplaten — met plantaardige tensiden. 97% van natuurlijke oorsprong. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "ontvetter",
         "olfactiveFamily": "Citrus · Fris",
         "momentOfUse": "Diepe keukenreiniging · Kookplaatzorg",
@@ -8666,7 +8666,7 @@
       },
       "nl": {
         "name": "Allesreiniger",
-        "subtitle": "Eén fles voor het hele huis, fris en schoon — met plantaardige werkzame stoffen. 97% van natuurlijke oorsprong.",
+        "subtitle": "Eén fles voor het hele huis, fris en schoon — met plantaardige werkzame stoffen. 97% van natuurlijke oorsprong. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "allesreiniger",
         "olfactiveFamily": "Citrus · Aromatisch",
         "momentOfUse": "Dagelijkse zorg · Snelle reiniging",
@@ -9055,7 +9055,7 @@
         "name": "Champú Pet Repair Argán · Perros",
         "nameMain": "Champú",
         "nameAccent": "perros",
-        "subtitle": "Champú 2 en 1 con aceite de argán, extractos de albahaca, menta y tomillo.",
+        "subtitle": "Champú 2 en 1 con aceite de argán, extractos de albahaca, menta y tomillo. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Suave · Perfume discreto · Hipoalergénico",
         "momentOfUse": "Baño semanal · Ritual Mimo Canino",
         "shortDescription": "Complejo vitaminas B y activos microbioma. El baño que cuida por dentro y por fuera.",
@@ -9128,7 +9128,7 @@
       },
       "fr": {
         "name": "Shampooing Argan Réparateur Chien",
-        "subtitle": "Soin doux, calme à la maison, connexion avec votre chien",
+        "subtitle": "Soin doux, calme à la maison, connexion avec votre chien. Cosmétique naturelle artisanale de Marbella.",
         "slug": "shampooing-argan-chien",
         "olfactiveFamily": "Argan · Floral doux",
         "momentOfUse": "Jour de bain · Rituel animal",
@@ -9166,7 +9166,7 @@
       },
       "de": {
         "name": "Arganöl-Hundeshampoo",
-        "subtitle": "Sanfte Pflege für Hunde — mit Arganöl und pH-angepasster Formel 6,5-7,5. Für Ruhe zu Hause und echte Verbindung.",
+        "subtitle": "Sanfte Pflege für Hunde — mit Arganöl und pH-angepasster Formel 6,5-7,5. Für Ruhe zu Hause und echte Verbindung. Natürlich und handwerklich aus Marbella.",
         "slug": "arganoel-hundeshampoo",
         "olfactiveFamily": "Argan · Florale Note",
         "momentOfUse": "Badetag · Tierritual",
@@ -9242,7 +9242,7 @@
       },
       "nl": {
         "name": "Argan Hondenshampoo",
-        "subtitle": "Zachte verzorging voor honden — met arganolie en pH-aangepaste formule 6,5-7,5. Voor rust thuis en echte verbinding.",
+        "subtitle": "Zachte verzorging voor honden — met arganolie en pH-aangepaste formule 6,5-7,5. Voor rust thuis en echte verbinding. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "argan-hondenshampoo",
         "olfactiveFamily": "Argan · Zachte floraal",
         "momentOfUse": "Baddag · Huisdierritueel",
@@ -9347,7 +9347,7 @@
         "name": "Champú Suave · Gatos",
         "nameMain": "Champú",
         "nameAccent": "gatos",
-        "subtitle": "Champú 2 en 1 con aceite de argán y activos microbioma para el pelaje del gato.",
+        "subtitle": "Champú 2 en 1 con aceite de argán y activos microbioma para el pelaje del gato. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Suave · Perfume suave discreto",
         "momentOfUse": "Baño ocasional · Ritual Gato Zen",
         "shortDescription": "pH 6,5-7,5 adaptado. Aroma mínimo para no alterar sus sentidos.",
@@ -9382,7 +9382,7 @@
       },
       "en": {
         "name": "Gentle Cat Shampoo",
-        "subtitle": "Gentle hygiene, calm and connection without stress",
+        "subtitle": "Gentle hygiene, calm and connection without stress. Natural artisan cosmetics from Marbella.",
         "slug": "natural-cat-shampoo",
         "olfactiveFamily": "Soft floral · Discreet",
         "momentOfUse": "Bath day · Calm ritual",
@@ -9420,7 +9420,7 @@
       },
       "fr": {
         "name": "Shampooing Naturel Chat",
-        "subtitle": "Hygiène douce, calme et connexion sans stress",
+        "subtitle": "Hygiène douce, calme et connexion sans stress. Cosmétique naturelle artisanale de Marbella.",
         "slug": "shampooing-naturel-chat",
         "olfactiveFamily": "Floral doux · Discret",
         "momentOfUse": "Jour de bain · Rituel calme",
@@ -9534,7 +9534,7 @@
       },
       "nl": {
         "name": "Natuurlijke Kattenshampoo",
-        "subtitle": "Milde hygiëne voor katten — ultra-zachte spoelvrije formule, pH 6,5-7,5 aangepast. Rust en verbinding zonder stress.",
+        "subtitle": "Milde hygiëne voor katten — ultra-zachte spoelvrije formule, pH 6,5-7,5 aangepast. Rust en verbinding zonder stress. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "natuurlijke-kattenshampoo",
         "olfactiveFamily": "Zachte floraal · Discreet",
         "momentOfUse": "Baddag · Rustritueel",
@@ -9639,7 +9639,7 @@
         "name": "Limpiador de Oídos Mascotas",
         "nameMain": "Limpia",
         "nameAccent": "oídos",
-        "subtitle": "Solución limpiadora con aceite de árbol de té al 0,2%. Antibacteriano y antifúngico.",
+        "subtitle": "Solución limpiadora con aceite de árbol de té al 0,2%. Antibacteriano y antifúngico. Cosmética natural artesanal de Marbella.",
         "olfactiveFamily": "Sin fragancia · Completamente neutra",
         "momentOfUse": "Post-baño · Uso regular · Perros y Gatos",
         "shortDescription": "Sin fragancia, pH neutro. Para perros y gatos. Registro MAPA 12061-H.",
@@ -9674,7 +9674,7 @@
       },
       "en": {
         "name": "Pet Ear Cleaner",
-        "subtitle": "Clean ears, gentle routine, calm pet",
+        "subtitle": "Clean ears, gentle routine, calm pet. Natural artisan cosmetics from Marbella.",
         "slug": "pet-ear-cleaner",
         "olfactiveFamily": "Neutral · Discreet",
         "momentOfUse": "Weekly care · Pet routine",
@@ -9712,7 +9712,7 @@
       },
       "fr": {
         "name": "Nettoyant Oreilles Animaux",
-        "subtitle": "Oreilles propres, routine douce, animal calme",
+        "subtitle": "Oreilles propres, routine douce, animal calme. Cosmétique naturelle artisanale de Marbella.",
         "slug": "nettoyant-oreilles-animaux",
         "olfactiveFamily": "Neutre · Discret",
         "momentOfUse": "Soin hebdomadaire · Routine animale",
@@ -9750,7 +9750,7 @@
       },
       "de": {
         "name": "Ohrreiniger Haustiere",
-        "subtitle": "Saubere Ohren, sanfte Routine, ruhiges Tier — mit Teebaumöl 0,2%. Ohne Duftstoffe, neutraler pH. MAPA-Registrierung 12061-H.",
+        "subtitle": "Saubere Ohren, sanfte Routine, ruhiges Tier — mit Teebaumöl 0,2%. Ohne Duftstoffe, neutraler pH. MAPA-Registrierung 12061-H. Natürlich und handwerklich aus Marbella.",
         "slug": "ohrreiniger-haustiere",
         "olfactiveFamily": "Neutral · Dezent",
         "momentOfUse": "Wöchentliche Pflege · Tierroutine",
@@ -9826,7 +9826,7 @@
       },
       "nl": {
         "name": "Oorreiniger Huisdieren",
-        "subtitle": "Schone oren, milde routine, rustig huisdier — tea tree olie 0,2%. Parfumvrij, neutrale pH. MAPA-registratie 12061-H.",
+        "subtitle": "Schone oren, milde routine, rustig huisdier — tea tree olie 0,2%. Parfumvrij, neutrale pH. MAPA-registratie 12061-H. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "oorreiniger-huisdieren",
         "olfactiveFamily": "Neutraal · Discreet",
         "momentOfUse": "Wekelijkse zorg · Huisdierroutine",
@@ -9864,7 +9864,7 @@
       },
       "pt": {
         "name": "Limpador Ouvidos Animais",
-        "subtitle": "Ouvidos limpos, rotina suave, animal calmo",
+        "subtitle": "Ouvidos limpos, rotina suave, animal calmo. Cosmética natural artesanal de Marbella.",
         "slug": "limpador-ouvidos-animais",
         "olfactiveFamily": "Neutro · Discreto",
         "momentOfUse": "Cuidado semanal · Rotina animal",
@@ -10116,7 +10116,7 @@
       },
       "nl": {
         "name": "Oogreiniger Huisdieren",
-        "subtitle": "Milde reiniging voor de gevoelige oogcontour van honden en katten. 98% van natuurlijke oorsprong. MAPA-registratie 12049-H.",
+        "subtitle": "Milde reiniging voor de gevoelige oogcontour van honden en katten. 98% van natuurlijke oorsprong. MAPA-registratie 12049-H. 100% natuurlijk en ambachtelijk uit Marbella.",
         "slug": "oogreiniger-huisdieren",
         "olfactiveFamily": "Neutraal · Discreet",
         "momentOfUse": "Dagelijkse zorg · Gevoelige routine",

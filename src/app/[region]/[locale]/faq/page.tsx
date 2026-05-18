@@ -16,13 +16,13 @@ const TITLE: Record<string, string> = {
   de: 'Häufige Fragen', it: 'Domande Frequenti', nl: 'Veelgestelde Vragen', pt: 'Perguntas Frequentes',
 };
 const SUBTITLE: Record<string, string> = {
-  es: 'Todo lo que necesitas saber sobre nuestras formulaciones, certificaciones y proceso artesanal.',
-  en: 'Everything you need to know about our formulations, certifications and artisan process.',
-  fr: 'Tout ce que vous devez savoir sur nos formulations, certifications et processus artisanal.',
-  de: 'Alles über handwerklicher Naturkosmetik: Formulierungen, ISO 16128-Zertifizierungen und den handwerklichen Prozess erklärt.',
-  it: 'Tutto quello che devi sapere sulle nostre formulazioni, certificazioni e processo artigianale.',
-  nl: 'Alles wat u moet weten over onze formuleringen, certificeringen en ambachtelijk proces.',
-  pt: 'Tudo o que precisa saber sobre as nossas formulações, certificações e processo artesanal.',
+  es: 'Preguntas frecuentes sobre cosmética natural artesanal: nuestras formulaciones, certificaciones y proceso de fabricación.',
+  en: 'Frequently asked questions about our natural cosmetics: formulations, certifications and artisan manufacturing process.',
+  fr: 'Questions fréquentes sur notre cosmétique naturelle artisanale : formulations, certifications et processus artisanal.',
+  de: 'Häufige Fragen zu handwerklicher Naturkosmetik: Formulierungen, ISO 16128-Zertifizierungen und unser handwerklicher Prozess erklärt.',
+  it: 'Domande frequenti sulla nostra cosmetica naturale artigianale: formulazioni, certificazioni e processo artigianale di fabbricazione.',
+  nl: 'Veelgestelde vragen over onze ambachtelijke natuurlijke cosmetica: formuleringen, certificeringen en ambachtelijk proces.',
+  pt: 'Perguntas frequentes sobre cosmética natural artesanal: as nossas formulações, certificações e processo de fabrico.',
 };
 // Long-form H1: descriptive phrase for SEO (avoids "too short" flag)
 const H1_LONG: Record<string, string> = {

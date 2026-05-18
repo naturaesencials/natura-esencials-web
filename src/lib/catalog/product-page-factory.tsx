@@ -204,6 +204,8 @@ export function makeProductPage(line: ProductLine) {
             sustainabilityLabel: t('sustainabilityLabel'),
             complementsTitle: t('complementsTitle'),
             recommendedPackTitle: t('recommendedPackTitle'),
+            moreFromLineTitle: t('moreFromLineTitle'),
+            viewAllLine: t('viewAllLine'),
             breadcrumbHome: t('breadcrumbHome'),
             backToCatalog: t('backToCatalog'),
             aiTranslationNotice: t('aiTranslationNotice'),

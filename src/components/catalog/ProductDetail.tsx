@@ -5,7 +5,7 @@ import { ShareButtons } from '@/components/social/ShareButtons';
 import type { Product, Bundle } from '@/data/types';
 import type { Locale, Region } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
-import { getProductById, getBundleById } from '@/data';
+import { getProductById, getBundleById, getProductsForRegion } from '@/data';
 import { ProductImage } from './ProductImage';
 import { resolveProductImage } from '@/lib/images';
 import { BuyButton } from './BuyButton';
@@ -61,6 +61,8 @@ interface ProductDetailProps {
     sustainabilityLabel: string;
     complementsTitle: string;
     recommendedPackTitle: string;
+    moreFromLineTitle: string;
+    viewAllLine: string;
     breadcrumbHome: string;
     backToCatalog: string;
     aiTranslationNotice: string;
@@ -90,6 +92,12 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
   const recommendedPack = product.recommendedPack
     ? getBundleById(product.recommendedPack)
     : undefined;
+
+  // Otros productos visibles de la misma línea (excluye el actual y los complementos ya mostrados)
+  const complementIds = new Set(complements.map((c) => c.id));
+  const moreFromLine = getProductsForRegion(region)
+    .filter((p) => p.line === product.line && p.id !== product.id && !complementIds.has(p.id))
+    .slice(0, 8);
 
   const lineLabel = linkLineLabel(product.line, locale);
   const backHref  = buildPath(region, locale, product.line);
@@ -423,6 +431,48 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
         {tr.aiTranslation && locale !== 'es' && (
           <section className="text-center text-meta-fluid uppercase tracking-[0.22em] text-graphite/60 pt-8 border-t border-ink/8">
             {t.aiTranslationNotice}
+          </section>
+        )}
+
+        {/* Más productos de la misma línea — internal linking SEO */}
+        {moreFromLine.length > 0 && (
+          <section aria-labelledby="more-from-line-heading" className="mb-pad-y-sm pt-12 border-t border-ink/10">
+            <div className="flex flex-wrap items-end justify-between gap-4 mb-8">
+              <h2 id="more-from-line-heading" className="font-heading text-h3-fluid">
+                {t.moreFromLineTitle}
+              </h2>
+              <Link
+                href={backHref}
+                className="text-meta-fluid uppercase tracking-[0.22em] text-verde hover:underline"
+              >
+                {t.viewAllLine} →
+              </Link>
+            </div>
+            <ul className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {moreFromLine.map((m) => {
+                const mt = m.translations[locale] || m.translations.es;
+                if (!mt) return null;
+                const href = buildPath(region, locale, `${m.line}/${mt.slug}`);
+                const linkLabel = mt.nameAccent ? `${mt.nameMain || mt.name} ${mt.nameAccent}` : (mt.nameMain || mt.name);
+                return (
+                  <li key={m.id}>
+                    <Link
+                      href={href}
+                      aria-label={linkLabel}
+                      className="group block rounded-lg p-3 -mx-3 hover:bg-paper transition-colors"
+                    >
+                      <p className="text-meta-fluid uppercase tracking-[0.18em] text-graphite mb-1">
+                        {m.sensation}
+                      </p>
+                      <p className="font-heading text-body-fluid leading-tight text-ink group-hover:text-verde transition-colors">
+                        {mt.nameMain || mt.name}
+                        {mt.nameAccent && <em className="font-heading-italic"> {mt.nameAccent}</em>}
+                      </p>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
           </section>
         )}
 

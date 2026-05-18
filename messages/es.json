@@ -193,6 +193,8 @@
     "sustainabilityLabel": "Sostenibilidad",
     "complementsTitle": "Completa tu ritual",
     "recommendedPackTitle": "Pack recomendado",
+    "moreFromLineTitle": "Otros productos de la línea",
+    "viewAllLine": "Ver toda la línea",
     "breadcrumbHome": "Inicio",
     "backToCatalog": "Volver al catálogo",
     "aiTranslationNotice": "Traducción asistida · pendiente de revisión",
@@ -204,14 +206,14 @@
       "kicker": "Línea",
       "title": "Cosmética artesanal",
       "accent": "natural",
-      "desc": "Cosmética artesanal para el día a día: cabello, cuerpo, rostro y afeitado en rituales sensoriales. Tres colecciones — Básica, Para Ella y Para Él — formuladas con norma ISO 16128 y fabricadas a mano en Andalucía.",
+      "desc": "Cosmética artesanal natural para el día a día: cabello, cuerpo, rostro y afeitado en rituales sensoriales. Tres colecciones — Básica, Para Ella y Para Él — formuladas con norma ISO 16128 y fabricadas a mano en Andalucía.",
       "h1Qualifier": "Natural"
     },
     "hogar": {
       "kicker": "Línea",
       "title": "Rituales del hogar",
       "accent": "natural",
-      "desc": "Cuidado del hogar como ritual: limpieza natural transformada en sensación de casa cuidada. Detergente, suavizante, lavavajillas, limpiasuelos, limpiador de baños, desengrasante y multisuperficies — todos con tensioactivos vegetales, hasta 99% de origen natural, biodegradables y certificados ISO 16128.",
+      "desc": "Rituales del hogar natural: cuidado limpieza natural transformada en sensación de casa cuidada. Detergente, suavizante, lavavajillas, limpiasuelos, limpiador de baños, desengrasante y multisuperficies — todos con tensioactivos vegetales, hasta 99% de origen natural, biodegradables y certificados ISO 16128.",
       "h1Qualifier": "Natural"
     },
     "mascota": {

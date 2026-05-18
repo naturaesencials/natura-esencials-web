@@ -193,6 +193,8 @@
     "sustainabilityLabel": "Sostenibilità",
     "complementsTitle": "Completa il tuo rituale",
     "recommendedPackTitle": "Pack consigliato",
+    "moreFromLineTitle": "Altri prodotti della linea",
+    "viewAllLine": "Vedi tutta la linea",
     "breadcrumbHome": "Home",
     "backToCatalog": "Torna al catalogo",
     "aiTranslationNotice": "Traduzione assistita · in attesa di revisione",
@@ -204,7 +206,7 @@
       "kicker": "Collezione",
       "title": "Cosmetica",
       "accent": "artigianale naturale",
-      "desc": "Cosmetica artigianale quotidiana: capelli, corpo, viso e rasatura in rituali sensoriali. Tre collezioni — Base, Per Lei e Per Lui — formulate secondo ISO 16128 e prodotte artigianalmente in Andalusia.",
+      "desc": "Cosmetica artigianale e naturale quotidiana: capelli, corpo, viso e rasatura in rituali sensoriali. Tre collezioni — Base, Per Lei e Per Lui — formulate secondo ISO 16128 e prodotte artigianalmente in Andalusia.",
       "h1Qualifier": "Naturale"
     },
     "hogar": {

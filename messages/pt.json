@@ -193,6 +193,8 @@
     "sustainabilityLabel": "Sustentabilidade",
     "complementsTitle": "Complete o seu ritual",
     "recommendedPackTitle": "Pack recomendado",
+    "moreFromLineTitle": "Outros produtos da linha",
+    "viewAllLine": "Ver toda a linha",
     "breadcrumbHome": "Início",
     "backToCatalog": "Voltar ao catálogo",
     "aiTranslationNotice": "Tradução assistida · pendente de revisão",
@@ -204,7 +206,7 @@
       "kicker": "Coleção",
       "title": "Cosmética artesanal",
       "accent": "natural",
-      "desc": "Cosmética artesanal para o dia a dia: cabelo, corpo, rosto e barbear em rituais sensoriais. Três coleções — Básica, Para Ela e Para Ele — formuladas com norma ISO 16128 e fabricadas à mão na Andaluzia.",
+      "desc": "Cosmética artesanal natural para o dia a dia: cabelo, corpo, rosto e barbear em rituais sensoriais. Três coleções — Básica, Para Ela e Para Ele — formuladas com norma ISO 16128 e fabricadas à mão na Andaluzia.",
       "h1Qualifier": "Natural"
     },
     "hogar": {
@@ -218,7 +220,7 @@
       "kicker": "Coleção",
       "title": "Cuidado natural",
       "accent": "de animais",
-      "desc": "Cuidado de animais como ritual: cuidado suave para cães e gatos com higiene tranquila, calma em casa e ligação sem stress. Produtos com registo MAPA e fórmulas hipoalergénicas adaptadas ao microbioma animal.",
+      "desc": "Cuidado natural de animais como ritual: cuidado suave para cães e gatos com higiene tranquila, calma em casa e ligação sem stress. Produtos com registo MAPA e fórmulas hipoalergénicas adaptadas ao microbioma animal.",
       "h1Qualifier": "Natural"
     }
   }
