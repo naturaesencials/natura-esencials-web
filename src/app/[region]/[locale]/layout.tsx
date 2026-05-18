@@ -58,10 +58,12 @@ export default async function RegionLocaleLayout({ children, params }: Props) {
           <Header region={region} locale={locale} />
           <CartDrawer locale={locale} />
           <main id="main-content">
-            {region === 'uk' ? <UkComingSoon region={region} locale={locale} /> : children}
+            {region === 'uk' && process.env.NEXT_PUBLIC_UK_LIVE !== 'true'
+              ? <UkComingSoon region={region} locale={locale} />
+              : children}
           </main>
           <Footer region={region} locale={locale} />
-          {region !== 'uk' && <WhatsAppButton locale={locale} />}
+          {(region !== 'uk' || process.env.NEXT_PUBLIC_UK_LIVE === 'true') && <WhatsAppButton locale={locale} />}
         <CookieBanner region={region} locale={locale} />
         </CartProvider>
       </div>

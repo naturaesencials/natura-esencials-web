@@ -66,11 +66,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
   const now = new Date();
 
-  // ── Secciones estáticas (solo EU, excluyendo UK) ──
+  // ── Secciones estáticas ──
+  const activeRegions: Region[] = process.env.NEXT_PUBLIC_UK_LIVE === 'true' ? ['eu', 'uk'] : ['eu'];
   for (const section of staticSections) {
-    // Skip UK entirely (Coming soon, noindex)
-    const region: Region = 'eu';
-    for (const locale of regionLocales[region]) {
+    for (const region of activeRegions) {
+      for (const locale of regionLocales[region]) {
       // Blog/diario: solo incluir en ES
       if (BLOG_SECTIONS.has(section) && locale !== 'es') continue;
 
@@ -87,14 +87,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: buildAlternateLanguages(section),
         },
       });
-    }
-  }
+      } // end for locale
+    } // end for region
+  } // end for section
 
   // ── Fichas de producto individuales ──
   for (const product of products) {
     if (!product.visible) continue;
     for (const region of product.availableIn) {
-      if (region === 'uk') continue; // Skip UK
+      if (region === 'uk' && process.env.NEXT_PUBLIC_UK_LIVE !== 'true') continue; // Skip UK until live
       for (const locale of regionLocales[region]) {
         const t = product.translations[locale] || product.translations.es;
         if (!t?.slug) continue;
@@ -127,7 +128,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const bundle of bundles) {
     if (!bundle.visible) continue;
     for (const region of bundle.availableIn) {
-      if (region === 'uk') continue; // Skip UK
+      if (region === 'uk' && process.env.NEXT_PUBLIC_UK_LIVE !== 'true') continue; // Skip UK until live
       for (const locale of regionLocales[region]) {
         const t = bundle.translations[locale] || bundle.translations.es;
         if (!t?.slug) continue;
@@ -162,16 +163,17 @@ function buildAlternateLanguages(
   section: RouteSection | '',
 ): Record<string, string> {
   const langs: Record<string, string> = {};
-  // Solo EU (UK está excluido del sitemap)
-  const region: Region = 'eu';
-  for (const locale of regionLocales[region]) {
-    // Blog/diario: solo ES en hreflang
-    if (BLOG_SECTIONS.has(section) && locale !== 'es') continue;
-    const key = hreflangKey(locale, region);
-    const path = section
-      ? `/${region}/${locale}/${section}`
-      : `/${region}/${locale}`;
-    langs[key] = `${siteConfig.url}${path}`;
+  const activeRegions: Region[] = process.env.NEXT_PUBLIC_UK_LIVE === 'true' ? ['eu', 'uk'] : ['eu'];
+  for (const region of activeRegions) {
+    for (const locale of regionLocales[region]) {
+      // Blog/diario: solo ES en hreflang
+      if (BLOG_SECTIONS.has(section) && locale !== 'es') continue;
+      const key = hreflangKey(locale, region);
+      const path = section
+        ? `/${region}/${locale}/${section}`
+        : `/${region}/${locale}`;
+      langs[key] = `${siteConfig.url}${path}`;
+    }
   }
   return langs;
 }

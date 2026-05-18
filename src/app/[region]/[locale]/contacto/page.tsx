@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: titles[locale] ?? 'Contacto',
     description: descs[locale] ?? descs.es,
     region,
-    noIndex: region === "uk",
+    noIndex: region === "uk" && process.env.NEXT_PUBLIC_UK_LIVE !== "true",
     locale,
     path: 'contacto',
   });

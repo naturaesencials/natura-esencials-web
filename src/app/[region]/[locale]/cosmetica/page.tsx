@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: ({"es": "Cosmética artesanal", "en": "Artisan Skincare", "fr": "Cosmétique artisanale", "de": "Handwerkliche Kosmetik", "it": "Cosmetica artigianale", "nl": "Ambachtelijke cosmetica", "pt": "Cosmética artesanal"} as Record<string, string>)[locale] ?? 'Cosmética',
     description: 'Cosmética natural elaborada en Andalucía. Cabello, cuerpo, rostro y afeitado en rituales sensoriales con certificación ISO 16128.',
     region,
-    noIndex: region === "uk",
+    noIndex: region === "uk" && process.env.NEXT_PUBLIC_UK_LIVE !== "true",
     locale,
     path: 'cosmetica',
   });

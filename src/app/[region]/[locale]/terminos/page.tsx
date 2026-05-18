@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata({
     title: TITLES[locale] ?? TITLES.es,
     description: DESCS[locale] ?? DESCS.es,
-    region, locale, noIndex: region === "uk", path: 'terminos',
+    region, locale, noIndex: region === "uk" && process.env.NEXT_PUBLIC_UK_LIVE !== "true", path: 'terminos',
   });
 }
 

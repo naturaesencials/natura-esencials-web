@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: ({"es": "Cuidado del hogar", "en": "Home Care", "fr": "Entretien maison", "de": "Haushaltspflege", "it": "Cura della casa", "nl": "Huishoudverzorging", "pt": "Cuidado do lar"} as Record<string, string>)[locale] ?? 'Hogar',
     description: 'Limpieza del hogar convertida en ritual. Ropa, cocina, baño y limpieza general con fórmulas suaves y aromas que cuidan el espacio.',
     region,
-    noIndex: region === "uk",
+    noIndex: region === "uk" && process.env.NEXT_PUBLIC_UK_LIVE !== "true",
     locale,
     path: 'hogar',
   });

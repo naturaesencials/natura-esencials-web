@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata({
     title: ({"es": "Nuestro origen", "en": "Our Origin", "fr": "Notre origine", "de": "Unser Ursprung", "it": "La nostra origine", "nl": "Onze oorsprong", "pt": "A nossa origem"} as Record<string, string>)[locale] ?? 'Origen',
     description: META_DESC[locale] ?? META_DESC.es,
-    region, locale, noIndex: region === "uk", path: 'origen',
+    region, locale, noIndex: region === "uk" && process.env.NEXT_PUBLIC_UK_LIVE !== "true", path: 'origen',
   });
 }
 

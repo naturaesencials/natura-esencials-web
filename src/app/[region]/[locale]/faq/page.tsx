@@ -137,7 +137,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: TITLE[locale] ?? TITLE.es,
     description: SUBTITLE[locale] ?? SUBTITLE.es,
     region, locale, path: 'faq',
-    noIndex: region === 'uk',
+    noIndex: region === 'uk' && process.env.NEXT_PUBLIC_UK_LIVE !== 'true',
   });
 }
 
