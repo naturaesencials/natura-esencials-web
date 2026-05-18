@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { translateReviewField } from '@/lib/reviews/translate';
 
 type Region = 'eu' | 'uk';
 
@@ -34,6 +35,8 @@ export interface Review {
   product_title: string;
   verified: string;
   pictures: Array<{ urls: { original: string } }>;
+  /** True if title/body have been translated to the request locale. */
+  translated?: boolean;
 }
 
 interface JudgeMeResponse {
@@ -115,7 +118,29 @@ export async function GET(req: NextRequest) {
   const pageNum = Math.max(1, parseInt(page, 10) || 1);
   const limit = Math.max(1, Math.min(100, parseInt(perPage, 10) || 10));
   const start = (pageNum - 1) * limit;
-  const reviews = deduped.slice(start, start + limit);
+  const paginatedReviews = deduped.slice(start, start + limit);
+
+  // Translate each paginated review's title + body to the requested locale.
+  // Each translation is cached 7 days, so repeated requests are nearly free.
+  // If ANTHROPIC_API_KEY is missing or the call fails, original text is returned.
+  const locale = (searchParams.get('locale') ?? 'es').toLowerCase();
+  const reviews = await Promise.all(
+    paginatedReviews.map(async (r) => {
+      const [translatedTitle, translatedBody] = await Promise.all([
+        r.title ? translateReviewField(r.id, r.title, locale, r.updated_at) : Promise.resolve(r.title),
+        r.body  ? translateReviewField(r.id, r.body,  locale, r.updated_at) : Promise.resolve(r.body),
+      ]);
+      const wasTranslated =
+        (translatedTitle !== null && translatedTitle !== r.title) ||
+        (translatedBody  !== null && translatedBody  !== r.body);
+      return {
+        ...r,
+        title: translatedTitle,
+        body:  translatedBody,
+        translated: wasTranslated || undefined,
+      };
+    }),
+  );
 
   return NextResponse.json({
     reviews,

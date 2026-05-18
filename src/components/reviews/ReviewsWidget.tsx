@@ -9,15 +9,16 @@ import type { Review } from '@/app/api/reviews/route';
 const T: Record<string, {
   title: string; noReviews: string; noReviewsSub: string;
   writeReview: string; loadMore: string; loading: string;
-  verifiedBuyer: string; showingOf: (shown: number, total: number) => string;
+  verifiedBuyer: string; translatedLabel: string;
+  showingOf: (shown: number, total: number) => string;
 }> = {
-  es: { title:'Opiniones', noReviews:'Todavía no hay opiniones', noReviewsSub:'Sé el primero en compartir tu experiencia.', writeReview:'Escribir opinión', loadMore:'Ver más opiniones', loading:'Cargando opiniones…', verifiedBuyer:'Comprador verificado', showingOf:(s,t)=>`Mostrando ${s} de ${t} opiniones` },
-  en: { title:'Reviews', noReviews:'No reviews yet', noReviewsSub:'Be the first to share your experience.', writeReview:'Write a review', loadMore:'Load more reviews', loading:'Loading reviews…', verifiedBuyer:'Verified buyer', showingOf:(s,t)=>`Showing ${s} of ${t} reviews` },
-  fr: { title:'Avis', noReviews:'Pas encore d\'avis', noReviewsSub:'Soyez le premier à partager votre expérience.', writeReview:'Écrire un avis', loadMore:'Voir plus d\'avis', loading:'Chargement des avis…', verifiedBuyer:'Acheteur vérifié', showingOf:(s,t)=>`Affichage de ${s} sur ${t} avis` },
-  de: { title:'Bewertungen', noReviews:'Noch keine Bewertungen', noReviewsSub:'Sei der Erste, der seine Erfahrung teilt.', writeReview:'Bewertung schreiben', loadMore:'Mehr Bewertungen laden', loading:'Bewertungen werden geladen…', verifiedBuyer:'Verifizierter Käufer', showingOf:(s,t)=>`${s} von ${t} Bewertungen` },
-  it: { title:'Recensioni', noReviews:'Nessuna recensione ancora', noReviewsSub:'Sii il primo a condividere la tua esperienza.', writeReview:'Scrivi una recensione', loadMore:'Carica altre recensioni', loading:'Caricamento recensioni…', verifiedBuyer:'Acquirente verificato', showingOf:(s,t)=>`Mostrando ${s} di ${t} recensioni` },
-  nl: { title:'Beoordelingen', noReviews:'Nog geen beoordelingen', noReviewsSub:'Wees de eerste om je ervaring te delen.', writeReview:'Beoordeling schrijven', loadMore:'Meer beoordelingen laden', loading:'Beoordelingen laden…', verifiedBuyer:'Geverifieerde koper', showingOf:(s,t)=>`${s} van ${t} beoordelingen` },
-  pt: { title:'Opiniões', noReviews:'Ainda sem opiniões', noReviewsSub:'Sê o primeiro a partilhar a tua experiência.', writeReview:'Escrever opinião', loadMore:'Ver mais opiniões', loading:'A carregar opiniões…', verifiedBuyer:'Comprador verificado', showingOf:(s,t)=>`A mostrar ${s} de ${t} opiniões` },
+  es: { title:'Opiniones', noReviews:'Todavía no hay opiniones', noReviewsSub:'Sé el primero en compartir tu experiencia.', writeReview:'Escribir opinión', loadMore:'Ver más opiniones', loading:'Cargando opiniones…', verifiedBuyer:'Comprador verificado', translatedLabel:'Traducido', showingOf:(s,t)=>`Mostrando ${s} de ${t} opiniones` },
+  en: { title:'Reviews', noReviews:'No reviews yet', noReviewsSub:'Be the first to share your experience.', writeReview:'Write a review', loadMore:'Load more reviews', loading:'Loading reviews…', verifiedBuyer:'Verified buyer', translatedLabel:'Translated', showingOf:(s,t)=>`Showing ${s} of ${t} reviews` },
+  fr: { title:'Avis', noReviews:'Pas encore d\'avis', noReviewsSub:'Soyez le premier à partager votre expérience.', writeReview:'Écrire un avis', loadMore:'Voir plus d\'avis', loading:'Chargement des avis…', verifiedBuyer:'Acheteur vérifié', translatedLabel:'Traduit', showingOf:(s,t)=>`Affichage de ${s} sur ${t} avis` },
+  de: { title:'Bewertungen', noReviews:'Noch keine Bewertungen', noReviewsSub:'Sei der Erste, der seine Erfahrung teilt.', writeReview:'Bewertung schreiben', loadMore:'Mehr Bewertungen laden', loading:'Bewertungen werden geladen…', verifiedBuyer:'Verifizierter Käufer', translatedLabel:'Übersetzt', showingOf:(s,t)=>`${s} von ${t} Bewertungen` },
+  it: { title:'Recensioni', noReviews:'Nessuna recensione ancora', noReviewsSub:'Sii il primo a condividere la tua esperienza.', writeReview:'Scrivi una recensione', loadMore:'Carica altre recensioni', loading:'Caricamento recensioni…', verifiedBuyer:'Acquirente verificato', translatedLabel:'Tradotto', showingOf:(s,t)=>`Mostrando ${s} di ${t} recensioni` },
+  nl: { title:'Beoordelingen', noReviews:'Nog geen beoordelingen', noReviewsSub:'Wees de eerste om je ervaring te delen.', writeReview:'Beoordeling schrijven', loadMore:'Meer beoordelingen laden', loading:'Beoordelingen laden…', verifiedBuyer:'Geverifieerde koper', translatedLabel:'Vertaald', showingOf:(s,t)=>`${s} van ${t} beoordelingen` },
+  pt: { title:'Opiniões', noReviews:'Ainda sem opiniões', noReviewsSub:'Sê o primeiro a partilhar a tua experiência.', writeReview:'Escrever opinião', loadMore:'Ver mais opiniões', loading:'A carregar opiniões…', verifiedBuyer:'Comprador verificado', translatedLabel:'Traduzido', showingOf:(s,t)=>`A mostrar ${s} de ${t} opiniões` },
 };
 
 // Mapa locale app → código BCP47 para Intl
@@ -86,7 +87,16 @@ function ReviewCard({ review, lb, locale }: { review: Review; lb: typeof T.es; l
         </div>
         <time className="shrink-0 text-[11px] text-graphite">{date}</time>
       </header>
-      {review.body && <p className="text-[13px] leading-[1.7] text-ink/80">{review.body}</p>}
+      {review.body && (
+        <div className="flex flex-col gap-1.5">
+          <p className="text-[13px] leading-[1.7] text-ink/80">{review.body}</p>
+          {review.translated && (
+            <p className="text-[10px] uppercase tracking-[0.15em] text-graphite/70 italic">
+              {lb.translatedLabel}
+            </p>
+          )}
+        </div>
+      )}
       {review.pictures?.length > 0 && (
         <div className="flex gap-2 flex-wrap">
           {review.pictures.slice(0, 4).map((pic, i) => (
@@ -128,14 +138,14 @@ export function ReviewsWidget({ handle, crossHandle, title, locale = 'es', shopi
   const PER_PAGE = 6;
 
   const fetchReviews = useCallback(async (p: number, append = false) => {
-    const params = new URLSearchParams({ page: String(p), per_page: String(PER_PAGE), region });
+    const params = new URLSearchParams({ page: String(p), per_page: String(PER_PAGE), region, locale });
     if (handle) params.set('handle', handle);
     if (crossHandle && crossHandle !== handle) params.set('cross_handle', crossHandle);
     const res = await fetch(`/api/reviews?${params}`);
     const data = await res.json();
     setTotal(data.total ?? 0);
     setReviews(prev => append ? [...prev, ...(data.reviews ?? [])] : (data.reviews ?? []));
-  }, [handle, crossHandle, region]);
+  }, [handle, crossHandle, region, locale]);
 
   useEffect(() => {
     setLoading(true);
