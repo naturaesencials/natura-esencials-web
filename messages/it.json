@@ -51,7 +51,7 @@
     "titleLine2": "e la",
     "titleAccent2": "casa",
     "titleLine3": "con la stessa mano.",
-    "lede": "Undici rituali per curare la pelle e la casa, formulati a mano nel nostro laboratorio di Marbella. Cosmetica naturale e detergenti per la casa elaborati con la stessa esigenza — oli vegetali andalusi, certificazione ISO 16128, confezione riciclabile.",
+    "lede": "Undici rituali per curare la pelle e la casa, formulati a mano nel nostro laboratorio di Marbella. Cosmetica di origine naturale e detergenti per la casa elaborati con la stessa esigenza — oli vegetali andalusi, certificazione ISO 16128, confezione riciclabile.",
     "ledeEmphasis": "la stessa esigenza",
     "marksCosmetica": "Cosmetica",
     "marksCosmeticaCount": "{count} rituali",
@@ -71,7 +71,7 @@
     "personalDescEmphasis": "gesto quotidiano",
     "hogarLine": "Casa · cucina impeccabile",
     "hogarBadge": "Rituale 07 · Casa",
-    "hogarDesc": "Sgrassatore 99% di origine naturale, detergente agrumato e multiuso 97% naturale. La cucina impeccabile.",
+    "hogarDesc": "Sgrassatore 99% di origine naturale, detergente agrumato e multiuso 97% di origine naturale. La cucina impeccabile.",
     "hogarDescEmphasis": "Senza solfati aggressivi"
   },
   "lineCosmetica": {
@@ -89,7 +89,7 @@
     "titleAccent2": "vestiti che indossi.",
     "body": "Non separiamo ciò che cura la pelle da ciò che cura la casa. I nostri oli essenziali, estratti e tensioattivi vegetali sono identici in entrambe le linee — cambia solo la formulazione. Un solo laboratorio, una sola esigenza.",
     "bodyEmphasis": "Un solo laboratorio, una sola esigenza.",
-    "imgAlt": "Ingredienti botanici naturali — cosmetica artigianale Natura Esencials"
+    "imgAlt": "Ingredienti botanici di origine naturale — cosmetica artigianale Natura Esencials"
   },
   "lineHogar": {
     "tag": "Linea principale · 4 rituali",
@@ -167,8 +167,8 @@
   },
   "metadata": {
     "homeTitle": "Cosmetica artigianale e cura della casa",
-    "homeDescription": "Undici rituali naturali formulati a mano a Marbella. Cosmetica e detergenti per la casa con certificazione ISO 16128, materie vegetali andaluse e confezione riciclabile.",
-    "homeKeywords": "cosmetica artigianale, cura casa, sapone artigianale, Marbella, Andalusia, ISO 16128, doccia schiuma naturale"
+    "homeDescription": "Undici rituali di origine naturale formulati a mano a Marbella. Cosmetica e detergenti per la casa con certificazione ISO 16128, materie vegetali andaluse e confezione riciclabile.",
+    "homeKeywords": "cosmetica artigianale, cura casa, sapone artigianale, Marbella, Andalusia, ISO 16128, doccia schiuma di origine naturale"
   },
   "product": {
     "sensation": "Sensazione",
@@ -206,7 +206,7 @@
       "kicker": "Collezione",
       "title": "Cosmetica",
       "accent": "artigianale",
-      "desc": "Cosmetica artigianale e naturale quotidiana: capelli, corpo, viso e rasatura in rituali sensoriali. Tre collezioni — Base, Per Lei e Per Lui — formulate secondo ISO 16128 e prodotte artigianalmente in Andalusia.",
+      "desc": "Cosmetica artigianale e di origine naturale quotidiana: capelli, corpo, viso e rasatura in rituali sensoriali. Tre collezioni — Base, Per Lei e Per Lui — formulate secondo ISO 16128 e prodotte artigianalmente in Andalusia.",
       "h1Qualifier": ""
     },
     "hogar": {
@@ -220,12 +220,12 @@
       "kicker": "Collezione",
       "title": "Cura",
       "accent": "degli animali",
-      "desc": "Cura degli animali come rituale naturale: shampoo, detergente oculare e auricolare formulati per la cute sensibile di cani e gatti. Senza prodotti aggressivi, con ingredienti di origine naturale al 97-99%, testati dermatologicamente e registrati MAPA. Fatti a mano a Marbella, in Andalusia.",
+      "desc": "Cura degli animali come rituale di origine naturale: shampoo, detergente oculare e auricolare formulati per la cute sensibile di cani e gatti. Senza prodotti aggressivi, con ingredienti di origine naturale al 97-99%, testati dermatologicamente e registrati MAPA. Fatti a mano a Marbella, in Andalusia.",
       "h1Qualifier": "",
       "comingSoonKicker": "Prossimamente · UK",
       "comingSoonTitle": "Cura degli animali",
       "comingSoonAccent": "Coming Soon",
-      "comingSoonBody": "Stiamo preparando la nostra linea di cura naturale per cani e gatti per il mercato britannico. Iscriviti alla nostra newsletter per essere il primo a saperlo.",
+      "comingSoonBody": "Stiamo preparando la nostra linea di cura di origine naturale per cani e gatti per il mercato britannico. Iscriviti alla nostra newsletter per essere il primo a saperlo.",
       "comingSoonCTA": "Vedi cosmetica disponibile",
       "comingSoonCTASecondary": "Torna alla home"
     }

@@ -51,7 +51,7 @@
     "titleLine2": "e da",
     "titleAccent2": "casa",
     "titleLine3": "com a mesma mão.",
-    "lede": "Onze rituais para cuidar da pele e da casa, formulados à mão no nosso atelier em Marbella. Cosmética natural e detergentes para casa elaborados com a mesma exigência — óleos vegetais andaluzes, certificação ISO 16128, embalagem reciclável.",
+    "lede": "Onze rituais para cuidar da pele e da casa, formulados à mão no nosso atelier em Marbella. Cosmética de origem natural e detergentes para casa elaborados com a mesma exigência — óleos vegetais andaluzes, certificação ISO 16128, embalagem reciclável.",
     "ledeEmphasis": "a mesma exigência",
     "marksCosmetica": "Cosmética",
     "marksCosmeticaCount": "{count} rituais",
@@ -71,7 +71,7 @@
     "personalDescEmphasis": "gesto diário",
     "hogarLine": "Lar · cozinha impecável",
     "hogarBadge": "Ritual 07 · Lar",
-    "hogarDesc": "Desengordurante 99% de origem natural, detergente cítrico e multiusos 97% natural. A cozinha impecável.",
+    "hogarDesc": "Desengordurante 99% de origem natural, detergente cítrico e multiusos 97% de origem natural. A cozinha impecável.",
     "hogarDescEmphasis": "Sem sulfatos agressivos"
   },
   "lineCosmetica": {
@@ -89,13 +89,13 @@
     "titleAccent2": "roupa que vestes.",
     "body": "Não separamos o que cuida da pele do que cuida da casa. Os nossos óleos essenciais, extratos e tensioativos vegetais são idênticos em ambas as linhas — apenas muda a formulação. Um mesmo atelier, uma mesma exigência.",
     "bodyEmphasis": "Um mesmo atelier, uma mesma exigência.",
-    "imgAlt": "Ingredientes botânicos naturais — cosmética artesanal Natura Esencials"
+    "imgAlt": "Ingredientes botânicos de origem natural — cosmética artesanal Natura Esencials"
   },
   "lineHogar": {
     "tag": "Linha principal · 4 rituais",
     "title1": "A",
     "titleAccent": "casa.",
-    "intro": "Sabões e limpadores naturais para as superfícies que tocamos diariamente. Com a mesma exigência que aplicamos à pele: sem sulfatos agressivos, sem aromas sintéticos, sem tóxicos para quem cozinha contigo.",
+    "intro": "Sabões e limpadores de origem natural para as superfícies que tocamos diariamente. Com a mesma exigência que aplicamos à pele: sem sulfatos agressivos, sem aromas sintéticos, sem tóxicos para quem cozinha contigo.",
     "introEmphasis": "Com a mesma exigência que aplicamos à pele"
   },
   "origen": {
@@ -167,7 +167,7 @@
   },
   "metadata": {
     "homeTitle": "Cosmética artesanal e cuidado da casa",
-    "homeDescription": "Onze rituais naturais formulados à mão em Marbella. Cosmética e limpadores para casa com certificação ISO 16128, matéria vegetal andaluza e embalagem reciclável.",
+    "homeDescription": "Onze rituais de origem natural formulados à mão em Marbella. Cosmética e limpadores para casa com certificação ISO 16128, matéria vegetal andaluza e embalagem reciclável.",
     "homeKeywords": "cosmética artesanal, cuidado da casa, sabão artesanal, Marbella, Andaluzia, ISO 16128, gel duche artesanal"
   },
   "product": {
@@ -206,26 +206,26 @@
       "kicker": "Coleção",
       "title": "Cosmética artesanal",
       "accent": "essencial",
-      "desc": "Cosmética artesanal natural para o dia a dia: cabelo, corpo, rosto e barbear em rituais sensoriais. Três coleções — Básica, Para Ela e Para Ele — formuladas com norma ISO 16128 e fabricadas à mão na Andaluzia.",
+      "desc": "Cosmética artesanal de origem natural para o dia a dia: cabelo, corpo, rosto e barbear em rituais sensoriais. Três coleções — Básica, Para Ela e Para Ele — formuladas com norma ISO 16128 e fabricadas à mão na Andaluzia.",
       "h1Qualifier": ""
     },
     "hogar": {
       "kicker": "Coleção",
       "title": "Cuidado",
       "accent": "do lar",
-      "desc": "Cuidado do lar como ritual: limpeza natural transformada em sensação de casa cuidada. Detergente, amaciador, loiça, limpadores específicos e multissuperfícies com fórmulas suaves de origem natural.",
+      "desc": "Cuidado do lar como ritual: limpeza de origem natural transformada em sensação de casa cuidada. Detergente, amaciador, loiça, limpadores específicos e multissuperfícies com fórmulas suaves de origem natural.",
       "h1Qualifier": ""
     },
     "mascota": {
       "kicker": "Coleção",
       "title": "Cuidado",
       "accent": "de animais",
-      "desc": "Cuidado natural de animais como ritual: cuidado suave para cães e gatos com higiene tranquila, calma em casa e ligação sem stress. Produtos com registo MAPA e fórmulas hipoalergénicas adaptadas ao microbioma animal.",
+      "desc": "Cuidado de origem natural de animais como ritual: cuidado suave para cães e gatos com higiene tranquila, calma em casa e ligação sem stress. Produtos com registo MAPA e fórmulas hipoalergénicas adaptadas ao microbioma animal.",
       "h1Qualifier": "",
       "comingSoonKicker": "Em breve · UK",
       "comingSoonTitle": "Cuidado de animais",
       "comingSoonAccent": "Coming Soon",
-      "comingSoonBody": "Estamos a preparar a nossa linha de cuidado natural para cães e gatos para o mercado britânico. Subscreva a nossa newsletter para ser dos primeiros a saber.",
+      "comingSoonBody": "Estamos a preparar a nossa linha de cuidado de origem natural para cães e gatos para o mercado britânico. Subscreva a nossa newsletter para ser dos primeiros a saber.",
       "comingSoonCTA": "Ver cosmética disponível",
       "comingSoonCTASecondary": "Voltar ao início"
     }

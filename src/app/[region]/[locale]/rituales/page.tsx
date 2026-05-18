@@ -17,13 +17,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     de: 'Rituale', it: 'Rituali', nl: 'Rituelen', pt: 'Rituais',
   };
   const descs: Record<string, string> = {
-    es: 'Todos los rituales Natura Esencials. Cosmética natural, cuidado del hogar y mascotas — formulados en Marbella.',
-    en: 'All Natura Esencials rituals. Natural cosmetics, home care and pet care — formulated in Marbella.',
-    fr: 'Tous les rituels Natura Esencials. Cosmétique naturelle, entretien ménager et soins animaux.',
-    de: 'Alle Natura Esencials Rituale. Naturkosmetik, Haushaltspflege und Tierpflege.',
-    it: 'Tutti i rituali Natura Esencials. Cosmetica naturale, cura della casa e degli animali.',
-    nl: 'Alle Natura Esencials rituelen. Natuurlijke cosmetica, huishoudverzorging en dierenverzorging.',
-    pt: 'Todos os rituais Natura Esencials. Cosmética natural, cuidado do lar e animais de estimação.',
+    es: 'Todos los rituales Natura Esencials. Cosmética de origen natural, cuidado del hogar y mascotas — formulados en Marbella.',
+    en: 'All Natura Esencials rituals. Cosmetics of natural origin, home care and pet care — formulated in Marbella.',
+    fr: "Tous les rituels Natura Esencials. Cosmétique d'origine naturelle, entretien ménager et soins animaux.",
+    de: 'Alle Natura Esencials Rituale. Kosmetik natürlichen Ursprungs, Haushaltspflege und Tierpflege.',
+    it: 'Tutti i rituali Natura Esencials. Cosmetica di origine naturale, cura della casa e degli animali.',
+    nl: 'Alle Natura Esencials rituelen. Cosmetica van natuurlijke oorsprong, huishoudverzorging en dierenverzorging.',
+    pt: 'Todos os rituais Natura Esencials. Cosmética de origem natural, cuidado do lar e animais de estimação.',
   };
   return buildMetadata({ title: titles[locale] ?? titles.es, description: descs[locale] ?? descs.es, region, locale, path: 'rituales', noIndex: region === 'uk' && process.env.NEXT_PUBLIC_UK_LIVE !== 'true' });
 }

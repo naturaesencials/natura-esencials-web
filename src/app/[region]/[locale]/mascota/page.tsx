@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata({
     title: baseTitles[locale] ?? baseTitles.es,
     description: isComingSoon
-      ? 'Natura Esencials está preparando su línea de cuidado natural para perros y gatos en Reino Unido. Próximamente disponible.'
+      ? 'Natura Esencials está preparando su línea de cuidado de origen natural para perros y gatos en Reino Unido. Próximamente disponible.'
       : 'Higiene suave para perros y gatos. Champús, limpiador de oídos y de ojos formulados con respeto al microbioma y aromas hipoalergénicos.',
     region,
     // No-index Coming Soon pages so empty content doesn't get crawled as low quality

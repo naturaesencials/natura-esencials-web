@@ -51,7 +51,7 @@
     "titleLine2": "and the",
     "titleAccent2": "home",
     "titleLine3": "with the same hand.",
-    "lede": "Eleven rituals for caring for skin and home, handcrafted in our Marbella workshop. Natural skincare and home soaps formulated with the same exacting standards — Andalusian botanical oils, ISO 16128 certified, recyclable packaging.",
+    "lede": "Eleven rituals for caring for skin and home, handcrafted in our Marbella workshop. Skincare and home soaps of natural origin formulated with the same exacting standards — Andalusian botanical oils, ISO 16128 certified, recyclable packaging.",
     "ledeEmphasis": "the same exacting standards",
     "marksCosmetica": "Skincare",
     "marksCosmeticaCount": "{count} rituals",
@@ -71,7 +71,7 @@
     "personalDescEmphasis": "daily gesture",
     "hogarLine": "Home · spotless kitchen",
     "hogarBadge": "Ritual 07 · Home",
-    "hogarDesc": "Natural degreaser 99% natural origin, citrus dishwasher liquid and 97% natural origin multi-surface cleaner. A spotless kitchen inside and out.",
+    "hogarDesc": "Degreaser 99% natural origin, citrus dishwasher liquid and 97% natural origin multi-surface cleaner. A spotless kitchen inside and out.",
     "hogarDescEmphasis": "No harsh sulphates"
   },
   "lineCosmetica": {
@@ -89,7 +89,7 @@
     "titleAccent2": "clothes you wear.",
     "body": "We don't separate what cares for the skin from what cares for the home. Our essential oils, extracts and plant surfactants are identical in both lines — only the formulation changes. One workshop, one standard.",
     "bodyEmphasis": "One workshop, one standard.",
-    "imgAlt": "Natural botanical ingredients — artisan cosmetics by Natura Esencials"
+    "imgAlt": "Botanical ingredients of natural origin — artisan cosmetics by Natura Esencials"
   },
   "lineHogar": {
     "tag": "Main line · 4 rituals",
@@ -206,26 +206,26 @@
       "kicker": "Collection",
       "title": "Artisan",
       "accent": "Skincare",
-      "desc": "Natural artisan skincare for everyday use: hair, body, face and shaving rituals. Three collections — Basic, For Her and For Him — formulated to ISO 16128 and handcrafted in Andalusia.",
+      "desc": "Artisan skincare of natural origin for everyday use: hair, body, face and shaving rituals. Three collections — Basic, For Her and For Him — formulated to ISO 16128 and handcrafted in Andalusia.",
       "h1Qualifier": ""
     },
     "hogar": {
       "kicker": "Collection",
       "title": "Home",
       "accent": "Cleaning",
-      "desc": "Home care as a ritual: natural cleaning transformed into the feeling of a well-kept home. Laundry detergent, fabric softener, washing-up liquid, floor cleaner, bathroom cleaner, degreaser and multi-surface cleaner — all with plant-based surfactants, up to 99% natural origin, biodegradable and ISO 16128 certified.",
+      "desc": "Home care as a ritual: of natural origin cleaning transformed into the feeling of a well-kept home. Laundry detergent, fabric softener, washing-up liquid, floor cleaner, bathroom cleaner, degreaser and multi-surface cleaner — all with plant-based surfactants, up to 99% natural origin, biodegradable and ISO 16128 certified.",
       "h1Qualifier": ""
     },
     "mascota": {
       "kicker": "Collection",
       "title": "Pet",
       "accent": "Grooming",
-      "desc": "Natural pet grooming and care rituals: gentle care for dogs and cats with calm hygiene, peace at home and stress-free bonding. Products with MAPA registration and hypoallergenic formulas adapted to the animal microbiome.",
+      "desc": "Pet grooming and care rituals of natural origin: gentle care for dogs and cats with calm hygiene, peace at home and stress-free bonding. Products with MAPA registration and hypoallergenic formulas adapted to the animal microbiome.",
       "h1Qualifier": "",
       "comingSoonKicker": "Coming Soon · UK",
       "comingSoonTitle": "Pet Care",
       "comingSoonAccent": "Coming Soon",
-      "comingSoonBody": "We are preparing our natural pet care line — shampoos, ear and eye cleaners for dogs and cats — for the UK market. Subscribe to our newsletter to be the first to know when it launches.",
+      "comingSoonBody": "We are preparing our of natural origin pet care line — shampoos, ear and eye cleaners for dogs and cats — for the UK market. Subscribe to our newsletter to be the first to know when it launches.",
       "comingSoonCTA": "Browse available cosmetics",
       "comingSoonCTASecondary": "Back to home"
     }

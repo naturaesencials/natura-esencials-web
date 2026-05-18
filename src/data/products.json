@@ -33,7 +33,7 @@
         "name": "Champú 2 en 1",
         "nameMain": "Champú",
         "nameAccent": "2 en 1",
-        "subtitle": "Champú 2 en 1 con aceite de argán y tensioactivos del coco y del azúcar. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Champú 2 en 1 con aceite de argán y tensioactivos del coco y del azúcar. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Cítrica · Menta · Lavanda",
         "momentOfUse": "Ducha matinal · Rutina simplificada",
         "shortDescription": "Notas de limón, menta y lavanda. Limpia y acondiciona en un solo paso.",
@@ -69,7 +69,7 @@
       },
       "en": {
         "name": "2-in-1 Shampoo",
-        "subtitle": "Cleanses and conditions in a single step. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Cleanses and conditions in a single step. Artisan cosmetics of natural origin from Marbella.",
         "slug": "2-in-1-shampoo",
         "olfactiveFamily": "Citrus · Mint · Lavender",
         "momentOfUse": "Morning shower · Streamlined routine",
@@ -108,7 +108,7 @@
       },
       "fr": {
         "name": "Shampooing 2-en-1",
-        "subtitle": "Lave et démêle en un seul geste. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Lave et démêle en un seul geste. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "shampooing-2-en-1",
         "olfactiveFamily": "Agrumes · Menthe · Lavande",
         "momentOfUse": "Douche du matin · Routine simplifiée",
@@ -147,13 +147,13 @@
       },
       "de": {
         "name": "2-in-1 Shampoo",
-        "subtitle": "Reinigt und pflegt in einem Schritt mit Arganöl und natürlichen Kokosnuss-Tensiden. 96% natürlich gewonnen, ISO 16128.",
+        "subtitle": "Reinigt und pflegt in einem Schritt mit Arganöl und Kokosnuss-Tensiden natürlichen Ursprungs. 96% natürlichen Ursprungs gewonnen, ISO 16128.",
         "slug": "2-in-1-shampoo",
         "olfactiveFamily": "Zitrus · Minze · Lavendel",
         "momentOfUse": "Morgendliche Dusche · Einfache Routine",
         "nameMain": "",
         "nameAccent": "Shampoo 2-in-1",
-        "shortDescription": "Noten von Zitrone, Minze und Lavendel. Reinigt und konditioniert in einem einzigen Schritt. 96% natürlich, dermatologisch getestet.",
+        "shortDescription": "Noten von Zitrone, Minze und Lavendel. Reinigt und konditioniert in einem einzigen Schritt. 96% natürlichen Ursprungs, dermatologisch getestet.",
         "longDescription": "Unser 2-in-1-Shampoo reinigt und pflegt das Haar in einem einzigen Schritt. Formuliert mit Arganöl aus Marokko und Kokos-Tensiden pflanzlichen Ursprungs, die die Haarschuppenschicht schützen und den pH-Wert im sauren Bereich zwischen 4,5 und 5,5 halten. Das Ergebnis ist sauberes, weiches Haar ohne Frizz, ohne schweres Gefühl. Die Duftnoten von Zitrone, Minze und Lavendel begleiten jeden Waschvorgang. Geeignet für normales Haar und häufige Anwendung. ISO 16128 zertifiziert, dermatologisch getestet, parabenfrei. Hergestellt in unserem Atelier in Marbella, Andalusien.",
         "indication": "Haarpflege. Für häufige Anwendung geeignet.",
         "usage": "Auf nasses Haar auftragen, einmassieren und ausspülen. Für den täglichen Gebrauch geeignet.",
@@ -225,7 +225,7 @@
       },
       "nl": {
         "name": "2-in-1 Shampoo",
-        "subtitle": "Reinigt en verzorgt in één stap met arganolie en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128 gecertificeerd. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Reinigt en verzorgt in één stap met arganolie en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128 gecertificeerd. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "2-in-1-shampoo",
         "olfactiveFamily": "Citrus · Munt · Lavendel",
         "momentOfUse": "Ochtenddouche · Eenvoudige routine",
@@ -264,7 +264,7 @@
       },
       "pt": {
         "name": "Champô 2-em-1",
-        "subtitle": "Lava e amacia num só passo. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Lava e amacia num só passo. Cosmética artesanal de origem natural de Marbella.",
         "slug": "champo-2-em-1",
         "olfactiveFamily": "Citrinos · Menta · Alfazema",
         "momentOfUse": "Duche matinal · Rotina simplificada",
@@ -335,7 +335,7 @@
         "name": "Acondicionador Capilar",
         "nameMain": "Acondicionador",
         "nameAccent": "capilar",
-        "subtitle": "Acondicionador con argán, coco, quinoa hidrolizada, ácido hialurónico y pantenol. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Acondicionador con argán, coco, quinoa hidrolizada, ácido hialurónico y pantenol. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Herbal reconfortante",
         "momentOfUse": "Post-ducha · Ritual capilar completo",
         "shortDescription": "Nutre, desenreda y aporta brillo desde el primer uso. Aroma herbal reconfortante.",
@@ -371,7 +371,7 @@
       },
       "en": {
         "name": "Hair Conditioner",
-        "subtitle": "Softens, detangles and brings everyday shine. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Softens, detangles and brings everyday shine. Artisan cosmetics of natural origin from Marbella.",
         "slug": "hair-conditioner",
         "olfactiveFamily": "Argan · Citrus",
         "momentOfUse": "After shampoo · Daily care",
@@ -410,7 +410,7 @@
       },
       "fr": {
         "name": "Après-shampooing",
-        "subtitle": "Adoucit, démêle et apporte de la brillance au quotidien. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Adoucit, démêle et apporte de la brillance au quotidien. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "apres-shampooing",
         "olfactiveFamily": "Argan · Agrumes",
         "momentOfUse": "Après le shampooing · Soin quotidien",
@@ -449,14 +449,14 @@
       },
       "de": {
         "name": "Haarspülung",
-        "subtitle": "Macht weich, entwirrt und bringt täglichen Glanz mit hydrolysiertem Quinoa und Hyaluronsäure. 95% natürlich, ISO 16128.",
+        "subtitle": "Macht weich, entwirrt und bringt täglichen Glanz mit hydrolysiertem Quinoa und Hyaluronsäure. 95% natürlichen Ursprungs, ISO 16128.",
         "slug": "haarspuelung",
         "olfactiveFamily": "Argan · Zitrus",
         "momentOfUse": "Nach dem Shampoo · Tägliche Pflege",
         "nameMain": "",
         "nameAccent": "Haarspülung",
-        "shortDescription": "Tiefpflegender Conditioner mit Arganöl und Olivenöl. Seidige Textur, Zitrusduft. Entwirrt und verleiht Glanz. 95% natürlich gewonnen.",
-        "longDescription": "Unsere natürliche Haarspülung löst Knoten sanft auf und verleiht dem Haar Glanz und Geschmeidigkeit. Mit Kokosöl, Jojobaöl und Cetearyl-Alkohol pflanzlichen Ursprungs bildet sie einen schützenden Film um das Haar, der Spliss und Trockenheit reduziert. Die Formel respektiert das natürliche pH-Gleichgewicht der Kopfhaut. Duftnoten von Limette und weißem Moschus für ein frisches Gefühl nach jedem Waschen. Auf feuchtes Haar auftragen, 1-2 Minuten einwirken lassen und gründlich ausspülen. 96% natürlicher Ursprung. ISO 16128 zertifiziert, dermatologisch getestet. Handgefertigt in Marbella, Andalusien.",
+        "shortDescription": "Tiefpflegender Conditioner mit Arganöl und Olivenöl. Seidige Textur, Zitrusduft. Entwirrt und verleiht Glanz. 95% natürlichen Ursprungs gewonnen.",
+        "longDescription": "Unsere natürlichen Ursprungs Haarspülung löst Knoten sanft auf und verleiht dem Haar Glanz und Geschmeidigkeit. Mit Kokosöl, Jojobaöl und Cetearyl-Alkohol pflanzlichen Ursprungs bildet sie einen schützenden Film um das Haar, der Spliss und Trockenheit reduziert. Die Formel respektiert das natürlichen Ursprungs pH-Gleichgewicht der Kopfhaut. Duftnoten von Limette und weißem Moschus für ein frisches Gefühl nach jedem Waschen. Auf feuchtes Haar auftragen, 1-2 Minuten einwirken lassen und gründlich ausspülen. 96% natürlichen Ursprungs Ursprung. ISO 16128 zertifiziert, dermatologisch getestet. Handgefertigt in Marbella, Andalusien.",
         "indication": "Haarhygiene. Für häufige Anwendung geeignet.",
         "usage": "Nach dem Shampoonieren auf nasses Haar von der Mitte bis zu den Spitzen auftragen. 1–2 Minuten einwirken lassen und mit lauwarmem Wasser ausspülen.",
         "benefits": [
@@ -494,7 +494,7 @@
         "momentOfUse": "Dopo lo shampoo · Cura quotidiana",
         "nameMain": "Balsamo",
         "nameAccent": "capelli",
-        "shortDescription": "Balsamo profondamente nutriente con olio di argan e oliva. Texture setosa, profumo agrumato. Districa e dona lucentezza. 95% naturale.",
+        "shortDescription": "Balsamo profondamente nutriente con olio di argan e oliva. Texture setosa, profumo agrumato. Districa e dona lucentezza. 95% di origine naturale.",
         "longDescription": "Balsamo capelli con quinoa idrolizzata, acido ialuronico e olio di argan. Ammorbidisce, districa e lascia capelli luminosi. ISO 16128 certificato.",
         "indication": "Igiene capillare. Adatto all'uso frequente.",
         "usage": "Applicare dopo lo shampoo sui capelli umidi, dai medi alle punte. Lasciare agire 1-2 minuti e sciacquare con acqua tiepida.",
@@ -527,7 +527,7 @@
       },
       "nl": {
         "name": "Haarconditioner",
-        "subtitle": "Verzacht, ontwart en geeft dagelijkse glans met gehydrolyseerde quinoa en hyaluronzuur. 95% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Verzacht, ontwart en geeft dagelijkse glans met gehydrolyseerde quinoa en hyaluronzuur. 95% van natuurlijke oorsprong, ISO 16128. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "haarconditioner",
         "olfactiveFamily": "Argan · Citrus",
         "momentOfUse": "Na de shampoo · Dagelijkse verzorging",
@@ -573,7 +573,7 @@
         "nameMain": "Condicionador",
         "nameAccent": "capilar",
         "shortDescription": "Condicionador capilar com óleo de argão e azeitona. 95% de ingredientes de origem natural, pH equilibrado para cabelo normal.",
-        "longDescription": "O nosso condicionador é formulado com óleo de argão e azeitona para uma hidratação profunda. pH entre 4,5 e 5,5 para proteger a cutícula e manter o brilho natural.",
+        "longDescription": "O nosso condicionador é formulado com óleo de argão e azeitona para uma hidratação profunda. pH entre 4,5 e 5,5 para proteger a cutícula e manter o brilho de origem natural.",
         "indication": "Higiene capilar. Adequado para uso frequente.",
         "usage": "Aplicar após o champô sobre o cabelo húmido, dos meios às pontas. Deixar atuar 1-2 minutos e enxaguar com água morna.",
         "benefits": [
@@ -709,7 +709,7 @@
       },
       "fr": {
         "name": "Savon Mains et Corps",
-        "subtitle": "Lavage doux quotidien, fini propre et frais. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Lavage doux quotidien, fini propre et frais. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "savon-mains-et-corps",
         "olfactiveFamily": "Agrumes · Aromatique",
         "momentOfUse": "Lavabo · Douche",
@@ -748,14 +748,14 @@
       },
       "de": {
         "name": "Hand- und Körperseife",
-        "subtitle": "Sanfte tägliche Reinigung mit nativem Olivenöl und Aloe vera. 99% natürlich gewonnen, dermatologisch getestet, ISO 16128.",
+        "subtitle": "Sanfte tägliche Reinigung mit nativem Olivenöl und Aloe vera. 99% natürlichen Ursprungs gewonnen, dermatologisch getestet, ISO 16128.",
         "slug": "hand-und-koerperseife",
         "olfactiveFamily": "Zitrus · Aromatisch",
         "momentOfUse": "Tägliche Handwäsche · Dusche",
         "nameMain": "Hand- und",
         "nameAccent": "Körperseife",
         "shortDescription": "Handgefertigte Seife mit nativem Olivenöl extra. Reinigend und feuchtigkeitsspendend, geeignet für Hände und Körper.",
-        "longDescription": "Unsere natürliche Hand- und Körperseife wird traditionell mit Olivenöl aus Andalusien und Kokosöl kaltgesiedet. Das Ergebnis ist eine feste Seife, die reinigt ohne die Haut auszutrocknen, dank des hohen Anteils an natürlichem Glycerin, das beim Verseifungsprozess entsteht. Der Aloevera-Extrakt beruhigt und pflegt. Für Hände, Körper und Gesicht geeignet. pH-neutral, dermatologisch getestet. 97% natürlicher Ursprung nach ISO 16128. Frei von synthetischen Tensiden und Parabenen. Handgefertigt in kleinen Chargen in unserem Atelier in Marbella, Andalusien.",
+        "longDescription": "Unsere natürlichen Ursprungs Hand- und Körperseife wird traditionell mit Olivenöl aus Andalusien und Kokosöl kaltgesiedet. Das Ergebnis ist eine feste Seife, die reinigt ohne die Haut auszutrocknen, dank des hohen Anteils an natürlichem Glycerin, das beim Verseifungsprozess entsteht. Der Aloevera-Extrakt beruhigt und pflegt. Für Hände, Körper und Gesicht geeignet. pH-neutral, dermatologisch getestet. 97% natürlichen Ursprungs Ursprung nach ISO 16128. Frei von synthetischen Tensiden und Parabenen. Handgefertigt in kleinen Chargen in unserem Atelier in Marbella, Andalusien.",
         "indication": "Körperhygiene. Für den täglichen Gebrauch geeignet.",
         "usage": "Auf feuchter Haut auftragen, bis zur Schaumbildung einreiben und mit viel Wasser abspülen. Bei Bedarf wiederholen.",
         "benefits": [
@@ -826,7 +826,7 @@
       },
       "nl": {
         "name": "Hand- en Lichaamszeep",
-        "subtitle": "Milde dagelijkse reiniging met extra vergine olijfolie en aloe vera. 99% van natuurlijke oorsprong, dermatologisch getest, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Milde dagelijkse reiniging met extra vergine olijfolie en aloe vera. 99% van natuurlijke oorsprong, dermatologisch getest, ISO 16128. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "hand-en-lichaamszeep",
         "olfactiveFamily": "Citrus · Aromatisch",
         "momentOfUse": "Dagelijkse handwas · Douche",
@@ -938,7 +938,7 @@
         "name": "Body Milk",
         "nameMain": "Hidratante",
         "nameAccent": "Body Milk",
-        "subtitle": "Loción corporal con aceites de aguacate y jojoba. Absorción rápida, acabado mate. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Loción corporal con aceites de aguacate y jojoba. Absorción rápida, acabado mate. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Cítrica luminosa · Fresca",
         "momentOfUse": "Post-ducha · Hidratación diaria",
         "shortDescription": "Sin sensación pegajosa. Aroma cítrico luminoso para el día a día.",
@@ -974,7 +974,7 @@
       },
       "en": {
         "name": "Body Milk",
-        "subtitle": "Unisex body lotion for everyday use — avocado and jojoba oils for soft, non-greasy skin. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Unisex body lotion for everyday use — avocado and jojoba oils for soft, non-greasy skin. Artisan cosmetics of natural origin from Marbella.",
         "slug": "body-milk",
         "olfactiveFamily": "Soft floral · Aromatic",
         "momentOfUse": "After shower · Daily care",
@@ -1052,13 +1052,13 @@
       },
       "de": {
         "name": "Körpermilch",
-        "subtitle": "Leichte Feuchtigkeit mit sauberem, wohltuendem Touch — Avocado- und Jojobaöl. 97% natürlich gewonnen, ISO 16128.",
+        "subtitle": "Leichte Feuchtigkeit mit sauberem, wohltuendem Touch — Avocado- und Jojobaöl. 97% natürlichen Ursprungs gewonnen, ISO 16128.",
         "slug": "koerpermilch",
         "olfactiveFamily": "Florale Note · Aromatisch",
         "momentOfUse": "Nach der Dusche · Tägliche Pflege",
         "nameMain": "",
         "nameAccent": "Körpermilch",
-        "shortDescription": "Leichte Feuchtigkeitspflege mit Avocado- und Jojobaöl. Schnell absorbierend, nicht fettig. Noten von Mango, Zitrus und Kokos. 97% natürlich.",
+        "shortDescription": "Leichte Feuchtigkeitspflege mit Avocado- und Jojobaöl. Schnell absorbierend, nicht fettig. Noten von Mango, Zitrus und Kokos. 97% natürlichen Ursprungs.",
         "longDescription": "Unsere leichte Körpermilch mit Avocado- und Jojobaöl versorgt die Haut mit intensiver Feuchtigkeit ohne ein fettiges Gefühl zu hinterlassen. Die schnell absorbierende Formel mit 97% natürlichem Ursprung eignet sich für alle Hauttypen und die tägliche Anwendung nach der Dusche. Duftnoten von Mango, Zitrus und weißem Moschus für ein frisches, angenehmes Pflegeerlebnis den ganzen Tag. Ohne Parabene, ohne mineralische Öle, ohne Silikone. ISO 16128 zertifiziert, dermatologisch getestet. Unisex-Formel. Hergestellt von Hand in unserem Atelier in Marbella, Andalusien.",
         "indication": "Körperhygiene. Für den täglichen Gebrauch geeignet.",
         "usage": "Nach der Dusche auf leicht feuchter Haut auftragen. Mit aufwärts gerichteten Bewegungen bis zur vollständigen Absorption einmassieren.",
@@ -1130,7 +1130,7 @@
       },
       "nl": {
         "name": "Bodymilk",
-        "subtitle": "Universele bodylotion voor dagelijks gebruik — avocado- en jojobaolie voor zachte huid. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Universele bodylotion voor dagelijks gebruik — avocado- en jojobaolie voor zachte huid. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "bodymilk",
         "olfactiveFamily": "Zachte floraal · Aromatisch",
         "momentOfUse": "Na de douche · Dagelijkse verzorging",
@@ -1241,7 +1241,7 @@
         "name": "Total Body Wash",
         "nameMain": "Total",
         "nameAccent": "Body Wash",
-        "subtitle": "Limpiador 3 en 1 para cuerpo y cabello con aceite de argán y tensioactivos del coco. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Limpiador 3 en 1 para cuerpo y cabello con aceite de argán y tensioactivos del coco. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Fresca · Limpia · Luminosa",
         "momentOfUse": "Ducha completa · Post-actividad · 3 en 1",
         "shortDescription": "Limpia, hidrata y acondiciona en un solo paso. El aliado del hombre activo.",
@@ -1277,7 +1277,7 @@
       },
       "en": {
         "name": "Total Body Wash",
-        "subtitle": "Hair and body in a single sensorial gesture. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Hair and body in a single sensorial gesture. Artisan cosmetics of natural origin from Marbella.",
         "slug": "total-body-wash",
         "olfactiveFamily": "Aromatic Spa · Citrus",
         "momentOfUse": "Post-gym · Quick shower",
@@ -1316,7 +1316,7 @@
       },
       "fr": {
         "name": "Gel Corps et Cheveux",
-        "subtitle": "Cheveux et corps en un seul geste sensoriel. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Cheveux et corps en un seul geste sensoriel. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "gel-corps-et-cheveux",
         "olfactiveFamily": "Spa aromatique · Agrumes",
         "momentOfUse": "Post-gym · Douche rapide",
@@ -1355,14 +1355,14 @@
       },
       "de": {
         "name": "Haar- und Körpergel",
-        "subtitle": "Haare und Körper in einer sinnlichen Geste — mit Arganöl und Kokosnuss-Tensiden. 96% natürlich gewonnen, ISO 16128.",
+        "subtitle": "Haare und Körper in einer sinnlichen Geste — mit Arganöl und Kokosnuss-Tensiden. 96% natürlichen Ursprungs gewonnen, ISO 16128.",
         "slug": "haar-und-koerpergel",
         "olfactiveFamily": "Aromatisches Spa · Zitrus",
         "momentOfUse": "Nach dem Sport · Schnelle Dusche",
         "nameMain": "",
         "nameAccent": "Haar- und Körpergel",
-        "shortDescription": "All-in-One Körper- und Haarwaschgel mit Arganöl. Sanfte Formel für den täglichen Gebrauch. 96% natürlich gewonnen, dermatologisch getestet.",
-        "longDescription": "Unser Haar- und Körpergel reinigt Haar und Körper in einem Schritt. Die Formel mit Kokos-Glucosid und Hydroxypropyltrimonium Inulin reinigt sanft, ohne Austrocknen. Für Menschen, die eine einfache, effiziente Morgenroutine bevorzugen. Duftnoten von Bergamotte und Zedernholz. Auf feuchtes Haar und Körper auftragen, aufschäumen, ausspülen. ISO 16128 zertifiziert. 96% natürlicher Ursprung, dermatologisch getestet. Frei von Silikonen und Parabenen. Handgefertigt in kleinen Chargen in Marbella.",
+        "shortDescription": "All-in-One Körper- und Haarwaschgel mit Arganöl. Sanfte Formel für den täglichen Gebrauch. 96% natürlichen Ursprungs gewonnen, dermatologisch getestet.",
+        "longDescription": "Unser Haar- und Körpergel reinigt Haar und Körper in einem Schritt. Die Formel mit Kokos-Glucosid und Hydroxypropyltrimonium Inulin reinigt sanft, ohne Austrocknen. Für Menschen, die eine einfache, effiziente Morgenroutine bevorzugen. Duftnoten von Bergamotte und Zedernholz. Auf feuchtes Haar und Körper auftragen, aufschäumen, ausspülen. ISO 16128 zertifiziert. 96% natürlichen Ursprungs Ursprung, dermatologisch getestet. Frei von Silikonen und Parabenen. Handgefertigt in kleinen Chargen in Marbella.",
         "indication": "Körperhygiene. Für den täglichen Gebrauch geeignet.",
         "usage": "Auf nasser Haut und nassem Haar auftragen. Einmassieren bis zur Schaumbildung. Gründlich abspülen.",
         "benefits": [
@@ -1433,7 +1433,7 @@
       },
       "nl": {
         "name": "All-in-one Douchegel",
-        "subtitle": "Haar en lichaam in één zintuiglijk gebaar — met arganolie en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Haar en lichaam in één zintuiglijk gebaar — met arganolie en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "all-in-one-douchegel",
         "olfactiveFamily": "Aromatische spa · Citrus",
         "momentOfUse": "Na het sporten · Snelle douche",
@@ -1479,7 +1479,7 @@
         "nameMain": "Gel",
         "nameAccent": "corpo e cabelo",
         "shortDescription": "Gel duche unissexo para cabelo e corpo. Uma única fórmula para limpeza completa. Não é um gel de mãos — é um gel total de banho.",
-        "longDescription": "Gel de duche que combina azeite e coco para limpeza suave com aloé vera que hidrata e protege a pele. Formulação natural para uso diário.",
+        "longDescription": "Gel de duche que combina azeite e coco para limpeza suave com aloé vera que hidrata e protege a pele. Formulação de origem natural para uso diário.",
         "indication": "Higiene corporal. Adequado para uso diário.",
         "usage": "Aplicar na pele e no cabelo húmidos. Massajar até fazer espuma. Enxaguar abundantemente.",
         "benefits": [
@@ -1540,7 +1540,7 @@
         "name": "Champú Hombre",
         "nameMain": "Champú",
         "nameAccent": "hombre",
-        "subtitle": "Champú 2 en 1 con aceite de argán y tensioactivos del coco. Aroma ámbar masculino elegante. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Champú 2 en 1 con aceite de argán y tensioactivos del coco. Aroma ámbar masculino elegante. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Ámbar fresco · Masculino elegante",
         "momentOfUse": "Ducha matinal · Rutina masculina",
         "shortDescription": "Limpia, acondiciona y da carácter al ritual matinal. Dermatológicamente testado.",
@@ -1575,7 +1575,7 @@
       },
       "en": {
         "name": "Men's Shampoo",
-        "subtitle": "Fresh, daily-use shampoo for clean hair and scalp. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Fresh, daily-use shampoo for clean hair and scalp. Artisan cosmetics of natural origin from Marbella.",
         "slug": "mens-shampoo",
         "olfactiveFamily": "Fresh · Aromatic woody",
         "momentOfUse": "Morning shower · Daily routine",
@@ -1613,7 +1613,7 @@
       },
       "fr": {
         "name": "Shampooing Homme",
-        "subtitle": "Shampooing homme à l'huile d'argan — nettoyage profond pour cheveux masculins forts. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Shampooing homme à l'huile d'argan — nettoyage profond pour cheveux masculins forts. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "shampooing-homme",
         "olfactiveFamily": "Frais · Boisé aromatique",
         "momentOfUse": "Douche du matin · Routine quotidienne",
@@ -1651,13 +1651,13 @@
       },
       "de": {
         "name": "Herrenshampoo",
-        "subtitle": "Frisches Tagesshampoo für Haar und Kopfhaut mit Arganöl und Amber-Duft. 96% natürlich gewonnen, dermatologisch getestet, ISO 16128.",
+        "subtitle": "Frisches Tagesshampoo für Haar und Kopfhaut mit Arganöl und Amber-Duft. 96% natürlichen Ursprungs gewonnen, dermatologisch getestet, ISO 16128.",
         "slug": "herrenshampoo",
         "olfactiveFamily": "Frisch · Aromatisch holzig",
         "momentOfUse": "Morgendliche Dusche · Tägliche Routine",
         "nameMain": "",
         "nameAccent": "Herrenshampoo",
-        "shortDescription": "Reinigt, pflegt und verleiht dem Morgenritual Charakter. Frischer maskuliner Amber-Duft mit Basilikum und Thymian. Dermatologisch getestet, 96% natürlich.",
+        "shortDescription": "Reinigt, pflegt und verleiht dem Morgenritual Charakter. Frischer maskuliner Amber-Duft mit Basilikum und Thymian. Dermatologisch getestet, 96% natürlichen Ursprungs.",
         "benefits": [
           "2-in-1: reinigt und pflegt. Argan für trockenes, kraftloses Haar. Dermatologisch getestet.",
           "Tenside aus Kokos und Zucker. pH 4,5–5,5 für häufigen Einsatz. PAO 12 Monate."
@@ -1684,7 +1684,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unser Herrenshampoo mit Arganöl, Basilikum und Thymian-Extrakt reinigt die Kopfhaut gründlich und kräftigt das Haar. Speziell für die Bedürfnisse männlicher Haare formuliert: stärkere Wirkung, intensiver Duft, natürliche Inhaltsstoffe. Die pflanzlichen Tenside reinigen effektiv ohne Austrocknen. Holzige und aromatische Duftnoten von Basilikum und Thymian. Geeignet für normales bis fettiges Haar. Täglich anwendbar. 96% natürlicher Ursprung, ISO 16128 zertifiziert, dermatologisch getestet. Parabenfrei, silikonfrei. Hergestellt von Hand in Marbella, Andalusien.",
+        "longDescription": "Unser Herrenshampoo mit Arganöl, Basilikum und Thymian-Extrakt reinigt die Kopfhaut gründlich und kräftigt das Haar. Speziell für die Bedürfnisse männlicher Haare formuliert: stärkere Wirkung, intensiver Duft, natürlichen Ursprungs Inhaltsstoffe. Die pflanzlichen Tenside reinigen effektiv ohne Austrocknen. Holzige und aromatische Duftnoten von Basilikum und Thymian. Geeignet für normales bis fettiges Haar. Täglich anwendbar. 96% natürlichen Ursprungs Ursprung, ISO 16128 zertifiziert, dermatologisch getestet. Parabenfrei, silikonfrei. Hergestellt von Hand in Marbella, Andalusien.",
         "usage": "Auf nasses Haar auftragen, einmassieren und ausspülen. Bei Bedarf wiederholen."
       },
       "it": {
@@ -1695,7 +1695,7 @@
         "momentOfUse": "Doccia del mattino · Routine quotidiana",
         "nameMain": "Shampoo",
         "nameAccent": "uomo",
-        "shortDescription": "Pulisce, idrata e dà carattere al rituale mattutino. Profumo ambrato fresco maschile con basilico e timo. Testato dermatologicamente, 96% naturale.",
+        "shortDescription": "Pulisce, idrata e dà carattere al rituale mattutino. Profumo ambrato fresco maschile con basilico e timo. Testato dermatologicamente, 96% di origine naturale.",
         "benefits": [
           "2 in 1: pulisce e idrata. Argan per capelli secchi e privi di vitalità. Testato dermatologicamente.",
           "Tensioattivi derivati dal cocco e dallo zucchero. pH 4,5-5,5 uso frequente. PAO 12 mesi."
@@ -1733,7 +1733,7 @@
         "momentOfUse": "Ochtenddouche · Dagelijkse routine",
         "nameMain": "Mannen",
         "nameAccent": "shampoo",
-        "shortDescription": "Reinigt, verzorgt en geeft karakter aan het ochtendritueel. Frisse mannelijke ambergeur met basilicum en tijm. Dermatologisch getest, 96% natuurlijk.",
+        "shortDescription": "Reinigt, verzorgt en geeft karakter aan het ochtendritueel. Frisse mannelijke ambergeur met basilicum en tijm. Dermatologisch getest, 96% van natuurlijke oorsprong.",
         "benefits": [
           "2-in-1: reinigt en verzorgt. Argan voor droog, levenloos haar. Dermatologisch getest.",
           "Tensiden van kokos en suiker. pH 4,5-5,5 voor frequent gebruik. PAO 12 maanden."
@@ -1765,7 +1765,7 @@
       },
       "pt": {
         "name": "Champô Homem",
-        "subtitle": "Champô diário fresco, cabelo e couro cabeludo limpos. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Champô diário fresco, cabelo e couro cabeludo limpos. Cosmética artesanal de origem natural de Marbella.",
         "slug": "champo-homem",
         "olfactiveFamily": "Fresco · Amadeirado aromático",
         "momentOfUse": "Duche matinal · Rotina diária",
@@ -1834,7 +1834,7 @@
         "name": "Acondicionador Hombre",
         "nameMain": "Acondicionador",
         "nameAccent": "hombre",
-        "subtitle": "Complejo premium: quinoa hidrolizada, ácido hialurónico, aceites de oliva, argán y coco. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Complejo premium: quinoa hidrolizada, ácido hialurónico, aceites de oliva, argán y coco. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Ámbar fresco masculino · Suave persistente",
         "momentOfUse": "Post-ducha · Ritual capilar masculino",
         "shortDescription": "Aroma ámbar fresco masculino. pH 3,3-4,3 óptimo para el cabello.",
@@ -1869,7 +1869,7 @@
       },
       "en": {
         "name": "Men's Conditioner",
-        "subtitle": "Light comfort, easier styling, no heavy residue. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Light comfort, easier styling, no heavy residue. Artisan cosmetics of natural origin from Marbella.",
         "slug": "mens-conditioner",
         "olfactiveFamily": "Fresh clean · Soft perfume",
         "momentOfUse": "After shampoo · Daily care",
@@ -1907,7 +1907,7 @@
       },
       "fr": {
         "name": "Après-shampooing Homme",
-        "subtitle": "Après-shampooing homme pour cheveux forts — démêlant et nourrissant avec argan. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Après-shampooing homme pour cheveux forts — démêlant et nourrissant avec argan. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "apres-shampooing-homme",
         "olfactiveFamily": "Frais propre · Parfum doux",
         "momentOfUse": "Après le shampooing · Soin quotidien",
@@ -1945,13 +1945,13 @@
       },
       "de": {
         "name": "Haarspülung Herren",
-        "subtitle": "Leichter Komfort, einfaches Styling, ohne schwere Rückstände — mit Arganöl und Quinoa. 95% natürlich gewonnen, ISO 16128.",
+        "subtitle": "Leichter Komfort, einfaches Styling, ohne schwere Rückstände — mit Arganöl und Quinoa. 95% natürlichen Ursprungs gewonnen, ISO 16128.",
         "slug": "haarspuelung-herren",
         "olfactiveFamily": "Frisch sauber · Sanftes Parfüm",
         "momentOfUse": "Nach dem Shampoo · Tägliche Pflege",
         "nameMain": "Herren",
         "nameAccent": "Haarspülung",
-        "shortDescription": "Frischer maskuliner Amber-Duft mit Basilikum und Thymian. pH 3,3–4,3 optimal für das Haar. 95% natürlich gewonnen, dermatologisch getestet.",
+        "shortDescription": "Frischer maskuliner Amber-Duft mit Basilikum und Thymian. pH 3,3–4,3 optimal für das Haar. 95% natürlichen Ursprungs gewonnen, dermatologisch getestet.",
         "benefits": [
           "Hydrolysiertes Quinoa + Hyaluronsäure + Panthenol + Pisum Sativum. Intensive Pflege.",
           "Oliven- + Argan- + Kokosöl. pH 3,3–4,3 optimal für Haare. Amber-Duft."
@@ -1978,7 +1978,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unsere Haarspülung für Herren mit Arganöl entwirrt und pflegt das Haar nach dem Waschen. Die Formel für männliches Haar hydratisiert und kräftigt ohne schweres Gefühl. Holzige und aromatische Duftnoten harmonieren mit unserem Herrenshampoo für ein vollständiges Pflegeerlebnis. Auf feuchtes Haar nach dem Shampoo auftragen, 1-2 Minuten einwirken lassen, ausspülen. 96% natürlicher Ursprung. ISO 16128 zertifiziert, dermatologisch getestet. Parabenfrei, silikonfrei. Handgefertigt in Marbella, Andalusien.",
+        "longDescription": "Unsere Haarspülung für Herren mit Arganöl entwirrt und pflegt das Haar nach dem Waschen. Die Formel für männliches Haar hydratisiert und kräftigt ohne schweres Gefühl. Holzige und aromatische Duftnoten harmonieren mit unserem Herrenshampoo für ein vollständiges Pflegeerlebnis. Auf feuchtes Haar nach dem Shampoo auftragen, 1-2 Minuten einwirken lassen, ausspülen. 96% natürlichen Ursprungs Ursprung. ISO 16128 zertifiziert, dermatologisch getestet. Parabenfrei, silikonfrei. Handgefertigt in Marbella, Andalusien.",
         "usage": "Nach dem Shampoonieren auf nasses Haar auftragen. 2–3 Minuten einwirken lassen und ausspülen."
       },
       "it": {
@@ -2029,7 +2029,7 @@
         "momentOfUse": "Na de shampoo · Dagelijkse verzorging",
         "nameMain": "Mannen",
         "nameAccent": "conditioner",
-        "shortDescription": "Mannenconditioner met arganolie, basilicum en tijm. 95% natuurlijk gewonnen. Frisse ambergeur, pH 3,3–4,3 optimaal voor het haar.",
+        "shortDescription": "Mannenconditioner met arganolie, basilicum en tijm. 95% van natuurlijke oorsprong gewonnen. Frisse ambergeur, pH 3,3–4,3 optimaal voor het haar.",
         "benefits": [
           "95% natuurlijk gewonnen ingrediënten (ISO 16128)",
           "Diepe hydratatie met arganolie",
@@ -2137,7 +2137,7 @@
         "subtitle": "Gel de higiene con tensioactivos del coco, glicerina y Citrus Aurantium de fondo.",
         "olfactiveFamily": "Ámbar fresco masculino · Citrus de fondo",
         "momentOfUse": "Lavabo · Ducha · Todo el día",
-        "shortDescription": "Aroma ámbar fresco masculino. Respeta el manto hidrolipídico. 95% origen natural.",
+        "shortDescription": "Aroma ámbar fresco masculino. Respeta el manto hidrolipídico. 95% de origen natural.",
         "benefits": [
           "Tensioactivos del coco y azúcar: enjabonado suave que respeta el manto hidrolipídico.",
           "Con glicerina hidratante. pH se recupera rápidamente. Aroma ámbar fresco."
@@ -2163,7 +2163,7 @@
           "sustainability": "95% de ingredientes de origen natural (ISO 16128). Tensioactivos de origen vegetal. Fabricado en Andalucía."
         },
         "slug": "gel-manos-y-cuerpo-hombre",
-        "longDescription": "Gel de higiene corporal con tensioactivos del coco y glicerina. Aroma ámbar fresco. 95% origen natural.",
+        "longDescription": "Gel de higiene corporal con tensioactivos del coco y glicerina. Aroma ámbar fresco. 95% de origen natural.",
         "usage": "Aplicar sobre piel húmeda, masajear y aclarar con agua.",
         "aiTranslation": true
       },
@@ -2245,13 +2245,13 @@
       },
       "de": {
         "name": "Hand- und Körpergel Herren",
-        "subtitle": "Häufige Reinigung für Hände und Dusche — mit Amber-Tensiden und Glycerin. 96% natürlich gewonnen, dermatologisch getestet, ISO 16128.",
+        "subtitle": "Häufige Reinigung für Hände und Dusche — mit Amber-Tensiden und Glycerin. 96% natürlichen Ursprungs gewonnen, dermatologisch getestet, ISO 16128.",
         "slug": "hand-und-koerpergel-herren",
         "olfactiveFamily": "Frisch sauber · Sanftes Parfüm",
         "momentOfUse": "Tägliche Handwäsche · Schnelle Dusche",
         "nameMain": "Hand- und Körpergel",
         "nameAccent": "Herren",
-        "shortDescription": "Frischer maskuliner Amber-Duft mit Basilikum und Thymian. Für Hände und Körper geeignet. 96% natürlich gewonnen, dermatologisch getestet.",
+        "shortDescription": "Frischer maskuliner Amber-Duft mit Basilikum und Thymian. Für Hände und Körper geeignet. 96% natürlichen Ursprungs gewonnen, dermatologisch getestet.",
         "benefits": [
           "Tenside aus Kokos und Zucker: sanfter Schaum, der den Hydrolipidfilm schont.",
           "Mit feuchtigkeitsspendender Glycerin. pH erholt sich schnell. Frischer Amber-Duft."
@@ -2278,7 +2278,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unser Hand- und Körpergel für Herren reinigt Hände und Körper mit einer kräftigen, aromatischen Formel. Pflanzliche Tenside aus Kokos und Zucker reinigen effektiv ohne Austrocknen. Holzige und würzige Duftnoten für ein frisches Gefühl nach jedem Waschen. Geeignet für Hände und Körper. Täglich anwendbar. 96% natürlicher Ursprung, ISO 16128 zertifiziert. Dermatologisch getestet, parabenfrei. Hergestellt von Hand in Marbella, Andalusien.",
+        "longDescription": "Unser Hand- und Körpergel für Herren reinigt Hände und Körper mit einer kräftigen, aromatischen Formel. Pflanzliche Tenside aus Kokos und Zucker reinigen effektiv ohne Austrocknen. Holzige und würzige Duftnoten für ein frisches Gefühl nach jedem Waschen. Geeignet für Hände und Körper. Täglich anwendbar. 96% natürlichen Ursprungs Ursprung, ISO 16128 zertifiziert. Dermatologisch getestet, parabenfrei. Hergestellt von Hand in Marbella, Andalusien.",
         "usage": "Auf feuchter Haut auftragen, einmassieren und abspülen."
       },
       "it": {
@@ -2321,7 +2321,7 @@
       },
       "nl": {
         "name": "Hand- en Lichaamsgel Mannen",
-        "subtitle": "Frequente reiniging voor handen en douche — met amber en kokosnoot-tensiden. 96% van natuurlijke oorsprong, dermatologisch getest, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Frequente reiniging voor handen en douche — met amber en kokosnoot-tensiden. 96% van natuurlijke oorsprong, dermatologisch getest, ISO 16128. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "hand-en-lichaamsgel-mannen",
         "olfactiveFamily": "Fris schoon · Zachte parfum",
         "momentOfUse": "Dagelijkse handwas · Snelle douche",
@@ -2359,7 +2359,7 @@
       },
       "pt": {
         "name": "Gel Mãos e Corpo Homem",
-        "subtitle": "Gel de mãos e corpo masculino — fórmula de limpeza para as mãos e o corpo do homem. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Gel de mãos e corpo masculino — fórmula de limpeza para as mãos e o corpo do homem. Cosmética artesanal de origem natural de Marbella.",
         "slug": "gel-maos-corpo-homem",
         "olfactiveFamily": "Fresco limpo · Perfume suave",
         "momentOfUse": "Lavagem diária · Duche rápido",
@@ -2429,7 +2429,7 @@
         "name": "Body Milk Man",
         "nameMain": "Body Milk",
         "nameAccent": "Man",
-        "subtitle": "Loción corporal masculina con aceites de aguacate y jojoba. 98% origen natural.",
+        "subtitle": "Loción corporal masculina con aceites de aguacate y jojoba. 98% de origen natural.",
         "olfactiveFamily": "Fresco limpio · Ámbar masculino suave",
         "momentOfUse": "Post-ducha · Cierre de rutina masculina",
         "shortDescription": "Absorción casi instantánea, efecto mate y aroma ámbar discreto.",
@@ -2458,7 +2458,7 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba de origen natural. Fabricado en Andalucía."
         },
         "slug": "body-milk-hombre",
-        "longDescription": "Loción corporal masculina con aceites de aguacate y jojoba. Absorción rápida, efecto mate y aroma ámbar. 98% origen natural.",
+        "longDescription": "Loción corporal masculina con aceites de aguacate y jojoba. Absorción rápida, efecto mate y aroma ámbar. 98% de origen natural.",
         "usage": "Aplicar sobre la piel limpia y seca tras la ducha. Masajear hasta absorción completa.",
         "aiTranslation": true
       },
@@ -2470,7 +2470,7 @@
         "momentOfUse": "After shower · Quick finish",
         "nameMain": "Body Milk",
         "nameAccent": "for Him",
-        "shortDescription": "Men's moisturiser with argan oil and woody notes. Fast-absorbing formula for post-shower male skin hydration. 97% natural.",
+        "shortDescription": "Men's moisturiser with argan oil and woody notes. Fast-absorbing formula for post-shower male skin hydration. 97% of natural origin.",
         "benefits": [
           "Near-instant absorption, matte effect, zero stickiness. Non-greasy.",
           "With avocado and jojoba oils. Pleasant, subtle masculine scent."
@@ -2540,13 +2540,13 @@
       },
       "de": {
         "name": "Körpermilch Herren",
-        "subtitle": "Schnelles, nicht klebendes Finish zum Abschluss der Routine — Avocado- und Jojobaöl. 98% natürlich gewonnen, ISO 16128.",
+        "subtitle": "Schnelles, nicht klebendes Finish zum Abschluss der Routine — Avocado- und Jojobaöl. 98% natürlichen Ursprungs gewonnen, ISO 16128.",
         "slug": "koerpermilch-herren",
         "olfactiveFamily": "Frisch sauber · Sanftes Parfüm",
         "momentOfUse": "Nach der Dusche · Schnelles Finish",
         "nameMain": "Herren",
         "nameAccent": "Körpermilch",
-        "shortDescription": "Nahezu sofortige Absorption, Matteffekt und dezenter Amber-Duft mit Basilikum und Thymian. 98% natürlich gewonnen, dermatologisch getestet.",
+        "shortDescription": "Nahezu sofortige Absorption, Matteffekt und dezenter Amber-Duft mit Basilikum und Thymian. 98% natürlichen Ursprungs gewonnen, dermatologisch getestet.",
         "benefits": [
           "Nahezu sofortige Absorption, Matteffekt, null Klebrigkeit. Nicht fettig.",
           "Mit Avocado- und Jojobaöl. Angenehmer, dezenter maskuliner Duft."
@@ -2573,7 +2573,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unsere Körpermilch für Herren mit Arganöl, Jojobaöl und Basilikum-Duft pflegt die männliche Haut intensiv nach der Dusche. Die schnell absorbierende Formel hinterlässt kein fettiges Gefühl und passt zur aktiven Männerpflegeroutine. Holzige und aromatische Duftnoten für ein frisches Ergebnis den ganzen Tag. Speziell für dickere, weniger empfindliche Männerhaut formuliert. 97% natürlicher Ursprung, ISO 16128 zertifiziert, dermatologisch getestet. Ohne Parabene, ohne Mineralöle. Hergestellt von Hand in Marbella, Andalusien.",
+        "longDescription": "Unsere Körpermilch für Herren mit Arganöl, Jojobaöl und Basilikum-Duft pflegt die männliche Haut intensiv nach der Dusche. Die schnell absorbierende Formel hinterlässt kein fettiges Gefühl und passt zur aktiven Männerpflegeroutine. Holzige und aromatische Duftnoten für ein frisches Ergebnis den ganzen Tag. Speziell für dickere, weniger empfindliche Männerhaut formuliert. 97% natürlichen Ursprungs Ursprung, ISO 16128 zertifiziert, dermatologisch getestet. Ohne Parabene, ohne Mineralöle. Hergestellt von Hand in Marbella, Andalusien.",
         "usage": "Nach der Dusche auf saubere, trockene Haut auftragen. Bis zur vollständigen Absorption einmassieren."
       },
       "it": {
@@ -2616,7 +2616,7 @@
       },
       "nl": {
         "name": "Bodymilk Mannen",
-        "subtitle": "Mannen bodylotion met arganolie en basilicum — speciaal voor de dikkere mannenhuid. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Mannen bodylotion met arganolie en basilicum — speciaal voor de dikkere mannenhuid. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "bodymilk-mannen",
         "olfactiveFamily": "Fris schoon · Zachte parfum",
         "momentOfUse": "Na de douche · Snelle afwerking",
@@ -2730,7 +2730,7 @@
         "subtitle": "Gel con glicerina, aloe vera, jojoba y argán para un afeitado lubricado y sin irritación.",
         "olfactiveFamily": "Fresco perfumado · Masculino · Ámbar",
         "momentOfUse": "Afeitado matinal · Ritual de afeitado",
-        "shortDescription": "Aroma ámbar fresco masculino. 98% origen natural.",
+        "shortDescription": "Aroma ámbar fresco masculino. 98% de origen natural.",
         "benefits": [
           "Hidratante y protector con glicerina y aloe vera. Reduce la irritación post-afeitado.",
           "Jojoba y argán aportan lubricidad para un arrastre de cuchilla más suave. Fácil aclarado."
@@ -2765,7 +2765,7 @@
         "momentOfUse": "Shaving routine · Daily care",
         "nameMain": "Shaving",
         "nameAccent": "Gel",
-        "shortDescription": "Aroma ámbar fresco masculino. 98% origen natural.",
+        "shortDescription": "Aroma ámbar fresco masculino. 98% origen of natural origin.",
         "benefits": [
           "Hidratante y protector con glicerina y aloe vera. Reduce la irritación post-afeitado.",
           "Jojoba y argán aportan lubricidad para un arrastre de cuchilla más suave. Fácil aclarado."
@@ -2945,7 +2945,7 @@
         "momentOfUse": "Rotina de barbear · Cuidado diário",
         "nameMain": "Gel",
         "nameAccent": "de barbear",
-        "shortDescription": "Aroma ámbar fresco masculino. 98% origen natural.",
+        "shortDescription": "Aroma ámbar fresco masculino. 98% origen de origem natural.",
         "benefits": [
           "Hidratante y protector con glicerina y aloe vera. Reduce la irritación post-afeitado.",
           "Jojoba y argán aportan lubricidad para un arrastre de cuchilla más suave. Fácil aclarado."
@@ -3007,7 +3007,7 @@
         "subtitle": "Bálsamo calmante post-afeitado con aroma fresco ámbar elegante.",
         "olfactiveFamily": "Fresco ámbar masculino · Elegante",
         "momentOfUse": "Inmediatamente tras el afeitado",
-        "shortDescription": "98% origen natural. El gesto final del ritual de afeitado masculino.",
+        "shortDescription": "98% de origen natural. El gesto final del ritual de afeitado masculino.",
         "benefits": [
           "Complejo probiótico activo al 3%. Repara la barrera cutánea tras el afeitado.",
           "Con aceite de aguacate. Hidrata al instante sin sensación grasa ni pegajosa."
@@ -3042,7 +3042,7 @@
         "momentOfUse": "After shaving · Daily routine",
         "nameMain": "Aftershave",
         "nameAccent": "Balm",
-        "shortDescription": "98% origen natural. El gesto final del ritual de afeitado masculino.",
+        "shortDescription": "98% origen of natural origin. El gesto final del ritual de afeitado masculino.",
         "benefits": [
           "Complejo probiótico activo al 3%. Repara la barrera cutánea tras el afeitado.",
           "Con aceite de aguacate. Hidrata al instante sin sensación grasa ni pegajosa."
@@ -3222,7 +3222,7 @@
         "momentOfUse": "Após a barba · Rotina diária",
         "nameMain": "Bálsamo",
         "nameAccent": "pós-barba",
-        "shortDescription": "98% origen natural. El gesto final del ritual de afeitado masculino.",
+        "shortDescription": "98% origen de origem natural. El gesto final del ritual de afeitado masculino.",
         "benefits": [
           "Complejo probiótico activo al 3%. Repara la barrera cutánea tras el afeitado.",
           "Con aceite de aguacate. Hidrata al instante sin sensación grasa ni pegajosa."
@@ -3598,7 +3598,7 @@
         "momentOfUse": "Morning · After cleansing",
         "nameMain": "Eye Serum",
         "nameAccent": "for Him",
-        "shortDescription": "Sérum para el contorno de ojos formulado con Number 6©, un activo de aguacate al 3% que reduce visiblemente las ojeras y desinflama bolsas. Rico en polifenoles, actúa sobre la microcirculación y la pigmentación. 99% de origen natural.",
+        "shortDescription": "Sérum para el contorno de ojos formulado con Number 6©, un activo de aguacate al 3% que reduce visiblemente las ojeras y desinflama bolsas. Rico en polifenoles, actúa sobre la microcirculación y la pigmentación. 99% de origen of natural origin.",
         "benefits": [
           "Activo Number 6© (aguacate al 3%): reduce ojeras y desinflama bolsas. Mejora la microcirculación.",
           "Ilumina y unifica el tono. Efecto anti-fatiga desde las primeras aplicaciones."
@@ -3778,7 +3778,7 @@
         "momentOfUse": "Manhã · Após a limpeza",
         "nameMain": "Sérum olheiras",
         "nameAccent": "homem",
-        "shortDescription": "Sérum para el contorno de ojos formulado con Number 6©, un activo de aguacate al 3% que reduce visiblemente las ojeras y desinflama bolsas. Rico en polifenoles, actúa sobre la microcirculación y la pigmentación. 99% de origen natural.",
+        "shortDescription": "Sérum para el contorno de ojos formulado con Number 6©, un activo de aguacate al 3% que reduce visiblemente las ojeras y desinflama bolsas. Rico en polifenoles, actúa sobre la microcirculación y la pigmentación. 99% de origen de origem natural.",
         "benefits": [
           "Activo Number 6© (aguacate al 3%): reduce ojeras y desinflama bolsas. Mejora la microcirculación.",
           "Ilumina y unifica el tono. Efecto anti-fatiga desde las primeras aplicaciones."
@@ -3838,7 +3838,7 @@
         "name": "Champú Mujer",
         "nameMain": "Champú",
         "nameAccent": "mujer",
-        "subtitle": "Champú 2 en 1 con aceite de argán y aroma de naranja fresca Citrus Aurantium. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Champú 2 en 1 con aceite de argán y aroma de naranja fresca Citrus Aurantium. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Naranja fresca · Citrus Aurantium · Limonene",
         "momentOfUse": "Ducha · Ritual capilar femenino",
         "shortDescription": "Limpia, acondiciona y deja la firma cítrica femenina de la colección.",
@@ -3873,7 +3873,7 @@
       },
       "en": {
         "name": "Women's Shampoo",
-        "subtitle": "Daily shampoo with a soft, comforting finish. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Daily shampoo with a soft, comforting finish. Artisan cosmetics of natural origin from Marbella.",
         "slug": "womens-shampoo",
         "olfactiveFamily": "Soft floral · Citrus",
         "momentOfUse": "Daily shower · Hair routine",
@@ -3911,7 +3911,7 @@
       },
       "fr": {
         "name": "Shampooing Femme",
-        "subtitle": "Shampooing femme pour cheveux brillants — formule douce aux extraits floraux. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Shampooing femme pour cheveux brillants — formule douce aux extraits floraux. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "shampooing-femme",
         "olfactiveFamily": "Floral doux · Agrumes",
         "momentOfUse": "Douche quotidienne · Routine cheveux",
@@ -3949,13 +3949,13 @@
       },
       "de": {
         "name": "Damenshampoo",
-        "subtitle": "Tägliches Shampoo mit weicher, wohltuender Finish — Arganöl und Citrus Aurantium. 96% natürlich gewonnen, ISO 16128.",
+        "subtitle": "Tägliches Shampoo mit weicher, wohltuender Finish — Arganöl und Citrus Aurantium. 96% natürlichen Ursprungs gewonnen, ISO 16128.",
         "slug": "damenshampoo",
         "olfactiveFamily": "Florale Note · Zitrus",
         "momentOfUse": "Tägliche Dusche · Haarroutine",
         "nameMain": "",
         "nameAccent": "Damenshampoo",
-        "shortDescription": "Reinigt, pflegt und hinterlässt die feminine Zitrussignatur der Kollektion. Arganöl und Citrus Aurantium. 96% natürlich, dermatologisch getestet.",
+        "shortDescription": "Reinigt, pflegt und hinterlässt die feminine Zitrussignatur der Kollektion. Arganöl und Citrus Aurantium. 96% natürlichen Ursprungs, dermatologisch getestet.",
         "benefits": [
           "2-in-1: reinigt und pflegt. Argan für Glanz, Handhabbarkeit und Vitalität.",
           "Frischer Orangen-Citrus Aurantium + Limonen-Duft. Dermatologisch getestet."
@@ -3982,7 +3982,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unser Damenshampoo reinigt das Haar sanft und verleiht ihm Glanz, Volumen und Frische. Die Formel mit pflanzlichen Kokos-Tensiden und Zitrusextrakten pflegt die Kopfhaut und schützt die Haarstruktur. Blumige und frische Duftnoten für ein angenehmes Pflegeerlebnis. Geeignet für normales bis trockenes Haar. Täglich anwendbar. 96% natürlicher Ursprung, ISO 16128 zertifiziert, dermatologisch getestet. Parabenfrei, silikonfrei. Hergestellt von Hand in kleinen Chargen in Marbella, Andalusien.",
+        "longDescription": "Unser Damenshampoo reinigt das Haar sanft und verleiht ihm Glanz, Volumen und Frische. Die Formel mit pflanzlichen Kokos-Tensiden und Zitrusextrakten pflegt die Kopfhaut und schützt die Haarstruktur. Blumige und frische Duftnoten für ein angenehmes Pflegeerlebnis. Geeignet für normales bis trockenes Haar. Täglich anwendbar. 96% natürlichen Ursprungs Ursprung, ISO 16128 zertifiziert, dermatologisch getestet. Parabenfrei, silikonfrei. Hergestellt von Hand in kleinen Chargen in Marbella, Andalusien.",
         "usage": "Auf nasses Haar auftragen, einmassieren und ausspülen. Bei Bedarf wiederholen."
       },
       "it": {
@@ -3993,7 +3993,7 @@
         "momentOfUse": "Doccia quotidiana · Routine capelli",
         "nameMain": "Shampoo",
         "nameAccent": "donna",
-        "shortDescription": "Pulisce, idrata e lascia la firma agrumata femminile della collezione. Olio di argan e Citrus Aurantium. 96% naturale, testato dermatologicamente.",
+        "shortDescription": "Pulisce, idrata e lascia la firma agrumata femminile della collezione. Olio di argan e Citrus Aurantium. 96% di origine naturale, testato dermatologicamente.",
         "benefits": [
           "2 in 1: pulisce e idrata. Argan per brillantezza, maneggevolezza e vitalità.",
           "Profumo di arancia fresca Citrus Aurantium + Limonene. Testato dermatologicamente."
@@ -4025,7 +4025,7 @@
       },
       "nl": {
         "name": "Vrouwenshampoo",
-        "subtitle": "Dagelijkse shampoo met zachte, troostende afwerking — arganolie en Citrus Aurantium. 96% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Dagelijkse shampoo met zachte, troostende afwerking — arganolie en Citrus Aurantium. 96% van natuurlijke oorsprong, ISO 16128. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "vrouwenshampoo",
         "olfactiveFamily": "Zachte floraal · Citrus",
         "momentOfUse": "Dagelijkse douche · Haarroutine",
@@ -4063,7 +4063,7 @@
       },
       "pt": {
         "name": "Champô Mulher",
-        "subtitle": "Champô diário com acabamento suave e reconfortante. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Champô diário com acabamento suave e reconfortante. Cosmética artesanal de origem natural de Marbella.",
         "slug": "champo-mulher",
         "olfactiveFamily": "Floral suave · Citrinos",
         "momentOfUse": "Duche diário · Rotina capilar",
@@ -4134,7 +4134,7 @@
         "name": "Acondicionador Mujer",
         "nameMain": "Acondicionador",
         "nameAccent": "mujer",
-        "subtitle": "Complejo premium: quinoa hidrolizada, ácido hialurónico, pantenol y aceites de argán y oliva. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Complejo premium: quinoa hidrolizada, ácido hialurónico, pantenol y aceites de argán y oliva. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Naranja fresca · Citrus Aurantium · Limonene",
         "momentOfUse": "Post-ducha · Ritual capilar femenino",
         "shortDescription": "Aroma de naranja fresca Citrus Aurantium. El ritual capilar femenino completo.",
@@ -4169,7 +4169,7 @@
       },
       "en": {
         "name": "Women's Conditioner",
-        "subtitle": "Soft hair, easy styling, long-lasting comfort. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Soft hair, easy styling, long-lasting comfort. Artisan cosmetics of natural origin from Marbella.",
         "slug": "womens-conditioner",
         "olfactiveFamily": "Citrus · Soft comfort",
         "momentOfUse": "After shampoo · Daily care",
@@ -4209,7 +4209,7 @@
       },
       "fr": {
         "name": "Après-shampooing Femme",
-        "subtitle": "Après-shampooing femme pour cheveux soyeux — démêlant doux et nourrissant. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Après-shampooing femme pour cheveux soyeux — démêlant doux et nourrissant. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "apres-shampooing-femme",
         "olfactiveFamily": "Agrumes · Confort doux",
         "momentOfUse": "Après le shampooing · Soin quotidien",
@@ -4249,13 +4249,13 @@
       },
       "de": {
         "name": "Haarspülung Damen",
-        "subtitle": "Weiches Haar, einfaches Styling, anhaltender Komfort — mit Quinoa, Hyaluronsäure und Arganöl. 95% natürlich, ISO 16128.",
+        "subtitle": "Weiches Haar, einfaches Styling, anhaltender Komfort — mit Quinoa, Hyaluronsäure und Arganöl. 95% natürlichen Ursprungs, ISO 16128.",
         "slug": "haarspuelung-damen",
         "olfactiveFamily": "Zitrus · Sanfter Komfort",
         "momentOfUse": "Nach dem Shampoo · Tägliche Pflege",
         "nameMain": "Damen",
         "nameAccent": "Haarspülung",
-        "shortDescription": "Frischer Citrus Aurantium Orangen-Duft. Das vollständige feminine Haarpflegeritual mit Arganöl und Quinoa. 95% natürlich gewonnen, dermatologisch getestet.",
+        "shortDescription": "Frischer Citrus Aurantium Orangen-Duft. Das vollständige feminine Haarpflegeritual mit Arganöl und Quinoa. 95% natürlichen Ursprungs gewonnen, dermatologisch getestet.",
         "benefits": [
           "95% natürlich gewonnene Inhaltsstoffe (ISO 16128)",
           "Tiefenpflege mit Argan- und Olivenöl",
@@ -4284,7 +4284,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unsere Haarpflege für Damen mit Kokosnuss- und Cetearyl-Alkohol entwirrt, pflegt und verleiht dem Haar einen seidigen Glanz. Die Formel befeuchtet das Haar bis in die Spitzen und reduziert Spliss und Trockenheit. Blumige Duftnoten harmonieren mit unserem Damenshampoo für ein vollständiges Pflegeerlebnis. Nach dem Shampoo auf feuchtes Haar auftragen, einwirken lassen und ausspülen. 96% natürlicher Ursprung, ISO 16128 zertifiziert. Dermatologisch getestet, parabenfrei. Handgefertigt in Marbella.",
+        "longDescription": "Unsere Haarpflege für Damen mit Kokosnuss- und Cetearyl-Alkohol entwirrt, pflegt und verleiht dem Haar einen seidigen Glanz. Die Formel befeuchtet das Haar bis in die Spitzen und reduziert Spliss und Trockenheit. Blumige Duftnoten harmonieren mit unserem Damenshampoo für ein vollständiges Pflegeerlebnis. Nach dem Shampoo auf feuchtes Haar auftragen, einwirken lassen und ausspülen. 96% natürlichen Ursprungs Ursprung, ISO 16128 zertifiziert. Dermatologisch getestet, parabenfrei. Handgefertigt in Marbella.",
         "usage": "Nach dem Shampoonieren auf nasses Haar auftragen. 2–3 Minuten einwirken lassen und ausspülen."
       },
       "it": {
@@ -4329,7 +4329,7 @@
       },
       "nl": {
         "name": "Vrouwenconditioner",
-        "subtitle": "Zacht haar, gemakkelijk stylen, langdurig comfort — quinoa en hyaluronzuur. 95% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Zacht haar, gemakkelijk stylen, langdurig comfort — quinoa en hyaluronzuur. 95% van natuurlijke oorsprong, ISO 16128. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "vrouwenconditioner",
         "olfactiveFamily": "Citrus · Zacht comfort",
         "momentOfUse": "Na de shampoo · Dagelijkse verzorging",
@@ -4369,7 +4369,7 @@
       },
       "pt": {
         "name": "Condicionador Mulher",
-        "subtitle": "Cabelo suave, penteado fácil, conforto duradouro. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Cabelo suave, penteado fácil, conforto duradouro. Cosmética artesanal de origem natural de Marbella.",
         "slug": "condicionador-mulher",
         "olfactiveFamily": "Citrinos · Conforto suave",
         "momentOfUse": "Após o champô · Cuidado diário",
@@ -4440,7 +4440,7 @@
         "name": "Gel de Manos y Cuerpo Mujer",
         "nameMain": "Gel",
         "nameAccent": "manos y cuerpo mujer",
-        "subtitle": "Gel de higiene con tensioactivos del coco y glicerina hidratante. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Gel de higiene con tensioactivos del coco y glicerina hidratante. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Naranja fresca · Citrus Aurantium · Limonene",
         "momentOfUse": "Lavabo · Ducha · Todo el día",
         "shortDescription": "Aroma de naranja fresca Citrus Aurantium que transforma cada gesto.",
@@ -4475,7 +4475,7 @@
       },
       "en": {
         "name": "Women's Hand and Body Wash",
-        "subtitle": "Frequent-use cleansing with a fresh, energising touch. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Frequent-use cleansing with a fresh, energising touch. Artisan cosmetics of natural origin from Marbella.",
         "slug": "womens-hand-and-body-wash",
         "olfactiveFamily": "Citrus · Fresh",
         "momentOfUse": "Daily handwash · Shower",
@@ -4513,7 +4513,7 @@
       },
       "fr": {
         "name": "Gel Mains et Corps Femme",
-        "subtitle": "Nettoyage fréquent, touche fraîche et énergisante. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Nettoyage fréquent, touche fraîche et énergisante. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "gel-mains-et-corps-femme",
         "olfactiveFamily": "Agrumes · Frais",
         "momentOfUse": "Lavabo · Douche",
@@ -4551,13 +4551,13 @@
       },
       "de": {
         "name": "Hand- und Körpergel Damen",
-        "subtitle": "Häufige Reinigung mit frischer, belebender Berührung — Citrus Aurantium und natürliche Tenside. 96% natürlich, ISO 16128.",
+        "subtitle": "Häufige Reinigung mit frischer, belebender Berührung — Citrus Aurantium und natürlichen Ursprungs Tenside. 96% natürlichen Ursprungs, ISO 16128.",
         "slug": "hand-und-koerpergel-damen",
         "olfactiveFamily": "Zitrus · Frisch",
         "momentOfUse": "Tägliche Handwäsche · Dusche",
         "nameMain": "Hand- und Körpergel",
         "nameAccent": "Damen",
-        "shortDescription": "Frischer Citrus Aurantium Orangenduft, der jede Geste verwandelt. Kokos-Tenside und Glycerin. 96% natürlich gewonnen, dermatologisch getestet.",
+        "shortDescription": "Frischer Citrus Aurantium Orangenduft, der jede Geste verwandelt. Kokos-Tenside und Glycerin. 96% natürlichen Ursprungs gewonnen, dermatologisch getestet.",
         "benefits": [
           "Tenside aus Kokos und Zucker: schonen den Hydrolipidfilm und den Haut-pH.",
           "Mit feuchtigkeitsspendender Glycerin. Frischer Orangen-Citrus Aurantium-Duft. Häufiger Einsatz."
@@ -4584,7 +4584,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unser Hand- und Körpergel für Damen reinigt Hände und Körper sanft und effektiv. Die Formel mit pflanzlichen Kokos-Tensiden und blumigen Duftnoten von Rose und Jasmin pflegt die empfindliche Frauenhaut. Reichhaltiger Schaum, schnelles Abspülen. Für Hände, Körper und tägliche Anwendung. 96% natürlicher Ursprung nach ISO 16128. Dermatologisch getestet, parabenfrei, silikonfrei. Hergestellt von Hand in unserem Atelier in Marbella, Andalusien.",
+        "longDescription": "Unser Hand- und Körpergel für Damen reinigt Hände und Körper sanft und effektiv. Die Formel mit pflanzlichen Kokos-Tensiden und blumigen Duftnoten von Rose und Jasmin pflegt die empfindliche Frauenhaut. Reichhaltiger Schaum, schnelles Abspülen. Für Hände, Körper und tägliche Anwendung. 96% natürlichen Ursprungs Ursprung nach ISO 16128. Dermatologisch getestet, parabenfrei, silikonfrei. Hergestellt von Hand in unserem Atelier in Marbella, Andalusien.",
         "usage": "Auf feuchter Haut auftragen, einmassieren und abspülen."
       },
       "it": {
@@ -4627,7 +4627,7 @@
       },
       "nl": {
         "name": "Hand- en Lichaamsgel Vrouwen",
-        "subtitle": "Frequente reiniging met frisse, energieke aanraking — Citrus Aurantium en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Frequente reiniging met frisse, energieke aanraking — Citrus Aurantium en kokosnoot-tensiden. 96% van natuurlijke oorsprong, ISO 16128. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "hand-en-lichaamsgel-vrouwen",
         "olfactiveFamily": "Citrus · Fris",
         "momentOfUse": "Dagelijkse handwas · Douche",
@@ -4700,7 +4700,7 @@
         },
         "aiTranslation": true,
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
-        "longDescription": "Gel de duche feminino com azeite e coco para limpeza suave. A aloé vera hidrata e protege a pele mantendo a sua barreira natural.",
+        "longDescription": "Gel de duche feminino com azeite e coco para limpeza suave. A aloé vera hidrata e protege a pele mantendo a sua barreira de origem natural.",
         "usage": "Para as mãos: aplicar na pele húmida, esfregar e enxaguar. Para o corpo: usar como gel de duche."
       },
       "outOfStock": false,
@@ -4735,7 +4735,7 @@
         "name": "Body Milk Woman",
         "nameMain": "Body Milk",
         "nameAccent": "Woman",
-        "subtitle": "Loción corporal femenina con aceites nutritivos de origen natural. 98% origen natural.",
+        "subtitle": "Loción corporal femenina con aceites nutritivos de origen natural. 98% de origen natural.",
         "olfactiveFamily": "Naranja · Cítrica fresca · Femenina",
         "momentOfUse": "Post-ducha · Ritual femenino diario",
         "shortDescription": "Aroma de naranja Citrus Aurantium: el cierre perfecto del ritual femenino.",
@@ -4764,7 +4764,7 @@
           "sustainability": "98% de ingredientes de origen natural (ISO 16128). Aguacate y jojoba certificados. Fabricado en Andalucía."
         },
         "slug": "body-milk-mujer",
-        "longDescription": "Loción corporal femenina con aceites de origen natural y aroma Citrus Aurantium. 98% origen natural.",
+        "longDescription": "Loción corporal femenina con aceites de origen natural y aroma Citrus Aurantium. 98% de origen natural.",
         "usage": "Aplicar sobre la piel limpia y seca tras la ducha. Masajear hasta absorción completa.",
         "aiTranslation": true
       },
@@ -4846,13 +4846,13 @@
       },
       "de": {
         "name": "Körpermilch Damen",
-        "subtitle": "Leichte Feuchtigkeit zum Abschluss des Rituals, weich und strahlend — Arganöl und Citrus Aurantium. 98% natürlich, ISO 16128.",
+        "subtitle": "Leichte Feuchtigkeit zum Abschluss des Rituals, weich und strahlend — Arganöl und Citrus Aurantium. 98% natürlichen Ursprungs, ISO 16128.",
         "slug": "koerpermilch-damen",
         "olfactiveFamily": "Zitrus · Sauberer Komfort",
         "momentOfUse": "Nach der Dusche · Hautritual",
         "nameMain": "Damen",
         "nameAccent": "Körpermilch",
-        "shortDescription": "Citrus Aurantium Orangenduft: der perfekte Abschluss des femininen Rituals. Mit Arganöl, Sheabutter und Vitamin E. 98% natürlich gewonnen, dermatologisch getestet.",
+        "shortDescription": "Citrus Aurantium Orangenduft: der perfekte Abschluss des femininen Rituals. Mit Arganöl, Sheabutter und Vitamin E. 98% natürlichen Ursprungs gewonnen, dermatologisch getestet.",
         "benefits": [
           "Schnelle Absorption, Matteffekt. Mit Avocado und Jojoba. Kein klebriges Gefühl.",
           "Frischer Orangen-Duft (Citrus Aurantium + Limonen). Das am häufigsten verschenkte Produkt."
@@ -4879,7 +4879,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unsere Körpermilch für Damen mit Jojobaöl, Rosehip und Jasmin pflegt die weibliche Haut sanft und hinterlässt ein seidiges Gefühl. Die leichte Textur wird schnell absorbiert ohne fettigen Rückstand. Blumige und frische Duftnoten für ein elegantes Pflegeerlebnis nach der Dusche. Speziell für empfindliche Frauenhaut formuliert. 97% natürlicher Ursprung, ISO 16128 zertifiziert, dermatologisch getestet. Ohne Parabene, ohne Mineralöle. Hergestellt von Hand in unserem Atelier in Marbella, Andalusien.",
+        "longDescription": "Unsere Körpermilch für Damen mit Jojobaöl, Rosehip und Jasmin pflegt die weibliche Haut sanft und hinterlässt ein seidiges Gefühl. Die leichte Textur wird schnell absorbiert ohne fettigen Rückstand. Blumige und frische Duftnoten für ein elegantes Pflegeerlebnis nach der Dusche. Speziell für empfindliche Frauenhaut formuliert. 97% natürlichen Ursprungs Ursprung, ISO 16128 zertifiziert, dermatologisch getestet. Ohne Parabene, ohne Mineralöle. Hergestellt von Hand in unserem Atelier in Marbella, Andalusien.",
         "usage": "Nach der Dusche auf saubere, trockene Haut auftragen. Bis zur vollständigen Absorption einmassieren."
       },
       "it": {
@@ -4922,7 +4922,7 @@
       },
       "nl": {
         "name": "Bodymilk Vrouwen",
-        "subtitle": "Lichte hydratatie om het ritueel af te sluiten, zacht en stralend — argan en Citrus Aurantium. 98% van natuurlijke oorsprong, ISO 16128. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Lichte hydratatie om het ritueel af te sluiten, zacht en stralend — argan en Citrus Aurantium. 98% van natuurlijke oorsprong, ISO 16128. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "bodymilk-vrouwen",
         "olfactiveFamily": "Citrus · Schoon comfort",
         "momentOfUse": "Na de douche · Huidritueel",
@@ -4955,7 +4955,7 @@
         },
         "aiTranslation": true,
         "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
-        "longDescription": "Bodylotion voor vrouwen met natuurlijke oliën en Citrus Aurantium-geur. 98% van natuurlijke oorsprong.",
+        "longDescription": "Bodylotion voor vrouwen met van natuurlijke oorsprong oliën en Citrus Aurantium-geur. 98% van natuurlijke oorsprong.",
         "usage": "Aanbrengen op schone, droge huid na het douchen. Inmasseren tot volledig geabsorbeerd."
       },
       "pt": {
@@ -5627,7 +5627,7 @@
         "momentOfUse": "1-2 times a week · Renewing care",
         "nameMain": "Facial Exfoliant",
         "nameAccent": "for Her",
-        "shortDescription": "97% de origen natural. Para una piel renovada 2-3 veces por semana.",
+        "shortDescription": "97% de origen of natural origin. Para una piel renovada 2-3 veces por semana.",
         "benefits": [
           "Exfoliación suave con celulosa microcristalina. Elimina células muertas, maquillaje e impurezas.",
           "Extractos marinos revitalizantes y antioxidantes (Ulva lactuca + Posidonia oceanica)."
@@ -5807,7 +5807,7 @@
         "momentOfUse": "1-2 vezes por semana · Cuidado renovador",
         "nameMain": "Gel esfoliante rosto",
         "nameAccent": "mulher",
-        "shortDescription": "97% de origen natural. Para una piel renovada 2-3 veces por semana.",
+        "shortDescription": "97% de origen de origem natural. Para una piel renovada 2-3 veces por semana.",
         "benefits": [
           "Exfoliación suave con celulosa microcristalina. Elimina células muertas, maquillaje e impurezas.",
           "Extractos marinos revitalizantes y antioxidantes (Ulva lactuca + Posidonia oceanica)."
@@ -5870,7 +5870,7 @@
         "subtitle": "Sérum con activo Number 6© de aguacate al 3% para reducir ojeras y desinflamar bolsas.",
         "olfactiveFamily": "Sin fragancia · Neutra",
         "momentOfUse": "Mañana y noche · Contorno de ojos · Rutina facial mujer",
-        "shortDescription": "Mejora la microcirculación e ilumina el contorno de ojos. 99% origen natural.",
+        "shortDescription": "Mejora la microcirculación e ilumina el contorno de ojos. 99% de origen natural.",
         "benefits": [
           "Activo Number 6© (aguacate al 3%): reduce ojeras y desinflama bolsas. Mejora la microcirculación.",
           "Ilumina y unifica el tono. Efecto anti-fatiga y luminosidad desde las primeras aplicaciones."
@@ -5905,7 +5905,7 @@
         "momentOfUse": "Morning · After cleansing",
         "nameMain": "Eye Serum",
         "nameAccent": "for Her",
-        "shortDescription": "Sérum para el contorno de ojos formulado con Number 6©, un activo de aguacate al 3% que reduce visiblemente las ojeras y desinflama bolsas. Rico en polifenoles, actúa sobre la microcirculación y la pigmentación. 99% de origen natural.",
+        "shortDescription": "Sérum para el contorno de ojos formulado con Number 6©, un activo de aguacate al 3% que reduce visiblemente las ojeras y desinflama bolsas. Rico en polifenoles, actúa sobre la microcirculación y la pigmentación. 99% de origen of natural origin.",
         "benefits": [
           "Activo Number 6© (aguacate al 3%): reduce ojeras y desinflama bolsas. Mejora la microcirculación.",
           "Ilumina y unifica el tono. Efecto anti-fatiga y luminosidad desde las primeras aplicaciones."
@@ -6085,7 +6085,7 @@
         "momentOfUse": "Manhã · Após a limpeza",
         "nameMain": "Sérum olheiras",
         "nameAccent": "mulher",
-        "shortDescription": "Sérum para el contorno de ojos formulado con Number 6©, un activo de aguacate al 3% que reduce visiblemente las ojeras y desinflama bolsas. Rico en polifenoles, actúa sobre la microcirculación y la pigmentación. 99% de origen natural.",
+        "shortDescription": "Sérum para el contorno de ojos formulado con Number 6©, un activo de aguacate al 3% que reduce visiblemente las ojeras y desinflama bolsas. Rico en polifenoles, actúa sobre la microcirculación y la pigmentación. 99% de origen de origem natural.",
         "benefits": [
           "Activo Number 6© (aguacate al 3%): reduce ojeras y desinflama bolsas. Mejora la microcirculación.",
           "Ilumina y unifica el tono. Efecto anti-fatiga y luminosidad desde las primeras aplicaciones."
@@ -6145,7 +6145,7 @@
         "name": "Detergente para Ropa",
         "nameMain": "Detergente",
         "nameAccent": "ropa",
-        "subtitle": "Detergente con lavanda clásica reconfortante. 97% origen natural.",
+        "subtitle": "Detergente con lavanda clásica reconfortante. 97% de origen natural.",
         "olfactiveFamily": "Lavanda clásica · Reconfortante",
         "momentOfUse": "Colada · Ritual Caricia",
         "shortDescription": "Limpieza eficaz que desengrasa y deja un aroma duradero en la colada.",
@@ -6257,14 +6257,14 @@
       },
       "de": {
         "name": "Waschmittel",
-        "subtitle": "Wirksame Wäsche mit weichem, wohltuendem Lavendelduft. 97% natürlich gewonnen, geeignet für alle Gewebearten und Waschtemperaturen.",
+        "subtitle": "Wirksame Wäsche mit weichem, wohltuendem Lavendelduft. 97% natürlichen Ursprungs gewonnen, geeignet für alle Gewebearten und Waschtemperaturen.",
         "slug": "waschmittel",
         "olfactiveFamily": "Lavendel · Aromatisch",
         "momentOfUse": "Waschtag · Tägliche Pflege",
         "nameMain": "",
         "nameAccent": "Waschmittel",
-        "shortDescription": "Waschmittel mit klassischem Lavendel. Reinigt effektiv und hinterlässt einen anhaltenden, angenehmen Duft in der Wäsche. 97% natürlich gewonnen.",
-        "longDescription": "Unser natürliches Waschmittel mit Lavendel-Duft reinigt Wäsche aller Art gründlich und hygienisch. Die pflanzlichen Tenside lösen Fett und Schmutz effektiv bei allen Temperaturen, von 20°C bis 60°C. Der angenehme Lavendel-Duft bleibt auf der Wäsche haften und verleiht ihr ein frisches Gefühl. Geeignet für Buntwäsche, Weißwäsche und Feinwäsche. Für Waschmaschine und Handwäsche. 97% natürlicher Ursprung nach ISO 16128. Biologisch abbaubar. Hergestellt von Hand in Marbella, Andalusien.",
+        "shortDescription": "Waschmittel mit klassischem Lavendel. Reinigt effektiv und hinterlässt einen anhaltenden, angenehmen Duft in der Wäsche. 97% natürlichen Ursprungs gewonnen.",
+        "longDescription": "Unser natürlichen Ursprungs Waschmittel mit Lavendel-Duft reinigt Wäsche aller Art gründlich und hygienisch. Die pflanzlichen Tenside lösen Fett und Schmutz effektiv bei allen Temperaturen, von 20°C bis 60°C. Der angenehme Lavendel-Duft bleibt auf der Wäsche haften und verleiht ihr ein frisches Gefühl. Geeignet für Buntwäsche, Weißwäsche und Feinwäsche. Für Waschmaschine und Handwäsche. 97% natürlichen Ursprungs Ursprung nach ISO 16128. Biologisch abbaubar. Hergestellt von Hand in Marbella, Andalusien.",
         "indication": "Haushaltsreinigung. Für harte Oberflächen.",
         "usage": "8–12 g pro kg Wäsche je nach Beladung dosieren. In das entsprechende Fach füllen. Für alle Temperaturen geeignet.",
         "benefits": [
@@ -6333,7 +6333,7 @@
       },
       "nl": {
         "name": "Wasmiddel",
-        "subtitle": "Effectieve was met zachte, troostende lavendelgeur. 97% van natuurlijke oorsprong, geschikt voor alle stoffen en temperaturen. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Effectieve was met zachte, troostende lavendelgeur. 97% van natuurlijke oorsprong, geschikt voor alle stoffen en temperaturen. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "wasmiddel",
         "olfactiveFamily": "Lavendel · Aromatisch",
         "momentOfUse": "Wasdag · Dagelijkse verzorging",
@@ -6440,7 +6440,7 @@
         "name": "Suavizante de Ropa",
         "nameMain": "Suavizante",
         "nameAccent": "ropa",
-        "subtitle": "Suavizante con lavanda suave y elegante. 95% origen natural.",
+        "subtitle": "Suavizante con lavanda suave y elegante. 95% de origen natural.",
         "olfactiveFamily": "Lavanda suave y elegante · Fondo limpio",
         "momentOfUse": "Colada · Cierre del Ritual Caricia",
         "shortDescription": "Suaviza, facilita el planchado y mantiene el color de cada prenda.",
@@ -6556,14 +6556,14 @@
       },
       "de": {
         "name": "Weichspüler",
-        "subtitle": "Weiche, gemütliche Kleidung mit beruhigendem Lavendel-Heimatduft. 97% natürlich gewonnen, geeignet für alle Gewebearten.",
+        "subtitle": "Weiche, gemütliche Kleidung mit beruhigendem Lavendel-Heimatduft. 97% natürlichen Ursprungs gewonnen, geeignet für alle Gewebearten.",
         "slug": "weichspueler",
         "olfactiveFamily": "Lavendel · Florale Note",
         "momentOfUse": "Wäschespülung · Routineabschluss",
         "nameMain": "",
         "nameAccent": "Weichspüler",
-        "shortDescription": "Weichspüler mit klassischem Lavendelduft. Macht die Kleidung weich und hinterlässt einen angenehmen Duft. 97% natürlich gewonnen.",
-        "longDescription": "Unser natürlicher Weichspüler mit elegantem Lavendel-Duft macht die Wäsche weich, erleichtert das Bügeln und bewahrt die Lebendigkeit der Farben. Die kationische Formel mit pflanzlichem Ursprung hinterlässt einen angenehmen, anhaltenden Duft auf jedem Stück. Für alle Textilien geeignet. 25 ml pro Waschgang in das Weichspülfach geben. 95% natürlicher Ursprung. Frei von aggressiven Chemikalien. Biologisch abbaubar. Hergestellt von Hand in kleinen Chargen in Marbella, Andalusien.",
+        "shortDescription": "Weichspüler mit klassischem Lavendelduft. Macht die Kleidung weich und hinterlässt einen angenehmen Duft. 97% natürlichen Ursprungs gewonnen.",
+        "longDescription": "Unser natürlichen Ursprungs Weichspüler mit elegantem Lavendel-Duft macht die Wäsche weich, erleichtert das Bügeln und bewahrt die Lebendigkeit der Farben. Die kationische Formel mit pflanzlichem Ursprung hinterlässt einen angenehmen, anhaltenden Duft auf jedem Stück. Für alle Textilien geeignet. 25 ml pro Waschgang in das Weichspülfach geben. 95% natürlichen Ursprungs Ursprung. Frei von aggressiven Chemikalien. Biologisch abbaubar. Hergestellt von Hand in kleinen Chargen in Marbella, Andalusien.",
         "indication": "Haushaltsreinigung. Für harte Oberflächen.",
         "usage": "25 ml pro Waschgang (50 ml bei stark verschmutzter Wäsche). In das Weichspüler-Fach füllen.",
         "benefits": [
@@ -6636,7 +6636,7 @@
       },
       "nl": {
         "name": "Wasverzachter",
-        "subtitle": "Zachte, knusse kleding met rustgevende lavendelgeur van thuis. 97% van natuurlijke oorsprong, geschikt voor alle stoffen. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Zachte, knusse kleding met rustgevende lavendelgeur van thuis. 97% van natuurlijke oorsprong, geschikt voor alle stoffen. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "wasverzachter",
         "olfactiveFamily": "Lavendel · Zachte floraal",
         "momentOfUse": "Naspoelen wasgoed · Afsluiten routine",
@@ -6683,7 +6683,7 @@
         "nameMain": "Amaciador",
         "nameAccent": "roupa",
         "shortDescription": "Amaciador de roupa com 98% de ingredientes de origem natural. Amacia, protege e perfuma a roupa com lavanda e camomila.",
-        "longDescription": "O nosso amaciador de roupa é formulado com 98% de ingredientes de origem natural segundo a ISO 16128. Amacia e protege as fibras, deixando a roupa com uma fragrância suave e natural.",
+        "longDescription": "O nosso amaciador de roupa é formulado com 98% de ingredientes de origem natural segundo a ISO 16128. Amacia e protege as fibras, deixando a roupa com uma fragrância suave e de origem natural.",
         "indication": "Limpeza doméstica. Para superfícies duras.",
         "usage": "25 ml por lavagem (50 ml para roupa muito suja). Deitar na gaveta do amaciador.",
         "benefits": [
@@ -6749,7 +6749,7 @@
         "name": "Lavavajillas Manual",
         "nameMain": "Lavavajillas",
         "nameAccent": "manual",
-        "subtitle": "Lavavajillas a mano con fragancia cítrica luminosa. 92% origen natural.",
+        "subtitle": "Lavavajillas a mano con fragancia cítrica luminosa. 92% de origen natural.",
         "olfactiveFamily": "Cítrica luminosa · Apetecible",
         "momentOfUse": "Después de comer · Cierre de cocina",
         "shortDescription": "Desengrasa, cuida las manos y transforma el friegue en un gesto apetecible.",
@@ -6785,7 +6785,7 @@
       },
       "en": {
         "name": "Dishwashing Liquid",
-        "subtitle": "Cuts grease and leaves a clean, fresh kitchen. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Cuts grease and leaves a clean, fresh kitchen. Artisan cosmetics of natural origin from Marbella.",
         "slug": "dishwashing-liquid",
         "olfactiveFamily": "Citrus · Fresh",
         "momentOfUse": "After meals · Kitchen routine",
@@ -6824,7 +6824,7 @@
       },
       "fr": {
         "name": "Liquide Vaisselle",
-        "subtitle": "Liquide vaisselle à la main — dégraissant naturel pour vaisselle faite à la main. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Liquide vaisselle à la main — dégraissant d'origine naturelle pour vaisselle faite à la main. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "liquide-vaisselle",
         "olfactiveFamily": "Agrumes · Frais",
         "momentOfUse": "Après les repas · Routine cuisine",
@@ -6863,14 +6863,14 @@
       },
       "de": {
         "name": "Spülmittel",
-        "subtitle": "Schneidet Fett und hinterlässt eine saubere, frische Küche — mit Zitrustensiden. 92% natürlich gewonnen, dermatologisch getestet.",
+        "subtitle": "Schneidet Fett und hinterlässt eine saubere, frische Küche — mit Zitrustensiden. 92% natürlichen Ursprungs gewonnen, dermatologisch getestet.",
         "slug": "spuelmittel",
         "olfactiveFamily": "Zitrus · Frisch",
         "momentOfUse": "Nach den Mahlzeiten · Küchenroutine",
         "nameMain": "",
         "nameAccent": "Spülmittel",
-        "shortDescription": "Handspülmittel mit Zitrusduft und natürlichen Tensiden. Effektiver Entfetter, sanft zur Haut. 92% natürlich gewonnen, dermatologisch getestet.",
-        "longDescription": "Unser natürliches Spülmittel mit pflanzlichen Tensiden aus Kokos und Zucker entfettet Geschirr, Töpfe und Pfannen effektiv ohne die Hände auszutrocknen. Die sanfte Formel erzeugt reichlich Schaum und spült ohne Rückstände. Zitrusduft für ein frisches Küchengefühl. Biologisch abbaubar, frei von Silikonen und aggressiven Inhaltsstoffen. Für empfindliche Hände geeignet. 97% natürlicher Ursprung nach ISO 16128. Handwäsche, nicht für Spülmaschinen geeignet. Hergestellt in Marbella, Andalusien.",
+        "shortDescription": "Handspülmittel mit Zitrusduft und natürlichen Ursprungs Tensiden. Effektiver Entfetter, sanft zur Haut. 92% natürlichen Ursprungs gewonnen, dermatologisch getestet.",
+        "longDescription": "Unser natürlichen Ursprungs Spülmittel mit pflanzlichen Tensiden aus Kokos und Zucker entfettet Geschirr, Töpfe und Pfannen effektiv ohne die Hände auszutrocknen. Die sanfte Formel erzeugt reichlich Schaum und spült ohne Rückstände. Zitrusduft für ein frisches Küchengefühl. Biologisch abbaubar, frei von Silikonen und aggressiven Inhaltsstoffen. Für empfindliche Hände geeignet. 97% natürlichen Ursprungs Ursprung nach ISO 16128. Handwäsche, nicht für Spülmaschinen geeignet. Hergestellt in Marbella, Andalusien.",
         "indication": "Manuelles Geschirrspülen.",
         "usage": "Eine kleine Dosis auf einen feuchten Schwamm. Geschirr schrubben und mit Wasser abspülen.",
         "benefits": [
@@ -6908,7 +6908,7 @@
         "momentOfUse": "Dopo i pasti · Routine cucina",
         "nameMain": "Detersivo",
         "nameAccent": "piatti",
-        "shortDescription": "Detersivo piatti a mano con profumo agrumato e tensioattivi naturali. Sgrassante efficace, delicato sulle mani. 92% di origine naturale, testato dermatologicamente.",
+        "shortDescription": "Detersivo piatti a mano con profumo agrumato e tensioattivi di origine naturale. Sgrassante efficace, delicato sulle mani. 92% di origine naturale, testato dermatologicamente.",
         "longDescription": "Detersivo liquido per lavaggio manuale dei piatti con tensioattivi agli agrumi. 92% di origine naturale. Sgrassante efficace con schiuma ricca, delicato per la pelle.",
         "indication": "Lavaggio manuale delle stoviglie.",
         "usage": "Una piccola dose su una spugna umida. Strofinare le stoviglie e sciacquare con acqua.",
@@ -6941,13 +6941,13 @@
       },
       "nl": {
         "name": "Afwasmiddel",
-        "subtitle": "Snijdt vet en laat een schone, frisse keuken achter — met citrus-tensiden. 92% van natuurlijke oorsprong, dermatologisch getest. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Snijdt vet en laat een schone, frisse keuken achter — met citrus-tensiden. 92% van natuurlijke oorsprong, dermatologisch getest. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "afwasmiddel",
         "olfactiveFamily": "Citrus · Fris",
         "momentOfUse": "Na de maaltijd · Keukenroutine",
         "nameMain": "Afwas",
         "nameAccent": "middel",
-        "shortDescription": "Handafwasmiddel met citrusgeur en natuurlijke tensiden. Effectief ontvettend, zacht voor handen. 92% van natuurlijke oorsprong, dermatologisch getest.",
+        "shortDescription": "Handafwasmiddel met citrusgeur en van natuurlijke oorsprong tensiden. Effectief ontvettend, zacht voor handen. 92% van natuurlijke oorsprong, dermatologisch getest.",
         "longDescription": "Vloeibaar handafwasmiddel met citrus-tensiden voor effectief ontvetten. 92% van natuurlijke oorsprong. Zacht voor handen, met rijke schuimvorming. Dermatologisch getest.",
         "indication": "Met de hand afwassen.",
         "usage": "Een kleine dosis op een natte spons. Het servies schrobben en afspoelen met water.",
@@ -6980,7 +6980,7 @@
       },
       "pt": {
         "name": "Detergente Loiça Manual",
-        "subtitle": "Corta a gordura e deixa cozinha limpa e fresca. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Corta a gordura e deixa cozinha limpa e fresca. Cosmética artesanal de origem natural de Marbella.",
         "slug": "detergente-loica-manual",
         "olfactiveFamily": "Citrinos · Fresco",
         "momentOfUse": "Após as refeições · Rotina cozinha",
@@ -7051,7 +7051,7 @@
         "name": "Lavavajillas Máquina",
         "nameMain": "Lavavajillas",
         "nameAccent": "máquina",
-        "subtitle": "Detergente en gel para lavavajillas. 92% origen natural, sin fragancia.",
+        "subtitle": "Detergente en gel para lavavajillas. 92% de origen natural, sin fragancia.",
         "olfactiveFamily": "Sin fragancia · Neutra profesional",
         "momentOfUse": "Carga diaria de lavavajillas",
         "shortDescription": "Corta la grasa, protege vidrio y metal. Sin residuos en el aclarado.",
@@ -7080,13 +7080,13 @@
           "sustainability": "92% de ingredientes de origen natural. Formato 5L de alto rendimiento. Fabricado en Andalucía."
         },
         "slug": "lavavajillas-maquina",
-        "longDescription": "Detergente en gel para lavavajillas. Corta la grasa y protege el vidrio y el metal. 92% origen natural.",
+        "longDescription": "Detergente en gel para lavavajillas. Corta la grasa y protege el vidrio y el metal. 92% de origen natural.",
         "usage": "Verter la dosis recomendada en el compartimento del lavavajillas y programar el ciclo normal.",
         "aiTranslation": true
       },
       "en": {
         "name": "Dishwasher Detergent",
-        "subtitle": "Spotless dishes with no drama. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Spotless dishes with no drama. Artisan cosmetics of natural origin from Marbella.",
         "slug": "dishwasher-detergent",
         "olfactiveFamily": "Citrus · Herbal",
         "momentOfUse": "Dishwasher load · Daily care",
@@ -7160,13 +7160,13 @@
       },
       "de": {
         "name": "Geschirrspülmittel",
-        "subtitle": "Makelloses Geschirr ohne Drama — Gel-Reiniger für Geschirrspüler. 92% natürlich gewonnen, ohne Parfüm, ISO 16128.",
+        "subtitle": "Makelloses Geschirr ohne Drama — Gel-Reiniger für Geschirrspüler. 92% natürlichen Ursprungs gewonnen, ohne Parfüm, ISO 16128.",
         "slug": "geschirrspuelmittel",
         "olfactiveFamily": "Zitrus · Kräuter",
         "momentOfUse": "Geschirrspüler · Tägliche Pflege",
         "nameMain": "",
         "nameAccent": "Geschirrspülmittel",
-        "shortDescription": "Spülmaschinen-Gel das Fett löst und Glas und Metall schützt. Löst sich rückstandsfrei auf. 92% natürlich gewonnen, ohne Duftstoffe.",
+        "shortDescription": "Spülmaschinen-Gel das Fett löst und Glas und Metall schützt. Löst sich rückstandsfrei auf. 92% natürlichen Ursprungs gewonnen, ohne Duftstoffe.",
         "benefits": [
           "Löst Fett und hartnäckigen Schmutz. Schützt Glas und Metall.",
           "15 ml für leichte Verschmutzung · 30 ml für starke Verschmutzung."
@@ -7192,7 +7192,7 @@
           "sustainability": "92% natürlich gewonnen · Biologisch abbaubare Formel · Recycelbare Verpackung"
         },
         "aiTranslation": true,
-        "longDescription": "Unser natürliches Geschirrspülmittel reinigt Geschirr, Gläser und Besteck in der Spülmaschine gründlich und glänzend. Effektiv bei niedrigen Temperaturen von 40°C bis 65°C. Löst Fett und Speisereste vollständig auf ohne schädliche Chemikalien. Geeignet für alle Geschirrspülmaschinen. 2-3 Teelöffel pro Programm. 97% natürlicher Ursprung nach ISO 16128. Biologisch abbaubar. Hergestellt von Hand in kleinen Chargen in unserem Atelier in Marbella, Andalusien.",
+        "longDescription": "Unser natürlichen Ursprungs Geschirrspülmittel reinigt Geschirr, Gläser und Besteck in der Spülmaschine gründlich und glänzend. Effektiv bei niedrigen Temperaturen von 40°C bis 65°C. Löst Fett und Speisereste vollständig auf ohne schädliche Chemikalien. Geeignet für alle Geschirrspülmaschinen. 2-3 Teelöffel pro Programm. 97% natürlichen Ursprungs Ursprung nach ISO 16128. Biologisch abbaubar. Hergestellt von Hand in kleinen Chargen in unserem Atelier in Marbella, Andalusien.",
         "usage": "Empfohlene Dosis in das Waschmittelfach der Spülmaschine füllen und normales Programm wählen."
       },
       "it": {
@@ -7266,7 +7266,7 @@
           "sustainability": "92% natuurlijk gewonnen · Biologisch afbreekbare formule · Recyclebare verpakking"
         },
         "aiTranslation": true,
-        "longDescription": "Gelreiniger voor automatische vaatwassers. Lost vet op en beschermt glas en metaal. 92% natuurlijk gewonnen.",
+        "longDescription": "Gelreiniger voor automatische vaatwassers. Lost vet op en beschermt glas en metaal. 92% van natuurlijke oorsprong gewonnen.",
         "usage": "Aanbevolen dosis in het waschmiddelcompartiment doen en een normaal programma selecteren."
       },
       "pt": {
@@ -7367,7 +7367,7 @@
           "sustainability": "98% de ingredientes de origen natural. El 2º más alto de la colección hogar. Fabricado en Andalucía."
         },
         "slug": "abrillantador-lavavajillas",
-        "longDescription": "Abrillantador para lavavajillas. Previene marcas de agua y mejora el secado. 98% origen natural.",
+        "longDescription": "Abrillantador para lavavajillas. Previene marcas de agua y mejora el secado. 98% de origen natural.",
         "usage": "Llenar el compartimento de abrillantador hasta la marca máxima. El lavavajillas dosifica automáticamente.",
         "aiTranslation": true
       },
@@ -7447,13 +7447,13 @@
       },
       "de": {
         "name": "Klarspüler",
-        "subtitle": "Kristallklarer Glanz für das perfekte Finish im Geschirrspüler. 98% natürlich gewonnen, ohne Duftstoffe.",
+        "subtitle": "Kristallklarer Glanz für das perfekte Finish im Geschirrspüler. 98% natürlichen Ursprungs gewonnen, ohne Duftstoffe.",
         "slug": "klarspueler",
         "olfactiveFamily": "Neutral · Dezent",
         "momentOfUse": "Jeder Spülgang · Endergebnis",
         "nameMain": "",
         "nameAccent": "Klarspüler",
-        "shortDescription": "Verhindert Wasserflecken und verbessert das Trocknen für ein makelloses Ergebnis. 98% natürlich gewonnen, für alle Geschirrspülertypen geeignet.",
+        "shortDescription": "Verhindert Wasserflecken und verbessert das Trocknen für ein makelloses Ergebnis. 98% natürlichen Ursprungs gewonnen, für alle Geschirrspülertypen geeignet.",
         "benefits": [
           "Brillantes Ergebnis ohne Flecken. Verbessert das Trocknen beim letzten Spülgang.",
           "Dosierung: 0,05-0,2% je nach Wasserhärte."
@@ -7479,7 +7479,7 @@
           "sustainability": "98% natürlich gewonnen · Auf Zitronensäurebasis · Biologisch abbaubar · Recycelbare Verpackung"
         },
         "aiTranslation": true,
-        "longDescription": "Unser natürlicher Klarspüler verhindert Kalkflecken auf Gläsern und Besteck und sorgt für glänzende Ergebnisse in der Spülmaschine. Der Ethanolgehalt unterstützt das schnelle Trocknen und verhindert Wasserflecken. Für alle Spülmaschinen geeignet. In das Klarspülfach füllen, bei Bedarf nachfüllen. 97% natürlicher Ursprung. Frei von synthetischen Duftstoffen. Biologisch abbaubar. Hergestellt von Hand in Marbella, Andalusien.",
+        "longDescription": "Unser natürlichen Ursprungs Klarspüler verhindert Kalkflecken auf Gläsern und Besteck und sorgt für glänzende Ergebnisse in der Spülmaschine. Der Ethanolgehalt unterstützt das schnelle Trocknen und verhindert Wasserflecken. Für alle Spülmaschinen geeignet. In das Klarspülfach füllen, bei Bedarf nachfüllen. 97% natürlichen Ursprungs Ursprung. Frei von synthetischen Duftstoffen. Biologisch abbaubar. Hergestellt von Hand in Marbella, Andalusien.",
         "usage": "Klarspüler-Fach bis zur Maximalmarkierung füllen. Die Spülmaschine dosiert automatisch."
       },
       "it": {
@@ -7553,7 +7553,7 @@
           "sustainability": "98% natuurlijk gewonnen · Op basis van citroenzuur · Biologisch afbreekbaar · Recyclebare verpakking"
         },
         "aiTranslation": true,
-        "longDescription": "Glansspoelmiddel voor vaatwassers. Voorkomt watervlekken en verbetert het drogen. Creëert een fijne beschermlaag. 98% natuurlijk gewonnen.",
+        "longDescription": "Glansspoelmiddel voor vaatwassers. Voorkomt watervlekken en verbetert het drogen. Creëert een fijne beschermlaag. 98% van natuurlijke oorsprong gewonnen.",
         "usage": "Het glansspoelmiddelcompartiment tot de maximummarkering vullen. De vaatwasser doseert automatisch."
       },
       "pt": {
@@ -7627,7 +7627,7 @@
         "subtitle": "Limpiasuelos concentrado con perfume floral limpio y reconfortante.",
         "olfactiveFamily": "Perfume floral limpio · Reconfortante",
         "momentOfUse": "Limpieza general · Cierre del día",
-        "shortDescription": "No requiere aclarado. 50 ml en 5 litros de agua. 97% origen natural.",
+        "shortDescription": "No requiere aclarado. 50 ml en 5 litros de agua. 97% de origen natural.",
         "longDescription": "Limpiador concentrado para suelos de todo tipo. Limpia, perfuma y deja brillo sin necesidad de aclarado.",
         "indication": "Limpieza de suelos cerámicos, gres, mármol, parquet sellado.",
         "usage": "Diluir 50 ml en 5 litros de agua. Fregar normalmente. No requiere aclarado.",
@@ -7736,14 +7736,14 @@
       },
       "de": {
         "name": "Bodenreiniger",
-        "subtitle": "Für die tägliche Bodenpflege — konzentriert, mit wohltuendem Duft. 97% natürlich gewonnen, kein Nachspülen erforderlich.",
+        "subtitle": "Für die tägliche Bodenpflege — konzentriert, mit wohltuendem Duft. 97% natürlichen Ursprungs gewonnen, kein Nachspülen erforderlich.",
         "slug": "bodenreiniger",
         "olfactiveFamily": "Kräuter · Zitrus · Spa",
         "momentOfUse": "Wöchentliche Reinigung · Refugio-Ritual",
         "nameMain": "",
         "nameAccent": "Bodenreiniger",
-        "shortDescription": "Für die tägliche Pflege. Saubere, glänzende und angenehm duftende Böden. Kein Nachspülen. Konzentriert: 50 ml auf 5 Liter Wasser. 97% natürlich gewonnen.",
-        "longDescription": "Unser natürlicher Bodenreiniger reinigt alle Hartböden — Fliesen, Holzböden, Marmor und Parkett — effektiv ohne Rückstände. Ohne Nachspülen anwendbar. Die pflanzlichen Tenside entfernen Schmutz, Fett und Alltagsflecken und hinterlassen einen frischen, angenehmen Duft von Málaga-Zitrone. Für Haushalt mit Kindern und Haustieren geeignet. 97% natürlicher Ursprung nach ISO 16128. Biologisch abbaubar, ohne aggressive Chemikalien. Hergestellt von Hand in unserem Atelier in Marbella, Andalusien.",
+        "shortDescription": "Für die tägliche Pflege. Saubere, glänzende und angenehm duftende Böden. Kein Nachspülen. Konzentriert: 50 ml auf 5 Liter Wasser. 97% natürlichen Ursprungs gewonnen.",
+        "longDescription": "Unser natürlichen Ursprungs Bodenreiniger reinigt alle Hartböden — Fliesen, Holzböden, Marmor und Parkett — effektiv ohne Rückstände. Ohne Nachspülen anwendbar. Die pflanzlichen Tenside entfernen Schmutz, Fett und Alltagsflecken und hinterlassen einen frischen, angenehmen Duft von Málaga-Zitrone. Für Haushalt mit Kindern und Haustieren geeignet. 97% natürlichen Ursprungs Ursprung nach ISO 16128. Biologisch abbaubar, ohne aggressive Chemikalien. Hergestellt von Hand in unserem Atelier in Marbella, Andalusien.",
         "indication": "Reinigung von Keramik-, Steinzeug-, Marmor- und versiegeltem Parkettboden.",
         "usage": "50 ml in 5 Liter Wasser verdünnen. Normal wischen. Kein Nachwischen erforderlich.",
         "benefits": [
@@ -7818,7 +7818,7 @@
         "momentOfUse": "Wekelijkse reiniging · Toevluchtsritueel",
         "nameMain": "Vloer",
         "nameAccent": "reiniger",
-        "shortDescription": "Voor dagelijks onderhoud. Schone, glanzende en aangenaam geurende vloeren. Geen naspoelen. Geconcentreerd: 50 ml op 5 liter water. 97% natuurlijk gewonnen.",
+        "shortDescription": "Voor dagelijks onderhoud. Schone, glanzende en aangenaam geurende vloeren. Geen naspoelen. Geconcentreerd: 50 ml op 5 liter water. 97% van natuurlijke oorsprong gewonnen.",
         "longDescription": "Geconcentreerde vloerreiniger met schone bloemengeur. Geen naspoelen nodig. 97% van natuurlijke oorsprong.",
         "indication": "Reiniging van keramische, stenen, marmeren en gelakt parketvloeren.",
         "usage": "50 ml verdunnen in 5 liter water. Normaal dweilen. Geen naspoelen vereist.",
@@ -7857,7 +7857,7 @@
         "nameMain": "Detergente",
         "nameAccent": "chão",
         "shortDescription": "Para manutenção diária. Pavimentos limpos, brilhantes e agradavelmente perfumados. Não enxaguar. Concentrado: 50 ml em 5 litros de água. 97% de origem natural.",
-        "longDescription": "O nosso limpa-chão é formulado com 97% de ingredientes de origem natural. Limpa eficazmente todo o tipo de pavimentos deixando um aroma fresco e natural.",
+        "longDescription": "O nosso limpa-chão é formulado com 97% de ingredientes de origem natural. Limpa eficazmente todo o tipo de pavimentos deixando um aroma fresco e de origem natural.",
         "indication": "Limpeza de pavimentos cerâmicos, grés, mármore e parquet selado.",
         "usage": "Diluir 50 ml em 5 litros de água. Esfregar normalmente. Não requer enxaguamento.",
         "benefits": [
@@ -7923,7 +7923,7 @@
         "subtitle": "Limpiador de baños eficaz contra la cal, con perfume fresco agradable.",
         "olfactiveFamily": "Fresco perfumado · Baño recién limpio",
         "momentOfUse": "Limpieza baño · Ritual Baño Impecable",
-        "shortDescription": "96% origen natural y dermatológicamente testado. Deja actuar 10 min para la cal.",
+        "shortDescription": "96% de origen natural y dermatológicamente testado. Deja actuar 10 min para la cal.",
         "benefits": [
           "Eficaz contra la cal. Pulveriza, deja actuar 10 min, aclara.",
           "Con perfume agradable. Dermatológicamente testado. Suave con la piel."
@@ -7949,7 +7949,7 @@
           "sustainability": "96% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
         "slug": "limpiador-banos",
-        "longDescription": "Limpiador de baños con acción antical y perfume fresco. 96% origen natural, dermatológicamente testado.",
+        "longDescription": "Limpiador de baños con acción antical y perfume fresco. 96% de origen natural, dermatológicamente testado.",
         "usage": "Aplicar sobre la superficie, dejar actuar 10 minutos y frotar con esponja o bayeta. Aclarar con agua.",
         "aiTranslation": true
       },
@@ -8027,13 +8027,13 @@
       },
       "de": {
         "name": "Badreiniger",
-        "subtitle": "Ein sauberes Bad, das zur Selbstpflege einlädt — mit frischem Duft. 96% natürlich gewonnen, dermatologisch getestet.",
+        "subtitle": "Ein sauberes Bad, das zur Selbstpflege einlädt — mit frischem Duft. 96% natürlichen Ursprungs gewonnen, dermatologisch getestet.",
         "slug": "badreiniger",
         "olfactiveFamily": "Spa · Orangenblüte · Lavendel",
         "momentOfUse": "Wöchentliche Reinigung · Wellness-Moment",
         "nameMain": "",
         "nameAccent": "Badreiniger",
-        "shortDescription": "Mit frischem Duft und natürlichen Wirkstoffen. Entfernt Kalk in 10 Minuten. Dermatologisch getestet. 96% natürlich gewonnen.",
+        "shortDescription": "Mit frischem Duft und natürlichen Ursprungs Wirkstoffen. Entfernt Kalk in 10 Minuten. Dermatologisch getestet. 96% natürlichen Ursprungs gewonnen.",
         "benefits": [
           "Wirksam gegen Kalk. Sprühen, 10 Min. einwirken lassen, abspülen.",
           "Angenehmer Duft. Dermatologisch getestet. Hautfreundlich."
@@ -8058,7 +8058,7 @@
           "experience": "Badezimmer putzen mit einem Spa-Frischegefühl. Kombiniert Anti-Kalk-Wirksamkeit mit einem angenehmen Duft."
         },
         "aiTranslation": true,
-        "longDescription": "Unser natürlicher Badreiniger entfernt Kalk, Seifenreste und Schmutz von Fliesen, Waschbecken, Badewannen und Duschkabinen. Die saure Formel auf natürlicher Basis löst mineralische Ablagerungen effektiv auf ohne aggressive Chemikalien. Erfrischender Duft von Málaga-Zitrone und Minze. Auf die Oberfläche sprühen, einwirken lassen, abwischen. Für regelmäßige Reinigung. 97% natürlicher Ursprung nach ISO 16128. Biologisch abbaubar. Hergestellt in Marbella, Andalusien.",
+        "longDescription": "Unser natürlichen Ursprungs Badreiniger entfernt Kalk, Seifenreste und Schmutz von Fliesen, Waschbecken, Badewannen und Duschkabinen. Die saure Formel auf natürlichen Ursprungs Basis löst mineralische Ablagerungen effektiv auf ohne aggressive Chemikalien. Erfrischender Duft von Málaga-Zitrone und Minze. Auf die Oberfläche sprühen, einwirken lassen, abwischen. Für regelmäßige Reinigung. 97% natürlichen Ursprungs Ursprung nach ISO 16128. Biologisch abbaubar. Hergestellt in Marbella, Andalusien.",
         "usage": "Auf die Oberfläche auftragen, 10 Minuten einwirken lassen und mit Schwamm oder Tuch schrubben. Mit Wasser abspülen."
       },
       "it": {
@@ -8069,7 +8069,7 @@
         "momentOfUse": "Pulizia settimanale · Momento benessere",
         "nameMain": "Detergente",
         "nameAccent": "bagno",
-        "shortDescription": "Con profumo fresco e ingredienti naturali. Rimuove il calcare in 10 minuti. Testato dermatologicamente. 96% di origine naturale.",
+        "shortDescription": "Con profumo fresco e ingredienti di origine naturale. Rimuove il calcare in 10 minuti. Testato dermatologicamente. 96% di origine naturale.",
         "benefits": [
           "Efficace contro il calcare. Spruzzare, lasciare agire 10 min, sciacquare.",
           "Profumo piacevole. Testato dermatologicamente. Delicato sulla pelle."
@@ -8099,13 +8099,13 @@
       },
       "nl": {
         "name": "Badkamerreiniger",
-        "subtitle": "Een schone badkamer die uitnodigt tot zelfzorg — met frisse geur. 96% van natuurlijke oorsprong, dermatologisch getest. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Een schone badkamer die uitnodigt tot zelfzorg — met frisse geur. 96% van natuurlijke oorsprong, dermatologisch getest. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "badkamerreiniger",
         "olfactiveFamily": "Spa · Sinaasappelbloesem · Lavendel",
         "momentOfUse": "Wekelijkse reiniging · Wellness-moment",
         "nameMain": "Badkamer",
         "nameAccent": "reiniger",
-        "shortDescription": "Met frisse geur en natuurlijke ingrediënten. Verwijdert kalk in 10 minuten. Dermatologisch getest. 96% van natuurlijke oorsprong.",
+        "shortDescription": "Met frisse geur en van natuurlijke oorsprong ingrediënten. Verwijdert kalk in 10 minuten. Dermatologisch getest. 96% van natuurlijke oorsprong.",
         "benefits": [
           "Effectief tegen kalkaanslag. Spuiten, 10 min laten inwerken, afspoelen.",
           "Aangename geur. Dermatologisch getest. Zacht voor de huid."
@@ -8141,7 +8141,7 @@
         "momentOfUse": "Limpeza semanal · Momento bem-estar",
         "nameMain": "Detergente",
         "nameAccent": "casa de banho",
-        "shortDescription": "Fórmula de 97% de ingredientes naturais. Remove calcário e sujidade em 10 minutos. Testado dermatologicamente.",
+        "shortDescription": "Fórmula de 97% de ingredientes de origem natural. Remove calcário e sujidade em 10 minutos. Testado dermatologicamente.",
         "benefits": [
           "Eficaz contra o calcário. Pulverizar, deixar atuar 10 min, enxaguar.",
           "Fragância agradável. Testado dermatologicamente. Suave para a pele."
@@ -8237,7 +8237,7 @@
       },
       "en": {
         "name": "Degreaser",
-        "subtitle": "Powerful natural degreaser for kitchens and cooking surfaces — with plant-based surfactants. 97% naturally derived ingredients, no aggressive solvents.",
+        "subtitle": "Powerful of natural origin degreaser for kitchens and cooking surfaces — with plant-based surfactants. 97% naturally derived ingredients, no aggressive solvents.",
         "slug": "degreaser",
         "olfactiveFamily": "Citrus · Fresh",
         "momentOfUse": "Deep kitchen clean · Stovetop care",
@@ -8315,13 +8315,13 @@
       },
       "de": {
         "name": "Fettlöser",
-        "subtitle": "Kraftvoller Entfetter für Küchen und Herdplatten — mit pflanzlichen Tensiden. 97% natürlich gewonnen.",
+        "subtitle": "Kraftvoller Entfetter für Küchen und Herdplatten — mit pflanzlichen Tensiden. 97% natürlichen Ursprungs gewonnen.",
         "slug": "fettloeser",
         "olfactiveFamily": "Zitrus · Frisch",
         "momentOfUse": "Gründliche Reinigung · Herdpflege",
         "nameMain": "",
         "nameAccent": "Fettlöser",
-        "shortDescription": "Entfettungsmittel 99% natürlichen Ursprungs. Ohne Duft. Gebrauchsfertig. Entfernt hartnäckiges Fett in der Küche.",
+        "shortDescription": "Entfettungsmittel mit 99% natürlichen Ursprungs. Ohne Duft. Gebrauchsfertig. Entfernt hartnäckiges Fett in der Küche.",
         "benefits": [
           "99% natürlich gewonnene Inhaltsstoffe (ISO 16128)",
           "Löst hartnäckiges Fett ohne aggressive Chemie",
@@ -8349,7 +8349,7 @@
           "sustainability": "99% natürlich gewonnen · Biologisch abbaubare Formel · Recycelbare Verpackung"
         },
         "aiTranslation": true,
-        "longDescription": "Unser natürlicher Fettlöser entfernt hartnäckige Fett- und Kochrückstände in Küche, auf Herd und Kochflächen schnell und effektiv. Die Formel mit pflanzlichen Tensiden und ätherischen Zitrusölen löst Fett ohne aggressive chemische Substanzen. Auf die verschmutzte Fläche sprühen, 1-2 Minuten einwirken lassen, abwischen. Für Küche, Backofen, Dunstabzugshaube. 97% natürlicher Ursprung nach ISO 16128. Biologisch abbaubar. Hergestellt von Hand in Marbella, Andalusien.",
+        "longDescription": "Unser natürlichen Ursprungs Fettlöser entfernt hartnäckige Fett- und Kochrückstände in Küche, auf Herd und Kochflächen schnell und effektiv. Die Formel mit pflanzlichen Tensiden und ätherischen Zitrusölen löst Fett ohne aggressive chemische Substanzen. Auf die verschmutzte Fläche sprühen, 1-2 Minuten einwirken lassen, abwischen. Für Küche, Backofen, Dunstabzugshaube. 97% natürlichen Ursprungs Ursprung nach ISO 16128. Biologisch abbaubar. Hergestellt von Hand in Marbella, Andalusien.",
         "usage": "Direkt auf die fettige Oberfläche sprühen, 1–2 Minuten einwirken lassen und mit einem Tuch abwischen."
       },
       "it": {
@@ -8393,7 +8393,7 @@
       },
       "nl": {
         "name": "Ontvetter",
-        "subtitle": "Krachtige ontvetter voor keukens en kookplaten — met plantaardige tensiden. 97% van natuurlijke oorsprong. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Krachtige ontvetter voor keukens en kookplaten — met plantaardige tensiden. 97% van natuurlijke oorsprong. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "ontvetter",
         "olfactiveFamily": "Citrus · Fris",
         "momentOfUse": "Diepe keukenreiniging · Kookplaatzorg",
@@ -8504,7 +8504,7 @@
         "subtitle": "Limpiador de origen natural con perfume suave para encimeras, muebles y puertas.",
         "olfactiveFamily": "Perfume suave y limpio · Uso diario",
         "momentOfUse": "Limpieza diaria · Encimeras · Muebles",
-        "shortDescription": "Elimina marcas y huellas con brillo sin rayas y secado rápido. 97% origen natural.",
+        "shortDescription": "Elimina marcas y huellas con brillo sin rayas y secado rápido. 97% de origen natural.",
         "benefits": [
           "Elimina marcas y huellas en la mayoría de superficies. Brillo sin marcas.",
           "Secado rápido. Con perfume suave agradable. Dermatológicamente testado."
@@ -8530,7 +8530,7 @@
           "sustainability": "97% de ingredientes de origen natural. Dermatológicamente testado. Fabricado en Andalucía."
         },
         "slug": "limpiador-multisuperficies",
-        "longDescription": "Limpiador multisuperficies de origen natural para encimeras, muebles y puertas. Brillo sin rayas. 97% origen natural.",
+        "longDescription": "Limpiador multisuperficies de origen natural para encimeras, muebles y puertas. Brillo sin rayas. 97% de origen natural.",
         "usage": "Pulverizar sobre la superficie, limpiar con bayeta húmeda o microfibra y dejar secar.",
         "aiTranslation": true
       },
@@ -8608,13 +8608,13 @@
       },
       "de": {
         "name": "Allzweckreiniger",
-        "subtitle": "Eine Flasche für das ganze Zuhause, frisch und sauber — mit pflanzlichen Wirkstoffen. 97% natürlich gewonnen.",
+        "subtitle": "Eine Flasche für das ganze Zuhause, frisch und sauber — mit pflanzlichen Wirkstoffen. 97% natürlichen Ursprungs gewonnen.",
         "slug": "allzweckreiniger",
         "olfactiveFamily": "Zitrus · Aromatisch",
         "momentOfUse": "Tägliche Pflege · Schnelle Reinigung",
         "nameMain": "",
         "nameAccent": "Allzweckreiniger",
-        "shortDescription": "Vielseitiger Reiniger für alle Oberflächen zu Hause. 97% natürlich gewonnen, frischer Duft. Hinterlässt keine Rückstände.",
+        "shortDescription": "Vielseitiger Reiniger für alle Oberflächen zu Hause. 97% natürlichen Ursprungs gewonnen, frischer Duft. Hinterlässt keine Rückstände.",
         "benefits": [
           "Entfernt Flecken und Fingerabdrücke auf den meisten Oberflächen. Streifenfreier Glanz.",
           "Schnelles Trocknen. Mit mildem, angenehmem Duft. Dermatologisch getestet."
@@ -8639,7 +8639,7 @@
           "experience": "Das schnelle Zuhause-Reset. Flecken und Fingerabdrücke in einem Zug entfernt."
         },
         "aiTranslation": true,
-        "longDescription": "Unser natürlicher Allzweckreiniger reinigt Oberflächen im gesamten Haus — Küche, Bad, Wohnzimmer und Büro. Die vielseitige Formel mit pflanzlichen Tensiden entfernt Alltagsschmutz, Fingerabdrücke und Fettflecken auf Glas, Metall, Kunststoff und Holz ohne Schlieren. Hinterlässt einen frischen, leichten Duft. Gebrauchsfertig, direkt anwendbar. 97% natürlicher Ursprung nach ISO 16128. Biologisch abbaubar, sicher für den Hausgebrauch mit Kindern. Hergestellt von Hand in Marbella, Andalusien.",
+        "longDescription": "Unser Allzweckreiniger natürlichen Ursprungs reinigt Oberflächen im gesamten Haus — Küche, Bad, Wohnzimmer und Büro. Die vielseitige Formel mit pflanzlichen Tensiden entfernt Alltagsschmutz, Fingerabdrücke und Fettflecken auf Glas, Metall, Kunststoff und Holz ohne Schlieren. Hinterlässt einen frischen, leichten Duft. Gebrauchsfertig, direkt anwendbar. 97% natürlichen Ursprungs Ursprung nach ISO 16128. Biologisch abbaubar, sicher für den Hausgebrauch mit Kindern. Hergestellt von Hand in Marbella, Andalusien.",
         "usage": "Auf die Oberfläche sprühen, mit einem feuchten Tuch oder Mikrofasertuch abwischen und trocknen lassen."
       },
       "it": {
@@ -8680,7 +8680,7 @@
       },
       "nl": {
         "name": "Allesreiniger",
-        "subtitle": "Eén fles voor het hele huis, fris en schoon — met plantaardige werkzame stoffen. 97% van natuurlijke oorsprong. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Eén fles voor het hele huis, fris en schoon — met plantaardige werkzame stoffen. 97% van natuurlijke oorsprong. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "allesreiniger",
         "olfactiveFamily": "Citrus · Aromatisch",
         "momentOfUse": "Dagelijkse zorg · Snelle reiniging",
@@ -8747,7 +8747,7 @@
           "experience": "O reset rápido do lar. Marcas e impressões digitais eliminadas numa passagem."
         },
         "aiTranslation": true,
-        "longDescription": "Limpador multissuperfícies de origem natural para bancadas, móveis e portas. Brilho sem riscas. 97% origem natural.",
+        "longDescription": "Limpador multissuperfícies de origem natural para bancadas, móveis e portas. Brilho sem riscas. 97% de origem natural.",
         "usage": "Pulverizar na superfície, limpar com pano húmido ou microfibra e deixar secar."
       },
       "basePriceEUR": 6.2,
@@ -8891,13 +8891,13 @@
       },
       "de": {
         "name": "Glasreiniger",
-        "subtitle": "Streifenfreier Glanz für Fenster, Spiegel und Glasflächen — 97% natürlich gewonnen, schnell trocknend.",
+        "subtitle": "Streifenfreier Glanz für Fenster, Spiegel und Glasflächen — 97% natürlichen Ursprungs gewonnen, schnell trocknend.",
         "slug": "glasreiniger",
         "olfactiveFamily": "Frisch · Zitrus",
         "momentOfUse": "Wöchentliche Reinigung · Letzter Schliff",
         "nameMain": "",
         "nameAccent": "Glasreiniger",
-        "shortDescription": "Glas- und Spiegelreiniger mit 97% natürlich gewonnenen Inhaltsstoffen. Streifenfreier Glanz auf Glas, Spiegeln und glatten Oberflächen.",
+        "shortDescription": "Glas- und Spiegelreiniger mit 97% natürlichen Ursprungs gewonnenen Inhaltsstoffen. Streifenfreier Glanz auf Glas, Spiegeln und glatten Oberflächen.",
         "benefits": [
           "Streifenfreie Reinigung. Gebrauchsfertig. Ein Zug genügt.",
           "Ohne Duftstoffe, 99% natürlichen Ursprungs. Der höchste % in der Haushaltsreihe."
@@ -8923,7 +8923,7 @@
           "sustainability": "97% natürlich gewonnen · Biologisch abbaubare Formel · Recycelbare Verpackung"
         },
         "aiTranslation": true,
-        "longDescription": "Unser natürlicher Glasreiniger hinterlässt Fensterscheiben, Spiegel und Glasflächen kristallklar ohne Streifen oder Schlieren. Die schnell trocknende Formel mit Ethanol und pflanzlichen Tensiden entfernt Fingerabdrücke, Staub und Fettflecken in einem Wisch. Auf die Glasfläche sprühen, mit einem Mikrofasertuch abwischen. Auch für Chromflächen und Edelstahl. 97% natürlicher Ursprung nach ISO 16128. Biologisch abbaubar. Hergestellt von Hand in kleinen Chargen in Marbella, Andalusien.",
+        "longDescription": "Unser natürlichen Ursprungs Glasreiniger hinterlässt Fensterscheiben, Spiegel und Glasflächen kristallklar ohne Streifen oder Schlieren. Die schnell trocknende Formel mit Ethanol und pflanzlichen Tensiden entfernt Fingerabdrücke, Staub und Fettflecken in einem Wisch. Auf die Glasfläche sprühen, mit einem Mikrofasertuch abwischen. Auch für Chromflächen und Edelstahl. 97% natürlichen Ursprungs Ursprung nach ISO 16128. Biologisch abbaubar. Hergestellt von Hand in kleinen Chargen in Marbella, Andalusien.",
         "usage": "Auf Glas oder Spiegel sprühen und mit einem Mikrofasertuch oder Zeitungspapier abwischen."
       },
       "it": {
@@ -8971,7 +8971,7 @@
         "momentOfUse": "Wekelijkse reiniging · Finishing touch",
         "nameMain": "Glas",
         "nameAccent": "reiniger",
-        "shortDescription": "Glas- en spiegelreiniger met 97% natuurlijk gewonnen ingrediënten. Streepvrije glans op glas, spiegels en gladde oppervlakken.",
+        "shortDescription": "Glas- en spiegelreiniger met 97% van natuurlijke oorsprong gewonnen ingrediënten. Streepvrije glans op glas, spiegels en gladde oppervlakken.",
         "benefits": [
           "Streepvrije reiniging. Gebruiksklaar. Eén haal is genoeg.",
           "Parfumvrij, 99% van natuurlijke oorsprong. Het hoogste % in de thuisreeks."
@@ -9070,7 +9070,7 @@
         "name": "Champú Pet Repair Argán · Perros",
         "nameMain": "Champú",
         "nameAccent": "perros",
-        "subtitle": "Champú 2 en 1 con aceite de argán, extractos de albahaca, menta y tomillo. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Champú 2 en 1 con aceite de argán, extractos de albahaca, menta y tomillo. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Suave · Perfume discreto · Hipoalergénico",
         "momentOfUse": "Baño semanal · Ritual Mimo Canino",
         "shortDescription": "Complejo vitaminas B y activos microbioma. El baño que cuida por dentro y por fuera.",
@@ -9111,7 +9111,7 @@
         "momentOfUse": "Bath day · Pet ritual",
         "nameMain": "Argan Pet Repair",
         "nameAccent": "for Dogs",
-        "shortDescription": "Natural dog shampoo with argan oil. Gentle, moisturising formula for shiny, healthy coat.",
+        "shortDescription": "of natural origin dog shampoo with argan oil. Gentle, moisturising formula for shiny, healthy coat.",
         "benefits": [
           "2-in-1: cleanses and conditions. Argan for dry, lifeless coat.",
           "Basil, mint and thyme extracts + vitamin B complex. Microbiome actives."
@@ -9143,7 +9143,7 @@
       },
       "fr": {
         "name": "Shampooing Argan Réparateur Chien",
-        "subtitle": "Soin doux, calme à la maison, connexion avec votre chien. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Soin doux, calme à la maison, connexion avec votre chien. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "shampooing-argan-chien",
         "olfactiveFamily": "Argan · Floral doux",
         "momentOfUse": "Jour de bain · Rituel animal",
@@ -9181,13 +9181,13 @@
       },
       "de": {
         "name": "Arganöl-Hundeshampoo",
-        "subtitle": "Sanfte Pflege für Hunde — mit Arganöl und pH-angepasster Formel 6,5-7,5. Für Ruhe zu Hause und echte Verbindung. Natürlich und handwerklich aus Marbella.",
+        "subtitle": "Sanfte Pflege für Hunde — mit Arganöl und pH-angepasster Formel 6,5-7,5. Für Ruhe zu Hause und echte Verbindung. Handwerklich natürlichen Ursprungs aus Marbella.",
         "slug": "arganoel-hundeshampoo",
         "olfactiveFamily": "Argan · Florale Note",
         "momentOfUse": "Badetag · Tierritual",
         "nameMain": "Arganöl",
         "nameAccent": "Hundeshampoo",
-        "shortDescription": "Natürliches Hundeshampoo mit Arganöl. Sanfte, feuchtigkeitsspendende Formel für ein glänzendes, gesundes Fell.",
+        "shortDescription": "natürlichen Ursprungs Hundeshampoo mit Arganöl. Sanfte, feuchtigkeitsspendende Formel für ein glänzendes, gesundes Fell.",
         "benefits": [
           "2-in-1: reinigt und pflegt. Argan für trockenes, kraftloses Fell.",
           "Basilikum-, Minz- und Thymianextrakte + Vitamin-B-Komplex. Mikrobiom-Wirkstoffe."
@@ -9214,7 +9214,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unser natürliches Arganöl-Hundeshampoo reinigt das Fell und die Haut des Hundes sanft und gründlich. Die hypoallergene Formel mit Arganöl aus Marokko und Kokos-Tensiden pflegt das Fell und beruhigt die empfindliche Hundehaut. Angenehmer Duft, der nach dem Waschen auf dem Fell haften bleibt. Auf das nasse Fell auftragen, einmassieren, ausspülen. Für alle Rassen und Felltypen geeignet. 97% natürlicher Ursprung. MAPA-registriert, dermatologisch getestet. Hergestellt von Hand in Marbella, Andalusien.",
+        "longDescription": "Unser natürlichen Ursprungs Arganöl-Hundeshampoo reinigt das Fell und die Haut des Hundes sanft und gründlich. Die hypoallergene Formel mit Arganöl aus Marokko und Kokos-Tensiden pflegt das Fell und beruhigt die empfindliche Hundehaut. Angenehmer Duft, der nach dem Waschen auf dem Fell haften bleibt. Auf das nasse Fell auftragen, einmassieren, ausspülen. Für alle Rassen und Felltypen geeignet. 97% natürlichen Ursprungs Ursprung. MAPA-registriert, dermatologisch getestet. Hergestellt von Hand in Marbella, Andalusien.",
         "usage": "Das Fell gründlich anfeuchten. Von Kopf bis Schwanz einmassieren. Vollständig ausspülen. Bei Bedarf wiederholen."
       },
       "it": {
@@ -9225,7 +9225,7 @@
         "momentOfUse": "Giorno del bagno · Rituale animale",
         "nameMain": "Shampoo argan",
         "nameAccent": "cani",
-        "shortDescription": "Shampoo naturale per cani all'olio di argan. Formula delicata e idratante per un manto brillante e sano.",
+        "shortDescription": "Shampoo di origine naturale per cani all'olio di argan. Formula delicata e idratante per un manto brillante e sano.",
         "benefits": [
           "2 in 1: pulisce e idrata. Argan per pelo secco e privo di vitalità.",
           "Estratti di basilico, menta e timo + complesso vitamine B. Attivi microbioma."
@@ -9257,13 +9257,13 @@
       },
       "nl": {
         "name": "Argan Hondenshampoo",
-        "subtitle": "Zachte verzorging voor honden — met arganolie en pH-aangepaste formule 6,5-7,5. Voor rust thuis en echte verbinding. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Zachte verzorging voor honden — met arganolie en pH-aangepaste formule 6,5-7,5. Voor rust thuis en echte verbinding. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "argan-hondenshampoo",
         "olfactiveFamily": "Argan · Zachte floraal",
         "momentOfUse": "Baddag · Huisdierritueel",
         "nameMain": "Argan",
         "nameAccent": "hondenshampoo",
-        "shortDescription": "Natuurlijke hondenshampoo met arganolie. Zachte, vochtinbrengende formule voor een glanzende, gezonde vacht.",
+        "shortDescription": "van natuurlijke oorsprong hondenshampoo met arganolie. Zachte, vochtinbrengende formule voor een glanzende, gezonde vacht.",
         "benefits": [
           "2-in-1: reinigt en verzorgt. Argan voor droge, levenloze vacht.",
           "Basilicum-, munt- en tijmextracten + vitamine B-complex. Microbioom-activatoren."
@@ -9301,7 +9301,7 @@
         "momentOfUse": "Dia do banho · Ritual do animal",
         "nameMain": "Champô argão",
         "nameAccent": "cães",
-        "shortDescription": "Champô natural para cães com óleo de argão. Fórmula suave e hidratante para pelo brilhante e saudável.",
+        "shortDescription": "Champô de origem natural para cães com óleo de argão. Fórmula suave e hidratante para pelo brilhante e saudável.",
         "benefits": [
           "2 em 1: limpa e condiciona. Argão para pelo seco e sem vitalidade.",
           "Extratos de manjericão, menta e tomilho + complexo vitamina B. Ativos microbioma."
@@ -9362,7 +9362,7 @@
         "name": "Champú Suave · Gatos",
         "nameMain": "Champú",
         "nameAccent": "gatos",
-        "subtitle": "Champú 2 en 1 con aceite de argán y activos microbioma para el pelaje del gato. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Champú 2 en 1 con aceite de argán y activos microbioma para el pelaje del gato. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Suave · Perfume suave discreto",
         "momentOfUse": "Baño ocasional · Ritual Gato Zen",
         "shortDescription": "pH 6,5-7,5 adaptado. Aroma mínimo para no alterar sus sentidos.",
@@ -9397,7 +9397,7 @@
       },
       "en": {
         "name": "Gentle Cat Shampoo",
-        "subtitle": "Gentle hygiene, calm and connection without stress. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Gentle hygiene, calm and connection without stress. Artisan cosmetics of natural origin from Marbella.",
         "slug": "natural-cat-shampoo",
         "olfactiveFamily": "Soft floral · Discreet",
         "momentOfUse": "Bath day · Calm ritual",
@@ -9435,7 +9435,7 @@
       },
       "fr": {
         "name": "Shampooing Naturel Chat",
-        "subtitle": "Hygiène douce, calme et connexion sans stress. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Hygiène douce, calme et connexion sans stress. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "shampooing-naturel-chat",
         "olfactiveFamily": "Floral doux · Discret",
         "momentOfUse": "Jour de bain · Rituel calme",
@@ -9473,13 +9473,13 @@
       },
       "de": {
         "name": "Katzenshampoo",
-        "subtitle": "Natürliches Katzenshampoo: sanfte Hygiene für Katzen — ultra-schonende spülfreie Formel, pH 6,5-7,5 angepasst. Ruhe und Verbindung ohne Stress.",
+        "subtitle": "natürlichen Ursprungs Katzenshampoo: sanfte Hygiene für Katzen — ultra-schonende spülfreie Formel, pH 6,5-7,5 angepasst. Ruhe und Verbindung ohne Stress.",
         "slug": "natuerliches-katzenshampoo",
         "olfactiveFamily": "Florale Note · Dezent",
         "momentOfUse": "Badetag · Ruhe-Ritual",
         "nameMain": "",
         "nameAccent": "Katzenshampoo",
-        "shortDescription": "Ultraschonendes, spülfreies Shampoo für Katzen mit pH 6,5-7,5. Antibakteriell und antimykotisch. 97% natürlich gewonnen, ohne Duftstoffe.",
+        "shortDescription": "Ultraschonendes, spülfreies Shampoo für Katzen mit pH 6,5-7,5. Antibakteriell und antimykotisch. 97% natürlichen Ursprungs gewonnen, ohne Duftstoffe.",
         "benefits": [
           "2-in-1: reinigt und pflegt. Argan für trockenes, kraftloses Fell.",
           "Mikrobiom-Wirkstoffe zur Erhaltung freundlicher Bakterien. pH 6,5–7,5 für Katzen angepasst."
@@ -9506,7 +9506,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unser natürliches Katzenshampoo ist für die empfindliche Haut der Katze formuliert und reinigt das Fell schonend und effektiv. Die Formel mit Kokos-Glucosid und beruhigenden Pflanzenextrakten ist für häufiges Baden geeignet und hinterlässt keinen Rückstand auf dem Fell. Geeignet für alle Katzenrassen. Auf das nasse Fell auftragen, einmassieren, ausspülen. 97% natürlicher Ursprung. MAPA-registriert, spülmittelfreie Formel. Hergestellt von Hand in Marbella, Andalusien.",
+        "longDescription": "Unser natürlichen Ursprungs Katzenshampoo ist für die empfindliche Haut der Katze formuliert und reinigt das Fell schonend und effektiv. Die Formel mit Kokos-Glucosid und beruhigenden Pflanzenextrakten ist für häufiges Baden geeignet und hinterlässt keinen Rückstand auf dem Fell. Geeignet für alle Katzenrassen. Auf das nasse Fell auftragen, einmassieren, ausspülen. 97% natürlichen Ursprungs Ursprung. MAPA-registriert, spülmittelfreie Formel. Hergestellt von Hand in Marbella, Andalusien.",
         "usage": "Das Fell mit lauwarmem Wasser anfeuchten. Auftragen, sanft einmassieren und vollständig ausspülen."
       },
       "it": {
@@ -9544,12 +9544,12 @@
         },
         "aiTranslation": true,
         "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
-        "longDescription": "Il nostro shampoo naturale per gatti è formulato per la cute delicata del felino e deterge il pelo delicatamente. La formula con Coco-Glucoside e estratti calmanti di piante è adatta al microbioma cutaneo del gatto. Per tutte le razze di gatti. Applicare sul pelo bagnato, massaggiare, risciacquare abbondantemente. 97% di origine naturale, registrato MAPA.",
+        "longDescription": "Il nostro shampoo di origine naturale per gatti è formulato per la cute delicata del felino e deterge il pelo delicatamente. La formula con Coco-Glucoside e estratti calmanti di piante è adatta al microbioma cutaneo del gatto. Per tutte le razze di gatti. Applicare sul pelo bagnato, massaggiare, risciacquare abbondantemente. 97% di origine naturale, registrato MAPA.",
         "usage": "Bagnare il manto con acqua tiepida. Applicare, massaggiare delicatamente e sciacquare completamente."
       },
       "nl": {
         "name": "Kattenshampoo",
-        "subtitle": "Milde hygiëne voor katten — ultra-zachte spoelvrije formule, pH 6,5-7,5 aangepast. Rust en verbinding zonder stress. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Milde hygiëne voor katten — ultra-zachte spoelvrije formule, pH 6,5-7,5 aangepast. Rust en verbinding zonder stress. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "natuurlijke-kattenshampoo",
         "olfactiveFamily": "Zachte floraal · Discreet",
         "momentOfUse": "Baddag · Rustritueel",
@@ -9582,7 +9582,7 @@
         },
         "aiTranslation": true,
         "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
-        "longDescription": "Onze natuurlijke kattenshampoo is speciaal geformuleerd voor de gevoelige huid van katten en reinigt de vacht zacht en effectief. De formule met Coco-Glucoside en kalmerende plantaardige extracten respecteert het microbioom van de kattenhuid. Voor alle kattenrassen. 97% van natuurlijke oorsprong, MAPA-geregistreerd. Met de hand gemaakt in Marbella.",
+        "longDescription": "Onze van natuurlijke oorsprong kattenshampoo is speciaal geformuleerd voor de gevoelige huid van katten en reinigt de vacht zacht en effectief. De formule met Coco-Glucoside en kalmerende plantaardige extracten respecteert het microbioom van de kattenhuid. Voor alle kattenrassen. 97% van natuurlijke oorsprong, MAPA-geregistreerd. Met de hand gemaakt in Marbella.",
         "usage": "De vacht met lauwwarm water nat maken. Aanbrengen, zachtjes inmasseren en grondig uitspoelen."
       },
       "pt": {
@@ -9593,7 +9593,7 @@
         "momentOfUse": "Dia do banho · Ritual calma",
         "nameMain": "Champô",
         "nameAccent": "gatos",
-        "shortDescription": "Champô natural para gatos. Fórmula ultra-suave sem enxaguar. Antibacteriano e antifúngico.",
+        "shortDescription": "Champô de origem natural para gatos. Fórmula ultra-suave sem enxaguar. Antibacteriano e antifúngico.",
         "benefits": [
           "2 em 1: limpa e condiciona. Argão para pelo seco e sem vitalidade.",
           "Ativos microbioma para preservar bactérias amigas. pH 6,5-7,5 adaptado ao gato."
@@ -9654,7 +9654,7 @@
         "name": "Limpiador de Oídos Mascotas",
         "nameMain": "Limpia",
         "nameAccent": "oídos",
-        "subtitle": "Solución limpiadora con aceite de árbol de té al 0,2%. Antibacteriano y antifúngico. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Solución limpiadora con aceite de árbol de té al 0,2%. Antibacteriano y antifúngico. Cosmética artesanal de origen natural de Marbella.",
         "olfactiveFamily": "Sin fragancia · Completamente neutra",
         "momentOfUse": "Post-baño · Uso regular · Perros y Gatos",
         "shortDescription": "Sin fragancia, pH neutro. Para perros y gatos. Registro MAPA 12061-H.",
@@ -9689,7 +9689,7 @@
       },
       "en": {
         "name": "Pet Ear Cleaner",
-        "subtitle": "Clean ears, gentle routine, calm pet. Natural artisan cosmetics from Marbella.",
+        "subtitle": "Clean ears, gentle routine, calm pet. Artisan cosmetics of natural origin from Marbella.",
         "slug": "pet-ear-cleaner",
         "olfactiveFamily": "Neutral · Discreet",
         "momentOfUse": "Weekly care · Pet routine",
@@ -9727,7 +9727,7 @@
       },
       "fr": {
         "name": "Nettoyant Oreilles Animaux",
-        "subtitle": "Oreilles propres, routine douce, animal calme. Cosmétique naturelle artisanale de Marbella.",
+        "subtitle": "Oreilles propres, routine douce, animal calme. Cosmétique artisanale d'origine naturelle de Marbella.",
         "slug": "nettoyant-oreilles-animaux",
         "olfactiveFamily": "Neutre · Discret",
         "momentOfUse": "Soin hebdomadaire · Routine animale",
@@ -9765,7 +9765,7 @@
       },
       "de": {
         "name": "Ohrreiniger Haustiere",
-        "subtitle": "Saubere Ohren, sanfte Routine, ruhiges Tier — mit Teebaumöl 0,2%. Ohne Duftstoffe, neutraler pH. MAPA-Registrierung 12061-H. Natürlich und handwerklich aus Marbella.",
+        "subtitle": "Saubere Ohren, sanfte Routine, ruhiges Tier — mit Teebaumöl 0,2%. Ohne Duftstoffe, neutraler pH. MAPA-Registrierung 12061-H. Handwerklich natürlichen Ursprungs aus Marbella.",
         "slug": "ohrreiniger-haustiere",
         "olfactiveFamily": "Neutral · Dezent",
         "momentOfUse": "Wöchentliche Pflege · Tierroutine",
@@ -9798,7 +9798,7 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unser natürlicher Ohrreiniger für Haustiere entfernt Schmutz, Wachs und Ablagerungen aus den Ohren von Hunden und Katzen sanft und ohne Reizung. Die Formel mit Melaleuca Alternifolia-Öl (Teebaum) und Glycerin beruhigt und pflegt die empfindliche Ohrenhaut. In den Gehörgang einträufeln, kurz massieren und mit einem Watteball abtupfen. MAPA-registriert, dermatologisch getestet. 98% natürlicher Ursprung. Hergestellt von Hand in Marbella, Andalusien.",
+        "longDescription": "Unser natürlichen Ursprungs Ohrreiniger für Haustiere entfernt Schmutz, Wachs und Ablagerungen aus den Ohren von Hunden und Katzen sanft und ohne Reizung. Die Formel mit Melaleuca Alternifolia-Öl (Teebaum) und Glycerin beruhigt und pflegt die empfindliche Ohrenhaut. In den Gehörgang einträufeln, kurz massieren und mit einem Watteball abtupfen. MAPA-registriert, dermatologisch getestet. 98% natürlichen Ursprungs Ursprung. Hergestellt von Hand in Marbella, Andalusien.",
         "usage": "Einige Tropfen in den Gehörgang geben, die Ohrbasis sanft massieren und das Tier den Kopf schütteln lassen. Überschuss mit Gaze entfernen."
       },
       "it": {
@@ -9836,12 +9836,12 @@
         },
         "aiTranslation": true,
         "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
-        "longDescription": "Il nostro detergente auricolare naturale per animali domestici rimuove delicatamente sporco, cera e residui dalle orecchie di cani e gatti. La formula con olio di Melaleuca Alternifolia (tea tree) e glicerina calma e cura la cute auricolare sensibile. Instillare nel canale auricolare, massaggiare e tamponare con ovatta. Registrato MAPA, testato dermatologicamente. 98% di origine naturale.",
+        "longDescription": "Il nostro detergente auricolare di origine naturale per animali domestici rimuove delicatamente sporco, cera e residui dalle orecchie di cani e gatti. La formula con olio di Melaleuca Alternifolia (tea tree) e glicerina calma e cura la cute auricolare sensibile. Instillare nel canale auricolare, massaggiare e tamponare con ovatta. Registrato MAPA, testato dermatologicamente. 98% di origine naturale.",
         "usage": "Applicare alcune gocce nel condotto uditivo, massaggiare la base dell'orecchio e lasciare che l'animale scuota la testa. Rimuovere l'eccesso con una garza."
       },
       "nl": {
         "name": "Oorreiniger Huisdieren",
-        "subtitle": "Schone oren, milde routine, rustig huisdier — tea tree olie 0,2%. Parfumvrij, neutrale pH. MAPA-registratie 12061-H. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Schone oren, milde routine, rustig huisdier — tea tree olie 0,2%. Parfumvrij, neutrale pH. MAPA-registratie 12061-H. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "oorreiniger-huisdieren",
         "olfactiveFamily": "Neutraal · Discreet",
         "momentOfUse": "Wekelijkse zorg · Huisdierroutine",
@@ -9874,12 +9874,12 @@
         },
         "aiTranslation": true,
         "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
-        "longDescription": "Onze natuurlijke oorreiniger voor huisdieren verwijdert zacht vuil, was en afzettingen uit de oren van honden en katten. De formule met Melaleuca Alternifolia-olie (tea tree) en glycerine kalmeert de gevoelige oorhuid. Druppel in het gehoorkanaal, masseer en dep af met een wattenbol. MAPA-geregistreerd, dermatologisch getest. 98% van natuurlijke oorsprong.",
+        "longDescription": "Onze van natuurlijke oorsprong oorreiniger voor huisdieren verwijdert zacht vuil, was en afzettingen uit de oren van honden en katten. De formule met Melaleuca Alternifolia-olie (tea tree) en glycerine kalmeert de gevoelige oorhuid. Druppel in het gehoorkanaal, masseer en dep af met een wattenbol. MAPA-geregistreerd, dermatologisch getest. 98% van natuurlijke oorsprong.",
         "usage": "Een paar druppels in het gehoorkanaal aanbrengen, de basis van het oor masseren en het dier zijn hoofd laten schudden. Overtollig middel met gaas verwijderen."
       },
       "pt": {
         "name": "Limpador Ouvidos Animais",
-        "subtitle": "Ouvidos limpos, rotina suave, animal calmo. Cosmética natural artesanal de Marbella.",
+        "subtitle": "Ouvidos limpos, rotina suave, animal calmo. Cosmética artesanal de origem natural de Marbella.",
         "slug": "limpador-ouvidos-animais",
         "olfactiveFamily": "Neutro · Discreto",
         "momentOfUse": "Cuidado semanal · Rotina animal",
@@ -9947,7 +9947,7 @@
         "subtitle": "Limpiador ocular con complejo herbal de 6 plantas: manzanilla, hinojo, melisa y más.",
         "olfactiveFamily": "Sin fragancia · Completamente neutra",
         "momentOfUse": "Limpieza facial · Uso regular · Perros y Gatos",
-        "shortDescription": "Antiséptico, antiinflamatorio e inodoro. Para perros y gatos. 98% origen natural.",
+        "shortDescription": "Antiséptico, antiinflamatorio e inodoro. Para perros y gatos. 98% de origen natural.",
         "benefits": [
           "Complejo herbal de 6 plantas: antiséptico, antiinflamatorio y emoliente.",
           "Urea y Alantoína como hidratantes poderosos. Inodoro, incoloro. Para perros y gatos."
@@ -10055,13 +10055,13 @@
       },
       "de": {
         "name": "Augenreiniger Haustiere",
-        "subtitle": "Sanfte Reinigung für die empfindliche Augenpartie von Hunden und Katzen. 98% natürlich. MAPA-Registrierung 12049-H.",
+        "subtitle": "Sanfte Reinigung für die empfindliche Augenpartie von Hunden und Katzen. 98% natürlichen Ursprungs. MAPA-Registrierung 12049-H.",
         "slug": "augenreiniger-haustiere",
         "olfactiveFamily": "Neutral · Dezent",
         "momentOfUse": "Tägliche Pflege · Empfindliche Routine",
         "nameMain": "Augen",
         "nameAccent": "reiniger Haustiere",
-        "shortDescription": "Antiseptisch, entzündungshemmend und geruchlos. Für Hunde und Katzen. 98% natürlich gewonnen. MAPA-Registrierung 12049-H.",
+        "shortDescription": "Antiseptisch, entzündungshemmend und geruchlos. Für Hunde und Katzen. 98% natürlichen Ursprungs gewonnen. MAPA-Registrierung 12049-H.",
         "benefits": [
           "Complejo herbal de 6 plantas: antiséptico, antiinflamatorio y emoliente.",
           "Urea y Alantoína como hidratantes poderosos. Inodoro, incoloro. Para perros y gatos."
@@ -10088,12 +10088,12 @@
         },
         "aiTranslation": true,
         "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung.",
-        "longDescription": "Unser natürlicher Augenreiniger für Haustiere entfernt Augenausfluss und Tränenrückstände sanft bei Hunden und Katzen. Die wässrige Formel mit Kräuterextrakten (Foeniculum Vulgare, Humulus Lupulus, Viscum Album) beruhigt die empfindliche Augenpartie und hält sie sauber. Mit einem Watteball auf das geschlossene Auge auftragen, sanft reinigen. MAPA-registriert, dermatologisch getestet. 99% natürlicher Ursprung. Hergestellt von Hand in Marbella, Andalusien.",
+        "longDescription": "Unser natürlichen Ursprungs Augenreiniger für Haustiere entfernt Augenausfluss und Tränenrückstände sanft bei Hunden und Katzen. Die wässrige Formel mit Kräuterextrakten (Foeniculum Vulgare, Humulus Lupulus, Viscum Album) beruhigt die empfindliche Augenpartie und hält sie sauber. Mit einem Watteball auf das geschlossene Auge auftragen, sanft reinigen. MAPA-registriert, dermatologisch getestet. 99% natürlichen Ursprungs Ursprung. Hergestellt von Hand in Marbella, Andalusien.",
         "usage": "Einige Tropfen auf saubere Gaze geben und den Augenbereich sanft von innen nach außen reinigen."
       },
       "it": {
         "name": "Detergente Occhi Animali",
-        "subtitle": "Detersione delicata per la zona occhi sensibile di cani e gatti. 98% naturale. Registrazione MAPA 12049-H.",
+        "subtitle": "Detersione delicata per la zona occhi sensibile di cani e gatti. 98% di origine naturale. Registrazione MAPA 12049-H.",
         "slug": "detergente-occhi-animali",
         "olfactiveFamily": "Neutro · Discreto",
         "momentOfUse": "Cura quotidiana · Routine sensibile",
@@ -10126,12 +10126,12 @@
         },
         "aiTranslation": true,
         "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno.",
-        "longDescription": "Il nostro detergente oculare naturale per animali domestici rimuove delicatamente le secrezioni oculari e i residui lacrimali su cani e gatti. La formula acquosa con estratti erbali (Foeniculum Vulgare, Humulus Lupulus, Viscum Album) calma la delicata area perioculare. Applicare su un batuffolo di cotone sull'occhio chiuso, pulire con delicatezza. Registrato MAPA, testato dermatologicamente. 99% di origine naturale.",
+        "longDescription": "Il nostro detergente oculare di origine naturale per animali domestici rimuove delicatamente le secrezioni oculari e i residui lacrimali su cani e gatti. La formula acquosa con estratti erbali (Foeniculum Vulgare, Humulus Lupulus, Viscum Album) calma la delicata area perioculare. Applicare su un batuffolo di cotone sull'occhio chiuso, pulire con delicatezza. Registrato MAPA, testato dermatologicamente. 99% di origine naturale.",
         "usage": "Applicare alcune gocce su una garza pulita e pulire delicatamente il contorno dell'occhio dall'interno verso l'esterno."
       },
       "nl": {
         "name": "Oogreiniger Huisdieren",
-        "subtitle": "Milde reiniging voor de gevoelige oogcontour van honden en katten. 98% van natuurlijke oorsprong. MAPA-registratie 12049-H. 100% natuurlijk en ambachtelijk uit Marbella.",
+        "subtitle": "Milde reiniging voor de gevoelige oogcontour van honden en katten. 98% van natuurlijke oorsprong. MAPA-registratie 12049-H. Ambachtelijk en van natuurlijke oorsprong uit Marbella.",
         "slug": "oogreiniger-huisdieren",
         "olfactiveFamily": "Neutraal · Discreet",
         "momentOfUse": "Dagelijkse zorg · Gevoelige routine",
@@ -10164,7 +10164,7 @@
         },
         "aiTranslation": true,
         "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik.",
-        "longDescription": "Onze natuurlijke oogverzorging voor huisdieren verwijdert zacht oogvocht en tranen bij honden en katten. De waterige formule met kruidenextracten (Foeniculum Vulgare, Humulus Lupulus, Viscum Album) kalmeert de gevoelige oogstreek. Breng aan op een wattenbol op het gesloten oog en reinig voorzichtig. MAPA-geregistreerd, dermatologisch getest. 99% van natuurlijke oorsprong.",
+        "longDescription": "Onze van natuurlijke oorsprong oogverzorging voor huisdieren verwijdert zacht oogvocht en tranen bij honden en katten. De waterige formule met kruidenextracten (Foeniculum Vulgare, Humulus Lupulus, Viscum Album) kalmeert de gevoelige oogstreek. Breng aan op een wattenbol op het gesloten oog en reinig voorzichtig. MAPA-geregistreerd, dermatologisch getest. 99% van natuurlijke oorsprong.",
         "usage": "Een paar druppels op schoon gaas aanbrengen en voorzichtig rond het oog reinigen van binnen naar buiten."
       },
       "pt": {

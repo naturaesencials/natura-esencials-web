@@ -67,11 +67,11 @@
   "dualFeatured": {
     "personalLine": "Kosmetik · Hausformulierung",
     "personalBadge": "Ritual 01 · Kosmetik",
-    "personalDesc": "Shampoo, Conditioner, Seife und Körperlotion: die vollständige Pflegeroutine. Natürliche Formulierung mit Argan- und Olivenöl.",
+    "personalDesc": "Shampoo, Conditioner, Seife und Körperlotion: die vollständige Pflegeroutine. Formulierung natürlichen Ursprungs mit Argan- und Olivenöl.",
     "personalDescEmphasis": "tägliche Geste",
     "hogarLine": "Haushalt · makellose Küche",
     "hogarBadge": "Ritual 07 · Haushalt",
-    "hogarDesc": "Entfettungsmittel 99% natürlichen Ursprungs, Zitrus-Spülmittel und 97% natürlicher Allzweckreiniger. Die makellose Küche von innen nach außen.",
+    "hogarDesc": "Entfettungsmittel mit 99% natürlichen Ursprungs, Zitrus-Spülmittel und Allzweckreiniger mit 97% natürlichen Ursprungs. Die makellose Küche von innen nach außen.",
     "hogarDescEmphasis": "Ohne aggressive Sulfate"
   },
   "lineCosmetica": {
@@ -89,13 +89,13 @@
     "titleAccent2": "Kleidung, die Sie tragen.",
     "body": "Wir trennen nicht, was die Haut pflegt, von dem, was das Zuhause pflegt. Unsere ätherischen Öle, Extrakte und pflanzlichen Tenside sind in beiden Linien identisch — nur die Formulierung ändert sich. Eine Werkstatt, ein Anspruch.",
     "bodyEmphasis": "Eine Werkstatt, ein Anspruch.",
-    "imgAlt": "Natürliche botanische Inhaltsstoffe — handwerkliche Kosmetik von Natura Esencials"
+    "imgAlt": "Botanische Inhaltsstoffe natürlichen Ursprungs — handwerkliche Kosmetik von Natura Esencials"
   },
   "lineHogar": {
     "tag": "Hauptlinie · 4 Rituale",
     "title1": "Der",
     "titleAccent": "Haushalt.",
-    "intro": "Natürliche Seifen und Reiniger für Oberflächen, die wir täglich berühren. Mit demselben Anspruch, den wir an die Haut stellen: ohne aggressive Sulfate, ohne synthetische Düfte, ohne Giftstoffe für den, der mit Ihnen kocht.",
+    "intro": "Seifen und Reiniger natürlichen Ursprungs für Oberflächen, die wir täglich berühren. Mit demselben Anspruch, den wir an die Haut stellen: ohne aggressive Sulfate, ohne synthetische Düfte, ohne Giftstoffe für den, der mit Ihnen kocht.",
     "introEmphasis": "Mit demselben Anspruch, den wir an die Haut stellen"
   },
   "origen": {
@@ -167,8 +167,8 @@
   },
   "metadata": {
     "homeTitle": "Handwerkliche Kosmetik und Haushaltspflege",
-    "homeDescription": "Elf natürliche Rituale, von Hand in Marbella formuliert. Kosmetik und Haushaltsreiniger mit ISO-16128-Zertifizierung, andalusischen Botanicals und recyclebarer Verpackung.",
-    "homeKeywords": "Naturkosmetik, handgemachte Kosmetik, Haushaltspflege, Naturseife, Marbella, Andalusien, ISO 16128, natürliches Duschgel"
+    "homeDescription": "Elf Rituale natürlichen Ursprungs, von Hand in Marbella formuliert. Kosmetik und Haushaltsreiniger mit ISO-16128-Zertifizierung, andalusischen Botanicals und recyclebarer Verpackung.",
+    "homeKeywords": "Kosmetik natürlichen Ursprungs, handgemachte Kosmetik, Haushaltspflege, Naturseife, Marbella, Andalusien, ISO 16128, natürlichen Ursprungs Duschgel"
   },
   "product": {
     "sensation": "Empfindung",
@@ -206,26 +206,26 @@
       "kicker": "Kollektion",
       "title": "Handwerkliche",
       "accent": "Kosmetik",
-      "desc": "Handwerkliche und natürliche Kosmetik für den Alltag: Haar, Körper, Gesicht und Rasur in sinnlichen Pflegeprodukten. Drei Kollektionen — Basis, Für Sie und Für Ihn — nach ISO 16128 Protokoll formuliert, dermatologisch getestet und von Hand in Andalusien hergestellt. Mit pflanzlichen Rohstoffen aus Südeuropa.",
+      "desc": "Handwerkliche und natürlichen Ursprungs Kosmetik für den Alltag: Haar, Körper, Gesicht und Rasur in sinnlichen Pflegeprodukten. Drei Kollektionen — Basis, Für Sie und Für Ihn — nach ISO 16128 Protokoll formuliert, dermatologisch getestet und von Hand in Andalusien hergestellt. Mit pflanzlichen Rohstoffen aus Südeuropa.",
       "h1Qualifier": ""
     },
     "hogar": {
       "kicker": "Kollektion",
       "title": "Handwerkliche",
       "accent": "Haushaltspflege",
-      "desc": "Natürliche Haushaltspflege als Ritual: handwerkliche Reinigungsmittel verwandeln den Putzalltag in ein Gefühl des gepflegten Zuhauses. Waschmittel, Weichspüler, Spülmittel, Bodenreiniger, Badreiniger und Allzweckreiniger — alle mit pflanzlichen Tensiden, bis zu 99% natürlichen Inhaltsstoffen, biologisch abbaubar und ISO 16128 zertifiziert.",
+      "desc": "natürlichen Ursprungs Haushaltspflege als Ritual: handwerkliche Reinigungsmittel verwandeln den Putzalltag in ein Gefühl des gepflegten Zuhauses. Waschmittel, Weichspüler, Spülmittel, Bodenreiniger, Badreiniger und Allzweckreiniger — alle mit pflanzlichen Tensiden, bis zu 99% natürlichen Ursprungs Inhaltsstoffen, biologisch abbaubar und ISO 16128 zertifiziert.",
       "h1Qualifier": ""
     },
     "mascota": {
       "kicker": "Kollektion",
       "title": "Handwerkliche",
       "accent": "Tierpflege",
-      "desc": "Natürliche Tierpflege als Ritual: sanfte Pflege für Hunde und Katzen mit ruhiger Hygiene und Geborgenheit zu Hause. Shampoos, Ohrenpflege und Augenpflege mit 97-99% natürlichen Inhaltsstoffen, MAPA-registriert, dermatologisch getestet und hypoallergen — handgefertigt in Marbella, Andalusien.",
+      "desc": "natürlichen Ursprungs Tierpflege als Ritual: sanfte Pflege für Hunde und Katzen mit ruhiger Hygiene und Geborgenheit zu Hause. Shampoos, Ohrenpflege und Augenpflege mit 97-99% natürlichen Ursprungs Inhaltsstoffen, MAPA-registriert, dermatologisch getestet und hypoallergen — handgefertigt in Marbella, Andalusien.",
       "h1Qualifier": "",
       "comingSoonKicker": "Demnächst · UK",
       "comingSoonTitle": "Haustierpflege",
       "comingSoonAccent": "Coming Soon",
-      "comingSoonBody": "Wir bereiten unsere natürliche Pflegelinie für Hunde und Katzen für den britischen Markt vor. Abonnieren Sie unseren Newsletter, um beim Start informiert zu werden.",
+      "comingSoonBody": "Wir bereiten unsere natürlichen Ursprungs Pflegelinie für Hunde und Katzen für den britischen Markt vor. Abonnieren Sie unseren Newsletter, um beim Start informiert zu werden.",
       "comingSoonCTA": "Verfügbare Kosmetik ansehen",
       "comingSoonCTASecondary": "Zurück zur Startseite"
     }

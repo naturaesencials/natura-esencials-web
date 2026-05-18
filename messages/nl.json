@@ -45,13 +45,13 @@
   "hero": {
     "stampDate": "Lente · 2026",
     "stampOrigin": "Marbella · Andalusië",
-    "kicker": "Natuurlijke huidverzorging en huisverzorging",
+    "kicker": "Huidverzorging en huisverzorging van natuurlijke oorsprong",
     "titleLine1": "De",
     "titleAccent1": "huid",
     "titleLine2": "en het",
     "titleAccent2": "huis",
     "titleLine3": "met dezelfde hand verzorgen.",
-    "lede": "Elf rituelen om huid en huis te verzorgen, met de hand geformuleerd in ons atelier in Marbella. Natuurlijke cosmetica en huishoudzepen, vervaardigd met dezelfde zorg — Andalusische plantaardige oliën, ISO 16128-gecertificeerd, recyclebare verpakking.",
+    "lede": "Elf rituelen om huid en huis te verzorgen, met de hand geformuleerd in ons atelier in Marbella. Cosmetica en huishoudzepen van natuurlijke oorsprong, vervaardigd met dezelfde zorg — Andalusische plantaardige oliën, ISO 16128-gecertificeerd, recyclebare verpakking.",
     "ledeEmphasis": "dezelfde zorg",
     "marksCosmetica": "Huidverzorging",
     "marksCosmeticaCount": "{count} rituelen",
@@ -67,11 +67,11 @@
   "dualFeatured": {
     "personalLine": "Cosmetica · artisanale formulering",
     "personalBadge": "Ritueel 01 · Cosmetica",
-    "personalDesc": "Shampoo, conditioner, zeep en bodylotion: de complete vrouwelijke routine. Natuurlijke formulering met argaan- en olijfolie.",
+    "personalDesc": "Shampoo, conditioner, zeep en bodylotion: de complete vrouwelijke routine. Formulering van natuurlijke oorsprong met argaan- en olijfolie.",
     "personalDescEmphasis": "dagelijkse gebaar",
     "hogarLine": "Huishoud · vlekkeloze keuken",
     "hogarBadge": "Ritueel 07 · Huishoud",
-    "hogarDesc": "Ontvetter 99% van natuurlijke oorsprong, citrus afwasmiddel en 97% natuurlijke allesreiniger. De vlekkeloze keuken.",
+    "hogarDesc": "Ontvetter met 99% van natuurlijke oorsprong, citrus afwasmiddel en allesreiniger met 97% van natuurlijke oorsprong. De vlekkeloze keuken.",
     "hogarDescEmphasis": "Zonder agressieve sulfaten"
   },
   "lineCosmetica": {
@@ -89,13 +89,13 @@
     "titleAccent2": "kleding die je draagt.",
     "body": "We scheiden niet wat de huid verzorgt van wat het huis verzorgt. Onze etherische oliën, extracten en plantaardige surfactanten zijn in beide lijnen identiek — alleen de formulering verschilt. Eén atelier, één zorg.",
     "bodyEmphasis": "Eén atelier, één zorg.",
-    "imgAlt": "Natuurlijke botanische ingrediënten — ambachtelijke cosmetica van Natura Esencials"
+    "imgAlt": "Botanische ingrediënten van natuurlijke oorsprong — ambachtelijke cosmetica van Natura Esencials"
   },
   "lineHogar": {
     "tag": "Hoofdlijn · 4 rituelen",
     "title1": "Het",
     "titleAccent": "huis.",
-    "intro": "Natuurlijke zepen en reinigers voor de oppervlakken die we dagelijks aanraken. Met dezelfde zorg die we aan de huid besteden: zonder agressieve sulfaten, zonder synthetische geuren, zonder gifstoffen voor wie met je kookt.",
+    "intro": "Zepen en reinigers van natuurlijke oorsprong voor de oppervlakken die we dagelijks aanraken. Met dezelfde zorg die we aan de huid besteden: zonder agressieve sulfaten, zonder synthetische geuren, zonder gifstoffen voor wie met je kookt.",
     "introEmphasis": "Met dezelfde zorg die we aan de huid besteden"
   },
   "origen": {
@@ -152,7 +152,7 @@
     "submit": "Ontvangen"
   },
   "footer": {
-    "brandDesc": "Natuurlijke huidverzorging en huisverzorging, gemaakt in Marbella. Andalusië, Spanje.",
+    "brandDesc": "Huidverzorging en huisverzorging van natuurlijke oorsprong, gemaakt in Marbella. Andalusië, Spanje.",
     "colCosmetica": "Huidverzorging",
     "colHogar": "Huis",
     "colMascota": "Huisdier",
@@ -166,9 +166,9 @@
     "linkCookies": "Cookies"
   },
   "metadata": {
-    "homeTitle": "Natuurlijke huidverzorging en huisverzorging",
-    "homeDescription": "Elf natuurlijke rituelen, met de hand vervaardigd in Marbella. Cosmetica en huishoudreinigers met ISO 16128-certificering, Andalusische botanicals en recyclebare verpakking.",
-    "homeKeywords": "natuurlijke huidverzorging, ambachtelijke cosmetica, huisverzorging, natuurlijke zeep, Marbella, Andalusië, ISO 16128, natuurlijke douchegel"
+    "homeTitle": "Huidverzorging en huisverzorging van natuurlijke oorsprong",
+    "homeDescription": "Elf Rituelen van natuurlijke oorsprong, met de hand vervaardigd in Marbella. Cosmetica en huishoudreinigers met ISO 16128-certificering, Andalusische botanicals en recyclebare verpakking.",
+    "homeKeywords": "Huidverzorging van natuurlijke oorsprong, ambachtelijke cosmetica, huisverzorging, van natuurlijke oorsprong zeep, Marbella, Andalusië, ISO 16128, van natuurlijke oorsprong douchegel"
   },
   "product": {
     "sensation": "Sensatie",
@@ -206,26 +206,26 @@
       "kicker": "Collectie",
       "title": "Ambachtelijke",
       "accent": "cosmetica",
-      "desc": "Ambachtelijke cosmetica voor dagelijks gebruik: haar, lichaam, gezicht en scheren in zintuiglijke rituelen. Natuurlijk gecertificeerd, handgemaakt in Andalusië.",
+      "desc": "Ambachtelijke cosmetica voor dagelijks gebruik: haar, lichaam, gezicht en scheren in zintuiglijke rituelen. van natuurlijke oorsprong gecertificeerd, handgemaakt in Andalusië.",
       "h1Qualifier": ""
     },
     "hogar": {
       "kicker": "Collectie",
       "title": "Ambachtelijke",
       "accent": "huishoudverzorging",
-      "desc": "Natuurlijke huishoudverzorging als ritueel: schoonmaken omgezet in het gevoel van een verzorgd thuis. Reinigingsproducten met tot 99% van natuurlijke oorsprong.",
+      "desc": "van natuurlijke oorsprong huishoudverzorging als ritueel: schoonmaken omgezet in het gevoel van een verzorgd thuis. Reinigingsproducten met tot 99% van natuurlijke oorsprong.",
       "h1Qualifier": ""
     },
     "mascota": {
       "kicker": "Collectie",
       "title": "Ambachtelijke",
       "accent": "huisdierverzorging",
-      "desc": "Natuurlijke huisdierverzorging als ritueel: shampoo, oogverzorging en oorreiniger geformuleerd voor de gevoelige huid van honden en katten. Zonder agressieve middelen, met 97-99% van natuurlijke oorsprong, dermatologisch getest en MAPA-geregistreerd. Met de hand gemaakt in Marbella, Andalusië.",
+      "desc": "van natuurlijke oorsprong huisdierverzorging als ritueel: shampoo, oogverzorging en oorreiniger geformuleerd voor de gevoelige huid van honden en katten. Zonder agressieve middelen, met 97-99% van natuurlijke oorsprong, dermatologisch getest en MAPA-geregistreerd. Met de hand gemaakt in Marbella, Andalusië.",
       "h1Qualifier": "",
       "comingSoonKicker": "Binnenkort · UK",
       "comingSoonTitle": "Huisdierverzorging",
       "comingSoonAccent": "Coming Soon",
-      "comingSoonBody": "We bereiden onze natuurlijke verzorgingslijn voor honden en katten voor de Britse markt voor. Abonneer u op onze nieuwsbrief om als eerste op de hoogte te zijn.",
+      "comingSoonBody": "We bereiden onze van natuurlijke oorsprong verzorgingslijn voor honden en katten voor de Britse markt voor. Abonneer u op onze nieuwsbrief om als eerste op de hoogte te zijn.",
       "comingSoonCTA": "Bekijk beschikbare cosmetica",
       "comingSoonCTASecondary": "Terug naar home"
     }

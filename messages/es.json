@@ -51,7 +51,7 @@
     "titleLine2": "y la",
     "titleAccent2": "casa",
     "titleLine3": "con la misma mano.",
-    "lede": "Once rituales para cuidar la piel y el hogar, formulados a mano en nuestro taller de Marbella. Cosmética natural y jabones para el hogar elaborados con la misma exigencia — aceites vegetales andaluces, certificación ISO 16128, envase reciclable.",
+    "lede": "Once rituales para cuidar la piel y el hogar, formulados a mano en nuestro taller de Marbella. Cosmética de origen natural y jabones para el hogar elaborados con la misma exigencia — aceites vegetales andaluces, certificación ISO 16128, envase reciclable.",
     "ledeEmphasis": "la misma exigencia",
     "marksCosmetica": "Cosmética",
     "marksCosmeticaCount": "{count} rituales",
@@ -89,7 +89,7 @@
     "titleAccent2": "ropa que vistes.",
     "body": "No separamos lo que cuida la piel de lo que cuida la casa. Nuestros aceites esenciales, extractos y tensioactivos vegetales son idénticos en ambas líneas — solo cambia la formulación. Un mismo taller, una misma exigencia.",
     "bodyEmphasis": "Un mismo taller, una misma exigencia.",
-    "imgAlt": "Ingredientes botánicos naturales — cosmética artesanal de Natura Esencials"
+    "imgAlt": "Ingredientes botánicos de origen natural — cosmética artesanal de Natura Esencials"
   },
   "lineHogar": {
     "tag": "Línea principal · 4 rituales",
@@ -174,7 +174,7 @@
     "sensation": "Sensación",
     "olfactive": "Familia olfativa",
     "moment": "Momento de uso",
-    "isoNatural": "% origen natural",
+    "isoNatural": "% de origen natural",
     "ph": "pH",
     "pao": "Caducidad tras apertura",
     "paoUnit": "meses",
@@ -206,26 +206,26 @@
       "kicker": "Línea",
       "title": "Cosmética artesanal",
       "accent": "esencial",
-      "desc": "Cosmética artesanal natural para el día a día: cabello, cuerpo, rostro y afeitado en rituales sensoriales. Tres colecciones — Básica, Para Ella y Para Él — formuladas con norma ISO 16128 y fabricadas a mano en Andalucía.",
+      "desc": "Cosmética artesanal de origen natural para el día día: cabello, cuerpo, rostro y afeitado en rituales sensoriales. Tres colecciones — Básica, Para Ella y Para Él — formuladas con norma ISO 16128 y fabricadas a mano en Andalucía.",
       "h1Qualifier": ""
     },
     "hogar": {
       "kicker": "Línea",
       "title": "Rituales del hogar",
       "accent": "esencial",
-      "desc": "Rituales del hogar natural: cuidado limpieza natural transformada en sensación de casa cuidada. Detergente, suavizante, lavavajillas, limpiasuelos, limpiador de baños, desengrasante y multisuperficies — todos con tensioactivos vegetales, hasta 99% de origen natural, biodegradables y certificados ISO 16128.",
+      "desc": "Rituales del hogar de origen natural: cuidado limpieza de origen natural transformada en sensación de casa cuidada. Detergente, suavizante, lavavajillas, limpiasuelos, limpiador de baños, desengrasante y multisuperficies — todos con tensioactivos vegetales, hasta 99% de origen natural, biodegradables y certificados ISO 16128.",
       "h1Qualifier": ""
     },
     "mascota": {
       "kicker": "Línea",
       "title": "Rituales para",
       "accent": "mascotas",
-      "desc": "Rituales para mascotas: cuidado suave y natural para perros y gatos, higiene tranquila y rituales naturales. 97% de origen natural, artesanal desde Andalucía.",
+      "desc": "Rituales para mascotas: cuidado suave y de origen natural para perros y gatos, higiene tranquila y rituales de origen natural. 97% de origen natural, artesanal desde Andalucía.",
       "h1Qualifier": "",
       "comingSoonKicker": "Próximamente · UK",
       "comingSoonTitle": "Cuidado para mascotas",
       "comingSoonAccent": "Coming Soon",
-      "comingSoonBody": "Estamos preparando nuestra línea de cuidado natural para perros y gatos para Reino Unido. Si quieres ser de los primeros en recibirla, suscríbete a nuestra newsletter.",
+      "comingSoonBody": "Estamos preparando nuestra línea de cuidado de origen natural para perros y gatos para Reino Unido. Si quieres ser de los primeros en recibirla, suscríbete a nuestra newsletter.",
       "comingSoonCTA": "Ver cosmética disponible",
       "comingSoonCTASecondary": "Volver al inicio"
     }
