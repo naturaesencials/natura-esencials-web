@@ -73,7 +73,12 @@ export function LineMascota({ region, locale }: Props) {
           );
 
           return href ? (
-            <Link key={r.id} href={href} aria-label={r.names[locale].full} className={`${cardCls} transition-transform duration-500`}>{inner}</Link>
+            <div key={r.id} className={`${cardCls} transition-transform duration-500`}>
+              <Link href={href} aria-label={r.names[locale].full} className="absolute inset-0 z-[2] focus-visible:outline focus-visible:outline-2 focus-visible:outline-bg/60">
+                <span className="sr-only">{r.names[locale].full}</span>
+              </Link>
+              {inner}
+            </div>
           ) : (
             <div key={r.id} className={cardCls}>{inner}</div>
           );

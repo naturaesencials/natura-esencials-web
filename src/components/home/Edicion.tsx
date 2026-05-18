@@ -99,9 +99,12 @@ export function Edicion({ region, locale }: Props) {
           );
 
           return href ? (
-            <Link key={ritual.id} href={href} className="group transition-opacity hover:opacity-90">
+            <div key={ritual.id} className="group relative transition-opacity hover:opacity-90">
+              <Link href={href} aria-label={ritual.names[locale].full} className="absolute inset-0 z-[2] focus-visible:outline focus-visible:outline-2 focus-visible:outline-ink/40">
+                <span className="sr-only">{ritual.names[locale].full}</span>
+              </Link>
               {inner}
-            </Link>
+            </div>
           ) : (
             <div key={ritual.id}>{inner}</div>
           );

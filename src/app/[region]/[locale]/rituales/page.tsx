@@ -106,7 +106,14 @@ function RitualCard({
   const name  = ritual.names[locale];
 
   const content = (
-    <div className="group relative flex flex-col overflow-hidden rounded-sm bg-paper border border-rule transition-shadow hover:shadow-md">
+    <div className="group relative flex flex-col overflow-hidden rounded-sm bg-paper border border-rule transition-shadow hover:shadow-md cursor-pointer">
+      {/* Overlay link — anchor text = solo el nombre completo del ritual */}
+      {href && (
+        <Link href={href} aria-label={name.full} className="absolute inset-0 z-[1] rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-ink/40">
+          <span className="sr-only">{name.full}</span>
+        </Link>
+      )}
+
       {/* Imagen */}
       <div className="relative aspect-[4/3] overflow-hidden">
         <Image
@@ -156,7 +163,7 @@ function RitualCard({
     </div>
   );
 
-  return href ? <Link href={href} aria-label={name.full}>{content}</Link> : <div>{content}</div>;
+  return <div>{content}</div>;
 }
 
 // ─── Page ─────────────────────────────────────────────────────────────────────

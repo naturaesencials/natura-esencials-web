@@ -411,7 +411,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                     <p className="mt-4 text-body-fluid text-bg/80">{pt.promise}</p>
                   )}
                   <Link href={packHref} className="mt-6 inline-block border border-bg/30 px-5 py-2.5 text-[11px] uppercase tracking-[0.2em] hover:bg-bg/10 transition-colors">
-                    {pt.nameMain || pt.name} →
+                    {pt.nameMain || pt.name}{pt.nameAccent ? ` ${pt.nameAccent}` : ''} →
                   </Link>
                 </div>
               );

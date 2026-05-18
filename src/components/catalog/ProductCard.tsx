@@ -57,11 +57,16 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
     : (translation?.nameMain || translation?.name || item.id);
 
   return (
-    <Link
-      href={linkHref}
-      aria-label={ariaLabel}
-      className="group flex flex-col bg-paper border border-ink/8 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 hover:border-ink/15"
-    >
+    <article className="group relative flex flex-col bg-paper border border-ink/8 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 hover:border-ink/15 cursor-pointer">
+      {/* Overlay link — anchor text = solo el nombre del producto (corto y específico) */}
+      <Link
+        href={linkHref}
+        aria-label={ariaLabel}
+        className="absolute inset-0 z-[1] rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-ink/40"
+      >
+        <span className="sr-only">{ariaLabel}</span>
+      </Link>
+
       {/* Imagen */}
       <div className="relative aspect-square bg-stone-50 overflow-hidden">
         {/* Placeholder si la imagen aún no existe */}
@@ -145,6 +150,6 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
           </span>
         </div>
       </div>
-    </Link>
+    </article>
   );
 }
