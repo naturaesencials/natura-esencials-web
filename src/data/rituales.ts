@@ -198,7 +198,7 @@ export const rituales: Ritual[] = [
   {
     id: 6, number: '06', line: 'hogar',
     shopifyHandle: 'ritual-refugio',
-    availableIn: ['eu'],
+    availableIn: ['eu', 'uk'],
     slugs: {
       es: 'refugio', en: 'shelter', fr: 'refuge',
       de: 'zuflucht', it: 'rifugio', nl: 'toevlucht', pt: 'refugio',

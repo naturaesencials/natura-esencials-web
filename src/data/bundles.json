@@ -1262,7 +1262,8 @@
       "line": "hogar",
       "shopifyHandle": "ritual-refugio",
       "availableIn": [
-        "eu"
+        "eu",
+        "uk"
       ],
       "sensation": "Refugio",
       "includes": [
