@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { buildPath } from '@/lib/i18n/paths';
@@ -18,6 +19,29 @@ export function MobileMenu({ open, onClose, region, locale, onOpenRegionSelector
   const tc = useTranslations('common');
   const router = useRouter();
 
+  // Dynamically measure the header's actual bottom in the viewport so the
+  // menu padding-top adapts to whatever banners (RegionBanner on first
+  // visit, etc.) push the header further down. Without this, the menu's
+  // first link can get hidden behind the header when stacked banners are
+  // visible (the static 108px padding is enough for the header alone but
+  // not for header + 40px banner above it).
+  const [headerBottom, setHeaderBottom] = useState<number | null>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const measure = () => {
+      const h = document.querySelector('header');
+      if (h) setHeaderBottom(h.getBoundingClientRect().bottom);
+    };
+    measure();
+    window.addEventListener('resize', measure);
+    window.addEventListener('scroll', measure, { passive: true });
+    return () => {
+      window.removeEventListener('resize', measure);
+      window.removeEventListener('scroll', measure);
+    };
+  }, [open]);
+
   // Navigate then close. Using router.push() instead of <Link onClick={onClose}>
   // prevents a race condition where onClose's setState would unmount the link
   // before its native click navigation registered on mobile Safari.
@@ -29,6 +53,13 @@ export function MobileMenu({ open, onClose, region, locale, onOpenRegionSelector
     setTimeout(onClose, 0);
   };
 
+  // Padding-top resolves to: header's measured bottom + 32px breathing room,
+  // OR a safe fallback of (safe-area + 156px) covering worst-case banner stack
+  // (RegionBanner 40 + Header 76 + extra cushion) before measurement runs.
+  const paddingTop = headerBottom !== null
+    ? `${Math.round(headerBottom + 32)}px`
+    : 'calc(env(safe-area-inset-top, 0px) + 156px)';
+
   return (
     <div
       id="mobile-menu"
@@ -36,13 +67,7 @@ export function MobileMenu({ open, onClose, region, locale, onOpenRegionSelector
       className={`fixed inset-0 z-[800] flex flex-col gap-8 overflow-y-auto bg-bg px-pad-x pb-10 transition-[opacity,transform] duration-300 lg:hidden ${
         open ? 'pointer-events-auto translate-y-0 opacity-100' : 'pointer-events-none -translate-y-2 opacity-0'
       }`}
-      style={{
-        // Push content below the header with a generous gap that also
-        // accounts for the iOS notch/dynamic-island safe area. The header
-        // is ~76px tall; we leave 32px+ clearance so the first link can
-        // never overlap the hamburger/close button on the left.
-        paddingTop: 'calc(env(safe-area-inset-top, 0px) + 108px)',
-      }}
+      style={{ paddingTop }}
     >
       <nav className="flex flex-col border-t border-ink/10">
         {[
