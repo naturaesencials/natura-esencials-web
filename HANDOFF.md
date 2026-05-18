@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 17/05/2026 — Sesión 10 SEO completada.
+> Actualizado: 18/05/2026 — Sesión 12 SEO completada.
 
 ---
 
@@ -170,6 +170,13 @@ Sesión 6 (may 17) — reporte PDF recibido:
   - Content:      66% (+14%)  ← mejorado
   Overall: 82% (+17%)
   Issues principales: 209 H1 too short, 35 meta titles, 7 home headings
+Sesión 12 (may 18) — último crawl recibido:
+  - Tech & Meta:  99%   ← excelente
+  - Structure:    78% (+5%) ← en mejora
+  - Content:      72%   ← en mejora
+  Overall: 83%
+  Issues corregidos: 33 identical anchor texts, 40 anchor too long DE
+  Resultado esperado próximo crawl: Structure ≥85%, anchor issues → 0
 ```
 
 ### Causa raíz de regresiones (sesión 4→5)
@@ -504,6 +511,8 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 | 8 | 17 may 2026 | 1 | 81 fichas DE/IT/NL: subtitle+shortDesc+longDesc expandidos ≥100 chars |
 | 9 | 17 may 2026 | 1 | Content SEO: NL typo, bundle qualifiers, catalog/ritual/origen/blog/contacto fixes |
 | 10 | 17 may 2026 | 1 | Competing pages, cookies paragraphs, FAQ DE, blog/contacto completion |
+| 11 | 17 may 2026 | 1 | Structure SEO report fixes (sesión anterior) |
+| 12 | 18 may 2026 | 1 | Overlay link pattern en ProductCard/RitualCard/LineCosmetica/LineHogar/LineMascota/Edicion/DualFeatured; anchor CTA ProductDetail usa nameMain+nameAccent; bundles.json ritual-refugio nameMain FR/IT/NL corregido |
 
 ---
 
