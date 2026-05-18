@@ -22,8 +22,11 @@ export async function GET(req: NextRequest) {
   const region = (searchParams.get('region') || 'uk') as Region;
   const handle = searchParams.get('handle') || '2-in-1-shampoo';
 
-  const domain = process.env[`SHOPIFY_${region.toUpperCase()}_DOMAIN`] || '';
-  const token  = process.env[`SHOPIFY_${region.toUpperCase()}_STOREFRONT_TOKEN`] || '';
+  const domain      = process.env[`SHOPIFY_${region.toUpperCase()}_DOMAIN`] || '';
+  const privateTok  = process.env[`SHOPIFY_${region.toUpperCase()}_PRIVATE_TOKEN`] || '';
+  const publicTok   = process.env[`SHOPIFY_${region.toUpperCase()}_STOREFRONT_TOKEN`] || '';
+  const token       = privateTok || publicTok;
+  const isPrivate   = !!privateTok;
 
   const result: Record<string, unknown> = {
     region,
@@ -31,9 +34,11 @@ export async function GET(req: NextRequest) {
     env: {
       domain_present:    !!domain,
       domain_value:      domain,
-      token_present:     !!token,
+      public_token_set:  !!publicTok,
+      private_token_set: !!privateTok,
+      using_token_type:  isPrivate ? 'private' : 'public',
       token_length:      token.length,
-      token_prefix:      token ? token.slice(0, 4) + '...' : null,
+      token_prefix:      token ? token.slice(0, 6) + '...' : null,
     },
   };
 
@@ -42,14 +47,16 @@ export async function GET(req: NextRequest) {
     return NextResponse.json(result, { status: 200 });
   }
 
+  const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+  if (isPrivate) {
+    headers['Shopify-Storefront-Private-Token'] = token;
+  } else {
+    headers['X-Shopify-Storefront-Access-Token'] = token;
+  }
+
   const client = new GraphQLClient(
     `https://${domain}/api/2025-01/graphql.json`,
-    {
-      headers: {
-        'X-Shopify-Storefront-Access-Token': token,
-        'Content-Type': 'application/json',
-      },
-    },
+    { headers },
   );
 
   // Test 1: get shop info (no @inContext, no product handle) — just verifies the token works

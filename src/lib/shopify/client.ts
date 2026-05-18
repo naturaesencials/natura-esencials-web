@@ -10,9 +10,20 @@ import { shopifyLanguageMap, shopifyCountryByRegion } from '@/lib/i18n/config';
  * - UK:  SHOPIFY_UK_DOMAIN + SHOPIFY_UK_STOREFRONT_TOKEN
  *
  * Variables opcionales:
+ * - SHOPIFY_{REGION}_PRIVATE_TOKEN → si está presente, se usa como
+ *   Private access token de Shopify (header `Shopify-Storefront-Private-Token`).
+ *   Si NO está, se usa SHOPIFY_{REGION}_STOREFRONT_TOKEN como Public access token
+ *   (header `X-Shopify-Storefront-Access-Token`).
  * - SHOPIFY_UK_CHECKOUT_DOMAIN  → dominio personalizado para checkout UK
  *   (p.ej. shop.naturaesencials.co.uk). Si no está definido, usa SHOPIFY_UK_DOMAIN.
  * - NEXT_PUBLIC_UK_LIVE=true    → activa la región UK en la web (quita "Coming soon")
+ *
+ * Nota sobre tokens:
+ * - El Public access token (header `X-Shopify-Storefront-Access-Token`) viene del
+ *   Headless storefront → "Public access tokens" y funciona client+server.
+ * - El Private access token (header `Shopify-Storefront-Private-Token`) viene del
+ *   mismo sitio → "Private access tokens" y SOLO funciona server-side, con
+ *   rate limits más altos y acceso a productos no publicados al canal.
  */
 
 const API_VERSION = '2025-01';
@@ -20,20 +31,22 @@ const API_VERSION = '2025-01';
 interface ShopifyConfig {
   domain: string;
   token: string;
+  isPrivate: boolean;
 }
 
 function getShopifyConfig(region: Region): ShopifyConfig {
-  if (region === 'eu') {
-    const domain = process.env.SHOPIFY_EU_DOMAIN;
-    const token  = process.env.SHOPIFY_EU_STOREFRONT_TOKEN;
-    if (!domain || !token) throw new ShopifyNotConfiguredError('eu');
-    return { domain, token };
-  }
-  // UK
-  const domain = process.env.SHOPIFY_UK_DOMAIN;
-  const token  = process.env.SHOPIFY_UK_STOREFRONT_TOKEN;
-  if (!domain || !token) throw new ShopifyNotConfiguredError('uk');
-  return { domain, token };
+  const prefix = `SHOPIFY_${region.toUpperCase()}`;
+  const domain      = process.env[`${prefix}_DOMAIN`];
+  const privateTok  = process.env[`${prefix}_PRIVATE_TOKEN`];
+  const publicTok   = process.env[`${prefix}_STOREFRONT_TOKEN`];
+
+  if (!domain) throw new ShopifyNotConfiguredError(region);
+
+  // Private token tiene prioridad (mejor rate limits, server-side)
+  if (privateTok) return { domain, token: privateTok, isPrivate: true };
+  if (publicTok)  return { domain, token: publicTok,  isPrivate: false };
+
+  throw new ShopifyNotConfiguredError(region);
 }
 
 export class ShopifyNotConfiguredError extends Error {
@@ -48,13 +61,20 @@ export class ShopifyNotConfiguredError extends Error {
 }
 
 export function getShopifyClient(region: Region): GraphQLClient {
-  const { domain, token } = getShopifyConfig(region);
-  return new GraphQLClient(`https://${domain}/api/${API_VERSION}/graphql.json`, {
-    headers: {
-      'X-Shopify-Storefront-Access-Token': token,
-      'Content-Type': 'application/json',
-    },
-  });
+  const { domain, token, isPrivate } = getShopifyConfig(region);
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+  };
+  // Private tokens require a different header than public tokens
+  if (isPrivate) {
+    headers['Shopify-Storefront-Private-Token'] = token;
+  } else {
+    headers['X-Shopify-Storefront-Access-Token'] = token;
+  }
+  return new GraphQLClient(
+    `https://${domain}/api/${API_VERSION}/graphql.json`,
+    { headers },
+  );
 }
 
 export function buildContext(region: Region, locale: Locale) {
