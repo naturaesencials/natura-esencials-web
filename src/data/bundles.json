@@ -1198,14 +1198,14 @@
       },
       "fr": {
         "name": "Rituel Caresse",
-        "subtitle": "Le rituel soin textile complet aux ingrédients naturels. Détergent à la lavande et adoucissant élégant inclus.",
+        "subtitle": "Le rituel complet pour le linge — lessive lavande, assouplissant élégant et détachant naturel en un seul pack.",
         "slug": "caresse",
         "promise": "Des vêtements doux, naturellement.",
         "aiTranslation": true,
         "nameMain": "Rituel",
         "nameAccent": "Caresse",
-        "shortDescription": "Lessive, adoucissant et détachant : le soin textile complet aux ingrédients d'origine naturelle.",
-        "longDescription": "Le Rituel Caresse combine nettoyage doux, adoucissement et détachage pour un soin textile complet.",
+        "shortDescription": "Lessive naturelle à la lavande, assouplissant floral et détachant végétal : les trois produits essentiels pour une lessive douce et parfumée. Formules à 95-97% d'origine naturelle, biodégradables.",
+        "longDescription": "Le Rituel Caresse réunit trois produits naturels pour prendre soin de votre linge avec douceur : une lessive concentrée à la lavande classique, un assouplissant à la lavande douce et élégante, et un détachant aux tensioactifs végétaux. Ensemble, ils nettoient efficacement, assouplissent et laissent un parfum naturel persistant sur chaque tissu. Toutes les formules sont biodégradables, sans produits chimiques agressifs, adaptées à la peau sensible et aux foyers avec enfants et animaux.",
         "story": "Le détergent à la lavande classique et l'adoucissant élégant : vos vêtements ressortent propres, doux et subtilement parfumés."
       },
       "de": {

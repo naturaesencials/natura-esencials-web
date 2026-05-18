@@ -44,7 +44,7 @@ const C: Record<string, {
   es: {
     kicker: 'Marbella · Andalucía · desde 2021',
     h1a: 'Hecho a mano,', h1b: 'con criterio.',
-    body0: 'Natura Esencials nace en Marbella — hecha a mano, con criterio: los productos de cuidado personal y del hogar pueden ser naturales, eficaces y fabricados cerca de ti.',
+    body0: 'Hecho a mano, con criterio. Natura Esencials nace en Marbella: los productos de cuidado personal y del hogar pueden ser naturales, eficaces y fabricados cerca de ti.',
     s1t: 'Quiénes somos',
     s1b: 'Somos un obrador artesanal en el corazón de la Costa del Sol. Desde 2021 formulamos y fabricamos nuestros productos de cosmética natural y limpieza del hogar en nuestro taller de Marbella. Cada lote se elabora manualmente siguiendo fichas técnicas propias y protocolos de calidad exigentes. No somos una marca de distribución: fabricamos lo que vendemos.',
     s2t: 'Cómo fabricamos',
