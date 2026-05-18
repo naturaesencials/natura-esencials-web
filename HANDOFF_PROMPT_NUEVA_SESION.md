@@ -5,11 +5,11 @@
 
 ## CONTEXTO DEL PROYECTO
 
-Eres Claude trabajando autónomamente en el SEO de **Natura Esencials**, marca de cosmética artesanal natural con sede en Marbella. Llevas 11 sesiones trabajando en este proyecto. Tu objetivo actual: resolver todos los issues del reporte Seobility para maximizar el score SEO.
+Eres Claude trabajando autónomamente en el SEO y desarrollo de **Natura Esencials**, marca de cosmética artesanal natural con sede en Marbella. Llevas 12 sesiones trabajando en este proyecto. Tu objetivo actual: resolver issues SEO restantes y completar la integración UK Shopify.
 
 **Web:** https://www.naturaesencials.com  
 **Stack:** Next.js 14.2 App Router + next-intl (7 locales: es/en/fr/de/it/nl/pt) + Vercel  
-**Páginas estáticas:** 761 páginas generadas en build  
+**Páginas estáticas:** 656 páginas generadas en build (eran 761 antes de filtrar UK)  
 **Empresa:** Albion Wealth Services Ltd — 66 Paul Street, EC2A 4NA, London
 
 ---
@@ -57,7 +57,7 @@ git config user.name "SEO Bot"
 # 4. OBLIGATORIO antes de cada push — 0 errores
 npm run build
 # → ✓ Compiled successfully
-# → ✓ Generating static pages (761/761)
+# → ✓ Generating static pages (656/656)
 
 # 5. Commit + push
 git add -A
@@ -79,7 +79,7 @@ Content:       69%  ⚠️  (mejoró desde 52%, hay fixes pendientes por indexar
 Overall:       81%  (subió desde 65%)
 ```
 
-### Commits realizados (sesiones 6-11)
+### Commits realizados (sesiones 6-12)
 | Sesión | Commit | Descripción |
 |--------|--------|-------------|
 | 6 | f1c1391 | H1 too short + meta titles + shortDescs + NL typo |
@@ -88,6 +88,11 @@ Overall:       81%  (subió desde 65%)
 | 9 | 28783ed | Content SEO: NL qualifier typo, bundle qualifiers, catalog/ritual/origen/blog/contacto |
 | 10 | 1f4cd56 | Competing pages, cookies paragraphs, FAQ DE, blog completion |
 | 11 | 4873177 | Structure: CTA único rituales, nofollow WhatsApp, ProductCard aria-label, 13 redirects |
+| 12a | ae1a86d | UK filter: 20 productos + 4 bundles a EU-only (líneas hombre/mujer/mascota) |
+| 12b | 79cfdcf | Ritual refugio añadido a UK availability |
+| 12c | d57e342 | H1 keywords in body (68 productos + 8 bundles + 9 catálogos + 7 FAQ) + internal crosslinks "Más productos de la línea" |
+| 12d | c1dbeb9 | UK Coming Soon en /mascota + sync rituales.ts (5 rituales expandidos a uk) para que UK landing muestre los 8 rituales reales |
+| 12e | 0d75b86 | UK Shopify connection: shopifyHandleUK + handlesUK + resolveShopifyHandle/resolveBundleHandles helpers (15 productos + 11 bundles mapeados) |
 
 ---
 
@@ -125,22 +130,83 @@ Overall:       81%  (subió desde 65%)
 - ShareButtons.tsx + WhatsAppButton.tsx: `rel="nofollow noopener noreferrer"`
 - ProductCard.tsx: `aria-label={ariaLabel}` — anchor limitado a nombre producto
 - rituales.ts: 13 slugs actualizados a canonical (fulfillment-300, impeccable-kitchen, etc.)
+- **Internal crosslinks (sesión 12c):** ProductDetail.tsx ahora muestra sección "Más productos de esta línea" con hasta 8 links a otros productos visibles + link "Ver toda la línea". 7 messages files actualizados con `moreFromLineTitle` y `viewAllLine`.
+
+### UK Store integration (sesión 12) — NUEVO
+- **Filtrado por región:** 20 productos (hombre/mujer/mascota) y 4 bundles (para-ella, para-el, mimo-canino, gato-zen) excluidos de UK
+- **rituales.ts sincronizado** con bundles.json: 5 rituales (rendimiento, cocina, vajilla, caricia, baño-impecable) expandidos a `['eu','uk']` + refugio añadido a UK
+- **UK /mascota → Coming Soon:** nueva sección con CTAs a /cosmetica y home cuando 0 productos en la región. 7 nuevas claves i18n en catalogPages.mascota (comingSoonKicker/Title/Accent/Body/CTA/CTASecondary)
+- **UK Shopify Storefront API connection:** 
+  - Añadido campo `shopifyHandleUK` a Product/Bundle types
+  - Añadido `handlesUK` para bundles multi-formato
+  - 15 productos + 11 bundles mapeados a sus handles UK reales (descubiertos vía `natura-esencials.myshopify.com/products.json`)
+  - Helpers `resolveShopifyHandle(item, region)` y `resolveBundleHandles(bundle, region)` exportados desde `@/data`
+  - BuyButton/MultiFormatBuyButton/ReviewsWidget usan resolvers
+  - **Mapeo UK ↔ EU (productos):**
+    ```
+    champu-2-en-1            -> 2-in-1-shampoo
+    acondicionador-capilar   -> hair-conditioner
+    jabon-manos-cuerpo       -> hand-and-body-soap
+    body-milk                -> body-milk (same)
+    total-body-wash          -> total-body-wash (same)
+    detergente-ropa          -> laundry-detergent
+    suavizante-ropa          -> fabric-softener
+    lavavajillas-manual      -> hand-washing-up-liquid
+    lavavajillas-maquina     -> machine-dishwasher-detergent
+    abrillantador            -> dishwasher-rinse-aid
+    limpiasuelos             -> floor-cleaner
+    limpiador-banos          -> bathroom-cleaner
+    desengrasante            -> degreaser
+    multisuperficies         -> multi-surface-cleaner
+    limpiacristales          -> glass-cleaner
+    ```
+  - **Mapeo UK ↔ EU (bundles):**
+    ```
+    ritual-plenitud-300/1l       -> ritual-wholeness-{300-ml,1-ltr}
+    ritual-ducha-perfecta-300/1l -> ritual-perfect-shower-{300-ml,1-ltr}
+    ritual-rendimiento-300/1l    -> ritual-performance-{300-ml,1-ltr}
+    ritual-vajilla-perfecta      -> ritual-perfect-dishes
+    ritual-bano-impecable        -> ritual-impeccable-bathroom
+    ritual-cocina-impecable      -> ritual-impeccable-kitchen
+    ritual-caricia               -> ritual-caress
+    ritual-refugio               -> ritual-sanctuary
+    ```
 
 ---
 
 ## 🔴 PENDIENTES IDENTIFICADOS (ordenados por impacto)
 
+### CRÍTICO — Carlos debe hacer en Shopify UK admin
+**0. UK Shopify Storefront API: variants vacías**
+La web está correctamente mapeada a los handles UK (commit 12e) pero el endpoint `/api/shopify/variants?handle=2-in-1-shampoo&region=uk` sigue devolviendo `variants: []`. La estructura existe (`products.json` público lo confirma) pero la **Storefront API** no los ve.
+
+**Diagnóstico:** los productos UK no están publicados en el sales channel que usa la Storefront API.
+
+**Acción Carlos (Shopify UK admin → `natura-esencials.myshopify.com/admin`):**
+1. **Sales channels → Headless** (o crear uno si no existe)
+2. Para cada uno de los 26 productos UK: **Pestaña Channels → Available on → activar "Headless"** (o el canal que use el Storefront token)
+3. **Configurar precios en GBP** para todas las variantes (actualmente todas a £0.00 — verificado vía products.json)
+4. **Bulk fix:** seleccionar todos los productos → "Make available in" → seleccionar el canal correcto
+
+**Cómo verificar después:**
+```bash
+curl -s "https://www.naturaesencials.com/api/shopify/variants?handle=2-in-1-shampoo&region=uk&locale=en"
+# Esperado: variants con id/title/price/currency, NO array vacío
+```
+
+Una vez Carlos haga esto, **el código ya está listo** — no requiere redeploy.
+
+---
+
 ### Alta prioridad — Content SEO
 
-**1. H1 keywords not in body (94 páginas aún flaggeadas)**
-Causa: Seobility hace stemming limitado en alemán. Palabras como "Natürliches" (nominativo neutro) en H1 pero body tiene "natürlichen" (genitivo) o "natürlich" (adverbio) → no match.
-- DE productos con nameMain="Natürliches/Natürliche/Natürlicher": verificar que cada subtitle empieza con el exact form
-- NL rituales: "Naturlijk" (typo corregido) pero verificar que body tiene "Natuurlijk" standalone
-- Ritual DE pages (fuer-ihn/fuer-sie): subtitle bundle DE ¿tiene "natürlich"?
-- Blog H1 keywords (Formulierung, Zutaten, ingrediënten): verificar que el nuevo lb.desc aparece en el crawl
-- Origen páginas: verificar que "Handgemacht/Anspruch/mano/criterio/visie/oorsprong" aparecen en body0
-- Mascota/hogar catalog NL/DE: verificar "Tierpflege/huishoudverzorging/huisdierverzorging" en desc
-- FR mascota: verificar "naturels" en desc
+**1. ~~H1 keywords not in body (94 páginas)~~ — RESUELTO en sesión 12c**
+- 68 productos: subtitle con qualifier exact form per locale
+- 8 bundles: mismo fix
+- 9 catalog descs (cosmetica/hogar/mascota): reescritos con palabras H1
+- 7 FAQ subtitles: reescritos con "Preguntas frecuentes sobre cosmética natural artesanal"
+- 1 DE blog desc: añadido "Zutaten"
+- Verificación final: 0 productos/bundles con qualifier missing
 
 **2. Duplicate Content — blog "Included" en homepage (4 páginas)**
 Los blogs FR se siguen flaggeando. Verificar estado: en sesión 9 se eliminó excerpt de BlogPreview pero ¿se tomó el crawl antes o después?
@@ -152,17 +218,13 @@ Sesión 10 diferenció los principales. Aún pueden quedar:
 
 ### Media prioridad — Structure SEO
 
-**4. Internal links bajo promedio (Tip)**
-El sitio tiene 761 páginas pero pocos crosslinks internos. Mejorar con:
-- ProductDetail.tsx: añadir sección "Productos relacionados" con links internos a productos de la misma línea
-- Blog posts: añadir links internos a productos relevantes mencionados en los artículos
-- Origen/FAQ pages: añadir links internos a catálogos y rituales
+**4. ~~Internal links bajo promedio~~ — RESUELTO en sesión 12c**
+ProductDetail.tsx ahora añade sección "Más productos de esta línea" con hasta 8 links a otros productos visibles. Cada ficha pasa de ~3-5 a ~10-13 crosslinks internos.
 
-**5. Sitemap no detectado (Seobility muestra 0 sitemaps)**
-El sitemap en `src/app/sitemap.ts` genera XML en `/sitemap.xml` pero Seobility no lo detecta.
-- Verificar que sitemap.xml está accesible: `curl https://www.naturaesencials.com/sitemap.xml`
-- Verificar robots.txt referencia: `Sitemap: https://www.naturaesencials.com/sitemap.xml`
-- Añadir la URL del sitemap manualmente en Seobility settings si sigue sin detectarse
+**5. ~~Sitemap no detectado~~ — VERIFICADO CORRECTO**
+- `https://www.naturaesencials.com/sitemap.xml` → HTTP 200, XML válido, hreflang completo
+- `robots.txt` referencia el sitemap correctamente
+- **Acción Carlos:** añadir manualmente la URL en Seobility settings si sigue sin detectarse
 
 ### Baja prioridad (estructural/aceptable)
 
@@ -281,5 +343,8 @@ Buttons:      primary bg #C9A96E color #08090E; secondary transparent+gold borde
 
 ---
 
-*Última actualización: 17 mayo 2026 — Sesión 11 completada*
-*Próximo paso: esperar recrawl Seobility (3-5 días) y aplicar fixes del nuevo PDF*
+*Última actualización: 18 mayo 2026 — Sesión 12 completada*
+*Próximos pasos:*
+*1. Carlos: configurar UK Shopify (sales channel + precios GBP) — ver pendiente #0*
+*2. Esperar re-crawl Seobility (3-5 días) y aplicar fixes del nuevo PDF*
+*3. Considerar: blog posts links internos a productos, traducciones IA hidden products UK*

@@ -41,7 +41,6 @@ export function BlogPreview({ region, locale }: Props) {
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {posts.slice(0, 3).map((post) => {
           const title   = post.title[locale]   ?? post.title.es;
-          const excerpt = post.excerpt[locale] ?? post.excerpt.es;
           const href    = buildPath(region, locale, `blog/${post.slug}`);
 
           return (
