@@ -13,9 +13,9 @@ const T: Record<string, { title: string; sub: string; poweredBy: string }> = {
   pt: { title: 'O que dizem os nossos clientes', sub: 'Avaliações verificadas de compradores reais.', poweredBy: 'Verificado por' },
 };
 
-interface Props { locale: Locale; }
+interface Props { locale: Locale; region?: 'eu' | 'uk'; }
 
-export function ReviewsSection({ locale }: Props) {
+export function ReviewsSection({ locale, region = 'eu' }: Props) {
   const lb = T[locale] ?? T.es;
 
   return (
@@ -36,7 +36,7 @@ export function ReviewsSection({ locale }: Props) {
       </header>
 
       {/* All-store reviews widget */}
-      <ReviewsWidget locale={locale} />
+      <ReviewsWidget locale={locale} region={region} />
     </section>
   );
 }

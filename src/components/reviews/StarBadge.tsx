@@ -9,17 +9,24 @@ interface ReviewSummary {
 
 interface Props {
   handle: string;
+  region?: 'eu' | 'uk';
   className?: string;
 }
 
 /**
  * StarBadge — fetches summary rating from Judge.me public API and renders stars.
+ * Region-aware: queries the EU or UK Judge.me shop based on the `region` prop.
  * Falls back to nothing if the API fails or returns no reviews.
  */
-export function StarBadge({ handle, className = '' }: Props) {
+export function StarBadge({ handle, region = 'eu', className = '' }: Props) {
   const [data, setData] = useState<ReviewSummary | null>(null);
-  const shopDomain = process.env.NEXT_PUBLIC_JUDGEME_SHOP_DOMAIN ?? 'www.naturaesencials.com';
-  const token = process.env.NEXT_PUBLIC_JUDGEME_PUBLIC_TOKEN ?? 'QB36N-hDwXH60hCmBKU5F-6AHXY';
+
+  const shopDomain = region === 'uk'
+    ? (process.env.NEXT_PUBLIC_JUDGEME_UK_SHOP_DOMAIN ?? 'ughbg0-11.myshopify.com')
+    : (process.env.NEXT_PUBLIC_JUDGEME_SHOP_DOMAIN ?? 'www.naturaesencials.com');
+  const token = region === 'uk'
+    ? (process.env.NEXT_PUBLIC_JUDGEME_UK_PUBLIC_TOKEN ?? '')
+    : (process.env.NEXT_PUBLIC_JUDGEME_PUBLIC_TOKEN ?? 'QB36N-hDwXH60hCmBKU5F-6AHXY');
 
   useEffect(() => {
     if (!handle || !token) return;

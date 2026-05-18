@@ -1,7 +1,25 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const SHOP = process.env.JUDGEME_SHOP_DOMAIN ?? 'bdchtj-1p.myshopify.com';
-const TOKEN = process.env.JUDGEME_API_TOKEN ?? '';
+type Region = 'eu' | 'uk';
+
+interface RegionConfig {
+  shop: string;
+  token: string;
+}
+
+function getConfig(region: Region): RegionConfig {
+  if (region === 'uk') {
+    return {
+      shop:  process.env.JUDGEME_UK_SHOP_DOMAIN ?? 'ughbg0-11.myshopify.com',
+      token: process.env.JUDGEME_UK_API_TOKEN ?? '',
+    };
+  }
+  // EU (default)
+  return {
+    shop:  process.env.JUDGEME_SHOP_DOMAIN ?? 'bdchtj-1p.myshopify.com',
+    token: process.env.JUDGEME_API_TOKEN ?? '',
+  };
+}
 
 export interface Review {
   id: number;
@@ -29,15 +47,19 @@ export async function GET(req: NextRequest) {
   const handle = searchParams.get('handle') ?? '';
   const page = searchParams.get('page') ?? '1';
   const perPage = searchParams.get('per_page') ?? '10';
+  const regionParam = (searchParams.get('region') ?? 'eu').toLowerCase();
+  const region: Region = regionParam === 'uk' ? 'uk' : 'eu';
 
-  if (!TOKEN) {
+  const { shop, token } = getConfig(region);
+
+  if (!token) {
     // Return empty gracefully — will show "no reviews yet" UI
     return NextResponse.json({ reviews: [], total: 0, current_page: 1 });
   }
 
   const url = new URL('https://judge.me/api/v1/reviews');
-  url.searchParams.set('api_token', TOKEN);
-  url.searchParams.set('shop_domain', SHOP);
+  url.searchParams.set('api_token', token);
+  url.searchParams.set('shop_domain', shop);
   url.searchParams.set('page', page);
   url.searchParams.set('per_page', perPage);
   if (handle) url.searchParams.set('handle', handle);

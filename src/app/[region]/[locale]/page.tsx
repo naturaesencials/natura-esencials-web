@@ -65,7 +65,7 @@ export default async function HomePage({ params }: Props) {
       <Origen region={region} locale={locale} />
       <LineMascota region={region} locale={locale} />
       <Strip />
-      <ReviewsSection locale={locale} />
+      <ReviewsSection locale={locale} region={region} />
       <Edicion region={region} locale={locale} />
       <BlogPreview region={region} locale={locale} />
       <Newsletter />

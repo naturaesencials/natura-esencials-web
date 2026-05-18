@@ -286,7 +286,7 @@ export default async function RitualPage({ params }: Props) {
       </article>
       {bundle.shopifyHandle && (
         <div className="px-pad-x pb-pad-y">
-          <ReviewsWidget handle={resolveShopifyHandle(bundle, region)} title={tr.name} locale={locale} shopifyHandle={resolveShopifyHandle(bundle, region)} />
+          <ReviewsWidget handle={resolveShopifyHandle(bundle, region)} title={tr.name} locale={locale} shopifyHandle={resolveShopifyHandle(bundle, region)} region={region} />
         </div>
       )}
     </>

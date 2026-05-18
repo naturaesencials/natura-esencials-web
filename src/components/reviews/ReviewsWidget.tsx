@@ -113,9 +113,10 @@ interface Props {
   title?: string;
   locale?: string;
   shopifyHandle?: string;
+  region?: 'eu' | 'uk';
 }
 
-export function ReviewsWidget({ handle, title, locale = 'es', shopifyHandle }: Props) {
+export function ReviewsWidget({ handle, title, locale = 'es', shopifyHandle, region = 'eu' }: Props) {
   const lb = T[locale] ?? T.es;
   const [reviews, setReviews] = useState<Review[]>([]);
   const [total, setTotal] = useState(0);
@@ -125,13 +126,13 @@ export function ReviewsWidget({ handle, title, locale = 'es', shopifyHandle }: P
   const PER_PAGE = 6;
 
   const fetchReviews = useCallback(async (p: number, append = false) => {
-    const params = new URLSearchParams({ page: String(p), per_page: String(PER_PAGE) });
+    const params = new URLSearchParams({ page: String(p), per_page: String(PER_PAGE), region });
     if (handle) params.set('handle', handle);
     const res = await fetch(`/api/reviews?${params}`);
     const data = await res.json();
     setTotal(data.total ?? 0);
     setReviews(prev => append ? [...prev, ...(data.reviews ?? [])] : (data.reviews ?? []));
-  }, [handle]);
+  }, [handle, region]);
 
   useEffect(() => {
     setLoading(true);
@@ -150,9 +151,15 @@ export function ReviewsWidget({ handle, title, locale = 'es', shopifyHandle }: P
     ? Math.round((reviews.reduce((s, r) => s + r.rating, 0) / reviews.length) * 10) / 10
     : 0;
   const dist = [5, 4, 3, 2, 1].map(n => ({ rating: n, count: reviews.filter(r => r.rating === n).length }));
+
+  // Region-aware "Write a review" link → opens the product page on the correct
+  // Shopify storefront where Judge.me's review form is embedded.
+  const storefrontBase = region === 'uk'
+    ? 'https://natura-esencials.myshopify.com'   // UK Shopify (no custom domain yet)
+    : 'https://tienda.naturaesencials.com';      // EU Shopify (custom domain)
   const reviewLink = shopifyHandle
-    ? `https://tienda.naturaesencials.com/products/${shopifyHandle}#judgeme_product_reviews`
-    : 'https://tienda.naturaesencials.com#judgeme_product_reviews';
+    ? `${storefrontBase}/products/${shopifyHandle}#judgeme_product_reviews`
+    : `${storefrontBase}#judgeme_product_reviews`;
 
   return (
     <section className="mt-12 border-t border-rule pt-10">

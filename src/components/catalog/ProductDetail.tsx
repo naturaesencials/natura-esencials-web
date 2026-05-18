@@ -471,7 +471,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
         )}
 
         {/* Reviews Judge.me */}
-        <ReviewsWidget handle={resolveShopifyHandle(product, region)} title={tr.name} locale={locale} shopifyHandle={resolveShopifyHandle(product, region)} />
+        <ReviewsWidget handle={resolveShopifyHandle(product, region)} title={tr.name} locale={locale} shopifyHandle={resolveShopifyHandle(product, region)} region={region} />
       </div>
     </article>
   );
