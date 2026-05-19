@@ -51,7 +51,7 @@ export const rituales: Ritual[] = [
       pt: 'Gel corporal com aveia coloidal e aloe',
     },
     ingredients: ['avena coloidal', 'aloe vera', 'manzanilla romana'],
-    basePriceEUR: 24.6, basePriceGBP: 21.14,
+    basePriceEUR: 24.6, basePriceGBP: 24.6,
     formats: ['300ml', '1L', '5L'],
     category: {
       es: 'Cosmética básica', en: 'Basic skincare', fr: 'Soin de base',
@@ -85,7 +85,7 @@ export const rituales: Ritual[] = [
       pt: 'Gel de duche com alecrim e lavanda',
     },
     ingredients: ['romero', 'lavanda'],
-    basePriceEUR: 18.8, basePriceGBP: 16.17,
+    basePriceEUR: 18.8, basePriceGBP: 18.7,
     formats: ['300ml', '1L'],
     category: {
       es: 'Cosmética básica', en: 'Basic skincare', fr: 'Soin de base',
@@ -119,7 +119,7 @@ export const rituales: Ritual[] = [
       pt: 'Gel ativante com menta e cafeína',
     },
     ingredients: ['menta', 'eucalipto', 'cafeína'],
-    basePriceEUR: 13.4, basePriceGBP: 11.52,
+    basePriceEUR: 13.4, basePriceGBP: 13.3,
     formats: ['300ml', '1L'],
     category: {
       es: 'Cosmética básica', en: 'Basic skincare', fr: 'Soin de base',
@@ -222,7 +222,7 @@ export const rituales: Ritual[] = [
       pt: 'Limpador multi-superfície com limão e tomilho',
     },
     ingredients: ['limón', 'tomillo'],
-    basePriceEUR: 16.2, basePriceGBP: 13.93,
+    basePriceEUR: 16.2, basePriceGBP: 21.6,
     formats: ['1L', '5L'],
     category: {
       es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
@@ -256,7 +256,7 @@ export const rituales: Ritual[] = [
       pt: 'Desengordurante com bicarbonato e cítrico',
     },
     ingredients: ['bicarbonato', 'ácido cítrico'],
-    basePriceEUR: 15.5, basePriceGBP: 13.33,
+    basePriceEUR: 15.5, basePriceGBP: 21.33,
     formats: ['1L', '5L'],
     category: {
       es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
@@ -290,7 +290,7 @@ export const rituales: Ritual[] = [
       pt: 'Lava-louça com tensioativos vegetais',
     },
     ingredients: ['limón', 'tensioactivos vegetales'],
-    basePriceEUR: 12.3, basePriceGBP: 10.58,
+    basePriceEUR: 12.3, basePriceGBP: 16.2,
     formats: ['1L', '5L'],
     category: {
       es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
@@ -324,7 +324,7 @@ export const rituales: Ritual[] = [
       pt: 'Detergente têxtil com sabão de Marselha e lavanda',
     },
     ingredients: ['jabón de Marsella', 'lavanda'],
-    basePriceEUR: 13.8, basePriceGBP: 11.87,
+    basePriceEUR: 13.8, basePriceGBP: 17.4,
     formats: ['1L', '5L'],
     category: {
       es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
@@ -358,7 +358,7 @@ export const rituales: Ritual[] = [
       pt: 'Limpador de casa de banho e limpa-vidros sem marcas. Ambos 96-99% de origem natural.',
     },
     ingredients: ['ácido cítrico', 'extractos herbales'],
-    basePriceEUR: 11.0, basePriceGBP: 9.46,
+    basePriceEUR: 11.0, basePriceGBP: 15.0,
     formats: ['1L'],
     category: {
       es: 'Cuidado del hogar', en: 'Home care', fr: 'Entretien de la maison',
