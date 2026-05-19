@@ -162,21 +162,19 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
               {linkLineLabel(product.line, locale)}
             </p>
             <h1 className="font-display text-h1-fluid leading-[0.96] tracking-[-0.025em]">
-              <span className="block">
-                {tr.nameMain || tr.name}
-                {tr.nameMain && tr.nameAccent && (
-                  <>
-                    {' '}
-                    <em className="font-display-italic text-verde">{tr.nameAccent}</em>
-                  </>
-                )}
-              </span>
-              {tr.subtitle && (
-                <span className="mt-4 block font-caption text-[clamp(14px,1.8vw,18px)] font-normal text-graphite leading-relaxed tracking-normal">
-                  {tr.subtitle}
-                </span>
+              {tr.nameMain || tr.name}
+              {tr.nameMain && tr.nameAccent && (
+                <>
+                  {' '}
+                  <em className="font-display-italic text-verde">{tr.nameAccent}</em>
+                </>
               )}
             </h1>
+            {tr.subtitle && (
+              <p className="mt-4 font-caption text-[clamp(14px,1.8vw,18px)] font-normal text-graphite leading-relaxed tracking-normal">
+                {tr.subtitle}
+              </p>
+            )}
 
             {/* Datos sensoriales */}
             <dl className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 text-body-fluid">
@@ -441,7 +439,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                 href={backHref}
                 className="text-meta-fluid uppercase tracking-[0.22em] text-verde hover:underline"
               >
-                {t.viewAllLine} →
+                {t.viewAllLine} — {linkLineLabel(product.line, locale)} →
               </Link>
             </div>
             <ul className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">

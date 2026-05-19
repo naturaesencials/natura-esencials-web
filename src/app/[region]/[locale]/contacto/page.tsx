@@ -58,12 +58,12 @@ export default async function ContactoPage({ params }: Props) {
   return (
     <main className="px-pad-x py-pad-y">
       <div className="mx-auto max-w-2xl">
-        <h1 className="font-display text-h2-fluid mb-6">
-          <span className="block">{h.title}</span>
-          <span className="block mt-3 font-sans text-base font-normal text-graphite leading-relaxed tracking-normal">
-            {h.desc}
-          </span>
+        <h1 className="font-display text-h2-fluid mb-3">
+          {h.title}
         </h1>
+        <p className="font-sans text-base font-normal text-graphite leading-relaxed tracking-normal mb-6">
+          {h.desc}
+        </p>
 
         <div className="mt-12 space-y-10 text-[15px] leading-[1.85]">
           <div>

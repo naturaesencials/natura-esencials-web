@@ -202,22 +202,20 @@ export default async function RitualPage({ params }: Props) {
             {/* Info */}
             <div className="flex flex-col gap-6">
               <h1 className="font-display text-h1-fluid leading-[0.96] tracking-[-0.025em]">
-                <span className="block">
-                  {tr.nameMain ?? tr.name}
-                  {tr.nameAccent && (
-                    <em className="font-display-italic text-accent block">{' '}{tr.nameAccent}</em>
-                  )}
-                  {' · '}{{
-                    es: 'de origen natural', en: 'of natural origin', fr: "d'origine naturelle",
-                    de: 'natürlichen Ursprungs', it: 'di origine naturale', nl: 'van natuurlijke oorsprong', pt: 'de origem natural',
-                  }[locale] ?? 'de origen natural'}
-                </span>
-                {tr.subtitle && (
-                  <span className="mt-2 block font-caption text-[clamp(14px,1.8vw,18px)] font-normal text-muted leading-relaxed tracking-normal">
-                    {tr.subtitle}
-                  </span>
+                {tr.nameMain ?? tr.name}
+                {tr.nameAccent && (
+                  <em className="font-display-italic text-accent block">{' '}{tr.nameAccent}</em>
                 )}
+                {' · '}{{
+                  es: 'de origen natural', en: 'of natural origin', fr: "d'origine naturelle",
+                  de: 'natürlichen Ursprungs', it: 'di origine naturale', nl: 'van natuurlijke oorsprong', pt: 'de origem natural',
+                }[locale] ?? 'de origen natural'}
               </h1>
+              {tr.subtitle && (
+                <p className="mt-2 font-caption text-[clamp(14px,1.8vw,18px)] font-normal text-muted leading-relaxed tracking-normal">
+                  {tr.subtitle}
+                </p>
+              )}
 
               {tr.shortDescription && (
                 <p className="text-sm text-muted/80 leading-relaxed">{tr.shortDescription}</p>
