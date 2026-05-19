@@ -20,7 +20,7 @@ export const posts: Post[] = [
       es: '¿Qué pH debe tener el champú natural?',
       en: 'Natural shampoo: why acidic pH matters',
       fr: "pH acide du shampooing naturel : pourquoi",
-      de: "Warum Naturshampoo einen sauren pH braucht",
+      de: "Warum Naturshampoo sauer sein muss",
       it: "Shampoo naturale e pH acido: il perché",
       nl: "Natuurlijke shampoo en zure pH: de reden",
       pt: "Por que o champô natural deve ter pH ácido",

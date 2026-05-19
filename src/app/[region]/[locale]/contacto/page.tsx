@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     fr: 'Contactez Natura Esencials — cosmétique artisanale d\'origine naturelle depuis l\'Andalousie. Service client, grossistes, presse et collaborations.',
     de: 'Kontaktieren Sie Natura Esencials — handwerkliche Kosmetik natürlichen Ursprungs aus Andalusien. Kundendienst, Großhandel, Presse und Kooperationen.',
     it: 'Contatta Natura Esencials — cosmetica artigianale di origine naturale dall\'Andalusia. Assistenza clienti, grossisti, stampa e collaborazioni.',
-    nl: 'Neem contact op met Natura Esencials — ambachtelijke Cosmetica van natuurlijke oorsprong uit Andalusië. Klantenservice, groothandel, pers en samenwerkingen.',
+    nl: 'Neem contact op met Natura Esencials — ambachtelijke cosmetica uit Andalusië. Klantenservice, groothandel, pers en samenwerking.',
     pt: 'Entre em contacto com Natura Esencials — cosmética artesanal de origem natural da Andaluzia. Atendimento ao cliente, grossistas, imprensa e colaborações.',
   };
   return buildMetadata({
