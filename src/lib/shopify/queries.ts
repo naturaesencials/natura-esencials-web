@@ -17,7 +17,7 @@ export interface ShopifyProduct {
     maxVariantPrice: { amount: string; currencyCode: string };
   };
   images: { nodes: Array<{ url: string; altText: string | null; width: number; height: number }> };
-  variants: { nodes: Array<{ id: string; title: string; price: { amount: string; currencyCode: string }; availableForSale: boolean; selectedOptions: Array<{ name: string; value: string }> }> };
+  variants: { nodes: Array<{ id: string; title: string; price: { amount: string; currencyCode: string }; availableForSale: boolean; quantityAvailable: number | null; selectedOptions: Array<{ name: string; value: string }> }> };
   seo: { title: string | null; description: string | null };
 }
 
@@ -45,6 +45,7 @@ const PRODUCT_FRAGMENT = gql`
         title
         price { amount currencyCode }
         availableForSale
+        quantityAvailable
         selectedOptions { name value }
       }
     }

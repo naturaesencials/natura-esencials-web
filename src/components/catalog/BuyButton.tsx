@@ -80,6 +80,7 @@ function formatPrice(amount: string, currency: string): string {
 
 interface ShopifyVariant {
   id: string; title: string; price: string; currency: string; available: boolean;
+  quantityAvailable: number | null;
 }
 interface VariantsResponse {
   variants: ShopifyVariant[]; available: boolean; checkoutDomain: string;
@@ -119,12 +120,22 @@ export function BuyButton({
     return () => { cancelled = true; };
   }, [handle, region, locale]);
 
+  // Un variant es comprable si:
+  // 1. availableForSale = true (Shopify lo marca como vendible)
+  // 2. quantityAvailable > 0 O es null (null = inventario no rastreado, se permite vender)
+  // Esto evita el bug del Cart limit que hace min(solicitado, disponible) = min(1,0) = 0
+  function isVariantPurchasable(v: ShopifyVariant): boolean {
+    if (!v.available) return false;
+    if (v.quantityAvailable === null) return true;   // sin seguimiento de inventario → OK
+    return v.quantityAvailable > 0;
+  }
+
   // Usamos los variants de Shopify directamente (fuente de verdad)
   const variants        = data?.variants ?? [];
-  const availableVars   = variants.filter((v) => v.available);
+  const availableVars   = variants.filter(isVariantPurchasable);
   const selectedVariant = availableVars[selectedIdx] ?? availableVars[0] ?? variants[selectedIdx] ?? variants[0];
 
-  const canAdd           = !!selectedVariant?.available;
+  const canAdd           = !!selectedVariant && isVariantPurchasable(selectedVariant);
   const hasMultiVariants = variants.length > 1;
   const isSingleDefault  = variants.length === 1 && variants[0]?.title === 'Default Title';
 
@@ -175,7 +186,7 @@ export function BuyButton({
               <div className="flex flex-wrap gap-2">
                 {variants.map((v, i) => {
                   const isSelected  = selectedIdx === i;
-                  const unavailable = !v.available;
+                  const unavailable = !isVariantPurchasable(v);
                   // Traducir labels de variante que vienen de Shopify en español
                   const variantLabel = translateVariantTitle(v.title, locale);
                   return (

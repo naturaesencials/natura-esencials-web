@@ -36,11 +36,12 @@ export async function GET(req: NextRequest) {
       available: product.availableForSale,
       checkoutDomain: domain,
       variants: product.variants.nodes.map((v) => ({
-        id:        v.id,
-        title:     v.title,
-        price:     v.price.amount,
-        currency:  v.price.currencyCode,
-        available: v.availableForSale,
+        id:                v.id,
+        title:             v.title,
+        price:             v.price.amount,
+        currency:          v.price.currencyCode,
+        available:         v.availableForSale,
+        quantityAvailable: v.quantityAvailable ?? null,
       })),
     });
   } catch {
