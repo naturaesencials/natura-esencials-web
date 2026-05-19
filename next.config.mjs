@@ -40,7 +40,11 @@ const nextConfig = {
   },
 
   async redirects() {
+    // Load legacy Shopify → Next.js 301 redirect map (auto-generated from
+    // products.json / bundles.json). See src/lib/seo/legacy-redirects.mjs.
+    const { legacyShopifyRedirects } = await import('./src/lib/seo/legacy-redirects.mjs');
     return [
+      ...legacyShopifyRedirects,
       { source: '/index.html', destination: '/', permanent: true },
       // Old ritual slugs → current slugs (301)
       { source: '/eu/en/rituales/canine-care', destination: '/eu/en/rituales/pampered-pup', permanent: true },
