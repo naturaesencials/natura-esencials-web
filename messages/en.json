@@ -207,14 +207,16 @@
       "title": "Artisan",
       "accent": "Skincare",
       "desc": "Artisan skincare of natural origin for everyday use: hair, body, face and shaving rituals. Three collections — Basic, For Her and For Him — formulated to ISO 16128 and handcrafted in Andalusia.",
-      "h1Qualifier": ""
+      "h1Qualifier": "",
+      "tagline": "of natural origin"
     },
     "hogar": {
       "kicker": "Collection",
       "title": "Home",
       "accent": "Cleaning",
       "desc": "Home care as a ritual: of natural origin cleaning transformed into the feeling of a well-kept home. Laundry detergent, fabric softener, washing-up liquid, floor cleaner, bathroom cleaner, degreaser and multi-surface cleaner — all with plant-based surfactants, up to 99% natural origin, biodegradable and ISO 16128 certified.",
-      "h1Qualifier": ""
+      "h1Qualifier": "",
+      "tagline": "of natural origin"
     },
     "mascota": {
       "kicker": "Collection",
@@ -227,7 +229,8 @@
       "comingSoonAccent": "Coming Soon",
       "comingSoonBody": "We are preparing our of natural origin pet care line — shampoos, ear and eye cleaners for dogs and cats — for the UK market. Subscribe to our newsletter to be the first to know when it launches.",
       "comingSoonCTA": "Browse available cosmetics",
-      "comingSoonCTASecondary": "Back to home"
+      "comingSoonCTASecondary": "Back to home",
+      "tagline": "of natural origin"
     }
   }
 }

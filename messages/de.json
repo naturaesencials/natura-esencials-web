@@ -207,14 +207,16 @@
       "title": "Handwerkliche",
       "accent": "Kosmetik",
       "desc": "Handwerkliche und natürlichen Ursprungs Kosmetik für den Alltag: Haar, Körper, Gesicht und Rasur in sinnlichen Pflegeprodukten. Drei Kollektionen — Basis, Für Sie und Für Ihn — nach ISO 16128 Protokoll formuliert, dermatologisch getestet und von Hand in Andalusien hergestellt. Mit pflanzlichen Rohstoffen aus Südeuropa.",
-      "h1Qualifier": ""
+      "h1Qualifier": "",
+      "tagline": "natürlichen Ursprungs"
     },
     "hogar": {
       "kicker": "Kollektion",
       "title": "Handwerkliche",
       "accent": "Haushaltspflege",
       "desc": "natürlichen Ursprungs Haushaltspflege als Ritual: handwerkliche Reinigungsmittel verwandeln den Putzalltag in ein Gefühl des gepflegten Zuhauses. Waschmittel, Weichspüler, Spülmittel, Bodenreiniger, Badreiniger und Allzweckreiniger — alle mit pflanzlichen Tensiden, bis zu 99% natürlichen Ursprungs Inhaltsstoffen, biologisch abbaubar und ISO 16128 zertifiziert.",
-      "h1Qualifier": ""
+      "h1Qualifier": "",
+      "tagline": "natürlichen Ursprungs"
     },
     "mascota": {
       "kicker": "Kollektion",
@@ -227,7 +229,8 @@
       "comingSoonAccent": "Coming Soon",
       "comingSoonBody": "Wir bereiten unsere natürlichen Ursprungs Pflegelinie für Hunde und Katzen für den britischen Markt vor. Abonnieren Sie unseren Newsletter, um beim Start informiert zu werden.",
       "comingSoonCTA": "Verfügbare Kosmetik ansehen",
-      "comingSoonCTASecondary": "Zurück zur Startseite"
+      "comingSoonCTASecondary": "Zurück zur Startseite",
+      "tagline": "natürlichen Ursprungs"
     }
   }
 }

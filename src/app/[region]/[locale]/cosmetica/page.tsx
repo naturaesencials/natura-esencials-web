@@ -38,7 +38,12 @@ export default async function CosmeticaPage({ params }: Props) {
           {t('cosmetica.kicker')}
         </span>
         <h1 className="font-display text-h2-fluid leading-tight mb-4">
-          {t('cosmetica.title')} <em className="font-italic">{t('cosmetica.accent')}</em>
+          <span className="block">
+            {t('cosmetica.title')} <em className="font-italic">{t('cosmetica.accent')}</em>
+          </span>
+          <span className="block mt-2 text-[clamp(14px,1.8vw,18px)] font-sans font-normal text-graphite tracking-normal">
+            {t('cosmetica.tagline')}
+          </span>
         </h1>
         <p className="font-sans text-base font-normal text-graphite leading-relaxed tracking-normal max-w-2xl mx-auto">
           {t('cosmetica.desc')}

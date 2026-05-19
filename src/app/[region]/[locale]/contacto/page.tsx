@@ -34,13 +34,13 @@ export default async function ContactoPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const CONTACT_H1: Record<string, { title: string; desc: string }> = {
-    es: { title: 'Contacto', desc: 'Ponte en contacto con Natura Esencials — cosmética artesanal de origen natural desde Andalucía. Atención al cliente, colaboraciones y mayoristas.' },
-    en: { title: 'Contact', desc: 'Get in touch with Natura Esencials — artisan cosmetics of natural origin from Andalusia. Customer service, collaborations and wholesale enquiries.' },
-    fr: { title: 'Contact', desc: "Contactez Natura Esencials — cosmétique artisanale d'origine naturelle depuis l'Andalousie. Service clients, collaborations et demandes de grossistes." },
-    de: { title: 'Kontakt', desc: 'Kontaktieren Sie Natura Esencials — handwerkliche Kosmetik natürlichen Ursprungs aus Andalusien. Kundenservice, Kooperationen und Großhandelsanfragen.' },
-    it: { title: 'Contatto', desc: "Contatta Natura Esencials — cosmetica artigianale di origine naturale dall'Andalusia. Servizio clienti, collaborazioni e richieste all'ingrosso." },
-    nl: { title: 'Contact', desc: 'Neem contact op met Natura Esencials — ambachtelijke Cosmetica van natuurlijke oorsprong uit Andalusië. Klantenservice, samenwerkingen en groothandelsaanvragen.' },
-    pt: { title: 'Contacto', desc: 'Entre em contacto com Natura Esencials — cosmética artesanal de origem natural da Andaluzia. Atendimento ao cliente, colaborações e grossistas.' },
+    es: { title: 'Contacto con Natura Esencials',          desc: 'Ponte en contacto con Natura Esencials — cosmética artesanal de origen natural desde Andalucía. Atención al cliente, colaboraciones y mayoristas.' },
+    en: { title: 'Contact Natura Esencials',                desc: 'Get in touch with Natura Esencials — artisan cosmetics of natural origin from Andalusia. Customer service, collaborations and wholesale enquiries.' },
+    fr: { title: 'Contactez Natura Esencials',              desc: "Contactez Natura Esencials — cosmétique artisanale d'origine naturelle depuis l'Andalousie. Service clients, collaborations et demandes de grossistes." },
+    de: { title: 'Kontakt zu Natura Esencials',             desc: 'Kontaktieren Sie Natura Esencials — handwerkliche Kosmetik natürlichen Ursprungs aus Andalusien. Kundenservice, Kooperationen und Großhandelsanfragen.' },
+    it: { title: 'Contatta Natura Esencials',               desc: "Contatta Natura Esencials — cosmetica artigianale di origine naturale dall'Andalusia. Servizio clienti, collaborazioni e richieste all'ingrosso." },
+    nl: { title: 'Contact met Natura Esencials',            desc: 'Neem contact op met Natura Esencials — ambachtelijke Cosmetica van natuurlijke oorsprong uit Andalusië. Klantenservice, samenwerkingen en groothandelsaanvragen.' },
+    pt: { title: 'Contacto com Natura Esencials',           desc: 'Entre em contacto com Natura Esencials — cosmética artesanal de origem natural da Andaluzia. Atendimento ao cliente, colaborações e grossistas.' },
   };
   const h = CONTACT_H1[locale] ?? CONTACT_H1.es;
 
@@ -58,12 +58,12 @@ export default async function ContactoPage({ params }: Props) {
   return (
     <main className="px-pad-x py-pad-y">
       <div className="mx-auto max-w-2xl">
-        <h1 className="font-display text-h2-fluid mb-3">
-          {h.title}
+        <h1 className="font-display text-h2-fluid mb-6">
+          <span className="block">{h.title}</span>
+          <span className="block mt-3 font-sans text-base font-normal text-graphite leading-relaxed tracking-normal">
+            {h.desc}
+          </span>
         </h1>
-        <p className="font-sans text-base font-normal text-graphite leading-relaxed tracking-normal mb-6">
-          {h.desc}
-        </p>
 
         <div className="mt-12 space-y-10 text-[15px] leading-[1.85]">
           <div>

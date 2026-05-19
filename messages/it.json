@@ -207,14 +207,16 @@
       "title": "Cosmetica",
       "accent": "artigianale",
       "desc": "Cosmetica artigianale e di origine naturale quotidiana: capelli, corpo, viso e rasatura in rituali sensoriali. Tre collezioni — Base, Per Lei e Per Lui — formulate secondo ISO 16128 e prodotte artigianalmente in Andalusia.",
-      "h1Qualifier": ""
+      "h1Qualifier": "",
+      "tagline": "di origine naturale"
     },
     "hogar": {
       "kicker": "Collezione",
       "title": "Cura",
       "accent": "della casa",
       "desc": "Cura della casa come rituale: la pulizia trasformata in sensazione di casa curata. Detersivo, ammorbidente, piatti, detergenti specifici e multiuso con formule delicate di origine naturale.",
-      "h1Qualifier": ""
+      "h1Qualifier": "",
+      "tagline": "di origine naturale"
     },
     "mascota": {
       "kicker": "Collezione",
@@ -227,7 +229,8 @@
       "comingSoonAccent": "Coming Soon",
       "comingSoonBody": "Stiamo preparando la nostra linea di cura di origine naturale per cani e gatti per il mercato britannico. Iscriviti alla nostra newsletter per essere il primo a saperlo.",
       "comingSoonCTA": "Vedi cosmetica disponibile",
-      "comingSoonCTASecondary": "Torna alla home"
+      "comingSoonCTASecondary": "Torna alla home",
+      "tagline": "di origine naturale"
     }
   }
 }

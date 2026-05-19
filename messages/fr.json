@@ -207,14 +207,16 @@
       "title": "Cosmétique",
       "accent": "artisanale",
       "desc": "Cosmétique artisanale d'origine naturelle au quotidien : cheveux, corps, visage et rasage en rituels sensoriels. Trois collections — Basique, Pour Elle et Pour Lui — formulées selon la norme ISO 16128 et fabriquées à la main en Andalousie.",
-      "h1Qualifier": ""
+      "h1Qualifier": "",
+      "tagline": "d'origine naturelle"
     },
     "hogar": {
       "kicker": "Collection",
       "title": "Entretien maison",
       "accent": "artisanal",
       "desc": "Entretien maison en rituel : nettoyage d'origine naturelle transformé en sensation de maison soignée. Lessive, adoucissant, vaisselle, nettoyants spécifiques et multi-surfaces aux formules douces d'origine naturelle.",
-      "h1Qualifier": ""
+      "h1Qualifier": "",
+      "tagline": "d'origine naturelle"
     },
     "mascota": {
       "kicker": "Collection",
@@ -227,7 +229,8 @@
       "comingSoonAccent": "Coming Soon",
       "comingSoonBody": "Nous préparons notre ligne de soin naturel pour chiens et chats pour le marché britannique. Abonnez-vous à notre newsletter pour être informé du lancement.",
       "comingSoonCTA": "Voir la cosmétique disponible",
-      "comingSoonCTASecondary": "Retour à l'accueil"
+      "comingSoonCTASecondary": "Retour à l'accueil",
+      "tagline": "d'origine naturelle"
     }
   }
 }

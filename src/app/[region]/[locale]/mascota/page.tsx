@@ -103,7 +103,12 @@ export default async function MascotaPage({ params }: Props) {
           {t('mascota.kicker')}
         </span>
         <h1 className="font-display text-h2-fluid leading-tight mb-4">
-          {t('mascota.title')} <em className="font-italic">{t('mascota.accent')}</em>
+          <span className="block">
+            {t('mascota.title')} <em className="font-italic">{t('mascota.accent')}</em>
+          </span>
+          <span className="block mt-2 text-[clamp(14px,1.8vw,18px)] font-sans font-normal text-graphite tracking-normal">
+            {t('mascota.tagline')}
+          </span>
         </h1>
         <p className="font-sans text-base font-normal text-graphite leading-relaxed tracking-normal max-w-2xl mx-auto">
           {t('mascota.desc')}

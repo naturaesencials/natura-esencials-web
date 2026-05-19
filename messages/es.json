@@ -207,14 +207,16 @@
       "title": "Cosmética artesanal",
       "accent": "esencial",
       "desc": "Cosmética artesanal de origen natural para el día día: cabello, cuerpo, rostro y afeitado en rituales sensoriales. Tres colecciones — Básica, Para Ella y Para Él — formuladas con norma ISO 16128 y fabricadas a mano en Andalucía.",
-      "h1Qualifier": ""
+      "h1Qualifier": "",
+      "tagline": "de origen natural"
     },
     "hogar": {
       "kicker": "Línea",
       "title": "Rituales del hogar",
       "accent": "esencial",
       "desc": "Rituales del hogar de origen natural: cuidado limpieza de origen natural transformada en sensación de casa cuidada. Detergente, suavizante, lavavajillas, limpiasuelos, limpiador de baños, desengrasante y multisuperficies — todos con tensioactivos vegetales, hasta 99% de origen natural, biodegradables y certificados ISO 16128.",
-      "h1Qualifier": ""
+      "h1Qualifier": "",
+      "tagline": "de origen natural"
     },
     "mascota": {
       "kicker": "Línea",
@@ -227,7 +229,8 @@
       "comingSoonAccent": "Coming Soon",
       "comingSoonBody": "Estamos preparando nuestra línea de cuidado de origen natural para perros y gatos para Reino Unido. Si quieres ser de los primeros en recibirla, suscríbete a nuestra newsletter.",
       "comingSoonCTA": "Ver cosmética disponible",
-      "comingSoonCTASecondary": "Volver al inicio"
+      "comingSoonCTASecondary": "Volver al inicio",
+      "tagline": "de origen natural"
     }
   }
 }
