@@ -139,14 +139,21 @@ export function getAlternates(path: string = ''): Record<string, string> {
 /**
  * Alternates correctos para páginas con slugs distintos por idioma (rituales, productos).
  * slugsByLocale: { es: 'plenitud-300', en: 'fulfillment-300', ... }
+ *
+ * availableRegions limita el hreflang a las regiones donde el producto realmente
+ * existe. Si una ficha tiene `availableIn: ['eu']`, no se emite hreflang para UK
+ * porque la URL `/uk/en/...` daría 404. Omite el parámetro para incluir todas
+ * las regiones indexables (comportamiento original).
  */
 export function getLocaleSlugAlternates(
   section: string,
   slugsByLocale: Partial<Record<Locale, string>>,
   defaultSlug: string,
+  availableRegions?: readonly Region[],
 ): Record<string, string> {
   const alternates: Record<string, string> = {};
   for (const region of regions) {
+    if (availableRegions && !availableRegions.includes(region)) continue;
     for (const locale of indexableLocales[region]) {
       const slug = slugsByLocale[locale] ?? defaultSlug;
       const key = hreflangCode(region, locale);

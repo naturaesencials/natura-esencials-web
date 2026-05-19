@@ -115,7 +115,7 @@ export function makeGenerateMetadata(line: ProductLine) {
       ],
       image: getOgProductImage(product.id, region, product.primaryImage),
       imageAlt: tr.name,
-      customAlternates: getLocaleSlugAlternates(line, slugsByLocale, tr.slug),
+      customAlternates: getLocaleSlugAlternates(line, slugsByLocale, tr.slug, product.availableIn),
     });
   };
 }

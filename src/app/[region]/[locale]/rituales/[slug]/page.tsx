@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: [tr.name, 'ritual', 'Natura Esencials'],
     image: resolveBundleImage(bundle.id, region, bundle.primaryImage).src,
     imageAlt: tr.name,
-    customAlternates: getLocaleSlugAlternates('rituales', slugsByLocale, slug),
+    customAlternates: getLocaleSlugAlternates('rituales', slugsByLocale, slug, bundle.availableIn),
   });
 }
 
