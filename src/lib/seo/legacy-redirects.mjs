@@ -101,4 +101,39 @@ export const legacyShopifyRedirects = [
   { source: '/products/ritual-refugio', destination: '/eu/es/rituales/refugio', permanent: true },
   { source: '/products/pack-higiene-basica-gatos', destination: '/eu/es/rituales/gato-zen', permanent: true },
   { source: '/products/pack-higiene-basica-perros', destination: '/eu/es/rituales/mimo-canino', permanent: true },
+
+  // === Missing product slug (no -hombre/-mujer suffix) ===
+  // Google indexed this from internal Shopify shorthand; route it to the category.
+  { source: '/products/gel-afeitado', destination: '/eu/es/cosmetica', permanent: true },
+
+  // === Shopify blog legacy URLs ===
+  // Pre-migration the blog lived at /blogs/news/<slug>. Without these redirects the
+  // middleware was adding a locale prefix (/eu/en/blogs/news/<slug>) which 404s.
+  { source: '/blogs', destination: '/eu/es/blog', permanent: true },
+  { source: '/blogs/news', destination: '/eu/es/blog', permanent: true },
+  { source: '/blogs/news.atom', destination: '/eu/es/blog', permanent: true },
+  { source: '/blogs/news/:slug*', destination: '/eu/es/blog', permanent: true },
+  { source: '/blogs/:path*', destination: '/eu/es/blog', permanent: true },
+
+  // === Shopify default app routes ===
+  // These exist on every Shopify storefront and Google may have indexed them
+  // from the old version. We route to the home/category so Google can update
+  // its record and stop reporting them as 404s. Live app routes use Spanish
+  // slugs (/eu/es/carrito, /eu/es/buscar, /eu/es/cuenta) which are robots-blocked.
+  { source: '/cart', destination: '/eu/es', permanent: true },
+  { source: '/cart/:rest*', destination: '/eu/es', permanent: true },
+  { source: '/checkout', destination: '/eu/es', permanent: true },
+  { source: '/checkout/:rest*', destination: '/eu/es', permanent: true },
+  { source: '/search', destination: '/eu/es', permanent: true },
+  { source: '/account', destination: '/eu/es', permanent: true },
+  { source: '/account/:rest*', destination: '/eu/es', permanent: true },
+  { source: '/tags/:slug*', destination: '/eu/es', permanent: true },
+
+  // === Shopify policy / legal pages ===
+  { source: '/policies/privacy-policy', destination: '/eu/es/privacidad', permanent: true },
+  { source: '/policies/refund-policy', destination: '/eu/es/faq', permanent: true },
+  { source: '/policies/shipping-policy', destination: '/eu/es/faq', permanent: true },
+  { source: '/policies/terms-of-service', destination: '/eu/es/terminos', permanent: true },
+  { source: '/policies/legal-notice', destination: '/eu/es/terminos', permanent: true },
+  { source: '/policies/:slug*', destination: '/eu/es/terminos', permanent: true },
 ];
