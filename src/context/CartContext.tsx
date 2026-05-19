@@ -87,14 +87,24 @@ export function CartProvider({ children, region, locale }: CartProviderProps) {
 
       if (existingCartId) {
         // Intentar añadir al carrito existente
-        updatedCart = await callAPI({
+        const addedCart = await callAPI({
           action:  'add',
           cartId:  existingCartId,
           lines:   [{ merchandiseId, quantity }],
         });
+        // Solo usar el resultado si el carrito tiene items.
+        // Shopify puede devolver un carrito vacío cuando el cart ID expiró
+        // o el variant no existe en la tienda — en ese caso caemos a create.
+        if (addedCart && (addedCart.totalQuantity ?? 0) > 0) {
+          updatedCart = addedCart;
+        } else {
+          // Cart obsoleto o inválido — limpiar para no reutilizarlo
+          try { localStorage.removeItem(storageKey); } catch { /* ignore */ }
+          cartIdRef.current = null;
+        }
       }
 
-      // Si no hay carrito o falló, crear uno nuevo
+      // Si no hay carrito válido con items, crear uno nuevo
       if (!updatedCart) {
         updatedCart = await callAPI({
           action: 'create',
@@ -102,15 +112,15 @@ export function CartProvider({ children, region, locale }: CartProviderProps) {
         });
       }
 
-      if (updatedCart) {
+      if (updatedCart && (updatedCart.totalQuantity ?? 0) > 0) {
         persistCartId(updatedCart.id);
         setCart(updatedCart);
-        setIsOpen(true); // abrir drawer automáticamente
+        setIsOpen(true); // abrir drawer solo si hay items
       }
     } finally {
       setIsLoading(false);
     }
-  }, [callAPI, persistCartId]);
+  }, [callAPI, persistCartId, storageKey]);
 
   // ── removeLine ─────────────────────────────────────────────────────────────
   const removeLine = useCallback(async (lineId: string) => {

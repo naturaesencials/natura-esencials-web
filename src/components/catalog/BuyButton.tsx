@@ -222,7 +222,7 @@ export function BuyButton({
       {/* ── Botón añadir ── */}
       {loadingVariants ? (
         <div className="h-[52px] w-full sm:w-56 animate-pulse bg-ink/10 rounded-sm" />
-      ) : !canAdd && variants.length > 0 ? (
+      ) : !canAdd ? (
         <button disabled className={btnCls}>{tl(locale, 'outOfStock')}</button>
       ) : (
         <button
