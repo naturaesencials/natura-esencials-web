@@ -1,8 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
 import {
-  regions,
-  regionLocales,
+  indexableLocales,
   type RouteSection,
   type Locale,
   type Region,
@@ -12,17 +11,21 @@ import { products, bundles } from '@/data';
 /**
  * Sitemap multi-región multi-idioma con hreflang correcto.
  *
- * Formato hreflang: language-COUNTRY (ISO 639-1 + ISO 3166-1 alpha-2).
- * "EU" no es un código de país válido → usamos el país principal de cada idioma.
- * UK = "GB" en ISO 3166-1.
+ * SEO model:
+ *  - EU is the primary indexable market with 7 locales (es/en/fr/de/it/nl/pt).
+ *  - UK only ships in English (en-GB). The /uk/{!en}/* pages exist for UX
+ *    (a UK visitor may prefer reading in Spanish) but they are NOT indexed:
+ *    they don't appear in the sitemap, they aren't declared as hreflang
+ *    alternates, and the pages themselves emit robots:noindex,follow.
+ *  - Blog/diario currently only has Spanish content, so only ES is included.
  *
- * Excluye:
- *  - UK region (Coming soon, noindex)
- *  - Blog/diario en locales ≠ es (contenido en español, noindex)
+ * Format hreflang: language-COUNTRY (ISO 639-1 + ISO 3166-1 alpha-2).
+ * Invalid combinations like 'es-GB' or 'fr-GB' would be ignored by Google
+ * AND would create duplicate-content confusion, so we never emit them.
  */
 
-// Mapa de hreflang correcto por locale+region
-const HREFLANG: Record<Region, Record<string, string>> = {
+// hreflang per (region, locale) — only valid combinations defined.
+const HREFLANG: Record<Region, Partial<Record<Locale, string>>> = {
   eu: {
     es: 'es-ES',
     en: 'en-IE',
@@ -33,18 +36,12 @@ const HREFLANG: Record<Region, Record<string, string>> = {
     pt: 'pt-PT',
   },
   uk: {
-    es: 'es-GB',
     en: 'en-GB',
-    fr: 'fr-GB',
-    de: 'de-GB',
-    it: 'it-GB',
-    nl: 'nl-GB',
-    pt: 'pt-GB',
   },
 };
 
-function hreflangKey(locale: string, region: Region): string {
-  return HREFLANG[region]?.[locale] ?? `${locale}`;
+function hreflangKey(locale: Locale, region: Region): string | null {
+  return HREFLANG[region]?.[locale] ?? null;
 }
 
 // Secciones con blog excluido de non-ES
@@ -70,7 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const activeRegions: Region[] = process.env.NEXT_PUBLIC_UK_LIVE === 'true' ? ['eu', 'uk'] : ['eu'];
   for (const section of staticSections) {
     for (const region of activeRegions) {
-      for (const locale of regionLocales[region]) {
+      for (const locale of indexableLocales[region]) {
       // Blog/diario: solo incluir en ES
       if (BLOG_SECTIONS.has(section) && locale !== 'es') continue;
 
@@ -96,7 +93,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (!product.visible) continue;
     for (const region of product.availableIn) {
       if (region === 'uk' && process.env.NEXT_PUBLIC_UK_LIVE !== 'true') continue; // Skip UK until live
-      for (const locale of regionLocales[region]) {
+      for (const locale of indexableLocales[region]) {
         const t = product.translations[locale] || product.translations.es;
         if (!t?.slug) continue;
         const path = `/${region}/${locale}/${product.line}/${t.slug}`;
@@ -104,12 +101,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         // Hreflang: cada locale apunta a su propio slug traducido
         const alternates: Record<string, string> = {};
         for (const altRegion of product.availableIn) {
-          if (altRegion === 'uk') continue;
-          for (const altLocale of regionLocales[altRegion]) {
+          // UK indexable locale (just en) included via indexableLocales filter below
+          for (const altLocale of indexableLocales[altRegion]) {
             const altT = product.translations[altLocale] || product.translations.es;
             if (!altT?.slug) continue;
+            const altKey = hreflangKey(altLocale, altRegion);
+            if (!altKey) continue;
             const altPath = `/${altRegion}/${altLocale}/${product.line}/${altT.slug}`;
-            alternates[hreflangKey(altLocale, altRegion)] = `${siteConfig.url}${altPath}`;
+            alternates[altKey] = `${siteConfig.url}${altPath}`;
           }
         }
 
@@ -129,19 +128,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (!bundle.visible) continue;
     for (const region of bundle.availableIn) {
       if (region === 'uk' && process.env.NEXT_PUBLIC_UK_LIVE !== 'true') continue; // Skip UK until live
-      for (const locale of regionLocales[region]) {
+      for (const locale of indexableLocales[region]) {
         const t = bundle.translations[locale] || bundle.translations.es;
         if (!t?.slug) continue;
         const path = `/${region}/${locale}/rituales/${t.slug}`;
 
         const alternates: Record<string, string> = {};
         for (const altRegion of bundle.availableIn) {
-          if (altRegion === 'uk') continue;
-          for (const altLocale of regionLocales[altRegion]) {
+          // UK indexable locale (just en) included via indexableLocales filter below
+          for (const altLocale of indexableLocales[altRegion]) {
             const altT = bundle.translations[altLocale] || bundle.translations.es;
             if (!altT?.slug) continue;
+            const altKey = hreflangKey(altLocale, altRegion);
+            if (!altKey) continue;
             const altPath = `/${altRegion}/${altLocale}/rituales/${altT.slug}`;
-            alternates[hreflangKey(altLocale, altRegion)] = `${siteConfig.url}${altPath}`;
+            alternates[altKey] = `${siteConfig.url}${altPath}`;
           }
         }
 
@@ -165,10 +166,11 @@ function buildAlternateLanguages(
   const langs: Record<string, string> = {};
   const activeRegions: Region[] = process.env.NEXT_PUBLIC_UK_LIVE === 'true' ? ['eu', 'uk'] : ['eu'];
   for (const region of activeRegions) {
-    for (const locale of regionLocales[region]) {
+    for (const locale of indexableLocales[region]) {
       // Blog/diario: solo ES en hreflang
       if (BLOG_SECTIONS.has(section) && locale !== 'es') continue;
       const key = hreflangKey(locale, region);
+      if (!key) continue;
       const path = section
         ? `/${region}/${locale}/${section}`
         : `/${region}/${locale}`;

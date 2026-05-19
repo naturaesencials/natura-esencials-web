@@ -17,6 +17,22 @@ export const regionLocales: Record<Region, readonly Locale[]> = {
   uk: ['en', 'es', 'fr', 'de', 'it', 'nl', 'pt'],
 };
 
+// Locales indexables por buscadores (Google, Bing). Es un subconjunto de
+// regionLocales: las páginas /uk/{!en}/* son accesibles para usuarios pero
+// NO se incluyen en sitemap ni se declaran como hreflang, y emiten
+// robots: noindex,follow. Esto evita que Google las trate como duplicate
+// content de la versión EU correspondiente. UK solo es canónica en inglés
+// para SEO; los demás idiomas en UK existen solo como conveniencia UX.
+export const indexableLocales: Record<Region, readonly Locale[]> = {
+  eu: ['es', 'en', 'fr', 'de', 'it', 'nl', 'pt'],
+  uk: ['en'],
+};
+
+/** True si la combinación region/locale debe ser indexable por buscadores. */
+export function isIndexable(region: Region, locale: Locale): boolean {
+  return indexableLocales[region].includes(locale);
+}
+
 // Moneda por región
 export const regionCurrency: Record<Region, { code: string; symbol: string }> = {
   eu: { code: 'EUR', symbol: '€' },
@@ -98,16 +114,20 @@ export function getCanonicalUrl(region: Region, locale: Locale, path: string = '
 }
 
 /**
- * Genera alternates hreflang para TODAS las combinaciones region+locale.
- * Google usa estos para ordenar qué versión mostrar según usuario.
+ * Genera alternates hreflang para TODAS las combinaciones indexables.
+ *
+ * - EU: 7 locales (es-ES, en-IE, fr-FR, de-DE, it-IT, nl-NL, pt-PT)
+ * - UK: solo en-GB (los demás locales UK existen como UX pero no son SEO-canónicos)
+ *
+ * Google usa hreflang para mostrar la versión correcta según el usuario.
  */
 export function getAlternates(path: string = ''): Record<string, string> {
   const alternates: Record<string, string> = {};
 
   for (const region of regions) {
-    if (region === 'uk') continue; // UK noindexed — excluir de hreflang
-    for (const locale of regionLocales[region]) {
-      const key = `${locale}-${getCountryForLocale(locale)}`;
+    for (const locale of indexableLocales[region]) {
+      const key = hreflangCode(region, locale);
+      if (!key) continue;
       alternates[key] = getCanonicalUrl(region, locale, path);
     }
   }
@@ -127,10 +147,10 @@ export function getLocaleSlugAlternates(
 ): Record<string, string> {
   const alternates: Record<string, string> = {};
   for (const region of regions) {
-    if (region === 'uk') continue; // UK noindexed — excluir de hreflang
-    for (const locale of regionLocales[region]) {
+    for (const locale of indexableLocales[region]) {
       const slug = slugsByLocale[locale] ?? defaultSlug;
-      const key = `${locale}-${getCountryForLocale(locale)}`;
+      const key = hreflangCode(region, locale);
+      if (!key) continue;
       alternates[key] = getCanonicalUrl(region, locale, `${section}/${slug}`);
     }
   }
@@ -139,6 +159,16 @@ export function getLocaleSlugAlternates(
     `${section}/${slugsByLocale[defaultLocale] ?? defaultSlug}`,
   );
   return alternates;
+}
+
+/**
+ * Returns the canonical BCP-47 code for a (region, locale) pair, or null if
+ * the combination isn't valid SEO-wise. UK is en-GB only; everything else
+ * uses the locale's primary country.
+ */
+function hreflangCode(region: Region, locale: Locale): string | null {
+  if (region === 'uk') return locale === 'en' ? 'en-GB' : null;
+  return `${locale}-${getCountryForLocale(locale)}`;
 }
 
 function getCountryForLocale(locale: Locale): string {

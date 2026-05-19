@@ -3,6 +3,7 @@ import { siteConfig } from '@/config/site';
 import {
   getAlternates,
   getCanonicalUrl,
+  isIndexable,
   localeMap,
   type Locale,
   type Region,
@@ -34,8 +35,15 @@ export function buildMetadata(config: PageSeoConfig): Metadata {
   const {
     title, description, path = '', region, locale,
     image = '/og-default.jpg', imageAlt, type = 'website',
-    noIndex = false, keywords, publishedTime, modifiedTime, author, customAlternates,
+    noIndex: noIndexExplicit = false, keywords, publishedTime, modifiedTime, author, customAlternates,
   } = config;
+
+  // Force noIndex automatically for region/locale combinations that aren't
+  // canonical for SEO. This covers /uk/{!en}/* — UK locale variants exist
+  // for UX (user might prefer reading in Spanish) but Google should never
+  // index them, otherwise they'd compete with their /eu/{locale}/* twins
+  // as duplicate content.
+  const noIndex = noIndexExplicit || !isIndexable(region, locale);
 
   const cleanTitle = title.replace(new RegExp(`\\s*·\\s*${siteConfig.name}\\s*$`), '').trim();
   const truncatedDesc = description.length > 160
