@@ -412,7 +412,7 @@ export const rituales: Ritual[] = [
       es: { main: 'Ritual', accent: 'Gato Zen', full: 'Ritual Gato Zen' },
       en: { main: 'Ritual', accent: 'Zen Cat', full: 'Ritual Zen Cat' },
       fr: { main: 'Rituel', accent: 'Chat Zen', full: 'Rituel Chat Zen' },
-      de: { main: 'Ritual', accent: 'Hundeverwöhnung', full: 'Ritual Hundeverwöhnung' },
+      de: { main: 'Ritual', accent: 'Zen-Katze', full: 'Ritual Zen-Katze' },
       it: { main: 'Rituale', accent: 'Gatto Zen', full: 'Rituale Gatto Zen' },
       nl: { main: 'Ritueel', accent: 'Zen Kat', full: 'Ritueel Zen Kat' },
       pt: { main: 'Ritual', accent: 'Gato Zen', full: 'Ritual Gato Zen' },

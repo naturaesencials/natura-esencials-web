@@ -169,6 +169,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                   <em className="font-display-italic text-verde">{tr.nameAccent}</em>
                 </>
               )}
+              {' '}
               <span className="block mt-2 text-meta-fluid uppercase tracking-[0.18em] text-graphite font-sans font-normal">
                 {{
                   es: 'de origen natural',
@@ -386,11 +387,10 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                     <p className="text-meta-fluid uppercase tracking-[0.22em] text-verde-vivo mb-2">
                       {c.sensation}
                     </p>
-                    <h3 className="font-heading text-h4-fluid mb-2 group-hover:text-verde transition-colors">
+                    <h3 className="font-heading text-h4-fluid group-hover:text-verde transition-colors">
                       {ct.nameMain || ct.name}
                       {ct.nameMain && ct.nameAccent && <em className="font-heading-italic text-verde"> {ct.nameAccent}</em>}
                     </h3>
-                    <p className="text-body-fluid text-graphite">{ct.subtitle}</p>
                   </Link>
                 );
               })}
