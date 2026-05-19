@@ -169,6 +169,17 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                   <em className="font-display-italic text-verde">{tr.nameAccent}</em>
                 </>
               )}
+              <span className="block mt-2 text-meta-fluid uppercase tracking-[0.18em] text-graphite font-sans font-normal">
+                {{
+                  es: 'de origen natural',
+                  en: 'natural origin',
+                  fr: "d'origine naturelle",
+                  de: 'natürlichen Ursprungs',
+                  it: 'di origine naturale',
+                  nl: 'van natuurlijke oorsprong',
+                  pt: 'de origem natural',
+                }[locale] ?? 'de origen natural'}
+              </span>
             </h1>
             {tr.subtitle && (
               <p className="mt-4 font-caption text-[clamp(14px,1.8vw,18px)] font-normal text-graphite leading-relaxed tracking-normal">
