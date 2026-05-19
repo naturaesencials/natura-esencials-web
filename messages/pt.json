@@ -204,8 +204,8 @@
   "catalogPages": {
     "cosmetica": {
       "kicker": "Coleção",
-      "title": "Cosmética artesanal",
-      "accent": "essencial",
+      "title": "Cosmética",
+      "accent": "artesanal",
       "desc": "Cosmética artesanal de origem natural para o dia a dia: cabelo, corpo, rosto e barbear em rituais sensoriais. Três coleções — Básica, Para Ela e Para Ele — formuladas com norma ISO 16128 e fabricadas à mão na Andaluzia.",
       "h1Qualifier": "",
       "tagline": "de origem natural"
@@ -214,7 +214,7 @@
       "kicker": "Coleção",
       "title": "Cuidado",
       "accent": "do lar",
-      "desc": "Cuidado do lar como ritual: limpeza de origem natural transformada em sensação de casa cuidada. Detergente, amaciador, loiça, limpadores específicos e multissuperfícies com fórmulas suaves de origem natural.",
+      "desc": "Cuidado do lar como ritual: limpeza de origem natural transformada em sensação de casa cuidada. Detergente, amaciador, loiça e limpadores com fórmulas suaves.",
       "h1Qualifier": "",
       "tagline": "de origem natural"
     },
