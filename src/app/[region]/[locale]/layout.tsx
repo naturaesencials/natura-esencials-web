@@ -20,6 +20,7 @@ import { CartProvider } from '@/context/CartContext';
 import { CookieBanner } from '@/components/layout/CookieBanner';
 import { CartDrawer } from '@/components/cart/CartDrawer';
 import { UkComingSoon } from '@/components/layout/UkComingSoon';
+import { UkShippingBar } from '@/components/layout/UkShippingBar';
 import { WhatsAppButton } from '@/components/social/WhatsAppButton';
 
 interface Props {
@@ -57,6 +58,7 @@ export default async function RegionLocaleLayout({ children, params }: Props) {
         <CartProvider region={region} locale={locale}>
           <Header region={region} locale={locale} />
           <CartDrawer locale={locale} />
+          {region === 'uk' && <UkShippingBar />}
           <main id="main-content">
             {region === 'uk' && process.env.NEXT_PUBLIC_UK_LIVE !== 'true'
               ? <UkComingSoon region={region} locale={locale} />
