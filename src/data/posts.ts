@@ -62,7 +62,7 @@ Bei Natura Esencials formulieren wir unser 2-in-1-Shampoo mit einem pH-Wert zwis
 
 **Wie erreichen wir das?** Durch pflanzliche Tenside (aus Kokos und Zucker) und Anpassung des pH-Werts mit Zitronensäure.
 
-Das Ergebnis: sauberes Haar, ohne Frizz, mit intakter Schuppenschicht.`,
+Das Ergebnis: sauberes Haar, ohne Frizz, mit intakter Schuppenschicht. Ein Naturshampoo muss sauer sein — das ist keine Schwäche, sondern gute Chemie.`,
       it: `I capelli umani hanno un pH naturale tra 4,5 e 5,5. La cuticola capillare resta chiusa e liscia. I prodotti con pH alcalino aprono le squame, il capello perde lucentezza e si spezza più facilmente.
 
 In Natura Esencials formuliamo il nostro Shampoo 2 in 1 con un pH regolato tra 4,5 e 5,5. Fa parte del protocollo ISO 16128.
@@ -76,7 +76,7 @@ Bij Natura Esencials formuleren we onze 2-in-1 Shampoo met een pH tussen 4,5 en 
 
 **Hoe bereiken we dit?** Plantaardige oppervlakteactieve stoffen (kokosnoot en suiker) en aanpassing van de pH met citroenzuur.
 
-Het resultaat: schoon haar, zonder pluis, met intacte schubbenlaag.`,
+Het resultaat: schoon haar, zonder pluis, met intacte schubbenlaag. De reden is eenvoudig: een zure pH beschermt het haar van binnenuit.`,
       pt: `O cabelo humano tem um pH natural entre 4,5 e 5,5. A cutícula capilar mantém-se fechada e suave. Produtos com pH alcalino abrem as escamas, o cabelo perde brilho e parte-se mais facilmente.
 
 Na Natura Esencials formulamos o nosso Champô 2 em 1 com um pH ajustado entre 4,5 e 5,5. Faz parte do protocolo ISO 16128.
@@ -150,7 +150,7 @@ Unsere Haushaltslinie wurde entwickelt, um wirklich zu reinigen und zugleich sic
 
 **Der Duft ist wichtig.** Echte ätherische Öle: Málaga-Zitrone, Lavendel, Minze.
 
-Unser Bodenreiniger reinigt ohne Rückstände, ohne Nachspülen, sicher für Haushalte mit Kindern und Haustieren. Gründlich reinigen erfordert gute Formulierung.`,
+Unser Bodenreiniger reinigt ohne Rückstände, ohne Nachspülen, sicher für Haushalte mit Kindern und Haustieren. Gründlich reinigen erfordert gute Formulierung, keine aggressiven Chemikalien.`,
       it: `Le famiglie europee consumano in media 12 kg di prodotti per la pulizia all'anno. La maggior parte contiene solfati aggressivi e profumi sintetici che irritano le vie respiratorie.
 
 La nostra linea Casa è stata progettata per pulire davvero, in sicurezza quotidiana.
