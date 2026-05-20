@@ -27,7 +27,7 @@ export default async function PrivacidadPage({ params }: Props) {
     <main className="px-pad-x py-pad-y">
       <div className="mx-auto max-w-3xl">
         {(() => {
-          const H1: Record<string, string> = {"es": "Política de Privacidad — Natura Esencials", "en": "Privacy Policy — Natura Esencials", "fr": "Politique de Confidentialité — Natura Esencials", "de": "Datenschutzrichtlinie — Natura Esencials", "it": "Informativa sulla Privacy — Natura Esencials", "nl": "Privacybeleid — Natura Esencials", "pt": "Política de Privacidade — Natura Esencials"};
+          const H1: Record<string, string> = {"es": "Política de Privacidad — Natura Esencials", "en": "Privacy Policy — Natura Esencials", "fr": "Politique de Confidentialité — Natura Esencials", "de": "Datenschutzerklärung — Natura Esencials", "it": "Informativa sulla Privacy — Natura Esencials", "nl": "Privacybeleid — Natura Esencials", "pt": "Política de Privacidade — Natura Esencials"};
           return <h1 className="font-display text-[clamp(24px,4vw,36px)] tracking-[-0.02em] mb-10">{H1[locale] ?? H1.es}</h1>;
         })()}
         <div

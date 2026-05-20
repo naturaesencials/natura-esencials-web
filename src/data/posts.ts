@@ -132,7 +132,7 @@ When we designed our Home line, the question was not "how do we make a natural c
 
 **The result.** Our Natural Floor Cleaner cleans without leaving residue, without rinsing, and with a safety profile suitable for homes with children and pets. The same applies to our Degreaser, Glass Cleaner and the rest of the range.
 
-Cleaning well does not require harsh chemicals or chemical aggression. It requires good formulation.`,
+Cleaning well without harsh chemicals is perfectly possible — and requires nothing more than good formulation.`,
       fr: `Les foyers européens consomment en moyenne 12 kg de produits d'entretien par an. La plupart contiennent des sulfates agressifs et des parfums de synthèse qui irritent les voies respiratoires.
 
 Notre ligne Maison a été conçue pour nettoyer vraiment tout en étant sûre au quotidien.
@@ -168,7 +168,7 @@ Onze Huishoudlijn is ontworpen om echt te reinigen en veilig te zijn voor dageli
 
 **Geur is belangrijk.** Echte essentiële oliën: Málaga-citroen, lavendel, munt.
 
-Onze Vloerreiniger reinigt zonder residu, zonder naspoelen, veilig voor huishoudens met kinderen en huisdieren. Goed schoonmaken vereist goede formulering, geen agressieve chemicaliën.`,
+Onze Vloerreiniger reinigt zonder residu, zonder naspoelen, veilig voor huishoudens met kinderen en huisdieren. Goed schoonmaken vereist de juiste middelen en goede formulering — geen agressieve chemicaliën.`,
       pt: `As famílias europeias consomem em média 12 kg de produtos de limpeza por ano. A maioria contém sulfatos agressivos e fragrâncias sintéticas que irritam as vias respiratórias.
 
 A nossa linha Lar foi concebida para limpar a sério, com segurança diária.
@@ -231,7 +231,7 @@ At Natura Esencials we have used ISO 16128 as a formulation tool from the start:
 
 **En pratique ?** Un produit avec un indice de 96% a 96% de sa masse d'origine naturelle.
 
-Chez Natura Esencials, ISO 16128 est notre outil de formulation depuis le début.`,
+Chez Natura Esencials, la certification ISO 16128 est notre outil de formulation depuis le début.`,
       de: `Natürlich ist eines der am häufigsten verwendeten und am wenigsten regulierten Wörter auf dem Kosmetikmarkt. ISO 16128 bedeutet das Ende dieser Unklarheit.
 
 **Was ist ISO 16128?** Ein internationaler Standard, der Kriterien für die Klassifizierung kosmetischer Inhaltsstoffe als natürlich oder natürlich gewonnen festlegt. Er ermöglicht die Berechnung eines Natürlichkeitsindex.
@@ -249,7 +249,7 @@ Bei Natura Esencials nutzen wir ISO 16128 von Anfang an als Formulierungswerkzeu
 
 **Nella pratica?** Un prodotto con indice del 96% ha il 96% della massa di origine naturale.
 
-In Natura Esencials utilizziamo ISO 16128 come strumento di formulazione fin dall'inizio.`,
+In Natura Esencials questo significa avere un cosmetico sicuro, trasparente e verificabile fin dall'inizio.`,
       nl: `Natuurlijk is een van de meest gebruikte en minst gereguleerde woorden in cosmetica. Dat verandert met ISO 16128.
 
 **Wat is ISO 16128?** Een internationale standaard die criteria vastlegt voor het classificeren van cosmetische ingrediënten als natuurlijk of van natuurlijke oorsprong. Het maakt de berekening mogelijk van een natuurlijkheidsindex.
@@ -258,7 +258,7 @@ In Natura Esencials utilizziamo ISO 16128 come strumento di formulazione fin dal
 
 **In de praktijk?** Een product met een index van 96% heeft 96% van zijn massa uit natuurlijke ingrediënten.
 
-Bij Natura Esencials gebruiken we ISO 16128 vanaf het begin als formuleringstool.`,
+Voor Natura Esencials betekent ISO 16128 transparante en eerlijke formulering vanaf het begin.`,
       pt: `Natural é uma das palavras mais usadas e menos regulamentadas em cosmética. Isso muda com a ISO 16128.
 
 **O que é a ISO 16128?** Uma norma técnica internacional que estabelece critérios para classificar ingredientes cosméticos como naturais ou de origem natural. Permite calcular um índice de naturalidade.
@@ -267,7 +267,7 @@ Bij Natura Esencials gebruiken we ISO 16128 vanaf het begin als formuleringstool
 
 **Na prática?** Um produto com índice de 96% tem 96% da massa de origem natural.
 
-Na Natura Esencials usamos a ISO 16128 como ferramenta de formulação desde o início.`,
+Para a Natura Esencials, a certificação ISO 16128 significa formular com rigor e transparência desde o início.`,
     },
   },
 ];
