@@ -30,7 +30,7 @@ function formatPrice(amount: string, currency: string): string {
 interface CartDrawerProps { locale: Locale }
 
 export function CartDrawer({ locale }: CartDrawerProps) {
-  const { cart, isOpen, isLoading, closeCart, removeLine, updateLine } = useCart();
+  const { cart, isOpen, isLoading, closeCart, removeLine, updateLine, markCheckoutStarted } = useCart();
   const panelRef = useRef<HTMLDivElement>(null);
 
   // Cerrar con Escape
@@ -197,6 +197,7 @@ export function CartDrawer({ locale }: CartDrawerProps) {
                 ?.replace('https://bdchtj-1p.myshopify.com', 'https://tienda.naturaesencials.com')}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={markCheckoutStarted}
               className={`flex w-full items-center justify-center gap-2 bg-ink px-6 py-4 text-[11px] uppercase tracking-[0.28em] text-bg transition-colors hover:bg-verde ${
                 isLoading ? 'pointer-events-none opacity-60' : ''
               }`}

@@ -15,15 +15,16 @@ import type { Region, Locale } from '@/lib/i18n/config';
 // ─── Types ────────────────────────────────────────────────────────────────────
 
 interface CartContextValue {
-  cart:         Cart | null;
-  isOpen:       boolean;
-  isLoading:    boolean;
-  totalItems:   number;
-  openCart:     () => void;
-  closeCart:    () => void;
-  addToCart:    (merchandiseId: string, quantity?: number) => Promise<void>;
-  removeLine:   (lineId: string) => Promise<void>;
-  updateLine:   (lineId: string, quantity: number) => Promise<void>;
+  cart:                  Cart | null;
+  isOpen:                boolean;
+  isLoading:             boolean;
+  totalItems:            number;
+  openCart:              () => void;
+  closeCart:             () => void;
+  addToCart:             (merchandiseId: string, quantity?: number) => Promise<void>;
+  removeLine:            (lineId: string) => Promise<void>;
+  updateLine:            (lineId: string, quantity: number) => Promise<void>;
+  markCheckoutStarted:   () => void;
 }
 
 // ─── Context ──────────────────────────────────────────────────────────────────
@@ -86,41 +87,29 @@ export function CartProvider({ children, region, locale }: CartProviderProps) {
     setIsOpen(false);
   }, [storageKey]);
 
-  // ── Verificar estado del carrito al montar y al volver a la pestaña ────────
-  // Cuando el usuario completa el pago en Shopify (pestaña nueva) y vuelve,
-  // detectamos el checkout completado via completedAt y limpiamos el carrito.
+  // ── markCheckoutStarted — llamar al hacer click en Checkout ────────────────
+  // Guarda un flag para que, al volver a la pestaña desde Shopify checkout,
+  // sepamos que el usuario fue a pagar y debemos limpiar el carrito.
+  const checkoutFlagKey = `natura-checkout-started-${region}`;
+  const markCheckoutStarted = useCallback(() => {
+    try { localStorage.setItem(checkoutFlagKey, '1'); } catch { /* ignore */ }
+  }, [checkoutFlagKey]);
+
+  // ── Detectar vuelta desde checkout via visibilitychange ───────────────────
   useEffect(() => {
-    const checkCart = async () => {
-      const savedId = cartIdRef.current;
-      if (!savedId) return;
-      try {
-        const res = await fetch('/api/shopify/cart', {
-          method:  'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body:    JSON.stringify({ action: 'fetch', cartId: savedId, region, locale }),
-        });
-        if (!res.ok) return;
-        const { cart: fetchedCart } = await res.json();
-        if (!fetchedCart || fetchedCart.completedAt) {
-          // Carrito completado (pago realizado) o expirado → limpiar
-          clearCart();
-        } else {
-          // Carrito aún válido → actualizar estado
-          setCart(fetchedCart);
-        }
-      } catch { /* red error, no action */ }
-    };
-
-    // Comprobar al montar
-    checkCart();
-
-    // Comprobar cuando el usuario vuelve a la pestaña (viene de checkout)
     const onVisible = () => {
-      if (document.visibilityState === 'visible') checkCart();
+      if (document.visibilityState !== 'visible') return;
+      try {
+        const started = localStorage.getItem(checkoutFlagKey);
+        if (started) {
+          localStorage.removeItem(checkoutFlagKey);
+          clearCart();
+        }
+      } catch { /* ignore */ }
     };
     document.addEventListener('visibilitychange', onVisible);
     return () => document.removeEventListener('visibilitychange', onVisible);
-  }, [region, locale, clearCart]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [checkoutFlagKey, clearCart]);
 
 
   const addToCart = useCallback(async (merchandiseId: string, quantity = 1) => {
@@ -209,6 +198,7 @@ export function CartProvider({ children, region, locale }: CartProviderProps) {
       cart, isOpen, isLoading, totalItems,
       openCart, closeCart,
       addToCart, removeLine, updateLine,
+      markCheckoutStarted,
     }}>
       {children}
     </CartContext.Provider>

@@ -25,7 +25,6 @@ export interface Cart {
   id: string;
   checkoutUrl: string;
   totalQuantity: number;
-  completedAt: string | null;
   cost: {
     subtotalAmount: { amount: string; currencyCode: string };
     totalAmount:    { amount: string; currencyCode: string };
@@ -40,7 +39,6 @@ const CART_FRAGMENT = gql`
     id
     checkoutUrl
     totalQuantity
-    completedAt
     cost {
       subtotalAmount { amount currencyCode }
       totalAmount    { amount currencyCode }
