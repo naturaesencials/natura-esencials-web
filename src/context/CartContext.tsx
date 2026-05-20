@@ -78,7 +78,51 @@ export function CartProvider({ children, region, locale }: CartProviderProps) {
     try { localStorage.setItem(storageKey, id); } catch { /* ignore */ }
   }, [storageKey]);
 
-  // ── addToCart ──────────────────────────────────────────────────────────────
+  // ── clearCart — limpia el carrito local y en localStorage ─────────────────
+  const clearCart = useCallback(() => {
+    cartIdRef.current = null;
+    try { localStorage.removeItem(storageKey); } catch { /* ignore */ }
+    setCart(null);
+    setIsOpen(false);
+  }, [storageKey]);
+
+  // ── Verificar estado del carrito al montar y al volver a la pestaña ────────
+  // Cuando el usuario completa el pago en Shopify (pestaña nueva) y vuelve,
+  // detectamos el checkout completado via completedAt y limpiamos el carrito.
+  useEffect(() => {
+    const checkCart = async () => {
+      const savedId = cartIdRef.current;
+      if (!savedId) return;
+      try {
+        const res = await fetch('/api/shopify/cart', {
+          method:  'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body:    JSON.stringify({ action: 'fetch', cartId: savedId, region, locale }),
+        });
+        if (!res.ok) return;
+        const { cart: fetchedCart } = await res.json();
+        if (!fetchedCart || fetchedCart.completedAt) {
+          // Carrito completado (pago realizado) o expirado → limpiar
+          clearCart();
+        } else {
+          // Carrito aún válido → actualizar estado
+          setCart(fetchedCart);
+        }
+      } catch { /* red error, no action */ }
+    };
+
+    // Comprobar al montar
+    checkCart();
+
+    // Comprobar cuando el usuario vuelve a la pestaña (viene de checkout)
+    const onVisible = () => {
+      if (document.visibilityState === 'visible') checkCart();
+    };
+    document.addEventListener('visibilitychange', onVisible);
+    return () => document.removeEventListener('visibilitychange', onVisible);
+  }, [region, locale, clearCart]); // eslint-disable-line react-hooks/exhaustive-deps
+
+
   const addToCart = useCallback(async (merchandiseId: string, quantity = 1) => {
     setIsLoading(true);
     try {

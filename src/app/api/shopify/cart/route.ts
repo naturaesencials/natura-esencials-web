@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { cartCreate, cartLinesAdd, cartLinesRemove, cartLinesUpdate } from '@/lib/shopify/cart';
+import { cartCreate, cartLinesAdd, cartLinesRemove, cartLinesUpdate, cartFetch } from '@/lib/shopify/cart';
 import type { Region, Locale } from '@/lib/i18n/config';
 
 export const runtime = 'edge';
@@ -27,6 +27,9 @@ export async function POST(req: NextRequest) {
     let cart = null;
 
     switch (action) {
+      case 'fetch':
+        cart = await cartFetch(region, locale, body.cartId);
+        break;
       case 'create':
         cart = await cartCreate(region, locale, body.lines);
         break;

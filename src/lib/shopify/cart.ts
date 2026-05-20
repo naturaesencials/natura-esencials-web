@@ -25,6 +25,7 @@ export interface Cart {
   id: string;
   checkoutUrl: string;
   totalQuantity: number;
+  completedAt: string | null;
   cost: {
     subtotalAmount: { amount: string; currencyCode: string };
     totalAmount:    { amount: string; currencyCode: string };
@@ -39,6 +40,7 @@ const CART_FRAGMENT = gql`
     id
     checkoutUrl
     totalQuantity
+    completedAt
     cost {
       subtotalAmount { amount currencyCode }
       totalAmount    { amount currencyCode }
@@ -191,6 +193,35 @@ export async function cartLinesUpdate(
   } catch (e) {
     if (e instanceof ShopifyNotConfiguredError) return null;
     console.error('[Cart] cartLinesUpdate failed:', e);
+    return null;
+  }
+}
+
+// ─── cartFetch ────────────────────────────────────────────────────────────────
+
+export async function cartFetch(
+  region: Region,
+  locale: Locale,
+  cartId: string,
+): Promise<Cart | null> {
+  try {
+    const client = getShopifyClient(region);
+    const ctx    = buildContext(region, locale);
+    const query = gql`
+      query cartFetch($cartId: ID!, $country: CountryCode!, $language: LanguageCode!)
+      @inContext(country: $country, language: $language) {
+        cart(id: $cartId) { ...CartFields }
+      }
+      ${CART_FRAGMENT}
+    `;
+    const data = await client.request<{ cart: Cart | null }>(
+      query,
+      { cartId, country: ctx.country, language: ctx.language },
+    );
+    return data.cart ?? null;
+  } catch (e) {
+    if (e instanceof ShopifyNotConfiguredError) return null;
+    console.error('[Cart] cartFetch failed:', e);
     return null;
   }
 }
