@@ -3,10 +3,14 @@
 import { useEffect, useState } from 'react';
 import type { Region } from '@/lib/i18n/config';
 
-// Etiquetas por locale para "opiniones / reviews"
-const LABEL: Record<string, string> = {
-  es: 'opiniones', en: 'reviews', fr: 'avis',
-  de: 'Bewertungen', it: 'recensioni', nl: 'beoordelingen', pt: 'opiniões',
+const LABEL: Record<string, { reviews: string; noReviews: string }> = {
+  es: { reviews: 'opiniones',      noReviews: 'Sé el primero en opinar' },
+  en: { reviews: 'reviews',        noReviews: 'Be the first to review' },
+  fr: { reviews: 'avis',           noReviews: 'Soyez le premier à noter' },
+  de: { reviews: 'Bewertungen',    noReviews: 'Erste Bewertung schreiben' },
+  it: { reviews: 'recensioni',     noReviews: 'Scrivi la prima recensione' },
+  nl: { reviews: 'beoordelingen',  noReviews: 'Eerste beoordeling schrijven' },
+  pt: { reviews: 'opiniões',       noReviews: 'Seja o primeiro a avaliar' },
 };
 
 function Stars({ rating }: { rating: number }) {
@@ -42,11 +46,14 @@ interface Props {
 }
 
 export function ProductRatingBadge({ handle, crossHandle, region, locale }: Props) {
-  const [avg, setAvg]     = useState<number | null>(null);
-  const [total, setTotal] = useState<number>(0);
+  const [avg, setAvg]       = useState<number>(0);
+  const [total, setTotal]   = useState<number>(0);
+  const [loaded, setLoaded] = useState(false);
+
+  const lb = LABEL[locale] ?? LABEL.en;
 
   useEffect(() => {
-    if (!handle) return;
+    if (!handle) { setLoaded(true); return; }
 
     async function load() {
       try {
@@ -56,7 +63,7 @@ export function ProductRatingBadge({ handle, crossHandle, region, locale }: Prop
         if (crossHandle && crossHandle !== handle) params.set('cross_handle', crossHandle);
 
         const res  = await fetch(`/api/reviews?${params}`);
-        if (!res.ok) return;
+        if (!res.ok) { setLoaded(true); return; }
         const data = await res.json();
 
         const reviews: Array<{ rating: number }> = data.reviews ?? [];
@@ -67,30 +74,49 @@ export function ProductRatingBadge({ handle, crossHandle, region, locale }: Prop
           setAvg(Math.round((sum / reviews.length) * 10) / 10);
         }
         setTotal(tot);
-      } catch {
-        // silently fail — badge is non-critical
-      }
+      } catch { /* silently fail */ }
+      finally { setLoaded(true); }
     }
 
     load();
   }, [handle, crossHandle, region, locale]);
 
-  // No renderizar si no hay reseñas
-  if (total === 0 || avg === null) return null;
+  // Skeleton mientras carga
+  if (!loaded) {
+    return (
+      <div className="flex items-center gap-2 animate-pulse">
+        <span className="flex gap-[2px]">
+          {Array.from({ length: 5 }, (_, i) => (
+            <span key={i} className="h-[13px] w-[13px] rounded-sm bg-ink/10" />
+          ))}
+        </span>
+        <span className="h-3 w-20 rounded bg-ink/10" />
+      </div>
+    );
+  }
 
-  const label = LABEL[locale] ?? LABEL.en;
+  // Con reseñas — mostrar media + total
+  if (total > 0 && avg > 0) {
+    return (
+      <a href="#product-reviews" className="inline-flex items-center gap-2 group"
+        aria-label={`${avg} de 5 — ${total} ${lb.reviews}`}>
+        <Stars rating={avg} />
+        <span className="text-[12px] group-hover:text-verde transition-colors">
+          <span className="font-medium text-ink">{avg}</span>
+          {' '}
+          <span className="text-graphite/70">({total} {lb.reviews})</span>
+        </span>
+      </a>
+    );
+  }
 
+  // Sin reseñas — invitar a ser el primero
   return (
-    <a
-      href="#product-reviews"
-      className="inline-flex items-center gap-2 group"
-      aria-label={`${avg} de 5 — ${total} ${label}`}
-    >
-      <Stars rating={avg} />
-      <span className="text-[12px] text-graphite group-hover:text-verde transition-colors">
-        <span className="font-medium text-ink">{avg}</span>
-        {' '}
-        <span className="text-graphite/70">({total} {label})</span>
+    <a href="#product-reviews" className="inline-flex items-center gap-2 group"
+      aria-label={lb.noReviews}>
+      <Stars rating={0} />
+      <span className="text-[12px] text-graphite/60 group-hover:text-verde transition-colors">
+        {lb.noReviews}
       </span>
     </a>
   );
