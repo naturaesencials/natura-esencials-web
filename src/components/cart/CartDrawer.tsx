@@ -193,8 +193,7 @@ export function CartDrawer({ locale }: CartDrawerProps) {
               </span>
             </div>
             <a
-              href={cart?.checkoutUrl
-                ?.replace('https://bdchtj-1p.myshopify.com', 'https://tienda.naturaesencials.com')}
+              href={cart?.checkoutUrl}
               target="_blank"
               rel="noopener noreferrer"
               onClick={markCheckoutStarted}
