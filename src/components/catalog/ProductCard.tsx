@@ -5,6 +5,7 @@ import type { Locale, Region } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
 import type { Product, Bundle } from '@/data/types';
 import { resolveProductImage, resolveBundleImage } from '@/lib/images';
+import { CatalogRatingBadge } from '@/components/reviews/CatalogRatingBadge';
 
 /**
  * ProductCard: tarjeta de producto o bundle para listados.
@@ -134,6 +135,23 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
             translation.name
           )}
         </h2>
+        {/* Rating badge — aparece entre nombre y subtítulo */}
+        {(() => {
+          const handle = !itemIsBundle
+            ? (region === 'uk' && (item as Product).shopifyHandleUK
+                ? (item as Product).shopifyHandleUK!
+                : (item as Product).shopifyHandle)
+            : Object.values((item as Bundle).handles ?? {})[0] ?? item.id;
+          return handle ? (
+            <CatalogRatingBadge
+              handle={handle}
+              region={region}
+              locale={locale}
+              productUrl={linkHref}
+            />
+          ) : null;
+        })()}
+
         <p className="text-graphite text-xs lg:text-sm line-clamp-2 flex-1">
           {translation.subtitle}
         </p>
