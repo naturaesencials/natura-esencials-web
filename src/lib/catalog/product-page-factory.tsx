@@ -164,6 +164,7 @@ export function makeProductPage(line: ProductLine) {
       ...(price !== undefined
         ? { price, currency, availability: product.outOfStock ? 'OutOfStock' : 'InStock' as const }
         : { availability: product.outOfStock ? 'OutOfStock' : 'InStock' as const, currency }),
+      region,
       url,
       additionalProperties,
       inLanguage: localeMap[locale].bcp47,

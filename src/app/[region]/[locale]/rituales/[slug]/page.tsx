@@ -122,6 +122,7 @@ export default async function RitualPage({ params }: Props) {
     currency,
     availability: bundle.outOfStock ? 'OutOfStock' : 'InStock',
     url,
+    region,
   });
 
   const breadcrumbs = breadcrumbSchema([

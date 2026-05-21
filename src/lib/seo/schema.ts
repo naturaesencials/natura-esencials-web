@@ -107,7 +107,9 @@ interface ProductSchemaConfig {
   url: string;
   ratingValue?: number;
   ratingCount?: number;
-  ingredients?: string[];
+  ingredients?: string[];\
+  /** Región — determina las condiciones de envío (eu | uk) */
+  region?: 'eu' | 'uk';
   /** Propiedades técnicas adicionales: ISO 16128 %, pH, PAO en meses, etc. */
   additionalProperties?: Array<{ name: string; value: string | number; unitText?: string }>;
   /** ¿Es un pack/bundle? -> @type ProductGroup */
@@ -152,6 +154,29 @@ export function productSchema(product: ProductSchemaConfig) {
       offer.price = product.price;
       offer.priceCurrency = product.currency;
     }
+
+    // shippingDetails — requerido para Merchant Listing en GSC
+    const isUK = product.region === 'uk';
+    const freeThreshold = isUK ? 60 : 40;
+    const shipCurrency  = isUK ? 'GBP' : 'EUR';
+    const shipCountry   = isUK ? 'GB'  : 'ES';
+    const deliveryMin   = isUK ? 1 : 2;
+    const deliveryMax   = isUK ? 3 : 5;
+
+    offer.shippingDetails = [
+      {
+        '@type': 'OfferShippingDetails',
+        shippingRate: { '@type': 'MonetaryAmount', value: '0.00', currency: shipCurrency },
+        shippingDestination: { '@type': 'DefinedRegion', addressCountry: shipCountry },
+        deliveryTime: {
+          '@type': 'ShippingDeliveryTime',
+          handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 1, unitCode: 'DAY' },
+          transitTime: { '@type': 'QuantitativeValue', minValue: deliveryMin, maxValue: deliveryMax, unitCode: 'DAY' },
+        },
+        doesNotShip: false,
+        description: `Free shipping on orders over ${isUK ? '£' : '€'}${freeThreshold}`,
+      },
+    ];
     schema.offers = offer;
   }
 
