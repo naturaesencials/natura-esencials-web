@@ -131,16 +131,14 @@ export function productSchema(product: ProductSchemaConfig) {
 
   if (product.inLanguage) schema.inLanguage = product.inLanguage;
 
-  // Offers — solo si hay precio (cuando Carlos cargue el Excel)
-  if (product.price !== undefined && product.currency) {
-    schema.offers = {
+  // Offers — siempre presente (Google exige offers | review | aggregateRating)
+  if (product.availability || product.price !== undefined) {
+    const offer: Record<string, unknown> = {
       '@type': 'Offer',
       url: product.url,
-      priceCurrency: product.currency,
-      price: product.price,
       availability: `https://schema.org/${product.availability || 'InStock'}`,
-      priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0],
       seller: { '@id': `${siteConfig.url}/#organization` },
+      priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0],
       hasMerchantReturnPolicy: {
         '@type': 'MerchantReturnPolicy',
         applicableCountry: 'ES',
@@ -150,6 +148,11 @@ export function productSchema(product: ProductSchemaConfig) {
         returnFees: 'https://schema.org/FreeReturn',
       },
     };
+    if (product.price !== undefined && product.currency) {
+      offer.price = product.price;
+      offer.priceCurrency = product.currency;
+    }
+    schema.offers = offer;
   }
 
   if (product.category) schema.category = product.category;
