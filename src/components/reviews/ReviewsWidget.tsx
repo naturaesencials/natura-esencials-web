@@ -175,7 +175,7 @@ export function ReviewsWidget({ handle, crossHandle, title, locale = 'es', shopi
     : `${storefrontBase}#judgeme_product_reviews`;
 
   return (
-    <section className="mt-12 border-t border-rule pt-10">
+    <section id="product-reviews" className="mt-12 border-t border-rule pt-10">
       <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <h2 className="font-display text-[clamp(22px,3vw,32px)] tracking-[-0.015em]">{lb.title}</h2>

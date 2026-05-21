@@ -10,6 +10,7 @@ import { ProductImage } from './ProductImage';
 import { resolveProductImage } from '@/lib/images';
 import { BuyButton } from './BuyButton';
 import { ReviewsWidget } from '@/components/reviews/ReviewsWidget';
+import { ProductRatingBadge } from '@/components/reviews/ProductRatingBadge';
 
 /**
  * ProductDetail — ficha completa de un producto individual.
@@ -182,6 +183,16 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                 }[locale] ?? 'de origen natural'}
               </span>
             </h1>
+
+            {/* ── Rating badge — estrellas + cuenta, enlaza al widget ── */}
+            <div className="mt-3">
+              <ProductRatingBadge
+                handle={resolveShopifyHandle(product, region)}
+                region={region}
+                locale={locale}
+              />
+            </div>
+
             {tr.subtitle && (
               <p className="mt-4 font-caption text-[clamp(14px,1.8vw,18px)] font-normal text-graphite leading-relaxed tracking-normal">
                 {tr.subtitle}
