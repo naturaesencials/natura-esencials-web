@@ -107,7 +107,7 @@ interface ProductSchemaConfig {
   url: string;
   ratingValue?: number;
   ratingCount?: number;
-  ingredients?: string[];\
+  ingredients?: string[];
   /** Región — determina las condiciones de envío (eu | uk) */
   region?: 'eu' | 'uk';
   /** Propiedades técnicas adicionales: ISO 16128 %, pH, PAO en meses, etc. */
