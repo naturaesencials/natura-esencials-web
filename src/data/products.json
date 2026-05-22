@@ -10757,7 +10757,12 @@
           "sustainability": ""
         },
         "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
-      }
+      },
+      "complements": [
+        "difusor-mente-serena"
+      ],
+      "subcategory": "Limpieza general",
+      "sku": "NE-AM01"
     },
     {
       "id": "difusor-mente-serena",
@@ -11027,7 +11032,12 @@
           "sustainability": ""
         },
         "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
-      }
+      },
+      "complements": [
+        "spray-mente-serena"
+      ],
+      "subcategory": "Limpieza general",
+      "sku": "NE-AD01"
     },
     {
       "id": "spray-frescor-puro",
@@ -11297,7 +11307,12 @@
           "sustainability": ""
         },
         "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
-      }
+      },
+      "complements": [
+        "difusor-frescor-puro"
+      ],
+      "subcategory": "Limpieza general",
+      "sku": "NE-AM02"
     },
     {
       "id": "difusor-frescor-puro",
@@ -11567,7 +11582,12 @@
           "sustainability": ""
         },
         "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
-      }
+      },
+      "complements": [
+        "spray-frescor-puro"
+      ],
+      "subcategory": "Limpieza general",
+      "sku": "NE-AD02"
     },
     {
       "id": "spray-corazon-en-calma",
@@ -11837,7 +11857,12 @@
           "sustainability": ""
         },
         "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
-      }
+      },
+      "complements": [
+        "difusor-corazon-en-calma"
+      ],
+      "subcategory": "Limpieza general",
+      "sku": "NE-AM03"
     },
     {
       "id": "difusor-corazon-en-calma",
@@ -12107,7 +12132,12 @@
           "sustainability": ""
         },
         "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
-      }
+      },
+      "complements": [
+        "spray-corazon-en-calma"
+      ],
+      "subcategory": "Limpieza general",
+      "sku": "NE-AD03"
     },
     {
       "id": "spray-relax",
@@ -12377,7 +12407,12 @@
           "sustainability": ""
         },
         "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
-      }
+      },
+      "complements": [
+        "difusor-relax"
+      ],
+      "subcategory": "Limpieza general",
+      "sku": "NE-AM04"
     },
     {
       "id": "difusor-relax",
@@ -12647,7 +12682,12 @@
           "sustainability": ""
         },
         "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
-      }
+      },
+      "complements": [
+        "spray-relax"
+      ],
+      "subcategory": "Limpieza general",
+      "sku": "NE-AD04"
     }
   ]
 }
