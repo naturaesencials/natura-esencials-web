@@ -3258,7 +3258,7 @@
       "collection": "hombre",
       "subcategory": "Rostro",
       "sku": "NE-H07",
-      "shopifyHandle": "exfoliante-facial-hombre",
+      "shopifyHandle": "gel-exfoliante-hombre",
       "availableIn": [
         "eu"
       ],
@@ -3267,9 +3267,7 @@
       "ph": "4,5-5,5",
       "paoMonths": 12,
       "formats": [
-        "300 ml",
-        "1 L",
-        "Caja BIB 5 L"
+        "100 ml"
       ],
       "dermatologicallyTested": true,
       "complements": [
@@ -3277,7 +3275,7 @@
         "body-milk-man"
       ],
       "recommendedPack": "ritual-para-el",
-      "visible": false,
+      "visible": true,
       "es": {
         "name": "Gel Exfoliante Facial Hombre",
         "nameMain": "Exfoliante",
@@ -3529,7 +3527,288 @@
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-4.jpg"
+      "primaryImage": "/images/products/eu/exfoliante-facial-hombre.png",
+      "basePriceEUR": 6.7,
+      "secondaryImage": "/images/products/eu/exfoliante-facial-hombre-2.png"
+    },
+    {
+      "id": "serum-antiojeras",
+      "line": "cosmetica",
+      "collection": "unisex",
+      "subcategory": "Rostro",
+      "sku": "NE-H08",
+      "shopifyHandle": "serum-despertar-antiojeras",
+      "availableIn": [
+        "eu"
+      ],
+      "sensation": "Refugio",
+      "isoNaturalPercent": 99,
+      "ph": "6,5-7,5",
+      "paoMonths": 6,
+      "formats": [
+        "15 ml"
+      ],
+      "complements": [
+        "exfoliante-facial-hombre",
+        "body-milk-man"
+      ],
+      "recommendedPack": "ritual-para-el",
+      "visible": true,
+      "es": {
+        "name": "Serum Antiojeras",
+        "nameMain": "Serum",
+        "nameAccent": "Antiojeras",
+        "subtitle": "Mirada descansada con activo de aguacate al 3%",
+        "olfactiveFamily": "Sin fragancia · Neutra",
+        "momentOfUse": "Manana y noche · Contorno de ojos",
+        "shortDescription": "Serum para el contorno de ojos con Number 6, activo de aguacate al 3%. Reduce ojeras y desinfama bolsas. 99% de origen natural.",
+        "benefits": [
+          "Activo Number 6 (aguacate al 3%): reduce ojeras y desinfama bolsas.",
+          "Ilumina y unifica el tono. Efecto anti-fatiga. 99% de origen natural."
+        ],
+        "ritual": [
+          {
+            "title": "Pequeña cantidad",
+            "description": "Aplicar una pequeña cantidad sobre la piel limpia y seca del contorno de los ojos."
+          },
+          {
+            "title": "Masaje circular",
+            "description": "Masajear suavemente con movimientos circulares con el dedo anular. Sin frotar."
+          },
+          {
+            "title": "Mañana y noche",
+            "description": "Dejar absorber. Aplicar mañana y noche. Resultados visibles en 2-4 semanas de uso regular."
+          }
+        ],
+        "sensory": {
+          "aroma": "Sin fragancia: aroma muy suave característico del aguacate. Neutro para la zona periocular sensible.",
+          "texture": "Gel ligero translúcido. Absorción rápida.",
+          "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
+          "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
+        },
+        "slug": "serum-antiojeras",
+        "ingredients": "Aqua, Glycerin, Carrageenan, Propanediol, Argania Spinosa Kernel Oil, Persea Gratissima Fruit Extract, Citric Acid, 1,2-Hexanediol, Phenylpropanol"
+      },
+      "en": {
+        "name": "Anti-Dark Circles Serum",
+        "subtitle": "Rested eyes with 3% avocado active",
+        "slug": "anti-dark-circles-serum",
+        "olfactiveFamily": "Fragrance-free · Neutral",
+        "momentOfUse": "Morning and night · Eye contour",
+        "nameMain": "Eye Serum",
+        "nameAccent": "Anti-Dark Circles",
+        "shortDescription": "Eye contour serum with Number 6, 3% avocado active. Reduces dark circles and depuffs bags. 99% natural origin.",
+        "benefits": [
+          "Number 6 active (3% avocado): reduces dark circles and depuffs bags.",
+          "Brightens and evens skin tone. Anti-fatigue effect. 99% natural origin."
+        ],
+        "ritual": [
+          {
+            "title": "Pequeña cantidad",
+            "description": "Aplicar una pequeña cantidad sobre la piel limpia y seca del contorno de los ojos."
+          },
+          {
+            "title": "Masaje circular",
+            "description": "Masajear suavemente con movimientos circulares con el dedo anular. Sin frotar."
+          },
+          {
+            "title": "Mañana y noche",
+            "description": "Dejar absorber. Aplicar mañana y noche. Resultados visibles en 2-4 semanas de uso regular."
+          }
+        ],
+        "sensory": {
+          "aroma": "Sin fragancia: aroma muy suave característico del aguacate. Neutro para la zona periocular sensible.",
+          "texture": "Gel ligero translúcido. Absorción rápida.",
+          "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
+          "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
+        },
+        "aiTranslation": true,
+        "warnings": "Avoid contact with eyes and mucous membranes. Keep out of reach of children. External use only."
+      },
+      "fr": {
+        "name": "Serum Anti-Cernes",
+        "subtitle": "Regard repose avec actif avocat a 3%",
+        "slug": "serum-anti-cernes",
+        "olfactiveFamily": "Sans parfum · Neutre",
+        "momentOfUse": "Matin et soir · Contour des yeux",
+        "nameMain": "Serum",
+        "nameAccent": "Anti-Cernes",
+        "shortDescription": "Serum contour des yeux avec Number 6, actif avocat 3%. Reduit les cernes et degonfle les poches. 99% d'origine naturelle.",
+        "benefits": [
+          "Actif Number 6 (avocat 3%) : reduit les cernes et degonfle les poches.",
+          "Illumine et unifie le teint. Effet anti-fatigue. 99% d'origine naturelle."
+        ],
+        "ritual": [
+          {
+            "title": "Pequeña cantidad",
+            "description": "Aplicar una pequeña cantidad sobre la piel limpia y seca del contorno de los ojos."
+          },
+          {
+            "title": "Masaje circular",
+            "description": "Masajear suavemente con movimientos circulares con el dedo anular. Sin frotar."
+          },
+          {
+            "title": "Mañana y noche",
+            "description": "Dejar absorber. Aplicar mañana y noche. Resultados visibles en 2-4 semanas de uso regular."
+          }
+        ],
+        "sensory": {
+          "aroma": "Sin fragancia: aroma muy suave característico del aguacate. Neutro para la zona periocular sensible.",
+          "texture": "Gel ligero translúcido. Absorción rápida.",
+          "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
+          "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
+        },
+        "aiTranslation": true,
+        "warnings": "Éviter le contact avec les yeux et les muqueuses. Tenir hors de portée des enfants. Usage externe uniquement."
+      },
+      "de": {
+        "name": "Anti-Augenringe-Serum",
+        "subtitle": "Ausgeruhter Blick mit 3% Avocado-Aktivstoff",
+        "slug": "anti-augenringe-serum",
+        "olfactiveFamily": "Duftneutral · Neutral",
+        "momentOfUse": "Morgens und abends · Augenpartie",
+        "nameMain": "Augen-Serum",
+        "nameAccent": "Anti-Augenringe",
+        "shortDescription": "Augenpflege-Serum mit Number 6, 3% Avocado-Aktivstoff. Reduziert Augenringe und Schwellungen. 99% natuerlicher Ursprung.",
+        "benefits": [
+          "Number 6 Aktivstoff (3% Avocado): reduziert Augenringe und Schwellungen.",
+          "Aufhellend und ausgleichend. Anti-Muedigkeits-Effekt. 99% natuerlicher Ursprung."
+        ],
+        "ritual": [
+          {
+            "title": "Pequeña cantidad",
+            "description": "Aplicar una pequeña cantidad sobre la piel limpia y seca del contorno de los ojos."
+          },
+          {
+            "title": "Masaje circular",
+            "description": "Masajear suavemente con movimientos circulares con el dedo anular. Sin frotar."
+          },
+          {
+            "title": "Mañana y noche",
+            "description": "Dejar absorber. Aplicar mañana y noche. Resultados visibles en 2-4 semanas de uso regular."
+          }
+        ],
+        "sensory": {
+          "aroma": "Sin fragancia: aroma muy suave característico del aguacate. Neutro para la zona periocular sensible.",
+          "texture": "Gel ligero translúcido. Absorción rápida.",
+          "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
+          "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
+        },
+        "aiTranslation": true,
+        "warnings": "Kontakt mit Augen und Schleimhäuten vermeiden. Von Kindern fernhalten. Nur zur äußerlichen Anwendung."
+      },
+      "it": {
+        "name": "Siero Anti-Occhiaie",
+        "subtitle": "Sguardo riposato con attivo avocado al 3%",
+        "slug": "siero-anti-occhiaie",
+        "olfactiveFamily": "Senza profumo · Neutro",
+        "momentOfUse": "Mattina e sera · Contorno occhi",
+        "nameMain": "Siero",
+        "nameAccent": "Anti-Occhiaie",
+        "shortDescription": "Siero contorno occhi con Number 6, attivo avocado al 3%. Riduce occhiaie e sgonfia le borse. 99% origine naturale.",
+        "benefits": [
+          "Attivo Number 6 (avocado 3%): riduce occhiaie e sgonfia le borse.",
+          "Illumina e uniforma il tono. Effetto anti-fatica. 99% origine naturale."
+        ],
+        "ritual": [
+          {
+            "title": "Pequeña cantidad",
+            "description": "Aplicar una pequeña cantidad sobre la piel limpia y seca del contorno de los ojos."
+          },
+          {
+            "title": "Masaje circular",
+            "description": "Masajear suavemente con movimientos circulares con el dedo anular. Sin frotar."
+          },
+          {
+            "title": "Mañana y noche",
+            "description": "Dejar absorber. Aplicar mañana y noche. Resultados visibles en 2-4 semanas de uso regular."
+          }
+        ],
+        "sensory": {
+          "aroma": "Sin fragancia: aroma muy suave característico del aguacate. Neutro para la zona periocular sensible.",
+          "texture": "Gel ligero translúcido. Absorción rápida.",
+          "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
+          "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
+        },
+        "aiTranslation": true,
+        "warnings": "Evitare il contatto con gli occhi e le mucose. Tenere fuori dalla portata dei bambini. Solo per uso esterno."
+      },
+      "nl": {
+        "name": "Anti-Wallen Serum",
+        "subtitle": "Uitgeruste ogen met 3% avocado-extract",
+        "slug": "anti-wallen-serum",
+        "olfactiveFamily": "Geurvrij · Neutraal",
+        "momentOfUse": "Ochtend en avond · Oogcontour",
+        "nameMain": "Oog Serum",
+        "nameAccent": "Anti-Wallen",
+        "shortDescription": "Oogcontourserum met Number 6, 3% avocado-extract. Vermindert wallen en donkere kringen. 99% van natuurlijke oorsprong.",
+        "benefits": [
+          "Number 6 extract (3% avocado): vermindert wallen en donkere kringen.",
+          "Verlicht en egaalseert. Anti-vermoeidheidseffect. 99% van natuurlijke oorsprong."
+        ],
+        "ritual": [
+          {
+            "title": "Pequeña cantidad",
+            "description": "Aplicar una pequeña cantidad sobre la piel limpia y seca del contorno de los ojos."
+          },
+          {
+            "title": "Masaje circular",
+            "description": "Masajear suavemente con movimientos circulares con el dedo anular. Sin frotar."
+          },
+          {
+            "title": "Mañana y noche",
+            "description": "Dejar absorber. Aplicar mañana y noche. Resultados visibles en 2-4 semanas de uso regular."
+          }
+        ],
+        "sensory": {
+          "aroma": "Sin fragancia: aroma muy suave característico del aguacate. Neutro para la zona periocular sensible.",
+          "texture": "Gel ligero translúcido. Absorción rápida.",
+          "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
+          "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
+        },
+        "aiTranslation": true,
+        "warnings": "Vermijd contact met ogen en slijmvliezen. Buiten bereik van kinderen bewaren. Alleen voor uitwendig gebruik."
+      },
+      "pt": {
+        "name": "Serum Anti-Olheiras",
+        "subtitle": "Olhar descansado com ativo de abacate a 3%",
+        "slug": "serum-anti-olheiras",
+        "olfactiveFamily": "Sem fragancia · Neutra",
+        "momentOfUse": "Manha e noite · Contorno dos olhos",
+        "nameMain": "Serum",
+        "nameAccent": "Anti-Olheiras",
+        "shortDescription": "Serum para o contorno dos olhos com Number 6, ativo de abacate a 3%. Reduz olheiras e desinchaça bolsas. 99% de origem natural.",
+        "benefits": [
+          "Ativo Number 6 (abacate 3%): reduz olheiras e desinchaça bolsas.",
+          "Ilumina e uniformiza o tom. Efeito anti-fadiga. 99% de origem natural."
+        ],
+        "ritual": [
+          {
+            "title": "Pequeña cantidad",
+            "description": "Aplicar una pequeña cantidad sobre la piel limpia y seca del contorno de los ojos."
+          },
+          {
+            "title": "Masaje circular",
+            "description": "Masajear suavemente con movimientos circulares con el dedo anular. Sin frotar."
+          },
+          {
+            "title": "Mañana y noche",
+            "description": "Dejar absorber. Aplicar mañana y noche. Resultados visibles en 2-4 semanas de uso regular."
+          }
+        ],
+        "sensory": {
+          "aroma": "Sin fragancia: aroma muy suave característico del aguacate. Neutro para la zona periocular sensible.",
+          "texture": "Gel ligero translúcido. Absorción rápida.",
+          "experience": "Mirada descansada desde las primeras aplicaciones. El activo Number 6© trabaja sobre la microcirculación y los depósitos de grasa para devolver luminosidad y frescura al contorno del ojo.",
+          "sustainability": "99% de ingredientes de origen natural: el máximo de la cosmética masculina. Activo de aguacate certificado. Fabricado en Andalucía."
+        },
+        "aiTranslation": true,
+        "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
+      },
+      "outOfStock": false,
+      "primaryImage": "/images/products/eu/serum-antiojeras.png",
+      "basePriceEUR": 8.1,
+      "secondaryImage": "/images/products/eu/serum-antiojeras-2.png"
     },
     {
       "id": "serum-antiojeras-hombre",
@@ -5009,7 +5288,7 @@
       "collection": "mujer",
       "subcategory": "Rostro",
       "sku": "NE-M05",
-      "shopifyHandle": "agua-micelar",
+      "shopifyHandle": "agua-micelar-mujer",
       "availableIn": [
         "eu"
       ],
@@ -5018,9 +5297,7 @@
       "ph": "4,5-5,5",
       "paoMonths": 6,
       "formats": [
-        "300 ml",
-        "1 L",
-        "Caja BIB 5 L"
+        "100 ml"
       ],
       "dermatologicallyTested": true,
       "complements": [
@@ -5028,7 +5305,7 @@
         "body-milk-woman"
       ],
       "recommendedPack": "ritual-para-ella",
-      "visible": false,
+      "visible": true,
       "es": {
         "name": "Agua Micelar Limpiadora",
         "nameMain": "Agua",
@@ -5280,7 +5557,9 @@
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-5.jpg"
+      "primaryImage": "/images/products/eu/agua-micelar.png",
+      "basePriceEUR": 5.8,
+      "secondaryImage": "/images/products/eu/agua-micelar-2.png"
     },
     {
       "id": "gel-afeitado-mujer",
@@ -5565,7 +5844,7 @@
       "collection": "mujer",
       "subcategory": "Rostro",
       "sku": "NE-M07",
-      "shopifyHandle": "exfoliante-facial-mujer",
+      "shopifyHandle": "gel-exfoliante-mujer",
       "availableIn": [
         "eu"
       ],
@@ -5574,9 +5853,7 @@
       "ph": "4,5-5,5",
       "paoMonths": 12,
       "formats": [
-        "300 ml",
-        "1 L",
-        "Caja BIB 5 L"
+        "100 ml"
       ],
       "dermatologicallyTested": true,
       "complements": [
@@ -5584,7 +5861,7 @@
         "body-milk-woman"
       ],
       "recommendedPack": "ritual-para-ella",
-      "visible": false,
+      "visible": true,
       "es": {
         "name": "Gel Exfoliante Facial Mujer",
         "nameMain": "Exfoliante",
@@ -5836,7 +6113,9 @@
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas."
       },
       "outOfStock": false,
-      "primaryImage": "/images/landing/card-5.jpg"
+      "primaryImage": "/images/products/eu/exfoliante-facial-mujer.png",
+      "basePriceEUR": 6.7,
+      "secondaryImage": "/images/products/eu/exfoliante-facial-mujer-2.png"
     },
     {
       "id": "serum-antiojeras-mujer",
@@ -10206,6 +10485,2166 @@
         "usage": "Aplicar algumas gotas em algodão limpo e limpar suavemente o contorno do olho de dentro para fora."
       },
       "inci": "Aqua, Foeniculum Vulgare Fruit Extract, Humulus Lupulus Extract, Melissa Officinalis Leaf Extract, Viscum Album Leaf Extract, Chamomilla Recutita Flower Extract, Achillea Milefolium Extract, Urea, Allantoin, Alcohol Denat, Coco-Glucoside, Phenylpropanol, 1,2-Hexanediol, Diethyl Phthalate, Citric Acid."
+    },
+    {
+      "id": "spray-mente-serena",
+      "line": "hogar",
+      "collection": "ambientadores",
+      "availableIn": [
+        "eu"
+      ],
+      "shopifyHandle": "ambientador-spry-calm-mind",
+      "formats": [
+        "300 ml"
+      ],
+      "basePriceEUR": 6.2,
+      "sensation": "Calma",
+      "isoNaturalPercent": 87,
+      "outOfStock": false,
+      "visible": true,
+      "primaryImage": "/images/products/eu/spray-mente-serena.png",
+      "secondaryImage": "/images/products/eu/spray-mente-serena-2.png",
+      "es": {
+        "slug": "spray-mente-serena",
+        "name": "Spray Mente Serena",
+        "nameMain": "Spray",
+        "nameAccent": "Mente Serena",
+        "subtitle": "Ambientador spray sin alcohol · 87% origen natural",
+        "shortDescription": "Eucalipto fresco y balsamico que despeja la mente con claridad y frescor natural. 87% de ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado artesanalmente en Marbella, Andalucia.",
+        "momentOfUse": "Trabajo · Estudio · Cualquier estancia",
+        "olfactiveFamily": "Mente Serena",
+        "benefits": [
+          "Eucalipto fresco y balsamico que despeja la mente con claridad y frescor natural.",
+          "~87% ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado en Marbella, Andalucia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Eucalipto fresco y balsamico que despeja la mente con claridad y frescor natural.",
+          "texture": "Liquido acuoso. Spray fino y uniforme. Sin residuo graso.",
+          "experience": "El ambiente se transforma al instante. Fragancia suave y persistente.",
+          "sustainability": "~87% de ingredientes de origen natural (ISO 16128). Fabricado en Andalucia."
+        },
+        "warnings": "Evitar tejidos, ojos y mascotas. Solo para uso ambiental. Mantener fuera del alcance de los ninos."
+      },
+      "en": {
+        "aiTranslation": true,
+        "slug": "calm-mind-spray",
+        "name": "Calm Mind Room Spray",
+        "nameMain": "Room Spray",
+        "nameAccent": "Calm Mind",
+        "subtitle": "Alcohol-free room spray · 87% natural origin",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia.",
+        "momentOfUse": "Work · Study · Any room",
+        "olfactiveFamily": "Calm Mind",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Avoid fabrics, eyes and pets. For ambient use only."
+      },
+      "fr": {
+        "aiTranslation": true,
+        "slug": "spray-esprit-serein",
+        "name": "Spray Mente Serena",
+        "nameMain": "Spray",
+        "nameAccent": "Mente Serena",
+        "subtitle": "Ambientador spray sin alcohol · 87% origine naturelle",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% ingrédients naturels (ISO 16128). Fabriqué à Marbella, Andalousie.",
+        "momentOfUse": "Work · Study · Any room",
+        "olfactiveFamily": "Mente Serena",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% naturel (ISO 16128). Fabriqué en Andalousie."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Eviter les tissus, yeux et animaux. Usage ambiant uniquement."
+      },
+      "de": {
+        "aiTranslation": true,
+        "slug": "spray-klarer-geist",
+        "name": "Calm Mind Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Calm Mind",
+        "subtitle": "Alcohol-free room spray · 87% natuerlicher Ursprung",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% natuerlichen Ursprungs (ISO 16128). Handgefertigt in Marbella, Andalusien.",
+        "momentOfUse": "Work · Study · Any room",
+        "olfactiveFamily": "Calm Mind",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% natuerlicher Ursprung (ISO 16128). Hergestellt in Andalusien."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Stoffe, Augen und Haustiere meiden. Nur zur Raumbeduftung."
+      },
+      "it": {
+        "aiTranslation": true,
+        "slug": "spray-mente-serena-it",
+        "name": "Calm Mind Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Calm Mind",
+        "subtitle": "Alcohol-free room spray · 87% origine naturale",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% ingredienti naturali (ISO 16128). Prodotto a Marbella, Andalusia.",
+        "momentOfUse": "Work · Study · Any room",
+        "olfactiveFamily": "Calm Mind",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% origine naturale (ISO 16128). Prodotto in Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitare tessuti, occhi e animali. Solo per uso ambientale."
+      },
+      "nl": {
+        "aiTranslation": true,
+        "slug": "spray-heldere-geest",
+        "name": "Calm Mind Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Calm Mind",
+        "subtitle": "Alcohol-free room spray · 87% van natuurlijke oorsprong",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% van natuurlijke oorsprong (ISO 16128). Handgemaakt in Marbella, Andalusie.",
+        "momentOfUse": "Work · Study · Any room",
+        "olfactiveFamily": "Calm Mind",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% van natuurlijke oorsprong (ISO 16128). Gemaakt in Andalusie."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Vermijd stoffen, ogen en huisdieren. Alleen voor gebruik in de ruimte."
+      },
+      "pt": {
+        "aiTranslation": true,
+        "slug": "spray-mente-serena-pt",
+        "name": "Calm Mind Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Calm Mind",
+        "subtitle": "Alcohol-free room spray · 87% de origem natural",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% de origem natural (ISO 16128). Fabricado artesanalmente em Marbella, Andaluzia.",
+        "momentOfUse": "Work · Study · Any room",
+        "olfactiveFamily": "Calm Mind",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% de origem natural (ISO 16128). Fabricado na Andaluzia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
+      }
+    },
+    {
+      "id": "difusor-mente-serena",
+      "line": "hogar",
+      "collection": "ambientadores",
+      "availableIn": [
+        "eu"
+      ],
+      "shopifyHandle": "ambientador-varillas-calm-mind",
+      "formats": [
+        "300 ml"
+      ],
+      "basePriceEUR": 13.2,
+      "sensation": "Calma",
+      "isoNaturalPercent": 87,
+      "outOfStock": false,
+      "visible": true,
+      "primaryImage": "/images/products/eu/difusor-mente-serena.png",
+      "secondaryImage": "/images/products/eu/difusor-mente-serena-2.png",
+      "es": {
+        "slug": "difusor-mente-serena",
+        "name": "Difusor Mente Serena",
+        "nameMain": "Difusor",
+        "nameAccent": "Mente Serena",
+        "subtitle": "Difusor con varillas · 87% origen natural",
+        "shortDescription": "Eucalipto fresco y balsamico que despeja la mente con claridad y frescor natural. 87% de ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado artesanalmente en Marbella, Andalucia.",
+        "momentOfUse": "Uso continuo · Oficina · Dormitorio · Salon",
+        "olfactiveFamily": "Mente Serena",
+        "benefits": [
+          "Eucalipto fresco y balsamico que despeja la mente con claridad y frescor natural.",
+          "~87% ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado en Marbella, Andalucia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Eucalipto fresco y balsamico que despeja la mente con claridad y frescor natural.",
+          "texture": "Liquido de base vegetal. Difusion lenta y constante por varillas de ratan.",
+          "experience": "El ambiente se transforma al instante. Fragancia suave y persistente.",
+          "sustainability": "~87% de ingredientes de origen natural (ISO 16128). Fabricado en Andalucia."
+        },
+        "warnings": "Evitar tejidos, ojos y mascotas. Solo para uso ambiental. Mantener fuera del alcance de los ninos."
+      },
+      "en": {
+        "aiTranslation": true,
+        "slug": "calm-mind-diffuser",
+        "name": "Calm Mind Reed Diffuser",
+        "nameMain": "Reed Diffuser",
+        "nameAccent": "Calm Mind",
+        "subtitle": "Reed diffuser · 87% natural origin",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia.",
+        "momentOfUse": "Continuous use · Office · Bedroom · Living room",
+        "olfactiveFamily": "Calm Mind",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Avoid fabrics, eyes and pets. For ambient use only."
+      },
+      "fr": {
+        "aiTranslation": true,
+        "slug": "diffuseur-esprit-serein",
+        "name": "Diffuseur Mente Serena",
+        "nameMain": "Diffuseur",
+        "nameAccent": "Mente Serena",
+        "subtitle": "Difusor con varillas · 87% origine naturelle",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% ingrédients naturels (ISO 16128). Fabriqué à Marbella, Andalousie.",
+        "momentOfUse": "Continuous use · Office · Bedroom · Living room",
+        "olfactiveFamily": "Mente Serena",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% naturel (ISO 16128). Fabriqué en Andalousie."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Eviter les tissus, yeux et animaux. Usage ambiant uniquement."
+      },
+      "de": {
+        "aiTranslation": true,
+        "slug": "raumduft-klarer-geist",
+        "name": "Calm Mind Reed Diffuser",
+        "nameMain": "Raumduft",
+        "nameAccent": "Calm Mind",
+        "subtitle": "Reed diffuser · 87% natuerlicher Ursprung",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% natuerlichen Ursprungs (ISO 16128). Handgefertigt in Marbella, Andalusien.",
+        "momentOfUse": "Continuous use · Office · Bedroom · Living room",
+        "olfactiveFamily": "Calm Mind",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% natuerlicher Ursprung (ISO 16128). Hergestellt in Andalusien."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Stoffe, Augen und Haustiere meiden. Nur zur Raumbeduftung."
+      },
+      "it": {
+        "aiTranslation": true,
+        "slug": "diffusore-mente-serena",
+        "name": "Calm Mind Reed Diffuser",
+        "nameMain": "Diffusore",
+        "nameAccent": "Calm Mind",
+        "subtitle": "Reed diffuser · 87% origine naturale",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% ingredienti naturali (ISO 16128). Prodotto a Marbella, Andalusia.",
+        "momentOfUse": "Continuous use · Office · Bedroom · Living room",
+        "olfactiveFamily": "Calm Mind",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% origine naturale (ISO 16128). Prodotto in Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitare tessuti, occhi e animali. Solo per uso ambientale."
+      },
+      "nl": {
+        "aiTranslation": true,
+        "slug": "geurstokjes-heldere-geest",
+        "name": "Calm Mind Reed Diffuser",
+        "nameMain": "Geurstokjes",
+        "nameAccent": "Calm Mind",
+        "subtitle": "Reed diffuser · 87% van natuurlijke oorsprong",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% van natuurlijke oorsprong (ISO 16128). Handgemaakt in Marbella, Andalusie.",
+        "momentOfUse": "Continuous use · Office · Bedroom · Living room",
+        "olfactiveFamily": "Calm Mind",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% van natuurlijke oorsprong (ISO 16128). Gemaakt in Andalusie."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Vermijd stoffen, ogen en huisdieren. Alleen voor gebruik in de ruimte."
+      },
+      "pt": {
+        "aiTranslation": true,
+        "slug": "difusor-mente-serena-pt",
+        "name": "Calm Mind Reed Diffuser",
+        "nameMain": "Difusor",
+        "nameAccent": "Calm Mind",
+        "subtitle": "Reed diffuser · 87% de origem natural",
+        "shortDescription": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness. ~87% de origem natural (ISO 16128). Fabricado artesanalmente em Marbella, Andaluzia.",
+        "momentOfUse": "Continuous use · Office · Bedroom · Living room",
+        "olfactiveFamily": "Calm Mind",
+        "benefits": [
+          "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "~87% de origem natural (ISO 16128). Fabricado na Andaluzia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Fresh balsamic eucalyptus that clears the mind with clarity and natural freshness.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
+      }
+    },
+    {
+      "id": "spray-frescor-puro",
+      "line": "hogar",
+      "collection": "ambientadores",
+      "availableIn": [
+        "eu"
+      ],
+      "shopifyHandle": "ambientador-spry-clean-fresh",
+      "formats": [
+        "300 ml"
+      ],
+      "basePriceEUR": 6.2,
+      "sensation": "Energia",
+      "isoNaturalPercent": 87,
+      "outOfStock": false,
+      "visible": true,
+      "primaryImage": "/images/products/eu/spray-frescor-puro.png",
+      "secondaryImage": "/images/products/eu/spray-frescor-puro-2.png",
+      "es": {
+        "slug": "spray-frescor-puro",
+        "name": "Spray Frescor Puro",
+        "nameMain": "Spray",
+        "nameAccent": "Frescor Puro",
+        "subtitle": "Ambientador spray sin alcohol · 87% origen natural",
+        "shortDescription": "Frescor acuatico y notas citricas vibrantes que transforman el espacio al instante. 87% de ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado artesanalmente en Marbella, Andalucia.",
+        "momentOfUse": "Manana · Cocina · Bano · Post-limpieza",
+        "olfactiveFamily": "Frescor Puro",
+        "benefits": [
+          "Frescor acuatico y notas citricas vibrantes que transforman el espacio al instante.",
+          "~87% ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado en Marbella, Andalucia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Frescor acuatico y notas citricas vibrantes que transforman el espacio al instante.",
+          "texture": "Liquido acuoso. Spray fino y uniforme. Sin residuo graso.",
+          "experience": "El ambiente se transforma al instante. Fragancia suave y persistente.",
+          "sustainability": "~87% de ingredientes de origen natural (ISO 16128). Fabricado en Andalucia."
+        },
+        "warnings": "Evitar tejidos, ojos y mascotas. Solo para uso ambiental. Mantener fuera del alcance de los ninos."
+      },
+      "en": {
+        "aiTranslation": true,
+        "slug": "clean-freshness-spray",
+        "name": "Clean Freshness Room Spray",
+        "nameMain": "Room Spray",
+        "nameAccent": "Clean Freshness",
+        "subtitle": "Alcohol-free room spray · 87% natural origin",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia.",
+        "momentOfUse": "Morning · Kitchen · Bathroom · Post-cleaning",
+        "olfactiveFamily": "Clean Freshness",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Avoid fabrics, eyes and pets. For ambient use only."
+      },
+      "fr": {
+        "aiTranslation": true,
+        "slug": "spray-fraicheur-pure",
+        "name": "Spray Frescor Puro",
+        "nameMain": "Spray",
+        "nameAccent": "Frescor Puro",
+        "subtitle": "Ambientador spray sin alcohol · 87% origine naturelle",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% ingrédients naturels (ISO 16128). Fabriqué à Marbella, Andalousie.",
+        "momentOfUse": "Morning · Kitchen · Bathroom · Post-cleaning",
+        "olfactiveFamily": "Frescor Puro",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% naturel (ISO 16128). Fabriqué en Andalousie."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Eviter les tissus, yeux et animaux. Usage ambiant uniquement."
+      },
+      "de": {
+        "aiTranslation": true,
+        "slug": "spray-reine-frische",
+        "name": "Clean Freshness Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Clean Freshness",
+        "subtitle": "Alcohol-free room spray · 87% natuerlicher Ursprung",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% natuerlichen Ursprungs (ISO 16128). Handgefertigt in Marbella, Andalusien.",
+        "momentOfUse": "Morning · Kitchen · Bathroom · Post-cleaning",
+        "olfactiveFamily": "Clean Freshness",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% natuerlicher Ursprung (ISO 16128). Hergestellt in Andalusien."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Stoffe, Augen und Haustiere meiden. Nur zur Raumbeduftung."
+      },
+      "it": {
+        "aiTranslation": true,
+        "slug": "spray-freschezza-pura",
+        "name": "Clean Freshness Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Clean Freshness",
+        "subtitle": "Alcohol-free room spray · 87% origine naturale",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% ingredienti naturali (ISO 16128). Prodotto a Marbella, Andalusia.",
+        "momentOfUse": "Morning · Kitchen · Bathroom · Post-cleaning",
+        "olfactiveFamily": "Clean Freshness",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% origine naturale (ISO 16128). Prodotto in Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitare tessuti, occhi e animali. Solo per uso ambientale."
+      },
+      "nl": {
+        "aiTranslation": true,
+        "slug": "spray-pure-frisheid",
+        "name": "Clean Freshness Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Clean Freshness",
+        "subtitle": "Alcohol-free room spray · 87% van natuurlijke oorsprong",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% van natuurlijke oorsprong (ISO 16128). Handgemaakt in Marbella, Andalusie.",
+        "momentOfUse": "Morning · Kitchen · Bathroom · Post-cleaning",
+        "olfactiveFamily": "Clean Freshness",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% van natuurlijke oorsprong (ISO 16128). Gemaakt in Andalusie."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Vermijd stoffen, ogen en huisdieren. Alleen voor gebruik in de ruimte."
+      },
+      "pt": {
+        "aiTranslation": true,
+        "slug": "spray-frescor-puro-pt",
+        "name": "Clean Freshness Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Clean Freshness",
+        "subtitle": "Alcohol-free room spray · 87% de origem natural",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% de origem natural (ISO 16128). Fabricado artesanalmente em Marbella, Andaluzia.",
+        "momentOfUse": "Morning · Kitchen · Bathroom · Post-cleaning",
+        "olfactiveFamily": "Clean Freshness",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% de origem natural (ISO 16128). Fabricado na Andaluzia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
+      }
+    },
+    {
+      "id": "difusor-frescor-puro",
+      "line": "hogar",
+      "collection": "ambientadores",
+      "availableIn": [
+        "eu"
+      ],
+      "shopifyHandle": "ambientador-varillas-clean-fresh",
+      "formats": [
+        "300 ml"
+      ],
+      "basePriceEUR": 13.2,
+      "sensation": "Energia",
+      "isoNaturalPercent": 87,
+      "outOfStock": false,
+      "visible": true,
+      "primaryImage": "/images/products/eu/difusor-frescor-puro.png",
+      "secondaryImage": "/images/products/eu/difusor-frescor-puro-2.png",
+      "es": {
+        "slug": "difusor-frescor-puro",
+        "name": "Difusor Frescor Puro",
+        "nameMain": "Difusor",
+        "nameAccent": "Frescor Puro",
+        "subtitle": "Difusor con varillas · 87% origen natural",
+        "shortDescription": "Frescor acuatico y notas citricas vibrantes que transforman el espacio al instante. 87% de ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado artesanalmente en Marbella, Andalucia.",
+        "momentOfUse": "Uso continuo · Cocina · Recibidor · Oficina",
+        "olfactiveFamily": "Frescor Puro",
+        "benefits": [
+          "Frescor acuatico y notas citricas vibrantes que transforman el espacio al instante.",
+          "~87% ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado en Marbella, Andalucia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Frescor acuatico y notas citricas vibrantes que transforman el espacio al instante.",
+          "texture": "Liquido de base vegetal. Difusion lenta y constante por varillas de ratan.",
+          "experience": "El ambiente se transforma al instante. Fragancia suave y persistente.",
+          "sustainability": "~87% de ingredientes de origen natural (ISO 16128). Fabricado en Andalucia."
+        },
+        "warnings": "Evitar tejidos, ojos y mascotas. Solo para uso ambiental. Mantener fuera del alcance de los ninos."
+      },
+      "en": {
+        "aiTranslation": true,
+        "slug": "clean-freshness-diffuser",
+        "name": "Clean Freshness Reed Diffuser",
+        "nameMain": "Reed Diffuser",
+        "nameAccent": "Clean Freshness",
+        "subtitle": "Reed diffuser · 87% natural origin",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia.",
+        "momentOfUse": "Continuous use · Kitchen · Hallway · Office",
+        "olfactiveFamily": "Clean Freshness",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Avoid fabrics, eyes and pets. For ambient use only."
+      },
+      "fr": {
+        "aiTranslation": true,
+        "slug": "diffuseur-fraicheur-pure",
+        "name": "Diffuseur Frescor Puro",
+        "nameMain": "Diffuseur",
+        "nameAccent": "Frescor Puro",
+        "subtitle": "Difusor con varillas · 87% origine naturelle",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% ingrédients naturels (ISO 16128). Fabriqué à Marbella, Andalousie.",
+        "momentOfUse": "Continuous use · Kitchen · Hallway · Office",
+        "olfactiveFamily": "Frescor Puro",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% naturel (ISO 16128). Fabriqué en Andalousie."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Eviter les tissus, yeux et animaux. Usage ambiant uniquement."
+      },
+      "de": {
+        "aiTranslation": true,
+        "slug": "raumduft-reine-frische",
+        "name": "Clean Freshness Reed Diffuser",
+        "nameMain": "Raumduft",
+        "nameAccent": "Clean Freshness",
+        "subtitle": "Reed diffuser · 87% natuerlicher Ursprung",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% natuerlichen Ursprungs (ISO 16128). Handgefertigt in Marbella, Andalusien.",
+        "momentOfUse": "Continuous use · Kitchen · Hallway · Office",
+        "olfactiveFamily": "Clean Freshness",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% natuerlicher Ursprung (ISO 16128). Hergestellt in Andalusien."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Stoffe, Augen und Haustiere meiden. Nur zur Raumbeduftung."
+      },
+      "it": {
+        "aiTranslation": true,
+        "slug": "diffusore-freschezza-pura",
+        "name": "Clean Freshness Reed Diffuser",
+        "nameMain": "Diffusore",
+        "nameAccent": "Clean Freshness",
+        "subtitle": "Reed diffuser · 87% origine naturale",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% ingredienti naturali (ISO 16128). Prodotto a Marbella, Andalusia.",
+        "momentOfUse": "Continuous use · Kitchen · Hallway · Office",
+        "olfactiveFamily": "Clean Freshness",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% origine naturale (ISO 16128). Prodotto in Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitare tessuti, occhi e animali. Solo per uso ambientale."
+      },
+      "nl": {
+        "aiTranslation": true,
+        "slug": "geurstokjes-pure-frisheid",
+        "name": "Clean Freshness Reed Diffuser",
+        "nameMain": "Geurstokjes",
+        "nameAccent": "Clean Freshness",
+        "subtitle": "Reed diffuser · 87% van natuurlijke oorsprong",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% van natuurlijke oorsprong (ISO 16128). Handgemaakt in Marbella, Andalusie.",
+        "momentOfUse": "Continuous use · Kitchen · Hallway · Office",
+        "olfactiveFamily": "Clean Freshness",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% van natuurlijke oorsprong (ISO 16128). Gemaakt in Andalusie."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Vermijd stoffen, ogen en huisdieren. Alleen voor gebruik in de ruimte."
+      },
+      "pt": {
+        "aiTranslation": true,
+        "slug": "difusor-frescor-puro-pt",
+        "name": "Clean Freshness Reed Diffuser",
+        "nameMain": "Difusor",
+        "nameAccent": "Clean Freshness",
+        "subtitle": "Reed diffuser · 87% de origem natural",
+        "shortDescription": "Aquatic freshness and vibrant citrus notes that instantly transform any space. ~87% de origem natural (ISO 16128). Fabricado artesanalmente em Marbella, Andaluzia.",
+        "momentOfUse": "Continuous use · Kitchen · Hallway · Office",
+        "olfactiveFamily": "Clean Freshness",
+        "benefits": [
+          "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "~87% de origem natural (ISO 16128). Fabricado na Andaluzia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Aquatic freshness and vibrant citrus notes that instantly transform any space.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
+      }
+    },
+    {
+      "id": "spray-corazon-en-calma",
+      "line": "hogar",
+      "collection": "ambientadores",
+      "availableIn": [
+        "eu"
+      ],
+      "shopifyHandle": "ambientador-spry-peacefull-heart",
+      "formats": [
+        "300 ml"
+      ],
+      "basePriceEUR": 6.2,
+      "sensation": "Calma",
+      "isoNaturalPercent": 87,
+      "outOfStock": false,
+      "visible": true,
+      "primaryImage": "/images/products/eu/spray-corazon-en-calma.png",
+      "secondaryImage": "/images/products/eu/spray-corazon-en-calma-2.png",
+      "es": {
+        "slug": "spray-corazon-en-calma",
+        "name": "Spray Corazon en Calma",
+        "nameMain": "Spray",
+        "nameAccent": "Corazon en Calma",
+        "subtitle": "Ambientador spray sin alcohol · 87% origen natural",
+        "shortDescription": "Halo floral de muguet y flores blancas con base amaderada calida para momentos de descanso. 87% de ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado artesanalmente en Marbella, Andalucia.",
+        "momentOfUse": "Tarde · Noche · Dormitorio · Salon",
+        "olfactiveFamily": "Corazon en Calma",
+        "benefits": [
+          "Halo floral de muguet y flores blancas con base amaderada calida para momentos de descanso.",
+          "~87% ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado en Marbella, Andalucia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Halo floral de muguet y flores blancas con base amaderada calida para momentos de descanso.",
+          "texture": "Liquido acuoso. Spray fino y uniforme. Sin residuo graso.",
+          "experience": "El ambiente se transforma al instante. Fragancia suave y persistente.",
+          "sustainability": "~87% de ingredientes de origen natural (ISO 16128). Fabricado en Andalucia."
+        },
+        "warnings": "Evitar tejidos, ojos y mascotas. Solo para uso ambiental. Mantener fuera del alcance de los ninos."
+      },
+      "en": {
+        "aiTranslation": true,
+        "slug": "peaceful-heart-spray",
+        "name": "Peaceful Heart Room Spray",
+        "nameMain": "Room Spray",
+        "nameAccent": "Peaceful Heart",
+        "subtitle": "Alcohol-free room spray · 87% natural origin",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia.",
+        "momentOfUse": "Afternoon · Evening · Bedroom · Living room",
+        "olfactiveFamily": "Peaceful Heart",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Avoid fabrics, eyes and pets. For ambient use only."
+      },
+      "fr": {
+        "aiTranslation": true,
+        "slug": "spray-coeur-paisible",
+        "name": "Spray Corazon en Calma",
+        "nameMain": "Spray",
+        "nameAccent": "Corazon en Calma",
+        "subtitle": "Ambientador spray sin alcohol · 87% origine naturelle",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% ingrédients naturels (ISO 16128). Fabriqué à Marbella, Andalousie.",
+        "momentOfUse": "Afternoon · Evening · Bedroom · Living room",
+        "olfactiveFamily": "Corazon en Calma",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% naturel (ISO 16128). Fabriqué en Andalousie."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Eviter les tissus, yeux et animaux. Usage ambiant uniquement."
+      },
+      "de": {
+        "aiTranslation": true,
+        "slug": "spray-ruhiges-herz",
+        "name": "Peaceful Heart Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Peaceful Heart",
+        "subtitle": "Alcohol-free room spray · 87% natuerlicher Ursprung",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% natuerlichen Ursprungs (ISO 16128). Handgefertigt in Marbella, Andalusien.",
+        "momentOfUse": "Afternoon · Evening · Bedroom · Living room",
+        "olfactiveFamily": "Peaceful Heart",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% natuerlicher Ursprung (ISO 16128). Hergestellt in Andalusien."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Stoffe, Augen und Haustiere meiden. Nur zur Raumbeduftung."
+      },
+      "it": {
+        "aiTranslation": true,
+        "slug": "spray-cuore-in-calma",
+        "name": "Peaceful Heart Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Peaceful Heart",
+        "subtitle": "Alcohol-free room spray · 87% origine naturale",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% ingredienti naturali (ISO 16128). Prodotto a Marbella, Andalusia.",
+        "momentOfUse": "Afternoon · Evening · Bedroom · Living room",
+        "olfactiveFamily": "Peaceful Heart",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% origine naturale (ISO 16128). Prodotto in Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitare tessuti, occhi e animali. Solo per uso ambientale."
+      },
+      "nl": {
+        "aiTranslation": true,
+        "slug": "spray-vredig-hart",
+        "name": "Peaceful Heart Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Peaceful Heart",
+        "subtitle": "Alcohol-free room spray · 87% van natuurlijke oorsprong",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% van natuurlijke oorsprong (ISO 16128). Handgemaakt in Marbella, Andalusie.",
+        "momentOfUse": "Afternoon · Evening · Bedroom · Living room",
+        "olfactiveFamily": "Peaceful Heart",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% van natuurlijke oorsprong (ISO 16128). Gemaakt in Andalusie."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Vermijd stoffen, ogen en huisdieren. Alleen voor gebruik in de ruimte."
+      },
+      "pt": {
+        "aiTranslation": true,
+        "slug": "spray-coracao-em-calma",
+        "name": "Peaceful Heart Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Peaceful Heart",
+        "subtitle": "Alcohol-free room spray · 87% de origem natural",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% de origem natural (ISO 16128). Fabricado artesanalmente em Marbella, Andaluzia.",
+        "momentOfUse": "Afternoon · Evening · Bedroom · Living room",
+        "olfactiveFamily": "Peaceful Heart",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% de origem natural (ISO 16128). Fabricado na Andaluzia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
+      }
+    },
+    {
+      "id": "difusor-corazon-en-calma",
+      "line": "hogar",
+      "collection": "ambientadores",
+      "availableIn": [
+        "eu"
+      ],
+      "shopifyHandle": "ambientador-varillas-peacefull-heart",
+      "formats": [
+        "300 ml"
+      ],
+      "basePriceEUR": 13.2,
+      "sensation": "Calma",
+      "isoNaturalPercent": 87,
+      "outOfStock": false,
+      "visible": true,
+      "primaryImage": "/images/products/eu/difusor-corazon-en-calma.png",
+      "secondaryImage": "/images/products/eu/difusor-corazon-en-calma-2.png",
+      "es": {
+        "slug": "difusor-corazon-en-calma",
+        "name": "Difusor Corazon en Calma",
+        "nameMain": "Difusor",
+        "nameAccent": "Corazon en Calma",
+        "subtitle": "Difusor con varillas · 87% origen natural",
+        "shortDescription": "Halo floral de muguet y flores blancas con base amaderada calida para momentos de descanso. 87% de ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado artesanalmente en Marbella, Andalucia.",
+        "momentOfUse": "Uso continuo · Dormitorio · Salon · Descanso",
+        "olfactiveFamily": "Corazon en Calma",
+        "benefits": [
+          "Halo floral de muguet y flores blancas con base amaderada calida para momentos de descanso.",
+          "~87% ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado en Marbella, Andalucia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Halo floral de muguet y flores blancas con base amaderada calida para momentos de descanso.",
+          "texture": "Liquido de base vegetal. Difusion lenta y constante por varillas de ratan.",
+          "experience": "El ambiente se transforma al instante. Fragancia suave y persistente.",
+          "sustainability": "~87% de ingredientes de origen natural (ISO 16128). Fabricado en Andalucia."
+        },
+        "warnings": "Evitar tejidos, ojos y mascotas. Solo para uso ambiental. Mantener fuera del alcance de los ninos."
+      },
+      "en": {
+        "aiTranslation": true,
+        "slug": "peaceful-heart-diffuser",
+        "name": "Peaceful Heart Reed Diffuser",
+        "nameMain": "Reed Diffuser",
+        "nameAccent": "Peaceful Heart",
+        "subtitle": "Reed diffuser · 87% natural origin",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia.",
+        "momentOfUse": "Continuous use · Bedroom · Living room",
+        "olfactiveFamily": "Peaceful Heart",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Avoid fabrics, eyes and pets. For ambient use only."
+      },
+      "fr": {
+        "aiTranslation": true,
+        "slug": "diffuseur-coeur-paisible",
+        "name": "Diffuseur Corazon en Calma",
+        "nameMain": "Diffuseur",
+        "nameAccent": "Corazon en Calma",
+        "subtitle": "Difusor con varillas · 87% origine naturelle",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% ingrédients naturels (ISO 16128). Fabriqué à Marbella, Andalousie.",
+        "momentOfUse": "Continuous use · Bedroom · Living room",
+        "olfactiveFamily": "Corazon en Calma",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% naturel (ISO 16128). Fabriqué en Andalousie."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Eviter les tissus, yeux et animaux. Usage ambiant uniquement."
+      },
+      "de": {
+        "aiTranslation": true,
+        "slug": "raumduft-ruhiges-herz",
+        "name": "Peaceful Heart Reed Diffuser",
+        "nameMain": "Raumduft",
+        "nameAccent": "Peaceful Heart",
+        "subtitle": "Reed diffuser · 87% natuerlicher Ursprung",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% natuerlichen Ursprungs (ISO 16128). Handgefertigt in Marbella, Andalusien.",
+        "momentOfUse": "Continuous use · Bedroom · Living room",
+        "olfactiveFamily": "Peaceful Heart",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% natuerlicher Ursprung (ISO 16128). Hergestellt in Andalusien."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Stoffe, Augen und Haustiere meiden. Nur zur Raumbeduftung."
+      },
+      "it": {
+        "aiTranslation": true,
+        "slug": "diffusore-cuore-in-calma",
+        "name": "Peaceful Heart Reed Diffuser",
+        "nameMain": "Diffusore",
+        "nameAccent": "Peaceful Heart",
+        "subtitle": "Reed diffuser · 87% origine naturale",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% ingredienti naturali (ISO 16128). Prodotto a Marbella, Andalusia.",
+        "momentOfUse": "Continuous use · Bedroom · Living room",
+        "olfactiveFamily": "Peaceful Heart",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% origine naturale (ISO 16128). Prodotto in Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitare tessuti, occhi e animali. Solo per uso ambientale."
+      },
+      "nl": {
+        "aiTranslation": true,
+        "slug": "geurstokjes-vredig-hart",
+        "name": "Peaceful Heart Reed Diffuser",
+        "nameMain": "Geurstokjes",
+        "nameAccent": "Peaceful Heart",
+        "subtitle": "Reed diffuser · 87% van natuurlijke oorsprong",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% van natuurlijke oorsprong (ISO 16128). Handgemaakt in Marbella, Andalusie.",
+        "momentOfUse": "Continuous use · Bedroom · Living room",
+        "olfactiveFamily": "Peaceful Heart",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% van natuurlijke oorsprong (ISO 16128). Gemaakt in Andalusie."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Vermijd stoffen, ogen en huisdieren. Alleen voor gebruik in de ruimte."
+      },
+      "pt": {
+        "aiTranslation": true,
+        "slug": "difusor-coracao-em-calma",
+        "name": "Peaceful Heart Reed Diffuser",
+        "nameMain": "Difusor",
+        "nameAccent": "Peaceful Heart",
+        "subtitle": "Reed diffuser · 87% de origem natural",
+        "shortDescription": "Floral muguet and white flowers with a warm woody base for restful moments. ~87% de origem natural (ISO 16128). Fabricado artesanalmente em Marbella, Andaluzia.",
+        "momentOfUse": "Continuous use · Bedroom · Living room",
+        "olfactiveFamily": "Peaceful Heart",
+        "benefits": [
+          "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "~87% de origem natural (ISO 16128). Fabricado na Andaluzia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Floral muguet and white flowers with a warm woody base for restful moments.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
+      }
+    },
+    {
+      "id": "spray-relax",
+      "line": "hogar",
+      "collection": "ambientadores",
+      "availableIn": [
+        "eu"
+      ],
+      "shopifyHandle": "ambientador-spry-relaxing",
+      "formats": [
+        "300 ml"
+      ],
+      "basePriceEUR": 6.2,
+      "sensation": "Refugio",
+      "isoNaturalPercent": 87,
+      "outOfStock": false,
+      "visible": true,
+      "primaryImage": "/images/products/eu/spray-relax.png",
+      "secondaryImage": "/images/products/eu/spray-relax-2.png",
+      "es": {
+        "slug": "spray-relax",
+        "name": "Spray Relax",
+        "nameMain": "Spray",
+        "nameAccent": "Relax",
+        "subtitle": "Ambientador spray sin alcohol · 87% origen natural",
+        "shortDescription": "Notas florales suaves con corazon amaderado calido. La calma del final del dia en un solo aroma. 87% de ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado artesanalmente en Marbella, Andalucia.",
+        "momentOfUse": "Tarde · Noche · Bano · Antes de dormir",
+        "olfactiveFamily": "Relax",
+        "benefits": [
+          "Notas florales suaves con corazon amaderado calido. La calma del final del dia en un solo aroma.",
+          "~87% ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado en Marbella, Andalucia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Notas florales suaves con corazon amaderado calido. La calma del final del dia en un solo aroma.",
+          "texture": "Liquido acuoso. Spray fino y uniforme. Sin residuo graso.",
+          "experience": "El ambiente se transforma al instante. Fragancia suave y persistente.",
+          "sustainability": "~87% de ingredientes de origen natural (ISO 16128). Fabricado en Andalucia."
+        },
+        "warnings": "Evitar tejidos, ojos y mascotas. Solo para uso ambiental. Mantener fuera del alcance de los ninos."
+      },
+      "en": {
+        "aiTranslation": true,
+        "slug": "relaxing-spray",
+        "name": "Relaxing Room Spray",
+        "nameMain": "Room Spray",
+        "nameAccent": "Relaxing",
+        "subtitle": "Alcohol-free room spray · 87% natural origin",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia.",
+        "momentOfUse": "Evening · Night · Bathroom · Before sleep",
+        "olfactiveFamily": "Relaxing",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Avoid fabrics, eyes and pets. For ambient use only."
+      },
+      "fr": {
+        "aiTranslation": true,
+        "slug": "spray-relaxant",
+        "name": "Spray Relax",
+        "nameMain": "Spray",
+        "nameAccent": "Relax",
+        "subtitle": "Ambientador spray sin alcohol · 87% origine naturelle",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% ingrédients naturels (ISO 16128). Fabriqué à Marbella, Andalousie.",
+        "momentOfUse": "Evening · Night · Bathroom · Before sleep",
+        "olfactiveFamily": "Relax",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% naturel (ISO 16128). Fabriqué en Andalousie."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Eviter les tissus, yeux et animaux. Usage ambiant uniquement."
+      },
+      "de": {
+        "aiTranslation": true,
+        "slug": "spray-entspannung",
+        "name": "Relaxing Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Relaxing",
+        "subtitle": "Alcohol-free room spray · 87% natuerlicher Ursprung",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% natuerlichen Ursprungs (ISO 16128). Handgefertigt in Marbella, Andalusien.",
+        "momentOfUse": "Evening · Night · Bathroom · Before sleep",
+        "olfactiveFamily": "Relaxing",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% natuerlicher Ursprung (ISO 16128). Hergestellt in Andalusien."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Stoffe, Augen und Haustiere meiden. Nur zur Raumbeduftung."
+      },
+      "it": {
+        "aiTranslation": true,
+        "slug": "spray-relax-it",
+        "name": "Relaxing Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Relaxing",
+        "subtitle": "Alcohol-free room spray · 87% origine naturale",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% ingredienti naturali (ISO 16128). Prodotto a Marbella, Andalusia.",
+        "momentOfUse": "Evening · Night · Bathroom · Before sleep",
+        "olfactiveFamily": "Relaxing",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% origine naturale (ISO 16128). Prodotto in Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitare tessuti, occhi e animali. Solo per uso ambientale."
+      },
+      "nl": {
+        "aiTranslation": true,
+        "slug": "spray-ontspanning",
+        "name": "Relaxing Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Relaxing",
+        "subtitle": "Alcohol-free room spray · 87% van natuurlijke oorsprong",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% van natuurlijke oorsprong (ISO 16128). Handgemaakt in Marbella, Andalusie.",
+        "momentOfUse": "Evening · Night · Bathroom · Before sleep",
+        "olfactiveFamily": "Relaxing",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% van natuurlijke oorsprong (ISO 16128). Gemaakt in Andalusie."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Vermijd stoffen, ogen en huisdieren. Alleen voor gebruik in de ruimte."
+      },
+      "pt": {
+        "aiTranslation": true,
+        "slug": "spray-relaxante",
+        "name": "Relaxing Room Spray",
+        "nameMain": "Spray",
+        "nameAccent": "Relaxing",
+        "subtitle": "Alcohol-free room spray · 87% de origem natural",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% de origem natural (ISO 16128). Fabricado artesanalmente em Marbella, Andaluzia.",
+        "momentOfUse": "Evening · Night · Bathroom · Before sleep",
+        "olfactiveFamily": "Relaxing",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% de origem natural (ISO 16128). Fabricado na Andaluzia."
+        ],
+        "ritual": [
+          {
+            "title": "Agitar antes de usar",
+            "description": "Agitar ligeramente antes de cada uso."
+          },
+          {
+            "title": "Pulverizar 2-3 veces",
+            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+          },
+          {
+            "title": "Fragancia persistente",
+            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
+      }
+    },
+    {
+      "id": "difusor-relax",
+      "line": "hogar",
+      "collection": "ambientadores",
+      "availableIn": [
+        "eu"
+      ],
+      "shopifyHandle": "ambientador-varillasrelaxing",
+      "formats": [
+        "300 ml"
+      ],
+      "basePriceEUR": 13.2,
+      "sensation": "Refugio",
+      "isoNaturalPercent": 87,
+      "outOfStock": false,
+      "visible": true,
+      "primaryImage": "/images/products/eu/difusor-relax.png",
+      "secondaryImage": "/images/products/eu/difusor-relax-2.png",
+      "es": {
+        "slug": "difusor-relax",
+        "name": "Difusor Relax",
+        "nameMain": "Difusor",
+        "nameAccent": "Relax",
+        "subtitle": "Difusor con varillas · 87% origen natural",
+        "shortDescription": "Notas florales suaves con corazon amaderado calido. La calma del final del dia en un solo aroma. 87% de ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado artesanalmente en Marbella, Andalucia.",
+        "momentOfUse": "Uso continuo · Dormitorio · Bano · Noche",
+        "olfactiveFamily": "Relax",
+        "benefits": [
+          "Notas florales suaves con corazon amaderado calido. La calma del final del dia en un solo aroma.",
+          "~87% ingredientes de origen natural (ISO 16128). Sin alcohol. Fabricado en Marbella, Andalucia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Notas florales suaves con corazon amaderado calido. La calma del final del dia en un solo aroma.",
+          "texture": "Liquido de base vegetal. Difusion lenta y constante por varillas de ratan.",
+          "experience": "El ambiente se transforma al instante. Fragancia suave y persistente.",
+          "sustainability": "~87% de ingredientes de origen natural (ISO 16128). Fabricado en Andalucia."
+        },
+        "warnings": "Evitar tejidos, ojos y mascotas. Solo para uso ambiental. Mantener fuera del alcance de los ninos."
+      },
+      "en": {
+        "aiTranslation": true,
+        "slug": "relaxing-diffuser",
+        "name": "Relaxing Reed Diffuser",
+        "nameMain": "Reed Diffuser",
+        "nameAccent": "Relaxing",
+        "subtitle": "Reed diffuser · 87% natural origin",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia.",
+        "momentOfUse": "Continuous use · Bedroom · Bathroom · Night",
+        "olfactiveFamily": "Relaxing",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% natural origin (ISO 16128). Handcrafted in Marbella, Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Avoid fabrics, eyes and pets. For ambient use only."
+      },
+      "fr": {
+        "aiTranslation": true,
+        "slug": "diffuseur-relaxant",
+        "name": "Diffuseur Relax",
+        "nameMain": "Diffuseur",
+        "nameAccent": "Relax",
+        "subtitle": "Difusor con varillas · 87% origine naturelle",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% ingrédients naturels (ISO 16128). Fabriqué à Marbella, Andalousie.",
+        "momentOfUse": "Continuous use · Bedroom · Bathroom · Night",
+        "olfactiveFamily": "Relax",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% naturel (ISO 16128). Fabriqué en Andalousie."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Eviter les tissus, yeux et animaux. Usage ambiant uniquement."
+      },
+      "de": {
+        "aiTranslation": true,
+        "slug": "raumduft-entspannung",
+        "name": "Relaxing Reed Diffuser",
+        "nameMain": "Raumduft",
+        "nameAccent": "Relaxing",
+        "subtitle": "Reed diffuser · 87% natuerlicher Ursprung",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% natuerlichen Ursprungs (ISO 16128). Handgefertigt in Marbella, Andalusien.",
+        "momentOfUse": "Continuous use · Bedroom · Bathroom · Night",
+        "olfactiveFamily": "Relaxing",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% natuerlicher Ursprung (ISO 16128). Hergestellt in Andalusien."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Stoffe, Augen und Haustiere meiden. Nur zur Raumbeduftung."
+      },
+      "it": {
+        "aiTranslation": true,
+        "slug": "diffusore-relax",
+        "name": "Relaxing Reed Diffuser",
+        "nameMain": "Diffusore",
+        "nameAccent": "Relaxing",
+        "subtitle": "Reed diffuser · 87% origine naturale",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% ingredienti naturali (ISO 16128). Prodotto a Marbella, Andalusia.",
+        "momentOfUse": "Continuous use · Bedroom · Bathroom · Night",
+        "olfactiveFamily": "Relaxing",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% origine naturale (ISO 16128). Prodotto in Andalusia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitare tessuti, occhi e animali. Solo per uso ambientale."
+      },
+      "nl": {
+        "aiTranslation": true,
+        "slug": "geurstokjes-ontspanning",
+        "name": "Relaxing Reed Diffuser",
+        "nameMain": "Geurstokjes",
+        "nameAccent": "Relaxing",
+        "subtitle": "Reed diffuser · 87% van natuurlijke oorsprong",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% van natuurlijke oorsprong (ISO 16128). Handgemaakt in Marbella, Andalusie.",
+        "momentOfUse": "Continuous use · Bedroom · Bathroom · Night",
+        "olfactiveFamily": "Relaxing",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% van natuurlijke oorsprong (ISO 16128). Gemaakt in Andalusie."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Vermijd stoffen, ogen en huisdieren. Alleen voor gebruik in de ruimte."
+      },
+      "pt": {
+        "aiTranslation": true,
+        "slug": "difusor-relaxante",
+        "name": "Relaxing Reed Diffuser",
+        "nameMain": "Difusor",
+        "nameAccent": "Relaxing",
+        "subtitle": "Reed diffuser · 87% de origem natural",
+        "shortDescription": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance. ~87% de origem natural (ISO 16128). Fabricado artesanalmente em Marbella, Andaluzia.",
+        "momentOfUse": "Continuous use · Bedroom · Bathroom · Night",
+        "olfactiveFamily": "Relaxing",
+        "benefits": [
+          "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "~87% de origem natural (ISO 16128). Fabricado na Andaluzia."
+        ],
+        "ritual": [
+          {
+            "title": "Introducir las varillas",
+            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+          },
+          {
+            "title": "Girar cada 2-3 dias",
+            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+          },
+          {
+            "title": "Difusion continua",
+            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+          }
+        ],
+        "sensory": {
+          "aroma": "Soft floral notes with a warm woody heart. The calm of day end in a single fragrance.",
+          "texture": "",
+          "experience": "",
+          "sustainability": ""
+        },
+        "warnings": "Evitar tecidos, olhos e animais. Apenas para uso ambiental."
+      }
     }
   ]
 }
