@@ -3529,7 +3529,8 @@
       "outOfStock": false,
       "primaryImage": "/images/products/eu/exfoliante-facial-hombre.png",
       "basePriceEUR": 6.7,
-      "secondaryImage": "/images/products/eu/exfoliante-facial-hombre-2.png"
+      "secondaryImage": "/images/products/eu/exfoliante-facial-hombre-2.png",
+      "inci": "Aqua, Sodium Laureth Sulfate, Sodium Chloride, Glycerin, Hydrogenated Castor Oil, Cocamidopropyl Betaine, Coco-Glucoside, Ulva Lactuca Extract, Posidonia Oceanica Extract, Cellulose, Cellulose Gum, Sodium Benzoate, Potassium Sorbate, Benzyl Alcohol, Dehydroacetic Acid, Benzoic Acid, Sorbic Acid, Citric Acid, Parfum, Tetramethylacetyloctahydronaphtalenes"
     },
     {
       "id": "serum-antiojeras",
@@ -5559,7 +5560,8 @@
       "outOfStock": false,
       "primaryImage": "/images/products/eu/agua-micelar.png",
       "basePriceEUR": 5.8,
-      "secondaryImage": "/images/products/eu/agua-micelar-2.png"
+      "secondaryImage": "/images/products/eu/agua-micelar-2.png",
+      "inci": "Aqua, Propanediol, Glycerin, Coco-Glucoside, Tetrasodium Glutamate Diacetate, Citric Acid, Sodium Benzoate, Potassium Sorbate"
     },
     {
       "id": "gel-afeitado-mujer",
@@ -6115,7 +6117,8 @@
       "outOfStock": false,
       "primaryImage": "/images/products/eu/exfoliante-facial-mujer.png",
       "basePriceEUR": 6.7,
-      "secondaryImage": "/images/products/eu/exfoliante-facial-mujer-2.png"
+      "secondaryImage": "/images/products/eu/exfoliante-facial-mujer-2.png",
+      "inci": "Aqua, Sodium Laureth Sulfate, Sodium Chloride, Glycerin, Hydrogenated Castor Oil, Cocamidopropyl Betaine, Coco-Glucoside, Ulva Lactuca Extract, Posidonia Oceanica Extract, Cellulose, Cellulose Gum, Sodium Benzoate, Potassium Sorbate, Benzyl Alcohol, Dehydroacetic Acid, Benzoic Acid, Sorbic Acid, Citric Acid, Parfum, Terpineol"
     },
     {
       "id": "serum-antiojeras-mujer",
@@ -10555,16 +10558,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Shake gently",
+            "description": "Shake lightly before each use."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Spray 2-3 times",
+            "description": "Spray 2-3 times at 30-40 cm distance. Repeat for more intensity."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Lasting fragrance",
+            "description": "The fragrance disperses softly and lingers. Avoid fabrics, eyes and pets."
           }
         ],
         "sensory": {
@@ -10591,16 +10594,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agiter légèrement",
+            "description": "Agiter légèrement avant chaque utilisation."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Vaporiser 2-3 fois",
+            "description": "Vaporiser 2-3 fois à 30-40 cm. Répéter si plus d'intensité est souhaitée."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragrance persistante",
+            "description": "La fragrance se diffuse doucement et persiste. Éviter les tissus, les yeux et les animaux."
           }
         ],
         "sensory": {
@@ -10627,16 +10630,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Leicht schütteln",
+            "description": "Vor jedem Gebrauch leicht schütteln."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "2-3 Mal sprühen",
+            "description": "2-3 Mal aus 30-40 cm Entfernung sprühen. Bei Bedarf wiederholen."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Anhaltender Duft",
+            "description": "Der Duft verteilt sich sanft und hält an. Kontakt mit Stoffen, Augen und Haustieren vermeiden."
           }
         ],
         "sensory": {
@@ -10663,16 +10666,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agitare delicatamente",
+            "description": "Agitare delicatamente prima di ogni uso."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Spruzzare 2-3 volte",
+            "description": "Spruzzare 2-3 volte a 30-40 cm di distanza. Ripetere se si desidera maggiore intensità."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragranza persistente",
+            "description": "La fragranza si diffonde delicatamente e persiste. Evitare tessuti, occhi e animali."
           }
         ],
         "sensory": {
@@ -10699,16 +10702,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Licht schudden",
+            "description": "Licht schudden voor elk gebruik."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "2-3 keer sproeien",
+            "description": "2-3 keer sproeien op 30-40 cm afstand. Herhaal voor meer intensiteit."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Aanhoudende geur",
+            "description": "De geur verspreidt zich zacht en aanhoudend. Vermijd stoffen, ogen en huisdieren."
           }
         ],
         "sensory": {
@@ -10735,16 +10738,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agitar levemente",
+            "description": "Agitar levemente antes de cada uso."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Pulverizar 2-3 vezes",
+            "description": "Pulverizar 2-3 vezes a 30-40 cm de distância. Repetir se desejar mais intensidade."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragrância persistente",
+            "description": "A fragrância dispersa-se suavemente e persiste. Evitar tecidos, olhos e animais de estimação."
           }
         ],
         "sensory": {
@@ -10825,16 +10828,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Remove the cap",
+            "description": "Remove the cap and insert the rattan reeds into the bottle."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Turn the reeds",
+            "description": "Turn the reeds every 2-3 days to refresh the fragrance diffusion."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Continuous diffusion",
+            "description": "Enjoy 6-10 weeks of continuous diffusion depending on room ventilation."
           }
         ],
         "sensory": {
@@ -10861,16 +10864,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Retirer le bouchon",
+            "description": "Retirer le bouchon et insérer les bâtons en rotin dans le flacon."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Retourner les bâtons",
+            "description": "Retourner les bâtons tous les 2-3 jours pour renouveler la diffusion."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Diffusion continue",
+            "description": "Profitez de 6 à 10 semaines de diffusion continue selon la ventilation de la pièce."
           }
         ],
         "sensory": {
@@ -10897,16 +10900,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Verschluss entfernen",
+            "description": "Verschluss entfernen und Rattanstäbchen in die Flasche stecken."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Stäbchen drehen",
+            "description": "Stäbchen alle 2-3 Tage drehen, um die Diffusion zu erneuern."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Kontinuierliche Diffusion",
+            "description": "6-10 Wochen kontinuierliche Diffusion je nach Raumlüftung."
           }
         ],
         "sensory": {
@@ -10933,16 +10936,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Rimuovere il tappo",
+            "description": "Rimuovere il tappo e inserire le bacchette in rattan nel flacone."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Girare le bacchette",
+            "description": "Girare le bacchette ogni 2-3 giorni per rinnovare la diffusione."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Diffusione continua",
+            "description": "Goditi 6-10 settimane di diffusione continua in base alla ventilazione della stanza."
           }
         ],
         "sensory": {
@@ -10969,16 +10972,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Dop verwijderen",
+            "description": "Verwijder de dop en steek de rattanstokjes in de fles."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Stokjes omdraaien",
+            "description": "Draai de stokjes elke 2-3 dagen om om de diffusie te vernieuwen."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Continue diffusie",
+            "description": "6-10 weken continue diffusie afhankelijk van de ventilatie van de ruimte."
           }
         ],
         "sensory": {
@@ -11005,16 +11008,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Retirar a tampa",
+            "description": "Retirar a tampa e inserir as varetas de rattan no frasco."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Virar as varetas",
+            "description": "Virar as varetas a cada 2-3 dias para renovar a difusão."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Difusão contínua",
+            "description": "Desfrute de 6-10 semanas de difusão contínua consoante a ventilação da divisão."
           }
         ],
         "sensory": {
@@ -11095,16 +11098,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Shake gently",
+            "description": "Shake lightly before each use."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Spray 2-3 times",
+            "description": "Spray 2-3 times at 30-40 cm distance. Repeat for more intensity."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Lasting fragrance",
+            "description": "The fragrance disperses softly and lingers. Avoid fabrics, eyes and pets."
           }
         ],
         "sensory": {
@@ -11131,16 +11134,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agiter légèrement",
+            "description": "Agiter légèrement avant chaque utilisation."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Vaporiser 2-3 fois",
+            "description": "Vaporiser 2-3 fois à 30-40 cm. Répéter si plus d'intensité est souhaitée."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragrance persistante",
+            "description": "La fragrance se diffuse doucement et persiste. Éviter les tissus, les yeux et les animaux."
           }
         ],
         "sensory": {
@@ -11167,16 +11170,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Leicht schütteln",
+            "description": "Vor jedem Gebrauch leicht schütteln."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "2-3 Mal sprühen",
+            "description": "2-3 Mal aus 30-40 cm Entfernung sprühen. Bei Bedarf wiederholen."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Anhaltender Duft",
+            "description": "Der Duft verteilt sich sanft und hält an. Kontakt mit Stoffen, Augen und Haustieren vermeiden."
           }
         ],
         "sensory": {
@@ -11203,16 +11206,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agitare delicatamente",
+            "description": "Agitare delicatamente prima di ogni uso."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Spruzzare 2-3 volte",
+            "description": "Spruzzare 2-3 volte a 30-40 cm di distanza. Ripetere se si desidera maggiore intensità."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragranza persistente",
+            "description": "La fragranza si diffonde delicatamente e persiste. Evitare tessuti, occhi e animali."
           }
         ],
         "sensory": {
@@ -11239,16 +11242,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Licht schudden",
+            "description": "Licht schudden voor elk gebruik."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "2-3 keer sproeien",
+            "description": "2-3 keer sproeien op 30-40 cm afstand. Herhaal voor meer intensiteit."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Aanhoudende geur",
+            "description": "De geur verspreidt zich zacht en aanhoudend. Vermijd stoffen, ogen en huisdieren."
           }
         ],
         "sensory": {
@@ -11275,16 +11278,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agitar levemente",
+            "description": "Agitar levemente antes de cada uso."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Pulverizar 2-3 vezes",
+            "description": "Pulverizar 2-3 vezes a 30-40 cm de distância. Repetir se desejar mais intensidade."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragrância persistente",
+            "description": "A fragrância dispersa-se suavemente e persiste. Evitar tecidos, olhos e animais de estimação."
           }
         ],
         "sensory": {
@@ -11365,16 +11368,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Remove the cap",
+            "description": "Remove the cap and insert the rattan reeds into the bottle."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Turn the reeds",
+            "description": "Turn the reeds every 2-3 days to refresh the fragrance diffusion."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Continuous diffusion",
+            "description": "Enjoy 6-10 weeks of continuous diffusion depending on room ventilation."
           }
         ],
         "sensory": {
@@ -11401,16 +11404,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Retirer le bouchon",
+            "description": "Retirer le bouchon et insérer les bâtons en rotin dans le flacon."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Retourner les bâtons",
+            "description": "Retourner les bâtons tous les 2-3 jours pour renouveler la diffusion."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Diffusion continue",
+            "description": "Profitez de 6 à 10 semaines de diffusion continue selon la ventilation de la pièce."
           }
         ],
         "sensory": {
@@ -11437,16 +11440,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Verschluss entfernen",
+            "description": "Verschluss entfernen und Rattanstäbchen in die Flasche stecken."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Stäbchen drehen",
+            "description": "Stäbchen alle 2-3 Tage drehen, um die Diffusion zu erneuern."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Kontinuierliche Diffusion",
+            "description": "6-10 Wochen kontinuierliche Diffusion je nach Raumlüftung."
           }
         ],
         "sensory": {
@@ -11473,16 +11476,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Rimuovere il tappo",
+            "description": "Rimuovere il tappo e inserire le bacchette in rattan nel flacone."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Girare le bacchette",
+            "description": "Girare le bacchette ogni 2-3 giorni per rinnovare la diffusione."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Diffusione continua",
+            "description": "Goditi 6-10 settimane di diffusione continua in base alla ventilazione della stanza."
           }
         ],
         "sensory": {
@@ -11509,16 +11512,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Dop verwijderen",
+            "description": "Verwijder de dop en steek de rattanstokjes in de fles."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Stokjes omdraaien",
+            "description": "Draai de stokjes elke 2-3 dagen om om de diffusie te vernieuwen."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Continue diffusie",
+            "description": "6-10 weken continue diffusie afhankelijk van de ventilatie van de ruimte."
           }
         ],
         "sensory": {
@@ -11545,16 +11548,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Retirar a tampa",
+            "description": "Retirar a tampa e inserir as varetas de rattan no frasco."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Virar as varetas",
+            "description": "Virar as varetas a cada 2-3 dias para renovar a difusão."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Difusão contínua",
+            "description": "Desfrute de 6-10 semanas de difusão contínua consoante a ventilação da divisão."
           }
         ],
         "sensory": {
@@ -11635,16 +11638,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Shake gently",
+            "description": "Shake lightly before each use."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Spray 2-3 times",
+            "description": "Spray 2-3 times at 30-40 cm distance. Repeat for more intensity."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Lasting fragrance",
+            "description": "The fragrance disperses softly and lingers. Avoid fabrics, eyes and pets."
           }
         ],
         "sensory": {
@@ -11671,16 +11674,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agiter légèrement",
+            "description": "Agiter légèrement avant chaque utilisation."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Vaporiser 2-3 fois",
+            "description": "Vaporiser 2-3 fois à 30-40 cm. Répéter si plus d'intensité est souhaitée."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragrance persistante",
+            "description": "La fragrance se diffuse doucement et persiste. Éviter les tissus, les yeux et les animaux."
           }
         ],
         "sensory": {
@@ -11707,16 +11710,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Leicht schütteln",
+            "description": "Vor jedem Gebrauch leicht schütteln."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "2-3 Mal sprühen",
+            "description": "2-3 Mal aus 30-40 cm Entfernung sprühen. Bei Bedarf wiederholen."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Anhaltender Duft",
+            "description": "Der Duft verteilt sich sanft und hält an. Kontakt mit Stoffen, Augen und Haustieren vermeiden."
           }
         ],
         "sensory": {
@@ -11743,16 +11746,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agitare delicatamente",
+            "description": "Agitare delicatamente prima di ogni uso."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Spruzzare 2-3 volte",
+            "description": "Spruzzare 2-3 volte a 30-40 cm di distanza. Ripetere se si desidera maggiore intensità."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragranza persistente",
+            "description": "La fragranza si diffonde delicatamente e persiste. Evitare tessuti, occhi e animali."
           }
         ],
         "sensory": {
@@ -11779,16 +11782,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Licht schudden",
+            "description": "Licht schudden voor elk gebruik."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "2-3 keer sproeien",
+            "description": "2-3 keer sproeien op 30-40 cm afstand. Herhaal voor meer intensiteit."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Aanhoudende geur",
+            "description": "De geur verspreidt zich zacht en aanhoudend. Vermijd stoffen, ogen en huisdieren."
           }
         ],
         "sensory": {
@@ -11815,16 +11818,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agitar levemente",
+            "description": "Agitar levemente antes de cada uso."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Pulverizar 2-3 vezes",
+            "description": "Pulverizar 2-3 vezes a 30-40 cm de distância. Repetir se desejar mais intensidade."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragrância persistente",
+            "description": "A fragrância dispersa-se suavemente e persiste. Evitar tecidos, olhos e animais de estimação."
           }
         ],
         "sensory": {
@@ -11905,16 +11908,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Remove the cap",
+            "description": "Remove the cap and insert the rattan reeds into the bottle."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Turn the reeds",
+            "description": "Turn the reeds every 2-3 days to refresh the fragrance diffusion."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Continuous diffusion",
+            "description": "Enjoy 6-10 weeks of continuous diffusion depending on room ventilation."
           }
         ],
         "sensory": {
@@ -11941,16 +11944,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Retirer le bouchon",
+            "description": "Retirer le bouchon et insérer les bâtons en rotin dans le flacon."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Retourner les bâtons",
+            "description": "Retourner les bâtons tous les 2-3 jours pour renouveler la diffusion."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Diffusion continue",
+            "description": "Profitez de 6 à 10 semaines de diffusion continue selon la ventilation de la pièce."
           }
         ],
         "sensory": {
@@ -11977,16 +11980,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Verschluss entfernen",
+            "description": "Verschluss entfernen und Rattanstäbchen in die Flasche stecken."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Stäbchen drehen",
+            "description": "Stäbchen alle 2-3 Tage drehen, um die Diffusion zu erneuern."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Kontinuierliche Diffusion",
+            "description": "6-10 Wochen kontinuierliche Diffusion je nach Raumlüftung."
           }
         ],
         "sensory": {
@@ -12013,16 +12016,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Rimuovere il tappo",
+            "description": "Rimuovere il tappo e inserire le bacchette in rattan nel flacone."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Girare le bacchette",
+            "description": "Girare le bacchette ogni 2-3 giorni per rinnovare la diffusione."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Diffusione continua",
+            "description": "Goditi 6-10 settimane di diffusione continua in base alla ventilazione della stanza."
           }
         ],
         "sensory": {
@@ -12049,16 +12052,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Dop verwijderen",
+            "description": "Verwijder de dop en steek de rattanstokjes in de fles."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Stokjes omdraaien",
+            "description": "Draai de stokjes elke 2-3 dagen om om de diffusie te vernieuwen."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Continue diffusie",
+            "description": "6-10 weken continue diffusie afhankelijk van de ventilatie van de ruimte."
           }
         ],
         "sensory": {
@@ -12085,16 +12088,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Retirar a tampa",
+            "description": "Retirar a tampa e inserir as varetas de rattan no frasco."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Virar as varetas",
+            "description": "Virar as varetas a cada 2-3 dias para renovar a difusão."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Difusão contínua",
+            "description": "Desfrute de 6-10 semanas de difusão contínua consoante a ventilação da divisão."
           }
         ],
         "sensory": {
@@ -12175,16 +12178,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Shake gently",
+            "description": "Shake lightly before each use."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Spray 2-3 times",
+            "description": "Spray 2-3 times at 30-40 cm distance. Repeat for more intensity."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Lasting fragrance",
+            "description": "The fragrance disperses softly and lingers. Avoid fabrics, eyes and pets."
           }
         ],
         "sensory": {
@@ -12211,16 +12214,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agiter légèrement",
+            "description": "Agiter légèrement avant chaque utilisation."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Vaporiser 2-3 fois",
+            "description": "Vaporiser 2-3 fois à 30-40 cm. Répéter si plus d'intensité est souhaitée."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragrance persistante",
+            "description": "La fragrance se diffuse doucement et persiste. Éviter les tissus, les yeux et les animaux."
           }
         ],
         "sensory": {
@@ -12247,16 +12250,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Leicht schütteln",
+            "description": "Vor jedem Gebrauch leicht schütteln."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "2-3 Mal sprühen",
+            "description": "2-3 Mal aus 30-40 cm Entfernung sprühen. Bei Bedarf wiederholen."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Anhaltender Duft",
+            "description": "Der Duft verteilt sich sanft und hält an. Kontakt mit Stoffen, Augen und Haustieren vermeiden."
           }
         ],
         "sensory": {
@@ -12283,16 +12286,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agitare delicatamente",
+            "description": "Agitare delicatamente prima di ogni uso."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Spruzzare 2-3 volte",
+            "description": "Spruzzare 2-3 volte a 30-40 cm di distanza. Ripetere se si desidera maggiore intensità."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragranza persistente",
+            "description": "La fragranza si diffonde delicatamente e persiste. Evitare tessuti, occhi e animali."
           }
         ],
         "sensory": {
@@ -12319,16 +12322,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Licht schudden",
+            "description": "Licht schudden voor elk gebruik."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "2-3 keer sproeien",
+            "description": "2-3 keer sproeien op 30-40 cm afstand. Herhaal voor meer intensiteit."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Aanhoudende geur",
+            "description": "De geur verspreidt zich zacht en aanhoudend. Vermijd stoffen, ogen en huisdieren."
           }
         ],
         "sensory": {
@@ -12355,16 +12358,16 @@
         ],
         "ritual": [
           {
-            "title": "Agitar antes de usar",
-            "description": "Agitar ligeramente antes de cada uso."
+            "title": "Agitar levemente",
+            "description": "Agitar levemente antes de cada uso."
           },
           {
-            "title": "Pulverizar 2-3 veces",
-            "description": "Pulverizar 2-3 veces a 30-40 cm. Repetir si se desea mas intensidad."
+            "title": "Pulverizar 2-3 vezes",
+            "description": "Pulverizar 2-3 vezes a 30-40 cm de distância. Repetir se desejar mais intensidade."
           },
           {
-            "title": "Fragancia persistente",
-            "description": "La fragancia se dispersa suave y persistente. Evitar tejidos, ojos y mascotas."
+            "title": "Fragrância persistente",
+            "description": "A fragrância dispersa-se suavemente e persiste. Evitar tecidos, olhos e animais de estimação."
           }
         ],
         "sensory": {
@@ -12445,16 +12448,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Remove the cap",
+            "description": "Remove the cap and insert the rattan reeds into the bottle."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Turn the reeds",
+            "description": "Turn the reeds every 2-3 days to refresh the fragrance diffusion."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Continuous diffusion",
+            "description": "Enjoy 6-10 weeks of continuous diffusion depending on room ventilation."
           }
         ],
         "sensory": {
@@ -12481,16 +12484,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Retirer le bouchon",
+            "description": "Retirer le bouchon et insérer les bâtons en rotin dans le flacon."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Retourner les bâtons",
+            "description": "Retourner les bâtons tous les 2-3 jours pour renouveler la diffusion."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Diffusion continue",
+            "description": "Profitez de 6 à 10 semaines de diffusion continue selon la ventilation de la pièce."
           }
         ],
         "sensory": {
@@ -12517,16 +12520,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Verschluss entfernen",
+            "description": "Verschluss entfernen und Rattanstäbchen in die Flasche stecken."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Stäbchen drehen",
+            "description": "Stäbchen alle 2-3 Tage drehen, um die Diffusion zu erneuern."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Kontinuierliche Diffusion",
+            "description": "6-10 Wochen kontinuierliche Diffusion je nach Raumlüftung."
           }
         ],
         "sensory": {
@@ -12553,16 +12556,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Rimuovere il tappo",
+            "description": "Rimuovere il tappo e inserire le bacchette in rattan nel flacone."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Girare le bacchette",
+            "description": "Girare le bacchette ogni 2-3 giorni per rinnovare la diffusione."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Diffusione continua",
+            "description": "Goditi 6-10 settimane di diffusione continua in base alla ventilazione della stanza."
           }
         ],
         "sensory": {
@@ -12589,16 +12592,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Dop verwijderen",
+            "description": "Verwijder de dop en steek de rattanstokjes in de fles."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Stokjes omdraaien",
+            "description": "Draai de stokjes elke 2-3 dagen om om de diffusie te vernieuwen."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Continue diffusie",
+            "description": "6-10 weken continue diffusie afhankelijk van de ventilatie van de ruimte."
           }
         ],
         "sensory": {
@@ -12625,16 +12628,16 @@
         ],
         "ritual": [
           {
-            "title": "Introducir las varillas",
-            "description": "Retirar el tapon e introducir las varillas de ratan en el frasco."
+            "title": "Retirar a tampa",
+            "description": "Retirar a tampa e inserir as varetas de rattan no frasco."
           },
           {
-            "title": "Girar cada 2-3 dias",
-            "description": "Girar las varillas cada 2-3 dias para renovar la difusion del aroma."
+            "title": "Virar as varetas",
+            "description": "Virar as varetas a cada 2-3 dias para renovar a difusão."
           },
           {
-            "title": "Difusion continua",
-            "description": "Difusion continua hasta 6-10 semanas segun ventilacion del espacio."
+            "title": "Difusão contínua",
+            "description": "Desfrute de 6-10 semanas de difusão contínua consoante a ventilação da divisão."
           }
         ],
         "sensory": {
