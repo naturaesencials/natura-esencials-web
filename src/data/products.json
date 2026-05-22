@@ -3809,7 +3809,8 @@
       "outOfStock": false,
       "primaryImage": "/images/products/eu/serum-antiojeras.png",
       "basePriceEUR": 8.1,
-      "secondaryImage": "/images/products/eu/serum-antiojeras-2.png"
+      "secondaryImage": "/images/products/eu/serum-antiojeras-2.png",
+      "inci": "Aqua, Glycerin, Carrageenan, Propanediol, Argania Spinosa Kernel Oil, Persea Gratissima Fruit Extract, Citric Acid, 1,2-Hexanediol, Phenylpropanol"
     },
     {
       "id": "serum-antiojeras-hombre",
@@ -10762,7 +10763,9 @@
         "difusor-mente-serena"
       ],
       "subcategory": "Limpieza general",
-      "sku": "NE-AM01"
+      "sku": "NE-AM01",
+      "inci": "Aqua, Parfum (Calm Mind – Esencias Moles Ref. 396013). CLP: H317. Fabricado artesanalmente en Marbella, Andalucía.",
+      "inciPendingVerification": true
     },
     {
       "id": "difusor-mente-serena",
@@ -11037,7 +11040,9 @@
         "spray-mente-serena"
       ],
       "subcategory": "Limpieza general",
-      "sku": "NE-AD01"
+      "sku": "NE-AD01",
+      "inci": "Base difusora vegetal, Parfum (Calm Mind – Esencias Moles Ref. 396013). CLP: H317, H412. Fabricado artesanalmente en Marbella, Andalucía.",
+      "inciPendingVerification": true
     },
     {
       "id": "spray-frescor-puro",
@@ -11312,7 +11317,9 @@
         "difusor-frescor-puro"
       ],
       "subcategory": "Limpieza general",
-      "sku": "NE-AM02"
+      "sku": "NE-AM02",
+      "inci": "Aqua, Parfum (Clean Freshness – Esencias Moles Ref. 385939). CLP: H317. Fabricado artesanalmente en Marbella, Andalucía.",
+      "inciPendingVerification": true
     },
     {
       "id": "difusor-frescor-puro",
@@ -11587,7 +11594,9 @@
         "spray-frescor-puro"
       ],
       "subcategory": "Limpieza general",
-      "sku": "NE-AD02"
+      "sku": "NE-AD02",
+      "inci": "Base difusora vegetal, Parfum (Clean Freshness – Esencias Moles Ref. 385939). CLP: H317, H411. Fabricado artesanalmente en Marbella, Andalucía.",
+      "inciPendingVerification": true
     },
     {
       "id": "spray-corazon-en-calma",
@@ -11862,7 +11871,9 @@
         "difusor-corazon-en-calma"
       ],
       "subcategory": "Limpieza general",
-      "sku": "NE-AM03"
+      "sku": "NE-AM03",
+      "inci": "Aqua, Parfum (Peaceful Heart – Esencias Moles Ref. 396012). CLP: H317. Fabricado artesanalmente en Marbella, Andalucía.",
+      "inciPendingVerification": true
     },
     {
       "id": "difusor-corazon-en-calma",
@@ -12137,7 +12148,9 @@
         "spray-corazon-en-calma"
       ],
       "subcategory": "Limpieza general",
-      "sku": "NE-AD03"
+      "sku": "NE-AD03",
+      "inci": "Base difusora vegetal, Parfum (Peaceful Heart – Esencias Moles Ref. 396012). CLP: H317, H411. Fabricado artesanalmente en Marbella, Andalucía.",
+      "inciPendingVerification": true
     },
     {
       "id": "spray-relax",
@@ -12412,7 +12425,9 @@
         "difusor-relax"
       ],
       "subcategory": "Limpieza general",
-      "sku": "NE-AM04"
+      "sku": "NE-AM04",
+      "inci": "Aqua, Parfum (Relaxing – Esencias Moles Ref. 396014). CLP: H317. Fabricado artesanalmente en Marbella, Andalucía.",
+      "inciPendingVerification": true
     },
     {
       "id": "difusor-relax",
@@ -12687,7 +12702,9 @@
         "spray-relax"
       ],
       "subcategory": "Limpieza general",
-      "sku": "NE-AD04"
+      "sku": "NE-AD04",
+      "inci": "Base difusora vegetal, Parfum (Relaxing – Esencias Moles Ref. 396014). CLP: H317, H412. Fabricado artesanalmente en Marbella, Andalucía.",
+      "inciPendingVerification": true
     }
   ]
 }
