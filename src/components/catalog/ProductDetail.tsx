@@ -100,12 +100,31 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
 
   const handleVariantChange = useCallback((variantTitle: string) => {
     if (region !== 'uk' || !product.ukFormatImages) return;
-    const key = variantTitle.trim();
-    // Tolerante a espacios: "300 ml" → busca "300ml", "1 L" → "1L", etc.
-    const norm = (s: string) => s.toLowerCase().replace(/\s+/g, '');
-    const img = product.ukFormatImages[key]
+
+    /** Extrae la cantidad del título de Shopify → clave normalizada para ukFormatImages.
+     *  "Botella 300 ml" → "300ml"
+     *  "300 ml" | "300ml" → "300ml"
+     *  "Botella 1 L" | "1 L" | "1L" → "1L"
+     *  "Caja BIB 5 L" | "BiB 5L" → "BiB 5L"
+     */
+    const extractKey = (t: string): string => {
+      const s = t.toLowerCase().replace(/\s+/g, '');
+      if (/bib/.test(s)) {
+        const m = s.match(/(\d+)l/);
+        return m ? `BiB ${m[1]}L` : t;
+      }
+      const ml = s.match(/(\d+)ml/);
+      if (ml) return `${ml[1]}ml`;
+      const lt = s.match(/(\d+)l/);
+      if (lt) return `${lt[1]}L`;
+      return t;
+    };
+
+    const fmt = extractKey(variantTitle);
+    const img = product.ukFormatImages[fmt]
+      ?? product.ukFormatImages[variantTitle.trim()]
       ?? Object.entries(product.ukFormatImages)
-           .find(([k]) => norm(k) === norm(key))?.[1];
+           .find(([k]) => extractKey(k) === fmt)?.[1];
     if (img) setActiveImage(img);
   }, [region, product.ukFormatImages]);
   // ─────────────────────────────────────────────────────────────────────────
