@@ -84,24 +84,28 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
   );
 
   // ── Imagen dinámica por formato (UK con ukFormatImages) ────────────────────
-  const [activeImage, setActiveImage] = useState<string>(imageSrc);
+  // En UK: imagen inicial = product shot 1L (fondo blanco), NO el lifestyle
+  // En EU: imagen inicial = imageSrc (lifestyle)
+  const getInitialImage = (): string => {
+    if (region === 'uk' && product.ukFormatImages) {
+      return product.ukFormatImages['1L']
+        ?? product.ukFormatImages['300ml']
+        ?? Object.values(product.ukFormatImages)[0]
+        ?? imageSrc;
+    }
+    return imageSrc;
+  };
 
-  /** Normaliza el título de variante Shopify para hacer lookup en ukFormatImages.
-   *  Ej: "300 ml" → "300ml", "1 L" → "1l", "bib 5 l" → "bib 5l"
-   */
-  const normalizeVariant = (title: string): string =>
-    title.toLowerCase().replace(/\s+/g, '').replace('bib', 'BiB').replace('ml','ml').replace(/(\d+)l$/, '$1L');
+  const [activeImage, setActiveImage] = useState<string>(getInitialImage);
 
   const handleVariantChange = useCallback((variantTitle: string) => {
     if (region !== 'uk' || !product.ukFormatImages) return;
-    // Buscar imagen por título normalizado (tolerante a espacios)
-    const norm = variantTitle.trim();
-    // Intento directo y luego normalizado
-    const img = product.ukFormatImages[norm]
-      ?? product.ukFormatImages[norm.replace(/\s+/g, '')]
-      ?? Object.entries(product.ukFormatImages).find(([k]) =>
-          k.toLowerCase().replace(/\s/g,'') === norm.toLowerCase().replace(/\s/g,'')
-        )?.[1];
+    const key = variantTitle.trim();
+    // Tolerante a espacios: "300 ml" → busca "300ml", "1 L" → "1L", etc.
+    const norm = (s: string) => s.toLowerCase().replace(/\s+/g, '');
+    const img = product.ukFormatImages[key]
+      ?? Object.entries(product.ukFormatImages)
+           .find(([k]) => norm(k) === norm(key))?.[1];
     if (img) setActiveImage(img);
   }, [region, product.ukFormatImages]);
   // ─────────────────────────────────────────────────────────────────────────
