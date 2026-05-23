@@ -117,7 +117,15 @@ export function BuyButton({
     setLoadingVariants(true);
     fetch(`/api/shopify/variants?handle=${handle}&region=${region}&locale=${locale}`)
       .then((r) => r.ok ? r.json() : null)
-      .then((json: VariantsResponse | null) => { if (!cancelled && json) setData(json); })
+      .then((json: VariantsResponse | null) => {
+        if (!cancelled && json) {
+          setData(json);
+          // Notificar el variant inicial (índice 0) para sincronizar la imagen
+          if (json.variants && json.variants.length > 0) {
+            onVariantChange?.(json.variants[0].title);
+          }
+        }
+      })
       .catch(() => {})
       .finally(() => { if (!cancelled) setLoadingVariants(false); });
     return () => { cancelled = true; };

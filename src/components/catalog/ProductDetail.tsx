@@ -84,14 +84,12 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
   );
 
   // ── Imagen dinámica por formato (UK con ukFormatImages) ────────────────────
-  // En UK: imagen inicial = product shot 1L (fondo blanco), NO el lifestyle
-  // En EU: imagen inicial = imageSrc (lifestyle)
+  // Imagen inicial = PRIMER formato en ukFormatImages (300ml para cosméticos,
+  // 1L para productos hogar que no tienen 300ml)
   const getInitialImage = (): string => {
     if (region === 'uk' && product.ukFormatImages) {
-      return product.ukFormatImages['1L']
-        ?? product.ukFormatImages['300ml']
-        ?? Object.values(product.ukFormatImages)[0]
-        ?? imageSrc;
+      const firstImg = Object.values(product.ukFormatImages)[0];
+      return firstImg ?? imageSrc;
     }
     return imageSrc;
   };
