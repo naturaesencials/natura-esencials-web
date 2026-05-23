@@ -116,6 +116,7 @@ function transformProduct(raw: RawProduct): Product {
     visible: raw.visible,
     outOfStock: raw.outOfStock,
     primaryImage: raw.primaryImage,
+    ukFormatImages: raw.ukFormatImages,
     gallery: raw.gallery,
     basePriceEUR: raw.basePriceEUR,
     basePriceGBP: raw.basePriceGBP,
