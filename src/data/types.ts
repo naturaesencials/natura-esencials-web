@@ -125,6 +125,8 @@ export interface Product {
   outOfStock?: boolean;
   /** URL de la foto principal (de Shopify CDN o local /images/products/) */
   primaryImage?: string;
+  /** Imágenes por formato para la tienda UK (key = formato, ej. "300ml", "1L", "BiB 5L") */
+  ukFormatImages?: Record<string, string>;
   /** Galería de fotos adicionales */
   gallery?: string[];
   /** Precios de fallback EUR (España/UE) y GBP (UK), si Shopify no responde */

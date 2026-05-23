@@ -300,6 +300,11 @@
         },
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
+      },
+      "ukFormatImages": {
+        "300ml": "/images/products/uk/champu-2-en-1-300ml.jpg",
+        "1L": "/images/products/uk/champu-2-en-1-1l.jpg",
+        "BiB 5L": "/images/products/uk/champu-2-en-1-1l.jpg"
       }
     },
     {
@@ -602,6 +607,11 @@
         },
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
+      },
+      "ukFormatImages": {
+        "300ml": "/images/products/uk/acondicionador-capilar-300ml.jpg",
+        "1L": "/images/products/uk/acondicionador-capilar-1l.jpg",
+        "BiB 5L": "/images/products/uk/acondicionador-capilar-1l.jpg"
       }
     },
     {
@@ -904,7 +914,12 @@
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42,
-      "inci": "Aqua, Olea Europaea Fruit Oil, Glycerin, Potassium Hydroxide, Cocos Nucifera Oil, Aloe Barbadensis Leaf Juice, Melaleuca Alternifolia Leaf Oil, Cymbopogon Citratus Leaf Oil, Lavandula Hybrida Grosso Herb Oil, Citrus Aurantium Amara Leaf/Twig Oil, Pogostemon Cablin Leaf Oil, Potassium Carbonate, Citric Acid, Potassium Sorbate, Sodium Gluconate, Sodium Chloride, Citral, Linalool, Geraniol."
+      "inci": "Aqua, Olea Europaea Fruit Oil, Glycerin, Potassium Hydroxide, Cocos Nucifera Oil, Aloe Barbadensis Leaf Juice, Melaleuca Alternifolia Leaf Oil, Cymbopogon Citratus Leaf Oil, Lavandula Hybrida Grosso Herb Oil, Citrus Aurantium Amara Leaf/Twig Oil, Pogostemon Cablin Leaf Oil, Potassium Carbonate, Citric Acid, Potassium Sorbate, Sodium Gluconate, Sodium Chloride, Citral, Linalool, Geraniol.",
+      "ukFormatImages": {
+        "300ml": "/images/products/uk/jabon-manos-cuerpo-300ml.jpg",
+        "1L": "/images/products/uk/jabon-manos-cuerpo-1l.jpg",
+        "BiB 5L": "/images/products/uk/jabon-manos-cuerpo-1l.jpg"
+      }
     },
     {
       "id": "body-milk",
@@ -1207,7 +1222,12 @@
         "aiTranslation": true
       },
       "basePriceEUR": 8.4,
-      "basePriceGBP": 7.22
+      "basePriceGBP": 7.22,
+      "ukFormatImages": {
+        "300ml": "/images/products/uk/body-milk-300ml.jpg",
+        "1L": "/images/products/uk/body-milk-1l.jpg",
+        "BiB 5L": "/images/products/uk/body-milk-1l.jpg"
+      }
     },
     {
       "id": "total-body-wash",
@@ -1508,6 +1528,11 @@
         },
         "warnings": "Evitar o contacto com os olhos e mucosas. Manter fora do alcance das crianças. Uso externo apenas.",
         "aiTranslation": true
+      },
+      "ukFormatImages": {
+        "300ml": "/images/products/uk/total-body-wash-300ml.jpg",
+        "1L": "/images/products/uk/total-body-wash-1l.jpg",
+        "BiB 5L": "/images/products/uk/total-body-wash-1l.jpg"
       }
     },
     {
@@ -6692,7 +6717,11 @@
       },
       "basePriceEUR": 8.6,
       "basePriceGBP": 7.4,
-      "inci": "Jabón < 5%, Tensioactivos no iónicos 5–15%, Tensioactivos aniónicos < 5%, Conservantes (Benzisothiazolinone, Methylisothiazolinone), Fragancias alergénicas (Tetramethyl Acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Citronellol, Coumarin, Limonene, Lavandula Hybrida Extract, Citrus Aurantium Amara Peel Oil, Linalool)."
+      "inci": "Jabón < 5%, Tensioactivos no iónicos 5–15%, Tensioactivos aniónicos < 5%, Conservantes (Benzisothiazolinone, Methylisothiazolinone), Fragancias alergénicas (Tetramethyl Acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Citronellol, Coumarin, Limonene, Lavandula Hybrida Extract, Citrus Aurantium Amara Peel Oil, Linalool).",
+      "ukFormatImages": {
+        "1L": "/images/products/uk/detergente-ropa-1l.jpg",
+        "BiB 5L": "/images/products/uk/detergente-ropa-1l.jpg"
+      }
     },
     {
       "id": "suavizante-ropa",
@@ -7000,7 +7029,11 @@
       },
       "basePriceEUR": 6.6,
       "basePriceGBP": 5.68,
-      "inci": "Tensioactivos catiónicos 5–15%, Conservantes (Phenoxyethanol), Fragancias alergénicas (Tetramethyl Acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Citronellol, Coumarin, Limonene, Lavandula Hybrida Extract, Citrus Aurantium Amara Flower Extract, Linalool, Pogostemon Cablin Leaf Oil)."
+      "inci": "Tensioactivos catiónicos 5–15%, Conservantes (Phenoxyethanol), Fragancias alergénicas (Tetramethyl Acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Citronellol, Coumarin, Limonene, Lavandula Hybrida Extract, Citrus Aurantium Amara Flower Extract, Linalool, Pogostemon Cablin Leaf Oil).",
+      "ukFormatImages": {
+        "1L": "/images/products/uk/suavizante-ropa-1l.jpg",
+        "BiB 5L": "/images/products/uk/suavizante-ropa-1l.jpg"
+      }
     },
     {
       "id": "lavavajillas-manual",
@@ -7304,7 +7337,11 @@
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42,
-      "inci": "Tensioactivos aniónicos 5–15%, Tensioactivos no iónicos < 5%, Tensioactivos anfotéricos < 5%, Fragancias alergénicas (Citral), Conservantes (Benzisothiazolinone, Methylisothiazolinone)."
+      "inci": "Tensioactivos aniónicos 5–15%, Tensioactivos no iónicos < 5%, Tensioactivos anfotéricos < 5%, Fragancias alergénicas (Citral), Conservantes (Benzisothiazolinone, Methylisothiazolinone).",
+      "ukFormatImages": {
+        "1L": "/images/products/uk/lavavajillas-manual-1l.jpg",
+        "BiB 5L": "/images/products/uk/lavavajillas-manual-1l.jpg"
+      }
     },
     {
       "id": "lavavajillas-maquina",
@@ -7591,7 +7628,11 @@
       },
       "basePriceEUR": 7.8,
       "basePriceGBP": 6.71,
-      "inci": "Tensioactivos no iónicos < 5%."
+      "inci": "Tensioactivos no iónicos < 5%.",
+      "ukFormatImages": {
+        "1L": "/images/products/uk/lavavajillas-maquina-1l.jpg",
+        "BiB 5L": "/images/products/uk/lavavajillas-maquina-1l.jpg"
+      }
     },
     {
       "id": "abrillantador",
@@ -7878,7 +7919,11 @@
       },
       "basePriceEUR": 5.7,
       "basePriceGBP": 4.9,
-      "inci": "Tensioactivos no iónicos < 5%, Etanol 5–10%, Undecanol ramificado y lineal etoxilado propoxilado (≥2,5 moles EO/PO) 1–2,5%."
+      "inci": "Tensioactivos no iónicos < 5%, Etanol 5–10%, Undecanol ramificado y lineal etoxilado propoxilado (≥2,5 moles EO/PO) 1–2,5%.",
+      "ukFormatImages": {
+        "1L": "/images/products/uk/abrillantador-1l.jpg",
+        "BiB 5L": "/images/products/uk/abrillantador-1l.jpg"
+      }
     },
     {
       "id": "limpiasuelos",
@@ -8171,7 +8216,11 @@
       },
       "basePriceEUR": 6,
       "basePriceGBP": 5.16,
-      "inci": "Tensioactivos aniónicos < 5%, Tensioactivos no iónicos < 5%, Perfumes (Alpha-Isomethyl Ionone, Hexyl Cinnamal, Citronellol, Linalool), Conservantes (Benzisothiazolinone, Methylisothiazolinone)."
+      "inci": "Tensioactivos aniónicos < 5%, Tensioactivos no iónicos < 5%, Perfumes (Alpha-Isomethyl Ionone, Hexyl Cinnamal, Citronellol, Linalool), Conservantes (Benzisothiazolinone, Methylisothiazolinone).",
+      "ukFormatImages": {
+        "1L": "/images/products/uk/limpiasuelos-1l.jpg",
+        "BiB 5L": "/images/products/uk/limpiasuelos-1l.jpg"
+      }
     },
     {
       "id": "limpiador-banos",
@@ -8454,7 +8503,10 @@
       },
       "basePriceEUR": 6.2,
       "basePriceGBP": 5.33,
-      "inci": "Tensioactivos no iónicos < 5%, Tensioactivos aniónicos < 5%, Tensioactivos anfotéricos < 5%."
+      "inci": "Tensioactivos no iónicos < 5%, Tensioactivos aniónicos < 5%, Tensioactivos anfotéricos < 5%.",
+      "ukFormatImages": {
+        "1L": "/images/products/uk/limpiador-banos-1l.jpg"
+      }
     },
     {
       "id": "desengrasante",
@@ -8754,7 +8806,11 @@
       },
       "basePriceEUR": 4.8,
       "basePriceGBP": 4.13,
-      "inci": "Tensioactivos no iónicos < 5%."
+      "inci": "Tensioactivos no iónicos < 5%.",
+      "ukFormatImages": {
+        "1L": "/images/products/uk/desengrasante-1l.jpg",
+        "BiB 5L": "/images/products/uk/desengrasante-1l.jpg"
+      }
     },
     {
       "id": "multisuperficies",
@@ -9035,7 +9091,11 @@
       },
       "basePriceEUR": 6.2,
       "basePriceGBP": 5.33,
-      "inci": "Tensioactivos aniónicos < 5%, Tensioactivos no iónicos < 5%, Conservantes (Benzisothiazolinone, Methylisothiazolinone), Fragancias alergénicas (Citral, Limonene)."
+      "inci": "Tensioactivos aniónicos < 5%, Tensioactivos no iónicos < 5%, Conservantes (Benzisothiazolinone, Methylisothiazolinone), Fragancias alergénicas (Citral, Limonene).",
+      "ukFormatImages": {
+        "1L": "/images/products/uk/multisuperficies-1l.jpg",
+        "BiB 5L": "/images/products/uk/multisuperficies-1l.jpg"
+      }
     },
     {
       "id": "limpiacristales",
@@ -9322,7 +9382,11 @@
       },
       "basePriceEUR": 5.9,
       "basePriceGBP": 5.07,
-      "inci": "Conservantes (Benzisothiazolinone, Methylisothiazolinone)."
+      "inci": "Conservantes (Benzisothiazolinone, Methylisothiazolinone).",
+      "ukFormatImages": {
+        "1L": "/images/products/uk/limpiacristales-1l.jpg",
+        "BiB 5L": "/images/products/uk/limpiacristales-1l.jpg"
+      }
     },
     {
       "id": "champu-perros",

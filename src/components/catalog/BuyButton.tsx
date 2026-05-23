@@ -89,17 +89,20 @@ interface VariantsResponse {
 // ─── Component ────────────────────────────────────────────────────────────────
 
 interface BuyButtonProps {
-  handle:       string;
-  formats?:     string[];
-  region:       Region;
-  locale:       Locale;
-  variant?:     'primary' | 'secondary';
-  showPricing?: boolean;
+  handle:            string;
+  formats?:          string[];
+  region:            Region;
+  locale:            Locale;
+  variant?:          'primary' | 'secondary';
+  showPricing?:      boolean;
+  /** Callback cuando el cliente cambia de formato/variante (pasa el título de Shopify) */
+  onVariantChange?:  (variantTitle: string) => void;
 }
 
 export function BuyButton({
   handle, formats = [], region, locale,
   variant = 'primary', showPricing = true,
+  onVariantChange,
 }: BuyButtonProps) {
   const { addToCart, isLoading: cartLoading } = useCart();
 
@@ -193,7 +196,12 @@ export function BuyButton({
                     <button
                       key={v.id}
                       type="button"
-                      onClick={() => !unavailable && setSelectedIdx(i)}
+                      onClick={() => {
+                        if (!unavailable) {
+                          setSelectedIdx(i);
+                          onVariantChange?.(v.title);
+                        }
+                      }}
                       disabled={unavailable}
                       className={[
                         'flex flex-col items-start px-4 py-2.5 border text-left min-w-[88px]',

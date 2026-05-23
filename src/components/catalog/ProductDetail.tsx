@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState, useCallback } from 'react';
 import { ShareButtons } from '@/components/social/ShareButtons';
 import type { Product, Bundle } from '@/data/types';
 import type { Locale, Region } from '@/lib/i18n/config';
@@ -82,6 +83,29 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
     product.primaryImage,
   );
 
+  // ── Imagen dinámica por formato (UK con ukFormatImages) ────────────────────
+  const [activeImage, setActiveImage] = useState<string>(imageSrc);
+
+  /** Normaliza el título de variante Shopify para hacer lookup en ukFormatImages.
+   *  Ej: "300 ml" → "300ml", "1 L" → "1l", "bib 5 l" → "bib 5l"
+   */
+  const normalizeVariant = (title: string): string =>
+    title.toLowerCase().replace(/\s+/g, '').replace('bib', 'BiB').replace('ml','ml').replace(/(\d+)l$/, '$1L');
+
+  const handleVariantChange = useCallback((variantTitle: string) => {
+    if (region !== 'uk' || !product.ukFormatImages) return;
+    // Buscar imagen por título normalizado (tolerante a espacios)
+    const norm = variantTitle.trim();
+    // Intento directo y luego normalizado
+    const img = product.ukFormatImages[norm]
+      ?? product.ukFormatImages[norm.replace(/\s+/g, '')]
+      ?? Object.entries(product.ukFormatImages).find(([k]) =>
+          k.toLowerCase().replace(/\s/g,'') === norm.toLowerCase().replace(/\s/g,'')
+        )?.[1];
+    if (img) setActiveImage(img);
+  }, [region, product.ukFormatImages]);
+  // ─────────────────────────────────────────────────────────────────────────
+
   const complements = product.complements
     .map((id) => getProductById(id))
     .filter((p): p is Product => !!p && p.visible);
@@ -141,14 +165,14 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
         <header className="grid lg:grid-cols-[1fr,1fr] gap-10 lg:gap-16 mb-pad-y-sm">
           <div className="relative aspect-square bg-paper rounded-2xl overflow-hidden">
             <Image
-              src={imageSrc}
+              src={activeImage}
               alt={tr.name}
               fill
               priority
               sizes="(min-width: 1024px) 45vw, 95vw"
-              className="object-cover"
+              className="object-contain p-6 sm:p-4 lg:p-6"
             />
-            <div className="absolute top-4 left-4 flex flex-col gap-2">
+            <div className="absolute top-4 left-4 flex flex-col gap-2 z-10">
               <span className="bg-ink/90 text-bg text-meta-fluid uppercase tracking-[0.22em] px-3 py-1.5 rounded-sm font-body-medium">
                 {product.sensation}
               </span>
@@ -231,6 +255,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                 region={region}
                 locale={locale}
                 showPricing={true}
+                onVariantChange={handleVariantChange}
               />
             </div>
           </div>
