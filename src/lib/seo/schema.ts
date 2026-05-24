@@ -143,7 +143,7 @@ export function productSchema(product: ProductSchemaConfig) {
       priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0],
       hasMerchantReturnPolicy: {
         '@type': 'MerchantReturnPolicy',
-        applicableCountry: 'ES',
+        applicableCountry: product.region === 'uk' ? 'GB' : ['ES', 'FR', 'DE', 'IT', 'NL', 'PT'],
         returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
         merchantReturnDays: 30,
         returnMethod: 'https://schema.org/ReturnByMail',

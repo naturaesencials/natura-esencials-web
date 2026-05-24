@@ -155,7 +155,7 @@ export function makeProductPage(line: ProductLine) {
 
     const productData = productSchema({
       name: tr.name,
-      description: tr.shortDescription,
+      description: tr.shortDescription || tr.longDescription || tr.name,
       image: [
         getAbsoluteProductImage(product.id, region, siteConfig.url, product.primaryImage),
       ],
