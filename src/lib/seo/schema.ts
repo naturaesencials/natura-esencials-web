@@ -173,8 +173,6 @@ export function productSchema(product: ProductSchemaConfig) {
           handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 1, unitCode: 'DAY' },
           transitTime: { '@type': 'QuantitativeValue', minValue: deliveryMin, maxValue: deliveryMax, unitCode: 'DAY' },
         },
-        doesNotShip: false,
-        description: `Free shipping on orders over ${isUK ? '£' : '€'}${freeThreshold}`,
       },
     ];
     schema.offers = offer;
