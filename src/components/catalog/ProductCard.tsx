@@ -50,7 +50,7 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
 
   const { src: imageSrc, fallbackSrc: imageFallback } = itemIsBundle
     ? resolveBundleImage(item.id, region, item.primaryImage)
-    : resolveProductImage(item.id, region, item.primaryImage);
+    : resolveProductImage(item.id, region, item.catalogImage ?? item.primaryImage);
   const sensationClass = SENSATION_COLORS[item.sensation] || 'bg-stone-100 text-stone-800';
 
   const ariaLabel = translation?.nameAccent 

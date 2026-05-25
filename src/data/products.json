@@ -3555,7 +3555,8 @@
       "primaryImage": "/images/products/eu/exfoliante-facial-hombre.png",
       "basePriceEUR": 6.7,
       "secondaryImage": "/images/products/eu/exfoliante-facial-hombre-2.png",
-      "inci": "Aqua, Sodium Laureth Sulfate, Sodium Chloride, Glycerin, Hydrogenated Castor Oil, Cocamidopropyl Betaine, Coco-Glucoside, Ulva Lactuca Extract, Posidonia Oceanica Extract, Cellulose, Cellulose Gum, Sodium Benzoate, Potassium Sorbate, Benzyl Alcohol, Dehydroacetic Acid, Benzoic Acid, Sorbic Acid, Citric Acid, Parfum, Tetramethylacetyloctahydronaphtalenes"
+      "inci": "Aqua, Sodium Laureth Sulfate, Sodium Chloride, Glycerin, Hydrogenated Castor Oil, Cocamidopropyl Betaine, Coco-Glucoside, Ulva Lactuca Extract, Posidonia Oceanica Extract, Cellulose, Cellulose Gum, Sodium Benzoate, Potassium Sorbate, Benzyl Alcohol, Dehydroacetic Acid, Benzoic Acid, Sorbic Acid, Citric Acid, Parfum, Tetramethylacetyloctahydronaphtalenes",
+      "catalogImage": "/images/products/eu/exfoliante-facial-hombre-catalog.jpg"
     },
     {
       "id": "serum-antiojeras",
@@ -3835,7 +3836,8 @@
       "primaryImage": "/images/products/eu/serum-antiojeras.png",
       "basePriceEUR": 8.1,
       "secondaryImage": "/images/products/eu/serum-antiojeras-2.png",
-      "inci": "Aqua, Glycerin, Carrageenan, Propanediol, Argania Spinosa Kernel Oil, Persea Gratissima Fruit Extract, Citric Acid, 1,2-Hexanediol, Phenylpropanol"
+      "inci": "Aqua, Glycerin, Carrageenan, Propanediol, Argania Spinosa Kernel Oil, Persea Gratissima Fruit Extract, Citric Acid, 1,2-Hexanediol, Phenylpropanol",
+      "catalogImage": "/images/products/eu/serum-antiojeras-catalog.jpg"
     },
     {
       "id": "serum-antiojeras-hombre",
@@ -5587,7 +5589,8 @@
       "primaryImage": "/images/products/eu/agua-micelar.png",
       "basePriceEUR": 5.8,
       "secondaryImage": "/images/products/eu/agua-micelar-2.png",
-      "inci": "Aqua, Propanediol, Glycerin, Coco-Glucoside, Tetrasodium Glutamate Diacetate, Citric Acid, Sodium Benzoate, Potassium Sorbate"
+      "inci": "Aqua, Propanediol, Glycerin, Coco-Glucoside, Tetrasodium Glutamate Diacetate, Citric Acid, Sodium Benzoate, Potassium Sorbate",
+      "catalogImage": "/images/products/eu/agua-micelar-catalog.jpg"
     },
     {
       "id": "gel-afeitado-mujer",
@@ -6144,7 +6147,8 @@
       "primaryImage": "/images/products/eu/exfoliante-facial-mujer.png",
       "basePriceEUR": 6.7,
       "secondaryImage": "/images/products/eu/exfoliante-facial-mujer-2.png",
-      "inci": "Aqua, Sodium Laureth Sulfate, Sodium Chloride, Glycerin, Hydrogenated Castor Oil, Cocamidopropyl Betaine, Coco-Glucoside, Ulva Lactuca Extract, Posidonia Oceanica Extract, Cellulose, Cellulose Gum, Sodium Benzoate, Potassium Sorbate, Benzyl Alcohol, Dehydroacetic Acid, Benzoic Acid, Sorbic Acid, Citric Acid, Parfum, Terpineol"
+      "inci": "Aqua, Sodium Laureth Sulfate, Sodium Chloride, Glycerin, Hydrogenated Castor Oil, Cocamidopropyl Betaine, Coco-Glucoside, Ulva Lactuca Extract, Posidonia Oceanica Extract, Cellulose, Cellulose Gum, Sodium Benzoate, Potassium Sorbate, Benzyl Alcohol, Dehydroacetic Acid, Benzoic Acid, Sorbic Acid, Citric Acid, Parfum, Terpineol",
+      "catalogImage": "/images/products/eu/exfoliante-facial-mujer-catalog.jpg"
     },
     {
       "id": "serum-antiojeras-mujer",

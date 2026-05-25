@@ -125,6 +125,8 @@ export interface Product {
   outOfStock?: boolean;
   /** URL de la foto principal (de Shopify CDN o local /images/products/) */
   primaryImage?: string;
+  /** Imagen lifestyle para catálogo/landing (si existe, sobreescribe primaryImage en cards) */
+  catalogImage?: string;
   /** Imágenes por formato para la tienda UK (key = formato, ej. "300ml", "1L", "BiB 5L") */
   ukFormatImages?: Record<string, string>;
   /** Galería de fotos adicionales */

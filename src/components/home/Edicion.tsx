@@ -98,7 +98,7 @@ export function Edicion({ region, locale }: Props) {
               <>
                 <div className="relative mb-4 aspect-square overflow-hidden rounded-sm">
                   <Image
-                    src={product.primaryImage ?? '/images/landing/card-1.jpg'}
+                    src={(product as Record<string, unknown>).catalogImage as string ?? product.primaryImage ?? '/images/landing/card-1.jpg'}
                     alt={names.full}
                     fill
                     sizes="(min-width: 1024px) 25vw, 50vw"
