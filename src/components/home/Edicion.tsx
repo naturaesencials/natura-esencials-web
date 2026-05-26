@@ -6,6 +6,7 @@ import productsData from '@/data/products.json';
 import { regionCurrency, type Locale, type Region } from '@/lib/i18n/config';
 import { buildPath } from '@/lib/i18n/paths';
 import bundlesData from '@/data/bundles.json';
+import { CardBuyButton, type TargetFormat } from '@/components/catalog/CardBuyButton';
 
 interface Props { region: Region; locale: Locale; }
 
@@ -93,6 +94,11 @@ export function Edicion({ region, locale }: Props) {
             const price = product.basePriceEUR;
             const format = product.formats?.[0] ?? '';
             const colorClass = COLOR[product.line] ?? 'text-verde';
+            const shopifyHandle = (product as Record<string, unknown>).shopifyHandle as string | undefined;
+            const targetFormat: TargetFormat =
+              product.line === 'hogar' ? '1l' :
+              (product.line === 'cosmetica' || product.line === 'mascota') ? '300ml' :
+              'default';
 
             const inner = (
               <>
@@ -120,6 +126,14 @@ export function Edicion({ region, locale }: Props) {
                     <strong className="font-caption text-xl font-black text-ink">{symbol}{price.toFixed(2)}</strong>
                   )}
                 </div>
+                {shopifyHandle && (
+                  <CardBuyButton
+                    handle={shopifyHandle}
+                    region={region}
+                    locale={locale}
+                    targetFormat={targetFormat}
+                  />
+                )}
               </>
             );
 

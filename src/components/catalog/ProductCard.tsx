@@ -6,6 +6,7 @@ import { buildPath } from '@/lib/i18n/paths';
 import type { Product, Bundle } from '@/data/types';
 import { resolveProductImage, resolveBundleImage } from '@/lib/images';
 import { CatalogRatingBadge } from '@/components/reviews/CatalogRatingBadge';
+import { CardBuyButton, type TargetFormat } from '@/components/catalog/CardBuyButton';
 
 /**
  * ProductCard: tarjeta de producto o bundle para listados.
@@ -47,6 +48,19 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
   const linkHref = itemIsBundle
     ? buildPath(region, locale, `rituales/${translation.slug || item.baseSlug}`)
     : buildPath(region, locale, `${item.line}/${translation.slug || item.baseSlug}`);
+
+  // Handle de Shopify para el botón de compra
+  const shopifyHandle: string | undefined = itemIsBundle
+    ? (region === 'uk' && item.shopifyHandleUK ? item.shopifyHandleUK : item.shopifyHandle)
+    : (region === 'uk' && (item as Product).shopifyHandleUK
+        ? (item as Product).shopifyHandleUK!
+        : (item as Product).shopifyHandle);
+
+  // Formato prioritario según línea
+  const targetFormat: TargetFormat =
+    item.line === 'hogar' ? '1l' :
+    (item.line === 'cosmetica' || item.line === 'mascota') ? '300ml' :
+    'default';
 
   const { src: imageSrc, fallbackSrc: imageFallback } = itemIsBundle
     ? resolveBundleImage(item.id, region, item.primaryImage)
@@ -167,6 +181,16 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
             Ver →
           </span>
         </div>
+
+        {/* Botón compra rápida — no se muestra si no hay handle o está out of stock */}
+        {shopifyHandle && !item.outOfStock && (
+          <CardBuyButton
+            handle={shopifyHandle}
+            region={region}
+            locale={locale}
+            targetFormat={targetFormat}
+          />
+        )}
       </div>
     </article>
   );
