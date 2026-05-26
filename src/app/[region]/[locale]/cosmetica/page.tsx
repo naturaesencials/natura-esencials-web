@@ -5,6 +5,7 @@ import type { Locale, Region } from '@/lib/i18n/config';
 import { getProductsForRegion, getBundlesForRegion } from '@/data';
 import { CatalogGrid } from '@/components/catalog/CatalogGrid';
 import { CosmeticaSections } from '@/components/catalog/CosmeticaSections';
+import { LineSections } from '@/components/catalog/LineSections';
 
 interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 
@@ -56,12 +57,12 @@ export default async function CosmeticaPage({ params }: Props) {
           locale={locale}
         />
       ) : (
-        <CatalogGrid
+        <LineSections
+          line="cosmetica"
           products={allProducts}
           bundles={allBundles}
           region={region}
           locale={locale}
-          availableSubcategories={Array.from(new Set(allProducts.map((p) => p.subcategory))).sort()}
         />
       )}
     </section>

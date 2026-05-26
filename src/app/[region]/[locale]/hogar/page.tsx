@@ -3,7 +3,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale, Region } from '@/lib/i18n/config';
 import { getProductsForRegion, getBundlesForRegion } from '@/data';
-import { CatalogGrid } from '@/components/catalog/CatalogGrid';
+import { LineSections } from '@/components/catalog/LineSections';
 
 interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 
@@ -25,11 +25,7 @@ export default async function HogarPage({ params }: Props) {
   const t = await getTranslations('catalogPages');
 
   const allProducts = getProductsForRegion(region).filter((p) => p.line === 'hogar');
-  const allBundles = getBundlesForRegion(region).filter((b) => b.line === 'hogar');
-
-  const availableSubcategories = Array.from(
-    new Set(allProducts.map((p) => p.subcategory))
-  ).sort();
+  const allBundles  = getBundlesForRegion(region).filter((b) => b.line === 'hogar');
 
   return (
     <section className="px-pad-x py-pad-y max-w-7xl mx-auto">
@@ -51,12 +47,12 @@ export default async function HogarPage({ params }: Props) {
         </p>
       </header>
 
-      <CatalogGrid
+      <LineSections
+        line="hogar"
         products={allProducts}
         bundles={allBundles}
         region={region}
         locale={locale}
-        availableSubcategories={availableSubcategories}
       />
     </section>
   );

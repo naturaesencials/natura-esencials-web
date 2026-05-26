@@ -5,7 +5,7 @@ import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale, Region } from '@/lib/i18n/config';
 import { getProductsForRegion, getBundlesForRegion } from '@/data';
 import { buildPath } from '@/lib/i18n/paths';
-import { CatalogGrid } from '@/components/catalog/CatalogGrid';
+import { LineSections } from '@/components/catalog/LineSections';
 
 interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 
@@ -92,10 +92,6 @@ export default async function MascotaPage({ params }: Props) {
   }
 
   // ─────────────────── Catálogo normal (productos disponibles) ────────────
-  const availableSubcategories = Array.from(
-    new Set(allProducts.map((p) => p.subcategory))
-  ).sort();
-
   return (
     <section className="px-pad-x py-pad-y max-w-7xl mx-auto">
       <header className="mb-10 lg:mb-14 text-center">
@@ -116,12 +112,12 @@ export default async function MascotaPage({ params }: Props) {
         </p>
       </header>
 
-      <CatalogGrid
+      <LineSections
+        line="mascota"
         products={allProducts}
         bundles={allBundles}
         region={region}
         locale={locale}
-        availableSubcategories={availableSubcategories}
       />
     </section>
   );
