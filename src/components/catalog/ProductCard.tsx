@@ -56,11 +56,9 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
         ? (item as Product).shopifyHandleUK!
         : (item as Product).shopifyHandle);
 
-  // Formato prioritario según línea
+  // Formato prioritario según línea — mascota: 300ml, resto: 1l
   const targetFormat: TargetFormat =
-    item.line === 'hogar' ? '1l' :
-    (item.line === 'cosmetica' || item.line === 'mascota') ? '300ml' :
-    'default';
+    item.line === 'mascota' ? '300ml' : '1l';
 
   const { src: imageSrc, fallbackSrc: imageFallback } = itemIsBundle
     ? resolveBundleImage(item.id, region, item.primaryImage)

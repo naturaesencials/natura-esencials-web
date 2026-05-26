@@ -96,9 +96,7 @@ export function Edicion({ region, locale }: Props) {
             const colorClass = COLOR[product.line] ?? 'text-verde';
             const shopifyHandle = (product as Record<string, unknown>).shopifyHandle as string | undefined;
             const targetFormat: TargetFormat =
-              product.line === 'hogar' ? '1l' :
-              (product.line === 'cosmetica' || product.line === 'mascota') ? '300ml' :
-              'default';
+              product.line === 'mascota' ? '300ml' : '1l';
 
             const inner = (
               <>
@@ -139,7 +137,7 @@ export function Edicion({ region, locale }: Props) {
 
             return (
               <div key={product.id} className="group relative transition-opacity hover:opacity-90">
-                <Link href={href} aria-label={names.full} className="absolute inset-0 z-[2] focus-visible:outline focus-visible:outline-2 focus-visible:outline-ink/40">
+                <Link href={href} aria-label={names.full} className="absolute inset-0 z-[1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-ink/40">
                   <span className="sr-only">{names.full}</span>
                 </Link>
                 {inner}
@@ -182,6 +180,7 @@ export function Edicion({ region, locale }: Props) {
           const hasBundle = VISIBLE_SLUGS.has(slugES);
           const format    = VISIBLE_SLUGS.get(slugES) ?? '';
           const href      = hasBundle ? buildPath(region, locale, `rituales/${ritual.slugs[locale]}`) : undefined;
+          const ukTargetFormat: TargetFormat = ritual.line === 'mascota' ? '300ml' : '1l';
 
           const inner = (
             <>
@@ -207,12 +206,18 @@ export function Edicion({ region, locale }: Props) {
                 {format && <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-ink/60">{format}</span>}
                 <strong className="font-caption text-xl font-black text-ink">{symbol}{basePrice}</strong>
               </div>
+              <CardBuyButton
+                handle={ritual.shopifyHandle}
+                region={region}
+                locale={locale}
+                targetFormat={ukTargetFormat}
+              />
             </>
           );
 
           return href ? (
             <div key={ritual.id} className="group relative transition-opacity hover:opacity-90">
-              <Link href={href} aria-label={ritual.names[locale].full} className="absolute inset-0 z-[2] focus-visible:outline focus-visible:outline-2 focus-visible:outline-ink/40">
+              <Link href={href} aria-label={ritual.names[locale].full} className="absolute inset-0 z-[1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-ink/40">
                 <span className="sr-only">{ritual.names[locale].full}</span>
               </Link>
               {inner}
