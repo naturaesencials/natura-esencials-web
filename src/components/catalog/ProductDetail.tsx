@@ -276,6 +276,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
                 region={region}
                 locale={locale}
                 showPricing={true}
+                defaultFormat={product.line === 'mascota' ? '300ml' : '1l'}
                 onVariantChange={handleVariantChange}
               />
             </div>

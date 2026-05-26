@@ -95,6 +95,8 @@ interface BuyButtonProps {
   locale:            Locale;
   variant?:          'primary' | 'secondary';
   showPricing?:      boolean;
+  /** Formato a preseleccionar al cargar (busca el variant cuyo título coincide) */
+  defaultFormat?:    '300ml' | '1l';
   /** Callback cuando el cliente cambia de formato/variante (pasa el título de Shopify) */
   onVariantChange?:  (variantTitle: string) => void;
 }
@@ -102,7 +104,7 @@ interface BuyButtonProps {
 export function BuyButton({
   handle, formats = [], region, locale,
   variant = 'primary', showPricing = true,
-  onVariantChange,
+  defaultFormat, onVariantChange,
 }: BuyButtonProps) {
   const { addToCart, isLoading: cartLoading } = useCart();
 
@@ -120,10 +122,19 @@ export function BuyButton({
       .then((json: VariantsResponse | null) => {
         if (!cancelled && json) {
           setData(json);
-          // Notificar el variant inicial (índice 0) para sincronizar la imagen
-          if (json.variants && json.variants.length > 0) {
-            onVariantChange?.(json.variants[0].title);
+          if (!json.variants?.length) return;
+
+          // Buscar el variant que coincide con defaultFormat; si no, usar índice 0
+          let targetIdx = 0;
+          if (defaultFormat) {
+            const pattern = defaultFormat === '300ml' ? /300\s*ml/i : /\b1\s*(l|ltr|litr[eo]?|litro?s?)\b/i;
+            const match = json.variants.findIndex(v => pattern.test(v.title));
+            if (match !== -1) targetIdx = match;
           }
+
+          setSelectedIdx(targetIdx);
+          // Notificar para sincronizar imagen con el variant seleccionado
+          onVariantChange?.(json.variants[targetIdx].title);
         }
       })
       .catch(() => {})
