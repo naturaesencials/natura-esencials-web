@@ -27,6 +27,12 @@ export default async function HogarPage({ params }: Props) {
   const allProducts = getProductsForRegion(region).filter((p) => p.line === 'hogar');
   const allBundles  = getBundlesForRegion(region).filter((b) => b.line === 'hogar');
 
+  // EU: separar productos básicos (disponibles en UK) de ambientadores (solo EU)
+  const basicProducts       = allProducts.filter((p) => p.availableIn?.includes('uk'));
+  const ambientadoresProducts = region === 'eu'
+    ? allProducts.filter((p) => !p.availableIn?.includes('uk'))
+    : [];
+
   return (
     <section className="px-pad-x py-pad-y max-w-7xl mx-auto">
       <header className="mb-10 lg:mb-14 text-center">
@@ -49,10 +55,11 @@ export default async function HogarPage({ params }: Props) {
 
       <LineSections
         line="hogar"
-        products={allProducts}
+        products={basicProducts}
         bundles={allBundles}
         region={region}
         locale={locale}
+        middleProducts={ambientadoresProducts}
       />
     </section>
   );
