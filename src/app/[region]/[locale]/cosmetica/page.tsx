@@ -4,6 +4,7 @@ import { buildMetadata } from '@/lib/seo/metadata';
 import type { Locale, Region } from '@/lib/i18n/config';
 import { getProductsForRegion, getBundlesForRegion } from '@/data';
 import { CatalogGrid } from '@/components/catalog/CatalogGrid';
+import { CosmeticaSections } from '@/components/catalog/CosmeticaSections';
 
 interface Props { params: Promise<{ region: Region; locale: Locale }>; }
 
@@ -27,10 +28,6 @@ export default async function CosmeticaPage({ params }: Props) {
   const allProducts = getProductsForRegion(region).filter((p) => p.line === 'cosmetica');
   const allBundles = getBundlesForRegion(region).filter((b) => b.line === 'cosmetica');
 
-  const availableSubcategories = Array.from(
-    new Set(allProducts.map((p) => p.subcategory))
-  ).sort();
-
   return (
     <section className="px-pad-x py-pad-y max-w-7xl mx-auto">
       <header className="mb-10 lg:mb-14 text-center">
@@ -51,13 +48,22 @@ export default async function CosmeticaPage({ params }: Props) {
         </p>
       </header>
 
-      <CatalogGrid
-        products={allProducts}
-        bundles={allBundles}
-        region={region}
-        locale={locale}
-        availableSubcategories={availableSubcategories}
-      />
+      {region === 'eu' ? (
+        <CosmeticaSections
+          products={allProducts}
+          bundles={allBundles}
+          region={region}
+          locale={locale}
+        />
+      ) : (
+        <CatalogGrid
+          products={allProducts}
+          bundles={allBundles}
+          region={region}
+          locale={locale}
+          availableSubcategories={Array.from(new Set(allProducts.map((p) => p.subcategory))).sort()}
+        />
+      )}
     </section>
   );
 }
