@@ -27,10 +27,15 @@ export default async function HogarPage({ params }: Props) {
   const allProducts = getProductsForRegion(region).filter((p) => p.line === 'hogar');
   const allBundles  = getBundlesForRegion(region).filter((b) => b.line === 'hogar');
 
-  // EU: separar productos básicos (disponibles en UK) de ambientadores (solo EU)
-  const basicProducts       = allProducts.filter((p) => p.availableIn?.includes('uk'));
+  const VERANO_IDS = ['limpiasuelos-verano', 'multisuperficies-verano', 'lavavajillas-verano'];
+
+  // EU: separar básicos (UK), ambientadores (EU only, no verano), verano (EU only)
+  const basicProducts         = allProducts.filter((p) => p.availableIn?.includes('uk'));
+  const veranoProducts        = region === 'eu'
+    ? allProducts.filter((p) => VERANO_IDS.includes(p.id))
+    : [];
   const ambientadoresProducts = region === 'eu'
-    ? allProducts.filter((p) => !p.availableIn?.includes('uk'))
+    ? allProducts.filter((p) => !p.availableIn?.includes('uk') && !VERANO_IDS.includes(p.id))
     : [];
 
   return (
@@ -60,6 +65,7 @@ export default async function HogarPage({ params }: Props) {
         region={region}
         locale={locale}
         middleProducts={ambientadoresProducts}
+        veranoProducts={veranoProducts}
       />
     </section>
   );

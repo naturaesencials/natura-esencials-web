@@ -14,6 +14,10 @@ const TITLES = {
       es: 'Ambientadores de Hogar', en: 'Home Fragrances', fr: "Parfums d'Intérieur",
       de: 'Raumduft', it: 'Profumatori per Casa', nl: 'Huisgeuren', pt: 'Ambientadores do Lar',
     },
+    verano: {
+      es: 'Edición Limitada', en: 'Limited Edition', fr: 'Édition Limitée',
+      de: 'Limitierte Edition', it: 'Edizione Limitata', nl: 'Beperkte Editie', pt: 'Edição Limitada',
+    },
     rituales: {
       es: 'Rituales del Hogar', en: 'Home Rituals', fr: 'Rituels de Maison',
       de: 'Haus-Rituale', it: 'Rituali di Casa', nl: 'Huisrituelen', pt: 'Rituais do Lar',
@@ -87,16 +91,21 @@ interface LineSectionsProps {
   bundles: Bundle[];
   region: Region;
   locale: Locale;
-  /** Productos que van en una sección intermedia opcional (ej: ambientadores EU hogar) */
+  /** Productos en sección intermedia opcional (ej: ambientadores EU hogar) */
   middleProducts?: Product[];
+  /** Productos Edición Limitada (verano) */
+  veranoProducts?: Product[];
 }
 
-export function LineSections({ line, products, bundles, region, locale, middleProducts }: LineSectionsProps) {
+export function LineSections({ line, products, bundles, region, locale, middleProducts, veranoProducts }: LineSectionsProps) {
   const cfg = TITLES[line];
   const basicTitle    = cfg.basic[locale as keyof typeof cfg.basic]       ?? cfg.basic.es;
   const ritualesTitle = cfg.rituales[locale as keyof typeof cfg.rituales] ?? cfg.rituales.es;
   const middleTitle   = 'middle' in cfg
     ? (cfg as typeof TITLES.hogar).middle[locale as keyof typeof TITLES.hogar.middle] ?? (cfg as typeof TITLES.hogar).middle.es
+    : '';
+  const veranoTitle   = 'verano' in cfg
+    ? (cfg as typeof TITLES.hogar).verano[locale as keyof typeof TITLES.hogar.verano] ?? (cfg as typeof TITLES.hogar).verano.es
     : '';
   const middleColor   = 'middleColor' in cfg ? (cfg as typeof TITLES.hogar).middleColor : 'text-verde';
 
@@ -105,6 +114,9 @@ export function LineSections({ line, products, bundles, region, locale, middlePr
       <Section title={basicTitle}    items={products}       region={region} locale={locale} color={cfg.basicColor} />
       {middleProducts && middleProducts.length > 0 && (
         <Section title={middleTitle} items={middleProducts} region={region} locale={locale} color={middleColor} />
+      )}
+      {veranoProducts && veranoProducts.length > 0 && (
+        <Section title={veranoTitle} items={veranoProducts} region={region} locale={locale} color="text-citrico" />
       )}
       <Section title={ritualesTitle} items={bundles}        region={region} locale={locale} color={cfg.ritualesColor} />
     </div>
