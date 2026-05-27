@@ -124,7 +124,7 @@ export function Edicion({ region, locale }: Props) {
                 </p>
                 <div className="mt-3 flex items-center justify-between gap-1.5 border-t border-rule pt-2.5">
                   {format && <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-ink/60">{format}</span>}
-                  {price !== undefined && (
+                  {price != null && (
                     <strong className="font-caption text-xl font-black text-ink">{symbol}{price.toFixed(2)}</strong>
                   )}
                 </div>
