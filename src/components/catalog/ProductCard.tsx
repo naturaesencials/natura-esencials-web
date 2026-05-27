@@ -76,21 +76,24 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
           <span className="text-4xl font-display italic opacity-40">N</span>
         </div>
 
-        <img
-          src={imageSrc}
-          alt={translation.name}
-          loading="lazy"
-          className="absolute inset-0 w-full h-full object-contain p-2 transition-transform duration-500 group-hover:scale-[1.03]"
-          onError={(e) => {
-            const el = e.currentTarget as HTMLImageElement;
-            if (el.dataset.fallbackTried) {
-              el.style.display = 'none';
-            } else {
-              el.dataset.fallbackTried = 'true';
-              el.src = imageFallback;
-            }
-          }}
-        />
+        {/* Wrapper con padding — garantiza que la botella no se corte en ningún dispositivo */}
+        <div className="absolute inset-0 flex items-center justify-center p-3 transition-transform duration-500 group-hover:scale-[1.03]">
+          <img
+            src={imageSrc}
+            alt={translation.name}
+            loading="lazy"
+            className="max-w-full max-h-full object-contain"
+            onError={(e) => {
+              const el = e.currentTarget as HTMLImageElement;
+              if (el.dataset.fallbackTried) {
+                el.style.display = 'none';
+              } else {
+                el.dataset.fallbackTried = 'true';
+                el.src = imageFallback;
+              }
+            }}
+          />
+        </div>
 
         {/* Badges — sin z-index relativo, pointer-events none para no bloquear navegación */}
         <div className="absolute top-3 left-3 flex flex-col gap-1.5 pointer-events-none">
