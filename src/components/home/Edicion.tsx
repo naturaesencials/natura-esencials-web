@@ -10,12 +10,13 @@ import { CardBuyButton, type TargetFormat } from '@/components/catalog/CardBuyBu
 
 interface Props { region: Region; locale: Locale; }
 
-// EU Primavera 2026: nuevos productos cosméticos (por ID de product)
-const EU_SPRING_PRODUCTS = [
-  'serum-antiojeras',
-  'exfoliante-facial-hombre',
-  'exfoliante-facial-mujer',
-  'agua-micelar',
+// EU Verano 2026: cinco productos de la edición limitada verano
+const EU_VERANO_PRODUCTS = [
+  'champu-verano-2en1',
+  'gel-manos-cuerpo-verano',
+  'limpiasuelos-verano',
+  'multisuperficies-verano',
+  'lavavajillas-verano',
 ];
 
 // UK: rituales (mantener igual)
@@ -63,9 +64,9 @@ export function Edicion({ region, locale }: Props) {
   const t = useTranslations('edicion');
   const symbol = regionCurrency[region].symbol;
 
-  // ── EU: productos nuevos primavera 2026 ──────────────────────────────────
+  // ── EU: productos edición verano 2026 ──────────────────────────────────
   if (region === 'eu') {
-    const euProducts = EU_SPRING_PRODUCTS
+    const euProducts = EU_VERANO_PRODUCTS
       .map(pid => productsData.products.find(p => p.id === pid))
       .filter((p): p is ProductData => p !== undefined && p.availableIn.includes('eu') && p.visible !== false);
 
