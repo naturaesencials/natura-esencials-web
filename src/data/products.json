@@ -1830,7 +1830,11 @@
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
       "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Argania Spinosa Kernel Oil, Guar Hydroxypropyltrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes, Caramel.",
-      "primaryImage": "/images/products/eu/champu-hombre.jpg"
+      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/hombre-300ml.jpg",
+        "1l": "/images/products/eu/hombre-1l.jpg"
+      }
     },
     {
       "id": "acondicionador-hombre",
@@ -2131,7 +2135,11 @@
       "basePriceEUR": 9,
       "basePriceGBP": 7.74,
       "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes.",
-      "primaryImage": "/images/products/eu/acondicionador-hombre.jpg"
+      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/hombre-300ml.jpg",
+        "1l": "/images/products/eu/hombre-1l.jpg"
+      }
     },
     {
       "id": "gel-manos-cuerpo-hombre",
@@ -2428,7 +2436,11 @@
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
       "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Glycerin, Citrus Aurantium Peel Oil, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes.",
-      "primaryImage": "/images/products/eu/gel-manos-cuerpo-hombre.jpg"
+      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/hombre-300ml.jpg",
+        "1l": "/images/products/eu/hombre-1l.jpg"
+      }
     },
     {
       "id": "body-milk-man",
@@ -2726,7 +2738,11 @@
       "basePriceEUR": 9.2,
       "basePriceGBP": 7.91,
       "inci": "Aqua, Glycerin, Persea Gratisima Oil, C15-19 Alkane, Helianthus Annuus Seed Oil, Hydrolyzed Jojoba Esters, Sodium Polyacrylate, Glyceryl Stearate, Xylitol, Caprylic Acid, Tocopherol, Phenylpropanol, 1,2-Hexanediol, Parfum, Tetramethylacetyloctahydronaphtalenes.",
-      "primaryImage": "/images/products/eu/body-milk-man.jpg"
+      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/hombre-300ml.jpg",
+        "1l": "/images/products/eu/hombre-1l.jpg"
+      }
     },
     {
       "id": "gel-afeitado-hombre",
@@ -4417,8 +4433,12 @@
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
       "inci": "Aqua, Sodium Laureth Sulfate, Coco-Glucoside, Cocamidopropyl Betaine, Sodium Chloride, Citrus Aurantium Peel Oil, Argania Spinosa Kernel Oil, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool, Hexamethylindanopyran.",
-      "primaryImage": "/images/products/eu/champu-mujer.jpg",
-      "catalogImage": "/images/products/eu/champu-mujer-catalog.jpg"
+      "primaryImage": "/images/products/eu/champu-mujer-300ml.jpg",
+      "catalogImage": "/images/products/eu/champu-mujer-catalog.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/champu-mujer-300ml.jpg",
+        "1l": "/images/products/eu/champu-mujer-1l.jpg"
+      }
     },
     {
       "id": "acondicionador-mujer",
@@ -4725,8 +4745,12 @@
       "basePriceEUR": 9,
       "basePriceGBP": 7.74,
       "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Citrus Aurantium Peel Oil, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum, Hexamethylindanopyran, Limonene.",
-      "primaryImage": "/images/products/eu/acondicionador-mujer.jpg",
-      "catalogImage": "/images/products/eu/acondicionador-mujer-catalog.jpg"
+      "primaryImage": "/images/products/eu/acondicionador-mujer-300ml.jpg",
+      "catalogImage": "/images/products/eu/acondicionador-mujer-catalog.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/acondicionador-mujer-300ml.jpg",
+        "1l": "/images/products/eu/acondicionador-mujer-1l.jpg"
+      }
     },
     {
       "id": "gel-manos-cuerpo-mujer",
@@ -5023,8 +5047,12 @@
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
       "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Glycerin, Citrus Aurantium Peel Oil, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexamethylindanopyran, Limonene, Linalool.",
-      "primaryImage": "/images/products/eu/gel-manos-cuerpo-mujer.jpg",
-      "catalogImage": "/images/products/eu/gel-manos-cuerpo-mujer-catalog.jpg"
+      "primaryImage": "/images/products/eu/gel-manos-cuerpo-mujer-300ml.jpg",
+      "catalogImage": "/images/products/eu/gel-manos-cuerpo-mujer-catalog.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/gel-manos-cuerpo-mujer-300ml.jpg",
+        "1l": "/images/products/eu/gel-manos-cuerpo-mujer-1l.jpg"
+      }
     },
     {
       "id": "body-milk-woman",
@@ -5320,8 +5348,12 @@
       "basePriceEUR": 9.2,
       "basePriceGBP": 7.91,
       "inci": "Aqua, Glycerin, Persea Gratisima Oil, C15-19 Alkane, Helianthus Annuus Seed Oil, Citrus Aurantium Peel Oil, Hydrolyzed Jojoba Esters, Sodium Polyacrylate, Glyceryl Stearate, Xylitol, Caprylic Acid, Tocopherol, Phenylpropanol, 1,2-Hexanediol, Parfum, Hexamethylindanopyran, Limonene.",
-      "primaryImage": "/images/products/eu/body-milk-woman.jpg",
-      "catalogImage": "/images/products/eu/body-milk-woman-catalog.jpg"
+      "primaryImage": "/images/products/eu/body-milk-woman-300ml.jpg",
+      "catalogImage": "/images/products/eu/body-milk-woman-catalog.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/body-milk-woman-300ml.jpg",
+        "1l": "/images/products/eu/body-milk-woman-1l.jpg"
+      }
     },
     {
       "id": "agua-micelar",
