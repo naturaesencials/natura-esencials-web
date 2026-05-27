@@ -83,11 +83,10 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
     product.primaryImage,
   );
 
-  // ── Imagen dinámica por formato (UK con ukFormatImages) ────────────────────
-  // Imagen inicial = PRIMER formato en ukFormatImages (300ml para cosméticos,
-  // 1L para productos hogar que no tienen 300ml)
+  // ── Imagen dinámica por formato (EU y UK con ukFormatImages) ────────────────
+  // Imagen inicial = PRIMER formato en ukFormatImages
   const getInitialImage = (): string => {
-    if (region === 'uk' && product.ukFormatImages) {
+    if (product.ukFormatImages) {
       const firstImg = Object.values(product.ukFormatImages)[0];
       return firstImg ?? imageSrc;
     }
@@ -97,7 +96,7 @@ export function ProductDetail({ product, region, locale, t }: ProductDetailProps
   const [activeImage, setActiveImage] = useState<string>(getInitialImage);
 
   const handleVariantChange = useCallback((variantTitle: string) => {
-    if (region !== 'uk' || !product.ukFormatImages) return;
+    if (!product.ukFormatImages) return;
 
     /** Extrae la cantidad del título de Shopify → clave normalizada para ukFormatImages.
      *  "Botella 300 ml" → "300ml"

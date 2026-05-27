@@ -1829,7 +1829,13 @@
       "outOfStock": false,
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
-      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Argania Spinosa Kernel Oil, Guar Hydroxypropyltrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes, Caramel."
+      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Argania Spinosa Kernel Oil, Guar Hydroxypropyltrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes, Caramel.",
+      "catalogImage": "/images/products/eu/hombre-lifestyle.jpg",
+      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/hombre-300ml.jpg",
+        "1l": "/images/products/eu/hombre-1l.jpg"
+      }
     },
     {
       "id": "acondicionador-hombre",
@@ -2129,7 +2135,13 @@
       "outOfStock": false,
       "basePriceEUR": 9,
       "basePriceGBP": 7.74,
-      "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes."
+      "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes.",
+      "catalogImage": "/images/products/eu/hombre-lifestyle.jpg",
+      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/hombre-300ml.jpg",
+        "1l": "/images/products/eu/hombre-1l.jpg"
+      }
     },
     {
       "id": "gel-manos-cuerpo-hombre",
@@ -2425,7 +2437,13 @@
       "outOfStock": false,
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
-      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Glycerin, Citrus Aurantium Peel Oil, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes."
+      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Glycerin, Citrus Aurantium Peel Oil, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes.",
+      "catalogImage": "/images/products/eu/hombre-lifestyle.jpg",
+      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/hombre-300ml.jpg",
+        "1l": "/images/products/eu/hombre-1l.jpg"
+      }
     },
     {
       "id": "body-milk-man",
@@ -2722,7 +2740,13 @@
       "outOfStock": false,
       "basePriceEUR": 9.2,
       "basePriceGBP": 7.91,
-      "inci": "Aqua, Glycerin, Persea Gratisima Oil, C15-19 Alkane, Helianthus Annuus Seed Oil, Hydrolyzed Jojoba Esters, Sodium Polyacrylate, Glyceryl Stearate, Xylitol, Caprylic Acid, Tocopherol, Phenylpropanol, 1,2-Hexanediol, Parfum, Tetramethylacetyloctahydronaphtalenes."
+      "inci": "Aqua, Glycerin, Persea Gratisima Oil, C15-19 Alkane, Helianthus Annuus Seed Oil, Hydrolyzed Jojoba Esters, Sodium Polyacrylate, Glyceryl Stearate, Xylitol, Caprylic Acid, Tocopherol, Phenylpropanol, 1,2-Hexanediol, Parfum, Tetramethylacetyloctahydronaphtalenes.",
+      "catalogImage": "/images/products/eu/hombre-lifestyle.jpg",
+      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/hombre-300ml.jpg",
+        "1l": "/images/products/eu/hombre-1l.jpg"
+      }
     },
     {
       "id": "gel-afeitado-hombre",
