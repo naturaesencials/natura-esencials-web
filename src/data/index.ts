@@ -153,6 +153,8 @@ function transformBundle(raw: RawBundle): Bundle {
     visible: raw.visible,
     outOfStock: raw.outOfStock,
     primaryImage: raw.primaryImage,
+    catalogImage: raw.catalogImage,
+    ukFormatImages: raw.ukFormatImages,
     gallery: raw.gallery,
     basePriceEUR: raw.basePriceEUR,
     basePriceGBP: raw.basePriceGBP,

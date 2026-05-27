@@ -25,6 +25,7 @@ import { resolveBundleImage } from '@/lib/images';
 import { BundleImage } from '@/components/catalog/BundleImage';
 import { BuyButton } from '@/components/catalog/BuyButton';
 import { MultiFormatBuyButton } from '@/components/catalog/MultiFormatBuyButton';
+import { RitualFormatImage } from '@/components/catalog/RitualFormatImage';
 import { ReviewsWidget } from '@/components/reviews/ReviewsWidget';
 
 interface Props {
@@ -188,7 +189,7 @@ export default async function RitualPage({ params }: Props) {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
-            {/* Imagen */}
+            {/* Imagen principal — usa primaryImage del bundle (300ml para ritual-para-el) */}
             <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-paper">
               <Image
                 src={imgSrc}

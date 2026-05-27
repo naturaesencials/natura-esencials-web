@@ -1830,12 +1830,7 @@
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
       "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Argania Spinosa Kernel Oil, Guar Hydroxypropyltrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes, Caramel.",
-      "catalogImage": "/images/products/eu/hombre-lifestyle.jpg",
-      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
-      "ukFormatImages": {
-        "300ml": "/images/products/eu/hombre-300ml.jpg",
-        "1l": "/images/products/eu/hombre-1l.jpg"
-      }
+      "primaryImage": "/images/products/eu/champu-hombre.jpg"
     },
     {
       "id": "acondicionador-hombre",
@@ -2136,12 +2131,7 @@
       "basePriceEUR": 9,
       "basePriceGBP": 7.74,
       "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes.",
-      "catalogImage": "/images/products/eu/hombre-lifestyle.jpg",
-      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
-      "ukFormatImages": {
-        "300ml": "/images/products/eu/hombre-300ml.jpg",
-        "1l": "/images/products/eu/hombre-1l.jpg"
-      }
+      "primaryImage": "/images/products/eu/acondicionador-hombre.jpg"
     },
     {
       "id": "gel-manos-cuerpo-hombre",
@@ -2438,12 +2428,7 @@
       "basePriceEUR": 8.9,
       "basePriceGBP": 7.65,
       "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Glycerin, Citrus Aurantium Peel Oil, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes.",
-      "catalogImage": "/images/products/eu/hombre-lifestyle.jpg",
-      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
-      "ukFormatImages": {
-        "300ml": "/images/products/eu/hombre-300ml.jpg",
-        "1l": "/images/products/eu/hombre-1l.jpg"
-      }
+      "primaryImage": "/images/products/eu/gel-manos-cuerpo-hombre.jpg"
     },
     {
       "id": "body-milk-man",
@@ -2741,12 +2726,7 @@
       "basePriceEUR": 9.2,
       "basePriceGBP": 7.91,
       "inci": "Aqua, Glycerin, Persea Gratisima Oil, C15-19 Alkane, Helianthus Annuus Seed Oil, Hydrolyzed Jojoba Esters, Sodium Polyacrylate, Glyceryl Stearate, Xylitol, Caprylic Acid, Tocopherol, Phenylpropanol, 1,2-Hexanediol, Parfum, Tetramethylacetyloctahydronaphtalenes.",
-      "catalogImage": "/images/products/eu/hombre-lifestyle.jpg",
-      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
-      "ukFormatImages": {
-        "300ml": "/images/products/eu/hombre-300ml.jpg",
-        "1l": "/images/products/eu/hombre-1l.jpg"
-      }
+      "primaryImage": "/images/products/eu/body-milk-man.jpg"
     },
     {
       "id": "gel-afeitado-hombre",
@@ -12850,7 +12830,8 @@
         "shortDescription": "Champú 2 en 1 con aceite de argán y aroma a naranja mediterránea. Limpieza suave, brillo y ligereza en un solo paso. 95% origen natural.",
         "longDescription": "Champú 2 en 1 con aceite de argán y tensioactivos suaves derivados del Coco y el Azúcar. Limpia, acondiciona y aporta brillo y ligereza al cabello. Perfumado con naranja amarga del mediterráneo. pH 4,5–5,5. Dermatológicamente testado.",
         "usage": "Aplica sobre el cabello mojado y masajea en el cuero cabelludo. Trabaja en espuma durante 2-3 minutos. Aclara con agua abundante.",
-        "subtitle": "Frapé Fruta Tropical · Edición Limitada Primavera-Verano"
+        "subtitle": "Frapé Fruta Tropical · Edición Limitada Primavera-Verano",
+        "olfactiveFamily": "Cítrico mediterráneo"
       },
       "en": {
         "name": "Summer 2-in-1 Shampoo",
@@ -12861,7 +12842,8 @@
         "longDescription": "2-in-1 shampoo with argan oil and gentle surfactants derived from Coconut and Sugar. Cleanses, conditions and adds shine and lightness to hair. Scented with Mediterranean bitter orange. pH 4.5–5.5. Dermatologically tested.",
         "usage": "Apply to wet hair and massage into scalp. Work into lather for 2-3 minutes. Rinse thoroughly with water.",
         "subtitle": "Tropical Fruit Frapé · Limited Edition Spring-Summer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Mediterranean citrus"
       },
       "fr": {
         "name": "Shampooing Été 2 en 1",
@@ -12872,7 +12854,8 @@
         "longDescription": "Shampooing 2 en 1 à l'huile d'argan et tensioactifs doux dérivés de la Noix de Coco et du Sucre. Nettoie, conditionne et apporte brillance et légèreté. Parfumé à l'orange amère méditerranéenne. pH 4,5–5,5.",
         "usage": "Appliquer sur cheveux mouillés, masser le cuir chevelu. Travailler en mousse 2-3 minutes. Rincer abondamment.",
         "subtitle": "Frapé Fruits Tropicaux · Édition Limitée Printemps-Été",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Citrique méditerranéen"
       },
       "de": {
         "name": "Sommer 2in1 Shampoo",
@@ -12883,7 +12866,8 @@
         "longDescription": "2in1 Shampoo mit Arganöl und sanften Tensiden aus Kokos und Zucker. Reinigt, pflegt und verleiht Glanz und Leichtigkeit. Parfümiert mit Bitterorange aus dem Mittelmeer. pH 4,5–5,5.",
         "usage": "Auf nasses Haar auftragen, in die Kopfhaut einmassieren. 2-3 Minuten einschäumen. Gründlich ausspülen.",
         "subtitle": "Tropical Fruit Frapé · Limited Edition Frühling-Sommer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Mediterrane Zitrus"
       },
       "it": {
         "name": "Shampoo Estate 2 in 1",
@@ -12894,7 +12878,8 @@
         "longDescription": "Shampoo 2 in 1 con olio di argan e tensioattivi delicati derivati da Cocco e Zucchero. Pulisce, condiziona e dona lucentezza e leggerezza. Profumato con arancia amara del Mediterraneo. pH 4,5–5,5.",
         "usage": "Applicare sui capelli bagnati e massaggiare il cuoio capelluto. Lavorare in schiuma per 2-3 minuti. Risciacquare abbondantemente.",
         "subtitle": "Frapé Frutta Tropicale · Edizione Limitata Primavera-Estate",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Agrumi mediterranei"
       },
       "nl": {
         "name": "Zomer 2-in-1 Shampoo",
@@ -12905,7 +12890,8 @@
         "longDescription": "2-in-1 shampoo met arganolie en zachte tensiden afgeleid van Kokosnoot en Suiker. Reinigt, verzorgt en geeft glans en lichtheid. Geparfumeerd met Mediterrane bittere sinaasappel. pH 4,5–5,5.",
         "usage": "Aanbrengen op nat haar, masseren in de hoofdhuid. 2-3 minuten inwerken. Grondig uitspoelen.",
         "subtitle": "Tropisch Fruit Frapé · Limited Edition Lente-Zomer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Mediterrane citrus"
       },
       "pt": {
         "name": "Champô Verão 2 em 1",
@@ -12916,7 +12902,8 @@
         "longDescription": "Champô 2 em 1 com óleo de argão e tensioativos suaves derivados do Coco e do Açúcar. Limpa, condiciona e proporciona brilho e leveza ao cabelo. Perfumado com laranja amarga do mediterrâneo. pH 4,5–5,5.",
         "usage": "Aplicar no cabelo molhado e massajar o couro cabeludo. Trabalhar em espuma durante 2-3 minutos. Enxaguar com água abundante.",
         "subtitle": "Frapé Fruta Tropical · Edição Limitada Primavera-Verão",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Cítrico mediterrâneo"
       }
     },
     {
@@ -12955,7 +12942,8 @@
         "shortDescription": "Gel 2 en 1 manos y cuerpo con aroma mediterráneo y glicerina. Limpieza suave que hidrata. 95% origen natural. Ideal para toda la familia.",
         "longDescription": "Gel 2 en 1 para manos y cuerpo formulado con glicerina y tensioactivos suaves derivados del Coco y el Azúcar. Limpia respetando el manto hidrolipídico y deja la piel suave, hidratada y perfumada con naranja amarga. pH 4,5–5,5.",
         "usage": "Aplica sobre piel mojada y masajea con movimientos circulares. Disfruta del aroma a naranja mientras la espuma suave limpia en profundidad. Aclara con agua.",
-        "subtitle": "Frapé Fruta Tropical · Edición Limitada Primavera-Verano"
+        "subtitle": "Frapé Fruta Tropical · Edición Limitada Primavera-Verano",
+        "olfactiveFamily": "Cítrico mediterráneo"
       },
       "en": {
         "name": "Summer Hand & Body Gel",
@@ -12966,7 +12954,8 @@
         "longDescription": "2-in-1 hand and body gel with glycerin and gentle surfactants from Coconut and Sugar. Cleanses while respecting the skin's hydrolipidic barrier, leaving skin soft, moisturised and fragranced with bitter orange. pH 4.5–5.5.",
         "usage": "Apply to wet skin and massage in circular movements. Rinse with water.",
         "subtitle": "Tropical Fruit Frapé · Limited Edition Spring-Summer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Mediterranean citrus"
       },
       "fr": {
         "name": "Gel Mains et Corps Été",
@@ -12977,7 +12966,8 @@
         "longDescription": "Gel 2 en 1 pour mains et corps formulé avec glycérine et tensioactifs doux de Noix de Coco et Sucre. Nettoie en respectant le film hydrolipidique et laisse la peau douce et hydratée. pH 4,5–5,5.",
         "usage": "Appliquer sur peau mouillée et masser. Rincer à l'eau.",
         "subtitle": "Frapé Fruits Tropicaux · Édition Limitée Printemps-Été",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Citrique méditerranéen"
       },
       "de": {
         "name": "Sommer Hand & Körpergel",
@@ -12988,7 +12978,8 @@
         "longDescription": "2in1 Hand- und Körpergel mit Glycerin und sanften Tensiden aus Kokos und Zucker. Reinigt unter Schonung des Hydrolipidfilms und hinterlässt die Haut weich und gepflegt. pH 4,5–5,5.",
         "usage": "Auf nasse Haut auftragen und einmassieren. Mit Wasser abspülen.",
         "subtitle": "Tropical Fruit Frapé · Limited Edition Frühling-Sommer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Mediterrane Zitrus"
       },
       "it": {
         "name": "Gel Mani e Corpo Estate",
@@ -12999,7 +12990,8 @@
         "longDescription": "Gel 2 in 1 per mani e corpo formulato con glicerina e tensioattivi delicati da Cocco e Zucchero. Pulisce rispettando il film idrolipidico e lascia la pelle morbida e idratata. pH 4,5–5,5.",
         "usage": "Applicare sulla pelle bagnata e massaggiare. Risciacquare con acqua.",
         "subtitle": "Frapé Frutta Tropicale · Edizione Limitata Primavera-Estate",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Agrumi mediterranei"
       },
       "nl": {
         "name": "Zomer Hand & Lichaamsgel",
@@ -13010,7 +13002,8 @@
         "longDescription": "2-in-1 hand- en lichaamsgel met glycerine en zachte tensiden van Kokos en Suiker. Reinigt met behoud van de hydrolipidenfilm en laat de huid zacht en gehydrateerd achter. pH 4,5–5,5.",
         "usage": "Aanbrengen op natte huid en masseren. Afspoelen met water.",
         "subtitle": "Tropisch Fruit Frapé · Limited Edition Lente-Zomer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Mediterrane citrus"
       },
       "pt": {
         "name": "Gel Mãos e Corpo Verão",
@@ -13021,7 +13014,8 @@
         "longDescription": "Gel 2 em 1 para mãos e corpo formulado com glicerina e tensioativos suaves do Coco e do Açúcar. Limpa respeitando o manto hidrolipídico e deixa a pele suave e hidratada. pH 4,5–5,5.",
         "usage": "Aplicar na pele molhada e massajar. Enxaguar com água.",
         "subtitle": "Frapé Fruta Tropical · Edição Limitada Primavera-Verão",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Cítrico mediterrâneo"
       }
     },
     {
@@ -13061,7 +13055,8 @@
         "shortDescription": "Limpiasuelos con fragancia mediterránea de verano. Acción desengrasante eficaz. 97% ingredientes de origen natural. Concentrado.",
         "longDescription": "Limpiador de suelos con fragancia especial de verano. Elimina suciedad y grasa con eficacia, deja los suelos brillantes y perfumados con un aroma cítrico balsámico que transforma la limpieza diaria en un ritual de frescor mediterráneo.",
         "usage": "Añade la dosis en agua tibia. Friega con movimientos amplios y fluidos. Sin necesidad de aclarar.",
-        "subtitle": "Frapé Piña-Colada · Edición Limitada Primavera-Verano"
+        "subtitle": "Frapé Piña-Colada · Edición Limitada Primavera-Verano",
+        "olfactiveFamily": "Cítrico balsámico verano"
       },
       "en": {
         "name": "Summer Floor Cleaner",
@@ -13072,7 +13067,8 @@
         "longDescription": "Floor cleaner with special summer fragrance. Effectively removes dirt and grease, leaving floors shiny and fragranced with a balsamic citrus aroma.",
         "usage": "Add dose to warm water. Mop with broad fluid movements. No rinsing required.",
         "subtitle": "Piña Colada Frapé · Limited Edition Spring-Summer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Balsamic citrus summer"
       },
       "fr": {
         "name": "Nettoyant Sol Été",
@@ -13083,7 +13079,8 @@
         "longDescription": "Nettoyant pour sols avec fragrance spéciale été. Élimine efficacement la saleté et la graisse, laisse les sols brillants et parfumés.",
         "usage": "Ajouter la dose dans l'eau tiède. Laver le sol avec des mouvements amples. Pas de rinçage nécessaire.",
         "subtitle": "Frapé Piña Colada · Édition Limitée Printemps-Été",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Citrique balsámique été"
       },
       "de": {
         "name": "Sommer Bodenreiniger",
@@ -13094,7 +13091,8 @@
         "longDescription": "Bodenreiniger mit speziellem Sommerduft. Entfernt effektiv Schmutz und Fett, hinterlässt Böden glänzend und parfümiert.",
         "usage": "Dosis in warmem Wasser auflösen. Mit breiten fließenden Bewegungen wischen. Kein Nachspülen erforderlich.",
         "subtitle": "Piña Colada Frapé · Limited Edition Frühling-Sommer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Balsamische Zitrus Sommer"
       },
       "it": {
         "name": "Detergente Pavimenti Estate",
@@ -13105,7 +13103,8 @@
         "longDescription": "Detergente per pavimenti con fragranza estiva speciale. Rimuove efficacemente sporco e grasso, lascia i pavimenti lucidi e profumati.",
         "usage": "Aggiungere la dose in acqua tiepida. Lavare con movimenti ampi e fluidi. Senza necessità di risciacquo.",
         "subtitle": "Frapé Piña Colada · Edizione Limitata Primavera-Estate",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Agrumi balsamici estate"
       },
       "nl": {
         "name": "Zomer Vloerreiniger",
@@ -13116,7 +13115,8 @@
         "longDescription": "Vloerreiniger met speciaal zomeraroma. Verwijdert vuil en vet efficiënt en laat vloeren glanzend en geparfumeerd achter.",
         "usage": "Dosis toevoegen aan warm water. Dweilen met brede vloeiende bewegingen. Geen naspoelen nodig.",
         "subtitle": "Piña Colada Frapé · Limited Edition Lente-Zomer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Balsamische citrus zomer"
       },
       "pt": {
         "name": "Limpador de Pavimentos Verão",
@@ -13127,7 +13127,8 @@
         "longDescription": "Limpa-pavimentos com fragrância especial de verão. Remove eficazmente sujidade e gordura, deixando os pavimentos brilhantes e perfumados.",
         "usage": "Adicionar a dose em água morna. Esfregar com movimentos amplos e fluidos. Sem necessidade de enxaguar.",
         "subtitle": "Frapé Piña Colada · Edição Limitada Primavera-Verão",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Cítrico balsâmico verão"
       }
     },
     {
@@ -13167,7 +13168,8 @@
         "shortDescription": "Limpiador multiusos con fragancia de verano y etanol natural. Cocina, baño, electrodomésticos. Superficies brillantes. 97% origen natural.",
         "longDescription": "Limpiador multiusos con etanol natural y fragancia especial de verano. Elimina la grasa y la suciedad en todas las superficies del hogar — cocina, baño, electrodomésticos — dejándolas brillantes con un frescor cítrico característico.",
         "usage": "Pulveriza o vierte sobre la superficie. Frota con un paño o bayeta. Pasa un paño seco o deja secar al aire.",
-        "subtitle": "Frapé Piña-Colada · Edición Limitada Primavera-Verano"
+        "subtitle": "Frapé Piña-Colada · Edición Limitada Primavera-Verano",
+        "olfactiveFamily": "Cítrico fresco verano"
       },
       "en": {
         "name": "Summer Multi-Surface Cleaner",
@@ -13178,7 +13180,8 @@
         "longDescription": "Multi-purpose cleaner with natural ethanol and special summer fragrance. Removes grease and dirt from all home surfaces — kitchen, bathroom, appliances — leaving them shiny and fresh.",
         "usage": "Spray or pour onto surface. Wipe with a cloth. Wipe dry or leave to air dry.",
         "subtitle": "Piña Colada Frapé · Limited Edition Spring-Summer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Fresh citrus summer"
       },
       "fr": {
         "name": "Nettoyant Multi-Surfaces Été",
@@ -13189,7 +13192,8 @@
         "longDescription": "Nettoyant multi-usages avec éthanol naturel et fragrance estivale spéciale. Élimine graisse et saleté sur toutes les surfaces.",
         "usage": "Pulvériser ou verser sur la surface. Frotter avec un chiffon. Essuyer à sec ou laisser sécher.",
         "subtitle": "Frapé Piña Colada · Édition Limitée Printemps-Été",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Citrique frais été"
       },
       "de": {
         "name": "Sommer Allzweckreiniger",
@@ -13200,7 +13204,8 @@
         "longDescription": "Allzweckreiniger mit natürlichem Ethanol und speziellem Sommerduft. Entfernt Fett und Schmutz von allen Oberflächen.",
         "usage": "Aufsprühen oder auftragen. Mit einem Tuch abwischen. Trockenwischen oder an der Luft trocknen lassen.",
         "subtitle": "Piña Colada Frapé · Limited Edition Frühling-Sommer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Frische Zitrus Sommer"
       },
       "it": {
         "name": "Detergente Multisuperfici Estate",
@@ -13211,7 +13216,8 @@
         "longDescription": "Detergente multiuso con etanolo naturale e fragranza estiva speciale. Rimuove grasso e sporco da tutte le superfici.",
         "usage": "Spruzzare o versare sulla superficie. Strofinare con un panno. Asciugare o lasciare asciugare all'aria.",
         "subtitle": "Frapé Piña Colada · Edizione Limitata Primavera-Estate",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Agrumi freschi estate"
       },
       "nl": {
         "name": "Zomer Multivlakken Reiniger",
@@ -13222,7 +13228,8 @@
         "longDescription": "Multifunctionele reiniger met natuurlijk ethanol en speciaal zomeraroma. Verwijdert vet en vuil van alle oppervlakken.",
         "usage": "Spuiten of uitgieten op oppervlak. Afvegen met een doek. Droogvegen of laten drogen.",
         "subtitle": "Piña Colada Frapé · Limited Edition Lente-Zomer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Frisse citrus zomer"
       },
       "pt": {
         "name": "Limpador Multissuperfícies Verão",
@@ -13233,7 +13240,8 @@
         "longDescription": "Limpador multiusos com etanol natural e fragrância especial de verão. Remove gordura e sujidade de todas as superfícies.",
         "usage": "Pulverizar ou verter sobre a superfície. Esfregar com um pano. Secar com pano ou deixar secar ao ar.",
         "subtitle": "Frapé Piña Colada · Edição Limitada Primavera-Verão",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Cítrico fresco verão"
       }
     },
     {
@@ -13273,7 +13281,8 @@
         "shortDescription": "Lavavajillas manual con fragancia de verano mediterráneo. >92% natural. Fórmula suave, vegana y altamente eficaz. Con pocas gotas.",
         "longDescription": "Lavavajillas manual perfumado con fragancia especial de verano. Tensioactivos de alta eficacia que desengrasas y limpian vajilla, cubertería y cristalería con facilidad. Fórmula suave con la piel, vegana, con más de un 92% de ingredientes de origen natural.",
         "usage": "Unas gotas en la esponja son suficientes. Frota con la esponja. Aclara con agua abundante.",
-        "subtitle": "Frapé Piña-Colada · Edición Limitada Primavera-Verano"
+        "subtitle": "Frapé Piña-Colada · Edición Limitada Primavera-Verano",
+        "olfactiveFamily": "Cítrico floral mediterráneo"
       },
       "en": {
         "name": "Summer Washing-Up Liquid",
@@ -13284,7 +13293,8 @@
         "longDescription": "Manual dishwashing liquid with special summer fragrance. High-performance surfactants degrease and clean dishes, cutlery and glassware. Gentle on skin, vegan, with over 92% natural origin ingredients.",
         "usage": "A few drops on a sponge is enough. Scrub and rinse with plenty of water.",
         "subtitle": "Piña Colada Frapé · Limited Edition Spring-Summer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Mediterranean floral citrus"
       },
       "fr": {
         "name": "Liquide Vaisselle Été",
@@ -13295,7 +13305,8 @@
         "longDescription": "Liquide vaisselle parfumé avec fragrance estivale spéciale. Tensioactifs haute efficacité qui dégraissent et nettoient vaisselle, couverts et verrerie. Doux pour la peau, vegan.",
         "usage": "Quelques gouttes sur l'éponge suffisent. Frotter et rincer abondamment à l'eau.",
         "subtitle": "Frapé Piña Colada · Édition Limitée Printemps-Été",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Citrique floral méditerranéen"
       },
       "de": {
         "name": "Sommer Spülmittel",
@@ -13306,7 +13317,8 @@
         "longDescription": "Handspülmittel mit speziellem Sommerduft. Hochleistungstensiden entfetten und reinigen Geschirr, Besteck und Gläser. Hautschonend, vegan.",
         "usage": "Einige Tropfen auf einen Schwamm reichen. Schrubben und gründlich mit Wasser abspülen.",
         "subtitle": "Piña Colada Frapé · Limited Edition Frühling-Sommer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Mediterrane Blumenzitrus"
       },
       "it": {
         "name": "Detersivo Piatti Estate",
@@ -13317,7 +13329,8 @@
         "longDescription": "Detersivo per lavastoviglie manuale profumato con fragranza estiva speciale. Tensioattivi ad alta efficacia che sgrassano e puliscono stoviglie, posate e bicchieri. Delicato sulla pelle, vegano.",
         "usage": "Poche gocce sulla spugna sono sufficienti. Strofinare e risciacquare abbondantemente con acqua.",
         "subtitle": "Frapé Piña Colada · Edizione Limitata Primavera-Estate",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Agrumi floreali mediterranei"
       },
       "nl": {
         "name": "Zomer Afwasmiddel",
@@ -13328,7 +13341,8 @@
         "longDescription": "Handafwasmiddel geparfumeerd met speciaal zomeraroma. Tensiden met hoge effectiviteit die vet en vuil verwijderen van vaatwerk, bestek en glaswerk. Huidvriendelijk, veganistisch.",
         "usage": "Een paar druppels op een spons zijn voldoende. Schrobben en grondig afspoelen met water.",
         "subtitle": "Piña Colada Frapé · Limited Edition Lente-Zomer",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Mediterraan bloemcitrus"
       },
       "pt": {
         "name": "Detergente Loiça Verão",
@@ -13339,7 +13353,8 @@
         "longDescription": "Detergente loiça manual perfumado com fragrância especial de verão. Tensioativos de alta eficácia que desengorduram e limpam louças, talheres e cristalaria. Suave na pele, vegano.",
         "usage": "Umas gotas na esponja são suficientes. Esfregar e enxaguar abundantemente com água.",
         "subtitle": "Frapé Piña Colada · Edição Limitada Primavera-Verão",
-        "aiTranslation": true
+        "aiTranslation": true,
+        "olfactiveFamily": "Cítrico floral mediterrâneo"
       }
     }
   ]

@@ -46,7 +46,7 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
   const targetFormat: TargetFormat = item.line === 'mascota' ? '300ml' : '1l';
 
   const { src: imageSrc, fallbackSrc: imageFallback } = itemIsBundle
-    ? resolveBundleImage(item.id, region, item.primaryImage)
+    ? resolveBundleImage(item.id, region, item.catalogImage ?? item.primaryImage)
     : resolveProductImage(item.id, region, item.catalogImage ?? item.primaryImage);
 
   const ariaLabel = translation?.nameAccent

@@ -873,9 +873,14 @@
         "300 ml": "ritual-para-el-300-ml",
         "1 L": "rital-para-el-1-ltr"
       },
-      "primaryImage": "/images/landing/card-4.jpg",
+      "primaryImage": "/images/products/eu/hombre-300ml.jpg",
       "basePriceEUR": 31.3,
-      "basePriceGBP": 26.92
+      "basePriceGBP": 26.92,
+      "catalogImage": "/images/products/eu/hombre-lifestyle.jpg",
+      "ukFormatImages": {
+        "300ml": "/images/products/eu/hombre-300ml.jpg",
+        "1l": "/images/products/eu/hombre-1l.jpg"
+      }
     },
     {
       "id": "ritual-vajilla-perfecta",

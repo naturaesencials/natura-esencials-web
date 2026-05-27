@@ -160,6 +160,10 @@ export interface Bundle {
   visible: boolean;
   outOfStock?: boolean;
   primaryImage?: string;
+  /** Imagen lifestyle para catálogo (sobreescribe primaryImage en cards) */
+  catalogImage?: string;
+  /** Imágenes por formato para el swapper de la ficha de producto */
+  ukFormatImages?: Record<string, string>;
   gallery?: string[];
   basePriceEUR?: number;
   basePriceGBP?: number;
