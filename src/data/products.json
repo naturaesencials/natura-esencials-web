@@ -1831,7 +1831,7 @@
       "basePriceGBP": 7.65,
       "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Argania Spinosa Kernel Oil, Guar Hydroxypropyltrimonium Chloride, PEG-7 Glyceryl Cocoate, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes, Caramel.",
       "primaryImage": "/images/products/eu/champu-hombre-300ml.jpg",
-      "catalogImage": "/images/products/eu/champu-hombre-300ml.jpg",
+      "catalogImage": "/images/products/eu/champu-hombre-catalog.jpg",
       "ukFormatImages": {
         "300ml": "/images/products/eu/champu-hombre-300ml.jpg",
         "1l": "/images/products/eu/champu-hombre-1l.jpg"
@@ -2137,7 +2137,7 @@
       "basePriceGBP": 7.74,
       "inci": "Aqua, Cetearyl Alcohol, Hydrogenated Ethylhexyl Olivate, Cocos Nucifera Oil, Cetrimonium Chloride, Hydrolyzed Quinoa, Panthenol, Glycerin, Pisum Sativum Seed Extract, Sodium Hyaluronate, Isopropyl Alcohol, Hydrogenated Olive Oil Unsaponifiables, Argania Spinosa Kernel Oil, Sodium Benzoate, Potassium Sorbate, 1,2-Hexanediol, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes.",
       "primaryImage": "/images/products/eu/acondicionador-hombre-300ml.jpg",
-      "catalogImage": "/images/products/eu/acondicionador-hombre-300ml.jpg",
+      "catalogImage": "/images/products/eu/acondicionador-hombre-catalog.jpg",
       "ukFormatImages": {
         "300ml": "/images/products/eu/acondicionador-hombre-300ml.jpg",
         "1l": "/images/products/eu/acondicionador-hombre-1l.jpg"
@@ -2439,7 +2439,7 @@
       "basePriceGBP": 7.65,
       "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Glycerin, Citrus Aurantium Peel Oil, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexyl Cinnamal, Linalool, Tetramethylacetyloctahydronaphtalenes.",
       "primaryImage": "/images/products/eu/gel-manos-cuerpo-hombre-300ml.jpg",
-      "catalogImage": "/images/products/eu/gel-manos-cuerpo-hombre-300ml.jpg",
+      "catalogImage": "/images/products/eu/gel-manos-cuerpo-hombre-catalog.jpg",
       "ukFormatImages": {
         "300ml": "/images/products/eu/gel-manos-cuerpo-hombre-300ml.jpg",
         "1l": "/images/products/eu/gel-manos-cuerpo-hombre-1l.jpg"
@@ -2742,7 +2742,7 @@
       "basePriceGBP": 7.91,
       "inci": "Aqua, Glycerin, Persea Gratisima Oil, C15-19 Alkane, Helianthus Annuus Seed Oil, Hydrolyzed Jojoba Esters, Sodium Polyacrylate, Glyceryl Stearate, Xylitol, Caprylic Acid, Tocopherol, Phenylpropanol, 1,2-Hexanediol, Parfum, Tetramethylacetyloctahydronaphtalenes.",
       "primaryImage": "/images/products/eu/body-milk-man-300ml.jpg",
-      "catalogImage": "/images/products/eu/body-milk-man-300ml.jpg",
+      "catalogImage": "/images/products/eu/body-milk-man-catalog.jpg",
       "ukFormatImages": {
         "300ml": "/images/products/eu/body-milk-man-300ml.jpg",
         "1l": "/images/products/eu/body-milk-man-1l.jpg"
