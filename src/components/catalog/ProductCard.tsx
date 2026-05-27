@@ -80,7 +80,7 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
           src={imageSrc}
           alt={translation.name}
           loading="lazy"
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          className="absolute inset-0 w-full h-full object-contain p-2 transition-transform duration-500 group-hover:scale-[1.03]"
           onError={(e) => {
             const el = e.currentTarget as HTMLImageElement;
             if (el.dataset.fallbackTried) {

@@ -100,13 +100,13 @@ export function Edicion({ region, locale }: Props) {
 
             const inner = (
               <>
-                <div className="relative mb-4 aspect-square overflow-hidden rounded-sm">
+                <div className="relative mb-4 aspect-square overflow-hidden rounded-sm bg-stone-50">
                   <Image
                     src={(product as Record<string, unknown>).catalogImage as string ?? product.primaryImage ?? '/images/landing/card-1.jpg'}
                     alt={names.full}
                     fill
                     sizes="(min-width: 1024px) 25vw, 50vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    className="object-contain p-2 transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
                 <div className={`mb-1.5 text-[10px] uppercase tracking-[0.22em] ${colorClass}`}>
