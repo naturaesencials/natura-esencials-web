@@ -10,11 +10,11 @@ import { CardBuyButton, type TargetFormat } from '@/components/catalog/CardBuyBu
 
 // ── Colores por sensación ─────────────────────────────────────────────────────
 const SENSATION_STYLE: Record<string, string> = {
-  'Calma':    'bg-blue-50   text-blue-800   border-blue-200',
-  'Energía':  'bg-amber-50  text-amber-800  border-amber-200',
-  'Energia':  'bg-amber-50  text-amber-800  border-amber-200',
-  'Refugio':  'bg-stone-100 text-stone-700  border-stone-300',
-  'Conexión': 'bg-emerald-50 text-emerald-800 border-emerald-200',
+  'Calma':    'bg-blue-100   text-blue-900   border-blue-400',
+  'Energía':  'bg-amber-100  text-amber-900  border-amber-400',
+  'Energia':  'bg-amber-100  text-amber-900  border-amber-400',
+  'Refugio':  'bg-orange-100 text-orange-900 border-orange-400',
+  'Conexión': 'bg-emerald-100 text-emerald-900 border-emerald-400',
 };
 
 function isBundle(item: Product | Bundle): item is Bundle {
@@ -117,7 +117,7 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
             </span>
           )}
           {naturalPct !== null && (
-            <span className="border border-stone-200 bg-stone-50 text-stone-600 text-[10px] px-2 py-0.5 rounded-sm font-medium">
+            <span className="border border-green-400 bg-green-100 text-green-900 text-[10px] px-2 py-0.5 rounded-sm font-medium">
               {naturalPct}% natural
             </span>
           )}
