@@ -71,16 +71,16 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
       onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); router.push(linkHref); } }}
       className="group flex flex-col bg-paper border border-ink/8 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 hover:border-ink/15 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-ink/40"
     >
-      {/* ── Imagen ── */}
+      {/* ── Imagen — llena el frame completo, sin huecos ── */}
       <div
         className="relative bg-stone-50 overflow-hidden"
-        style={{ aspectRatio: '1', boxSizing: 'border-box', padding: '12px' }}
+        style={{ aspectRatio: '1' }}
       >
         <img
           src={imageSrc}
           alt={translation.name}
           loading="lazy"
-          style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block', transition: 'transform 0.5s' }}
+          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block', transition: 'transform 0.5s' }}
           className="group-hover:scale-[1.03]"
           onError={(e) => {
             const el = e.currentTarget as HTMLImageElement;
