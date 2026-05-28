@@ -18,7 +18,7 @@ export const posts: Post[] = [
     date: '2026-05-21',
     category: 'Sostenibilidad',
     readingMin: 9,
-    image: '/images/landing/card-7.jpg',
+    image: '/images/blog/tetrabrick-reciclaje.jpg',
     title: {
       es: 'El tetrabrick y el reciclaje: lo que la industria no cuenta',
       en: 'Tetra Pak recycling: what the industry does not tell you',
@@ -189,7 +189,7 @@ A nossa embalagem PET (♻1) é reconhecida por qualquer instalação de triagem
     date: '2026-05-13',
     category: 'Sostenibilidad',
     readingMin: 10,
-    image: '/images/landing/card-5.jpg',
+    image: '/images/blog/envases-pet-bib-vs-vidrio.jpg',
     title: {
       es: 'Envases PET reciclables y BiB: por qué son la mejor opción real para el planeta',
       en: 'Recyclable PET and BiB packaging: why they beat glass for the planet',
