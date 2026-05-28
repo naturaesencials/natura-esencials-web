@@ -521,7 +521,7 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 | 11 | 17 may 2026 | 1 | Structure SEO report fixes (sesión anterior) |
 | 12 | 18 may 2026 | 1 | Overlay link pattern en ProductCard/RitualCard/LineCosmetica/LineHogar/LineMascota/Edicion/DualFeatured; anchor CTA ProductDetail usa nameMain+nameAccent; bundles.json ritual-refugio nameMain FR/IT/NL corregido |
 | 13 | 18 may 2026 | 1 | Content report: NL Naturlijk→Natuurlijk, FR naturelle en bundles, blog body keywords, 3er párrafo rituales/cookies/contacto, keyword cannibalization body-milk/vaisselle/shampooing |
-| 14 | 18 may 2026 | 1 | Poco texto: 27 DE longDesc expandidas, IT/NL mascota expandidas, FR caresse bundle expandido, DE/ES/EN catalog descs expandidos; H1-body: origen ES fix |
+| 15 | 27 may 2026 | 15 | Chat 12 cont: fotos mujer/hombre/verano, format-swapper 300ml↔1L EU, 5 productos Edición Verano, sección Edición Limitada en cosmética+hogar, landing Verano 2026, 3 artículos blog, imágenes blog pendientes |
 
 ---
 
