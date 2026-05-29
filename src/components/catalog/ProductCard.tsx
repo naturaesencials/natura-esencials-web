@@ -126,14 +126,14 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
 
       {/* ── Contenido ── */}
       <div className="px-3 pb-3 pt-2 flex flex-col gap-1.5 flex-1">
-        <h2 className="font-display text-base lg:text-lg leading-tight">
+        <p className="font-display text-base lg:text-lg leading-tight">
           {translation.nameMain && translation.nameAccent ? (
             <>
               {translation.nameMain}{' '}
               <em className="font-italic">{translation.nameAccent}</em>
             </>
           ) : translation.name}
-        </h2>
+        </p>
 
         {ratingHandle && (
           <div onClick={(e) => e.stopPropagation()}>

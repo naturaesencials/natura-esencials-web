@@ -60,9 +60,9 @@ export function BlogPreview({ region, locale }: Props) {
               <div className="mb-2 text-[11px] text-graphite">
                 {post.readingMin} {lb.readMin}
               </div>
-              <h3 className="mb-2 font-display text-[clamp(17px,1.8vw,20px)] leading-[1.2] tracking-[-0.01em] group-hover:text-verde transition-colors">
+              <p className="mb-2 font-display text-[clamp(17px,1.8vw,20px)] leading-[1.2] tracking-[-0.01em] group-hover:text-verde transition-colors">
                 <Link href={href}>{title}</Link>
-              </h3>
+              </p>
             </article>
           );
         })}
