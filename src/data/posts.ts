@@ -217,7 +217,7 @@ Es probablemente una de las preguntas más habituales que recibimos. Y es una pr
 
 El vidrio se puede reciclar indefinidamente sin perder propiedades. Eso es verdad. El problema es que la mayor parte de los envases cosméticos en Europa no funcionan dentro de sistemas de retorno y reutilización. No existe una infraestructura donde los consumidores devuelvan sus botellas de champú para ser lavadas, rellenadas y redistribuidas 20 o 30 veces.
 
-La comparación real no es "vidrio reutilizable infinito vs plástico desechable". La comparación real es: **una botella de vidrio de un solo uso frente a un envase PET reciclable.** Y ahí los resultados cambian.
+La comparación real no es "vidrio reutilizable infinito vs plástico desechable". La comparación real es: una botella de vidrio de un solo uso frente a un **envase PET reciclable**. Y ahí los resultados cambian.
 
 ## Lo que cuesta fabricar una botella de vidrio
 
@@ -246,9 +246,9 @@ Una botella de vidrio vacía pesa entre **seis y ocho veces más** que una botel
 
 Cuando se compara PET reciclable con vidrio de un solo uso, los resultados de los análisis de ciclo de vida (ACV) son consistentes:
 
-**Franklin Associates / NAPCOR (2023):** las botellas PET generan menos emisiones de gases de efecto invernadero, menos consumo energético, menos uso de agua y menos residuos sólidos que las botellas de vidrio equivalentes.
+Franklin Associates / NAPCOR (2023): las botellas PET generan menos emisiones de gases de efecto invernadero, menos consumo energético, menos uso de agua y menos residuos sólidos que las botellas de vidrio equivalentes.
 
-**Science Insights (2026):** el sistema con vidrio generaba entre 790 y 1.137 kg de CO₂ equivalente por cada 1.000 litros de producto. El sistema con PET reciclado: entre 459 y 634 kg. Una reducción del **30% al 60%**.
+Science Insights (2026): el sistema con vidrio generaba entre 790 y 1.137 kg de CO₂ equivalente por cada 1.000 litros de producto. El sistema con PET reciclado: entre 459 y 634 kg. Una reducción del **30% al 60%**.
 
 **Imperial College London / Veolia (2019):** sustituir plástico por materiales alternativos incrementaría el peso total del envasado 3,6 veces, el consumo energético 2,2 veces y las emisiones de CO₂ 2,7 veces.
 
@@ -277,25 +277,25 @@ It's probably one of the most common questions we receive. And it's a fair one. 
 
 ## The real comparison
 
-The comparison is not "infinitely reusable glass vs disposable plastic". In domestic cosmetics, it is: **a single-use glass bottle vs a recyclable PET bottle**. And the results shift considerably.
+The comparison is not "infinitely reusable glass vs disposable plastic". In domestic cosmetics, it is: a single-use glass bottle vs a recyclable PET bottle. And the results shift considerably.
 
 ## The cost of making a glass bottle
 
-Glass furnaces run at **1,500–2,000°C** and cannot be switched off for 10–20 years. Around 80% of that energy still comes from natural gas. On top of that, making glass generates CO₂ through unavoidable chemical reactions: limestone (CaCO₃) → CaO + CO₂. These emissions happen even with renewable electricity.
+Glass furnaces run at 1,500–2,000°C and cannot be switched off for 10–20 years. Around 80% of that energy still comes from natural gas. On top of that, making glass generates CO₂ through unavoidable chemical reactions: limestone (CaCO₃) → CaO + CO₂. These emissions happen even with renewable electricity.
 
-Per bottle: between 60 and 160 grams of CO₂ in manufacturing alone (ACerS, 2023). A glass bottle weighs **six to eight times more** than an equivalent PET bottle — multiplying transport emissions.
+Per bottle: between 60 and 160 grams of CO₂ in manufacturing alone (ACerS, 2023). A glass bottle weighs six to eight times more than an equivalent PET bottle — multiplying transport emissions.
 
 ## What lifecycle studies say
 
-**Franklin Associates / NAPCOR (2023):** PET bottles generate less greenhouse gas emissions, less energy consumption, less water use and less solid waste than equivalent glass bottles.
+Franklin Associates / NAPCOR (2023): PET bottles generate less greenhouse gas emissions, less energy consumption, less water use and less solid waste than equivalent glass bottles.
 
-**Science Insights (2026):** glass-based systems generated 790–1,137 kg CO₂-eq per 1,000 litres of product. Recycled PET systems: 459–634 kg. A **30–60% reduction**.
+Science Insights (2026): glass-based systems generated 790–1,137 kg CO₂-eq per 1,000 litres of product. Recycled PET systems: 459–634 kg. A **30–60% reduction**.
 
 ## BiB 5L: lowest plastic of all
 
-Our BiB format uses approximately **89% less plastic** than an equivalent rigid container. A BioIntelligence study for Smurfit Kappa found the BiB had a carbon footprint **five times lower** than an equivalent glass bottle. One lorry loaded with BiB replaces approximately **seven lorries of glass bottles** (Alfa Laval).
+Our BiB format uses approximately **89% less plastic** than an equivalent rigid container. A BioIntelligence study for Smurfit Kappa found the BiB had a carbon footprint **five times lower** than an equivalent glass bottle. One lorry loaded with BiB replaces approximately seven lorries of glass bottles (Alfa Laval).
 
-**The honest summary:** glass wins where real return/refill systems exist. In domestic cosmetics without that infrastructure, recyclable PET and BiB win — clearly.`,
+The honest summary: glass wins where real return/refill systems exist. In domestic cosmetics without that infrastructure, recyclable PET and BiB win — clearly.`,
       fr: `"Pourquoi pas le verre ?" C'est souvent la première question. La réponse est dans les données, pas dans les perceptions.
 
 ## La vraie comparaison
@@ -476,7 +476,7 @@ La lavanda andaluza suele presentar un perfil más intenso y ligeramente más al
 
 En cosmética aporta un efecto calmante y suavemente antibacteriano. Estudios han observado que sus compuestos aromáticos (linalool, acetato de linalilo) pueden ayudar a reducir marcadores relacionados con el estrés.
 
-Pero hay un aspecto que para nosotros es todavía más importante: **la lavanda es el ingrediente que mejor resume la filosofía de Natura Esencials**. El mismo aceite esencial que aparece en un champú puede estar también en un detergente de ropa o en un limpiador del hogar. No creemos que deba existir una frontera radical entre lo que toca tu piel y lo que queda sobre tu ropa, tus sábanas o el ambiente de casa.
+Pero hay un aspecto que para nosotros es todavía más importante: **la lavanda es el ingrediente que mejor resume la filosofía** de Natura Esencials. El mismo aceite esencial que aparece en un champú puede estar también en un detergente de ropa o en un limpiador del hogar. No creemos que deba existir una frontera radical entre lo que toca tu piel y lo que queda sobre tu ropa, tus sábanas o el ambiente de casa.
 
 ### En qué rituales lo encontrarás
 
@@ -511,7 +511,7 @@ Spain produces around **40% of the world's olive oil**. Andalusia accounts for r
 
 Lavender grows within **90 km of our workshop** in the Serranía de Ronda and Axarquía. The Andalusian variety has a more intense, slightly camphor-forward profile than Provençal. Steam-distilled essential oil, adjusted per application.
 
-Beyond its known calming properties (linalool, linalyl acetate reduce stress markers), lavender represents our core philosophy: **the same botanical ingredient that goes into a shampoo also goes into a laundry detergent**. We do not believe there should be a radical boundary between what touches your skin and what stays on your clothes or in your home environment.
+Beyond its known calming properties (linalool, linalyl acetate reduce stress markers), lavender represents our core philosophy: **the same botanical ingredient that goes into a shampoo** also goes into a laundry detergent. We do not believe there should be a radical boundary between what touches your skin and what stays on your clothes or in your home environment.
 
 ## Why these three?
 
