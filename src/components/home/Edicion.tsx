@@ -91,7 +91,7 @@ export function Edicion({ region, locale }: Props) {
           {euProducts.map((product) => {
             const names = getProductName(product, locale);
             const slug = getProductSlug(product, locale);
-            const href = buildPath(region, locale, `cosmetica/${slug}`);
+            const href = buildPath(region, locale, `${product.line}/${slug}`);
             const price = product.basePriceEUR;
             const format = product.formats?.[0] ?? '';
             const colorClass = COLOR[product.line] ?? 'text-verde';
