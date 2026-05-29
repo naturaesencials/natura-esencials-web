@@ -18,8 +18,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region, locale, slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
+  const fullTitle = post.title[locale] ?? post.title.es;
+  // Meta title corto: parte antes de ":" (el gancho conciso que escribió el autor).
+  // El título completo se mantiene como H1 en la página. Fallback si no hay ":".
+  const leadTitle = fullTitle.split(/\s*:\s*/)[0].trim();
+  const metaTitle = leadTitle.length >= 10 ? leadTitle : fullTitle;
   return buildMetadata({
-    title: post.title[locale] ?? post.title.es,
+    title: metaTitle,
     description: post.excerpt[locale] ?? post.excerpt.es,
     region, locale,
     path: `blog/${slug}`,
