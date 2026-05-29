@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 18/05/2026 — Sesión 14 SEO completada.
+> Actualizado: 29/05/2026 — Sesión 16 (imágenes hero blog + regresión Tech & Meta corregida).
 
 ---
 
@@ -45,7 +45,7 @@ Next.js 14.2 App Router
 next-intl (7 locales: es/en/fr/de/it/nl/pt)
 TypeScript + Tailwind CSS
 Vercel (deploy) + Supabase (reviews API)
-761 páginas estáticas generadas en build
+817 páginas estáticas generadas en build (5 productos Verano + 3 posts × 7 locales)
 ```
 
 ### Estructura de rutas
@@ -112,7 +112,7 @@ npm install
 # 4. Hacer todos los cambios necesarios
 # 5. SIEMPRE hacer build antes de push
 npm run build
-# → debe mostrar: ✓ Compiled successfully, ✓ Generating static pages (761/761)
+# → debe mostrar: ✓ Compiled successfully, ✓ Generating static pages (817/817)
 # → CERO errores, CERO warnings de TypeScript
 
 # 6. Commit atómico con mensaje descriptivo
@@ -184,6 +184,22 @@ Sesión 13 (may 18) — content report 18/05/26 atacado:
   - Pocas páginas: rituales+cookies+contacto → 3 párrafos
   - Keyword cannibalization: body-milk/vaisselle/shampooing diferenciados
   Resultado esperado: Content 72% → 80%+
+Sesión 16 (may 29) — crawls Structure + Tech & Meta 29/05/26:
+  - Tech & Meta:  85% (-14% vs 99% sesión 12)  ← REGRESIÓN corregida
+  - Structure:    100% (+22%)  ← perfecto, 0 errores en todos los checks
+  - Content:      77%
+  Overall: 87%
+  Causa raíz de la regresión Tech & Meta (TODO de la Edición Verano del 27/05):
+    1. 21x error 404 (Very important): home/Edicion.tsx enlazaba los 5 verano a
+       /cosmetica/{slug} fijo; los 3 de hogar (limpiasuelos/multisuperficies/
+       lavavajillas-verano) daban 404 x7 locales. → href ahora usa product.line.
+    2. 24x meta title >580px: blog usaba el título largo como <title> → ahora usa la
+       parte antes de ":" (37-58 chars). El título completo sigue como H1.
+    3. 21x "too many headings" + duplicate heading: ProductCard nombre h2→p,
+       BlogPreview h3→p.
+  NOTA: "Duplicate meta descriptions" = 0 → los pares spray/difusor NO eran problema
+  (hipótesis inicial descartada al recibir el informe; no se parcheó a ciegas).
+  Resultado esperado próximo crawl: Tech & Meta ~95-99%.
 ```
 
 ### Causa raíz de regresiones (sesión 4→5)
@@ -260,6 +276,47 @@ Esto afectó: ProductDetail.tsx, rituales/[slug], cosmetica, hogar, mascota, rit
 ---
 
 ## 🔴 PROBLEMAS PENDIENTES (a resolver en próxima sesión)
+
+## ✅ FIXES APLICADOS (sesión 16) — 29/05/2026 — 9 commits
+
+### Imágenes hero del blog (PET vs vidrio + tetrabrick)
+- Reemplazados placeholders navy/Albion por fotos reales cálidas (1200×800), **sin texto
+  incrustado**: la card del blog (aspect 4/3, object-cover) recorta los lados y ya pinta
+  el badge de categoría + título (H2) + excerpt. Por eso el texto incrustado salía cortado.
+- Ficheros: `envases-pet-bib-vs-vidrio.jpg`, `tetrabrick-reciclaje.jpg` (mismos nombres que
+  referencia posts.ts → sin cambios en código).
+
+### Regresión Tech & Meta 99%→85% (todo de la Edición Verano del 27/05)
+| Fichero | Fix |
+|---------|-----|
+| `home/Edicion.tsx` | href `cosmetica/${slug}` → `${product.line}/${slug}` → elimina 21 errores 404 |
+| `catalog/ProductCard.tsx` | nombre producto h2→p → reduce "too many headings" + duplicate heading |
+| `home/BlogPreview.tsx` | título preview h3→p → reduce headings en home |
+| `blog/[slug]/page.tsx` | meta title corto (parte antes de ":") → 24 títulos largos corregidos |
+| `products.json` | 8 meta descriptions Verano <120 chars extendidas a 120-160 (7 locales) |
+
+### Menores (mismo crawl)
+| Fichero | Fix |
+|---------|-----|
+| `public/images/products/eu/*.png` | 12 imágenes >2MB → max 1080px (≤1.63MB) |
+| `data/posts.ts` | 3 negritas >70 chars acortadas; cuerpo EN de PET 10→3 negritas |
+| `hogar/page.tsx` | meta desc pt/hogar 1008px→<1000 + typo limpadore→limpadores |
+
+**Relanzar crawl Seobility en 3-5 días** para confirmar recuperación de Tech & Meta.
+
+### Pendiente tras sesión 16
+- **GSC Request Indexing**: reanudar ~27 URLs (parado el 19/05, ~10/día). Acción manual de Carlos.
+- **Content (77%)**: ~123 meta descriptions <120 chars y ~37 >160 site-wide → atacar con el
+  informe de *Content* (no a ciegas).
+- **Sprays/difusores**: `shortDescription` en inglés en fr/de/it/nl/pt (sin traducir). No es
+  "duplicate meta" en Seobility, pero rompe la regla de 7 idiomas → traducir.
+- **Average internal links bajo** (Tip Structure + T&M): añadir crosslinks de productos
+  relacionados en las fichas.
+- **Format-swapper Ritual Para Él** (300ml↔1L en ficha) sigue pendiente.
+- **Precios null**: champu-2-en-1, acondicionador-capilar, total-body-wash,
+  limpiador-oidos/ojos-mascotas (+ GBP de los verano).
+
+---
 
 ## ✅ FIXES APLICADOS (sesión 7) — 1 commit
 
@@ -442,7 +499,7 @@ Cuando se cambia un nombre en bundles.json, debe actualizarse en rituales.ts y v
 # 1. Build limpio
 npm run build
 # → ✓ Compiled successfully
-# → ✓ Generating static pages (761/761)
+# → ✓ Generating static pages (817/817)
 
 # 2. Test URLs críticas
 curl -s -o /dev/null -w "%{http_code}" https://www.naturaesencials.com/eu/es/cosmetica/champu-2-en-1
