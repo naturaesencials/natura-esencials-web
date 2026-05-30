@@ -53,6 +53,23 @@ export default async function BlogPostPage({ params }: Props) {
     day: 'numeric', month: 'long', year: 'numeric',
   });
 
+  // Artículos relacionados: misma categoría primero, luego más recientes
+  const relatedLabels: Record<string, string> = {
+    es: 'Artículos relacionados', en: 'Related articles', fr: 'Articles liés',
+    de: 'Ähnliche Artikel', it: 'Articoli correlati', nl: 'Gerelateerde artikelen',
+    pt: 'Artigos relacionados',
+  };
+  const relatedLbl = relatedLabels[lang] ?? relatedLabels.es;
+  const related = posts
+    .filter((p) => p.slug !== post.slug)
+    .sort((a, b) => {
+      const ca = a.category === post.category ? 0 : 1;
+      const cb = b.category === post.category ? 0 : 1;
+      if (ca !== cb) return ca - cb;
+      return new Date(b.date).getTime() - new Date(a.date).getTime();
+    })
+    .slice(0, 3);
+
   return (
     <main className="px-pad-x py-pad-y">
       <div className="mx-auto max-w-2xl">
@@ -103,6 +120,38 @@ export default async function BlogPostPage({ params }: Props) {
             );
           })}
         </div>
+
+        {/* Artículos relacionados (enlaces internos) */}
+        {related.length > 0 && (
+          <section aria-labelledby="related-heading" className="mt-16 border-t border-rule pt-10">
+            <h2 id="related-heading" className="mb-8 font-display text-[clamp(20px,2.4vw,28px)] tracking-[-0.01em]">
+              {relatedLbl}
+            </h2>
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
+              {related.map((rp) => {
+                const rTitle = rp.title[lang] ?? rp.title.es;
+                const rHref  = buildPath(region, locale, `blog/${rp.slug}`);
+                return (
+                  <Link key={rp.slug} href={rHref} className="group block">
+                    <div className="relative mb-3 aspect-[4/3] overflow-hidden bg-paper">
+                      <Image
+                        src={rp.image}
+                        alt={rTitle}
+                        fill
+                        sizes="(min-width:640px) 33vw, 100vw"
+                        className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                      />
+                    </div>
+                    <div className="mb-1.5 text-[10px] uppercase tracking-[0.22em] text-verde">{rp.category}</div>
+                    <p className="font-display text-[clamp(15px,1.6vw,18px)] leading-[1.25] tracking-[-0.01em] transition-colors group-hover:text-verde">
+                      {rTitle}
+                    </p>
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        )}
 
         {/* Footer del artículo */}
         <div className="mt-12 border-t border-rule pt-8 text-center">
