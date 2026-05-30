@@ -305,7 +305,8 @@
         "300ml": "/images/products/uk/champu-2-en-1-300ml.jpg",
         "1L": "/images/products/uk/champu-2-en-1-1l.jpg",
         "BiB 5L": "/images/products/uk/champu-2-en-1-1l.jpg"
-      }
+      },
+      "basePriceEUR": 6.3
     },
     {
       "id": "acondicionador-capilar",
@@ -612,7 +613,8 @@
         "300ml": "/images/products/uk/acondicionador-capilar-300ml.jpg",
         "1L": "/images/products/uk/acondicionador-capilar-1l.jpg",
         "BiB 5L": "/images/products/uk/acondicionador-capilar-1l.jpg"
-      }
+      },
+      "basePriceEUR": 7.3
     },
     {
       "id": "jabon-manos-cuerpo",
@@ -1533,7 +1535,8 @@
         "300ml": "/images/products/uk/total-body-wash-300ml.jpg",
         "1L": "/images/products/uk/total-body-wash-1l.jpg",
         "BiB 5L": "/images/products/uk/total-body-wash-1l.jpg"
-      }
+      },
+      "basePriceEUR": 6.3
     },
     {
       "id": "champu-hombre",
@@ -10314,7 +10317,8 @@
         "longDescription": "Solução limpadora de ouvidos com óleo de árvore do chá a 0,2%. Sem fragância, pH neutro. Para cães e gatos.",
         "usage": "Aplicar algumas gotas no canal auditivo, massajar a base da orelha e deixar o animal sacudir a cabeça. Retirar o excesso com gaze."
       },
-      "inci": "Aqua, Glycerin, Coco-Glucoside, Melaleuca Alternifolia Leaf Oil, Tocopherol, Acacia Senegal Gum, Xanthan Gum, PEG-40 Hydrogenated Castor Oil, Polysorbate 20, Disodium EDTA, Phenylpropanol, 1,2-Hexanediol, Citric Acid."
+      "inci": "Aqua, Glycerin, Coco-Glucoside, Melaleuca Alternifolia Leaf Oil, Tocopherol, Acacia Senegal Gum, Xanthan Gum, PEG-40 Hydrogenated Castor Oil, Polysorbate 20, Disodium EDTA, Phenylpropanol, 1,2-Hexanediol, Citric Acid.",
+      "basePriceEUR": 5.9
     },
     {
       "id": "limpiador-ojos-mascotas",
@@ -10604,7 +10608,8 @@
         "longDescription": "Solução limpadora ocular com complexo herbal de 6 plantas. Antisséptico, anti-inflamatório e inodoro. Para cães e gatos.",
         "usage": "Aplicar algumas gotas em algodão limpo e limpar suavemente o contorno do olho de dentro para fora."
       },
-      "inci": "Aqua, Foeniculum Vulgare Fruit Extract, Humulus Lupulus Extract, Melissa Officinalis Leaf Extract, Viscum Album Leaf Extract, Chamomilla Recutita Flower Extract, Achillea Milefolium Extract, Urea, Allantoin, Alcohol Denat, Coco-Glucoside, Phenylpropanol, 1,2-Hexanediol, Diethyl Phthalate, Citric Acid."
+      "inci": "Aqua, Foeniculum Vulgare Fruit Extract, Humulus Lupulus Extract, Melissa Officinalis Leaf Extract, Viscum Album Leaf Extract, Chamomilla Recutita Flower Extract, Achillea Milefolium Extract, Urea, Allantoin, Alcohol Denat, Coco-Glucoside, Phenylpropanol, 1,2-Hexanediol, Diethyl Phthalate, Citric Acid.",
+      "basePriceEUR": 5.9
     },
     {
       "id": "spray-mente-serena",
@@ -12855,7 +12860,7 @@
       "visible": true,
       "primaryImage": "/images/products/eu/champu-verano-2en1.jpg",
       "catalogImage": "/images/products/eu/champu-verano-2en1-catalog.jpg",
-      "basePriceEUR": null,
+      "basePriceEUR": 12.9,
       "basePriceGBP": null,
       "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Citrus Aurantium Peel Oil, Argania Spinosa Kernel Oil, PEG-7 Glyceryl Cocoate, Guar Hydroxypropyltrimonium Chloride, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Limonene, Linalool, Hexamethylindanopyran",
       "es": {
@@ -12967,7 +12972,7 @@
       "visible": true,
       "primaryImage": "/images/products/eu/gel-manos-cuerpo-verano.jpg",
       "catalogImage": "/images/products/eu/gel-manos-cuerpo-verano-catalog.jpg",
-      "basePriceEUR": null,
+      "basePriceEUR": 12.9,
       "basePriceGBP": null,
       "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Sodium Chloride, Glycerin, Citrus Aurantium Peel Oil, Sodium Gluconate, Sodium Benzoate, Potassium Sorbate, Citric Acid, Parfum, Hexamethylindanopyran, Limonene, Linalool",
       "es": {
@@ -13080,7 +13085,7 @@
       "visible": true,
       "primaryImage": "/images/products/eu/limpiasuelos-verano.jpg",
       "catalogImage": "/images/products/eu/limpiasuelos-verano-catalog.jpg",
-      "basePriceEUR": null,
+      "basePriceEUR": 6.6,
       "basePriceGBP": null,
       "inci": "Tensioactivos aniónicos <5%, no iónicos <5%. Conservantes: Benzisothiazolinone, Methylisothiazolinone. Fragancias alergénicas: Benzyl Benzoate, Coumarin, Limonene, Citrus Aurantium Amara Peel Oil, Terpineol. UFI: CMU0-T08X-R00H-VQ41",
       "es": {
@@ -13193,7 +13198,7 @@
       "visible": true,
       "primaryImage": "/images/products/eu/multisuperficies-verano.jpg",
       "catalogImage": "/images/products/eu/multisuperficies-verano-catalog.jpg",
-      "basePriceEUR": null,
+      "basePriceEUR": 6.6,
       "basePriceGBP": null,
       "inci": "Tensioactivos aniónicos <5%, no iónicos <5%, Etanol 2,5-<5%. Conservantes: Benzisothiazolinone, Methylisothiazolinone. Fragancias alergénicas: Benzyl Benzoate. UFI: 1M30-509J-N00W-M6XR",
       "es": {
@@ -13306,7 +13311,7 @@
       "visible": true,
       "primaryImage": "/images/products/eu/lavavajillas-verano.jpg",
       "catalogImage": "/images/products/eu/lavavajillas-verano-catalog.jpg",
-      "basePriceEUR": null,
+      "basePriceEUR": 6.6,
       "basePriceGBP": null,
       "inci": "Tensioactivos aniónicos 5-15%, no iónicos <5%, anfotéricos <5%. Conservantes: Benzisothiazolinone, Methylisothiazolinone. Fragancias alergénicas: Benzyl Benzoate. UFI: HH30-N0M5-C00D-XVCP",
       "es": {
