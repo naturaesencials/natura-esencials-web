@@ -306,7 +306,8 @@
         "1L": "/images/products/uk/champu-2-en-1-1l.jpg",
         "BiB 5L": "/images/products/uk/champu-2-en-1-1l.jpg"
       },
-      "basePriceEUR": 6.3
+      "basePriceEUR": 6.3,
+      "basePriceGBP": 6.3
     },
     {
       "id": "acondicionador-capilar",
@@ -614,7 +615,8 @@
         "1L": "/images/products/uk/acondicionador-capilar-1l.jpg",
         "BiB 5L": "/images/products/uk/acondicionador-capilar-1l.jpg"
       },
-      "basePriceEUR": 7.3
+      "basePriceEUR": 7.3,
+      "basePriceGBP": 7.2
     },
     {
       "id": "jabon-manos-cuerpo",
@@ -1536,7 +1538,8 @@
         "1L": "/images/products/uk/total-body-wash-1l.jpg",
         "BiB 5L": "/images/products/uk/total-body-wash-1l.jpg"
       },
-      "basePriceEUR": 6.3
+      "basePriceEUR": 6.3,
+      "basePriceGBP": 6.3
     },
     {
       "id": "champu-hombre",
