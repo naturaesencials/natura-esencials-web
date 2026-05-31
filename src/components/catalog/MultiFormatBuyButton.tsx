@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useCart } from '@/context/CartContext';
+import { useSetRitualFormat } from './RitualFormatSync';
 import type { Region, Locale } from '@/lib/i18n/config';
 
 /**
@@ -55,6 +56,10 @@ export function MultiFormatBuyButton({ handles, region, locale }: Props) {
   const [loading, setLoading] = useState(true);
   const [adding, setAdding]   = useState(false);
   const [justAdded, setJustAdded] = useState(false);
+
+  // Sincroniza la imagen del ritual con el formato elegido (no-op si no hay provider)
+  const notifyFormat = useSetRitualFormat();
+  useEffect(() => { notifyFormat?.(selectedFormat); }, [selectedFormat, notifyFormat]);
 
   // Cargar variantes de todos los handles en paralelo
   useEffect(() => {

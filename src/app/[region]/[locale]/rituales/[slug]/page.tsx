@@ -25,7 +25,7 @@ import { resolveBundleImage } from '@/lib/images';
 import { BundleImage } from '@/components/catalog/BundleImage';
 import { BuyButton } from '@/components/catalog/BuyButton';
 import { MultiFormatBuyButton } from '@/components/catalog/MultiFormatBuyButton';
-import { RitualFormatImage } from '@/components/catalog/RitualFormatImage';
+import { RitualFormatProvider, RitualSyncedImage } from '@/components/catalog/RitualFormatSync';
 import { ReviewsWidget } from '@/components/reviews/ReviewsWidget';
 
 interface Props {
@@ -104,6 +104,15 @@ export default async function RitualPage({ params }: Props) {
   const currency = regionCurrency[region].code;
   const url      = getCanonicalUrl(region, locale, `rituales/${slug}`);
   const { src: imgSrc, fallbackSrc: imgFallback } = resolveBundleImage(bundle.id, region, bundle.primaryImage);
+
+  // Imágenes por formato (300ml/1L) para rituales con plano de grupo en ambos tamaños.
+  // Solo Para Él por ahora; se amplía añadiendo entradas aquí.
+  const RITUAL_FORMAT_IMAGES: Record<string, Record<string, Record<string, string>>> = {
+    'ritual-para-el': {
+      eu: { '300ml': '/images/products/eu/hombre-300ml.jpg', '1l': '/images/products/eu/hombre-1l.jpg' },
+    },
+  };
+  const formatImages = RITUAL_FORMAT_IMAGES[bundle.id]?.[region];
 
   // Line label for breadcrumb
   const lineLabels: Record<string, Record<Locale, string>> = {
@@ -187,19 +196,24 @@ export default async function RitualPage({ params }: Props) {
             </ol>
           </nav>
 
+          <RitualFormatProvider initialSrc={imgSrc} fallbackSrc={imgFallback} alt={tr.name} formatImages={formatImages}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
-            {/* Imagen principal — usa primaryImage del bundle (300ml para ritual-para-el) */}
-            <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-paper">
-              <Image
-                src={imgSrc}
-                alt={tr.name}
-                fill
-                priority
-                sizes="(min-width: 1024px) 45vw, 95vw"
-                className="object-cover"
-              />
-            </div>
+            {/* Imagen principal — sincronizada con el formato cuando hay imágenes por formato */}
+            {formatImages ? (
+              <RitualSyncedImage />
+            ) : (
+              <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-paper">
+                <Image
+                  src={imgSrc}
+                  alt={tr.name}
+                  fill
+                  priority
+                  sizes="(min-width: 1024px) 45vw, 95vw"
+                  className="object-cover"
+                />
+              </div>
+            )}
 
             {/* Info */}
             <div className="flex flex-col gap-6">
@@ -284,6 +298,7 @@ export default async function RitualPage({ params }: Props) {
               )}
             </div>
           </div>
+          </RitualFormatProvider>
         </div>
       </article>
       {bundle.shopifyHandle && (
