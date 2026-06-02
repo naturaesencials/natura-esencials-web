@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 02/06/2026 — Checkpoint automático 19:23h
+> Actualizado: 02/06/2026 — Checkpoint automático 23:55h
 
 
 
