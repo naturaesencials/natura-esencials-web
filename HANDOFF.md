@@ -3,6 +3,16 @@
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
 > Actualizado: 02/06/2026 — Checkpoint automático 19:23h
 
+
+
+---
+
+## 🤖 NATURA HUB — PORTAL DE GESTIÓN
+
+Portal: **https://hub.naturaesencials.com**
+- Agente Hub: GitHub + Vercel + Shopify EU (EUR) + Shopify UK (GBP)
+- HANDOFF: carga automática al iniciar sesión, actualización manual con 'hasta luego', checkpoint automático 23:55h
+
 ---
 
 ## 🔑 CREDENCIALES Y ACCESOS
@@ -69,7 +79,7 @@ Regiones activas: eu (UK bloqueado/coming soon)
 
 ### Ficheros de datos clave
 ```
-src/data/products.json     → 35 productos (27 visibles)
+src/data/products.json     → 49 productos (estructura { "products":[] }, nombre en p.es.name)
 src/data/bundles.json      → 15 rituales/bundles (12 visibles)
 src/data/rituales.ts       → landing page rituales (DEBE coincidir con bundles.json)
 src/data/posts.ts          → artículos blog × 7 idiomas
