@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 29/05/2026 — Sesión 16 (imágenes hero blog + regresión Tech & Meta corregida).
+> Actualizado: 02/06/2026 — Checkpoint automático 19:23h
 
 ---
 
@@ -584,3 +584,15 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 
 *Este fichero debe actualizarse al final de cada sesión.*
 *Commit mensaje: `docs: actualizar HANDOFF.md tras sesión X`*
+
+
+---
+
+### 📅 Checkpoint 02/06/2026
+
+**Actualización automática diaria — 19:23h**
+
+Últimos commits:
+- `d1e7028` fix(ritual): corregir handle del Ritual Para Él 1 L (typo rital -> ritual)
+- `9935a4e` feat(ritual): swapper de imagen sincronizado con el formato (Para Él)
+- `ce8d23e` fix(data): precios GBP de los 3 básicos desde tienda UK
