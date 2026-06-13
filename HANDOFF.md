@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 12/06/2026 — Checkpoint automático 23:55h
+> Actualizado: 13/06/2026 — Checkpoint automático 23:55h
 
 
 
@@ -726,3 +726,15 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 - `80aaa74` docs(handoff): checkpoint automático 11/06/2026 23:55h
 - `f847cc1` docs(handoff): checkpoint automático 10/06/2026 23:55h
 - `f734c26` docs(handoff): checkpoint automático 09/06/2026 23:55h
+
+
+---
+
+### 📅 Checkpoint 13/06/2026
+
+**Actualización automática diaria — 23:55h**
+
+Últimos commits:
+- `19d523c` docs(handoff): checkpoint automático 12/06/2026 23:55h
+- `80aaa74` docs(handoff): checkpoint automático 11/06/2026 23:55h
+- `f847cc1` docs(handoff): checkpoint automático 10/06/2026 23:55h
