@@ -8585,8 +8585,11 @@
       "basePriceGBP": 5.33,
       "inci": "Tensioactivos no iónicos < 5%, Tensioactivos aniónicos < 5%, Tensioactivos anfotéricos < 5%.",
       "ukFormatImages": {
-        "1L": "/images/products/uk/limpiador-banos-1l.jpg"
-      }
+        "1L": "/images/products/eu/limpiador-banos-1l.jpg",
+        "BiB 5L": "/images/products/eu/limpiador-banos-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/limpiador-banos-1l.jpg",
+      "catalogImage": "/images/products/eu/limpiador-banos-catalog.jpg"
     },
     {
       "id": "desengrasante",
