@@ -1307,6 +1307,7 @@
       ],
       "sensation": "Refugio",
       "includes": [
+        "limpiasuelos",
         "multisuperficies",
         "limpiacristales"
       ],
@@ -1320,76 +1321,76 @@
         "nameMain": "Ritual",
         "nameAccent": "Refugio",
         "slug": "refugio",
-        "subtitle": "Brillo limpio en todo el hogar, sin químicos agresivos. Cinco productos de origen natural al 96-99%.",
-        "shortDescription": "Limpiador multisuperficies y limpiacristales, ambos 97-99% de origen natural. Brillo limpio en todo el hogar.",
-        "longDescription": "El Ritual Refugio reúne el Limpiador Multisuperficies de origen natural y el Limpiacristales 99% de origen natural. El limpiador con perfume suave elimina marcas y huellas en encimeras, muebles y puertas con brillo sin rayas. El limpiacristales deja cristales y espejos sin velos ni marcas con una sola pulverización. Brillo limpio en todo el hogar, sin ingredientes agresivos.",
-        "story": "Cinco productos para toda la casa. La tranquilidad de saber que cada rincón está limpio, de forma natural y suave."
+        "subtitle": "Tres limpiadores de origen natural —suelos, multisuperficies y cristales— para un brillo limpio en toda la casa, sin químicos agresivos.",
+        "shortDescription": "Limpiasuelos, limpiador multisuperficies y limpiacristales, todos de origen natural. Brillo limpio en cada rincón del hogar.",
+        "longDescription": "El Ritual Refugio reúne tres limpiadores de origen natural: el limpiasuelos, el limpiador multisuperficies y el limpiacristales. El limpiasuelos deja los suelos limpios y con un aroma fresco; el multisuperficies elimina marcas y huellas en encimeras, muebles y puertas con brillo sin rayas; y el limpiacristales deja cristales y espejos sin velos ni marcas. Brillo limpio en todo el hogar, sin ingredientes agresivos.",
+        "story": "Tres productos para tener cada rincón de la casa limpio y reluciente, de forma natural y suave."
       },
       "en": {
         "name": "Ritual Sanctuary",
         "nameMain": "Ritual",
         "nameAccent": "Sanctuary",
         "slug": "shelter",
-        "subtitle": "The complete home care ritual — feel safe and cosy at home with of natural origin ingredients in every product.",
-        "shortDescription": "Floor cleaner, multi-surface cleaner, glass cleaner, degreaser and limescale remover. Complete home care with naturally derived ingredients.",
-        "longDescription": "The Sanctuary Ritual brings together the Multi-Surface Cleaner, Floor Cleaner, Glass Cleaner, Degreaser and Bathroom Cleaner. Five naturally derived products for every corner of the home. Plant-based surfactants, real essential oils and biodegradable formulas that leave no chemical residue. The complete home care kit, from kitchen to bathroom.",
+        "subtitle": "Three cleaners of natural origin —floor, multi-surface and glass— for a clean shine throughout the home, with no aggressive chemicals.",
+        "shortDescription": "Floor cleaner, multi-surface cleaner and glass cleaner, all of natural origin. A clean shine in every corner of the home.",
+        "longDescription": "The Sanctuary Ritual brings together three cleaners of natural origin: the floor cleaner, the multi-surface cleaner and the glass cleaner. The floor cleaner leaves floors clean with a fresh scent; the multi-surface cleaner removes marks and fingerprints on worktops, furniture and doors with a streak-free shine; and the glass cleaner leaves windows and mirrors free of film and marks. A clean shine throughout the home, with no aggressive ingredients.",
         "promise": "Your home, your sanctuary.",
-        "story": "Five products for the whole house. The calm of knowing every single corner is clean, naturally and gently."
+        "story": "Three products to keep every corner of the home clean and gleaming, naturally and gently."
       },
       "fr": {
         "name": "Ritual Refuge",
         "nameMain": "Rituel",
         "nameAccent": "Refuge",
         "slug": "refuge",
-        "subtitle": "Le rituel soin complet de la maison — se sentir en sécurité chez soi grâce à des ingrédients naturels.",
-        "shortDescription": "Nettoyant sol, multi-surfaces, vitres, dégraissant et anticalcaire. Le soin complet de la maison aux ingrédients d'origine naturelle.",
-        "longDescription": "Le Ritual Refuge: le Rituel Refuge réunit le Nettoyant Multi-Surfaces, le Nettoyant Sols, le Nettoyant Vitres, le Dégraissant et le Nettoyant Salle de Bain. Cinq produits d'origine naturelle pour chaque coin de la maison. Tensioactifs végétaux, huiles essentielles réelles et formules biodégradables sans résidus chimiques.",
+        "subtitle": "Trois nettoyants d'origine naturelle —sols, multisurfaces et vitres— pour un éclat propre dans toute la maison, sans produits agressifs.",
+        "shortDescription": "Nettoyant sols, nettoyant multisurfaces et nettoyant vitres, tous d'origine naturelle. Un éclat propre dans chaque coin de la maison.",
+        "longDescription": "Le Rituel Refuge réunit trois nettoyants d'origine naturelle : le nettoyant sols, le nettoyant multisurfaces et le nettoyant vitres. Le nettoyant sols laisse les sols propres et parfumés ; le multisurfaces élimine marques et traces sur les plans de travail, meubles et portes, sans laisser de traces ; et le nettoyant vitres laisse vitres et miroirs sans voile ni marque. Un éclat propre dans toute la maison, sans ingrédients agressifs.",
         "promise": "Votre maison, votre refuge.",
-        "story": "Cinq produits pour toute la maison. La tranquillité de savoir que chaque recoin est propre, naturellement."
+        "story": "Trois produits pour garder chaque coin de la maison propre et éclatant, naturellement et en douceur."
       },
       "de": {
         "name": "Ritual Geborgenheit",
         "nameMain": "Ritual",
         "nameAccent": "Geborgenheit",
         "slug": "zuflucht",
-        "subtitle": "Das vollständige Hauspflegeritual — sich zu Hause geborgen fühlen mit natürlichen Ursprungs Inhaltsstoffen überall.",
-        "shortDescription": "Bodenreiniger, Allzweckreiniger, Glasreiniger, Entfetter und Kalkentferner. Vollständige Hauspflege mit natürlichen Ursprungs gewonnenen Inhaltsstoffen.",
-        "longDescription": "Das Ritual Geborgenheit vereint den Allzweckreiniger, Bodenreiniger, Glasreiniger, Fettlöser und Badreiniger. Fünf natürlichen Ursprungs gewonnene Produkte für jeden Winkel des Hauses. Pflanzliche Tenside, echte ätherische Öle und biologisch abbaubare Formeln ohne chemische Rückstände.",
+        "subtitle": "Drei Reiniger natürlichen Ursprungs —Boden, Allzweck und Glas— für sauberen Glanz im ganzen Zuhause, ohne aggressive Chemie.",
+        "shortDescription": "Bodenreiniger, Allzweckreiniger und Glasreiniger, alle natürlichen Ursprungs. Sauberer Glanz in jeder Ecke des Zuhauses.",
+        "longDescription": "Das Ritual Geborgenheit vereint drei Reiniger natürlichen Ursprungs: den Bodenreiniger, den Allzweckreiniger und den Glasreiniger. Der Bodenreiniger hinterlässt saubere, frisch duftende Böden; der Allzweckreiniger entfernt Flecken und Fingerabdrücke auf Arbeitsplatten, Möbeln und Türen streifenfrei; und der Glasreiniger lässt Fenster und Spiegel ohne Schleier und Flecken. Sauberer Glanz im ganzen Zuhause, ohne aggressive Inhaltsstoffe.",
         "promise": "Dein Zuhause, deine Geborgenheit.",
-        "story": "Fünf Produkte für das ganze Haus. Die Ruhe zu wissen, dass jede Ecke sauber ist, natürlich und sanft gepflegt."
+        "story": "Drei Produkte, um jede Ecke des Zuhauses sauber und glänzend zu halten — natürlich und sanft."
       },
       "it": {
         "name": "Ritual Rifugio",
         "nameMain": "Rituale",
         "nameAccent": "Rifugio",
         "slug": "rifugio",
-        "subtitle": "Il rituale completo per la cura della casa — sentirsi al sicuro con ingredienti di origine naturale in ogni prodotto. Prodotto di origine naturale artigianale dall'Andalusia.",
-        "shortDescription": "Detergente pavimenti, multi-superficie, vetri, sgrassatore e anticalcare. Cura completa della casa con ingredienti di origine naturale.",
-        "longDescription": "Il Rituale Rifugio riunisce il Detergente Multisuperficie, Detergente Pavimenti, Detergente Vetri, Sgrassatore e Detergente Bagno. Cinque prodotti di origine naturale per ogni angolo della casa. Tensioattivi vegetali, oli essenziali reali e formule biodegradabili senza residui chimici.",
+        "subtitle": "Tre detergenti di origine naturale —pavimenti, multisuperfici e vetri— per una pulizia brillante in tutta la casa, senza sostanze aggressive.",
+        "shortDescription": "Detergente per pavimenti, multisuperfici e vetri, tutti di origine naturale. Pulizia brillante in ogni angolo della casa.",
+        "longDescription": "Il Rituale Rifugio riunisce tre detergenti di origine naturale: il detergente per pavimenti, il multisuperfici e il detergente per vetri. Il detergente per pavimenti lascia i pavimenti puliti e profumati; il multisuperfici elimina segni e impronte su piani, mobili e porte senza aloni; e il detergente per vetri lascia vetri e specchi senza veli né segni. Pulizia brillante in tutta la casa, senza ingredienti aggressivi.",
         "promise": "La tua casa, il tuo rifugio.",
-        "story": "Cinque prodotti per tutta la casa. La tranquillità di sapere che ogni angolo è pulito, naturalmente."
+        "story": "Tre prodotti per mantenere ogni angolo della casa pulito e splendente, in modo naturale e delicato."
       },
       "nl": {
         "name": "Ritual Toevlucht",
         "nameMain": "Ritueel",
         "nameAccent": "Toevlucht",
         "slug": "toevlucht",
-        "subtitle": "Het complete huisverzorgingsritueel — je veilig en geborgen voelen thuis met de kracht van de natuur.",
-        "shortDescription": "Vloerreiniger, allesreiniger, glasreiniger, ontvetter en kalkreiniger. Complete huisverzorging met van natuurlijke oorsprong gewonnen ingrediënten.",
-        "longDescription": "Het Ritual Toevlucht: het Ritueel Geborgenheid verenigt de Allesreiniger, Vloerreiniger, Glasreiniger, Ontvetter en Badkamerreiniger. Vijf van natuurlijke oorsprong gewonnen producten voor elke hoek van het huis. Plantaardige oppervlakteactieve stoffen, echte essentiële oliën en biologisch afbreekbare formules zonder chemische residuen.",
+        "subtitle": "Drie reinigers van natuurlijke oorsprong —vloer, allesreiniger en glas— voor een schone glans in huis, zonder agressieve middelen.",
+        "shortDescription": "Vloerreiniger, allesreiniger en glasreiniger, allemaal van natuurlijke oorsprong. Een schone glans in elke hoek van het huis.",
+        "longDescription": "Het Ritueel Toevlucht brengt drie reinigers van natuurlijke oorsprong samen: de vloerreiniger, de allesreiniger en de glasreiniger. De vloerreiniger laat vloeren schoon en fris achter; de allesreiniger verwijdert vlekken en vingerafdrukken op werkbladen, meubels en deuren zonder strepen; en de glasreiniger laat ramen en spiegels zonder waas of vlekken. Een schone glans in huis, zonder agressieve ingrediënten.",
         "promise": "Jouw huis, jouw geborgenheid.",
-        "story": "Vijf producten voor het hele huis. De rust van weten dat elke hoek schoon is, natuurlijk en zacht verzorgd."
+        "story": "Drie producten om elke hoek van het huis schoon en glanzend te houden, natuurlijk en zacht."
       },
       "pt": {
         "name": "Ritual Refúgio",
         "nameMain": "Ritual",
         "nameAccent": "Refúgio",
         "slug": "refugio",
-        "subtitle": "O ritual completo de cuidado do lar — sentir-se seguro e acolhido em casa com ingredientes completamente de origem natural.",
-        "shortDescription": "Limpa-chão, multiusos, limpa-vidros, desengordurante e anticalcário. Cuidado completo do lar com ingredientes de origem natural.",
-        "longDescription": "O Ritual Refúgio reúne o Detergente Multisuperfícies, Detergente de Chão, Limpa Vidros, Desengordurante e Detergente Casa de Banho. Cinco produtos de origem natural para cada canto da casa. Tensioativos vegetais, óleos essenciais reais e fórmulas biodegradáveis sem resíduos químicos.",
+        "subtitle": "Três limpadores de origem natural —chão, multissuperfícies e vidros— para um brilho limpo em toda a casa, sem produtos agressivos.",
+        "shortDescription": "Limpa-chão, limpador multissuperfícies e limpa-vidros, todos de origem natural. Um brilho limpo em cada canto do lar.",
+        "longDescription": "O Ritual Refúgio reúne três limpadores de origem natural: o limpa-chão, o limpador multissuperfícies e o limpa-vidros. O limpa-chão deixa os chãos limpos e perfumados; o multissuperfícies elimina marcas e dedadas em bancadas, móveis e portas sem deixar riscos; e o limpa-vidros deixa vidros e espelhos sem véus nem marcas. Um brilho limpo em toda a casa, sem ingredientes agressivos.",
         "promise": "A sua casa, o seu refúgio.",
-        "story": "Cinco produtos para toda a casa. A tranquilidade de saber que cada canto está limpo, de forma natural e suave."
+        "story": "Três produtos para manter cada canto da casa limpo e reluzente, de forma natural e suave."
       }
     },
     {
