@@ -10,7 +10,7 @@ interface Props { region: Region; locale: Locale; }
 
 const IMG: Record<number, string> = {
   12: '/images/landing/card-12.jpg',
-  6: '/images/landing/card-6.jpg',
+  6: '/images/landing/card-6-tema.jpg',
   7: '/images/landing/card-7.jpg',
   8: '/images/landing/card-8.jpg',
   9: '/images/landing/card-9.jpg',

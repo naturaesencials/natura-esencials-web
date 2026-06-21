@@ -60,7 +60,7 @@ const SECTIONS: Array<{
     color: 'text-azul',
     borderColor: 'border-azul',
     img: {
-      6: '/images/landing/card-6.jpg',
+      6: '/images/landing/card-6-tema.jpg',
       7: '/images/landing/card-7.jpg',
       8: '/images/landing/card-8.jpg',
       9: '/images/landing/card-9.jpg',

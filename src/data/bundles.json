@@ -1397,7 +1397,9 @@
         "longDescription": "O Ritual Refúgio reúne três limpadores de origem natural: o limpa-chão, o limpador multissuperfícies e o limpa-vidros. O limpa-chão deixa os chãos limpos e perfumados; o multissuperfícies elimina marcas e dedadas em bancadas, móveis e portas sem deixar riscos; e o limpa-vidros deixa vidros e espelhos sem véus nem marcas. Um brilho limpo em toda a casa, sem ingredientes agressivos.",
         "promise": "A sua casa, o seu refúgio.",
         "story": "Três produtos para manter cada canto da casa limpo e reluzente, de forma natural e suave."
-      }
+      },
+      "primaryImage": "/images/bundles/eu/ritual-refugio-tema.jpg",
+      "catalogImage": "/images/bundles/eu/ritual-refugio-tema.jpg"
     },
     {
       "id": "ritual-gato-zen",
