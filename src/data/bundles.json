@@ -335,8 +335,8 @@
         "1 L": "ritual-perfect-shower-1-ltr"
       },
       "basePriceGBP": 16.17,
-      "primaryImage": "/images/bundles/eu/ritual-ducha-perfecta-300-tema.jpg",
-      "catalogImage": "/images/bundles/eu/ritual-ducha-perfecta-300-tema.jpg"
+      "primaryImage": "/images/bundles/eu/ritual-ducha-perfecta-set.jpg",
+      "catalogImage": "/images/bundles/eu/ritual-ducha-perfecta-set.jpg"
     },
     {
       "id": "ritual-ducha-perfecta-1l",
@@ -444,7 +444,9 @@
         "longDescription": "Os mesmos produtos do Ritual Duche Perfeito em grande formato: poupança e menos desperdício.",
         "story": "Champô 2 em 1, sabão e body milk em 1 litro: prático, eficiente e sem interrupção."
       },
-      "basePriceGBP": 30.1
+      "basePriceGBP": 30.1,
+      "primaryImage": "/images/bundles/eu/ritual-ducha-perfecta-set.jpg",
+      "catalogImage": "/images/bundles/eu/ritual-ducha-perfecta-set.jpg"
     },
     {
       "id": "ritual-rendimiento-300",
