@@ -302,12 +302,14 @@
         "aiTranslation": true
       },
       "ukFormatImages": {
-        "300ml": "/images/products/uk/champu-2-en-1-300ml.jpg",
-        "1L": "/images/products/uk/champu-2-en-1-1l.jpg",
-        "BiB 5L": "/images/products/uk/champu-2-en-1-1l.jpg"
+        "300ml": "/images/products/eu/champu-2-en-1-300ml.jpg",
+        "1L": "/images/products/eu/champu-2-en-1-1l.jpg",
+        "BiB 5L": "/images/products/eu/champu-2-en-1-1l.jpg"
       },
       "basePriceEUR": 6.3,
-      "basePriceGBP": 6.3
+      "basePriceGBP": 6.3,
+      "primaryImage": "/images/products/eu/champu-2-en-1-300ml.jpg",
+      "catalogImage": "/images/products/eu/champu-2-en-1-catalog.jpg"
     },
     {
       "id": "acondicionador-capilar",
@@ -611,12 +613,14 @@
         "aiTranslation": true
       },
       "ukFormatImages": {
-        "300ml": "/images/products/uk/acondicionador-capilar-300ml.jpg",
-        "1L": "/images/products/uk/acondicionador-capilar-1l.jpg",
-        "BiB 5L": "/images/products/uk/acondicionador-capilar-1l.jpg"
+        "300ml": "/images/products/eu/acondicionador-capilar-300ml.jpg",
+        "1L": "/images/products/eu/acondicionador-capilar-1l.jpg",
+        "BiB 5L": "/images/products/eu/acondicionador-capilar-1l.jpg"
       },
       "basePriceEUR": 7.3,
-      "basePriceGBP": 7.2
+      "basePriceGBP": 7.2,
+      "primaryImage": "/images/products/eu/acondicionador-capilar-300ml.jpg",
+      "catalogImage": "/images/products/eu/acondicionador-capilar-catalog.jpg"
     },
     {
       "id": "jabon-manos-cuerpo",
@@ -920,10 +924,12 @@
       "basePriceGBP": 5.42,
       "inci": "Aqua, Olea Europaea Fruit Oil, Glycerin, Potassium Hydroxide, Cocos Nucifera Oil, Aloe Barbadensis Leaf Juice, Melaleuca Alternifolia Leaf Oil, Cymbopogon Citratus Leaf Oil, Lavandula Hybrida Grosso Herb Oil, Citrus Aurantium Amara Leaf/Twig Oil, Pogostemon Cablin Leaf Oil, Potassium Carbonate, Citric Acid, Potassium Sorbate, Sodium Gluconate, Sodium Chloride, Citral, Linalool, Geraniol.",
       "ukFormatImages": {
-        "300ml": "/images/products/uk/jabon-manos-cuerpo-300ml.jpg",
-        "1L": "/images/products/uk/jabon-manos-cuerpo-1l.jpg",
-        "BiB 5L": "/images/products/uk/jabon-manos-cuerpo-1l.jpg"
-      }
+        "300ml": "/images/products/eu/jabon-manos-cuerpo-300ml.jpg",
+        "1L": "/images/products/eu/jabon-manos-cuerpo-1l.jpg",
+        "BiB 5L": "/images/products/eu/jabon-manos-cuerpo-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/jabon-manos-cuerpo-300ml.jpg",
+      "catalogImage": "/images/products/eu/jabon-manos-cuerpo-catalog.jpg"
     },
     {
       "id": "body-milk",
@@ -1228,10 +1234,12 @@
       "basePriceEUR": 8.4,
       "basePriceGBP": 7.22,
       "ukFormatImages": {
-        "300ml": "/images/products/uk/body-milk-300ml.jpg",
-        "1L": "/images/products/uk/body-milk-1l.jpg",
-        "BiB 5L": "/images/products/uk/body-milk-1l.jpg"
-      }
+        "300ml": "/images/products/eu/body-milk-300ml.jpg",
+        "1L": "/images/products/eu/body-milk-1l.jpg",
+        "BiB 5L": "/images/products/eu/body-milk-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/body-milk-300ml.jpg",
+      "catalogImage": "/images/products/eu/body-milk-catalog.jpg"
     },
     {
       "id": "total-body-wash",
@@ -1534,12 +1542,14 @@
         "aiTranslation": true
       },
       "ukFormatImages": {
-        "300ml": "/images/products/uk/total-body-wash-300ml.jpg",
-        "1L": "/images/products/uk/total-body-wash-1l.jpg",
-        "BiB 5L": "/images/products/uk/total-body-wash-1l.jpg"
+        "300ml": "/images/products/eu/total-body-wash-300ml.jpg",
+        "1L": "/images/products/eu/total-body-wash-1l.jpg",
+        "BiB 5L": "/images/products/eu/total-body-wash-1l.jpg"
       },
       "basePriceEUR": 6.3,
-      "basePriceGBP": 6.3
+      "basePriceGBP": 6.3,
+      "primaryImage": "/images/products/eu/total-body-wash-300ml.jpg",
+      "catalogImage": "/images/products/eu/total-body-wash-catalog.jpg"
     },
     {
       "id": "champu-hombre",
@@ -6777,9 +6787,11 @@
       "basePriceGBP": 7.4,
       "inci": "Jabón < 5%, Tensioactivos no iónicos 5–15%, Tensioactivos aniónicos < 5%, Conservantes (Benzisothiazolinone, Methylisothiazolinone), Fragancias alergénicas (Tetramethyl Acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Citronellol, Coumarin, Limonene, Lavandula Hybrida Extract, Citrus Aurantium Amara Peel Oil, Linalool).",
       "ukFormatImages": {
-        "1L": "/images/products/uk/detergente-ropa-1l.jpg",
-        "BiB 5L": "/images/products/uk/detergente-ropa-1l.jpg"
-      }
+        "1L": "/images/products/eu/detergente-ropa-1l.jpg",
+        "BiB 5L": "/images/products/eu/detergente-ropa-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/detergente-ropa-1l.jpg",
+      "catalogImage": "/images/products/eu/detergente-ropa-catalog.jpg"
     },
     {
       "id": "suavizante-ropa",
@@ -7089,9 +7101,11 @@
       "basePriceGBP": 5.68,
       "inci": "Tensioactivos catiónicos 5–15%, Conservantes (Phenoxyethanol), Fragancias alergénicas (Tetramethyl Acetyloctahydronaphthalenes, Hexamethylindanopyran, Linalyl Acetate, Citronellol, Coumarin, Limonene, Lavandula Hybrida Extract, Citrus Aurantium Amara Flower Extract, Linalool, Pogostemon Cablin Leaf Oil).",
       "ukFormatImages": {
-        "1L": "/images/products/uk/suavizante-ropa-1l.jpg",
-        "BiB 5L": "/images/products/uk/suavizante-ropa-1l.jpg"
-      }
+        "1L": "/images/products/eu/suavizante-ropa-1l.jpg",
+        "BiB 5L": "/images/products/eu/suavizante-ropa-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/suavizante-ropa-1l.jpg",
+      "catalogImage": "/images/products/eu/suavizante-ropa-catalog.jpg"
     },
     {
       "id": "lavavajillas-manual",
@@ -7397,9 +7411,11 @@
       "basePriceGBP": 5.42,
       "inci": "Tensioactivos aniónicos 5–15%, Tensioactivos no iónicos < 5%, Tensioactivos anfotéricos < 5%, Fragancias alergénicas (Citral), Conservantes (Benzisothiazolinone, Methylisothiazolinone).",
       "ukFormatImages": {
-        "1L": "/images/products/uk/lavavajillas-manual-1l.jpg",
-        "BiB 5L": "/images/products/uk/lavavajillas-manual-1l.jpg"
-      }
+        "1L": "/images/products/eu/lavavajillas-manual-1l.jpg",
+        "BiB 5L": "/images/products/eu/lavavajillas-manual-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/lavavajillas-manual-1l.jpg",
+      "catalogImage": "/images/products/eu/lavavajillas-manual-catalog.jpg"
     },
     {
       "id": "lavavajillas-maquina",
@@ -7688,9 +7704,11 @@
       "basePriceGBP": 6.71,
       "inci": "Tensioactivos no iónicos < 5%.",
       "ukFormatImages": {
-        "1L": "/images/products/uk/lavavajillas-maquina-1l.jpg",
-        "BiB 5L": "/images/products/uk/lavavajillas-maquina-1l.jpg"
-      }
+        "1L": "/images/products/eu/lavavajillas-maquina-1l.jpg",
+        "BiB 5L": "/images/products/eu/lavavajillas-maquina-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/lavavajillas-maquina-1l.jpg",
+      "catalogImage": "/images/products/eu/lavavajillas-maquina-catalog.jpg"
     },
     {
       "id": "abrillantador",
@@ -7979,9 +7997,11 @@
       "basePriceGBP": 4.9,
       "inci": "Tensioactivos no iónicos < 5%, Etanol 5–10%, Undecanol ramificado y lineal etoxilado propoxilado (≥2,5 moles EO/PO) 1–2,5%.",
       "ukFormatImages": {
-        "1L": "/images/products/uk/abrillantador-1l.jpg",
-        "BiB 5L": "/images/products/uk/abrillantador-1l.jpg"
-      }
+        "1L": "/images/products/eu/abrillantador-catalog.jpg",
+        "BiB 5L": "/images/products/eu/abrillantador-catalog.jpg"
+      },
+      "primaryImage": "/images/products/eu/abrillantador-catalog.jpg",
+      "catalogImage": "/images/products/eu/abrillantador-catalog.jpg"
     },
     {
       "id": "limpiasuelos",
@@ -8276,9 +8296,11 @@
       "basePriceGBP": 5.16,
       "inci": "Tensioactivos aniónicos < 5%, Tensioactivos no iónicos < 5%, Perfumes (Alpha-Isomethyl Ionone, Hexyl Cinnamal, Citronellol, Linalool), Conservantes (Benzisothiazolinone, Methylisothiazolinone).",
       "ukFormatImages": {
-        "1L": "/images/products/uk/limpiasuelos-1l.jpg",
-        "BiB 5L": "/images/products/uk/limpiasuelos-1l.jpg"
-      }
+        "1L": "/images/products/eu/limpiasuelos-1l.jpg",
+        "BiB 5L": "/images/products/eu/limpiasuelos-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/limpiasuelos-1l.jpg",
+      "catalogImage": "/images/products/eu/limpiasuelos-catalog.jpg"
     },
     {
       "id": "limpiador-banos",
@@ -8866,9 +8888,11 @@
       "basePriceGBP": 4.13,
       "inci": "Tensioactivos no iónicos < 5%.",
       "ukFormatImages": {
-        "1L": "/images/products/uk/desengrasante-1l.jpg",
-        "BiB 5L": "/images/products/uk/desengrasante-1l.jpg"
-      }
+        "1L": "/images/products/eu/desengrasante-1l.jpg",
+        "BiB 5L": "/images/products/eu/desengrasante-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/desengrasante-1l.jpg",
+      "catalogImage": "/images/products/eu/desengrasante-catalog.jpg"
     },
     {
       "id": "multisuperficies",
@@ -9151,9 +9175,11 @@
       "basePriceGBP": 5.33,
       "inci": "Tensioactivos aniónicos < 5%, Tensioactivos no iónicos < 5%, Conservantes (Benzisothiazolinone, Methylisothiazolinone), Fragancias alergénicas (Citral, Limonene).",
       "ukFormatImages": {
-        "1L": "/images/products/uk/multisuperficies-1l.jpg",
-        "BiB 5L": "/images/products/uk/multisuperficies-1l.jpg"
-      }
+        "1L": "/images/products/eu/multisuperficies-1l.jpg",
+        "BiB 5L": "/images/products/eu/multisuperficies-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/multisuperficies-1l.jpg",
+      "catalogImage": "/images/products/eu/multisuperficies-catalog.jpg"
     },
     {
       "id": "limpiacristales",
@@ -9442,9 +9468,11 @@
       "basePriceGBP": 5.07,
       "inci": "Conservantes (Benzisothiazolinone, Methylisothiazolinone).",
       "ukFormatImages": {
-        "1L": "/images/products/uk/limpiacristales-1l.jpg",
-        "BiB 5L": "/images/products/uk/limpiacristales-1l.jpg"
-      }
+        "1L": "/images/products/eu/limpiacristales-1l.jpg",
+        "BiB 5L": "/images/products/eu/limpiacristales-1l.jpg"
+      },
+      "primaryImage": "/images/products/eu/limpiacristales-1l.jpg",
+      "catalogImage": "/images/products/eu/limpiacristales-catalog.jpg"
     },
     {
       "id": "champu-perros",
@@ -9738,7 +9766,9 @@
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42,
-      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaina, Coco-Glucoside, Glycerin, Sodium Chloride, Phenylpropanol, Argania Spinosa Kernel Oil, Ocimum Basilicum Flower/Leaf/Steam Extract, Mentha Piperita Extract, Thymus Vulgaris Extract, Faex Extract, Hydrolyzed Keratin, Glycosaminoglycams, Niacinamide, Panthenol, Riboflavin, Pyridoxine HCL, Inositol, Biotin, Thiamine HCL, Cyanocobalamin, Guar Hydroxypropyltrimonium Chloride, 1,2-Hexanediol, PEG-90 Glyceryl Isostearate, Laureth-2, Quaternium-80, Potassium Sorbate, Citric Acid, Sodium Gluconate, Parfum, Linalool, Citronellol, Alpha-Isomethyl Ionone, Hexyl Cinnamal."
+      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaina, Coco-Glucoside, Glycerin, Sodium Chloride, Phenylpropanol, Argania Spinosa Kernel Oil, Ocimum Basilicum Flower/Leaf/Steam Extract, Mentha Piperita Extract, Thymus Vulgaris Extract, Faex Extract, Hydrolyzed Keratin, Glycosaminoglycams, Niacinamide, Panthenol, Riboflavin, Pyridoxine HCL, Inositol, Biotin, Thiamine HCL, Cyanocobalamin, Guar Hydroxypropyltrimonium Chloride, 1,2-Hexanediol, PEG-90 Glyceryl Isostearate, Laureth-2, Quaternium-80, Potassium Sorbate, Citric Acid, Sodium Gluconate, Parfum, Linalool, Citronellol, Alpha-Isomethyl Ionone, Hexyl Cinnamal.",
+      "primaryImage": "/images/products/eu/champu-perros-300ml.jpg",
+      "catalogImage": "/images/products/eu/champu-perros-catalog.jpg"
     },
     {
       "id": "champu-gatos",
@@ -10030,7 +10060,9 @@
       },
       "basePriceEUR": 6.3,
       "basePriceGBP": 5.42,
-      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Glycerin, Sodium Chloride, Phenylpropanol, Argania Spinosa Kernel Oil, Guar Hydroxypropyltrimonium Chloride, Hexylene Glycol, Capryloylglycine, Xylitylglucoside, 1,2-Hexanediol, PEG-90 Glyceryl Isostearate, Laureth-2, Citric Acid, Sodium Gluconate, Parfum, Hexyl Cinnamal, Limonene."
+      "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Coco-Glucoside, Glycerin, Sodium Chloride, Phenylpropanol, Argania Spinosa Kernel Oil, Guar Hydroxypropyltrimonium Chloride, Hexylene Glycol, Capryloylglycine, Xylitylglucoside, 1,2-Hexanediol, PEG-90 Glyceryl Isostearate, Laureth-2, Citric Acid, Sodium Gluconate, Parfum, Hexyl Cinnamal, Limonene.",
+      "primaryImage": "/images/products/eu/champu-gatos-300ml.jpg",
+      "catalogImage": "/images/products/eu/champu-gatos-catalog.jpg"
     },
     {
       "id": "limpiador-oidos-mascotas",
@@ -10321,7 +10353,9 @@
         "usage": "Aplicar algumas gotas no canal auditivo, massajar a base da orelha e deixar o animal sacudir a cabeça. Retirar o excesso com gaze."
       },
       "inci": "Aqua, Glycerin, Coco-Glucoside, Melaleuca Alternifolia Leaf Oil, Tocopherol, Acacia Senegal Gum, Xanthan Gum, PEG-40 Hydrogenated Castor Oil, Polysorbate 20, Disodium EDTA, Phenylpropanol, 1,2-Hexanediol, Citric Acid.",
-      "basePriceEUR": 5.9
+      "basePriceEUR": 5.9,
+      "primaryImage": "/images/products/eu/limpiador-oidos-mascotas-300ml.jpg",
+      "catalogImage": "/images/products/eu/limpiador-oidos-mascotas-catalog.jpg"
     },
     {
       "id": "limpiador-ojos-mascotas",
@@ -10612,7 +10646,9 @@
         "usage": "Aplicar algumas gotas em algodão limpo e limpar suavemente o contorno do olho de dentro para fora."
       },
       "inci": "Aqua, Foeniculum Vulgare Fruit Extract, Humulus Lupulus Extract, Melissa Officinalis Leaf Extract, Viscum Album Leaf Extract, Chamomilla Recutita Flower Extract, Achillea Milefolium Extract, Urea, Allantoin, Alcohol Denat, Coco-Glucoside, Phenylpropanol, 1,2-Hexanediol, Diethyl Phthalate, Citric Acid.",
-      "basePriceEUR": 5.9
+      "basePriceEUR": 5.9,
+      "primaryImage": "/images/products/eu/limpiador-ojos-mascotas-300ml.jpg",
+      "catalogImage": "/images/products/eu/limpiador-ojos-mascotas-catalog.jpg"
     },
     {
       "id": "spray-mente-serena",

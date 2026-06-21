@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // ─── Configuración de secciones ───────────────────────────────────────────────
 
 const SECTIONS: Array<{
-  line: 'cosmetica' | 'hogar' | 'mascota';
+  line: 'cosmetica' | 'hogar' | 'mascota' | 'verano';
   color: string;
   borderColor: string;
   img: Record<number, string>;
@@ -86,6 +86,19 @@ const SECTIONS: Array<{
               it: 'Igiene naturale per cani e gatti', nl: 'Natuurlijke hygiëne voor honden en katten',
               pt: 'Higiene natural para cães e gatos' },
   },
+  {
+    line: 'verano',
+    color: 'text-citrico',
+    borderColor: 'border-citrico',
+    img: {
+      13: '/images/bundles/eu/ritual-verano.jpg',
+    },
+    titles: { es: 'Edición Limitada', en: 'Limited Edition', fr: 'Édition Limitée', de: 'Limitierte Edition', it: 'Edizione Limitata', nl: 'Beperkte Editie', pt: 'Edição Limitada' },
+    subs:   { es: 'El verano andaluz en cinco esenciales — cuerpo, cabello y hogar', en: 'Andalusian summer in five essentials — body, hair and home',
+              fr: "L'été andalou en cinq essentiels — corps, cheveux et maison", de: 'Der andalusische Sommer in fünf Essentials — Körper, Haar und Zuhause',
+              it: "L'estate andalusa in cinque essenziali — corpo, capelli e casa", nl: 'De Andalusische zomer in vijf essentials — lichaam, haar en huis',
+              pt: 'O verão andaluz em cinco essenciais — corpo, cabelo e lar' },
+  },
 ];
 
 const VISIBLE_SLUGS = new Set(
@@ -139,7 +152,7 @@ function RitualCard({
           <h3 className="font-display text-[clamp(18px,2vw,22px)] leading-[1.1] tracking-[-0.01em]">
             {name.main}{name.accent && <> <em className={`font-display-italic ${color}`}>{name.accent}</em></>}
           </h3>
-          <span className="shrink-0 font-caption text-base text-ink">{symbol}{price}</span>
+          <span className="shrink-0 font-caption text-base text-ink">{price ? `${symbol}${price}` : ''}</span>
         </div>
         <p className="text-[12px] leading-[1.65] text-graphite line-clamp-2">
           {ritual.subtitles?.[locale] ?? ''}

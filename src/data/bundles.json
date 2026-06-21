@@ -1598,6 +1598,110 @@
       },
       "primaryImage": "/images/landing/card-10.jpg",
       "basePriceGBP": 13.5
+    },
+    {
+      "id": "ritual-verano",
+      "line": "verano",
+      "shopifyHandle": "ritual-verano",
+      "availableIn": [
+        "eu"
+      ],
+      "sensation": "Frescor",
+      "includes": [
+        "champu-verano-2en1",
+        "gel-manos-cuerpo-verano",
+        "multisuperficies-verano",
+        "limpiasuelos-verano",
+        "lavavajillas-verano"
+      ],
+      "format": "1 L",
+      "visible": true,
+      "basePriceEUR": 0,
+      "primaryImage": "/images/bundles/eu/ritual-verano.jpg",
+      "catalogImage": "/images/bundles/eu/ritual-verano-catalog.jpg",
+      "es": {
+        "name": "Ritual Verano",
+        "nameMain": "Ritual",
+        "nameAccent": "Verano",
+        "subtitle": "La edición limitada del verano: cinco productos de origen natural con aroma cítrico de mango y lima para el cuerpo, el cabello y toda la casa. Artesanía andaluza de Marbella.",
+        "shortDescription": "Cinco esenciales de verano —champú, gel, multisuperficies, limpiasuelos y lavavajillas— con frescor cítrico de origen natural.",
+        "longDescription": "El Ritual Verano reúne los cinco productos de la Edición Limitada: champú 2 en 1, gel de manos y cuerpo, limpiador multisuperficies, limpiasuelos y lavavajillas. Todos comparten el aroma cítrico de mango y lima del verano andaluz y una formulación de origen natural certificada ISO 16128. Cuidado personal y limpieza del hogar reunidos en un único ritual fresco, fabricado a mano en Marbella.",
+        "promise": "El frescor del verano andaluz, de la piel a la casa.",
+        "story": "Cinco productos cítricos de edición limitada para llevar el verano de Marbella a cada gesto del día, del cabello a la cocina.",
+        "slug": "verano"
+      },
+      "en": {
+        "name": "Summer Ritual",
+        "nameMain": "Ritual",
+        "nameAccent": "Summer",
+        "aiTranslation": true,
+        "subtitle": "The summer limited edition: five products of natural origin with a citrus mango and lime scent for body, hair and the whole home. Andalusian craft from Marbella.",
+        "shortDescription": "Five summer essentials —shampoo, body wash, multi-surface, floor and dish cleaner— with naturally derived citrus freshness.",
+        "longDescription": "The Summer Ritual brings together the five products of the Limited Edition: 2-in-1 shampoo, hand and body wash, multi-surface cleaner, floor cleaner and dish soap. All share the citrus mango and lime scent of the Andalusian summer and a natural-origin formulation certified to ISO 16128. Personal care and home cleaning in a single fresh ritual, handcrafted in Marbella.",
+        "promise": "Andalusian summer freshness, from skin to home.",
+        "story": "Five limited-edition citrus products to carry the Marbella summer into every gesture of the day, from hair to kitchen.",
+        "slug": "summer"
+      },
+      "fr": {
+        "name": "Rituel Été",
+        "nameMain": "Rituel",
+        "nameAccent": "Été",
+        "aiTranslation": true,
+        "subtitle": "L'édition limitée de l'été : cinq produits d'origine naturelle au parfum d'agrumes, mangue et citron vert, pour le corps, les cheveux et toute la maison. Artisanat andalou de Marbella.",
+        "shortDescription": "Cinq essentiels d'été —shampoing, gel, multisurfaces, sol et vaisselle— à la fraîcheur d'agrumes d'origine naturelle.",
+        "longDescription": "Le Rituel Été réunit les cinq produits de l'Édition Limitée : shampoing 2 en 1, gel mains et corps, nettoyant multisurfaces, nettoyant sol et liquide vaisselle. Tous partagent le parfum d'agrumes, mangue et citron vert de l'été andalou et une formulation d'origine naturelle certifiée ISO 16128. Soin personnel et entretien de la maison réunis dans un seul rituel frais, fabriqué à la main à Marbella.",
+        "promise": "La fraîcheur de l'été andalou, de la peau à la maison.",
+        "story": "Cinq produits aux agrumes en édition limitée pour porter l'été de Marbella dans chaque geste du jour, des cheveux à la cuisine.",
+        "slug": "ete"
+      },
+      "de": {
+        "name": "Ritual Sommer",
+        "nameMain": "Ritual",
+        "nameAccent": "Sommer",
+        "aiTranslation": true,
+        "subtitle": "Die limitierte Sommeredition: fünf Produkte natürlichen Ursprungs mit zitrischem Mango-Limetten-Duft für Körper, Haar und das ganze Zuhause. Andalusische Handwerkskunst aus Marbella.",
+        "shortDescription": "Fünf Sommer-Essentials —Shampoo, Waschgel, Allzweck-, Boden- und Spülmittelreiniger— mit zitrischer Frische natürlichen Ursprungs.",
+        "longDescription": "Das Ritual Sommer vereint die fünf Produkte der Limitierten Edition: 2-in-1-Shampoo, Hand- und Körpergel, Allzweckreiniger, Bodenreiniger und Spülmittel. Alle teilen den zitrischen Mango-Limetten-Duft des andalusischen Sommers und eine Formulierung natürlichen Ursprungs, zertifiziert nach ISO 16128. Körperpflege und Haushaltsreinigung in einem einzigen frischen Ritual, handgefertigt in Marbella.",
+        "promise": "Die Frische des andalusischen Sommers, von der Haut bis ins Zuhause.",
+        "story": "Fünf zitrische Produkte in limitierter Auflage, die den Sommer von Marbella in jede Geste des Tages bringen — vom Haar bis zur Küche.",
+        "slug": "sommer"
+      },
+      "it": {
+        "name": "Rituale Estate",
+        "nameMain": "Rituale",
+        "nameAccent": "Estate",
+        "aiTranslation": true,
+        "subtitle": "L'edizione limitata dell'estate: cinque prodotti di origine naturale con profumo agrumato di mango e lime per il corpo, i capelli e tutta la casa. Artigianato andaluso di Marbella.",
+        "shortDescription": "Cinque essenziali d'estate —shampoo, gel, multisuperfici, pavimenti e piatti— con freschezza agrumata di origine naturale.",
+        "longDescription": "Il Rituale Estate riunisce i cinque prodotti dell'Edizione Limitata: shampoo 2 in 1, gel mani e corpo, detergente multisuperfici, detergente per pavimenti e detersivo per piatti. Tutti condividono il profumo agrumato di mango e lime dell'estate andalusa e una formulazione di origine naturale certificata ISO 16128. Cura personale e pulizia della casa in un unico rituale fresco, fatto a mano a Marbella.",
+        "promise": "La freschezza dell'estate andalusa, dalla pelle alla casa.",
+        "story": "Cinque prodotti agrumati in edizione limitata per portare l'estate di Marbella in ogni gesto della giornata, dai capelli alla cucina.",
+        "slug": "estate"
+      },
+      "nl": {
+        "name": "Ritueel Zomer",
+        "nameMain": "Ritueel",
+        "nameAccent": "Zomer",
+        "aiTranslation": true,
+        "subtitle": "De gelimiteerde zomereditie: vijf producten van natuurlijke oorsprong met een citrusgeur van mango en limoen voor lichaam, haar en het hele huis. Andalusisch ambacht uit Marbella.",
+        "shortDescription": "Vijf zomeressentials —shampoo, gel, allesreiniger, vloer- en afwasmiddel— met citrusfrisheid van natuurlijke oorsprong.",
+        "longDescription": "Het Ritueel Zomer brengt de vijf producten van de Beperkte Editie samen: 2-in-1 shampoo, hand- en lichaamsgel, allesreiniger, vloerreiniger en afwasmiddel. Alle delen de citrusgeur van mango en limoen van de Andalusische zomer en een formule van natuurlijke oorsprong, gecertificeerd volgens ISO 16128. Persoonlijke verzorging en huishoudelijke reiniging in één fris ritueel, met de hand gemaakt in Marbella.",
+        "promise": "De frisheid van de Andalusische zomer, van huid tot huis.",
+        "story": "Vijf citrusproducten in beperkte oplage om de zomer van Marbella in elk gebaar van de dag te brengen, van haar tot keuken.",
+        "slug": "zomer"
+      },
+      "pt": {
+        "name": "Ritual de Verão",
+        "nameMain": "Ritual",
+        "nameAccent": "Verão",
+        "aiTranslation": true,
+        "subtitle": "A edição limitada de verão: cinco produtos de origem natural com aroma cítrico de manga e lima para o corpo, o cabelo e toda a casa. Artesanato andaluz de Marbella.",
+        "shortDescription": "Cinco essenciais de verão —champô, gel, multissuperfícies, chão e loiça— com frescura cítrica de origem natural.",
+        "longDescription": "O Ritual de Verão reúne os cinco produtos da Edição Limitada: champô 2 em 1, gel de mãos e corpo, limpador multissuperfícies, limpa-chão e detergente da loiça. Todos partilham o aroma cítrico de manga e lima do verão andaluz e uma formulação de origem natural certificada ISO 16128. Cuidado pessoal e limpeza do lar reunidos num único ritual fresco, feito à mão em Marbella.",
+        "promise": "A frescura do verão andaluz, da pele à casa.",
+        "story": "Cinco produtos cítricos de edição limitada para levar o verão de Marbella a cada gesto do dia, do cabelo à cozinha.",
+        "slug": "verao"
+      }
     }
   ]
 }

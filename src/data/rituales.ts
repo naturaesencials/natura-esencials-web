@@ -1,6 +1,6 @@
 import type { Locale, Region } from '@/lib/i18n/config';
 
-export type RitualLine = 'cosmetica' | 'hogar' | 'mascota';
+export type RitualLine = 'cosmetica' | 'hogar' | 'mascota' | 'verano';
 
 export interface Ritual {
   id: number;
@@ -432,6 +432,41 @@ export const rituales: Ritual[] = [
     category: {
       es: 'Cuidado de la mascota', en: 'Pet care', fr: 'Soin des animaux',
       de: 'Haustierpflege', it: 'Cura degli animali', nl: 'Huisdierverzorging', pt: 'Cuidado do animal',
+    },
+  },
+  // ───── EDICIÓN LIMITADA ─────
+  {
+    id: 13, number: '13', line: 'verano',
+    shopifyHandle: 'ritual-verano',
+    availableIn: ['eu'],
+    slugs: {
+      es: 'verano', en: 'summer', fr: 'ete',
+      de: 'sommer', it: 'estate', nl: 'zomer', pt: 'verao',
+    },
+    names: {
+      es: { main: 'Ritual', accent: 'Verano', full: 'Ritual Verano' },
+      en: { main: 'Ritual', accent: 'Summer', full: 'Ritual Summer' },
+      fr: { main: 'Rituel', accent: 'Été', full: 'Rituel Été' },
+      de: { main: 'Ritual', accent: 'Sommer', full: 'Ritual Sommer' },
+      it: { main: 'Rituale', accent: 'Estate', full: 'Rituale Estate' },
+      nl: { main: 'Ritueel', accent: 'Zomer', full: 'Ritueel Zomer' },
+      pt: { main: 'Ritual', accent: 'Verão', full: 'Ritual Verão' },
+    },
+    subtitles: {
+      es: 'Cinco esenciales de verano con aroma cítrico de mango y lima, de la piel a la casa.',
+      en: 'Five summer essentials with a citrus mango and lime scent, from skin to home.',
+      fr: "Cinq essentiels d'été au parfum d'agrumes, mangue et citron vert, de la peau à la maison.",
+      de: 'Fünf Sommer-Essentials mit zitrischem Mango-Limetten-Duft, von der Haut bis ins Zuhause.',
+      it: "Cinque essenziali d'estate con profumo agrumato di mango e lime, dalla pelle alla casa.",
+      nl: 'Vijf zomeressentials met een citrusgeur van mango en limoen, van huid tot huis.',
+      pt: 'Cinco essenciais de verão com aroma cítrico de manga e lima, da pele à casa.',
+    },
+    ingredients: ['mango', 'lima', 'cítricos'],
+    basePriceEUR: 0, basePriceGBP: 0, // PENDIENTE: precio definitivo desde Shopify (handle ritual-verano)
+    formats: ['1L'],
+    category: {
+      es: 'Edición Limitada', en: 'Limited Edition', fr: 'Édition Limitée',
+      de: 'Limitierte Edition', it: 'Edizione Limitata', nl: 'Beperkte Editie', pt: 'Edição Limitada',
     },
   },
 ];
