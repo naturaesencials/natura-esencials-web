@@ -111,7 +111,9 @@
         "300 ml": "ritual-wholeness-300-ml",
         "1 L": "ritual-wholeness-1-ltr"
       },
-      "basePriceGBP": 21.16
+      "basePriceGBP": 21.16,
+      "primaryImage": "/images/bundles/eu/ritual-plenitud-300-tema.jpg",
+      "catalogImage": "/images/bundles/eu/ritual-plenitud-300-tema.jpg"
     },
     {
       "id": "ritual-plenitud-1l",
@@ -332,7 +334,9 @@
         "300 ml": "ritual-perfect-shower-300-ml",
         "1 L": "ritual-perfect-shower-1-ltr"
       },
-      "basePriceGBP": 16.17
+      "basePriceGBP": 16.17,
+      "primaryImage": "/images/bundles/eu/ritual-ducha-perfecta-300-tema.jpg",
+      "catalogImage": "/images/bundles/eu/ritual-ducha-perfecta-300-tema.jpg"
     },
     {
       "id": "ritual-ducha-perfecta-1l",
@@ -551,7 +555,9 @@
         "300 ml": "ritual-performance-300-ml",
         "1 L": "ritual-performance-1-ltr"
       },
-      "basePriceGBP": 11.52
+      "basePriceGBP": 11.52,
+      "primaryImage": "/images/bundles/eu/ritual-rendimiento-300-tema.jpg",
+      "catalogImage": "/images/bundles/eu/ritual-rendimiento-300-tema.jpg"
     },
     {
       "id": "ritual-rendimiento-1l",
