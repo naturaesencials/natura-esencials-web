@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 22/06/2026 — Checkpoint automático 23:55h
+> Actualizado: 23/06/2026 — Checkpoint automático 23:55h
 
 
 
@@ -846,3 +846,15 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 - `18621a4` fix(home): DualFeatured cosmetica destaca Ritual Ducha Perfecta (no Plenitud)
 - `449c3fd` docs(handoff): checkpoint automático 21/06/2026 23:55h
 - `f3dadf3` fix(eu): corregir swap de fotos Ritual Para Él/Para Ella en home y rituales
+
+
+---
+
+### 📅 Checkpoint 23/06/2026
+
+**Actualización automática diaria — 23:55h**
+
+Últimos commits:
+- `f8cbeb5` docs(handoff): checkpoint automático 22/06/2026 23:55h
+- `18621a4` fix(home): DualFeatured cosmetica destaca Ritual Ducha Perfecta (no Plenitud)
+- `449c3fd` docs(handoff): checkpoint automático 21/06/2026 23:55h
