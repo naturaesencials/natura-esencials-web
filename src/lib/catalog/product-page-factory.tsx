@@ -4,6 +4,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { productSchema, breadcrumbSchema } from '@/lib/seo/schema';
+import { getProductRating } from '@/lib/reviews/aggregate';
 import { ProductDetail } from '@/components/catalog/ProductDetail';
 import {
   getProductBySlug,
@@ -153,6 +154,13 @@ export function makeProductPage(line: ProductLine) {
     if (product.dermatologicallyTested) additionalProperties.push({ name: 'Dermatologically tested', value: 'Yes' });
     if (product.vegan) additionalProperties.push({ name: 'Vegan', value: 'Yes' });
 
+    // Rating real de Judge.me (null si el producto no tiene reseñas → no se emite)
+    const rating = await getProductRating({
+      region,
+      handle: region === 'uk' && product.shopifyHandleUK ? product.shopifyHandleUK : product.shopifyHandle,
+      crossHandle: region === 'uk' ? product.shopifyHandle : product.shopifyHandleUK,
+    });
+
     const productData = productSchema({
       name: tr.name,
       description: tr.shortDescription || tr.longDescription || tr.name,
@@ -168,6 +176,7 @@ export function makeProductPage(line: ProductLine) {
       url,
       additionalProperties,
       inLanguage: localeMap[locale].bcp47,
+      ...(rating ? { ratingValue: rating.ratingValue, ratingCount: rating.ratingCount } : {}),
     });
 
     const breadcrumbs = breadcrumbSchema([

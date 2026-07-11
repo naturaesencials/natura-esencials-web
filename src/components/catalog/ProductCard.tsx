@@ -7,6 +7,12 @@ import type { Product, Bundle } from '@/data/types';
 import { resolveProductImage, resolveBundleImage } from '@/lib/images';
 import { CatalogRatingBadge } from '@/components/reviews/CatalogRatingBadge';
 import { CardBuyButton, type TargetFormat } from '@/components/catalog/CardBuyButton';
+import { formatPrice } from '@/lib/format/price';
+
+// "desde" — prefijo cuando el producto tiene varios formatos (precio de entrada)
+const FROM_LABEL: Record<string, string> = {
+  es: 'desde', en: 'from', fr: 'dès', de: 'ab', it: 'da', nl: 'vanaf', pt: 'desde',
+};
 
 // ── Colores por sensación ─────────────────────────────────────────────────────
 const SENSATION_STYLE: Record<string, string> = {
@@ -58,6 +64,10 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
         ? (item as Product).shopifyHandleUK!
         : (item as Product).shopifyHandle)
     : Object.values((item as Bundle).handles ?? {})[0] ?? item.id;
+
+  const basePrice = region === 'uk' ? item.basePriceGBP : item.basePriceEUR;
+  const formatCount = itemIsBundle ? 1 : ((item as Product).formats?.length ?? 1);
+  const showFrom = formatCount > 1;
 
   const sensationStyle = item.sensation ? (SENSATION_STYLE[item.sensation] ?? 'bg-stone-100 text-stone-700 border-stone-300') : null;
   const naturalPct = !itemIsBundle && 'isoNaturalPercent' in item ? (item as Product).isoNaturalPercent : null;
@@ -134,6 +144,15 @@ export function ProductCard({ item, region, locale }: ProductCardProps) {
             </>
           ) : translation.name}
         </p>
+
+        {basePrice != null && (
+          <p className="text-sm font-semibold tabular-nums text-ink">
+            {showFrom && (
+              <span className="font-normal text-graphite">{FROM_LABEL[locale] ?? FROM_LABEL.es} </span>
+            )}
+            {formatPrice(basePrice, region)}
+          </p>
+        )}
 
         {ratingHandle && (
           <div onClick={(e) => e.stopPropagation()}>

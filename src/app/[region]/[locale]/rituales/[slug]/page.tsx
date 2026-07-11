@@ -27,6 +27,7 @@ import { BuyButton } from '@/components/catalog/BuyButton';
 import { MultiFormatBuyButton } from '@/components/catalog/MultiFormatBuyButton';
 import { RitualFormatProvider, RitualSyncedImage } from '@/components/catalog/RitualFormatSync';
 import { ReviewsWidget } from '@/components/reviews/ReviewsWidget';
+import { getProductRating } from '@/lib/reviews/aggregate';
 
 interface Props {
   params: Promise<{ region: Region; locale: Locale; slug: string }>;
@@ -122,6 +123,13 @@ export default async function RitualPage({ params }: Props) {
   };
   const lineLabel = lineLabels[bundle.line]?.[locale] ?? bundle.line;
 
+  // Rating real de Judge.me (null si el ritual no tiene reseñas → no se emite)
+  const rating = await getProductRating({
+    region,
+    handle: resolveShopifyHandle(bundle, region),
+    crossHandle: resolveShopifyHandle(bundle, region === 'uk' ? 'eu' : 'uk'),
+  });
+
   const jsonLdData = productSchema({
     name: tr.name,
     description: tr.subtitle,
@@ -133,6 +141,7 @@ export default async function RitualPage({ params }: Props) {
     availability: bundle.outOfStock ? 'OutOfStock' : 'InStock',
     url,
     region,
+    ...(rating ? { ratingValue: rating.ratingValue, ratingCount: rating.ratingCount } : {}),
   });
 
   const breadcrumbs = breadcrumbSchema([
