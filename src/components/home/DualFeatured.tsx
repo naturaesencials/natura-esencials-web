@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import type { Locale, Region } from '@/lib/i18n/config';
-import { regionCurrency } from '@/lib/i18n/config';
+import { formatPrice } from '@/lib/format/price';
 import { getRitualsByLineAndRegion } from '@/data/rituales';
 import { buildPath } from '@/lib/i18n/paths';
 import bundlesData from '@/data/bundles.json';
@@ -20,7 +20,6 @@ interface Props { region: Region; locale: Locale; }
 export function DualFeatured({ region, locale }: Props) {
   const t  = useTranslations('dualFeatured');
   const tc = useTranslations('common');
-  const symbol = regionCurrency[region].symbol;
 
   // Cosmética: Ducha Perfecta (id=2) — la foto dual-left.jpg muestra ese set (champú 2en1, body milk, jabón)
   // Hogar: Cocina Impecable (id=7) — la foto dual-right.jpg muestra productos de cocina
@@ -65,7 +64,7 @@ export function DualFeatured({ region, locale }: Props) {
             {t.rich('personalDesc', { em: (c) => <em className="font-body-medium not-italic text-ink">{c}</em> })}
           </p>
           <div className="mt-6 flex min-h-touch items-baseline justify-between border-t border-rule pt-4">
-            <span className="font-caption text-xl">{symbol}{cosmeticaPrice}</span>
+            <span className="text-xl font-semibold tabular-nums text-ink">{formatPrice(cosmeticaPrice, region)}</span>
             <Link
               href={cosmeticaHref}
               aria-label={cosmetica.names[locale].full}
@@ -100,7 +99,7 @@ export function DualFeatured({ region, locale }: Props) {
               {t.rich('hogarDesc', { em: (c) => <em className="font-body-medium not-italic text-ink">{c}</em> })}
             </p>
             <div className="mt-6 flex min-h-touch items-baseline justify-between border-t border-rule pt-4">
-              <span className="font-caption text-xl">{symbol}{hogarPrice}</span>
+              <span className="text-xl font-semibold tabular-nums text-ink">{formatPrice(hogarPrice, region)}</span>
               <Link
                 href={hogarHref}
                 aria-label={hogar.names[locale].full}

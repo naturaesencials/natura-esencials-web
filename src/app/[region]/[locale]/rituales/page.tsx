@@ -5,7 +5,8 @@ import { setRequestLocale } from 'next-intl/server';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { buildPath } from '@/lib/i18n/paths';
 import { getRitualsByLineAndRegion, type Ritual } from '@/data/rituales';
-import { regionCurrency, type Locale, type Region } from '@/lib/i18n/config';
+import { type Locale, type Region } from '@/lib/i18n/config';
+import { formatPrice } from '@/lib/format/price';
 import bundlesData from '@/data/bundles.json';
 
 interface Props { params: Promise<{ region: Region; locale: Locale }>; }
@@ -110,10 +111,10 @@ const VISIBLE_SLUGS = new Set(
 // ─── Componente de card de ritual ─────────────────────────────────────────────
 
 function RitualCard({
-  ritual, img, href, symbol, color, locale,
+  ritual, img, href, region, color, locale,
 }: {
   ritual: Ritual; img: string; href?: string;
-  symbol: string; color: string; locale: Locale;
+  region: Region; color: string; locale: Locale;
 }) {
   const price = ritual.basePriceEUR;
   const name  = ritual.names[locale];
@@ -152,7 +153,7 @@ function RitualCard({
           <h3 className="font-display text-[clamp(18px,2vw,22px)] leading-[1.1] tracking-[-0.01em]">
             {name.main}{name.accent && <> <em className={`font-display-italic ${color}`}>{name.accent}</em></>}
           </h3>
-          <span className="shrink-0 font-caption text-base text-ink">{price ? `${symbol}${price}` : ''}</span>
+          <span className="shrink-0 text-base font-semibold tabular-nums text-ink">{formatPrice(price, region)}</span>
         </div>
         <p className="text-[12px] leading-[1.65] text-graphite line-clamp-2">
           {ritual.subtitles?.[locale] ?? ''}
@@ -185,7 +186,6 @@ export default async function RitualesPage({ params }: Props) {
   const { region, locale } = await params;
   setRequestLocale(locale);
 
-  const symbol = regionCurrency[region].symbol;
 
   const pageTitle: Record<string, string> = {
     es: 'Nuestros rituales naturales', en: 'Our natural skincare rituals', fr: 'Nos rituels naturels',
@@ -269,7 +269,7 @@ export default async function RitualesPage({ params }: Props) {
                     ritual={ritual}
                     img={img}
                     href={href}
-                    symbol={symbol}
+                    region={region}
                     color={section.color}
                     locale={locale}
                   />

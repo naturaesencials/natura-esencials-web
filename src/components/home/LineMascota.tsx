@@ -2,7 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { getRitualsByLineAndRegion } from '@/data/rituales';
-import { regionCurrency, type Locale, type Region } from '@/lib/i18n/config';
+import { type Locale, type Region } from '@/lib/i18n/config';
+import { formatPrice } from '@/lib/format/price';
 import { buildPath } from '@/lib/i18n/paths';
 import bundlesData from '@/data/bundles.json';
 
@@ -22,7 +23,6 @@ const VISIBLE_SLUGS = new Set(
 export function LineMascota({ region, locale }: Props) {
   const t = useTranslations('lineMascota');
   const rituales = getRitualsByLineAndRegion('mascota', region);
-  const symbol = regionCurrency[region].symbol;
 
   if (rituales.length === 0) return null;
 
@@ -61,7 +61,7 @@ export function LineMascota({ region, locale }: Props) {
                 </h3>
                 <div className="mt-3 flex min-h-touch items-end justify-between">
                   <div className="flex flex-col gap-1">
-                    <span className="text-[22px] font-extrabold leading-none text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">{symbol}{price}</span>
+                    <span className="text-[22px] font-extrabold leading-none tabular-nums text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">{formatPrice(price, region)}</span>
                     {r.formats?.[0] && (
                       <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">{r.formats[0]}</span>
                     )}

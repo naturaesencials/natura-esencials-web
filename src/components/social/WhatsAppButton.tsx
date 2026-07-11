@@ -23,7 +23,7 @@ export function WhatsAppButton({ locale }: Props) {
   const waUrl = `https://wa.me/${phone}?text=${encodeURIComponent(msg.placeholder)}`;
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+    <div className="fixed bottom-4 right-4 z-50 flex flex-col items-end gap-3 sm:bottom-6 sm:right-6">
       {/* Tooltip / Mini chat bubble */}
       {open && (
         <div className="mb-1 w-72 rounded-2xl bg-white shadow-2xl overflow-hidden animate-in slide-in-from-bottom-2 duration-200">
@@ -57,7 +57,7 @@ export function WhatsAppButton({ locale }: Props) {
       <button
         onClick={() => setOpen(!open)}
         aria-label="WhatsApp"
-        className="group flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl active:scale-95"
+        className="group flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl active:scale-95 sm:h-14 sm:w-14"
       >
         {open ? (
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-6 h-6">

@@ -3,7 +3,8 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { rituales } from '@/data/rituales';
 import productsData from '@/data/products.json';
-import { regionCurrency, type Locale, type Region } from '@/lib/i18n/config';
+import { type Locale, type Region } from '@/lib/i18n/config';
+import { formatPrice } from '@/lib/format/price';
 import { buildPath } from '@/lib/i18n/paths';
 import bundlesData from '@/data/bundles.json';
 import { CardBuyButton, type TargetFormat } from '@/components/catalog/CardBuyButton';
@@ -62,7 +63,6 @@ function getProductSlug(product: ProductData, locale: Locale): string {
 
 export function Edicion({ region, locale }: Props) {
   const t = useTranslations('edicion');
-  const symbol = regionCurrency[region].symbol;
 
   // ── EU: productos edición verano 2026 ──────────────────────────────────
   if (region === 'eu') {
@@ -122,7 +122,7 @@ export function Edicion({ region, locale }: Props) {
                 <div className="mt-3 flex items-center justify-between gap-1.5 border-t border-rule pt-2.5">
                   {format && <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-ink/60">{format}</span>}
                   {price != null && (
-                    <strong className="font-caption text-xl font-black text-ink">{symbol}{price.toFixed(2)}</strong>
+                    <strong className="text-xl font-bold tabular-nums text-ink">{formatPrice(price, region)}</strong>
                   )}
                 </div>
                 {shopifyHandle && (
@@ -205,7 +205,7 @@ export function Edicion({ region, locale }: Props) {
               </p>
               <div className="mt-3 flex items-center justify-between gap-1.5 border-t border-rule pt-2.5">
                 {format && <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-ink/60">{format}</span>}
-                <strong className="font-caption text-xl font-black text-ink">{symbol}{basePrice}</strong>
+                <strong className="text-xl font-bold tabular-nums text-ink">{formatPrice(basePrice, region)}</strong>
               </div>
               <CardBuyButton
                 handle={ritual.shopifyHandle}
