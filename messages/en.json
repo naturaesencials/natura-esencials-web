@@ -149,7 +149,10 @@
     "title": "10% off your first ritual.",
     "titleAccent": "first ritual.",
     "body": "Join the correspondence and receive a courtesy code with our first seasonal letter.",
-    "submit": "Receive"
+    "submit": "Receive",
+    "success": "Done! Check your inbox — your code is on its way.",
+    "error": "Could not register. Please try again.",
+    "invalidEmail": "Please enter a valid email"
   },
   "footer": {
     "brandDesc": "Artisan skincare and home care, handcrafted in Marbella. Andalusia, Spain.",

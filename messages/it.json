@@ -149,7 +149,10 @@
     "title": "10 % sul tuo primo rituale.",
     "titleAccent": "primo rituale.",
     "body": "Unisciti alla corrispondenza e ricevi un codice di cortesia con la prima lettera di stagione.",
-    "submit": "Ricevere"
+    "submit": "Ricevere",
+    "success": "Fatto! Controlla la posta: il tuo codice è in arrivo.",
+    "error": "Registrazione non riuscita. Riprova.",
+    "invalidEmail": "Inserisci un'email valida"
   },
   "footer": {
     "brandDesc": "Cosmetica artigianale e cura della casa, prodotti a Marbella. Andalusia, Spagna.",

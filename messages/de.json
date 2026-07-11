@@ -149,7 +149,10 @@
     "title": "10 % auf Ihr erstes Ritual.",
     "titleAccent": "erstes Ritual.",
     "body": "Treten Sie der Korrespondenz bei und erhalten Sie einen Höflichkeitscode mit dem ersten Saisonbrief.",
-    "submit": "Erhalten"
+    "submit": "Erhalten",
+    "success": "Fertig! Prüfen Sie Ihr Postfach — Ihr Code ist unterwegs.",
+    "error": "Anmeldung nicht möglich. Bitte erneut versuchen.",
+    "invalidEmail": "Bitte gültige E-Mail eingeben"
   },
   "footer": {
     "brandDesc": "Handwerkliche Kosmetik und Haushaltspflege, hergestellt in Marbella. Andalusien, Spanien.",

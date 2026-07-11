@@ -18,8 +18,12 @@ const OMNISEND_API = 'https://api.omnisend.com/v3';
 export async function subscribeToNewsletter(payload: SubscribePayload): Promise<{ ok: boolean; error?: string }> {
   const apiKey = process.env.OMNISEND_API_KEY;
   if (!apiKey) {
-    console.warn('[Omnisend] OMNISEND_API_KEY no configurada — skip');
-    return { ok: true }; // No es un error fatal en desarrollo
+    if (process.env.NODE_ENV === 'production') {
+      console.error('[Omnisend] OMNISEND_API_KEY ausente en producción — la suscripción NO se ha registrado');
+      return { ok: false, error: 'not_configured' };
+    }
+    console.warn('[Omnisend] OMNISEND_API_KEY no configurada — skip (dev)');
+    return { ok: true }; // Solo se ignora en desarrollo local
   }
 
   try {

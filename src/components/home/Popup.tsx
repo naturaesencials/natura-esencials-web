@@ -10,7 +10,8 @@ export function Popup() {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
   const [email, setEmail] = useState('');
-  const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [message, setMessage] = useState('');
 
   useEffect(() => {
     const cookies = document.cookie.split(';').reduce<Record<string, string>>((acc, c) => {
@@ -34,14 +35,31 @@ export function Popup() {
 
   const submit = async (e: FormEvent) => {
     e.preventDefault();
-    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return;
-    await fetch('/api/newsletter', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email, locale, source: 'popup_welcome' }),
-    });
-    setSubmitted(true);
-    setTimeout(close, 2400);
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+      setStatus('error');
+      setMessage(t('invalidEmail'));
+      return;
+    }
+    setStatus('loading');
+    try {
+      const res = await fetch('/api/newsletter', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, locale, source: 'popup_welcome' }),
+      });
+      const data = await res.json().catch(() => ({ ok: false }));
+      if (res.ok && data.ok) {
+        setStatus('success');
+        setMessage(t('success'));
+        setTimeout(close, 3200);
+      } else {
+        setStatus('error');
+        setMessage(t('error'));
+      }
+    } catch {
+      setStatus('error');
+      setMessage(t('error'));
+    }
   };
 
   if (dismissed || !visible) return null;
@@ -56,13 +74,18 @@ export function Popup() {
         <div className="text-[10px] uppercase tracking-[0.32em] text-verde-vivo">— {t('kicker')}</div>
         <p id="popup-title" className="mt-3 font-display text-[clamp(22px,3.4vw,28px)] leading-[1.12] tracking-[-0.012em] text-ink">{t('title')}</p>
         <p className="mt-2.5 text-[13px] leading-[1.65] text-graphite">{t('body')}</p>
-        {submitted ? (
-          <p className="mt-4 text-sm text-verde">✓</p>
+        {status === 'success' ? (
+          <p className="mt-4 text-sm text-verde" role="status">{message}</p>
         ) : (
-          <form onSubmit={submit} className="mt-4 flex border-b border-verde">
-            <input type="email" inputMode="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email" className="min-w-0 flex-1 border-0 bg-transparent py-2.5 text-[16px] outline-none" />
-            <button type="submit" className="min-h-touch py-2.5 pl-4 text-[10px] font-medium uppercase tracking-[0.25em] text-verde">{t('submit')} →</button>
-          </form>
+          <>
+            <form onSubmit={submit} className="mt-4 flex border-b border-verde">
+              <input type="email" inputMode="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email" className="min-w-0 flex-1 border-0 bg-transparent py-2.5 text-[16px] outline-none" />
+              <button type="submit" disabled={status === 'loading'} className="min-h-touch py-2.5 pl-4 text-[10px] font-medium uppercase tracking-[0.25em] text-verde disabled:opacity-50">{status === 'loading' ? '…' : `${t('submit')} →`}</button>
+            </form>
+            {status === 'error' && (
+              <p className="mt-3 text-sm text-citrico" role="status">{message}</p>
+            )}
+          </>
         )}
       </div>
     </aside>

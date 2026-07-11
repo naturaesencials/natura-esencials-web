@@ -149,7 +149,10 @@
     "title": "10 % op je eerste ritueel.",
     "titleAccent": "eerste ritueel.",
     "body": "Sluit je aan bij de correspondentie en ontvang een code samen met de eerste seizoensbrief.",
-    "submit": "Ontvangen"
+    "submit": "Ontvangen",
+    "success": "Klaar! Check je inbox — je code is onderweg.",
+    "error": "Inschrijving mislukt. Probeer opnieuw.",
+    "invalidEmail": "Voer een geldig e-mailadres in"
   },
   "footer": {
     "brandDesc": "Huidverzorging en huisverzorging van natuurlijke oorsprong, gemaakt in Marbella. Andalusië, Spanje.",
