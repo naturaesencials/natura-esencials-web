@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 11/07/2026 — Checkpoint automático 23:55h
+> Actualizado: 12/07/2026 — Checkpoint automático 23:55h
 
 
 
@@ -1074,3 +1074,15 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 - `cd26e5e` fix(popup): validar respuesta de la API y mostrar éxito/error reales en el popup 10%
 - `879dee7` feat(seo): AggregateRating real de Judge.me en fichas (0 reseñas = sin rating, nunca inventado) + precio 'desde X,XX €' en tarjetas de catálogo
 - `89e7b0f` fix(precio): formato localizado 18,80 € + legibilidad y contraste en tarjetas; FAB WhatsApp más pequeño en móvil
+
+
+---
+
+### 📅 Checkpoint 12/07/2026
+
+**Actualización automática diaria — 23:55h**
+
+Últimos commits:
+- `9dbcece` chore(shopify): verify endpoint reporta tipo de token (sin exponer secreto)
+- `f2c4de7` chore(shopify): endpoint temporal para verificar token Admin (se elimina tras verificar)
+- `f14b946` docs(handoff): checkpoint automático 11/07/2026 23:55h
