@@ -16,6 +16,16 @@ export async function GET() {
     );
   }
 
+  // Solo el tipo/prefijo, nunca el secreto
+  const tokenType = token.startsWith('shpat_')
+    ? 'admin (shpat_) ✅'
+    : token.startsWith('shpss_')
+      ? 'storefront (shpss_) ❌ — token equivocado'
+      : token.startsWith('shpca_')
+        ? 'client-secret (shpca_) ❌'
+        : `desconocido (${token.slice(0, 6)}…)`;
+  const tokenLen = token.length;
+
   try {
     const res = await fetch(`https://${domain}/admin/api/2025-01/graphql.json`, {
       method: 'POST',
@@ -36,6 +46,8 @@ export async function GET() {
       {
         ok: status === 200 && Boolean(data?.data?.shop),
         status,
+        tokenType,
+        tokenLen,
         shop: data?.data?.shop?.name ?? null,
         domain,
         canWriteCustomers: scopes.includes('write_customers'),
