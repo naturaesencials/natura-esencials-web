@@ -18,7 +18,7 @@ export const posts: Post[] = [
     date: '2026-07-13',
     category: 'Sostenibilidad',
     readingMin: 6,
-    image: '/images/landing/card-1.jpg',
+    image: '/images/blog/obsolescencia-bib-refill.jpg',
     title: {
       es: 'El último Mercedes que nadie quiso fabricar dos veces',
       en: 'The last Mercedes nobody wanted to build twice',
