@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
     const sent = await sendWelcomeEmail({ email, locale, region });
     if (!sent.ok) {
       // El contacto ya quedó guardado; devolvemos error para que el usuario reintente recibir el email.
-      return NextResponse.json({ ok: false, error: sent.error || 'email_failed', detail: (sent as any).detail }, { status: 502 });
+      return NextResponse.json({ ok: false, error: sent.error || 'email_failed' }, { status: 502 });
     }
 
     return NextResponse.json({ ok: true });
