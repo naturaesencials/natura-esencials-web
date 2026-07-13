@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 12/07/2026 — Checkpoint automático 23:55h
+> Actualizado: 13/07/2026 — Checkpoint automático 23:55h
 
 
 
@@ -1086,3 +1086,15 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 - `9dbcece` chore(shopify): verify endpoint reporta tipo de token (sin exponer secreto)
 - `f2c4de7` chore(shopify): endpoint temporal para verificar token Admin (se elimina tras verificar)
 - `f14b946` docs(handoff): checkpoint automático 11/07/2026 23:55h
+
+
+---
+
+### 📅 Checkpoint 13/07/2026
+
+**Actualización automática diaria — 23:55h**
+
+Últimos commits:
+- `57b2bac` feat(blog): add hero image for W124 obsolescence article
+- `f44c6b8` feat(blog): add W124 planned obsolescence article in 7 languages
+- `5257f6c` fix(resend): remitente desde dominio raíz verificado (naturaesencials.com) + quitar debug
