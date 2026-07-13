@@ -1,7 +1,7 @@
 // Envío del email de bienvenida con el código de descuento, vía Resend.
 // Requiere RESEND_API_KEY en el entorno. From configurable con RESEND_FROM.
 
-export type SendResult = { ok: boolean; error?: string };
+export type SendResult = { ok: boolean; error?: string; detail?: string };
 
 const STORE_URL = 'https://www.naturaesencials.com';
 const DEFAULT_FROM = 'Natura Esencials <hola@send.naturaesencials.com>';
@@ -166,7 +166,7 @@ export async function sendWelcomeEmail(args: {
     if (!res.ok) {
       const detail = await res.text().catch(() => '');
       console.error('[Resend] send failed:', res.status, detail);
-      return { ok: false, error: 'resend_error' };
+      return { ok: false, error: 'resend_error', detail: `${res.status} ${detail}`.slice(0, 300) };
     }
     return { ok: true };
   } catch (e: any) {
