@@ -11,6 +11,310 @@ export interface Post {
 
 export const posts: Post[] = [
   // ─────────────────────────────────────────────────────────────────────────────
+  // ARTÍCULO — El último Mercedes que nadie quiso fabricar dos veces (13 julio 2026)
+  // ─────────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'obsolescencia-programada-calidad-consumo-bib-refill',
+    date: '2026-07-13',
+    category: 'Sostenibilidad',
+    readingMin: 6,
+    image: '/images/landing/card-1.jpg',
+    title: {
+      es: 'El último Mercedes que nadie quiso fabricar dos veces',
+      en: 'The last Mercedes nobody wanted to build twice',
+      fr: 'La dernière Mercedes que personne ne voulait fabriquer deux fois',
+      de: 'Der letzte Mercedes, den niemand zweimal bauen wollte',
+      it: 'L\'ultima Mercedes che nessuno volle costruire due volte',
+      nl: 'De laatste Mercedes die niemand twee keer wilde bouwen',
+      pt: 'O último Mercedes que ninguém quis fabricar duas vezes',
+    },
+    excerpt: {
+      es: 'En los años 80, Mercedes construyó el coche más durable de su historia y luego decidió no volver a hacerlo. La misma lógica explica por qué seguimos comprando envases de un solo uso en lugar de recargas.',
+      en: 'In the 1980s, Mercedes built the most durable car in its history — then decided never to do it again. The same logic explains why we keep buying single-use packaging instead of refills.',
+      fr: 'Dans les années 80, Mercedes a construit la voiture la plus durable de son histoire, puis a décidé de ne plus jamais le faire. La même logique explique pourquoi nous continuons à acheter des emballages jetables.',
+      de: 'In den 1980er Jahren baute Mercedes das langlebigste Auto seiner Geschichte — und beschloss dann, es nie wieder zu tun. Dieselbe Logik erklärt, warum wir weiterhin Einwegverpackungen kaufen.',
+      it: 'Negli anni 80, Mercedes costruì l\'auto più duratura della sua storia e poi decise di non farlo mai più. La stessa logica spiega perché continuiamo ad acquistare imballaggi monouso invece di ricariche.',
+      nl: 'In de jaren 80 bouwde Mercedes de meest duurzame auto uit zijn geschiedenis — en besloot dat nooit meer te doen. Dezelfde logica verklaart waarom we eenmalige verpakkingen blijven kopen.',
+      pt: 'Nos anos 80, a Mercedes construiu o carro mais durável da sua história e depois decidiu nunca mais o fazer. A mesma lógica explica por que continuamos a comprar embalagens descartáveis.',
+    },
+    body: {
+      es: `Hay un documental circulando en internet sobre el Mercedes-Benz W124 que, si tienes unos minutos, merece la pena ver. No importa si los coches te interesan o no. Lo que cuenta no va realmente de automóviles.
+
+El W124 —la Clase E que Mercedes fabricó entre 1984 y 1997— fue diseñado con una filosofía que hoy resulta casi anacrónica: hacer el mejor coche posible, sin límite de calidad. Los ingenieros de Stuttgart seleccionaron materiales por su durabilidad, no por su coste. Construyeron tolerancias de fabricación tan precisas que los propios técnicos internos de la marca acabaron usando el término *over-engineered* —sobreingeniería— para describir el resultado. Como si hubieran ido demasiado lejos en la dirección correcta.
+
+El resultado fue un vehículo que todavía hoy circula con normalidad, décadas después de su fabricación. Hay W124 con más de un millón de kilómetros. Un W123 —el modelo predecesor, con la misma filosofía— trabajó como taxi en Canarias durante 26 años y llegó a los 5,6 millones de kilómetros antes de retirarse. El coste por kilómetro, calculado sobre el precio original de compra, resultó ser inferior a una peseta.
+
+¿Qué ocurrió después del W124? Los modelos siguientes fueron notoriamente menos fiables. No porque los ingenieros hubieran olvidado cómo fabricar bien. Sino porque la empresa había entendido algo que cambiaría toda la industria: **un producto perfecto solo se vende una vez.**
+
+## La bombilla que no debía durar
+
+Para entender por qué eso importa, hay que volver a 1924.
+
+Ese año, las principales fabricantes de bombillas del mundo —Philips, Osram y General Electric— firmaron un acuerdo privado conocido como el Cartel Phoebus. Entre otros puntos, acordaron limitar deliberadamente la vida útil de sus productos a 1.000 horas. La tecnología disponible permitía fabricarlas para durar mucho más. El acuerdo era para no hacerlo.
+
+Cuatro años después, en 1928, una influyente revista de publicidad norteamericana publicó sin ironía: *"Un artículo que no se desgasta es una tragedia para los negocios."*
+
+Lo que empezó con las bombillas se fue extendiendo. A los electrodomésticos. A la electrónica. A la ropa. A los automóviles. La reducción deliberada de la vida útil de los productos —la obsolescencia programada— dejó de ser una estrategia secreta para convertirse en el modelo estándar de casi todos los sectores manufactureros del siglo XX.
+
+El W124 fue, en ese contexto, una anomalía. Una excepción que demostró que sí era posible hacerlo de otra manera —y que el mercado decidió no perpetuar.
+
+## Cuando dejamos de rellenar las botellas
+
+Hay otra historia que transcurre en paralelo, menos documentada pero igual de reveladora.
+
+Hasta bien entrados los años 70, los envases de consumo doméstico —refrescos, leche, aceite, productos de limpieza— se devolvían. El casco de la botella de gaseosa tenía valor. El grifo de la tienda de ultramarinos existía. El envase vacío volvía al punto de venta, se limpiaba y se rellenaba. No era un acto de conciencia medioambiental —era simplemente el sistema normal de las cosas.
+
+El plástico de un solo uso lo cambió. Era más barato de producir, más ligero para transportar, más cómodo para el distribuidor. No requería logística inversa. El coste de ese sistema de retorno desapareció de la cadena productiva y se trasladó, en forma de residuo, a quien compraba el producto.
+
+Las cifras de lo que ocurrió después resultan difíciles de asimilar. En 1950, el mundo producía dos millones de toneladas de plástico al año. En 2023, cuatrocientas cincuenta millones. Un aumento de más de veinte mil por ciento en siete décadas. El cuarenta por ciento de todos los productos plásticos se desecha en menos de un mes desde que se fabricaron.
+
+No es que seamos más descuidados que generaciones anteriores. Es que vivimos en un sistema rediseñado específicamente para que el desecho sea la opción más fácil, más barata y más normalizada.
+
+## El BiB y la propuesta que nadie elige
+
+Cuando en Natura Esencials diseñamos el formato Bag-in-Box de cinco litros, la lógica era directa: quien compra el formato grande y rellena su envase de uso diario en casa consume un ochenta y nueve por ciento menos de plástico, paga menos por litro de producto y obtiene exactamente la misma fórmula.
+
+No es una propuesta complicada. Es, en esencia, la versión contemporánea del grifo del ultramarinos —aplicada a un champú con aceite de argán y a un limpiador multiusos con lavanda andaluza.
+
+La realidad es que la mayoría de los clientes sigue eligiendo el formato de 300 ml.
+
+No lo decimos con reproche. Lo observamos como un dato que dice algo sobre el momento en que vivimos. Cuando el comportamiento más conveniente lleva décadas siendo también el más accesible y el más normalizado, la fricción de cambiar ese patrón es real. Lo entendemos. Y seguimos ofreciendo el BiB.
+
+Porque la alternativa —retirar la opción porque no es la más elegida— implicaría aceptar que el sistema tiene razón. Que lo desechable debe ganar porque es lo que la mayoría elige en este momento. No lo creemos.
+
+## Lo que el W124 sigue diciendo hoy
+
+El W124 demostró que era posible construir algo para durar. Que la excelencia funcional, cuando se persigue sin concesiones, produce objetos que sobreviven a las modas, a los ciclos de mercado y a las presiones de la cuenta de resultados. La decisión de no volver a fabricar así no fue técnica —fue estratégica.
+
+Lo mismo ocurre con casi todo lo que consumimos. El envase desechable no triunfó porque fuera la mejor solución para el planeta ni para el consumidor. Triunfó porque era la solución más rentable para quien lo producía.
+
+La diferencia entre *no se puede hacer de otra manera* y *se decidió no hacerlo* es pequeña en la frase. En sus consecuencias, es enorme.
+
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Por qué elegimos PET reciclable y BiB en lugar de vidrio</a>`,
+
+      en: `There is a documentary circulating online about the Mercedes-Benz W124 that is worth watching, if you have a few minutes. It doesn't matter whether you care about cars. What it is really about has nothing to do with automobiles.
+
+The W124 — the E-Class Mercedes produced between 1984 and 1997 — was designed with a philosophy that feels almost anachronistic today: build the best car possible, regardless of cost. The Stuttgart engineers selected materials for their durability, not their price. They built manufacturing tolerances so precise that the brand's own internal technicians began using the term *over-engineered* to describe the result. As if they had gone too far in the right direction.
+
+The outcome was a vehicle that still drives normally today, decades after production. There are W124s with over a million kilometres. A W123 — the predecessor model, built with the same philosophy — worked as a taxi in the Canary Islands for 26 years and reached 5.6 million kilometres before retiring. The cost per kilometre, calculated against the original purchase price, worked out to less than a peseta.
+
+What happened after the W124? The following models were notoriously less reliable. Not because the engineers had forgotten how to build well. But because the company had understood something that would change the entire industry: **a perfect product is only ever sold once.**
+
+## The light bulb that was not supposed to last
+
+To understand why that matters, you have to go back to 1924.
+
+That year, the world's leading light bulb manufacturers — Philips, Osram and General Electric — signed a private agreement known as the Phoebus Cartel. Among other things, they agreed to deliberately limit the lifespan of their products to 1,000 hours. The technology existed to make them last much longer. The agreement was to ensure they did not.
+
+Four years later, in 1928, an influential American advertising magazine published without irony: *"An article that doesn't wear out is a tragedy for business."*
+
+What started with light bulbs spread to appliances, electronics, clothing, cars. The deliberate shortening of product lifespans — planned obsolescence — went from secret strategy to standard model across almost every manufacturing sector in the twentieth century.
+
+The W124 was, in that context, an anomaly. An exception that proved it was possible to do things differently — and which the market decided not to perpetuate.
+
+## When we stopped refilling bottles
+
+There is a parallel story, less documented but equally revealing.
+
+Until well into the 1970s, everyday consumer packaging — soft drinks, milk, oil, cleaning products — was returned. The glass bottle had a deposit on it. The bulk dispenser existed at the corner shop. The empty container went back, was cleaned, and was refilled. It was not an act of environmental consciousness — it was simply how things worked.
+
+Single-use plastic changed that. It was cheaper to produce, lighter to transport, easier for distributors. It required no reverse logistics. The cost of the return system disappeared from the supply chain and transferred, in the form of waste, to the people who bought the product.
+
+The numbers that followed are hard to absorb. In 1950, the world produced two million tonnes of plastic a year. In 2023, four hundred and fifty million. An increase of more than twenty thousand per cent in seven decades. Forty per cent of all plastic products are discarded within a month of being manufactured.
+
+We are not more careless than previous generations. We live in a system specifically redesigned to make disposal the cheapest, easiest and most normalised option.
+
+## The BiB and the offer nobody chooses
+
+When we designed the Bag-in-Box five-litre format at Natura Esencials, the logic was straightforward: whoever buys the large format and refills their daily-use bottle at home uses eighty-nine per cent less plastic, pays less per litre, and gets exactly the same formula.
+
+It is not a complicated proposition. It is, in essence, the contemporary version of the bulk dispenser — applied to a shampoo with argan oil and a multi-purpose cleaner with Andalusian lavender.
+
+The reality is that most customers still choose the 300ml format.
+
+We say this without reproach. We observe it as a fact that tells us something about the moment we are living in. When the most convenient behaviour has also been the most accessible and normalised for decades, the friction of changing that pattern is real. We understand it. And we keep offering the BiB.
+
+Because the alternative — withdrawing the option because it is not the most chosen — would mean accepting that the system is right. That disposable should win because it is what most people choose right now. We do not believe that.
+
+## What the W124 is still saying today
+
+The W124 proved that it was possible to build something to last. That functional excellence, pursued without compromise, produces objects that outlive trends, market cycles and balance sheet pressures. The decision not to build that way again was not a technical one — it was a strategic one.
+
+The same is true of almost everything we consume. Disposable packaging did not triumph because it was the best solution for the planet or the consumer. It triumphed because it was the most profitable solution for those who produced it.
+
+The difference between *it cannot be done any other way* and *the decision was made not to do it* is small on paper. In its consequences, it is enormous.
+
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Why we chose recyclable PET and BiB over glass</a>`,
+
+      fr: `Il existe un documentaire qui circule sur internet sur la Mercedes-Benz W124 qui vaut la peine d'être vu, si vous avez quelques minutes. Peu importe si les voitures vous intéressent ou non. Ce qu'il raconte ne parle pas vraiment d'automobiles.
+
+La W124 — la Classe E produite par Mercedes entre 1984 et 1997 — a été conçue avec une philosophie qui semble presque anachronique aujourd'hui : fabriquer la meilleure voiture possible, sans limite de qualité. Les ingénieurs de Stuttgart ont sélectionné les matériaux pour leur durabilité, pas pour leur coût. Ils ont construit des tolérances de fabrication si précises que les techniciens internes de la marque ont commencé à utiliser le terme *over-engineered* pour décrire le résultat. Comme s'ils étaient allés trop loin dans la bonne direction.
+
+Le résultat fut un véhicule qui circule encore normalement aujourd'hui, des décennies après sa production. Des W124 dépassent le million de kilomètres. Une W123 — le modèle prédécesseur, construit selon la même philosophie — a travaillé comme taxi aux Îles Canaries pendant 26 ans et a atteint 5,6 millions de kilomètres. Le coût au kilomètre, calculé sur le prix d'achat d'origine, s'est révélé inférieur à un centime.
+
+Qu'est-il arrivé après la W124 ? Les modèles suivants étaient notoirement moins fiables. Non pas parce que les ingénieurs avaient oublié comment bien construire. Mais parce que l'entreprise avait compris quelque chose qui allait changer toute l'industrie : **un produit parfait ne se vend qu'une seule fois.**
+
+## L'ampoule qui ne devait pas durer
+
+En 1924, les principaux fabricants d'ampoules — Philips, Osram et General Electric — ont signé un accord privé connu sous le nom de Cartel Phoebus. Ils se sont notamment engagés à limiter délibérément la durée de vie de leurs produits à 1 000 heures. La technologie permettait d'en fabriquer qui dureraient bien davantage. L'accord était de ne pas le faire.
+
+Quatre ans plus tard, en 1928, un influent magazine américain de publicité publiait sans ironie : *"Un article qui ne s'use pas est une tragédie pour les affaires."*
+
+Ce qui a commencé avec les ampoules s'est étendu aux appareils électroménagers, à l'électronique, aux vêtements, aux voitures. La réduction délibérée de la durée de vie des produits — l'obsolescence programmée — est passée de stratégie secrète à modèle standard dans presque tous les secteurs manufacturiers du vingtième siècle.
+
+## Quand nous avons arrêté de remplir les bouteilles
+
+Jusqu'au début des années 70, les emballages de consommation courante se retournaient. La bouteille en verre avait une consigne. Le vrac existait à l'épicerie. L'emballage vide repartait, était nettoyé, et rempli à nouveau. Ce n'était pas un acte de conscience écologique — c'était simplement le fonctionnement normal des choses.
+
+Le plastique à usage unique a tout changé. Moins cher à produire, plus léger à transporter, plus commode pour les distributeurs. Le coût du système de retour a disparu de la chaîne et s'est transféré, sous forme de déchets, aux consommateurs.
+
+En 1950, le monde produisait deux millions de tonnes de plastique par an. En 2023, quatre cent cinquante millions. Une augmentation de plus de vingt mille pour cent en sept décennies. Quarante pour cent des produits plastiques sont jetés moins d'un mois après leur fabrication.
+
+## Le BiB et la proposition que personne ne choisit
+
+Chez Natura Esencials, le format Bag-in-Box de cinq litres est simple : celui qui achète le grand format et recharge sa bouteille quotidienne utilise quatre-vingt-neuf pour cent de plastique en moins, paie moins par litre et obtient exactement la même formule.
+
+La réalité est que la plupart des clients choisissent encore le format 300 ml. Nous ne le disons pas avec reproche. Nous l'observons comme un fait qui dit quelque chose sur notre époque.
+
+La différence entre *cela ne peut pas se faire autrement* et *la décision a été prise de ne pas le faire* est petite dans la phrase. Dans ses conséquences, elle est énorme.
+
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Pourquoi nous avons choisi le PET recyclable et le BiB</a>`,
+
+      de: `Es gibt einen Dokumentarfilm über den Mercedes-Benz W124, der es wert ist, gesehen zu werden — selbst wenn man sich nicht für Autos interessiert. Was er erzählt, handelt nämlich nicht wirklich von Automobilen.
+
+Der W124 — die E-Klasse, die Mercedes zwischen 1984 und 1997 produzierte — wurde mit einer Philosophie entwickelt, die heute fast anachronistisch wirkt: das bestmögliche Auto zu bauen, ohne Qualitätsgrenzen. Die Stuttgarter Ingenieure wählten Materialien nach ihrer Haltbarkeit aus, nicht nach ihrem Preis. Sie bauten Fertigungstoleranzen so präzise, dass die internen Techniker der Marke begannen, den Begriff *over-engineered* zu verwenden, um das Ergebnis zu beschreiben. Als wären sie in die richtige Richtung zu weit gegangen.
+
+Das Ergebnis war ein Fahrzeug, das noch heute fährt, Jahrzehnte nach seiner Produktion. Es gibt W124 mit über einer Million Kilometern. Ein W123 — das Vorgängermodell mit derselben Philosophie — arbeitete 26 Jahre lang als Taxi auf den Kanarischen Inseln und erreichte 5,6 Millionen Kilometer. Die Kosten pro Kilometer, berechnet auf den ursprünglichen Kaufpreis, betrugen weniger als einen Pfennig.
+
+Was geschah nach dem W124? Die folgenden Modelle waren notorisch weniger zuverlässig. Nicht weil die Ingenieure vergessen hatten, wie man gut baut. Sondern weil das Unternehmen etwas verstanden hatte, das die gesamte Industrie verändern sollte: **Ein perfektes Produkt wird nur einmal verkauft.**
+
+## Die Glühbirne, die nicht halten sollte
+
+Im Jahr 1924 schlossen die führenden Glühbirnenhersteller — Philips, Osram und General Electric — ein privates Abkommen, bekannt als das Phoebus-Kartell. Sie vereinbarten, die Lebensdauer ihrer Produkte bewusst auf 1.000 Stunden zu begrenzen. Die Technologie, sie viel länger zu machen, war vorhanden. Das Abkommen war dazu da, es nicht zu tun.
+
+Was mit Glühbirnen begann, breitete sich auf Haushaltsgeräte, Elektronik, Kleidung und Autos aus. Die geplante Obsoleszenz wurde vom Geheimnis zum Standard in fast allen Fertigungssektoren des zwanzigsten Jahrhunderts.
+
+## Als wir aufhörten, Flaschen nachzufüllen
+
+Bis in die 1970er Jahre wurden Verbraucherverpackungen zurückgegeben. Die Glasflasche hatte ein Pfand. Das Nachfüllen existierte. Die leere Verpackung ging zurück, wurde gereinigt und wieder befüllt. Es war kein Akt des Umweltbewusstseins — es war einfach der normale Ablauf.
+
+Einwegplastik hat das verändert. Billiger herzustellen, leichter zu transportieren, bequemer für den Handel. Die Kosten des Rückgabesystems verschwanden aus der Lieferkette und wurden in Form von Abfall auf den Verbraucher übertragen.
+
+1950 produzierte die Welt zwei Millionen Tonnen Plastik pro Jahr. 2023 waren es vierhundertfünfzig Millionen. Ein Anstieg von mehr als zwanzigtausend Prozent in sieben Jahrzehnten.
+
+## Das BiB und das Angebot, das niemand wählt
+
+Das Bag-in-Box-Format von fünf Litern ist einfach: Wer es kauft und seine tägliche Flasche zu Hause nachfüllt, verbraucht neunundachtzig Prozent weniger Plastik, zahlt weniger pro Liter und erhält exakt dieselbe Formel.
+
+Die Realität ist, dass die meisten Kunden weiterhin das 300-ml-Format wählen. Wir sagen das ohne Vorwurf. Wir beobachten es als Tatsache, die etwas über unsere Zeit sagt.
+
+Der Unterschied zwischen *es kann nicht anders gemacht werden* und *die Entscheidung wurde getroffen, es nicht zu tun* ist im Satz klein. In seinen Konsequenzen ist er enorm.
+
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Warum wir recycelbares PET und BiB statt Glas gewählt haben</a>`,
+
+      it: `Circola in rete un documentario sul Mercedes-Benz W124 che vale la pena guardare, se avete qualche minuto. Non importa se le automobili vi interessano o meno. Quello che racconta non riguarda davvero le auto.
+
+La W124 — la Classe E prodotta da Mercedes tra il 1984 e il 1997 — fu progettata con una filosofia che oggi sembra quasi anacronistica: costruire la migliore automobile possibile, senza limiti di qualità. Gli ingegneri di Stoccarda selezionavano i materiali in base alla loro durata, non al costo. Costruirono tolleranze di fabbricazione così precise che i tecnici interni al marchio iniziarono a usare il termine *over-engineered* per descrivere il risultato. Come se fossero andati troppo oltre nella direzione giusta.
+
+Il risultato fu un veicolo che ancora oggi circola normalmente, decenni dopo la sua produzione. Ci sono W124 con oltre un milione di chilometri. Una W123 — il modello predecessore, costruito con la stessa filosofia — lavorò come taxi alle Isole Canarie per 26 anni e raggiunse 5,6 milioni di chilometri prima di essere ritirata. Il costo al chilometro, calcolato sul prezzo d'acquisto originale, risultò inferiore a un centesimo.
+
+Cosa accadde dopo la W124? I modelli successivi erano notoriamente meno affidabili. Non perché gli ingegneri avessero dimenticato come si costruisce bene. Ma perché l'azienda aveva capito qualcosa che avrebbe cambiato l'intera industria: **un prodotto perfetto si vende solo una volta.**
+
+## La lampadina che non doveva durare
+
+Nel 1924, i principali produttori di lampadine del mondo — Philips, Osram e General Electric — firmarono un accordo privato noto come il Cartello Phoebus. Tra le altre cose, si accordarono per limitare deliberatamente la durata di vita dei loro prodotti a 1.000 ore. La tecnologia per farle durare molto di più esisteva. L'accordo era per non usarla.
+
+Quattro anni dopo, nel 1928, un'influente rivista pubblicitaria americana scriveva senza ironia: *"Un articolo che non si consuma è una tragedia per gli affari."*
+
+Quello che iniziò con le lampadine si estese agli elettrodomestici, all'elettronica, all'abbigliamento, alle automobili. L'obsolescenza programmata passò da strategia segreta a modello standard.
+
+## Quando smettемmo di ricaricare le bottiglie
+
+Fino agli anni 70, gli imballaggi di consumo quotidiano si restituivano. La bottiglia di vetro aveva una cauzione. Il dispenser existed alla drogheria. L'imballaggio vuoto tornava, veniva pulito e riempito di nuovo. Non era un atto di coscienza ambientale — era semplicemente il funzionamento normale delle cose.
+
+La plastica monouso ha cambiato tutto. Meno costosa da produrre, più leggera da trasportare, più comoda per i distributori. Il costo del sistema di reso scomparve dalla catena produttiva e si trasferì, sotto forma di rifiuti, a chi comprava il prodotto.
+
+Nel 1950 il mondo produceva due milioni di tonnellate di plastica all'anno. Nel 2023, quattrocentocinquanta milioni. Un aumento di oltre ventimila per cento in sette decenni. Il quaranta per cento di tutti i prodotti plastici viene gettato entro un mese dalla produzione.
+
+## Il BiB e la proposta che nessuno sceglie
+
+Quando in Natura Esencials abbiamo progettato il formato Bag-in-Box da cinque litri, la logica era semplice: chi compra il formato grande e ricarica la bottiglia quotidiana usa l'ottantanove per cento in meno di plastica, paga meno al litro e ottiene esattamente la stessa formula.
+
+La realtà è che la maggior parte dei clienti continua a scegliere il formato da 300 ml. Lo diciamo senza rimprovero. Lo osserviamo come un dato che dice qualcosa sul momento in cui viviamo.
+
+La differenza tra *non si può fare diversamente* e *è stata presa la decisione di non farlo* è piccola nella frase. Nelle sue conseguenze, è enorme.
+
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Perché abbiamo scelto PET riciclabile e BiB invece del vetro</a>`,
+
+      nl: `Er gaat een documentaire rond op internet over de Mercedes-Benz W124 die de moeite waard is om te bekijken — ook als je je niets aantrekt van auto's. Want wat het vertelt gaat eigenlijk helemaal niet over auto's.
+
+De W124 — de E-Klasse die Mercedes produceerde tussen 1984 en 1997 — werd ontworpen met een filosofie die vandaag bijna anachronistisch aanvoelt: de best mogelijke auto bouwen, zonder kwaliteitslimieten. De ingenieurs in Stuttgart kozen materialen op basis van duurzaamheid, niet van prijs. Ze bouwden fabricagetoleranties zo precies dat de eigen interne technici van het merk het resultaat begonnen te omschrijven als *over-engineered*. Alsof ze te ver waren gegaan in de goede richting.
+
+Het resultaat was een voertuig dat nog steeds normaal rijdt, decennia na de productie. Er zijn W124's met meer dan een miljoen kilometer. Een W123 — het voorlopende model, gebouwd met dezelfde filosofie — werkte 26 jaar als taxi op de Canarische Eilanden en bereikte 5,6 miljoen kilometer. De kosten per kilometer, berekend op de oorspronkelijke aankoopprijs, bleken lager dan een cent.
+
+Wat gebeurde er na de W124? De opvolgende modellen waren notoir minder betrouwbaar. Niet omdat de ingenieurs waren vergeten hoe je goed bouwt. Maar omdat het bedrijf iets had begrepen dat de hele industrie zou veranderen: **een perfect product wordt maar één keer verkocht.**
+
+## De lamp die niet mocht duren
+
+In 1924 sloten de toonaangevende gloeilampenfabrikanten — Philips, Osram en General Electric — een privéakkoord dat bekendstaat als het Phoebus Kartel. Ze kwamen overeen de levensduur van hun producten bewust te beperken tot 1.000 uur. De technologie om ze veel langer te laten meegaan was beschikbaar. Het akkoord was om dat niet te doen.
+
+Wat begon met gloeilampen, breidde zich uit naar huishoudapparaten, elektronica, kleding en auto's. Geplande veroudering ging van geheime strategie naar standaardmodel.
+
+## Toen we stopten met het bijvullen van flessen
+
+Tot ver in de jaren 70 werden consumentenverpakkingen teruggebracht. De glazen fles had een statiegeld. De groothandelsdispenser bestond. De lege verpakking ging terug, werd schoongemaakt en opnieuw gevuld. Het was geen daad van milieubewustzijn — het was gewoon hoe dingen werkten.
+
+Wegwerpplastic heeft dat veranderd. Goedkoper te produceren, lichter te transporteren, gemakkelijker voor distributeurs. De kosten van het retoursysteem verdwenen uit de keten en werden overgedragen aan de consument in de vorm van afval.
+
+In 1950 produceerde de wereld twee miljoen ton plastic per jaar. In 2023 vierhonderdvijftig miljoen. Een stijging van meer dan twintigduizend procent in zeven decennia.
+
+## Het BiB en het aanbod dat niemand kiest
+
+Bij Natura Esencials is het vijfliter Bag-in-Box-formaat eenvoudig: wie het grote formaat koopt en de dagelijkse fles thuis bijvult, gebruikt negenentachtig procent minder plastic, betaalt minder per liter en krijgt exact dezelfde formule.
+
+De realiteit is dat de meeste klanten nog steeds het 300ml-formaat kiezen. We zeggen dit zonder verwijt. We observeren het als een feit dat iets zegt over de tijd waarin we leven.
+
+Het verschil tussen *het kan niet anders* en *de beslissing werd genomen om het niet te doen* is klein op papier. In zijn gevolgen is het enorm.
+
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Waarom wij voor recyclebaar PET en BiB kozen in plaats van glas</a>`,
+
+      pt: `Há um documentário a circular na internet sobre o Mercedes-Benz W124 que vale a pena ver, se tiver uns minutos. Não importa se os carros lhe interessam ou não. O que conta não é realmente sobre automóveis.
+
+O W124 — a Classe E que a Mercedes produziu entre 1984 e 1997 — foi desenhado com uma filosofia que hoje parece quase anacrónica: construir o melhor carro possível, sem limite de qualidade. Os engenheiros de Estugarda selecionaram materiais pela sua durabilidade, não pelo custo. Construíram tolerâncias de fabrico tão precisas que os próprios técnicos internos da marca começaram a usar o termo *over-engineered* para descrever o resultado. Como se tivessem ido longe de mais na direção certa.
+
+O resultado foi um veículo que ainda hoje circula normalmente, décadas depois da sua produção. Há W124 com mais de um milhão de quilómetros. Um W123 — o modelo predecessor, construído com a mesma filosofia — trabalhou como táxi nas Ilhas Canárias durante 26 anos e chegou aos 5,6 milhões de quilómetros antes de ser retirado. O custo por quilómetro, calculado sobre o preço de compra original, revelou-se inferior a um cêntimo.
+
+O que aconteceu depois do W124? Os modelos seguintes eram notoriamente menos fiáveis. Não porque os engenheiros tivessem esquecido como se constrói bem. Mas porque a empresa tinha compreendido algo que iria mudar toda a indústria: **um produto perfeito só se vende uma vez.**
+
+## A lâmpada que não devia durar
+
+Em 1924, os principais fabricantes de lâmpadas — Philips, Osram e General Electric — assinaram um acordo privado conhecido como o Cartel Phoebus. Entre outras coisas, acordaram em limitar deliberadamente a vida útil dos seus produtos a 1.000 horas. A tecnologia para as fazer durar muito mais existia. O acordo era para não o fazer.
+
+Quatro anos depois, em 1928, uma influente revista americana de publicidade publicava sem ironia: *"Um artigo que não se desgasta é uma tragédia para os negócios."*
+
+O que começou com lâmpadas estendeu-se a eletrodomésticos, eletrónica, roupa e automóveis. A obsolescência programada passou de estratégia secreta a modelo padrão.
+
+## Quando deixámos de reabastecer as garrafas
+
+Até ao início dos anos 70, as embalagens de consumo doméstico devolviam-se. A garrafa de vidro tinha uma caução. O dispensador a granel existia na mercearia. A embalagem vazia voltava, era limpa e reutilizada. Não era um ato de consciência ambiental — era simplesmente o funcionamento normal das coisas.
+
+O plástico descartável mudou isso. Mais barato de produzir, mais leve para transportar, mais conveniente para os distribuidores. O custo do sistema de retorno desapareceu da cadeia produtiva e transferiu-se, sob a forma de resíduos, para quem comprava.
+
+Em 1950, o mundo produzia dois milhões de toneladas de plástico por ano. Em 2023, quatrocentos e cinquenta milhões. Um aumento de mais de vinte mil por cento em sete décadas.
+
+## O BiB e a proposta que ninguém escolhe
+
+Na Natura Esencials, o formato Bag-in-Box de cinco litros é simples: quem compra o formato grande e reabastece a embalagem diária em casa usa oitenta e nove por cento menos plástico, paga menos por litro e obtém exatamente a mesma fórmula.
+
+A realidade é que a maioria dos clientes continua a escolher o formato de 300 ml. Dizemo-lo sem reprovação. Observamo-lo como um facto que diz algo sobre o momento em que vivemos.
+
+A diferença entre *não se pode fazer de outra forma* e *a decisão foi tomada de não o fazer* é pequena na frase. Nas suas consequências, é enorme.
+
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Por que escolhemos PET reciclável e BiB em vez de vidro</a>`,
+    },
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────────
   // ARTÍCULO 1 — Tetrabrick (21 mayo 2026)
   // ─────────────────────────────────────────────────────────────────────────────
   {
