@@ -90,7 +90,11 @@ Lo mismo ocurre con casi todo lo que consumimos. El envase desechable no triunf�
 
 La diferencia entre *no se puede hacer de otra manera* y *se decidió no hacerlo* es pequeña en la frase. En sus consecuencias, es enorme.
 
-→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Por qué elegimos PET reciclable y BiB en lugar de vidrio</a>`,
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Por qué elegimos PET reciclable y BiB en lugar de vidrio</a>
+
+Si quieres explorar el formato BiB de cinco litros, lo tienes disponible en nuestra tienda. Si prefieres empezar por los rituales en 300 ml, también están ahí. La elección es tuya — que es exactamente como debería ser.
+
+*Natura Esencials · Cosmética artesanal y cuidado del hogar · Marbella, Andalucía*`,
 
       en: `There is a documentary circulating online about the Mercedes-Benz W124 that is worth watching, if you have a few minutes. It doesn't matter whether you care about cars. What it is really about has nothing to do with automobiles.
 
@@ -144,7 +148,11 @@ The same is true of almost everything we consume. Disposable packaging did not t
 
 The difference between *it cannot be done any other way* and *the decision was made not to do it* is small on paper. In its consequences, it is enormous.
 
-→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Why we chose recyclable PET and BiB over glass</a>`,
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Why we chose recyclable PET and BiB over glass</a>
+
+If you want to explore the five-litre BiB format, it is available in our shop. If you prefer to start with the 300ml rituals, those are there too. The choice is yours — which is exactly as it should be.
+
+*Natura Esencials · Handcrafted natural cosmetics and home care · Marbella, Andalusia*`,
 
       fr: `Il existe un documentaire qui circule sur internet sur la Mercedes-Benz W124 qui vaut la peine d'être vu, si vous avez quelques minutes. Peu importe si les voitures vous intéressent ou non. Ce qu'il raconte ne parle pas vraiment d'automobiles.
 
@@ -178,7 +186,11 @@ La réalité est que la plupart des clients choisissent encore le format 300 ml.
 
 La différence entre *cela ne peut pas se faire autrement* et *la décision a été prise de ne pas le faire* est petite dans la phrase. Dans ses conséquences, elle est énorme.
 
-→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Pourquoi nous avons choisi le PET recyclable et le BiB</a>`,
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Pourquoi nous avons choisi le PET recyclable et le BiB</a>
+
+Si vous souhaitez explorer le format BiB de cinq litres, il est disponible dans notre boutique. Si vous préférez commencer par les rituels en 300 ml, ils sont là aussi. Le choix est vôtre — ce qui est exactement comme il se doit.
+
+*Natura Esencials · Cosmétiques naturels artisanaux et soin de la maison · Marbella, Andalousie*`,
 
       de: `Es gibt einen Dokumentarfilm über den Mercedes-Benz W124, der es wert ist, gesehen zu werden — selbst wenn man sich nicht für Autos interessiert. Was er erzählt, handelt nämlich nicht wirklich von Automobilen.
 
@@ -210,7 +222,11 @@ Die Realität ist, dass die meisten Kunden weiterhin das 300-ml-Format wählen. 
 
 Der Unterschied zwischen *es kann nicht anders gemacht werden* und *die Entscheidung wurde getroffen, es nicht zu tun* ist im Satz klein. In seinen Konsequenzen ist er enorm.
 
-→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Warum wir recycelbares PET und BiB statt Glas gewählt haben</a>`,
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Warum wir recycelbares PET und BiB statt Glas gewählt haben</a>
+
+Wenn Sie das Fünf-Liter-BiB-Format erkunden möchten, finden Sie es in unserem Shop. Wenn Sie lieber mit den 300-ml-Ritualen beginnen möchten, stehen auch diese bereit. Die Wahl liegt bei Ihnen — genau so, wie es sein sollte.
+
+*Natura Esencials · Handgefertigte Naturkosmetik und Hauspflege · Marbella, Andalusien*`,
 
       it: `Circola in rete un documentario sul Mercedes-Benz W124 che vale la pena guardare, se avete qualche minuto. Non importa se le automobili vi interessano o meno. Quello che racconta non riguarda davvero le auto.
 
@@ -244,7 +260,11 @@ La realtà è che la maggior parte dei clienti continua a scegliere il formato d
 
 La differenza tra *non si può fare diversamente* e *è stata presa la decisione di non farlo* è piccola nella frase. Nelle sue conseguenze, è enorme.
 
-→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Perché abbiamo scelto PET riciclabile e BiB invece del vetro</a>`,
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Perché abbiamo scelto PET riciclabile e BiB invece del vetro</a>
+
+Se volete esplorare il formato BiB da cinque litri, è disponibile nel nostro negozio. Se preferite iniziare con i rituali da 300 ml, ci sono anche quelli. La scelta è vostra — che è esattamente come dovrebbe essere.
+
+*Natura Esencials · Cosmetica naturale artigianale e cura della casa · Marbella, Andalusia*`,
 
       nl: `Er gaat een documentaire rond op internet over de Mercedes-Benz W124 die de moeite waard is om te bekijken — ook als je je niets aantrekt van auto's. Want wat het vertelt gaat eigenlijk helemaal niet over auto's.
 
@@ -276,7 +296,11 @@ De realiteit is dat de meeste klanten nog steeds het 300ml-formaat kiezen. We ze
 
 Het verschil tussen *het kan niet anders* en *de beslissing werd genomen om het niet te doen* is klein op papier. In zijn gevolgen is het enorm.
 
-→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Waarom wij voor recyclebaar PET en BiB kozen in plaats van glas</a>`,
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Waarom wij voor recyclebaar PET en BiB kozen in plaats van glas</a>
+
+Als u het vijfliter BiB-formaat wilt verkennen, is het beschikbaar in onze winkel. Als u liever begint met de 300ml-rituelen, zijn die er ook. De keuze is aan u — precies zoals het zou moeten zijn.
+
+*Natura Esencials · Ambachtelijke natuurlijke cosmetica en huisverzorging · Marbella, Andalusië*`,
 
       pt: `Há um documentário a circular na internet sobre o Mercedes-Benz W124 que vale a pena ver, se tiver uns minutos. Não importa se os carros lhe interessam ou não. O que conta não é realmente sobre automóveis.
 
@@ -310,7 +334,11 @@ A realidade é que a maioria dos clientes continua a escolher o formato de 300 m
 
 A diferença entre *não se pode fazer de outra forma* e *a decisão foi tomada de não o fazer* é pequena na frase. Nas suas consequências, é enorme.
 
-→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Por que escolhemos PET reciclável e BiB em vez de vidro</a>`,
+→ <a href="/eu/es/blog/envases-pet-reciclable-bib-vs-vidrio-medio-ambiente">Por que escolhemos PET reciclável e BiB em vez de vidro</a>
+
+Se quiser explorar o formato BiB de cinco litros, está disponível na nossa loja. Se preferir começar pelos rituais de 300 ml, também estão lá. A escolha é sua — que é exatamente como devia ser.
+
+*Natura Esencials · Cosmética natural artesanal e cuidado do lar · Marbella, Andaluzia*`,
     },
   },
 
