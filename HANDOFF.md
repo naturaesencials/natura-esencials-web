@@ -1,7 +1,7 @@
 # 🌿 Natura Esencials — HANDOFF para Claude (Sesión nueva)
 
 > Documento de continuidad para sesiones de trabajo autónomo con Claude.
-> Actualizado: 13/07/2026 — Checkpoint automático 23:55h
+> Actualizado: 14/07/2026 — Checkpoint automático 23:55h
 
 
 
@@ -1151,3 +1151,15 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 - SAC: presentar formulario 1983 → integrar distintivo cuando llegue.
 - (Opcional) update-on-existing en el alta de clientes; enlace "Configurar cookies" en footer.
 - (Opcional) reducir scopes del token Admin (salió con acceso total; bastan read/write_customers).
+
+
+---
+
+### 📅 Checkpoint 14/07/2026
+
+**Actualización automática diaria — 23:55h**
+
+Últimos commits:
+- `9644211` chore: redeploy para tomar RESEND_FROM y SIGNUP_NOTIFY_TO
+- `f301ac5` feat(newsletter): remitente contacto@ + email de notificación interna en cada alta
+- `2162d17` fix(blog): add closing paragraph and brand signature to W124 article in 7 languages
