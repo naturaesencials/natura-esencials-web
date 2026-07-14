@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { subscribeCustomer } from '@/lib/shopify/customers';
-import { sendWelcomeEmail } from '@/lib/resend/welcome';
+import { sendWelcomeEmail, sendSignupNotification } from '@/lib/resend/welcome';
 
 export const runtime = 'edge';
 
@@ -26,7 +26,10 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: false, error: saved.error || 'save_failed' }, { status: 502 });
     }
 
-    // 2) Enviar el email de bienvenida con el código, en el idioma del usuario
+    // 2) Notificar internamente cada alta (best-effort, no bloquea la respuesta)
+    await sendSignupNotification({ email, firstName, lastName, locale, region, source });
+
+    // 3) Enviar el email de bienvenida con el código, en el idioma del usuario
     const sent = await sendWelcomeEmail({ email, locale, region, firstName });
     if (!sent.ok) {
       // El contacto ya quedó guardado; devolvemos error para que el usuario reintente recibir el email.

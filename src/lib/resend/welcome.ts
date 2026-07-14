@@ -4,8 +4,9 @@
 export type SendResult = { ok: boolean; error?: string };
 
 const STORE_URL = 'https://www.naturaesencials.com';
-const DEFAULT_FROM = 'Natura Esencials <hola@naturaesencials.com>';
+const DEFAULT_FROM = 'Natura Esencials <contacto@naturaesencials.com>';
 const REPLY_TO = 'contacto@naturaesencials.com';
+const NOTIFY_TO = process.env.SIGNUP_NOTIFY_TO || 'contacto@naturaesencials.com';
 
 type LocaleKey = 'es' | 'en' | 'fr' | 'de' | 'it' | 'nl' | 'pt';
 
@@ -174,5 +175,57 @@ export async function sendWelcomeEmail(args: {
   } catch (e: any) {
     console.error('[Resend] request failed:', e?.message || e);
     return { ok: false, error: 'resend_request_failed' };
+  }
+}
+
+// Notificación interna a Natura Esencials cada vez que alguien se registra.
+export async function sendSignupNotification(args: {
+  email: string;
+  firstName?: string;
+  lastName?: string;
+  locale?: string;
+  region?: string;
+  source?: string;
+}): Promise<SendResult> {
+  const apiKey = process.env.RESEND_API_KEY;
+  const from = process.env.RESEND_FROM || DEFAULT_FROM;
+  if (!apiKey) return { ok: true }; // sin key no bloquea (dev)
+
+  const name = [args.firstName, args.lastName].filter(Boolean).join(' ') || '—';
+  const rows: Array<[string, string]> = [
+    ['Nombre', name],
+    ['Email', args.email],
+    ['Idioma', args.locale || '—'],
+    ['Región', args.region || '—'],
+    ['Origen', args.source || '—'],
+  ];
+  const html = `<div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#0F2018">
+    <h2 style="font-size:16px;margin:0 0 12px">🌿 Nueva alta en el newsletter</h2>
+    <table cellpadding="6" style="border-collapse:collapse">
+      ${rows.map(([k, v]) => `<tr><td style="color:#5E6B5C;padding-right:12px">${k}</td><td><strong>${v}</strong></td></tr>`).join('')}
+    </table>
+  </div>`;
+
+  try {
+    const res = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        from,
+        to: [NOTIFY_TO],
+        reply_to: args.email, // responder va directo al suscriptor
+        subject: `🌿 Nuevo suscriptor: ${name !== '—' ? name : args.email}`,
+        html,
+      }),
+    });
+    if (!res.ok) {
+      const detail = await res.text().catch(() => '');
+      console.error('[Resend] notification failed:', res.status, detail);
+      return { ok: false, error: 'notify_error' };
+    }
+    return { ok: true };
+  } catch (e: any) {
+    console.error('[Resend] notification request failed:', e?.message || e);
+    return { ok: false, error: 'notify_request_failed' };
   }
 }
