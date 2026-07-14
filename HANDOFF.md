@@ -36,8 +36,20 @@ git clone https://[REDACTED_PAT_ASK_CARLOS]@github.com/naturaesencials/natura-es
 
 ### Shopify (tienda)
 - URL tienda: `https://tienda.naturaesencials.com`
-- Backend: `https://bdchtj-1p.myshopify.com` (no usar en links públicos)
+- Backend EU: `https://bdchtj-1p.myshopify.com` (no usar en links públicos)
+- Backend UK: `https://ughbg0-11.myshopify.com` (shop.naturaesencials.com) — UK YA ACTIVA (no "coming soon")
 - Regla: checkout siempre a `tienda.naturaesencials.com`, nunca al dominio myshopify
+- **Tokens (2 tipos, NO intercambiables):**
+  - Storefront API (lectura productos/precios) = `shpss_...` → `SHOPIFY_EU_STOREFRONT_TOKEN`
+  - Admin API (alta de clientes, scope `write_customers`) = `shpat_...` → `SHOPIFY_EU_ADMIN_TOKEN`
+  - El `shpat_` se saca en Develop apps → app → Configuration → Admin API → activar `write_customers` → Install → API credentials → "Admin API access token" (NO el Storefront de al lado)
+
+### Variables de entorno en Vercel (valores no se guardan aquí)
+- `SHOPIFY_EU_ADMIN_TOKEN` (shpat_, write_customers) — alta de suscriptores como clientes
+- `RESEND_API_KEY` — email transaccional (bienvenida). Dominio verificado: **raíz `naturaesencials.com`** (enviar desde `@naturaesencials.com`, NO desde `@send.`)
+- `RESEND_FROM` (opcional, default `Natura Esencials <hola@naturaesencials.com>`)
+- `WELCOME_DISCOUNT_CODE` (default `0KBYV7ANYCG1`; 10%, reutilizable, 1 vez por cliente)
+- `OMNISEND_API_KEY` — **ABANDONADO** (nunca se configuró; el newsletter ya NO usa Omnisend)
 
 ### Seobility (SEO monitoring)
 - URL: `https://app.seobility.net`
@@ -1098,3 +1110,44 @@ SESIÓN ACTUAL: [describir tarea aquí — incluir PDFs Seobility si es sesión 
 - `57b2bac` feat(blog): add hero image for W124 obsolescence article
 - `f44c6b8` feat(blog): add W124 planned obsolescence article in 7 languages
 - `5257f6c` fix(resend): remitente desde dominio raíz verificado (naturaesencials.com) + quitar debug
+
+---
+
+## 📅 SESIÓN 14/07/2026 — Confianza, newsletter (Shopify+Resend), SPF, UK redirect
+
+### Confianza / cumplimiento (dar seguridad al comprador)
+- **Trusted Shops**: se contrata vía la **app oficial de Shopify** (self-service, evita el upsell del comercial "una cuenta por país"). Mercado EU/EUR, razón social **Natura Esencials Products, S.L.** Arrancar solo EU; UK aparte (mercado separado). El Trustbadge visible hay que integrarlo en el frontend Next.js (headless) con el TSID — pendiente hasta tener cuenta/TSID.
+- **Sistema Arbitral de Consumo (SAC)**: adhesión gratuita, formulario procedimiento **1983** (RD 713/2024), presentación telemática con certificado. Distinto de **HOJ@** (hojas de quejas, ya dado de alta). Marcar: sin limitaciones, en equidad, mediación previa sí, indefinido. Al resolver → distintivo oficial obligatorio en web + condiciones.
+- Datos legales: **Natura Esencials Products, S.L.**, CIF **B22815310**, Calle Maharbal Nº 7, Esc. 7, -1, Pta 11, Marbella (Málaga). Admin. Único: Carlos Saiz Pérez. (Ya figura correcto en el footer de producción.)
+
+### DNS / correo (SPF)
+- Había **2 registros `v=spf1`** en la raíz (error "multiple SPF" en Omnisend). Fusionado en UNO:
+  `v=spf1 include:_spf.google.com include:spf.omnisend.com include:mailgun.org ~all`
+- **Resend** aislado en subdominio `send.naturaesencials.com` (MX + SPF amazonses) + DKIM en `resend._domainkey.naturaesencials.com` (raíz). DNS en **Vercel** (ns1/ns2.vercel-dns.com).
+
+### UK redirect
+- `shop.naturaesencials.com` (tema Shopify UK) debe rebotar a `https://www.naturaesencials.com` con:
+  `{%- unless request.design_mode -%}<script>window.location.replace('https://www.naturaesencials.com');</script>{%- endunless -%}` en `layout/theme.liquid`.
+- El **middleware ya geolocaliza** (`src/middleware.ts`): `x-vercel-ip-country` → región (GB→uk), país→locale con fallback `Accept-Language`, cookie `ne-region/ne-locale` como override. Por eso basta apuntar a la raíz.
+
+### Newsletter / popup del 10% — MIGRADO de Omnisend a Shopify + Resend
+- **Flujo nuevo** (`src/app/api/newsletter/route.ts`): popup/footer → crea **cliente en Shopify** (Admin API `customerCreate`, consentimiento marketing SUBSCRIBED, tags `newsletter`,`popup_welcome`/`home_newsletter`,`lang:xx`,`region:xx`) + **email de bienvenida con el código vía Resend** en el idioma del usuario (7 locales).
+- **Campos**: `firstName` (obligatorio) + `lastName` (opcional) en popup y footer, placeholders en 7 idiomas. Saludo del email personalizado ("Hola {nombre},").
+- Módulos nuevos: `src/lib/shopify/customers.ts`, `src/lib/resend/welcome.ts`.
+- Descargar suscriptores: Shopify Admin → Customers (filtro tag `newsletter` / aceptan marketing) → export CSV nativo.
+- **Bug corregido**: el popup mostraba ✓ aunque fallara (no comprobaba `res.ok`). Ahora refleja loading/success/error real.
+- **Limitación conocida**: si el email YA existe, `customerCreate` da "taken" → se trata como ok SIN actualizar nombre/consentimiento. Mejora pendiente opcional: update-on-existing.
+- Verificación end-to-end OK (creación de cliente con nombre + email en es/en/de/fr/pt). Tests hechos con `delivered@resend.dev` (dirección de test de Resend) y limpiados después.
+
+### Cookies
+- `src/components/layout/CookieBanner.tsx` funciona bien (textos propios, montado en layout). Se oculta con cookie `ne-cookie-consent` (1 año). No hay bug. Mejora RGPD pendiente opcional: enlace "Configurar cookies" en footer para reabrir/retirar consentimiento.
+
+### Notas de flujo
+- **main avanza con checkpoints automáticos** (23:55h) → hacer `git pull --rebase` antes de push o el push se rechaza por fast-forward.
+- Credenciales/tokens: NUNCA en ficheros del repo (GitHub secret scanning bloquea). Poner en Vercel; verificar existencia por el conector, no leer el valor.
+
+### Pendiente tras esta sesión
+- Trusted Shops: alta vía app Shopify + integrar Trustbadge en frontend con TSID.
+- SAC: presentar formulario 1983 → integrar distintivo cuando llegue.
+- (Opcional) update-on-existing en el alta de clientes; enlace "Configurar cookies" en footer.
+- (Opcional) reducir scopes del token Admin (salió con acceso total; bastan read/write_customers).
