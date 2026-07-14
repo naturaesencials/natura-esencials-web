@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
+import { marked } from 'marked';
 import { buildMetadata } from '@/lib/seo/metadata';
 import { buildPath } from '@/lib/i18n/paths';
 import { posts, getPostBySlug } from '@/data/posts';
@@ -101,25 +102,16 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
 
         {/* Cuerpo */}
-        <div className="prose prose-sm max-w-none text-[15px] leading-[1.9] text-ink/85
-          [&_strong]:font-semibold [&_strong]:text-ink
-          [&_p]:mb-5
-          [&_p+p]:mt-0">
-          {body.split('\n\n').map((para, i) => {
-            if (para.startsWith('**') && para.endsWith('**')) {
-              return <p key={i}><strong>{para.slice(2, -2)}</strong></p>;
-            }
-            // Inline bold: **text**
-            const parts = para.split(/\*\*(.*?)\*\*/g);
-            return (
-              <p key={i}>
-                {parts.map((part, j) =>
-                  j % 2 === 1 ? <strong key={j}>{part}</strong> : part
-                )}
-              </p>
-            );
-          })}
-        </div>
+        <div
+          className="prose prose-sm max-w-none text-[15px] leading-[1.9] text-ink/85
+            [&_strong]:font-semibold [&_strong]:text-ink
+            [&_h2]:mt-10 [&_h2]:mb-4 [&_h2]:font-display [&_h2]:text-[clamp(20px,2.4vw,26px)] [&_h2]:tracking-[-0.02em] [&_h2]:text-ink
+            [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:font-display [&_h3]:text-[clamp(17px,2vw,22px)] [&_h3]:text-ink
+            [&_p]:mb-5 [&_ul]:mb-5 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:mb-1.5
+            [&_a]:text-verde [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:opacity-75
+            [&_em]:italic"
+          dangerouslySetInnerHTML={{ __html: marked.parse(body) as string }}
+        />
 
         {/* Artículos relacionados (enlaces internos) */}
         {related.length > 0 && (
