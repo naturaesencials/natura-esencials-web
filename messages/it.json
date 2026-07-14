@@ -142,7 +142,10 @@
     "submit": "Iscriviti",
     "success": "Iscritto. La tua prima lettera è in arrivo.",
     "error": "Iscrizione non riuscita. Riprova.",
-    "invalidEmail": "Inserisci un'email valida"
+    "invalidEmail": "Inserisci un'email valida",
+    "firstName": "Nome",
+    "lastName": "Cognome (facoltativo)",
+    "nameRequired": "Inserisci il tuo nome"
   },
   "popup": {
     "kicker": "Prima volta qui",
@@ -152,7 +155,10 @@
     "submit": "Ricevere",
     "success": "Fatto! Controlla la posta: il tuo codice è in arrivo.",
     "error": "Registrazione non riuscita. Riprova.",
-    "invalidEmail": "Inserisci un'email valida"
+    "invalidEmail": "Inserisci un'email valida",
+    "firstName": "Nome",
+    "lastName": "Cognome (facoltativo)",
+    "nameRequired": "Inserisci il tuo nome"
   },
   "footer": {
     "brandDesc": "Cosmetica artigianale e cura della casa, prodotti a Marbella. Andalusia, Spagna.",

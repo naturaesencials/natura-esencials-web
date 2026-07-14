@@ -142,7 +142,10 @@
     "submit": "Inschrijven",
     "success": "Ingeschreven. Je eerste brief komt eraan.",
     "error": "Inschrijving mislukt. Probeer opnieuw.",
-    "invalidEmail": "Voer een geldig e-mailadres in"
+    "invalidEmail": "Voer een geldig e-mailadres in",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam (optioneel)",
+    "nameRequired": "Voer je voornaam in"
   },
   "popup": {
     "kicker": "Eerste keer hier",
@@ -152,7 +155,10 @@
     "submit": "Ontvangen",
     "success": "Klaar! Check je inbox — je code is onderweg.",
     "error": "Inschrijving mislukt. Probeer opnieuw.",
-    "invalidEmail": "Voer een geldig e-mailadres in"
+    "invalidEmail": "Voer een geldig e-mailadres in",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam (optioneel)",
+    "nameRequired": "Voer je voornaam in"
   },
   "footer": {
     "brandDesc": "Huidverzorging en huisverzorging van natuurlijke oorsprong, gemaakt in Marbella. Andalusië, Spanje.",

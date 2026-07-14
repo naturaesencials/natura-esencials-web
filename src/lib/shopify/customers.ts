@@ -7,7 +7,7 @@ export type SubscribeResult = { ok: boolean; created?: boolean; error?: string }
 
 export async function subscribeCustomer(
   email: string,
-  opts: { locale?: string; region?: string; source?: string } = {},
+  opts: { locale?: string; region?: string; source?: string; firstName?: string; lastName?: string } = {},
 ): Promise<SubscribeResult> {
   const token = process.env.SHOPIFY_EU_ADMIN_TOKEN;
   const domain = process.env.SHOPIFY_EU_DOMAIN || 'bdchtj-1p.myshopify.com';
@@ -35,6 +35,8 @@ export async function subscribeCustomer(
   const variables = {
     input: {
       email,
+      ...(opts.firstName ? { firstName: opts.firstName } : {}),
+      ...(opts.lastName ? { lastName: opts.lastName } : {}),
       ...(opts.locale ? { locale: opts.locale } : {}),
       tags,
       emailMarketingConsent: {

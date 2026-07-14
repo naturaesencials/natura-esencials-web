@@ -142,7 +142,10 @@
     "submit": "Abonnieren",
     "success": "Abonniert. Ihr erster Brief ist unterwegs.",
     "error": "Abonnement nicht möglich. Bitte erneut versuchen.",
-    "invalidEmail": "Bitte gültige E-Mail eingeben"
+    "invalidEmail": "Bitte gültige E-Mail eingeben",
+    "firstName": "Vorname",
+    "lastName": "Nachname (optional)",
+    "nameRequired": "Bitte geben Sie Ihren Vornamen ein"
   },
   "popup": {
     "kicker": "Erstes Mal hier",
@@ -152,7 +155,10 @@
     "submit": "Erhalten",
     "success": "Fertig! Prüfen Sie Ihr Postfach — Ihr Code ist unterwegs.",
     "error": "Anmeldung nicht möglich. Bitte erneut versuchen.",
-    "invalidEmail": "Bitte gültige E-Mail eingeben"
+    "invalidEmail": "Bitte gültige E-Mail eingeben",
+    "firstName": "Vorname",
+    "lastName": "Nachname (optional)",
+    "nameRequired": "Bitte geben Sie Ihren Vornamen ein"
   },
   "footer": {
     "brandDesc": "Handwerkliche Kosmetik und Haushaltspflege, hergestellt in Marbella. Andalusien, Spanien.",

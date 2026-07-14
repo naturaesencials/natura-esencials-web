@@ -9,6 +9,8 @@ export function Popup() {
   const locale = useLocale();
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [message, setMessage] = useState('');
@@ -35,6 +37,11 @@ export function Popup() {
 
   const submit = async (e: FormEvent) => {
     e.preventDefault();
+    if (!firstName.trim()) {
+      setStatus('error');
+      setMessage(t('nameRequired'));
+      return;
+    }
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
       setStatus('error');
       setMessage(t('invalidEmail'));
@@ -45,7 +52,13 @@ export function Popup() {
       const res = await fetch('/api/newsletter', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, locale, source: 'popup_welcome' }),
+        body: JSON.stringify({
+          email,
+          firstName: firstName.trim(),
+          lastName: lastName.trim(),
+          locale,
+          source: 'popup_welcome',
+        }),
       });
       const data = await res.json().catch(() => ({ ok: false }));
       if (res.ok && data.ok) {
@@ -78,9 +91,15 @@ export function Popup() {
           <p className="mt-4 text-sm text-verde" role="status">{message}</p>
         ) : (
           <>
-            <form onSubmit={submit} className="mt-4 flex border-b border-verde">
-              <input type="email" inputMode="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email" className="min-w-0 flex-1 border-0 bg-transparent py-2.5 text-[16px] outline-none" />
-              <button type="submit" disabled={status === 'loading'} className="min-h-touch py-2.5 pl-4 text-[10px] font-medium uppercase tracking-[0.25em] text-verde disabled:opacity-50">{status === 'loading' ? '…' : `${t('submit')} →`}</button>
+            <form onSubmit={submit} className="mt-4 space-y-2.5">
+              <div className="flex gap-2.5">
+                <input type="text" autoComplete="given-name" required value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder={t('firstName')} className="min-w-0 flex-1 border-b border-verde bg-transparent py-2 text-[16px] outline-none" />
+                <input type="text" autoComplete="family-name" value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder={t('lastName')} className="min-w-0 flex-1 border-b border-verde bg-transparent py-2 text-[16px] outline-none" />
+              </div>
+              <div className="flex border-b border-verde">
+                <input type="email" inputMode="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email" className="min-w-0 flex-1 border-0 bg-transparent py-2.5 text-[16px] outline-none" />
+                <button type="submit" disabled={status === 'loading'} className="min-h-touch py-2.5 pl-4 text-[10px] font-medium uppercase tracking-[0.25em] text-verde disabled:opacity-50">{status === 'loading' ? '…' : `${t('submit')} →`}</button>
+              </div>
             </form>
             {status === 'error' && (
               <p className="mt-3 text-sm text-citrico" role="status">{message}</p>

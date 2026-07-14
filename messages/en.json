@@ -142,7 +142,10 @@
     "submit": "Subscribe",
     "success": "Subscribed. Your first letter is on its way.",
     "error": "Could not subscribe. Please try again.",
-    "invalidEmail": "Please enter a valid email"
+    "invalidEmail": "Please enter a valid email",
+    "firstName": "First name",
+    "lastName": "Last name (optional)",
+    "nameRequired": "Please enter your name"
   },
   "popup": {
     "kicker": "First time here",
@@ -152,7 +155,10 @@
     "submit": "Receive",
     "success": "Done! Check your inbox — your code is on its way.",
     "error": "Could not register. Please try again.",
-    "invalidEmail": "Please enter a valid email"
+    "invalidEmail": "Please enter a valid email",
+    "firstName": "First name",
+    "lastName": "Last name (optional)",
+    "nameRequired": "Please enter your name"
   },
   "footer": {
     "brandDesc": "Artisan skincare and home care, handcrafted in Marbella. Andalusia, Spain.",

@@ -142,7 +142,10 @@
     "submit": "Suscribir",
     "success": "Suscrito. Pronto recibirás tu primera carta.",
     "error": "No se ha podido suscribir. Inténtalo de nuevo.",
-    "invalidEmail": "Introduce un correo válido"
+    "invalidEmail": "Introduce un correo válido",
+    "firstName": "Nombre",
+    "lastName": "Apellido (opcional)",
+    "nameRequired": "Introduce tu nombre"
   },
   "popup": {
     "kicker": "Primera vez aquí",
@@ -152,7 +155,10 @@
     "submit": "Recibir",
     "success": "¡Listo! Revisa tu correo: tu código llega enseguida.",
     "error": "No se ha podido registrar. Inténtalo de nuevo.",
-    "invalidEmail": "Introduce un correo válido"
+    "invalidEmail": "Introduce un correo válido",
+    "firstName": "Nombre",
+    "lastName": "Apellido (opcional)",
+    "nameRequired": "Introduce tu nombre"
   },
   "footer": {
     "brandDesc": "Cosmética artesanal y cuidado del hogar, elaborados en Marbella. Andalucía, España.",

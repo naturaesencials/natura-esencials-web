@@ -22,7 +22,7 @@ type Copy = {
 const COPY: Record<LocaleKey, Copy> = {
   es: {
     subject: 'Tu 10 % de bienvenida 🌿',
-    greeting: 'Hola,',
+    greeting: 'Hola',
     intro: 'Gracias por unirte a Natura Esencials. Como bienvenida, aquí tienes un 10 % de descuento en tu primer pedido:',
     codeLabel: 'Tu código',
     apply: 'Introdúcelo en el checkout. Cosmética y cuidado del hogar artesanal, elaborados en Marbella.',
@@ -31,7 +31,7 @@ const COPY: Record<LocaleKey, Copy> = {
   },
   en: {
     subject: 'Your 10% welcome gift 🌿',
-    greeting: 'Hello,',
+    greeting: 'Hello',
     intro: "Thank you for joining Natura Esencials. As a welcome, here's 10% off your first order:",
     codeLabel: 'Your code',
     apply: 'Enter it at checkout. Artisanal skincare and home care, handmade in Marbella.',
@@ -40,7 +40,7 @@ const COPY: Record<LocaleKey, Copy> = {
   },
   fr: {
     subject: 'Votre 10 % de bienvenue 🌿',
-    greeting: 'Bonjour,',
+    greeting: 'Bonjour',
     intro: "Merci d'avoir rejoint Natura Esencials. En guise de bienvenue, voici 10 % de réduction sur votre première commande :",
     codeLabel: 'Votre code',
     apply: 'Saisissez-le au moment du paiement. Cosmétiques et entretien de la maison artisanaux, fabriqués à Marbella.',
@@ -49,7 +49,7 @@ const COPY: Record<LocaleKey, Copy> = {
   },
   de: {
     subject: 'Ihre 10 % Willkommensrabatt 🌿',
-    greeting: 'Hallo,',
+    greeting: 'Hallo',
     intro: 'Danke, dass Sie Natura Esencials beigetreten sind. Als Willkommensgruß erhalten Sie 10 % Rabatt auf Ihre erste Bestellung:',
     codeLabel: 'Ihr Code',
     apply: 'Geben Sie ihn an der Kasse ein. Handwerkliche Kosmetik und Haushaltspflege, hergestellt in Marbella.',
@@ -58,7 +58,7 @@ const COPY: Record<LocaleKey, Copy> = {
   },
   it: {
     subject: 'Il tuo 10 % di benvenuto 🌿',
-    greeting: 'Ciao,',
+    greeting: 'Ciao',
     intro: 'Grazie per esserti unito a Natura Esencials. Come benvenuto, ecco il 10 % di sconto sul tuo primo ordine:',
     codeLabel: 'Il tuo codice',
     apply: 'Inseriscilo al momento del pagamento. Cosmesi e cura della casa artigianali, realizzati a Marbella.',
@@ -67,7 +67,7 @@ const COPY: Record<LocaleKey, Copy> = {
   },
   nl: {
     subject: 'Jouw 10 % welkomstkorting 🌿',
-    greeting: 'Hallo,',
+    greeting: 'Hallo',
     intro: 'Bedankt dat je je hebt aangesloten bij Natura Esencials. Als welkom krijg je 10 % korting op je eerste bestelling:',
     codeLabel: 'Jouw code',
     apply: 'Voer hem in bij het afrekenen. Ambachtelijke cosmetica en huisverzorging, gemaakt in Marbella.',
@@ -76,7 +76,7 @@ const COPY: Record<LocaleKey, Copy> = {
   },
   pt: {
     subject: 'Os teus 10 % de boas-vindas 🌿',
-    greeting: 'Olá,',
+    greeting: 'Olá',
     intro: 'Obrigado por te juntares à Natura Esencials. Como boas-vindas, aqui tens 10 % de desconto na tua primeira encomenda:',
     codeLabel: 'O teu código',
     apply: 'Introdu-lo no checkout. Cosmética e cuidado do lar artesanais, feitos em Marbella.',
@@ -92,7 +92,8 @@ function pickLocale(locale?: string): LocaleKey {
     : 'es';
 }
 
-function renderHtml(c: Copy, code: string, shopHref: string): string {
+function renderHtml(c: Copy, code: string, shopHref: string, firstName?: string): string {
+  const greetingLine = `${c.greeting}${firstName ? ' ' + firstName : ''},`;
   return `<!doctype html><html><body style="margin:0;background:#FAFAF5;font-family:Georgia,'Times New Roman',serif;color:#0F2018">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#FAFAF5">
     <tr><td align="center" style="padding:40px 20px">
@@ -101,7 +102,7 @@ function renderHtml(c: Copy, code: string, shopHref: string): string {
           <p style="margin:0;font-size:12px;letter-spacing:0.25em;text-transform:uppercase;color:#3A6B47">Natura Esencials</p>
         </td></tr>
         <tr><td style="padding:16px 40px 0">
-          <p style="margin:0 0 16px;font-size:16px;line-height:1.6">${c.greeting}</p>
+          <p style="margin:0 0 16px;font-size:16px;line-height:1.6">${greetingLine}</p>
           <p style="margin:0 0 24px;font-size:16px;line-height:1.6">${c.intro}</p>
         </td></tr>
         <tr><td style="padding:0 40px">
@@ -131,6 +132,7 @@ export async function sendWelcomeEmail(args: {
   email: string;
   locale?: string;
   region?: string;
+  firstName?: string;
 }): Promise<SendResult> {
   const apiKey = process.env.RESEND_API_KEY;
   const from = process.env.RESEND_FROM || DEFAULT_FROM;
@@ -159,7 +161,7 @@ export async function sendWelcomeEmail(args: {
         to: [args.email],
         reply_to: REPLY_TO,
         subject: c.subject,
-        html: renderHtml(c, code, shopHref),
+        html: renderHtml(c, code, shopHref, args.firstName),
       }),
     });
 

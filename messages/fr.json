@@ -142,7 +142,10 @@
     "submit": "S'abonner",
     "success": "Abonné. Votre première lettre est en route.",
     "error": "Impossible de s'abonner. Réessayez.",
-    "invalidEmail": "Veuillez entrer un e-mail valide"
+    "invalidEmail": "Veuillez entrer un e-mail valide",
+    "firstName": "Prénom",
+    "lastName": "Nom (facultatif)",
+    "nameRequired": "Veuillez indiquer votre prénom"
   },
   "popup": {
     "kicker": "Première visite",
@@ -152,7 +155,10 @@
     "submit": "Recevoir",
     "success": "C'est fait ! Vérifiez vos e-mails : votre code arrive.",
     "error": "Impossible de vous inscrire. Réessayez.",
-    "invalidEmail": "Veuillez entrer un e-mail valide"
+    "invalidEmail": "Veuillez entrer un e-mail valide",
+    "firstName": "Prénom",
+    "lastName": "Nom (facultatif)",
+    "nameRequired": "Veuillez indiquer votre prénom"
   },
   "footer": {
     "brandDesc": "Cosmétique artisanale et entretien de la maison, fabriqués à Marbella. Andalousie, Espagne.",
